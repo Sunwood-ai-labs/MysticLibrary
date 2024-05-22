@@ -1,10 +1,10 @@
 
 <p align="center">
-<img src="https://huggingface.co/datasets/MakiAi/IconAssets/resolve/main/Gaiah_icon_2.png" width="100%">
+<img src="https://huggingface.co/datasets/MakiAi/IconAssets/resolve/main/MysticLibrary_icon2.png" width="100%">
 <br>
-<h1 align="center">Gaiah Generated Repository</h1>
+<h1 align="center">Mystic Library</h1>
 <h2 align="center">
-  ～Python Git Automation with Innovative Heuristics～
+  ～ Unlock the magic of AI ～
 
 </h2>
 
