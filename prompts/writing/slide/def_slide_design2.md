@@ -1,3 +1,5 @@
+
+<!-- 背景画像の設定 -->
 <style>
 /* Font settings */
 
@@ -24,6 +26,7 @@
   font-family: "Shippori Mincho B1", serif;
 }
 </style>
+
 
 # はじめての reveal.js
 
