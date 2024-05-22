@@ -23,20 +23,65 @@
 
 </p>
 
+Mystic Libraryは、AIを活用したプロンプトのライブラリです。開発者や創作者が、より効率的かつ高品質なプロンプトを作成するためのリソースを提供します。
 
-このリポジトリは、Gaiahというシンプルなリポジトリ管理ツールを使用して自動的に作成されたものです。Gaiahは、人工知能（AI）を活用したコード生成ツールであり、開発者がより効率的にプログラムを作成することを支援します。
+## 特徴
 
-## Gaiahについて
-
-Gaiahは、開発者がコードを生成し、リポジトリを管理するための便利なCLIツールです。以下のような機能を提供しています:
-
-- コマンドライン引数を使用したリポジトリの作成と初期化
-- コミットメッセージファイルからのコミットの自動処理
-- 新しいリポジトリのGitHub上への作成
-- ファイルの変更検知とステージング、コミット、プッシュの自動化
-
-Gaiahは、開発者がコーディングに集中できるように、リポジトリ管理のプロセスを簡素化し、自動化します。
+- 多様なカテゴリのプロンプトテンプレート
+  - 分析、コーディング、マインドマップ、ライティングなど
+- プロンプトエンジニアリングのベストプラクティス
+  - 効果的なプロンプトの書き方のヒントとコツ
+- LLMとの統合
+  - LLMとのシームレスな連携を想定したプロンプトの設計
 
 ## リポジトリの構造
 
-このリポジトリは、Gaiahによって自動的に生成および管理されています。リポジトリの構造は以下のようになっています:
+このリポジトリは、以下のようなディレクトリ構造になっています:
+
+```
+.
+├─ prompts/
+│  ├─ analysis/
+│  ├─ coding/
+│  │  ├─ Checklist_for_Developing_Python_Packages_and_Libraries.md
+│  │  ├─ Requirements_for_High-Quality_Code.md
+│  ├─ mind-mapping/
+│  │  ├─ markdown-for-mindmaps.md
+│  ├─ writing/
+│  │  ├─ articles/
+│  │  ├─ stories/
+├─ README.md
+```
+
+- `prompts/`: プロンプトのテンプレートが格納されています
+  - `analysis/`: 分析関連のプロンプト
+  - `coding/`: コーディング関連のプロンプト
+  - `mind-mapping/`: マインドマップ関連のプロンプト
+  - `writing/`: ライティング関連のプロンプト
+- `README.md`: リポジトリの説明文書
+
+## 利用方法
+
+1. リポジトリをクローンまたはダウンロード
+2. 必要なプロンプトテンプレートを探す
+3. プロンプトをコピーし、LLMに入力
+4. 生成された出力を確認し、必要に応じて調整
+
+プロンプトテンプレートは、そのままの形でも、ユースケースに合わせてカスタマイズしても利用できます。
+
+## コントリビューション
+
+Mystic Libraryは、コミュニティからの貢献を歓迎します。プロンプトテンプレートの追加、既存のプロンプトの改善、ドキュメンテーションの充実化など、あなたのアイデアを実現してください。コントリビューションの詳細については、[CONTRIBUTING.md](CONTRIBUTING.md)を参照してください。
+
+## ライセンス
+
+このプロジェクトは、[MIT License](LICENSE)の下で公開されています。
+
+## 連絡先
+
+- 公式サイト: [https://hamaruki.com/](https://hamaruki.com/)
+- Twitter: [@hAru_mAki_ch](https://twitter.com/hAru_mAki_ch)
+- GitHub: [Sunwood-ai-labs/Gaiah](https://github.com/Sunwood-ai-labs/Gaiah)
+- ブログ: [https://hamaruki.com/how-to-control-git-with-python-example-of-using-the-gaiah-library/](https://hamaruki.com/how-to-control-git-with-python-example-of-using-the-gaiah-library/)
+
+Mystic Libraryで、AIの魔法を解き放ちましょう！
