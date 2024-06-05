@@ -1,0 +1,69 @@
+aira:
+  gaiah:  # 共通設定
+    run: true
+    repo:
+      repo_name: "MysticLibrary"
+      description: "Evolutionary Merge Experiment"
+      private: false
+    local:
+      repo_dir: "C:/Prj/MysticLibrary"
+      no_initial_commit: false
+    commit:
+      commit_msg_path: ".Gaiah.md"
+      branch_name: null
+
+    dev:  # 開発時の設定 (必要に応じて上書き)
+      repo:
+        create_repo: false
+      local:
+        init_repo: false
+      commit:
+        process_commits: true
+
+    init:  # 初期化時の設定 (必要に応じて上書き)
+      repo:
+        create_repo: true
+      local:
+        init_repo: true
+      commit:
+        process_commits: false
+
+  llm:
+    model: "gemini/gemini-1.5-pro-latest"  # 利用するLLMモデル
+
+  repository_summary_output_dir: .aira  # リポジトリ概要の出力ディレクトリ
+  readme_prompt_template_path: .aira/readme_prompt_template.txt  # README生成のプロンプトテンプレートのパス
+  
+  harmon_ai:
+    run: true
+    environment:
+      repo_name: "MysticLibrary"
+      owner_name: "Sunwood-ai-labs"
+      package_name: "MysticLibrary"
+      icon_url: "hhttps://huggingface.co/datasets/MakiAi/IconAssets/resolve/main/MysticLibrary.jpeg"
+      title: "MysticLibrary"
+      subtitle: "～ Evolutionary Merge Experiment ～"
+      website_url: "https://hamaruki.com/"
+      github_url: "https://github.com/Sunwood-ai-labs"
+      twitter_url: "https://x.com/hAru_mAki_ch"
+      blog_url: "https://hamaruki.com/"
+
+    product:
+      important_message_file: "important_template.md"
+      sections_content_file: "sections_template.md"
+      output_file: "README_template.md"
+      cicd_file_path: "publish-to-pypi.yml"
+      cicd_main_path: "publish-to-pypi.yml"
+      github_cicd_dir: ".github/workflows"
+    
+    llm_product:
+      sections_content_file: "sections_template_llm.md"
+
+    development:
+      output_dir: "C:/Prj/MysticLibrary/.harmon_ai"
+
+    main:
+      main_dir: "C:/Prj/MysticLibrary/"
+      replace_readme: true
+
+    instructions_prompt: .aira/instructions.md
