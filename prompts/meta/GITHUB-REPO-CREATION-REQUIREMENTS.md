@@ -47,7 +47,7 @@
 
 ## 5. リポジトリフォーマット
 リポジトリの構造とREADME.mdファイルは、以下のURLを参考にフォーマットしてください：
-https://raw.githubusercontent.com/Sunwood-ai-labs/HarmonAI_II/refs/heads/main/README.md
+@https://raw.githubusercontent.com/Sunwood-ai-labs/HarmonAI_II/refs/heads/main/README.md
 
 主な要素：
 - プロジェクト名
