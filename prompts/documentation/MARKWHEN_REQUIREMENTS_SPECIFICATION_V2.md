@@ -15,7 +15,6 @@ markwhenは、テキストベースのタイムライン作成ツールです。
 例：
 
 ```markwhen
-markwhen
 ---
 title: My Timeline
 ---
@@ -46,7 +45,6 @@ title: Another Timeline
 例：
 
 ```markwhen
-markwhen
 ---
 title: Welcome to Markwhen!
 description: This is an example timeline.
@@ -79,7 +77,6 @@ import:
 例：
 
 ```markwhen
-markwhen
 2023-01-01/2023-12-31: Year 2023
 2023-12-25: Christmas Day
 ```
@@ -124,7 +121,6 @@ markwhen
 ### 5.4 グループとセクションの例
 
 ```markwhen
-markwhen
 section プロジェクトA #ProjectA
 group 企画フェーズ
 2024-01-01/2024-01-31: 要件定義
@@ -155,7 +151,6 @@ endSection
 例：
 
 ```markwhen
-markwhen
 ---
 #meeting:
   reminders:
@@ -177,7 +172,6 @@ markwhen
 例：
 
 ```markwhen
-markwhen
 ---
 timezone: Asia/Tokyo
 #newyork:
@@ -197,7 +191,6 @@ timezone: Asia/Tokyo
 例：
 
 ```markwhen
-markwhen
 // これはコメントです
 2023-07-01 every week for 10 weeks: 毎週のチームミーティング
 
