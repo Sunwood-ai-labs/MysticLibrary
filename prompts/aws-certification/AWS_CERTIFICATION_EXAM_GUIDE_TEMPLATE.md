@@ -118,12 +118,11 @@
 ## アーキテクチャ図
 
 以下の図は問題のシナリオに関連するアーキテクチャを示しています。理解を深めるために参考にしてください。
-カラフルにして視覚的理解しやすいようにしてください
+各ノードはカラフルにして視覚的理解しやすいようにしてください
 
 ```mermaid
 graph TB
     User[User/Client] --> Entrypoint
-
     subgraph Region["AWS Region"]
         Entrypoint[Entry Point]
         
@@ -143,7 +142,6 @@ graph TB
         StorageService[Storage Service]
         ManagementService[Management Service]
     end
-
     Entrypoint --> PublicService
     PublicService --> PrivateService
     PrivateService --> Database
@@ -152,4 +150,16 @@ graph TB
     ManagementService -.-> PrivateService
     ManagementService -.-> Database
     ManagementService -.-> StorageService
-```
+    
+    style User fill:#f9f,stroke:#333,stroke-width:2px
+    style Region fill:#e6f3ff,stroke:#333,stroke-width:2px
+    style VPC fill:#b3d9ff,stroke:#333,stroke-width:2px
+    style AZ fill:#80bfff,stroke:#333,stroke-width:2px
+    style Public fill:#ff9900,stroke:#333,stroke-width:2px
+    style Private fill:#ff6666,stroke:#333,stroke-width:2px
+    style StorageService fill:#ffd700,stroke:#333,stroke-width:2px
+    style Entrypoint fill:#90ee90,stroke:#333,stroke-width:2px
+    style PublicService fill:#66c2ff,stroke:#333,stroke-width:2px
+    style PrivateService fill:#3399ff,stroke:#333,stroke-width:2px
+    style Database fill:#ff6666,stroke:#333,stroke-width:2px
+    style ManagementService fill:#90ee90,stroke:#333,stroke-width:2px```
