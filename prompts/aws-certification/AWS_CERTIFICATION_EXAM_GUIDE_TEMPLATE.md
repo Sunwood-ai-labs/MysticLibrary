@@ -121,23 +121,35 @@
 カラフルにして視覚的理解しやすいようにしてください
 
 ```mermaid
-graph LR
-    subgraph AWS Cloud
-        subgraph Region
-            subgraph VPC
-                subgraph Availability Zone
-                    subgraph Public subnet
-                        CloudFront --> ALB[ALB]
-                        ALB --> EC2[EC2]
-                    end
-                    subgraph Private subnet
-                        EC2 --> RDS[RDS]
-                    end
+graph TB
+    User[User/Client] --> Entrypoint
+
+    subgraph Region["AWS Region"]
+        Entrypoint[Entry Point]
+        
+        subgraph VPC["VPC"]
+            subgraph AZ["Availability Zone"]
+                subgraph Public["Public Subnet"]
+                    PublicService[Public Service]
+                end
+                
+                subgraph Private["Private Subnet"]
+                    PrivateService[Private Service]
+                    Database[(Database)]
                 end
             end
         end
+        
+        StorageService[Storage Service]
+        ManagementService[Management Service]
     end
-    subgraph AWS外部の外部要素
-        User[ユーザー] --> CloudFront
-    end
+
+    Entrypoint --> PublicService
+    PublicService --> PrivateService
+    PrivateService --> Database
+    PrivateService --> StorageService
+    ManagementService -.-> PublicService
+    ManagementService -.-> PrivateService
+    ManagementService -.-> Database
+    ManagementService -.-> StorageService
 ```
