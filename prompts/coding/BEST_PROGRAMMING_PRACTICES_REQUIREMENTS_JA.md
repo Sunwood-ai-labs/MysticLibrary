@@ -4,27 +4,6 @@
 
 ---
 
-## 全体構造
-
-以下の10の原則に従ってコードを作成します。
-
-```mermaid
-graph LR
-    A[コードエクセレンスの道標]
-    A --> B1[1. DRY（Don't Repeat Yourself）]
-    A --> B2[2. 責務の分離（Separation of Concerns）]
-    A --> B3[3. KISS（Keep It Simple, Stupid）]
-    A --> B4[4. 分割統治（Divide and Conquer）]
-    A --> B5[5. 防御的プログラミング（Defensive Programming）]
-    A --> B6[6. YAGNI（You Aren't Gonna Need It）]
-    A --> B7[7. コードの可読性とドキュメンテーション]
-    A --> B8[8. テスト駆動開発（TDD）とユニットテスト]
-    A --> B9[9. バージョン管理とコードレビュー]
-    A --> B10[10. SOLID原則]
-```
-
----
-
 ## 1. DRY（Don't Repeat Yourself）
 
 **要件**:
