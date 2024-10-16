@@ -1,0 +1,27 @@
+aira:
+  gaiah:  # 共通設定
+    run: true
+    repo:
+      repo_name: "AIRA-Sample04"
+      description: ""
+      private: True
+    local:
+      repo_dir: "./"
+      no_initial_commit: false
+    commit:
+      commit_msg_path: ".SourceSageAssets/COMMIT_CRAFT/llm_output.md"
+      branch_name: null
+
+    dev:  # 開発時の設定 (必要に応じて上書き)
+      repo:
+        create_repo: false
+      local:
+        init_repo: false
+      commit:
+        process_commits: true
+
+# aira --mode sourcesage commit  --config=.aira\config.dev.commit.yml --ss-model-name="gemini/gemini-1.5-pro-latest" --llm-output="llm_output.md" --ignore-file=".iris.SourceSageignore"
+# aira --mode sourcesage commit  --config=.aira\config.dev.commit.yml --ss-model-name="gemini/gemini-1.5-flash-002" --llm-output="llm_output.md"
+# aira --mode sourcesage commit  --config=.aira\config.dev.commit.yml --ss-model-name="gemini/gemini-1.5-pro-002" --llm-output="llm_output.md"
+# aira --mode sourcesage commit  --config=.aira\config.dev.commit.yml --ss-model-name="gpt-4o-mini" --llm-output="llm_output.md"
+# sourcesage --ignore-file=".iris.SourceSageignore"
