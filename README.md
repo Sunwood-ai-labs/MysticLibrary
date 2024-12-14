@@ -1,11 +1,9 @@
-
 <p align="center">
 <img src="https://huggingface.co/datasets/MakiAi/IconAssets/resolve/main/MysticLibrary_icon2.png" width="100%">
 <br>
 <h1 align="center">Mystic Library</h1>
 <h2 align="center">
   ～ Unlock the magic of AI ～
-
 </h2>
 
 <p align="center">
@@ -23,65 +21,113 @@
 
 </p>
 
+# 🌟 概要
+
 Mystic Libraryは、AIを活用したプロンプトのライブラリです。開発者や創作者が、より効率的かつ高品質なプロンプトを作成するためのリソースを提供します。
 
-## 特徴
+## ✨ 特徴
 
-- 多様なカテゴリのプロンプトテンプレート
+- 📚 多様なカテゴリのプロンプトテンプレート
   - 分析、コーディング、マインドマップ、ライティングなど
-- プロンプトエンジニアリングのベストプラクティス
+- 🎯 プロンプトエンジニアリングのベストプラクティス
   - 効果的なプロンプトの書き方のヒントとコツ
-- LLMとの統合
+- 🤖 LLMとの統合
   - LLMとのシームレスな連携を想定したプロンプトの設計
 
-## リポジトリの構造
+## 📁 リポジトリの構造
 
-このリポジトリは、以下のようなディレクトリ構造になっています:
-
-```
-.
-├─ prompts/
-│  ├─ analysis/
-│  ├─ coding/
+```plaintext
+MysticLibrary/
+├─ docs/                                   # ドキュメント
+├─ example/                                # 使用例
+│  └─ example_usage.py                     # サンプルコード
+├─ MysticLibrary/                          # メインパッケージ
+│  ├─ core.py                              # コア機能
+│  └─ __init__.py                          # パッケージ初期化
+├─ prompts/                                # プロンプトテンプレート
+│  ├─ audio/                               # 音声関連
+│  │  ├─ amped_enka_lyrics.md
+│  │  └─ comprehensive-improved-rap-prompt.md
+│  ├─ aws-certification/                   # AWS認定関連
+│  │  └─ AWS_CERTIFICATION_EXAM_GUIDE_TEMPLATE.md
+│  ├─ coding/                              # コーディング関連
+│  │  ├─ BEST_PROGRAMMING_PRACTICES_REQUIREMENTS_JA.md
 │  │  ├─ Checklist_for_Developing_Python_Packages_and_Libraries.md
-│  │  ├─ Requirements_for_High-Quality_Code.md
-│  ├─ mind-mapping/
-│  │  ├─ markdown-for-mindmaps.md
-│  ├─ writing/
-│  │  ├─ articles/
-│  │  ├─ stories/
-├─ README.md
+│  │  └─ Requirements_for_High-Quality_Code.md
+│  ├─ Company-as-a-Code/                   # 企業コード化
+│  ├─ diagram/                             # 図表関連
+│  ├─ documentation/                       # ドキュメント関連
+│  ├─ image/                               # 画像生成関連
+│  ├─ meta/                                # メタプロンプト
+│  ├─ methodology/                         # 方法論
+│  ├─ mind-mapping/                        # マインドマップ
+│  └─ writing/                             # ライティング
+│     └─ slide/                            # プレゼン資料
+├─ script/                                 # スクリプト
+│  └─ MysticLibrary-dev.bat               # 開発用スクリプト
+├─ .gitignore                              # Git除外設定
+├─ README.md                               # プロジェクト説明
+└─ setup.py                                # パッケージ設定
 ```
 
-- `prompts/`: プロンプトのテンプレートが格納されています
-  - `analysis/`: 分析関連のプロンプト
-  - `coding/`: コーディング関連のプロンプト
-  - `mind-mapping/`: マインドマップ関連のプロンプト
-  - `writing/`: ライティング関連のプロンプト
-- `README.md`: リポジトリの説明文書
+## 📦 パッケージの構成
 
-## 利用方法
+### 🔧 コアモジュール
+- `MysticLibrary/core.py`: ライブラリのコア機能を提供
+- `MysticLibrary/__init__.py`: パッケージの初期化と公開インターフェース
 
-1. リポジトリをクローンまたはダウンロード
-2. 必要なプロンプトテンプレートを探す
-3. プロンプトをコピーし、LLMに入力
-4. 生成された出力を確認し、必要に応じて調整
+### 📚 プロンプトカテゴリ
+- `prompts/audio/`: 音声・音楽関連のプロンプト
+- `prompts/coding/`: プログラミング関連のプロンプト
+- `prompts/documentation/`: ドキュメント作成用プロンプト
+- `prompts/image/`: 画像生成用プロンプト
+- `prompts/meta/`: メタプロンプトとプロンプト設計
+- `prompts/methodology/`: 方法論とベストプラクティス
+- `prompts/mind-mapping/`: マインドマップ作成用プロンプト
+- `prompts/writing/`: 文章作成用プロンプト
 
-プロンプトテンプレートは、そのままの形でも、ユースケースに合わせてカスタマイズしても利用できます。
+## 🚀 利用方法
 
-## コントリビューション
+1. リポジトリのクローン:
+```bash
+git clone https://github.com/yourusername/MysticLibrary.git
+cd MysticLibrary
+```
 
-Mystic Libraryは、コミュニティからの貢献を歓迎します。プロンプトテンプレートの追加、既存のプロンプトの改善、ドキュメンテーションの充実化など、あなたのアイデアを実現してください。コントリビューションの詳細については、[CONTRIBUTING.md](CONTRIBUTING.md)を参照してください。
+2. パッケージのインストール:
+```bash
+pip install -e .
+```
 
-## ライセンス
+3. プロンプトの使用:
+```python
+from MysticLibrary import core
 
-このプロジェクトは、[MIT License](LICENSE)の下で公開されています。
+# プロンプトの使用例は example/example_usage.py を参照
+```
 
-## 連絡先
+## 🤝 コントリビューション
 
-- 公式サイト: [https://hamaruki.com/](https://hamaruki.com/)
-- Twitter: [@hAru_mAki_ch](https://twitter.com/hAru_mAki_ch)
-- GitHub: [Sunwood-ai-labs/Gaiah](https://github.com/Sunwood-ai-labs/Gaiah)
-- ブログ: [https://hamaruki.com/how-to-control-git-with-python-example-of-using-the-gaiah-library/](https://hamaruki.com/how-to-control-git-with-python-example-of-using-the-gaiah-library/)
+Mystic Libraryは、コミュニティからの貢献を歓迎します：
 
-Mystic Libraryで、AIの魔法を解き放ちましょう！
+1. 新しいプロンプトテンプレートの追加
+2. 既存プロンプトの改善
+3. ドキュメントの充実化
+4. バグ修正や機能改善
+
+コントリビューションの詳細については、[CONTRIBUTING.md](CONTRIBUTING.md)を参照してください。
+
+## 📄 ライセンス
+
+このプロジェクトは[MIT License](LICENSE)の下で公開されています。
+
+## 📞 連絡先
+
+- 🌐 公式サイト: [https://hamaruki.com/](https://hamaruki.com/)
+- 🐦 Twitter: [@hAru_mAki_ch](https://twitter.com/hAru_mAki_ch)
+- 🐱 GitHub: [Sunwood-ai-labs/Gaiah](https://github.com/Sunwood-ai-labs/Gaiah)
+- 📝 ブログ: [Official Blog](https://hamaruki.com/how-to-control-git-with-python-example-of-using-the-gaiah-library/)
+
+---
+
+<p align="center">✨ Mystic Libraryで、AIの魔法を解き放ちましょう！ ✨</p>
