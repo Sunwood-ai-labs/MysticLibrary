@@ -31,3 +31,6 @@ gaiah_demo
 __README.md
 .Gaiah.md
 .SourceSageAssets
+
+venv
+.venv
