@@ -23,23 +23,23 @@
 
 Mystic Libraryは、プロンプトエンジニアリングのための包括的なリソースライブラリです。AIと人間の創造性を最大限に引き出すための、多様で洗練されたプロンプトテンプレートとツールを提供します。
 
-## ✨ 主な特徴
+## 🌈 主な特徴
 
-### 📚 豊富なプロンプトカテゴリ
-- 🎵 音声・音楽プロンプト
-- 💻 コーディングとプログラミング
-- 📄 ドキュメンテーション
-- 🖼️ 画像生成
-- 🧠 メタプロンプトと方法論
-- 🗺️ マインドマッピング
-- ✍️ ライティングとスライド作成
+### 📚 プロンプトカテゴリ
+- 音声・音楽
+- コーディングとプログラミング
+- ドキュメンテーション
+- 画像生成
+- メタプロンプトと方法論
+- マインドマッピング
+- ライティングとスライド作成
 
-### 🛠️ 主な機能
-- 多様なカテゴリのプロンプトテンプレート
+### 🛠️ 機能
+- 多様なプロンプトテンプレート
 - プロンプトエンジニアリングのベストプラクティス
-- LLM（大規模言語モデル）との高度な統合
+- LLMとの高度な統合
 
-## 📂 リポジトリ構造
+## 🗂️ リポジトリ構造
 
 ```plaintext
 MysticLibrary/
@@ -48,10 +48,10 @@ MysticLibrary/
 │  ├─ core.py              # コア機能
 │  └─ __init__.py          # パッケージ初期化
 ├─ prompts/                # プロンプトテンプレート
-│  ├─ audio/               # 音声関連プロンプト
-│  ├─ coding/              # コーディング関連プロンプト
+│  ├─ audio/               # 音声関連
+│  ├─ coding/              # コーディング関連
 │  ├─ aws-certification/   # AWS認定関連
-│  ├─ Company-as-a-Code/   # 企業コード化プロンプト
+│  ├─ Company-as-a-Code/   # 企業コード化
 │  ├─ documentation/       # ドキュメンテーション
 │  ├─ image/               # 画像生成
 │  ├─ meta/                # メタプロンプト
@@ -63,41 +63,21 @@ MysticLibrary/
 └─ setup.py                # パッケージ設定
 ```
 
-## 🚀 代表的なプロンプト集
+## 🌟 代表的なプロンプト
 
-### 🎵 音声・音楽プロンプト
-- [🎤 エンカ歌詞強化プロンプト](/prompts/audio/amped_enka_lyrics.md)
-- [🎼 ラップ作詞プロンプト](/prompts/audio/comprehensive-improved-rap-prompt.md)
+### 🎵 音声・音楽
+- [エンカ歌詞強化プロンプト](/prompts/audio/amped_enka_lyrics.md)
+- [ラップ作詞プロンプト](/prompts/audio/comprehensive-improved-rap-prompt.md)
 
-### 💻 コーディング関連プロンプト
-- [🏆 高品質コードのベストプラクティス](/prompts/coding/BEST_PROGRAMMING_PRACTICES_REQUIREMENTS_JA.md)
-- [📦 Pythonパッケージ開発チェックリスト](/prompts/coding/Checklist_for_Developing_Python_Packages_and_Libraries.md)
-- [🧠 コード品質要件](/prompts/coding/Requirements_for_High-Quality_Code.md)
+### 💻 コーディング
+- [高品質コードのベストプラクティス](/prompts/coding/BEST_PROGRAMMING_PRACTICES_REQUIREMENTS_JA.md)
+- [Pythonパッケージ開発チェックリスト](/prompts/coding/Checklist_for_Developing_Python_Packages_and_Libraries.md)
 
-### 📄 ドキュメンテーションプロンプト
-- [🎨 グラフィックレコーディングスタイル（v1）](/prompts/documentation/Graphic-recording-style-infographic-v1.md)
-- [🎨 グラフィックレコーディングスタイル（v2）](/prompts/documentation/Graphic-recording-style-infographic-v2.md)
+### 📄 ドキュメンテーション
+- [グラフィックレコーディングスタイル](/prompts/documentation/Graphic-recording-style-infographic-v2.md)
 
-### 🖼️ 画像生成プロンプト
-- [🔢 プライムアート画像生成コンセプト](/prompts/image/PRIME-NUMBER-THEORY-IMAGE-GENERATION-AI-CONCEPT.md)
-
-### 🧠 メタプロンプトと方法論
-- [🌐 OpenAI メタプロンプト（日本語）](/prompts/meta/openai_meta_prompt/openai_meta_prompt_JP.md)
-- [🌐 OpenAI メタプロンプト（英語）](/prompts/meta/openai_meta_prompt/openai_meta_prompt_EN.md)
-
-### 🗺️ マインドマッピング
-- [📝 Markdownマインドマップガイド](/prompts/mind-mapping/markdown-for-mindmaps.md)
-
-### ✍️ ライティングとスライド
-- [📊 スライドデザインテンプレート](/prompts/writing/slide/def_slide_design2.md)
-
-### 🏢 企業コード化
-- [🏢 Phidataプロンプトテンプレート](/prompts/Company-as-a-Code/Phidata-Prompt-Template.md)
-
-### 🌐 クラウド関連
-- [☁️ AWS認定試験ガイドテンプレート](/prompts/aws-certification/AWS_CERTIFICATION_EXAM_GUIDE_TEMPLATE.md)
-
-*注意: これらはサンプルプロンプトです。より多くのプロンプトは `prompts/` ディレクトリをご覧ください。*
+### 🧠 メタプロンプト
+- [OpenAI メタプロンプト（日本語）](/prompts/meta/openai_meta_prompt/openai_meta_prompt_JP.md)
 
 ## 🤝 コントリビューション
 
@@ -107,8 +87,6 @@ Mystic Libraryは、コミュニティからの貢献を歓迎します：
 - 既存プロンプトの改善
 - ドキュメンテーションの充実
 - バグ修正や機能拡張
-
-詳細は `CONTRIBUTING.md` を参照してください。
 
 ## 📊 プロジェクト統計
 
