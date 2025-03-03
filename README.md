@@ -59,22 +59,41 @@ MysticLibrary/
 └─ setup.py                # パッケージ設定
 ```
 
-## 🚀 クイックスタート
+## 🚀 代表的なプロンプト集
 
-### インストール
-```bash
-git clone https://github.com/Sunwood-ai-labs/MysticLibrary.git
-cd MysticLibrary
-pip install -e .
-```
+### 🎵 音声・音楽プロンプト
+- [🎤 エンカ歌詞強化プロンプト](/prompts/audio/amped_enka_lyrics.md)
+- [🎼 ラップ作詞プロンプト](/prompts/audio/comprehensive-improved-rap-prompt.md)
 
-### 使用例
-```python
-from MysticLibrary import core
+### 💻 コーディング関連プロンプト
+- [🏆 高品質コードのベストプラクティス](/prompts/coding/BEST_PROGRAMMING_PRACTICES_REQUIREMENTS_JA.md)
+- [📦 Pythonパッケージ開発チェックリスト](/prompts/coding/Checklist_for_Developing_Python_Packages_and_Libraries.md)
+- [🧠 コード品質要件](/prompts/coding/Requirements_for_High-Quality_Code.md)
 
-# プロンプトテンプレートの使用例
-# 詳細は example/ ディレクトリのサンプルコードを参照
-```
+### 📄 ドキュメンテーションプロンプト
+- [🎨 グラフィックレコーディングスタイル（v1）](/prompts/documentation/Graphic-recording-style-infographic-v1.md)
+- [🎨 グラフィックレコーディングスタイル（v2）](/prompts/documentation/Graphic-recording-style-infographic-v2.md)
+
+### 🖼️ 画像生成プロンプト
+- [🔢 プライムアート画像生成コンセプト](/prompts/image/PRIME-NUMBER-THEORY-IMAGE-GENERATION-AI-CONCEPT.md)
+
+### 🧠 メタプロンプトと方法論
+- [🌐 OpenAI メタプロンプト（日本語）](/prompts/meta/openai_meta_prompt/openai_meta_prompt_JP.md)
+- [🌐 OpenAI メタプロンプト（英語）](/prompts/meta/openai_meta_prompt/openai_meta_prompt_EN.md)
+
+### 🗺️ マインドマッピング
+- [📝 Markdownマインドマップガイド](/prompts/mind-mapping/markdown-for-mindmaps.md)
+
+### ✍️ ライティングとスライド
+- [📊 スライドデザインテンプレート](/prompts/writing/slide/def_slide_design2.md)
+
+### 🏢 企業コード化
+- [🏢 Phidataプロンプトテンプレート](/prompts/Company-as-a-Code/Phidata-Prompt-Template.md)
+
+### 🌐 クラウド関連
+- [☁️ AWS認定試験ガイドテンプレート](/prompts/aws-certification/AWS_CERTIFICATION_EXAM_GUIDE_TEMPLATE.md)
+
+*注意: これらはサンプルプロンプトです。より多くのプロンプトは `prompts/` ディレクトリをご覧ください。*
 
 ## 🤝 コントリビューション
 
