@@ -3,131 +3,104 @@
 <br>
 <h1 align="center">Mystic Library</h1>
 <h2 align="center">
-  ～ Unlock the magic of AI ～
+  ～ プロンプトエンジニアリングの魔法の世界へ ～
 </h2>
 
 <p align="center">
-  <a href="https://hamaruki.com/"><b>[🌐 Website]</b></a> •
-  <!-- <a href="https://arxiv.org/abs/2309.17452"><b>[📜 Paper]</b></a> • -->
-  <!-- <a href="https://huggingface.co/llm-agents"><b>[🤗 HF Models]</b></a> • -->
+  <a href="https://hamaruki.com/"><b>[🌐 Website]</b></a>
   <a href="https://github.com/Sunwood-ai-labs/Gaiah"><b>[🐱 GitHub]</b></a>
-  <!-- <a href="https://9557c5365a6f44dc84.gradio.live"><b>[🐯 Gradio Demo]</b></a> -->
-  <a href="https://twitter.com/hAru_mAki_ch"><b>[🐦 Twitter]</b></a> •
-  <!-- <a href="https://www.reddit.com/r/LocalLLaMA/comments/1703k6d/tora_a_toolintegrated_reasoning_agent_for/"><b>[💬 Reddit]</b></a> • -->
+  <a href="https://twitter.com/hAru_mAki_ch"><b>[🐦 Twitter]</b></a>
   <a href="https://hamaruki.com/how-to-control-git-with-python-example-of-using-the-gaiah-library/">[🍀 Official Blog]</a>
-  <!-- <a href="#-quick-start">Quick Start</a> • -->
-  <!-- <a href="#%EF%B8%8F-citation">Citation</a> -->
 </p>
 
 </p>
 
-# 🌟 概要
+# 🌟 プロジェクト概要
 
-Mystic Libraryは、AIを活用したプロンプトのライブラリです。開発者や創作者が、より効率的かつ高品質なプロンプトを作成するためのリソースを提供します。
+Mystic Libraryは、プロンプトエンジニアリングのための包括的なリソースライブラリです。AIと人間の創造性を最大限に引き出すための、多様で洗練されたプロンプトテンプレートとツールを提供します。
 
-## ✨ 特徴
+## 🌈 主な特徴
 
-- 📚 多様なカテゴリのプロンプトテンプレート
-  - 分析、コーディング、マインドマップ、ライティングなど
-- 🎯 プロンプトエンジニアリングのベストプラクティス
-  - 効果的なプロンプトの書き方のヒントとコツ
-- 🤖 LLMとの統合
-  - LLMとのシームレスな連携を想定したプロンプトの設計
+### 📚 プロンプトカテゴリ
+- 音声・音楽
+- コーディングとプログラミング
+- ドキュメンテーション
+- 画像生成
+- メタプロンプトと方法論
+- マインドマッピング
+- ライティングとスライド作成
 
-## 📁 リポジトリの構造
+### 🛠️ 機能
+- 多様なプロンプトテンプレート
+- プロンプトエンジニアリングのベストプラクティス
+- LLMとの高度な統合
+
+## 🗂️ リポジトリ構造
 
 ```plaintext
 MysticLibrary/
-├─ docs/                                   # ドキュメント
-├─ example/                                # 使用例
-│  └─ example_usage.py                     # サンプルコード
-├─ MysticLibrary/                          # メインパッケージ
-│  ├─ core.py                              # コア機能
-│  └─ __init__.py                          # パッケージ初期化
-├─ prompts/                                # プロンプトテンプレート
-│  ├─ audio/                               # 音声関連
-│  │  ├─ amped_enka_lyrics.md
-│  │  └─ comprehensive-improved-rap-prompt.md
-│  ├─ aws-certification/                   # AWS認定関連
-│  │  └─ AWS_CERTIFICATION_EXAM_GUIDE_TEMPLATE.md
-│  ├─ coding/                              # コーディング関連
-│  │  ├─ BEST_PROGRAMMING_PRACTICES_REQUIREMENTS_JA.md
-│  │  ├─ Checklist_for_Developing_Python_Packages_and_Libraries.md
-│  │  └─ Requirements_for_High-Quality_Code.md
-│  ├─ Company-as-a-Code/                   # 企業コード化
-│  ├─ diagram/                             # 図表関連
-│  ├─ documentation/                       # ドキュメント関連
-│  ├─ image/                               # 画像生成関連
-│  ├─ meta/                                # メタプロンプト
-│  ├─ methodology/                         # 方法論
-│  ├─ mind-mapping/                        # マインドマップ
-│  └─ writing/                             # ライティング
-│     └─ slide/                            # プレゼン資料
-├─ script/                                 # スクリプト
-│  └─ MysticLibrary-dev.bat               # 開発用スクリプト
-├─ .gitignore                              # Git除外設定
-├─ README.md                               # プロジェクト説明
-└─ setup.py                                # パッケージ設定
+├─ docs/                   # 詳細なドキュメンテーション
+├─ MysticLibrary/          # メインパッケージ
+│  ├─ core.py              # コア機能
+│  └─ __init__.py          # パッケージ初期化
+├─ prompts/                # プロンプトテンプレート
+│  ├─ audio/               # 音声関連
+│  ├─ coding/              # コーディング関連
+│  ├─ aws-certification/   # AWS認定関連
+│  ├─ Company-as-a-Code/   # 企業コード化
+│  ├─ documentation/       # ドキュメンテーション
+│  ├─ image/               # 画像生成
+│  ├─ meta/                # メタプロンプト
+│  ├─ methodology/         # 方法論
+│  ├─ mind-mapping/        # マインドマップ
+│  └─ writing/             # ライティング
+├─ script/                 # 開発支援スクリプト
+├─ README.md               # プロジェクト説明
+└─ setup.py                # パッケージ設定
 ```
 
-## 📦 パッケージの構成
+## 🌟 代表的なプロンプト
 
-### 🔧 コアモジュール
-- `MysticLibrary/core.py`: ライブラリのコア機能を提供
-- `MysticLibrary/__init__.py`: パッケージの初期化と公開インターフェース
+### 🎵 音声・音楽
+- [エンカ歌詞強化プロンプト](/prompts/audio/amped_enka_lyrics.md)
+- [ラップ作詞プロンプト](/prompts/audio/comprehensive-improved-rap-prompt.md)
 
-### 📚 プロンプトカテゴリ
-- `prompts/audio/`: 音声・音楽関連のプロンプト
-- `prompts/coding/`: プログラミング関連のプロンプト
-- `prompts/documentation/`: ドキュメント作成用プロンプト
-- `prompts/image/`: 画像生成用プロンプト
-- `prompts/meta/`: メタプロンプトとプロンプト設計
-- `prompts/methodology/`: 方法論とベストプラクティス
-- `prompts/mind-mapping/`: マインドマップ作成用プロンプト
-- `prompts/writing/`: 文章作成用プロンプト
+### 💻 コーディング
+- [高品質コードのベストプラクティス](/prompts/coding/BEST_PROGRAMMING_PRACTICES_REQUIREMENTS_JA.md)
+- [Pythonパッケージ開発チェックリスト](/prompts/coding/Checklist_for_Developing_Python_Packages_and_Libraries.md)
 
-## 🚀 利用方法
+### 📄 ドキュメンテーション
+- [グラフィックレコーディングスタイル](/prompts/documentation/Graphic-recording-style-infographic-v2.md)
 
-1. リポジトリのクローン:
-```bash
-git clone https://github.com/yourusername/MysticLibrary.git
-cd MysticLibrary
-```
-
-2. パッケージのインストール:
-```bash
-pip install -e .
-```
-
-3. プロンプトの使用:
-```python
-from MysticLibrary import core
-
-# プロンプトの使用例は example/example_usage.py を参照
-```
+### 🧠 メタプロンプト
+- [OpenAI メタプロンプト（日本語）](/prompts/meta/openai_meta_prompt/openai_meta_prompt_JP.md)
 
 ## 🤝 コントリビューション
 
 Mystic Libraryは、コミュニティからの貢献を歓迎します：
 
-1. 新しいプロンプトテンプレートの追加
-2. 既存プロンプトの改善
-3. ドキュメントの充実化
-4. バグ修正や機能改善
+- 新しいプロンプトテンプレートの追加
+- 既存プロンプトの改善
+- ドキュメンテーションの充実
+- バグ修正や機能拡張
 
-コントリビューションの詳細については、[CONTRIBUTING.md](CONTRIBUTING.md)を参照してください。
+## 📊 プロジェクト統計
+
+- 🗂️ 総ディレクトリ数: 20
+- 📄 総ファイル数: 51
+- 📅 作成日: 2025-03-03
+- 🏷️ 最新バージョン: v0.7.0
 
 ## 📄 ライセンス
 
-このプロジェクトは[MIT License](LICENSE)の下で公開されています。
+このプロジェクトは [MIT License](LICENSE) の下で公開されています。
 
 ## 📞 連絡先
 
 - 🌐 公式サイト: [https://hamaruki.com/](https://hamaruki.com/)
 - 🐦 Twitter: [@hAru_mAki_ch](https://twitter.com/hAru_mAki_ch)
-- 🐱 GitHub: [Sunwood-ai-labs/Gaiah](https://github.com/Sunwood-ai-labs/Gaiah)
-- 📝 ブログ: [Official Blog](https://hamaruki.com/how-to-control-git-with-python-example-of-using-the-gaiah-library/)
+- 🐱 GitHub: [Sunwood-ai-labs/MysticLibrary](https://github.com/Sunwood-ai-labs/MysticLibrary)
 
 ---
 
-<p align="center">✨ Mystic Libraryで、AIの魔法を解き放ちましょう！ ✨</p>
+<p align="center">✨ プロンプトの魔法で、AIの可能性を解き放とう！ ✨</p>
