@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Key, Plus, Trash2 } from 'lucide-react';
 import { generateApiKey, revokeApiKey, listApiKeys } from '../../lib/api';
 
@@ -27,6 +27,11 @@ export function ApiKeys() {
       setError('APIキーの取得に失敗しました');
     }
   };
+
+  useEffect(() => {
+    fetchApiKeys();
+  }, []);
+
 
   const handleCreateKey = async (e: React.FormEvent) => {
     e.preventDefault();
