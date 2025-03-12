@@ -1,36 +1,55 @@
-.git
-__pycache__
-LICENSE
-output.md
-assets
-Style-Bert-VITS2
-output
-streamlit
-SourceSage.md
-data
+# バージョン管理システム関連
+.git/
 .gitignore
-.SourceSageignore
-*.png
-Changelog
-SourceSageAssets
-SourceSageAssetsDemo
-__pycache__
-.pyc
-**/__pycache__/**
-modules\__pycache__
-.svg
-sourcesage.egg-info
-.pytest_cache
-dist
-build
-prothiel.egg-info
-example
-test_output
-folder
-gaiah_demo
-__README.md
-.Gaiah.md
-.SourceSageAssets
 
+# キャッシュファイル
+__pycache__/
+.pytest_cache/
+**/__pycache__/**
+*.pyc
+
+# ビルド・配布関連
+build/
+dist/
+*.egg-info/
+
+# 一時ファイル・出力
+output/
+output.md
+test_output/
+.SourceSageAssets/
+.SourceSageAssetsDemo/
+
+# アセット
+*.png
+*.svg
+*.jpg
+*.jepg
+assets/
+
+# その他
+LICENSE
+example/
+package-lock.json
+.DS_Store
+
+# 特定のディレクトリを除外
+tests/temp/
+docs/drafts/
+
+# パターンの例外（除外対象から除外）
+!docs/important.md
+!.github/workflows/
+repository_summary.md
+
+# Terraform関連
+.terraform
+*.terraform.lock.hcl
+*.backup
+*.tfstate
+
+# Python仮想環境
 venv
 .venv
+
+supabase/
