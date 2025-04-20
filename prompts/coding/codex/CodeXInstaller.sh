@@ -1,5 +1,6 @@
 #!/bin/bash
-# カラフルなインストールスクリプト
+# Codex セットアップスクリプト
+# Ubuntu/WSLに開発環境をセットアップするためのカラフルなインストーラー
 
 # カラー設定
 RED='\033[0;31m'
@@ -10,7 +11,7 @@ MAGENTA='\033[0;35m'
 CYAN='\033[0;36m'
 NC='\033[0m' # No Color
 
-echo -e "${BLUE}WSLセットアップスクリプトを開始します${NC}"
+echo -e "${BLUE}Codex セットアップスクリプトを開始します${NC}"
 echo -e "${YELLOW}===========================================${NC}"
 
 # システムアップデート
@@ -45,6 +46,13 @@ NPM_VERSION=$(npm --version)
 echo -e "${GREEN}Node.js ${NODE_VERSION} インストール完了!${NC}"
 echo -e "${GREEN}npm ${NPM_VERSION} インストール完了!${NC}"
 
+# @openai/codexとopen-codexをインストール
+echo -e "${CYAN}Codex関連パッケージをグローバルにインストールしています...${NC}"
+npm install -g @openai/codex
+npm install -g open-codex
+echo -e "${GREEN}@openai/codex インストール完了!${NC}"
+echo -e "${GREEN}open-codex インストール完了!${NC}"
+
 # GitHub CLI (gh)のインストール - 修正版
 echo -e "${CYAN}GitHub CLIをインストールしています...${NC}"
 # 古い方法ではなく、公式の新しい方法を使用
@@ -78,10 +86,12 @@ echo -e "${GREEN}Python バージョン: $(python3 --version)${NC}"
 echo -e "${GREEN}pip バージョン: $(pip3 --version | awk '{print $2}')${NC}"
 echo -e "${GREEN}Node バージョン: ${NODE_VERSION}${NC}"
 echo -e "${GREEN}npm バージョン: ${NPM_VERSION}${NC}"
+echo -e "${GREEN}@openai/codex: $(npm list -g @openai/codex | grep @openai/codex || echo 'インストール済み')${NC}"
+echo -e "${GREEN}open-codex: $(npm list -g open-codex | grep open-codex || echo 'インストール済み')${NC}"
 echo -e "${GREEN}GitHub CLI バージョン: $(gh --version | head -n 1)${NC}"
 echo -e "${GREEN}nmon: $(which nmon)${NC}"
 echo -e "${GREEN}uv: $(which uv 2>/dev/null || echo 'インストール後に新しいターミナルで利用可能になります')${NC}"
 
-echo -e "${MAGENTA}セットアップが完了しました!${NC}"
+echo -e "${MAGENTA}Codex セットアップが完了しました!${NC}"
 echo -e "${CYAN}新しいターミナルを開くか、以下のコマンドを実行して変更を適用してください:${NC}"
 echo -e "${YELLOW}source ~/.bashrc${NC}"
