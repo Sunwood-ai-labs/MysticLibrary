@@ -44,6 +44,9 @@ export type Prompt = {
   is_published: boolean;
   created_at?: string;
   updated_at?: string;
+  icon_name?: string;
+  gradient_from?: string;
+  gradient_to?: string;
   category?: Category;
   user?: Profile;
   tags?: Tag[];

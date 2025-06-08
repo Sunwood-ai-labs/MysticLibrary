@@ -85,7 +85,9 @@ body {
   position: relative;
   padding: 0 2px;
   background: linear-gradient(to bottom, transparent 60%, rgba(191, 128, 122, 0.3) 40%);
-  display: inline-flex;
+  display: inline;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
   align-items: center;
 }
 
