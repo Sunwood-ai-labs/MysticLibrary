@@ -154,8 +154,8 @@ export function PromptDetail() {
 
   if (!prompt) return null;
 
-  const IconComponent = Icons[prompt.icon_name as keyof typeof Icons] || Icons.Wand;
-  const EditIconComponent = Icons[editedIconName as keyof typeof Icons] || Icons.Wand;
+  const IconComponent = (Icons[prompt.icon_name as keyof typeof Icons] as React.ElementType) || Icons.Wand;
+  const EditIconComponent = (Icons[editedIconName as keyof typeof Icons] as React.ElementType) || Icons.Wand;
 
   return (
     <div className="max-w-4xl mx-auto space-y-8">
@@ -183,7 +183,7 @@ export function PromptDetail() {
                 <label className="block text-sm font-medium text-primary-dark font-zen">
                   アイコン
                 </label>
-                <IconPicker value={editedIconName} onChange={setEditedIconName} isEdit={true} />
+                <IconPicker value={editedIconName} onChange={setEditedIconName} />
               </div>
               <div className="space-y-4">
                 <ColorPicker
@@ -318,14 +318,19 @@ export function PromptDetail() {
 
             <div className="flex flex-wrap gap-2">
               {prompt.category && (
-                <span className="px-3 py-1 rounded-full text-sm font-zen bg-primary bg-opacity-10 text-primary">
+                <span
+                  className="inline-flex items-center px-3 py-1 rounded-full shadow bg-gradient-to-r text-white text-xs font-bold transition-opacity hover:opacity-90"
+                  style={{
+                    background: `linear-gradient(to right, ${prompt.gradient_from || '#2E578C'}, ${prompt.gradient_to || '#BF807A'})`
+                  }}
+                >
                   {prompt.category.name}
                 </span>
               )}
               {prompt.tags && prompt.tags.map((tag) => (
                 <span
                   key={tag.id}
-                  className="px-3 py-1 rounded-full text-sm font-zen bg-accent bg-opacity-10 text-accent"
+                  className="inline-flex items-center px-3 py-1 rounded-full shadow bg-gradient-to-r from-accent to-primary text-white text-xs font-bold transition-opacity hover:opacity-90"
                 >
                   {tag.name}
                 </span>
