@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { Heart } from 'lucide-react';
-import { supabase } from '../lib/supabase';
 
 type LikeButtonProps = {
   promptId: string;
@@ -14,84 +13,21 @@ export function LikeButton({ promptId, initialLikes, size = 'md' }: LikeButtonPr
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    async function checkLikeStatus() {
-      try {
-        const { data: { user } } = await supabase.auth.getUser();
-        if (!user) {
-          setLoading(false);
-          return;
-        }
-
-        const { data: likes } = await supabase
-          .from('likes')
-          .select('prompt_id')
-          .eq('user_id', user.id)
-          .eq('prompt_id', promptId)
-          .maybeSingle();
-
-        setIsLiked(!!likes);
-      } catch (error) {
-        console.error('Error checking like status:', error);
-      } finally {
-        setLoading(false);
-      }
-    }
-
-    checkLikeStatus();
+    // supabase依存部分をダミー処理に置き換え
+    setIsLiked(false);
+    setLoading(false);
   }, [promptId]);
 
-  const handleLike = async () => {
-    try {
-      const { data: { user } } = await supabase.auth.getUser();
-      if (!user) {
-        // TODO: Redirect to login or show login modal
-        return;
-      }
-
-      setLoading(true);
-
-      if (isLiked) {
-        // Unlike
-        const { error: deleteError } = await supabase
-          .from('likes')
-          .delete()
-          .eq('user_id', user.id)
-          .eq('prompt_id', promptId);
-
-        if (deleteError) throw deleteError;
-
-        const { error: updateError } = await supabase
-          .from('prompts')
-          .update({ likes_count: likesCount - 1 })
-          .eq('id', promptId);
-
-        if (updateError) throw updateError;
-
-        setLikesCount(prev => prev - 1);
-        setIsLiked(false);
-      } else {
-        // Like
-        const { error: insertError } = await supabase
-          .from('likes')
-          .insert({ user_id: user.id, prompt_id: promptId });
-
-        if (insertError) throw insertError;
-
-        const { error: updateError } = await supabase
-          .from('prompts')
-          .update({ likes_count: likesCount + 1 })
-          .eq('id', promptId);
-
-        if (updateError) throw updateError;
-
-        setLikesCount(prev => prev + 1);
-        setIsLiked(true);
-      }
-    } catch (error) {
-      console.error('Error toggling like:', error);
-    } finally {
-      setLoading(false);
+  const handleLike = () => {
+    setLoading(true);
+    if (isLiked) {
+      setLikesCount(prev => prev - 1);
+      setIsLiked(false);
+    } else {
+      setLikesCount(prev => prev + 1);
+      setIsLiked(true);
     }
+    setLoading(false);
   };
 
   const iconSize = size === 'sm' ? 'h-4 w-4' : 'h-5 w-5';

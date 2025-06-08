@@ -1,45 +1,54 @@
 import { useState, useEffect } from 'react';
-import { supabase } from '../lib/supabase';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHatWizard } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import * as Icons from 'lucide-react';
-import type { Category, Prompt } from '../lib/supabase';
+
+type Prompt = {
+  id: string;
+  title: string;
+  description?: string;
+  views_count?: number;
+  likes_count?: number;
+  icon_name?: string;
+  gradient_from?: string;
+  gradient_to?: string;
+};
+
+type Category = {
+  id: string;
+  name: string;
+  description?: string;
+  prompts?: Prompt[];
+};
 
 export function Categories() {
   const [categories, setCategories] = useState<(Category & { prompts: Prompt[] })[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    async function fetchCategories() {
-      try {
-        const { data, error } = await supabase
-          .from('categories')
-          .select(`
-            *,
-            prompts (
-              id,
-              title,
-              description,
-              views_count,
-              likes_count,
-              icon_name,
-              gradient_from,
-              gradient_to
-            )
-          `)
-          .order('name');
-
-        if (error) throw error;
-        setCategories(data || []);
-      } catch (error) {
-        console.error('Error fetching categories:', error);
-      } finally {
-        setLoading(false);
-      }
-    }
-
-    fetchCategories();
+    // supabase依存部分をダミーデータに置き換え
+    const dummyCategories: (Category & { prompts: Prompt[] })[] = [
+      {
+        id: '1',
+        name: 'サンプルカテゴリ',
+        description: '説明文',
+        prompts: [
+          {
+            id: 'p1',
+            title: 'サンプルプロンプト',
+            description: 'プロンプト説明',
+            views_count: 10,
+            likes_count: 2,
+            icon_name: 'Heart',
+            gradient_from: '#ff0000',
+            gradient_to: '#00ff00',
+          },
+        ],
+      },
+    ];
+    setCategories(dummyCategories);
+    setLoading(false);
   }, []);
 
   if (loading) {

@@ -27,13 +27,6 @@ export function Navbar() {
               <span className="font-zen">プロンプト一覧</span>
             </Link>
             <Link
-              to="/rankings"
-              className="flex items-center space-x-1 text-primary-dark hover:text-primary transition-colors"
-            >
-              <Trophy className="h-5 w-5" />
-              <span className="font-zen">ランキング</span>
-            </Link>
-            <Link
               to="/docs"
               className="flex items-center space-x-1 text-primary-dark hover:text-primary transition-colors"
             >
