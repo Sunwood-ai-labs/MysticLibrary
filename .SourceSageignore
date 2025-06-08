@@ -55,3 +55,9 @@ venv
 supabase/
 
 prompts/
+
+.aira
+.bolt
+docs
+examples
+

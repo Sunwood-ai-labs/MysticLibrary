@@ -5,6 +5,24 @@ import { faHatWizard } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import * as Icons from 'lucide-react';
 
+// カテゴリごとの色マップ
+const CATEGORY_COLORS: Record<string, { from: string; to: string }> = {
+  // サイトのカラーマップ（tailwind.config.js）を参考に割り当て
+  coding:         { from: '#2E578C', to: '#182D40' }, // primary → primary-dark
+  audio:          { from: '#BF807A', to: '#2E578C' }, // accent → primary
+  documentation:  { from: '#BF807A', to: '#F2F2F2' }, // accent → light
+  image:          { from: '#BF807A', to: '#2E578C' }, // accent → primary
+  meta:           { from: '#BF807A', to: '#592A2A' }, // accent → accent-dark
+  methodology:    { from: '#2E578C', to: '#BF807A' }, // primary → accent
+  'mind-mapping': { from: '#2E578C', to: '#F2F2F2' }, // primary → light
+  writing:        { from: '#BF807A', to: '#182D40' }, // accent → primary-dark
+  'aws-certification': { from: '#182D40', to: '#2E578C' }, // primary-dark → primary
+  'Company-as-a-Code': { from: '#F2F2F2', to: '#182D40' }, // light → primary-dark
+  diagram:        { from: '#2E578C', to: '#BF807A' }, // primary → accent
+  education:      { from: '#2E578C', to: '#F2F2F2' }, // primary → light
+  その他:         { from: '#2E578C', to: '#BF807A' }, // デフォルト
+};
+
 // マークダウンファイルを静的にimport
 const mdFiles = import.meta.glob('/prompts/**/*.md', { as: 'raw' });
 
@@ -90,15 +108,17 @@ export function Browse() {
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {prompts.map((prompt) => {
-            // アイコン・グラデーションはデフォルト
+            // アイコン・グラデーションはカテゴリごとに色分け
             const IconComponent = Icons.Wand;
-            const gradientFrom = '#2E578C';
-            const gradientTo = '#BF807A';
+            const categoryKey = prompt.category || 'その他';
+            const colorSet = CATEGORY_COLORS[categoryKey] || CATEGORY_COLORS['その他'];
+            const gradientFrom = colorSet.from;
+            const gradientTo = colorSet.to;
 
             return (
               <div
                 key={prompt.id}
-                className="card bg-white rounded-xl shadow-md border border-light p-6 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-primary/20 relative overflow-hidden group"
+                className="card bg-white rounded-xl shadow-md border border-light p-6 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-primary/20 relative overflow-hidden group h-full flex flex-col min-h-[260px]"
               >
                 <div
                   className="absolute inset-0 flowing-background"
@@ -111,16 +131,16 @@ export function Browse() {
                     <IconComponent className="h-48 w-48 transform rotate-12" />
                   </div>
                 </div>
-                <div className="space-y-4 relative z-10">
+                <div className="relative z-10 flex flex-col flex-1">
                   <a
                     href={prompt.path}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block"
+                    className="block h-full"
                   >
-                    <div className="flex items-center space-x-2">
+                    <div className="flex items-start space-x-3 mb-2">
                       <div
-                        className="flowing-icon h-8 w-8 rounded-full flex items-center justify-center transform transition-transform duration-300 group-hover:scale-110"
+                        className="flowing-icon h-8 w-8 min-w-8 max-w-8 rounded-full flex items-center justify-center transform transition-transform duration-300 group-hover:scale-110"
                         style={{
                           '--gradient-from': gradientFrom,
                           '--gradient-to': gradientTo,
@@ -128,9 +148,9 @@ export function Browse() {
                       >
                         <IconComponent className="h-4 w-4 text-white" />
                       </div>
-                      <div>
-                        <h3 className="font-kaisei text-lg font-bold text-primary-dark">
-                          <span className="keyword">{prompt.title}</span>
+                      <div className="flex-1 min-w-0">
+                        <h3 className="font-kaisei text-lg font-bold text-primary-dark leading-snug">
+                          <span className="keyword line-clamp-2 break-words block">{prompt.title}</span>
                         </h3>
                         <p className="text-sm text-primary-dark font-zen">
                           カテゴリ：{prompt.category}
@@ -143,7 +163,6 @@ export function Browse() {
                         </p>
                       </div>
                     </div>
-                    <p className="text-primary-dark line-clamp-3 font-zen mt-2">{prompt.description}</p>
                   </a>
                 </div>
               </div>
