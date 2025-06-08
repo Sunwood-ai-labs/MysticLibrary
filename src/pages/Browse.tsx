@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHatWizard } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import * as Icons from 'lucide-react';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 // カテゴリごとの色マップ
 const CATEGORY_COLORS: Record<string, { from: string; to: string }> = {
@@ -51,8 +53,9 @@ export function Browse() {
         const lines = raw.split('\n');
         const titleLine = lines.find(line => /^# /.test(line)) || '';
         const title = titleLine.replace(/^# /, '').trim() || path.split('/').pop()?.replace('.md', '') || '';
-        const descLine = lines.find((line, idx) => idx > 0 && line.trim() && !/^# /.test(line)) || '';
-        const description = descLine.trim();
+        // 2行目以降の非空行から2行分を抽出し、60文字程度でカット
+        const descLines = lines.filter((line, idx) => idx > 0 && line.trim() && !/^# /.test(line));
+        const description = descLines.slice(0, 2).join(' ').slice(0, 60);
 
         // /prompts/カテゴリ/タグ/xxx.md からカテゴリ・タグを抽出
         // 例: /prompts/coding/ai/xxx.md → category: coding, tag: ai
@@ -150,6 +153,12 @@ export function Browse() {
                         <h3 className="font-kaisei text-lg font-bold text-primary-dark leading-snug">
                           <span className="keyword line-clamp-2 break-words block">{prompt.title}</span>
                         </h3>
+                        <ReactMarkdown
+                          remarkPlugins={[remarkGfm]}
+                          className="prose prose-xs prose-primary prose-headings:text-xs prose-p:text-xs text-primary-dark font-zen line-clamp-2 mt-1 max-w-xs"
+                        >
+                          {prompt.description}
+                        </ReactMarkdown>
                         <p className="text-sm text-primary-dark font-zen">
                           カテゴリ：{prompt.category}
                           {prompt.tag && (
