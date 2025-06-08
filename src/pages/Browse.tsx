@@ -1,51 +1,63 @@
-import { Search, Eye } from 'lucide-react';
+import { Search } from 'lucide-react';
 import { useState, useEffect } from 'react';
-import { supabase } from '../lib/supabase';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHatWizard } from '@fortawesome/free-solid-svg-icons';
-import type { Prompt } from '../lib/supabase';
 import { Link } from 'react-router-dom';
-import { LikeButton } from '../components/LikeButton';
 import * as Icons from 'lucide-react';
 
+// マークダウンファイルを静的にimport
+const mdFiles = import.meta.glob('/prompts/**/*.md', { as: 'raw' });
+
+type LocalPrompt = {
+  id: string;
+  title: string;
+  description: string;
+  path: string;
+  category: string;
+  tag: string | null;
+};
+
 export function Browse() {
-  const [prompts, setPrompts] = useState<Prompt[]>([]);
+  const [prompts, setPrompts] = useState<LocalPrompt[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    async function fetchPrompts() {
-      try {
-        const { data, error } = await supabase
-          .from('prompts')
-          .select(`
-            id,
-            title,
-            description,
-            views_count,
-            likes_count,
-            icon_name,
-            gradient_from,
-            gradient_to,
-            category:categories(name),
-            user:profiles!prompts_user_id_fkey(username),
-            tags!prompt_tags(
-              id,
-              name
-            )
-          `)
-          .eq('is_published', true)
-          .order('created_at', { ascending: false });
+    async function loadMarkdownPrompts() {
+      const entries = Object.entries(mdFiles);
+      const loaded: LocalPrompt[] = [];
 
-        if (error) throw error;
-        setPrompts(data || []);
-      } catch (error) {
-        console.error('Error fetching prompts:', error);
-      } finally {
-        setLoading(false);
+      for (const [path, loader] of entries) {
+        // Viteのimport.meta.glob({ as: 'raw' })はPromise<string>を返す
+        const raw = await loader();
+        // タイトル（# ...）と説明（2行目以降の最初の非空行）を抽出
+        const lines = raw.split('\n');
+        const titleLine = lines.find(line => /^# /.test(line)) || '';
+        const title = titleLine.replace(/^# /, '').trim() || path.split('/').pop()?.replace('.md', '') || '';
+        const descLine = lines.find((line, idx) => idx > 0 && line.trim() && !/^# /.test(line)) || '';
+        const description = descLine.trim();
+
+        // /prompts/カテゴリ/タグ/xxx.md からカテゴリ・タグを抽出
+        // 例: /prompts/coding/ai/xxx.md → category: coding, tag: ai
+        const relPath = path.replace(/^\/?prompts\//, '');
+        const parts = relPath.split('/');
+        const category = parts.length > 1 ? parts[0] : 'その他';
+        const tag = parts.length > 2 ? parts[1] : (parts.length === 2 && parts[1].endsWith('.md') ? null : parts[1]);
+
+        loaded.push({
+          id: path,
+          title,
+          description,
+          path,
+          category,
+          tag,
+        });
       }
+      // 新しい順に並べる（ファイル名降順）
+      loaded.sort((a, b) => b.path.localeCompare(a.path));
+      setPrompts(loaded);
+      setLoading(false);
     }
-
-    fetchPrompts();
+    loadMarkdownPrompts();
   }, []);
 
   return (
@@ -78,16 +90,17 @@ export function Browse() {
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {prompts.map((prompt) => {
-            const IconComponent = Icons[prompt.icon_name as keyof typeof Icons] || Icons.Wand;
-            const gradientFrom = prompt.gradient_from || '#2E578C';
-            const gradientTo = prompt.gradient_to || '#BF807A';
-            
+            // アイコン・グラデーションはデフォルト
+            const IconComponent = Icons.Wand;
+            const gradientFrom = '#2E578C';
+            const gradientTo = '#BF807A';
+
             return (
-              <div 
-                key={prompt.id} 
+              <div
+                key={prompt.id}
                 className="card bg-white rounded-xl shadow-md border border-light p-6 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-primary/20 relative overflow-hidden group"
               >
-                <div 
+                <div
                   className="absolute inset-0 flowing-background"
                   style={{
                     '--gradient-from': gradientFrom,
@@ -99,8 +112,10 @@ export function Browse() {
                   </div>
                 </div>
                 <div className="space-y-4 relative z-10">
-                  <Link
-                    to={`/prompts/${prompt.id}`}
+                  <a
+                    href={prompt.path}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="block"
                   >
                     <div className="flex items-center space-x-2">
@@ -118,36 +133,18 @@ export function Browse() {
                           <span className="keyword">{prompt.title}</span>
                         </h3>
                         <p className="text-sm text-primary-dark font-zen">
-                          作成者：{prompt.user?.username}
+                          カテゴリ：{prompt.category}
+                          {prompt.tag && (
+                            <>
+                              <span className="mx-1 text-gray-400">/</span>
+                              タグ：{prompt.tag}
+                            </>
+                          )}
                         </p>
                       </div>
                     </div>
                     <p className="text-primary-dark line-clamp-3 font-zen mt-2">{prompt.description}</p>
-                  </Link>
-                  <div className="space-y-3">
-                    <div className="flex flex-wrap gap-2">
-                      {prompt.category && (
-                        <span className="px-3 py-1 rounded-full text-sm font-zen bg-primary bg-opacity-10 text-primary transition-colors duration-300 hover:bg-opacity-20">
-                          {prompt.category.name}
-                        </span>
-                      )}
-                      {prompt.tags && prompt.tags.map((tag) => (
-                        <span
-                          key={tag.id}
-                          className="px-3 py-1 rounded-full text-sm font-zen bg-accent bg-opacity-10 text-accent transition-colors duration-300 hover:bg-opacity-20"
-                        >
-                          {tag.name}
-                        </span>
-                      ))}
-                    </div>
-                    <div className="flex items-center justify-end space-x-4 text-sm text-primary-dark">
-                      <span className="flex items-center space-x-1">
-                        <Eye className="h-4 w-4" />
-                        <span className="font-kaisei">{prompt.views_count}</span>
-                      </span>
-                      <LikeButton promptId={prompt.id} initialLikes={prompt.likes_count || 0} size="sm" />
-                    </div>
-                  </div>
+                  </a>
                 </div>
               </div>
             );
