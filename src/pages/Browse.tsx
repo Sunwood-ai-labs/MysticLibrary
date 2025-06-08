@@ -159,15 +159,23 @@ export function Browse() {
                         >
                           {prompt.description}
                         </ReactMarkdown>
-                        <p className="text-sm text-primary-dark font-zen">
-                          カテゴリ：{prompt.category}
+                        <div className="flex flex-wrap gap-2 mt-2">
+                          <span
+                            className="inline-flex items-center px-3 py-1 rounded-full shadow bg-gradient-to-r text-white text-xs font-bold transition-opacity hover:opacity-90"
+                            style={{
+                              background: `linear-gradient(to right, ${gradientFrom}, ${gradientTo})`
+                            }}
+                          >
+                            {prompt.category}
+                          </span>
                           {prompt.tag && (
-                            <>
-                              <span className="mx-1 text-gray-400">/</span>
-                              タグ：{prompt.tag}
-                            </>
+                            <span
+                              className="inline-flex items-center px-3 py-1 rounded-full shadow bg-gradient-to-r from-accent to-primary text-white text-xs font-bold transition-opacity hover:opacity-90"
+                            >
+                              {prompt.tag}
+                            </span>
                           )}
-                        </p>
+                        </div>
                       </div>
                     </div>
                   </Link>
