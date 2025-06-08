@@ -5,6 +5,7 @@ import { Browse } from './pages/Browse';
 import { PromptDetail } from './pages/PromptDetail';
 import { Rankings } from './pages/Rankings';
 import { Categories } from './pages/Categories';
+import { PromptPreview } from './pages/PromptPreview';
 
 function App() {
   // /docsまたは/v1/docsページではナビゲーションバーを表示しない
@@ -33,6 +34,8 @@ function App() {
                 />
               </div>
             } />
+            {/* ローカルmdプレビュー用 */}
+            <Route path="/prompts/preview/*" element={<PromptPreview />} />
           </Routes>
         </main>
       </div>
