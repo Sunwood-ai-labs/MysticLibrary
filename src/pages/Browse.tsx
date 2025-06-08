@@ -1,51 +1,84 @@
-import { Search, Eye } from 'lucide-react';
+import { Search } from 'lucide-react';
 import { useState, useEffect } from 'react';
-import { supabase } from '../lib/supabase';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHatWizard } from '@fortawesome/free-solid-svg-icons';
-import type { Prompt } from '../lib/supabase';
 import { Link } from 'react-router-dom';
-import { LikeButton } from '../components/LikeButton';
 import * as Icons from 'lucide-react';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+
+// カテゴリごとの色マップ
+const CATEGORY_COLORS: Record<string, { from: string; to: string }> = {
+  // サイトのカラーマップ（tailwind.config.js）を参考に割り当て
+  coding:         { from: '#2E578C', to: '#182D40' }, // primary → primary-dark
+  audio:          { from: '#BF807A', to: '#2E578C' }, // accent → primary
+  documentation:  { from: '#BF807A', to: '#F2F2F2' }, // accent → light
+  image:          { from: '#BF807A', to: '#2E578C' }, // accent → primary
+  meta:           { from: '#BF807A', to: '#592A2A' }, // accent → accent-dark
+  methodology:    { from: '#2E578C', to: '#BF807A' }, // primary → accent
+  'mind-mapping': { from: '#2E578C', to: '#F2F2F2' }, // primary → light
+  writing:        { from: '#BF807A', to: '#182D40' }, // accent → primary-dark
+  'aws-certification': { from: '#182D40', to: '#2E578C' }, // primary-dark → primary
+  'Company-as-a-Code': { from: '#F2F2F2', to: '#182D40' }, // light → primary-dark
+  diagram:        { from: '#2E578C', to: '#BF807A' }, // primary → accent
+  education:      { from: '#2E578C', to: '#F2F2F2' }, // primary → light
+  その他:         { from: '#2E578C', to: '#BF807A' }, // デフォルト
+};
+
+// マークダウンファイルを静的にimport
+const mdFiles = import.meta.glob('/prompts/**/*.md', { as: 'raw' });
+
+type LocalPrompt = {
+  id: string;
+  title: string;
+  description: string;
+  path: string;
+  category: string;
+  tag: string | null;
+};
 
 export function Browse() {
-  const [prompts, setPrompts] = useState<Prompt[]>([]);
+  const [prompts, setPrompts] = useState<LocalPrompt[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    async function fetchPrompts() {
-      try {
-        const { data, error } = await supabase
-          .from('prompts')
-          .select(`
-            id,
-            title,
-            description,
-            views_count,
-            likes_count,
-            icon_name,
-            gradient_from,
-            gradient_to,
-            category:categories(name),
-            user:profiles!prompts_user_id_fkey(username),
-            tags!prompt_tags(
-              id,
-              name
-            )
-          `)
-          .eq('is_published', true)
-          .order('created_at', { ascending: false });
+    async function loadMarkdownPrompts() {
+      const entries = Object.entries(mdFiles);
+      const loaded: LocalPrompt[] = [];
 
-        if (error) throw error;
-        setPrompts(data || []);
-      } catch (error) {
-        console.error('Error fetching prompts:', error);
-      } finally {
-        setLoading(false);
+      for (const [path, loader] of entries) {
+        // Viteのimport.meta.glob({ as: 'raw' })はPromise<string>を返す
+        const raw = await loader();
+        // タイトル（# ...）と説明（2行目以降の最初の非空行）を抽出
+        const lines = raw.split('\n');
+        const titleLine = lines.find(line => /^# /.test(line)) || '';
+        const title = titleLine.replace(/^# /, '').trim() || path.split('/').pop()?.replace('.md', '') || '';
+        // 2行目以降の非空行から2行分を抽出し、60文字程度でカット
+        const descLines = lines.filter((line, idx) => idx > 0 && line.trim() && !/^# /.test(line));
+        const description = descLines.slice(0, 2).join(' ').slice(0, 60);
+
+        // /prompts/カテゴリ/タグ/xxx.md からカテゴリ・タグを抽出
+        // 例: /prompts/coding/ai/xxx.md → category: coding, tag: ai
+        const relPath = path.replace(/^\/?prompts\//, '');
+        const parts = relPath.split('/');
+        const category = parts.length > 1 ? parts[0] : 'その他';
+        const tag = parts.length > 2 ? parts[1] : (parts.length === 2 && parts[1].endsWith('.md') ? null : parts[1]);
+
+        loaded.push({
+          id: path,
+          title,
+          description,
+          path,
+          category,
+          tag,
+        });
       }
+      // 新しい順に並べる（ファイル名降順）
+      loaded.sort((a, b) => b.path.localeCompare(a.path));
+      setPrompts(loaded);
+      setLoading(false);
     }
-
-    fetchPrompts();
+    loadMarkdownPrompts();
   }, []);
 
   return (
@@ -78,16 +111,19 @@ export function Browse() {
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {prompts.map((prompt) => {
-            const IconComponent = Icons[prompt.icon_name as keyof typeof Icons] || Icons.Wand;
-            const gradientFrom = prompt.gradient_from || '#2E578C';
-            const gradientTo = prompt.gradient_to || '#BF807A';
-            
+            // アイコン・グラデーションはカテゴリごとに色分け
+            const IconComponent = Icons.Wand;
+            const categoryKey = prompt.category || 'その他';
+            const colorSet = CATEGORY_COLORS[categoryKey] || CATEGORY_COLORS['その他'];
+            const gradientFrom = colorSet.from;
+            const gradientTo = colorSet.to;
+
             return (
-              <div 
-                key={prompt.id} 
-                className="card bg-white rounded-xl shadow-md border border-light p-6 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-primary/20 relative overflow-hidden group"
+              <div
+                key={prompt.id}
+                className="card bg-white rounded-xl shadow-md border border-light p-6 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-primary/20 relative overflow-hidden group h-full flex flex-col min-h-[260px]"
               >
-                <div 
+                <div
                   className="absolute inset-0 flowing-background"
                   style={{
                     '--gradient-from': gradientFrom,
@@ -98,14 +134,14 @@ export function Browse() {
                     <IconComponent className="h-48 w-48 transform rotate-12" />
                   </div>
                 </div>
-                <div className="space-y-4 relative z-10">
+                <div className="relative z-10 flex flex-col flex-1">
                   <Link
-                    to={`/prompts/${prompt.id}`}
-                    className="block"
+                    to={`/prompts/preview${prompt.id.replace(/^\/prompts/, '')}`}
+                    className="block h-full"
                   >
-                    <div className="flex items-center space-x-2">
+                    <div className="flex items-start space-x-3 mb-2">
                       <div
-                        className="flowing-icon h-8 w-8 rounded-full flex items-center justify-center transform transition-transform duration-300 group-hover:scale-110"
+                        className="flowing-icon h-8 w-8 min-w-8 max-w-8 rounded-full flex items-center justify-center transform transition-transform duration-300 group-hover:scale-110"
                         style={{
                           '--gradient-from': gradientFrom,
                           '--gradient-to': gradientTo,
@@ -113,41 +149,36 @@ export function Browse() {
                       >
                         <IconComponent className="h-4 w-4 text-white" />
                       </div>
-                      <div>
-                        <h3 className="font-kaisei text-lg font-bold text-primary-dark">
-                          <span className="keyword">{prompt.title}</span>
+                      <div className="flex-1 min-w-0">
+                        <h3 className="font-kaisei text-lg font-bold text-primary-dark leading-snug">
+                          <span className="keyword line-clamp-2 break-words block">{prompt.title}</span>
                         </h3>
-                        <p className="text-sm text-primary-dark font-zen">
-                          作成者：{prompt.user?.username}
-                        </p>
+                        <ReactMarkdown
+                          remarkPlugins={[remarkGfm]}
+                          className="prose prose-xs prose-primary prose-headings:text-xs prose-p:text-xs text-primary-dark font-zen line-clamp-2 mt-1 max-w-xs"
+                        >
+                          {prompt.description}
+                        </ReactMarkdown>
+                        <div className="flex flex-wrap gap-2 mt-2">
+                          <span
+                            className="inline-flex items-center px-3 py-1 rounded-full shadow bg-gradient-to-r text-white text-xs font-bold transition-opacity hover:opacity-90"
+                            style={{
+                              background: `linear-gradient(to right, ${gradientFrom}, ${gradientTo})`
+                            }}
+                          >
+                            {prompt.category}
+                          </span>
+                          {prompt.tag && (
+                            <span
+                              className="inline-flex items-center px-3 py-1 rounded-full shadow bg-gradient-to-r from-accent to-primary text-white text-xs font-bold transition-opacity hover:opacity-90"
+                            >
+                              {prompt.tag}
+                            </span>
+                          )}
+                        </div>
                       </div>
                     </div>
-                    <p className="text-primary-dark line-clamp-3 font-zen mt-2">{prompt.description}</p>
                   </Link>
-                  <div className="space-y-3">
-                    <div className="flex flex-wrap gap-2">
-                      {prompt.category && (
-                        <span className="px-3 py-1 rounded-full text-sm font-zen bg-primary bg-opacity-10 text-primary transition-colors duration-300 hover:bg-opacity-20">
-                          {prompt.category.name}
-                        </span>
-                      )}
-                      {prompt.tags && prompt.tags.map((tag) => (
-                        <span
-                          key={tag.id}
-                          className="px-3 py-1 rounded-full text-sm font-zen bg-accent bg-opacity-10 text-accent transition-colors duration-300 hover:bg-opacity-20"
-                        >
-                          {tag.name}
-                        </span>
-                      ))}
-                    </div>
-                    <div className="flex items-center justify-end space-x-4 text-sm text-primary-dark">
-                      <span className="flex items-center space-x-1">
-                        <Eye className="h-4 w-4" />
-                        <span className="font-kaisei">{prompt.views_count}</span>
-                      </span>
-                      <LikeButton promptId={prompt.id} initialLikes={prompt.likes_count || 0} size="sm" />
-                    </div>
-                  </div>
                 </div>
               </div>
             );
