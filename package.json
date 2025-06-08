@@ -1,5 +1,6 @@
 {
   "name": "mystic-library",
+  "homepage": "https://sunwood-ai-labs.github.io/MysticLibrary/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
