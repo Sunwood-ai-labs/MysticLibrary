@@ -132,10 +132,8 @@ export function Browse() {
                   </div>
                 </div>
                 <div className="relative z-10 flex flex-col flex-1">
-                  <a
-                    href={prompt.path}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  <Link
+                    to={`/prompts/preview${prompt.id.replace(/^\/prompts/, '')}`}
                     className="block h-full"
                   >
                     <div className="flex items-start space-x-3 mb-2">
@@ -163,7 +161,7 @@ export function Browse() {
                         </p>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </div>
             );
