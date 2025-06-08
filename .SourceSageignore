@@ -53,3 +53,5 @@ venv
 .venv
 
 supabase/
+
+prompts/
