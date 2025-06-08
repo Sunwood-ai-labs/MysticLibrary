@@ -2,9 +2,6 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import { Navbar } from './components/Navbar';
 import { Home } from './pages/Home';
 import { Browse } from './pages/Browse';
-import { Create } from './pages/Create';
-import { Profile } from './pages/Profile';
-import { Auth } from './pages/Auth';
 import { PromptDetail } from './pages/PromptDetail';
 import { Rankings } from './pages/Rankings';
 import { Categories } from './pages/Categories';
@@ -22,9 +19,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/browse" element={<Browse />} />
-            <Route path="/create" element={<Create />} />
-            <Route path="/profile" element={<Profile />} />
-            <Route path="/auth" element={<Auth />} />
             <Route path="/prompts/:id" element={<PromptDetail />} />
             <Route path="/rankings" element={<Rankings />} />
             <Route path="/categories" element={<Categories />} />
