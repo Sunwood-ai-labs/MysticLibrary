@@ -2,8 +2,6 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import { Navbar } from './components/Navbar';
 import { Home } from './pages/Home';
 import { Browse } from './pages/Browse';
-import { PromptDetail } from './pages/PromptDetail';
-import { Rankings } from './pages/Rankings';
 import { Categories } from './pages/Categories';
 import { PromptPreview } from './pages/PromptPreview';
 
@@ -20,8 +18,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/browse" element={<Browse />} />
-            <Route path="/prompts/:id" element={<PromptDetail />} />
-            <Route path="/rankings" element={<Rankings />} />
             <Route path="/categories" element={<Categories />} />
             {/* APIドキュメントへのリダイレクト */}
             <Route path="/v1/docs" element={<Navigate to="/docs" replace />} />
