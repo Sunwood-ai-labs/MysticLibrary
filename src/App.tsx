@@ -16,7 +16,7 @@ function App() {
             <Route path="/browse" element={<Browse />} />
             {/* ローカルmdプレビュー用 */}
             <Route path="/prompts/preview/*" element={<PromptPreview />} />
-            <Route path="/wiki" element={<Wiki />} />
+            <Route path="/wiki/*" element={<Wiki />} />
           </Routes>
         </main>
       </div>
