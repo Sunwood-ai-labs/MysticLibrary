@@ -98,7 +98,7 @@ export function PromptPreview() {
   };
 
   return (
-    <div className="w-4/5 max-w-3xl mx-auto bg-white rounded-xl shadow-sm border border-light p-8 mt-8">
+    <div className="w-full max-w-6xl mx-auto bg-white rounded-xl shadow-sm border border-light p-8 mt-8">
       <div className="flex items-start justify-between mb-4">
         <div className="flex flex-wrap gap-2">
           <span
