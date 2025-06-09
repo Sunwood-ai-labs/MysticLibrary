@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Home } from './pages/Home';
 import { Browse } from './pages/Browse';
@@ -6,30 +6,15 @@ import { Categories } from './pages/Categories';
 import { PromptPreview } from './pages/PromptPreview';
 
 function App() {
-  // /docsまたは/v1/docsページではナビゲーションバーを表示しない
-  const pathname = window.location.pathname;
-  const showNavbar = !pathname.includes('/docs');
-
   return (
     <Router basename="/MysticLibrary" future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
       <div className="min-h-screen bg-gray-50">
-        {showNavbar && <Navbar />}
-        <main className={showNavbar ? "container mx-auto px-4 py-8" : ""}>
+        <Navbar />
+        <main className="container mx-auto px-4 py-8">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/browse" element={<Browse />} />
             <Route path="/categories" element={<Categories />} />
-            {/* APIドキュメントへのリダイレクト */}
-            <Route path="/v1/docs" element={<Navigate to="/docs" replace />} />
-            <Route path="/docs" element={
-              <div className="h-screen w-full">
-                <iframe 
-                  src="/docs"
-                  className="w-full h-full border-0"
-                  title="API Documentation"
-                />
-              </div>
-            } />
             {/* ローカルmdプレビュー用 */}
             <Route path="/prompts/preview/*" element={<PromptPreview />} />
           </Routes>
