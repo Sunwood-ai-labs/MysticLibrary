@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import remarkBreaks from 'remark-breaks';
 import * as Icons from 'lucide-react';
+import { useParams, useNavigate, useLocation } from 'react-router-dom';
 
 const CATEGORY_LABELS: Record<string, string> = {
   audio: '音声',
@@ -71,11 +72,18 @@ function buildTree(files: PromptFile[]) {
 }
 
 export function Wiki() {
-  const [files, setFiles] = useState<PromptFile[]>([]);
-  const [selected, setSelected] = useState<PromptFile | null>(null);
-  // 開閉状態: "category", "category/subdir", ... で管理
-  const [openMap, setOpenMap] = useState<Record<string, boolean>>({});
+  // URLパラメータ取得
+  // react-router-dom v6: catch-allは useParams().['*']
+  const { '*': wikiPath = '' } = useParams();
+  const navigate = useNavigate();
+  const location = useLocation();
 
+  const [files, setFiles] = useState<PromptFile[]>([]);
+  const [openMap, setOpenMap] = useState<Record<string, boolean>>({});
+  const [copied, setCopied] = useState(false);
+  const [shared, setShared] = useState(false);
+
+  // ファイル一覧ロード
   useEffect(() => {
     async function loadAll() {
       const entries = Object.entries(mdFiles);
@@ -92,14 +100,54 @@ export function Wiki() {
       }
       loaded.sort((a, b) => a.path.localeCompare(b.path));
       setFiles(loaded);
-      setSelected(loaded[0] || null);
-      // 初期状態: すべて閉じる
-      setOpenMap({});
     }
     loadAll();
   }, []);
 
-  const tree = buildTree(files);
+  // URLパスから該当プロンプトを特定
+  const selected: PromptFile | null = useMemo(() => {
+    if (!files.length) return null;
+    if (!wikiPath) return files[0];
+    // wikiPath: "prompts/..." 形式
+    const relPath = wikiPath.replace(/^\/?/, '');
+    // files[].path: "/prompts/..." なので先頭スラッシュを除去して比較
+    return files.find(f => f.path.replace(/^\//, '') === relPath) || null;
+  }, [files, wikiPath]);
+
+  // サイドバーで選択時にURLを変更
+  const handleSelect = (file: PromptFile) => {
+    const relPath = file.path.replace(/^\//, '');
+    // すでに選択中なら何もしない
+    if (selected && selected.path === file.path) return;
+    navigate(`/wiki/${relPath}`, { replace: false });
+    // openMapも自動で開く
+    const keys: string[] = [];
+    for (let i = 0; i < file.segments.length - 1; ++i) {
+      keys.push(file.segments.slice(0, i + 1).join('/'));
+    }
+    setOpenMap(prev => {
+      const next = { ...prev };
+      keys.forEach(k => { next[k] = true; });
+      return next;
+    });
+  };
+
+  // URL直アクセス時も自動でopenMapを開く
+  useEffect(() => {
+    if (!selected) return;
+    const keys: string[] = [];
+    for (let i = 0; i < selected.segments.length - 1; ++i) {
+      keys.push(selected.segments.slice(0, i + 1).join('/'));
+    }
+    setOpenMap(prev => {
+      const next = { ...prev };
+      keys.forEach(k => { next[k] = true; });
+      return next;
+    });
+    // eslint-disable-next-line
+  }, [selected?.path]);
+
+  const tree = useMemo(() => buildTree(files), [files]);
 
   // ツリー描画（再帰）
   function renderTree(node: any, parentKey: string[] = [], depth = 0) {
@@ -116,7 +164,7 @@ export function Wiki() {
                   className={`text-left w-full px-2 py-1 rounded hover:bg-primary/10 transition ${
                     selected?.path === file.path ? 'bg-primary/10 font-bold text-primary' : 'text-primary-dark'
                   }`}
-                  onClick={() => setSelected(file)}
+                  onClick={() => handleSelect(file)}
                   style={{ fontSize: '0.9em' }}
                 >
                   {file.title}
@@ -170,17 +218,65 @@ export function Wiki() {
       {/* プレビュー */}
       <main className="flex-1 p-8 overflow-y-auto">
         {selected ? (
-          <div className="prose prose-primary max-w-3xl mx-auto">
-            <div className="flex items-center gap-2 mb-4">
-              {CATEGORY_ICONS[selected.category] ? (
-                React.createElement(CATEGORY_ICONS[selected.category], { className: "h-6 w-6 text-primary" })
-              ) : (
-                <Icons.Folder className="h-6 w-6 text-primary" />
-              )}
-              <h1 className="m-0">{selected.title}</h1>
-              <span className="text-xs text-primary-dark bg-light px-2 py-1 rounded ml-2">
-                {CATEGORY_LABELS[selected.category] || selected.category}
-              </span>
+          <div className="prose prose-primary max-w-5xl mx-auto">
+            <div className="flex flex-col gap-2 mb-4">
+              <div className="flex items-center gap-2">
+                {CATEGORY_ICONS[selected.category] ? (
+                  React.createElement(CATEGORY_ICONS[selected.category], { className: "h-6 w-6 text-primary" })
+                ) : (
+                  <Icons.Folder className="h-6 w-6 text-primary" />
+                )}
+                <h1 className="m-0">{selected.title}</h1>
+                <span className="text-xs text-primary-dark bg-light px-2 py-1 rounded ml-2">
+                  {CATEGORY_LABELS[selected.category] || selected.category}
+                </span>
+                {/* コピーボタン・共有ボタン */}
+                <div className="flex gap-2 ml-4">
+                  <button
+                    onClick={async () => {
+                      await navigator.clipboard.writeText(selected.content);
+                      setCopied(true);
+                      setTimeout(() => setCopied(false), 2000);
+                    }}
+                    className="px-3 py-1 rounded-full bg-primary text-white text-xs font-bold shadow hover:bg-accent transition-colors"
+                    title="マークダウンをコピー"
+                  >
+                    コピー
+                  </button>
+                  <button
+                    onClick={async () => {
+                      await navigator.clipboard.writeText(window.location.href);
+                      setShared(true);
+                      setTimeout(() => setShared(false), 2000);
+                    }}
+                    className="px-3 py-1 rounded-full bg-primary text-white text-xs font-bold shadow hover:bg-accent transition-colors"
+                    title="ページURLを共有"
+                  >
+                    共有
+                  </button>
+                </div>
+                {/* コピー・共有トースト */}
+                {copied && (
+                  <span className="ml-2 px-2 py-1 bg-primary text-white text-xs rounded shadow">
+                    コピーしました！
+                  </span>
+                )}
+                {shared && (
+                  <span className="ml-2 px-2 py-1 bg-accent text-white text-xs rounded shadow">
+                    URLをコピーしました！
+                  </span>
+                )}
+              </div>
+              <div className="text-xs text-primary-dark opacity-70 font-mono">
+                ファイルパス: <a
+                  href={`https://github.com/Sunwood-ai-labs/MysticLibrary/blob/main/prompts/${selected.segments.join('/')}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-light px-1 rounded underline hover:text-accent"
+                >
+                  prompts/{selected.segments.join('/')}
+                </a>
+              </div>
             </div>
             <ReactMarkdown remarkPlugins={[remarkGfm, remarkBreaks]}>
               {selected.content.replace(/^# .*\n?/, '')}
