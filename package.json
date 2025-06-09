@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "node server.js",
-    "build": "tsc && vite build",
+    "build": "node script/generate-git-info.js && tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -15,11 +15,8 @@
     "@fortawesome/free-regular-svg-icons": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "@supabase/supabase-js": "^2.49.1",
     "@tailwindcss/typography": "^0.5.16",
     "clsx": "^2.1.0",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
     "express": "^4.18.3",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
@@ -27,9 +24,6 @@
     "react-markdown": "^9.0.1",
     "react-router-dom": "^6.22.2",
     "remark-gfm": "^4.0.0",
-    "supabase": "^2.15.8",
-    "swagger-jsdoc": "^6.2.8",
-    "swagger-ui-express": "^5.0.0",
     "tailwind-merge": "^2.2.1"
   },
   "devDependencies": {
