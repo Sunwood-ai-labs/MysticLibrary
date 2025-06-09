@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Home } from './pages/Home';
 import { Browse } from './pages/Browse';
-import { Categories } from './pages/Categories';
 import { PromptPreview } from './pages/PromptPreview';
 
 function App() {
@@ -14,7 +13,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/browse" element={<Browse />} />
-            <Route path="/categories" element={<Categories />} />
             {/* ローカルmdプレビュー用 */}
             <Route path="/prompts/preview/*" element={<PromptPreview />} />
           </Routes>
