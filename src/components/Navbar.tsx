@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Search } from 'lucide-react';
+import { Search, BookOpenCheck } from 'lucide-react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHatWizard } from '@fortawesome/free-solid-svg-icons';
 
@@ -30,6 +30,7 @@ export function Navbar() {
               to="/wiki"
               className="flex items-center space-x-1 text-primary-dark hover:text-primary transition-colors"
             >
+              <BookOpenCheck className="h-5 w-5" />
               <span className="font-zen">Wiki</span>
             </Link>
           </div>
