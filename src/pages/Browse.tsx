@@ -158,7 +158,7 @@ export function Browse() {
                 </div>
                 <div className="relative z-10 flex flex-col flex-1">
                   <Link
-                    to={`/prompts/preview${prompt.id.replace(/^\/prompts/, '')}`}
+                    to={`/wiki/${prompt.path.replace(/^\//, '')}`}
                     className="block h-full"
                   >
                     <div className="flex items-start space-x-3 mb-2">

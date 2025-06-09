@@ -3,6 +3,7 @@ import { Navbar } from './components/Navbar';
 import { Home } from './pages/Home';
 import { Browse } from './pages/Browse';
 import { PromptPreview } from './pages/PromptPreview';
+import { Wiki } from './pages/Wiki';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route path="/browse" element={<Browse />} />
             {/* ローカルmdプレビュー用 */}
             <Route path="/prompts/preview/*" element={<PromptPreview />} />
+            <Route path="/wiki/*" element={<Wiki />} />
           </Routes>
         </main>
       </div>
