@@ -11,7 +11,7 @@ function App() {
   const showNavbar = !pathname.includes('/docs');
 
   return (
-    <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+    <Router basename="/MysticLibrary" future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
       <div className="min-h-screen bg-gray-50">
         {showNavbar && <Navbar />}
         <main className={showNavbar ? "container mx-auto px-4 py-8" : ""}>
