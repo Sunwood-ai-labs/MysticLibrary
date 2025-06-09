@@ -26,9 +26,12 @@ export function Navbar() {
               <Search className="h-5 w-5" />
               <span className="font-zen">プロンプト一覧</span>
             </Link>
-            <span className="text-primary-dark text-sm font-zen px-3 py-1 bg-gray-100 rounded-lg">
-              📚 静的サイト版
-            </span>
+            <Link
+              to="/wiki"
+              className="flex items-center space-x-1 text-primary-dark hover:text-primary transition-colors"
+            >
+              <span className="font-zen">Wiki</span>
+            </Link>
           </div>
         </div>
       </div>
