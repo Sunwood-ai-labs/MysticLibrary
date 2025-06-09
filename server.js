@@ -1,5 +1,6 @@
 import express from 'express';
 import { createServer as createViteServer } from 'vite';
+import { readFileSync } from 'fs';
 
 const app = express();
 const port = 5173;
@@ -25,7 +26,9 @@ async function startServer() {
       }
       
       try {
-        let template = await vite.transformIndexHtml(url, '');
+        // index.htmlの内容を読み込んでViteに渡す
+        let html = readFileSync('index.html', 'utf-8');
+        let template = await vite.transformIndexHtml(url, html);
         res.status(200).set({ 'Content-Type': 'text/html' }).end(template);
       } catch (e) {
         next(e);
@@ -33,8 +36,8 @@ async function startServer() {
     });
 
     app.listen(port, '0.0.0.0', () => {
-      console.log(`SPA server is running at http://localhost:${port}`);
-      console.log(`API endpoints available at http://localhost:${port}/api/`);
+      console.log(`SPA server is running at http://localhost:${port}/MysticLibrary/`);
+      // APIエンドポイントは静的サイト化により廃止済み
     });
   } catch (error) {
     console.error('Error starting server:', error);
