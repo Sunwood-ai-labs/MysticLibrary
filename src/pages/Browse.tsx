@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import * as Icons from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import { getMultipleFilesLastModified, generateFallbackDate } from '../lib/utils';
 
 // カテゴリごとの色マップ
 const CATEGORY_COLORS: Record<string, { from: string; to: string }> = {
@@ -25,8 +26,9 @@ const CATEGORY_COLORS: Record<string, { from: string; to: string }> = {
   その他:         { from: '#2E578C', to: '#BF807A' }, // デフォルト
 };
 
-// マークダウンファイルを静的にimport
+// マークダウンファイルを静的にimport（統計情報も含む）
 const mdFiles = import.meta.glob('/prompts/**/*.md', { query: '?raw', import: 'default' });
+const mdFilesStats = import.meta.glob('/prompts/**/*.md', { query: '?url' });
 
 type LocalPrompt = {
   id: string;
@@ -35,6 +37,7 @@ type LocalPrompt = {
   path: string;
   category: string;
   tag: string | null;
+  lastModified: Date;
 };
 
 export function Browse() {
@@ -44,37 +47,56 @@ export function Browse() {
   useEffect(() => {
     async function loadMarkdownPrompts() {
       const entries = Object.entries(mdFiles);
+      const allPaths = entries.map(([path]) => path);
+      
+      // 一括でGit情報を取得
+      const gitInfoResults = await getMultipleFilesLastModified(allPaths);
+      
       const loaded: LocalPrompt[] = [];
 
       for (const [path, loader] of entries) {
-        // Viteのimport.meta.glob({ query: '?raw', import: 'default' })はPromise<string>を返す
-        const raw = await loader() as string;
-        // タイトル（# ...）と説明（2行目以降の最初の非空行）を抽出
-        const lines = raw.split('\n');
-        const titleLine = lines.find((line: string) => /^# /.test(line)) || '';
-        const title = titleLine.replace(/^# /, '').trim() || path.split('/').pop()?.replace('.md', '') || '';
-        // 2行目以降の非空行から2行分を抽出し、60文字程度でカット
-        const descLines = lines.filter((line: string, idx: number) => idx > 0 && line.trim() && !/^# /.test(line));
-        const description = descLines.slice(0, 2).join(' ').slice(0, 60);
+        try {
+          // Viteのimport.meta.glob({ query: '?raw', import: 'default' })はPromise<string>を返す
+          const raw = await loader() as string;
+          
+          // Git情報から最終更新日時を取得、取得できない場合はフォールバック
+          let lastModified = gitInfoResults[path];
+          if (!lastModified) {
+            lastModified = generateFallbackDate(path);
+          }
+          
+          // タイトル（# ...）と説明（2行目以降の最初の非空行）を抽出
+          const lines = raw.split('\n');
+          const titleLine = lines.find((line: string) => /^# /.test(line)) || '';
+          const fileName = path.split('/').pop() || '';
+          const title = titleLine.replace(/^# /, '').trim() || fileName.replace('.md', '') || '';
+          // 2行目以降の非空行から2行分を抽出し、60文字程度でカット
+          const descLines = lines.filter((line: string, idx: number) => idx > 0 && line.trim() && !/^# /.test(line));
+          const description = descLines.slice(0, 2).join(' ').slice(0, 60);
 
-        // /prompts/カテゴリ/タグ/xxx.md からカテゴリ・タグを抽出
-        // 例: /prompts/coding/ai/xxx.md → category: coding, tag: ai
-        const relPath = path.replace(/^\/?prompts\//, '');
-        const parts = relPath.split('/');
-        const category = parts.length > 1 ? parts[0] : 'その他';
-        const tag = parts.length > 2 ? parts[1] : (parts.length === 2 && parts[1].endsWith('.md') ? null : parts[1]);
+          // /prompts/カテゴリ/タグ/xxx.md からカテゴリ・タグを抽出
+          // 例: /prompts/coding/ai/xxx.md → category: coding, tag: ai
+          const relPath = path.replace(/^\/?prompts\//, '');
+          const parts = relPath.split('/');
+          const category = parts.length > 1 ? parts[0] : 'その他';
+          const tag = parts.length > 2 ? parts[1] : (parts.length === 2 && parts[1].endsWith('.md') ? null : parts[1]);
 
-        loaded.push({
-          id: path,
-          title,
-          description,
-          path,
-          category,
-          tag,
-        });
+          loaded.push({
+            id: path,
+            title,
+            description,
+            path,
+            category,
+            tag,
+            lastModified,
+          });
+        } catch (error) {
+          console.error(`Error loading file ${path}:`, error);
+        }
       }
-      // 新しい順に並べる（ファイル名降順）
-      loaded.sort((a, b) => b.path.localeCompare(a.path));
+      
+      // 最終更新日時の新しい順に並べる
+      loaded.sort((a, b) => b.lastModified.getTime() - a.lastModified.getTime());
       setPrompts(loaded);
       setLoading(false);
     }
@@ -179,6 +201,15 @@ export function Browse() {
                       </div>
                     </div>
                   </Link>
+                  <div className="relative z-10 mt-auto pt-2 border-t border-gray-100">
+                    <div className="text-xs text-primary-dark opacity-70 font-zen">
+                      更新日: {prompt.lastModified.toLocaleDateString('ja-JP', {
+                        year: 'numeric',
+                        month: 'short',
+                        day: 'numeric'
+                      })}
+                    </div>
+                  </div>
                 </div>
               </div>
             );

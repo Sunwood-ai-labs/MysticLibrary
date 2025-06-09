@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Search, Trophy, FileText } from 'lucide-react';
+import { Search } from 'lucide-react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHatWizard } from '@fortawesome/free-solid-svg-icons';
 
@@ -25,13 +25,6 @@ export function Navbar() {
             >
               <Search className="h-5 w-5" />
               <span className="font-zen">プロンプト一覧</span>
-            </Link>
-            <Link
-              to="/docs"
-              className="flex items-center space-x-1 text-primary-dark hover:text-primary transition-colors"
-            >
-              <FileText className="h-5 w-5" />
-              <span className="font-zen">API</span>
             </Link>
           </div>
         </div>
