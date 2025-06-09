@@ -26,7 +26,7 @@ const CATEGORY_COLORS: Record<string, { from: string; to: string }> = {
 };
 
 // マークダウンファイルを静的にimport
-const mdFiles = import.meta.glob('/prompts/**/*.md', { as: 'raw' });
+const mdFiles = import.meta.glob('/prompts/**/*.md', { query: '?raw', import: 'default' });
 
 type LocalPrompt = {
   id: string;
@@ -47,14 +47,14 @@ export function Browse() {
       const loaded: LocalPrompt[] = [];
 
       for (const [path, loader] of entries) {
-        // Viteのimport.meta.glob({ as: 'raw' })はPromise<string>を返す
-        const raw = await loader();
+        // Viteのimport.meta.glob({ query: '?raw', import: 'default' })はPromise<string>を返す
+        const raw = await loader() as string;
         // タイトル（# ...）と説明（2行目以降の最初の非空行）を抽出
         const lines = raw.split('\n');
-        const titleLine = lines.find(line => /^# /.test(line)) || '';
+        const titleLine = lines.find((line: string) => /^# /.test(line)) || '';
         const title = titleLine.replace(/^# /, '').trim() || path.split('/').pop()?.replace('.md', '') || '';
         // 2行目以降の非空行から2行分を抽出し、60文字程度でカット
-        const descLines = lines.filter((line, idx) => idx > 0 && line.trim() && !/^# /.test(line));
+        const descLines = lines.filter((line: string, idx: number) => idx > 0 && line.trim() && !/^# /.test(line));
         const description = descLines.slice(0, 2).join(' ').slice(0, 60);
 
         // /prompts/カテゴリ/タグ/xxx.md からカテゴリ・タグを抽出
