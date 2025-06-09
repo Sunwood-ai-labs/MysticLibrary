@@ -22,7 +22,7 @@ const CATEGORY_COLORS: Record<string, { from: string; to: string }> = {
   education:      { from: '#2E578C', to: '#F2F2F2' },
   その他:         { from: '#2E578C', to: '#BF807A' },
 };
-const mdFiles = import.meta.glob('/prompts/**/*.md', { as: 'raw' });
+const mdFiles = import.meta.glob('/prompts/**/*.md', { query: '?raw', import: 'default' });
 
 // デバッグ: 実際のキーを確認
 console.log('mdFiles keys:', Object.keys(mdFiles));
@@ -47,8 +47,8 @@ export function PromptPreview() {
     console.log('fullPath:', fullPath);
     console.log('loader exists:', !!loader);
     if (loader) {
-      loader().then((raw: string) => {
-        setContent(raw);
+      loader().then((raw: unknown) => {
+        setContent(raw as string);
         setLoading(false);
       });
     } else {
