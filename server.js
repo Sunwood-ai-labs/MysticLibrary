@@ -1,19 +1,8 @@
 import express from 'express';
 import { createServer as createViteServer } from 'vite';
-import cors from 'cors';
-import filesRouter from './src/api/routes/files.js';
 
 const app = express();
 const port = 5173;
-
-// CORS設定
-app.use(cors());
-
-// JSON パーサー
-app.use(express.json());
-
-// API ルート
-app.use('/api/files', filesRouter);
 
 // Viteサーバーの設定と起動
 async function startServer() {

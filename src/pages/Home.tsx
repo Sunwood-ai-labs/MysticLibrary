@@ -47,14 +47,14 @@ export function Home() {
         <div className="flex items-center justify-center mb-4">
           <FontAwesomeIcon icon={faBolt} className="h-8 w-8 floating" />
         </div>
-        <h2 className="text-2xl font-bold mb-4 font-kaisei">始めましょう</h2>
+        <h2 className="text-2xl font-bold mb-4 font-kaisei">プロンプトを探す</h2>
         <p className="mb-6 font-zen">Mystic Libraryで、あなたのAIとの対話を変革しませんか？</p>
         <Link
-          to="/auth"
+          to="/browse"
           className="bg-white text-primary px-6 py-2 rounded-lg font-semibold hover:bg-opacity-90 transition-colors font-kaisei inline-flex items-center gap-2"
         >
           <FontAwesomeIcon icon={faHatWizard} />
-          新規登録
+          プロンプト一覧を見る
         </Link>
       </section>
 
