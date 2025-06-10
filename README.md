@@ -1,8 +1,18 @@
 <p align="center">
-  <img src="https://huggingface.co/datasets/MakiAi/IconAssets/resolve/main/MysticLibrary_icon2.png" width="100%">
-  <h1 align="center">Mystic Library</h1>
-  <h3 align="center">～ プロンプトエンジニアリングの魔法の世界へ ～</h3>
+  <img src="https://huggingface.co/datasets/MakiAi/IconAssets/resolve/main/MysticLibrary_icon2.png" width="100%" alt="Mystic Library Logo">
+</p>
 
+<h1 align="center">Mystic Library</h1>
+<h3 align="center">～ プロンプトエンジニアリングの魔法の世界へ ～</h3>
+
+<p align="center">
+  <!-- 技術スタックバッジ -->
+  <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node.js-20.x-green?logo=node.js" alt="Node.js"></a>
+  <a href="https://vitejs.dev/"><img src="https://img.shields.io/badge/Vite-5.x-purple?logo=vite" alt="Vite"></a>
+  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-5.x-blue?logo=typescript" alt="TypeScript"></a>
+  <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/TailwindCSS-3.x-38bdf8?logo=tailwindcss" alt="TailwindCSS"></a>
+  <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-ready-blue?logo=docker" alt="Docker"></a>
+  <a href="https://github.com/features/actions"><img src="https://img.shields.io/badge/GitHub%20Actions-CI-blue?logo=githubactions" alt="GitHub Actions"></a>
 </p>
 
 ---
@@ -16,10 +26,10 @@ AIと人間の創造性を最大限に引き出すための多様なプロンプ
 
 ## ✨ 特徴
 
-- 豊富なカテゴリ別プロンプト（音声・コーディング・ドキュメント・画像生成など）
-- すべてのプロンプトはMarkdownファイルで管理・バージョン管理
-- 静的サイト（GitHub Pages等）で高速・安全に閲覧可能
-- コントリビューション歓迎！誰でも新しいプロンプトを追加可能
+- 🗂️ **豊富なカテゴリ別プロンプト**（音声・コーディング・ドキュメント・画像生成など）
+- 📝 **すべてのプロンプトはMarkdownファイルで管理・バージョン管理**
+- ⚡ **静的サイト（GitHub Pages等）で高速・安全に閲覧可能**
+- 🤝 **コントリビューション歓迎！誰でも新しいプロンプトを追加可能**
 
 ---
 
@@ -58,65 +68,45 @@ npm run build
 MysticLibrary/
 ├── prompts/         # プロンプトMarkdown集（カテゴリ別）
 ├── public/          # 静的アセット
-├── script/          # 開発支援スクリプト
-├── src/             # フロントエンド実装
-├── README.md        # このファイル
-└── ...
+├── src/             # フロントエンドソース
+├── nginx/           # Docker用nginx設定
+├── examples/        # サンプルコード
+├── Dockerfile       # Dockerビルド用
+├── docker-compose.yml
+└── README.md
 ```
 
 ---
 
-## 📚 代表的なプロンプト
+## 🖼️ スクリーンショット
 
-- [エンカ歌詞強化プロンプト](prompts/audio/amped_enka_lyrics.md)
-- [ラップ作詞プロンプト](prompts/audio/comprehensive-improved-rap-prompt.md)
-- [高品質コードのベストプラクティス](prompts/coding/BEST_PROGRAMMING_PRACTICES_REQUIREMENTS_JA.md)
-- [Pythonパッケージ開発チェックリスト](prompts/coding/Checklist_for_Developing_Python_Packages_and_Libraries.md)
-- [グラフィックレコーディングスタイル](prompts/documentation/Graphic-recording-style-infographic-v2.md)
-- [OpenAI メタプロンプト（日本語）](prompts/meta/openai_meta_prompt/openai_meta_prompt_JP.md)
-- [Gitワークフロー用プロンプト（軽量版）](prompts/coding/Roo-cline/gh-issue-workflow-from-diff-v3-lite.md)
+![alt text](assets/image.png)
 
 ---
 
-## 🛠️ コントリビューション方法
+## 📚 ドキュメント・リンク
 
-1. `prompts/`配下の適切なカテゴリにMarkdownファイルを追加
-2. ファイル形式: `# タイトル` + 説明文 + プロンプト内容
-3. Pull Requestを作成
-
-詳細は [CONTRIBUTING.md] をご参照ください（※未作成の場合はこのREADMEを参考にしてください）。
-
----
-
-## 📝 技術情報・ビルド詳細
-
-- **静的サイト化**: Supabase等のDBやAPIは不要、すべてローカルファイルで管理
-- **GitHub Pages対応**: SPAルーティング・ベースパス設定済み
-- **Git情報自動生成**: `script/generate-git-info.js`で各プロンプトの最終更新日を自動取得し、`src/assets/git-info.json`に保存
+- [プロンプト集（prompts/）](./prompts/)
+- [サンプルコード（examples/）](./examples/)
+- [Wiki（src/pages/Wiki.tsx）](./src/pages/Wiki.tsx)
+- [プロジェクト構成・開発ガイド（今後追加予定）](#)
 
 ---
 
-## 🗒️ リリースノート・アップデート情報
+## 🛠️ 開発・コントリビューション
 
-- v0.14.0: 静的サイト化・API/DB/認証機能の削除・新プロンプト追加・UI/UX改善
-- v0.13.0以前: Supabaseベースの動的サイト
-
-詳細な変更履歴は [CHANGELOG.md] または [GitHubリリース](https://github.com/your-username/MysticLibrary/releases) を参照してください。
-
----
-
-## 📢 コミュニティ・連絡先
-
-- [GitHub Issues](https://github.com/your-username/MysticLibrary/issues): バグ報告・要望
-- [Discussions](https://github.com/your-username/MysticLibrary/discussions): 機能提案・質問
-- [公式サイト](https://hamaruki.com/) | [Twitter](https://twitter.com/hAru_mAki_ch)
+1. Issue・Pull Request歓迎！
+2. 新しいプロンプトは `prompts/` 配下にMarkdownで追加してください。
+3. 詳細なコントリビューションガイドは今後追加予定です。
 
 ---
 
-## 📄 ライセンス
+## 📝 ライセンス
 
 MIT License
 
 ---
 
-<p align="center">✨ プロンプトの魔法で、AIの可能性を解き放とう！ ✨</p>
+## 💬 お問い合わせ
+
+ご質問・ご要望は [GitHub Issues](https://github.com/your-username/MysticLibrary/issues) までお気軽にどうぞ。
