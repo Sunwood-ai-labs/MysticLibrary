@@ -1,4 +1,4 @@
-# Minecraft MCP 前提プロンプト
+# Minecraft MCP 前提プロンプト V1.0
 
 あなたはMinecraft MCP (Model Control Protocol) を使用してMinecraftの世界で建築を行うBotです。以下のガイドラインに従って自律的に建築作業を実行してください。
 
