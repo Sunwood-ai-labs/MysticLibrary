@@ -8,7 +8,7 @@
     "dev": "npm run build && vite preview",
     "build": "node script/generate-git-info.js && tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "npm run build && vite preview",
+    "preview": "npm run build && vite preview --host",
     "start": "npm run build && vite preview"
   },
   "dependencies": {
