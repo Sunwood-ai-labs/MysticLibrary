@@ -180,8 +180,20 @@ echo
 
 echo -e "${CYAN}🔑 SSH公開鍵:${RESET}"
 if [[ -f "$SSH_DIR/id_ed25519.pub" ]]; then
-    cat "$SSH_DIR/id_ed25519.pub"
+    # SSH公開鍵をマスク表示
+    pub_key=$(cat "$SSH_DIR/id_ed25519.pub")
+    key_type=$(echo "$pub_key" | cut -d' ' -f1)
+    key_comment=$(echo "$pub_key" | cut -d' ' -f3-)
+    key_body=$(echo "$pub_key" | cut -d' ' -f2)
+    key_start=${key_body:0:8}
+    key_end=${key_body: -8}
+    masked_key="$key_type ${key_start}...${key_end} $key_comment"
+    
+    echo -e "${YELLOW}  $masked_key${RESET}"
+    echo -e "${CYAN}  📁 完全な公開鍵: $SSH_DIR/id_ed25519.pub${RESET}"
     echo
+else
+    echo -e "${RED}  SSH鍵の生成に失敗しました${RESET}"
 fi
 
 echo -e "${CYAN}🚀 使用方法:${RESET}"
@@ -190,7 +202,10 @@ echo -e "${CYAN}   su - $USERNAME${RESET}"
 echo -e "${CYAN}   # または${RESET}"
 echo -e "${CYAN}   $USERNAME${RESET}"
 echo
-echo -e "${YELLOW}2. Claude Code設定:${RESET}"
+echo -e "${YELLOW}2. SSH公開鍵の確認:${RESET}"
+echo -e "${CYAN}   cat $SSH_DIR/id_ed25519.pub${RESET}"
+echo
+echo -e "${YELLOW}3. Claude Code設定:${RESET}"
 echo -e "${CYAN}   ./setup-claude.sh${RESET}"
 echo
 
