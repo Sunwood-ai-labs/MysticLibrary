@@ -126,6 +126,34 @@
 - [ ] CSSが適切に適用されているか
 - [ ] Font Awesomeアイコンが正しく表示されるか
 
+## フォント設定
+
+### 必須フォント読み込み
+```html
+<!-- Google Fonts: Kaisei Decol -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+```
+
+### フォント適用ルール
+```css
+/* メインフォント: Kaisei Decol */
+body, .comic-title, .speech-bubble, .character-name {
+    font-family: "Kaisei Decol", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* コードブロックのみ等幅フォント */
+.code-snippet {
+    font-family: 'Courier New', monospace;
+}
+```
+
 ## 出力フォーマット
 
 ```html
@@ -134,8 +162,24 @@
 <head>
     <meta charset="UTF-8">
     <title>[タイトル] 漫画解説</title>
+    
+    <!-- Google Fonts: Kaisei Decol -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
     <style>
+        /* フォント設定 */
+        body {
+            font-family: "Kaisei Decol", serif;
+            font-weight: 400;
+            font-style: normal;
+            /* その他のCSS */
+        }
+        
         /* 完全なCSS */
     </style>
 </head>
