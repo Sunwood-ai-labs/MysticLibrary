@@ -26,9 +26,11 @@ const CATEGORY_COLORS: Record<string, { from: string; to: string }> = {
   その他:         { from: '#2E578C', to: '#BF807A' }, // デフォルト
 };
 
-// マークダウンファイルを静的にimport（統計情報も含む）
+// マークダウンファイルとシェルスクリプトファイルを静的にimport（統計情報も含む）
 const mdFiles = import.meta.glob('/prompts/**/*.md', { query: '?raw', import: 'default' });
+const shFiles = import.meta.glob('/prompts/**/*.sh', { query: '?raw', import: 'default' });
 const mdFilesStats = import.meta.glob('/prompts/**/*.md', { query: '?url' });
+const shFilesStats = import.meta.glob('/prompts/**/*.sh', { query: '?url' });
 
 type LocalPrompt = {
   id: string;
@@ -45,16 +47,19 @@ export function Browse() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    async function loadMarkdownPrompts() {
-      const entries = Object.entries(mdFiles);
-      const allPaths = entries.map(([path]) => path);
+    async function loadPrompts() {
+      // マークダウンファイルとシェルスクリプトファイルの両方を読み込み
+      const mdEntries = Object.entries(mdFiles);
+      const shEntries = Object.entries(shFiles);
+      const allEntries = [...mdEntries, ...shEntries];
+      const allPaths = allEntries.map(([path]) => path);
       
       // 一括でGit情報を取得
       const gitInfoResults = await getMultipleFilesLastModified(allPaths);
       
       const loaded: LocalPrompt[] = [];
 
-      for (const [path, loader] of entries) {
+      for (const [path, loader] of allEntries) {
         try {
           // Viteのimport.meta.glob({ query: '?raw', import: 'default' })はPromise<string>を返す
           const raw = await loader() as string;
@@ -65,21 +70,38 @@ export function Browse() {
             lastModified = generateFallbackDate(path);
           }
           
-          // タイトル（# ...）と説明（2行目以降の最初の非空行）を抽出
           const lines = raw.split('\n');
-          const titleLine = lines.find((line: string) => /^# /.test(line)) || '';
           const fileName = path.split('/').pop() || '';
-          const title = titleLine.replace(/^# /, '').trim() || fileName.replace('.md', '') || '';
-          // 2行目以降の非空行から2行分を抽出し、60文字程度でカット
-          const descLines = lines.filter((line: string, idx: number) => idx > 0 && line.trim() && !/^# /.test(line));
-          const description = descLines.slice(0, 2).join(' ').slice(0, 60);
+          const isShellScript = path.endsWith('.sh');
+          
+          let title = '';
+          let description = '';
+          
+          if (isShellScript) {
+            // .shファイルの場合、最初の # から始まる行をタイトルとして使用
+            const titleLine = lines.find((line: string) => /^# /.test(line)) || '';
+            title = titleLine.replace(/^# /, '').trim() || fileName.replace('.sh', '') || '';
+            // 2行目以降のコメント行から説明を抽出
+            const descLines = lines.filter((line: string, idx: number) => 
+              idx > 0 && line.trim() && /^# /.test(line) && !line.includes('#!/')
+            );
+            description = descLines.slice(0, 2).map(line => line.replace(/^# /, '')).join(' ').slice(0, 60);
+          } else {
+            // .mdファイルの場合、従来通り
+            const titleLine = lines.find((line: string) => /^# /.test(line)) || '';
+            title = titleLine.replace(/^# /, '').trim() || fileName.replace('.md', '') || '';
+            // 2行目以降の非空行から2行分を抽出し、60文字程度でカット
+            const descLines = lines.filter((line: string, idx: number) => idx > 0 && line.trim() && !/^# /.test(line));
+            description = descLines.slice(0, 2).join(' ').slice(0, 60);
+          }
 
-          // /prompts/カテゴリ/タグ/xxx.md からカテゴリ・タグを抽出
+          // /prompts/カテゴリ/タグ/xxx.{md|sh} からカテゴリ・タグを抽出
           // 例: /prompts/coding/ai/xxx.md → category: coding, tag: ai
           const relPath = path.replace(/^\/?prompts\//, '');
           const parts = relPath.split('/');
           const category = parts.length > 1 ? parts[0] : 'その他';
-          const tag = parts.length > 2 ? parts[1] : (parts.length === 2 && parts[1].endsWith('.md') ? null : parts[1]);
+          const fileExt = isShellScript ? '.sh' : '.md';
+          const tag = parts.length > 2 ? parts[1] : (parts.length === 2 && parts[1].endsWith(fileExt) ? null : parts[1]);
 
           loaded.push({
             id: path,
@@ -100,7 +122,7 @@ export function Browse() {
       setPrompts(loaded);
       setLoading(false);
     }
-    loadMarkdownPrompts();
+    loadPrompts();
   }, []);
 
   return (
