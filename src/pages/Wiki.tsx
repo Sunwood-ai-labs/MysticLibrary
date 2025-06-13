@@ -51,6 +51,7 @@ type PromptFile = {
 };
 
 const mdFiles = import.meta.glob('/prompts/**/*.md', { query: '?raw', import: 'default' });
+const shFiles = import.meta.glob('/prompts/**/*.sh', { query: '?raw', import: 'default' });
 
 function buildTree(files: PromptFile[]) {
   // category > subdir... > file というツリーを構築
@@ -86,16 +87,31 @@ export function Wiki() {
   // ファイル一覧ロード
   useEffect(() => {
     async function loadAll() {
-      const entries = Object.entries(mdFiles);
+      // マークダウンファイルとシェルスクリプトファイルの両方を読み込み
+      const mdEntries = Object.entries(mdFiles);
+      const shEntries = Object.entries(shFiles);
+      const allEntries = [...mdEntries, ...shEntries];
+      
       const loaded: PromptFile[] = [];
-      for (const [path, loader] of entries) {
+      for (const [path, loader] of allEntries) {
         const content = await loader() as string;
         const rel = path.replace(/^\/?prompts\//, '');
         const segments = rel.split('/');
         const category = segments[0];
         const file = segments.slice(1).join('/');
-        const titleLine = content.split('\n').find(line => /^# /.test(line));
-        const title = titleLine ? titleLine.replace(/^# /, '').trim() : file.replace('.md', '');
+        const isShellScript = path.endsWith('.sh');
+        
+        let title = '';
+        if (isShellScript) {
+          // .shファイルの場合、最初の # から始まる行をタイトルとして使用
+          const titleLine = content.split('\n').find(line => /^# /.test(line));
+          title = titleLine ? titleLine.replace(/^# /, '').trim() : file.replace('.sh', '');
+        } else {
+          // .mdファイルの場合、従来通り
+          const titleLine = content.split('\n').find(line => /^# /.test(line));
+          title = titleLine ? titleLine.replace(/^# /, '').trim() : file.replace('.md', '');
+        }
+        
         loaded.push({ path, category, file, title, content, segments });
       }
       loaded.sort((a, b) => a.path.localeCompare(b.path));
@@ -278,9 +294,17 @@ export function Wiki() {
                 </a>
               </div>
             </div>
-            <ReactMarkdown remarkPlugins={[remarkGfm, remarkBreaks]}>
-              {selected.content.replace(/^# .*\n?/, '')}
-            </ReactMarkdown>
+            {selected.path.endsWith('.sh') ? (
+              <div>
+                <ReactMarkdown remarkPlugins={[remarkGfm, remarkBreaks]}>
+                  {`\`\`\`sh\n${selected.content}\n\`\`\``}
+                </ReactMarkdown>
+              </div>
+            ) : (
+              <ReactMarkdown remarkPlugins={[remarkGfm, remarkBreaks]}>
+                {selected.content.replace(/^# .*\n?/, '')}
+              </ReactMarkdown>
+            )}
           </div>
         ) : (
           <div className="text-center text-primary-dark">プロンプトを選択してください</div>
