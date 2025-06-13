@@ -143,10 +143,22 @@ export function Browse() {
       </div>
 
       {loading ? (
-        <div className="text-center py-8">
-          <div className="animate-spin h-8 w-8 mx-auto">
-            <FontAwesomeIcon icon={faHatWizard} className="text-primary" />
+        <div className="text-center py-12">
+          <div className="magic-loading mx-auto">
+            <div className="orbit-ring"></div>
+            <div className="magic-trail"></div>
+            <div className="magic-wand h-10 w-10">
+              <FontAwesomeIcon icon={faHatWizard} className="text-primary h-full w-full" />
+            </div>
+            <div className="magic-sparkles">
+              <div className="sparkle"></div>
+              <div className="sparkle"></div>
+              <div className="sparkle"></div>
+              <div className="sparkle"></div>
+              <div className="sparkle"></div>
+            </div>
           </div>
+          <p className="text-primary-dark font-zen mt-4 opacity-70">魔法の図書館から知識を呼び出し中...</p>
         </div>
       ) : prompts.length === 0 ? (
         <div className="text-center py-8">
@@ -156,7 +168,9 @@ export function Browse() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {prompts.map((prompt) => {
             // アイコン・グラデーションはカテゴリごとに色分け
-            const IconComponent = Icons.Wand;
+            // .shファイルの場合は専用のTerminalアイコンを使用
+            const isShellScript = prompt.path.endsWith('.sh');
+            const IconComponent = isShellScript ? Icons.Terminal : Icons.Wand;
             const categoryKey = prompt.category || 'その他';
             const colorSet = CATEGORY_COLORS[categoryKey] || CATEGORY_COLORS['その他'];
             const gradientFrom = colorSet.from;
@@ -212,6 +226,13 @@ export function Browse() {
                           >
                             {prompt.category}
                           </span>
+                          {isShellScript && (
+                            <span
+                              className="inline-flex items-center px-3 py-1 rounded-full shadow bg-gradient-to-r from-gray-600 to-gray-800 text-white text-xs font-bold transition-opacity hover:opacity-90"
+                            >
+                              スクリプト
+                            </span>
+                          )}
                           {prompt.tag && (
                             <span
                               className="inline-flex items-center px-3 py-1 rounded-full shadow bg-gradient-to-r from-accent to-primary text-white text-xs font-bold transition-opacity hover:opacity-90"

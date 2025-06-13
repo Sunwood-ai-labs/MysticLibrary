@@ -237,7 +237,9 @@ export function Wiki() {
           <div className="prose prose-primary max-w-5xl mx-auto">
             <div className="flex flex-col gap-2 mb-4">
               <div className="flex items-center gap-2">
-                {CATEGORY_ICONS[selected.category] ? (
+                {selected.path.endsWith('.sh') ? (
+                  <Icons.Terminal className="h-6 w-6 text-primary" />
+                ) : CATEGORY_ICONS[selected.category] ? (
                   React.createElement(CATEGORY_ICONS[selected.category], { className: "h-6 w-6 text-primary" })
                 ) : (
                   <Icons.Folder className="h-6 w-6 text-primary" />
@@ -246,6 +248,11 @@ export function Wiki() {
                 <span className="text-xs text-primary-dark bg-light px-2 py-1 rounded ml-2">
                   {CATEGORY_LABELS[selected.category] || selected.category}
                 </span>
+                {selected.path.endsWith('.sh') && (
+                  <span className="text-xs text-white bg-gray-700 px-2 py-1 rounded ml-2">
+                    スクリプト
+                  </span>
+                )}
                 {/* コピーボタン・共有ボタン */}
                 <div className="flex gap-2 ml-4">
                   <button

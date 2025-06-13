@@ -1,3 +1,7 @@
+# 🤖 phidata-cookbook AIエージェント一覧
+
+phidata-cookbook-jpは、phidataの公式cookbookを日本語で解説し、より理解しやすく再構成したAI開発学習プロジェクトです。AIエージェントの実装に焦点を当て、基本から応用まで段階的に学べる構成となっています。
+
 # Project: phidata-cookbook-jp
 
 ```plaintext
