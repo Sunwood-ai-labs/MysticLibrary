@@ -36,7 +36,7 @@
 1. **IMAGE PROMPT (for Midjourney / SDXL etc.)**  
    ```text
    <English prompt auto-generated here>
-````
+   ```
 
 2. **VIDEO PROMPT (for Runway Gen-3, Pika, Stable Video Diffusion etc.)**
 
