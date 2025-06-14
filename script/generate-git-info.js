@@ -1,4 +1,4 @@
-// MysticLibrary: prompts配下のmdファイルのGit更新日時をJSONに出力するスクリプト
+// MysticLibrary: prompts配下のmdファイルとshファイルのGit更新日時をJSONに出力するスクリプト
 
 import { execSync } from 'child_process';
 import { readdirSync, statSync, writeFileSync } from 'fs';
@@ -7,13 +7,13 @@ import { join, relative } from 'path';
 const PROMPTS_DIR = join(process.cwd(), 'prompts');
 const OUTPUT_PATH = join(process.cwd(), 'src/assets/git-info.json');
 
-function walkMdFiles(dir) {
+function walkPromptFiles(dir) {
   let results = [];
   for (const entry of readdirSync(dir, { withFileTypes: true })) {
     const fullPath = join(dir, entry.name);
     if (entry.isDirectory()) {
-      results = results.concat(walkMdFiles(fullPath));
-    } else if (entry.isFile() && entry.name.endsWith('.md')) {
+      results = results.concat(walkPromptFiles(fullPath));
+    } else if (entry.isFile() && (entry.name.endsWith('.md') || entry.name.endsWith('.sh'))) {
       results.push(fullPath);
     }
   }
@@ -40,7 +40,7 @@ function getGitLastModified(filePath) {
 }
 
 function main() {
-  const files = walkMdFiles(PROMPTS_DIR);
+  const files = walkPromptFiles(PROMPTS_DIR);
   const result = {};
   for (const absPath of files) {
     // Viteのimport.meta.globのキー形式に合わせる

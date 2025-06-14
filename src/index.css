@@ -119,3 +119,173 @@ body {
 .floating {
   animation: float 3s ease-in-out infinite;
 }
+
+/* 魔法のローディングアニメーション */
+@keyframes magicSpin {
+  0% { 
+    transform: rotate(0deg) scale(1);
+    filter: hue-rotate(0deg) brightness(1);
+  }
+  25% { 
+    transform: rotate(90deg) scale(1.1);
+    filter: hue-rotate(90deg) brightness(1.2);
+  }
+  50% { 
+    transform: rotate(180deg) scale(1);
+    filter: hue-rotate(180deg) brightness(1);
+  }
+  75% { 
+    transform: rotate(270deg) scale(1.1);
+    filter: hue-rotate(270deg) brightness(1.2);
+  }
+  100% { 
+    transform: rotate(360deg) scale(1);
+    filter: hue-rotate(360deg) brightness(1);
+  }
+}
+
+@keyframes sparkle {
+  0%, 100% { 
+    opacity: 0;
+    transform: scale(0) rotate(0deg);
+  }
+  50% { 
+    opacity: 1;
+    transform: scale(1) rotate(180deg);
+  }
+}
+
+@keyframes orbitPulse {
+  0% { 
+    transform: scale(0.8);
+    opacity: 0.6;
+  }
+  50% { 
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% { 
+    transform: scale(0.8);
+    opacity: 0.6;
+  }
+}
+
+@keyframes magicTrail {
+  0% { 
+    transform: translateX(-100%) scaleX(0);
+    opacity: 0;
+  }
+  50% { 
+    transform: translateX(0%) scaleX(1);
+    opacity: 0.7;
+  }
+  100% { 
+    transform: translateX(100%) scaleX(0);
+    opacity: 0;
+  }
+}
+
+.magic-loading {
+  position: relative;
+  display: inline-block;
+  will-change: transform;
+}
+
+.magic-wand {
+  animation: magicSpin 2s ease-in-out infinite;
+  filter: drop-shadow(0 0 8px rgba(46, 87, 140, 0.5));
+  will-change: transform, filter;
+  backface-visibility: hidden;
+}
+
+.magic-sparkles {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.sparkle {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: linear-gradient(45deg, #BF807A, #2E578C);
+  border-radius: 50%;
+  animation: sparkle 1.5s ease-in-out infinite;
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+}
+
+.sparkle:nth-child(1) {
+  top: -20px;
+  left: 10px;
+  animation-delay: 0s;
+}
+
+.sparkle:nth-child(2) {
+  top: -10px;
+  left: -15px;
+  animation-delay: 0.3s;
+}
+
+.sparkle:nth-child(3) {
+  top: 15px;
+  left: -10px;
+  animation-delay: 0.6s;
+}
+
+.sparkle:nth-child(4) {
+  top: 20px;
+  left: 15px;
+  animation-delay: 0.9s;
+}
+
+.sparkle:nth-child(5) {
+  top: -5px;
+  left: 25px;
+  animation-delay: 1.2s;
+}
+
+.orbit-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  border: 2px solid transparent;
+  border-top: 2px solid rgba(46, 87, 140, 0.3);
+  border-radius: 50%;
+  animation: magicSpin 3s linear infinite reverse;
+  will-change: transform;
+  backface-visibility: hidden;
+}
+
+.orbit-ring::before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: calc(50% - 2px);
+  width: 4px;
+  height: 4px;
+  background: #BF807A;
+  border-radius: 50%;
+  animation: orbitPulse 1s ease-in-out infinite;
+  box-shadow: 0 0 6px rgba(191, 128, 122, 0.8);
+}
+
+.magic-trail {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(46, 87, 140, 0.6), transparent);
+  animation: magicTrail 2.5s ease-in-out infinite;
+  transform-origin: center;
+}
+
+.pulse-glow {
+  animation: orbitPulse 1.5s ease-in-out infinite;
+}
