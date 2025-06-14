@@ -59,10 +59,22 @@ export function PromptPreview() {
 
   if (loading) {
     return (
-      <div className="flex justify-center items-center min-h-[50vh]">
-        <div className="animate-spin h-8 w-8">
-          <FontAwesomeIcon icon={faHatWizard} className="text-primary" />
+      <div className="flex flex-col justify-center items-center min-h-[50vh]">
+        <div className="magic-loading">
+          <div className="orbit-ring"></div>
+          <div className="magic-trail"></div>
+          <div className="magic-wand h-10 w-10">
+            <FontAwesomeIcon icon={faHatWizard} className="text-primary h-full w-full" />
+          </div>
+          <div className="magic-sparkles">
+            <div className="sparkle"></div>
+            <div className="sparkle"></div>
+            <div className="sparkle"></div>
+            <div className="sparkle"></div>
+            <div className="sparkle"></div>
+          </div>
         </div>
+        <p className="text-primary-dark font-zen mt-4 opacity-70">プロンプトを召喚中...</p>
       </div>
     );
   }

@@ -1,3 +1,7 @@
+# 🤖 phidata-cookbook AIエージェント一覧
+
+phidata-cookbook-jpは、phidataの公式cookbookを日本語で解説し、より理解しやすく再構成したAI開発学習プロジェクトです。AIエージェントの実装に焦点を当て、基本から応用まで段階的に学べる構成となっています。
+
 # Project: phidata-cookbook-jp
 
 ```plaintext
@@ -216,6 +220,433 @@ phidata-cookbook-jpで、実践的なAIエージェント開発のスキルを�
 ```plaintext
 aira
 sourcesage
+```
+
+## prompts
+
+### prompts\coding\codex
+
+`prompts\coding\codex\CodeXInstaller.sh`
+
+```sh
+#!/bin/bash
+# Codex セットアップスクリプト
+# Ubuntu/WSLに開発環境をセットアップするためのカラフルなインストーラー
+
+# カラー設定
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[0;33m'
+BLUE='\033[0;34m'
+MAGENTA='\033[0;35m'
+CYAN='\033[0;36m'
+NC='\033[0m' # No Color
+
+echo -e "${BLUE}Codex セットアップスクリプトを開始します${NC}"
+echo -e "${YELLOW}===========================================${NC}"
+
+# システムアップデート
+echo -e "${CYAN}システムを更新しています...${NC}"
+sudo apt update && sudo apt upgrade -y
+
+# Pythonとpipのインストール
+echo -e "${CYAN}Pythonとpipをインストールしています...${NC}"
+sudo apt install -y python3 python3-pip
+echo -e "${GREEN}Python $(python3 --version) インストール完了!${NC}"
+echo -e "${GREEN}Pip $(pip3 --version | awk '{print $2}') インストール完了!${NC}"
+
+# nmonのインストール
+echo -e "${CYAN}nmonをインストールしています...${NC}"
+sudo apt install -y nmon
+echo -e "${GREEN}nmon インストール完了!${NC}"
+
+# Node Version Manager (nvm)のインストール
+echo -e "${CYAN}nvmをインストールしています...${NC}"
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+# nvmの設定を反映させる
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+
+# 最新のLTS版Nodeをインストール
+echo -e "${CYAN}Node.js (LTS)をインストールしています...${NC}"
+nvm install --lts
+NODE_VERSION=$(node --version)
+NPM_VERSION=$(npm --version)
+echo -e "${GREEN}Node.js ${NODE_VERSION} インストール完了!${NC}"
+echo -e "${GREEN}npm ${NPM_VERSION} インストール完了!${NC}"
+
+# @openai/codexとopen-codexをインストール
+echo -e "${CYAN}Codex関連パッケージをグローバルにインストールしています...${NC}"
+npm install -g @openai/codex
+npm install -g open-codex
+echo -e "${GREEN}@openai/codex インストール完了!${NC}"
+echo -e "${GREEN}open-codex インストール完了!${NC}"
+
+# GitHub CLI (gh)のインストール - 修正版
+echo -e "${CYAN}GitHub CLIをインストールしています...${NC}"
+# 古い方法ではなく、公式の新しい方法を使用
+type -p curl >/dev/null || sudo apt install curl -y
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg \
+&& sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg \
+&& echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
+&& sudo apt update \
+&& sudo apt install gh -y
+echo -e "${GREEN}GitHub CLI $(gh --version | head -n 1) インストール完了!${NC}"
+
+# uvのインストール
+echo -e "${CYAN}uv (Python高速パッケージマネージャー)をインストールしています...${NC}"
+# 必要な依存関係をインストール
+sudo apt install -y build-essential curl
+
+# インストールスクリプトを使用
+curl -sSf https://astral.sh/uv/install.sh | sh
+
+# パスを通す
+echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.bashrc
+export PATH="$HOME/.cargo/bin:$PATH"
+
+echo -e "${GREEN}uv インストール完了!${NC}"
+echo -e "${MAGENTA}注意: uvを使用するには新しいターミナルを開くか、'source ~/.bashrc'を実行してください${NC}"
+
+# 結果の表示
+echo -e "${YELLOW}===========================================${NC}"
+echo -e "${BLUE}インストール結果:${NC}"
+echo -e "${GREEN}Python バージョン: $(python3 --version)${NC}"
+echo -e "${GREEN}pip バージョン: $(pip3 --version | awk '{print $2}')${NC}"
+echo -e "${GREEN}Node バージョン: ${NODE_VERSION}${NC}"
+echo -e "${GREEN}npm バージョン: ${NPM_VERSION}${NC}"
+echo -e "${GREEN}@openai/codex: $(npm list -g @openai/codex | grep @openai/codex || echo 'インストール済み')${NC}"
+echo -e "${GREEN}open-codex: $(npm list -g open-codex | grep open-codex || echo 'インストール済み')${NC}"
+echo -e "${GREEN}GitHub CLI バージョン: $(gh --version | head -n 1)${NC}"
+echo -e "${GREEN}nmon: $(which nmon)${NC}"
+echo -e "${GREEN}uv: $(which uv 2>/dev/null || echo 'インストール後に新しいターミナルで利用可能になります')${NC}"
+
+echo -e "${MAGENTA}Codex セットアップが完了しました!${NC}"
+echo -e "${CYAN}新しいターミナルを開くか、以下のコマンドを実行して変更を適用してください:${NC}"
+echo -e "${YELLOW}source ~/.bashrc${NC}"
+```
+
+### prompts\coding\claude-code-company
+
+`prompts\coding\claude-code-company\setup-cc-company.sh`
+
+```sh
+#!/bin/bash
+
+# 🚀 Claude Code Company セットアップ
+set -e
+
+# 基本チェック
+if ! command -v tmux &> /dev/null; then
+    echo "❌ tmuxがインストールされていません"
+    exit 1
+fi
+
+# シェル設定
+RC_FILE="$HOME/.bashrc"
+[[ $SHELL == *"zsh"* ]] && RC_FILE="$HOME/.zshrc"
+
+# Claude設定を追加
+cat >> "$RC_FILE" << 'EOF'
+
+# Claude Company
+alias cc="claude --dangerously-skip-permissions"
+
+start_claude_company() {
+    local session="claude-company"
+    
+    # tmuxセッション内チェック
+    if [[ -n "$TMUX" ]]; then
+        echo "❌ tmuxセッション内では実行できません。exitしてから実行してください。"
+        return 1
+    fi
+    
+    # セッション削除・作成
+    tmux kill-session -t "$session" 2>/dev/null || true
+    tmux new-session -d -s "$session"
+    
+    # 基本セットアップ（5つのpaneに分割）
+    tmux split-window -h -t "$session"
+    tmux split-window -v -t "$session"
+    tmux select-pane -t "$session:0.0"
+    tmux split-window -v -t "$session"
+    tmux select-pane -t "$session:0.2"
+    tmux split-window -v -t "$session"
+    tmux select-layout -t "$session" tiled
+    
+    # pane IDを取得
+    local pane_ids=($(tmux list-panes -t "$session" -F "#{pane_id}"))
+    echo "Pane IDs: ${pane_ids[@]}"
+    echo "Pane count: ${#pane_ids[@]}"
+    
+    # Claude起動（pane 1以降、メインpane 0は除く）
+    for i in $(seq 1 $((${#pane_ids[@]} - 1))); do
+        local pane_id="${pane_ids[$i]}"
+        echo "Starting Worker $i on pane $pane_id"
+        tmux send-keys -t "$pane_id" "clear && echo '🤖 Worker $i ($pane_id) Ready!' && cc" C-m
+        sleep 0.3
+    done
+    
+    echo "🎉 Claude Company 起動完了！"
+    tmux attach-session -t "$session"
+}
+
+send_task() {
+    local pane_num="$1"
+    shift
+    local task="$*"
+    local session="claude-company"
+    
+    local pane_ids=($(tmux list-panes -t "$session" -F "#{pane_id}"))
+    local main_pane="${pane_ids[0]}"
+    local target_pane="${pane_ids[$pane_num]}"
+    
+    echo "📋 Worker $pane_num にタスク送信..."
+    tmux send-keys -t "$target_pane" "$task。完了時: tmux send-keys -t $main_pane '[Worker$pane_num] 完了' C-m" C-m
+}
+
+clear_workers() {
+    local session="claude-company"
+    local pane_ids=($(tmux list-panes -t "$session" -F "#{pane_id}"))
+    
+    for i in $(seq 1 $((${#pane_ids[@]} - 1))); do
+        local pane_id="${pane_ids[$i]}"
+        tmux send-keys -t "$pane_id" "/clear" C-m
+        sleep 0.1
+    done
+    echo "🧹 全ワーカークリア完了"
+}
+
+alias cstart='start_claude_company'
+alias ctask='send_task'
+alias cclear='clear_workers'
+EOF
+
+echo "✅ セットアップ完了！"
+echo
+echo "使用方法:"
+echo "  source ~/.bashrc"
+echo "  cstart"
+echo "  ctask 1 ファイル一覧作成して"
+```
+
+`prompts\coding\claude-code-company\create-user-cc-company.sh`
+
+```sh
+#!/bin/bash
+
+# 🚀 Claude Code ユーザー作成スクリプト
+# 使用方法: sudo ./create-user.sh
+
+set -e
+
+# カラー定義
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[0;33m'
+BLUE='\033[0;34m'
+CYAN='\033[0;36m'
+BOLD='\033[1m'
+RESET='\033[0m'
+
+# root権限チェック
+if [[ $EUID -ne 0 ]]; then
+   echo -e "${RED}❌ このスクリプトはroot権限で実行してください${RESET}"
+   echo -e "${YELLOW}   sudo $0${RESET}"
+   exit 1
+fi
+
+echo -e "${BOLD}${CYAN}"
+echo "╔══════════════════════════════════════════════════════════╗"
+echo "║           🚀 Claude Code User Setup 🚀                ║"
+echo "╚══════════════════════════════════════════════════════════╝"
+echo -e "${RESET}"
+
+# ユーザー名を引数から取得、デフォルトは cc-company
+USERNAME="${1:-cc-company}"
+USER_HOME="/home/$USERNAME"
+
+echo -e "${BLUE}📋 設定情報:${RESET}"
+echo -e "${CYAN}  ユーザー名: $USERNAME${RESET}"
+echo -e "${CYAN}  ホーム: $USER_HOME${RESET}"
+echo
+
+# 既存ユーザーチェック
+if id "$USERNAME" &>/dev/null; then
+    echo -e "${YELLOW}⚠️  ユーザー '$USERNAME' が既に存在します${RESET}"
+    echo -e "${RED}削除して再作成しますか？ (y/N): ${RESET}"
+    read -r response
+    if [[ "$response" =~ ^[Yy]$ ]]; then
+        echo -e "${RED}🗑️  既存ユーザーを削除中...${RESET}"
+        
+        # プロセス終了
+        pkill -9 -u "$USERNAME" 2>/dev/null || true
+        sleep 1
+        
+        # ユーザー削除
+        userdel -r "$USERNAME" 2>/dev/null || true
+        groupdel "$USERNAME" 2>/dev/null || true
+        
+        echo -e "${GREEN}✅ 既存ユーザーを削除しました${RESET}"
+    else
+        echo -e "${YELLOW}⚠️  処理を中止します${RESET}"
+        exit 0
+    fi
+fi
+
+# ユーザー作成
+echo -e "${BLUE}👤 ユーザー作成中...${RESET}"
+useradd -m -s /bin/bash "$USERNAME"
+usermod -aG sudo "$USERNAME"
+
+# パスワード設定
+echo -e "${BLUE}🔑 パスワードを設定してください:${RESET}"
+passwd "$USERNAME"
+
+# sudo権限（パスワードなし）
+echo "$USERNAME ALL=(ALL) NOPASSWD:ALL" > "/etc/sudoers.d/$USERNAME"
+chmod 440 "/etc/sudoers.d/$USERNAME"
+
+# SSH設定
+echo -e "${BLUE}🔐 SSH設定中...${RESET}"
+SSH_DIR="$USER_HOME/.ssh"
+mkdir -p "$SSH_DIR"
+
+# rootのSSHキーをコピー
+if [[ -f "/root/.ssh/authorized_keys" ]]; then
+    cp "/root/.ssh/authorized_keys" "$SSH_DIR/authorized_keys"
+    echo -e "${GREEN}✅ SSH鍵をコピーしました${RESET}"
+else
+    touch "$SSH_DIR/authorized_keys"
+    echo -e "${YELLOW}⚠️  SSH鍵が見つかりません。手動で設定してください${RESET}"
+fi
+
+# 権限設定（SSH鍵生成前に実行）
+chown -R "$USERNAME:$USERNAME" "$SSH_DIR"
+chmod 700 "$SSH_DIR"
+chmod 600 "$SSH_DIR/authorized_keys"
+
+# SSH鍵生成
+sudo -u "$USERNAME" ssh-keygen -t ed25519 -f "$SSH_DIR/id_ed25519" -N '' -C "$USERNAME@$(hostname)"
+
+# 生成後の権限設定
+chmod 600 "$SSH_DIR/id_ed25519"
+chmod 644 "$SSH_DIR/id_ed25519.pub"
+
+# 基本ディレクトリ作成
+echo -e "${BLUE}📁 ディレクトリ作成中...${RESET}"
+DIRS=("projects" "scripts" "logs" "sessions")
+for dir in "${DIRS[@]}"; do
+    mkdir -p "$USER_HOME/$dir"
+done
+
+chown -R "$USERNAME:$USERNAME" "$USER_HOME"
+
+# 基本パッケージインストール
+echo -e "${BLUE}📦 必要パッケージインストール中...${RESET}"
+apt-get update -qq
+apt-get install -y tmux curl wget git
+
+# ユーザー初期設定
+echo -e "${BLUE}⚙️  ユーザー設定中...${RESET}"
+sudo -u "$USERNAME" bash << 'USERSETUP'
+# .bashrc設定
+cat >> ~/.bashrc << 'EOF'
+
+# ═══════════════════════════════════════════════════════════════
+# 🚀 CC Company User Settings
+# ═══════════════════════════════════════════════════════════════
+
+# 基本エイリアス
+alias ll='ls -alF'
+alias c='clear'
+alias ..='cd ..'
+
+# 色付きプロンプト
+export PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+
+# 作業ディレクトリ
+export PROJECTS_DIR="$HOME/projects"
+export LOGS_DIR="$HOME/logs"
+
+# 便利エイリアス
+alias projects='cd $PROJECTS_DIR'
+alias logs='cd $LOGS_DIR'
+
+echo "🚀 Welcome to CC Company!"
+echo "   Projects: $PROJECTS_DIR"
+echo "   Logs: $LOGS_DIR"
+
+# ═══════════════════════════════════════════════════════════════
+EOF
+
+# git設定
+git config --global user.name "CC Company"
+git config --global user.email "$USER@cc-company.local"
+git config --global init.defaultBranch main
+USERSETUP
+
+# 切り替えスクリプト作成
+echo -e "${BLUE}🔧 切り替えスクリプト作成中...${RESET}"
+cat > "/usr/local/bin/switch-to-$USERNAME" << EOF
+#!/bin/bash
+echo "🚀 Switching to $USERNAME..."
+sudo -i -u $USERNAME
+EOF
+chmod +x "/usr/local/bin/switch-to-$USERNAME"
+
+# rootエイリアス追加
+if [[ -f "/root/.bashrc" ]]; then
+    if ! grep -q "alias $USERNAME=" "/root/.bashrc"; then
+        echo >> "/root/.bashrc"
+        echo "# CC Company User" >> "/root/.bashrc"
+        echo "alias $USERNAME='switch-to-$USERNAME'" >> "/root/.bashrc"
+    fi
+fi
+
+echo
+echo -e "${BOLD}${GREEN}🎉 ユーザー作成完了！${RESET}"
+echo
+echo -e "${CYAN}📋 作成情報:${RESET}"
+echo -e "${YELLOW}  ユーザー名: $USERNAME${RESET}"
+echo -e "${YELLOW}  ホーム: $USER_HOME${RESET}"
+echo -e "${YELLOW}  パスワードなしsudo: 有効${RESET}"
+echo
+
+echo -e "${CYAN}🔑 SSH公開鍵:${RESET}"
+if [[ -f "$SSH_DIR/id_ed25519.pub" ]]; then
+    # SSH公開鍵をマスク表示
+    pub_key=$(cat "$SSH_DIR/id_ed25519.pub")
+    key_type=$(echo "$pub_key" | cut -d' ' -f1)
+    key_comment=$(echo "$pub_key" | cut -d' ' -f3-)
+    key_body=$(echo "$pub_key" | cut -d' ' -f2)
+    key_start=${key_body:0:8}
+    key_end=${key_body: -8}
+    masked_key="$key_type ${key_start}...${key_end} $key_comment"
+    
+    echo -e "${YELLOW}  $masked_key${RESET}"
+    echo -e "${CYAN}  📁 完全な公開鍵: $SSH_DIR/id_ed25519.pub${RESET}"
+    echo
+else
+    echo -e "${RED}  SSH鍵の生成に失敗しました${RESET}"
+fi
+
+echo -e "${CYAN}🚀 使用方法:${RESET}"
+echo -e "${YELLOW}1. ユーザー切り替え:${RESET}"
+echo -e "${CYAN}   su - $USERNAME${RESET}"
+echo -e "${CYAN}   # または${RESET}"
+echo -e "${CYAN}   $USERNAME${RESET}"
+echo
+echo -e "${YELLOW}2. SSH公開鍵の確認:${RESET}"
+echo -e "${CYAN}   cat $SSH_DIR/id_ed25519.pub${RESET}"
+echo
+echo -e "${YELLOW}3. Claude Code設定:${RESET}"
+echo -e "${CYAN}   ./setup-claude.sh${RESET}"
+echo
+
+echo -e "${GREEN}✅ セットアップ完了！${RESET}"
 ```
 
 ## cookbook

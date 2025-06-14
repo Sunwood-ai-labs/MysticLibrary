@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  app:
+    build: .
+    ports:
+      - "4173:4173"
+    environment:
+      - NODE_ENV=production
+    command: npm run preview
+    restart: unless-stopped
+
+  nginx:
+    build: ./nginx
+    container_name: nginx
+    ports:
+      - "443:443"
+    depends_on:
+      - app
+    restart: unless-stopped
