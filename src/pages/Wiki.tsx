@@ -4,6 +4,8 @@ import remarkGfm from 'remark-gfm';
 import remarkBreaks from 'remark-breaks';
 import * as Icons from 'lucide-react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHatWizard } from '@fortawesome/free-solid-svg-icons';
 
 const CATEGORY_LABELS: Record<string, string> = {
   audio: '音声',
@@ -80,6 +82,7 @@ export function Wiki() {
   const location = useLocation();
 
   const [files, setFiles] = useState<PromptFile[]>([]);
+  const [loading, setLoading] = useState(true);
   const [openMap, setOpenMap] = useState<Record<string, boolean>>({});
   const [copied, setCopied] = useState(false);
   const [shared, setShared] = useState(false);
@@ -116,6 +119,7 @@ export function Wiki() {
       }
       loaded.sort((a, b) => a.path.localeCompare(b.path));
       setFiles(loaded);
+      setLoading(false);
     }
     loadAll();
   }, []);
@@ -220,6 +224,28 @@ export function Wiki() {
 
   // Wikiタイトル用アイコン
   const WikiIcon = Icons.BookOpenCheck;
+
+  if (loading) {
+    return (
+      <div className="text-center py-12">
+        <div className="magic-loading mx-auto">
+          <div className="orbit-ring"></div>
+          <div className="magic-trail"></div>
+          <div className="magic-wand h-10 w-10">
+            <FontAwesomeIcon icon={faHatWizard} className="text-primary h-full w-full" />
+          </div>
+          <div className="magic-sparkles">
+            <div className="sparkle"></div>
+            <div className="sparkle"></div>
+            <div className="sparkle"></div>
+            <div className="sparkle"></div>
+            <div className="sparkle"></div>
+          </div>
+        </div>
+        <p className="text-primary-dark font-zen mt-4 opacity-70">魔法の図書館から知識を呼び出し中...</p>
+      </div>
+    );
+  }
 
   return (
     <div className="flex min-h-[80vh]">
