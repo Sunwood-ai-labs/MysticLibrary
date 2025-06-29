@@ -1,4 +1,4 @@
-# Low-Poly Animal Grid Generator プロンプト
+# Low-Poly Animal Grid Generator プロンプト V1
 
 ```bash
 Create a **low-poly** illustration of nine different [ANIMAL] icons arranged in a crisp **3 × 3 grid** (three rows, three columns).  
