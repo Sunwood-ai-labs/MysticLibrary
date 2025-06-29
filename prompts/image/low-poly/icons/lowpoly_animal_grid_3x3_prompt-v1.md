@@ -1,5 +1,7 @@
 # Low-Poly Animal Grid Generator プロンプト V1
 
+このプロンプトは、9つの動物アイコンを3×3グリッドで配置したローポリゴンスタイルのイラストを生成するためのものです。
+
 ```bash
 Create a **low-poly** illustration of nine different [ANIMAL] icons arranged in a crisp **3 × 3 grid** (three rows, three columns).  
 Each animal occupies its own equal-sized square cell with consistent spacing so the nine cells together form a perfect square.
