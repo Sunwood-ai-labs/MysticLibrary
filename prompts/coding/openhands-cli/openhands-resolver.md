@@ -1,4 +1,4 @@
-# openhands-resolver.yml
+# forgejo openhands-resolver.yml
 
 ```yaml
 name: OpenHands Issue Resolver (Ultra Simple)
