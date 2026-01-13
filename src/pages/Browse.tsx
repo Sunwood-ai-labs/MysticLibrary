@@ -7,6 +7,8 @@ import * as Icons from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { getMultipleFilesLastModified, generateFallbackDate } from '../lib/utils';
+import { useLanguage } from '../contexts/LanguageContext';
+import { getPromptFilesByLanguage, getPromptStatsByLanguage } from '../lib/promptLoader';
 
 // カテゴリごとの色マップ
 const CATEGORY_COLORS: Record<string, { from: string; to: string }> = {
@@ -26,12 +28,6 @@ const CATEGORY_COLORS: Record<string, { from: string; to: string }> = {
   その他:         { from: '#2E578C', to: '#BF807A' }, // デフォルト
 };
 
-// マークダウンファイルとシェルスクリプトファイルを静的にimport（統計情報も含む）
-const mdFiles = import.meta.glob('/prompts/**/*.md', { query: '?raw', import: 'default' });
-const shFiles = import.meta.glob('/prompts/**/*.sh', { query: '?raw', import: 'default' });
-const mdFilesStats = import.meta.glob('/prompts/**/*.md', { query: '?url' });
-const shFilesStats = import.meta.glob('/prompts/**/*.sh', { query: '?url' });
-
 type LocalPrompt = {
   id: string;
   title: string;
@@ -43,17 +39,17 @@ type LocalPrompt = {
 };
 
 export function Browse() {
+  const { language, t } = useLanguage();
   const [prompts, setPrompts] = useState<LocalPrompt[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     async function loadPrompts() {
-      // マークダウンファイルとシェルスクリプトファイルの両方を読み込み
+      // 言語に応じたファイルを読み込み
+      const mdFiles = getPromptFilesByLanguage(language);
       const mdEntries = Object.entries(mdFiles);
-      const shEntries = Object.entries(shFiles);
-      const allEntries = [...mdEntries, ...shEntries];
-      const allPaths = allEntries.map(([path]) => path);
-      
+      const allPaths = mdEntries.map(([path]) => path);
+
       // 一括でGit情報を取得
       const gitInfoResults = await getMultipleFilesLastModified(allPaths);
       
@@ -123,19 +119,19 @@ export function Browse() {
       setLoading(false);
     }
     loadPrompts();
-  }, []);
+  }, [language]);
 
   return (
     <div className="space-y-8">
       <div className="flex items-center justify-between">
         <h1 className="text-3xl font-bold font-kaisei gradient-text flex items-center gap-2">
           <FontAwesomeIcon icon={faHatWizard} className="h-8" />
-          プロンプト一覧
+          {t('browse.title')}
         </h1>
         <div className="relative">
           <input
             type="text"
-            placeholder="プロンプトを検索..."
+            placeholder={t('browse.searchPlaceholder')}
             className="pl-10 pr-4 py-2 border border-primary rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent font-zen"
           />
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-primary" />
@@ -158,11 +154,11 @@ export function Browse() {
               <div className="sparkle"></div>
             </div>
           </div>
-          <p className="text-primary-dark font-zen mt-4 opacity-70">魔法の図書館から知識を呼び出し中...</p>
+          <p className="text-primary-dark font-zen mt-4 opacity-70">{t('browse.loading')}</p>
         </div>
       ) : prompts.length === 0 ? (
         <div className="text-center py-8">
-          <p className="text-primary-dark font-zen">まだプロンプトが投稿されていません。</p>
+          <p className="text-primary-dark font-zen">{t('browse.noPrompts')}</p>
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -230,7 +226,7 @@ export function Browse() {
                             <span
                               className="inline-flex items-center px-3 py-1 rounded-full shadow bg-gradient-to-r from-gray-600 to-gray-800 text-white text-xs font-bold transition-opacity hover:opacity-90"
                             >
-                              スクリプト
+                              {t('browse.script')}
                             </span>
                           )}
                           {prompt.tag && (
@@ -246,7 +242,7 @@ export function Browse() {
                   </Link>
                   <div className="relative z-10 mt-auto pt-2 border-t border-gray-100">
                     <div className="text-xs text-primary-dark opacity-70 font-zen">
-                      更新日: {prompt.lastModified.toLocaleDateString('ja-JP', {
+                      {t('browse.updated')}: {prompt.lastModified.toLocaleDateString(language === 'ja' ? 'ja-JP' : 'en-US', {
                         year: 'numeric',
                         month: 'short',
                         day: 'numeric'
@@ -262,8 +258,7 @@ export function Browse() {
 
       <div className="highlight-box mt-8">
         <p className="font-zen text-center text-lg">
-          <span className="keyword">新しいプロンプト</span>は毎日追加されています。
-          あなたの<span className="keyword">アイデア</span>も共有してみませんか？
+          {t('browse.highlight')}
         </p>
       </div>
     </div>

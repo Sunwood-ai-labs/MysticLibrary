@@ -4,6 +4,8 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHatWizard } from '@fortawesome/free-solid-svg-icons';
+import { useLanguage } from '../contexts/LanguageContext';
+import { getPromptFilesByLanguage } from '../lib/promptLoader';
 
 // Viteのimport.meta.globで全mdファイルを取得
 /** カテゴリごとのグラデーション色マップ（Browse.tsxより流用） */
@@ -22,12 +24,9 @@ const CATEGORY_COLORS: Record<string, { from: string; to: string }> = {
   education:      { from: '#2E578C', to: '#F2F2F2' },
   その他:         { from: '#2E578C', to: '#BF807A' },
 };
-const mdFiles = import.meta.glob('/prompts/**/*.md', { query: '?raw', import: 'default' });
-
-// デバッグ: 実際のキーを確認
-console.log('mdFiles keys:', Object.keys(mdFiles));
 
 export function PromptPreview() {
+  const { language, t } = useLanguage();
   // mdPathはcatch-allパラメータ
   // catch-allパラメータで全サブパスを取得
   const { '*' : mdPath = '' } = useParams();
@@ -40,6 +39,7 @@ export function PromptPreview() {
     let decoded = mdPath ? decodeURIComponent(mdPath) : '';
     if (decoded.startsWith('/')) decoded = decoded.slice(1);
     const fullPath = `/prompts/${decoded}`;
+    const mdFiles = getPromptFilesByLanguage(language);
     const loader = mdFiles[fullPath];
     // デバッグ出力
     console.log('mdPath:', mdPath);
@@ -55,7 +55,7 @@ export function PromptPreview() {
       setContent(null);
       setLoading(false);
     }
-  }, [mdPath]);
+  }, [mdPath, language]);
 
   if (loading) {
     return (
@@ -74,7 +74,7 @@ export function PromptPreview() {
             <div className="sparkle"></div>
           </div>
         </div>
-        <p className="text-primary-dark font-zen mt-4 opacity-70">プロンプトを召喚中...</p>
+        <p className="text-primary-dark font-zen mt-4 opacity-70">{t('preview.loading')}</p>
       </div>
     );
   }
@@ -82,7 +82,7 @@ export function PromptPreview() {
   if (!content) {
     return (
       <div className="text-center py-8">
-        <p className="text-primary-dark font-zen">該当するプロンプトが見つかりません。</p>
+        <p className="text-primary-dark font-zen">{t('preview.notFound')}</p>
       </div>
     );
   }
@@ -133,13 +133,13 @@ export function PromptPreview() {
           <button
             onClick={handleCopy}
             className="px-3 py-1 rounded-full bg-primary text-white text-xs font-bold shadow hover:bg-accent transition-colors"
-            title="マークダウンをコピー"
+            title={t('preview.copyTooltip')}
           >
-            コピー
+            {t('preview.copy')}
           </button>
           {copied && (
             <span className="absolute top-full left-1/2 -translate-x-1/2 mt-1 px-2 py-1 bg-primary text-white text-xs rounded shadow">
-              コピーしました！
+              {t('preview.copied')}
             </span>
           )}
         </div>
