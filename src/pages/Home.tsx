@@ -52,7 +52,7 @@ export function Home() {
         <h2 className="text-2xl font-bold mb-4 font-kaisei">{t('home.ctaTitle')}</h2>
         <p className="mb-6 font-zen">{t('home.ctaDescription')}</p>
         <Link
-          to="/browse"
+          to="/wiki"
           className="bg-white text-primary px-6 py-2 rounded-lg font-semibold hover:bg-opacity-90 transition-colors font-kaisei inline-flex items-center gap-2"
         >
           <FontAwesomeIcon icon={faHatWizard} />
