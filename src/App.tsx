@@ -9,7 +9,7 @@ import { LanguageProvider } from './contexts/LanguageContext';
 function App() {
   return (
     <LanguageProvider>
-      <Router basename="/MysticLibrary" future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+      <Router basename={import.meta.env.BASE_URL} future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
         <div className="min-h-screen bg-gray-50">
           <Navbar />
           <main className="container mx-auto px-4 py-8">
