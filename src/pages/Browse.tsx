@@ -55,7 +55,7 @@ export function Browse() {
       
       const loaded: LocalPrompt[] = [];
 
-      for (const [path, loader] of allEntries) {
+      for (const [path, loader] of mdEntries) {
         try {
           // Viteのimport.meta.glob({ query: '?raw', import: 'default' })はPromise<string>を返す
           const raw = await loader() as string;
