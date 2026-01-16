@@ -65,6 +65,16 @@ MysticLibrary/
 
 Please add new prompts as Markdown files under `prompts/`. Issues and PRs are welcome.
 
+## Contact
+
+- **X (Twitter)**: [@hAru_mAki_ch](https://x.com/hAru_mAki_ch)
+
+## Featured
+
+<a href="https://orynth.dev/projects/mystic-prompt-open-library" target="_blank" rel="noopener">
+  <img src="https://orynth.dev/api/badge/mystic-prompt-open-library?theme=light&style=minimal" alt="Featured on Orynth" width="180" height="48" />
+</a>
+
 ## License
 
 MIT
