@@ -19,7 +19,7 @@
 
 ## 🪄 概要
 
-**Mystic Library** は、AIプロンプトエンジニアリングのための高品質なプロンプト集・テンプレート集を提供するオープンソースプロジェクトです。  
+**Mystic Library** は、AIプロンプトエンジニアリングのための高品質なプロンプト集・テンプレート集を提供するオープンソースプロジェクトです。
 AIと人間の創造性を最大限に引き出すための多様なプロンプトを、静的サイトとして誰でも簡単に閲覧・活用できます。
 
 ---
@@ -110,3 +110,13 @@ MIT License
 ## 💬 お問い合わせ
 
 ご質問・ご要望は [GitHub Issues](https://github.com/your-username/MysticLibrary/issues) までお気軽にどうぞ。
+
+## Contact
+
+- **X (Twitter)**: [@hAru_mAki_ch](https://x.com/hAru_mAki_ch)
+
+## Featured
+
+<a href="https://orynth.dev/projects/mystic-prompt-open-library" target="_blank" rel="noopener">
+  <img src="https://orynth.dev/api/badge/mystic-prompt-open-library?theme=light&style=minimal" alt="Featured on Orynth" width="180" height="48" />
+</a>
