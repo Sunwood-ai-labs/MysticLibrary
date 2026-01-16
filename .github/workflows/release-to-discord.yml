@@ -1,0 +1,77 @@
+name: Release to Discord
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      release_name:
+        description: 'リリース名（例: v0.1.0 - Initial Release）'
+        required: true
+        type: string
+      release_url:
+        description: 'リリースURL'
+        required: true
+        type: string
+      release_notes:
+        description: 'リリースノート（AI要約を使用する場合）'
+        required: false
+        type: string
+      enable_summarization:
+        description: 'AI要約を有効化'
+        type: boolean
+        default: false
+
+jobs:
+  post-to-discord:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Clone release-note-x repository
+        run: |
+          git clone https://github.com/Sunwood-ai-labs/release-note-x.git /tmp/release-note-x
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        working-directory: /tmp/release-note-x
+        run: npm install
+
+      - name: Post release to Discord
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            RELEASE_NAME="${{ inputs.release_name }}"
+            RELEASE_URL="${{ inputs.release_url }}"
+            RELEASE_NOTES="${{ inputs.release_notes }}"
+          else
+            RELEASE_NAME="${{ github.event.release.name }}"
+            RELEASE_URL="${{ github.event.release.html_url }}"
+            RELEASE_NOTES="${{ github.event.release.body }}"
+          fi
+
+          # Export release notes to temp file for safe handling
+          echo "$RELEASE_NOTES" > /tmp/release_notes.txt
+
+          # Check if summarization is enabled (only for workflow_dispatch)
+          # GitHub Actions boolean inputs are passed as strings "true" or "false"
+          if [ "${{ inputs.enable_summarization }}" = "true" ] && [ -s /tmp/release_notes.txt ]; then
+            SUMMARY=$(node /tmp/release-note-x/scripts/ai-summarize.js --quiet --file /tmp/release_notes.txt 2>/dev/null)
+            if [ -z "$SUMMARY" ]; then
+              SUMMARY="新しいリリースが利用可能です！"
+            fi
+            node /tmp/release-note-x/scripts/post-discord.js "$RELEASE_NAME" "$RELEASE_URL" "$SUMMARY"
+          else
+            node /tmp/release-note-x/scripts/post-discord.js "$RELEASE_NAME" "$RELEASE_URL"
+          fi
+
+          # Cleanup
+          rm -f /tmp/release_notes.txt
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ secrets.OPENAI_MODEL != '' && secrets.OPENAI_MODEL || 'gpt-3.5-turbo' }}
