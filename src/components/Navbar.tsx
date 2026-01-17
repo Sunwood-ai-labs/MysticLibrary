@@ -39,24 +39,21 @@ export function Navbar() {
 
             <div className="flex items-center space-x-2 border-l border-gray-300 pl-6">
               <Languages className="h-5 w-5 text-primary" />
-              <button
-                onClick={() => setLanguage('ja')}
-                className={`px-3 py-1 rounded text-sm font-medium transition-colors ${language === 'ja'
-                    ? 'bg-primary text-white'
-                    : 'text-primary-dark hover:bg-gray-100'
-                  }`}
-              >
-                JP
-              </button>
-              <button
-                onClick={() => setLanguage('en')}
-                className={`px-3 py-1 rounded text-sm font-medium transition-colors ${language === 'en'
-                    ? 'bg-primary text-white'
-                    : 'text-primary-dark hover:bg-gray-100'
-                  }`}
-              >
-                EN
-              </button>
+              {([
+                { code: 'ja', label: 'JP' },
+                { code: 'en', label: 'EN' },
+              ] as const).map(({ code, label }) => (
+                <button
+                  key={code}
+                  onClick={() => setLanguage(code)}
+                  className={`px-3 py-1 rounded text-sm font-medium transition-colors ${language === code
+                      ? 'bg-primary text-white'
+                      : 'text-primary-dark hover:bg-gray-100'
+                    }`}
+                >
+                  {label}
+                </button>
+              ))}
             </div>
           </div>
         </div>
