@@ -61,6 +61,7 @@ export const enUS = {
     presentation: 'Presentation',
     'pseudo-multi-agent': 'Pseudo Multi-Agent',
     writing: 'Writing',
+    other: 'Other',
   },
   language: {
     ja: '日本語',

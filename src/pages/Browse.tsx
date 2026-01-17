@@ -1,5 +1,5 @@
 import { Search } from 'lucide-react';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHatWizard } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
@@ -13,19 +13,19 @@ import { getPromptFilesByLanguage, getPromptStatsByLanguage } from '../lib/promp
 // カテゴリごとの色マップ
 const CATEGORY_COLORS: Record<string, { from: string; to: string }> = {
   // サイトのカラーマップ（tailwind.config.js）を参考に割り当て
-  coding:         { from: '#2E578C', to: '#182D40' }, // primary → primary-dark
-  audio:          { from: '#BF807A', to: '#2E578C' }, // accent → primary
-  documentation:  { from: '#BF807A', to: '#F2F2F2' }, // accent → light
-  image:          { from: '#BF807A', to: '#2E578C' }, // accent → primary
-  meta:           { from: '#BF807A', to: '#592A2A' }, // accent → accent-dark
-  methodology:    { from: '#2E578C', to: '#BF807A' }, // primary → accent
+  coding: { from: '#2E578C', to: '#182D40' }, // primary → primary-dark
+  audio: { from: '#BF807A', to: '#2E578C' }, // accent → primary
+  documentation: { from: '#BF807A', to: '#F2F2F2' }, // accent → light
+  image: { from: '#BF807A', to: '#2E578C' }, // accent → primary
+  meta: { from: '#BF807A', to: '#592A2A' }, // accent → accent-dark
+  methodology: { from: '#2E578C', to: '#BF807A' }, // primary → accent
   'mind-mapping': { from: '#2E578C', to: '#F2F2F2' }, // primary → light
-  writing:        { from: '#BF807A', to: '#182D40' }, // accent → primary-dark
+  writing: { from: '#BF807A', to: '#182D40' }, // accent → primary-dark
   'aws-certification': { from: '#182D40', to: '#2E578C' }, // primary-dark → primary
   'Company-as-a-Code': { from: '#F2F2F2', to: '#182D40' }, // light → primary-dark
-  diagram:        { from: '#2E578C', to: '#BF807A' }, // primary → accent
-  education:      { from: '#2E578C', to: '#F2F2F2' }, // primary → light
-  その他:         { from: '#2E578C', to: '#BF807A' }, // デフォルト
+  diagram: { from: '#2E578C', to: '#BF807A' }, // primary → accent
+  education: { from: '#2E578C', to: '#F2F2F2' }, // primary → light
+  other: { from: '#2E578C', to: '#BF807A' }, // デフォルト
 };
 
 type LocalPrompt = {
@@ -43,6 +43,28 @@ export function Browse() {
   const [prompts, setPrompts] = useState<LocalPrompt[]>([]);
   const [loading, setLoading] = useState(true);
 
+  // 動的なカテゴリラベル（Wiki.tsxと同様）
+  const CATEGORY_LABELS: Record<string, string> = useMemo(() => ({
+    audio: t('categories.audio'),
+    coding: t('categories.coding'),
+    'aws-certification': t('categories.aws-certification'),
+    'Company-as-a-Code': t('categories.Company-as-a-Code'),
+    'deep-research': t('categories.deep-research'),
+    diagram: t('categories.diagram'),
+    documentation: t('categories.documentation'),
+    education: t('categories.education'),
+    game: t('categories.game'),
+    image: t('categories.image'),
+    meta: t('categories.meta'),
+    methodology: t('categories.methodology'),
+    'mind-mapping': t('categories.mind-mapping'),
+    multimodal: t('categories.multimodal'),
+    presentation: t('categories.presentation'),
+    'pseudo-multi-agent': t('categories.pseudo-multi-agent'),
+    writing: t('categories.writing'),
+    other: t('categories.other'),
+  }), [t]);
+
   useEffect(() => {
     async function loadPrompts() {
       // 言語に応じたファイルを読み込み
@@ -52,33 +74,33 @@ export function Browse() {
 
       // 一括でGit情報を取得
       const gitInfoResults = await getMultipleFilesLastModified(allPaths);
-      
+
       const loaded: LocalPrompt[] = [];
 
       for (const [path, loader] of mdEntries) {
         try {
           // Viteのimport.meta.glob({ query: '?raw', import: 'default' })はPromise<string>を返す
           const raw = await loader() as string;
-          
+
           // Git情報から最終更新日時を取得、取得できない場合はフォールバック
           let lastModified = gitInfoResults[path];
           if (!lastModified) {
             lastModified = generateFallbackDate(path);
           }
-          
+
           const lines = raw.split('\n');
           const fileName = path.split('/').pop() || '';
           const isShellScript = path.endsWith('.sh');
-          
+
           let title = '';
           let description = '';
-          
+
           if (isShellScript) {
             // .shファイルの場合、最初の # から始まる行をタイトルとして使用
             const titleLine = lines.find((line: string) => /^# /.test(line)) || '';
             title = titleLine.replace(/^# /, '').trim() || fileName.replace('.sh', '') || '';
             // 2行目以降のコメント行から説明を抽出
-            const descLines = lines.filter((line: string, idx: number) => 
+            const descLines = lines.filter((line: string, idx: number) =>
               idx > 0 && line.trim() && /^# /.test(line) && !line.includes('#!/')
             );
             description = descLines.slice(0, 2).map(line => line.replace(/^# /, '')).join(' ').slice(0, 60);
@@ -95,7 +117,7 @@ export function Browse() {
           // 例: /prompts/coding/ai/xxx.md → category: coding, tag: ai
           const relPath = path.replace(/^\/?prompts\//, '');
           const parts = relPath.split('/');
-          const category = parts.length > 1 ? parts[0] : 'その他';
+          const category = parts.length > 1 ? parts[0] : 'other';
           const fileExt = isShellScript ? '.sh' : '.md';
           const tag = parts.length > 2 ? parts[1] : (parts.length === 2 && parts[1].endsWith(fileExt) ? null : parts[1]);
 
@@ -112,7 +134,7 @@ export function Browse() {
           console.error(`Error loading file ${path}:`, error);
         }
       }
-      
+
       // 最終更新日時の新しい順に並べる
       loaded.sort((a, b) => b.lastModified.getTime() - a.lastModified.getTime());
       setPrompts(loaded);
@@ -167,8 +189,8 @@ export function Browse() {
             // .shファイルの場合は専用のTerminalアイコンを使用
             const isShellScript = prompt.path.endsWith('.sh');
             const IconComponent = isShellScript ? Icons.Terminal : Icons.Wand;
-            const categoryKey = prompt.category || 'その他';
-            const colorSet = CATEGORY_COLORS[categoryKey] || CATEGORY_COLORS['その他'];
+            const categoryKey = prompt.category || 'other';
+            const colorSet = CATEGORY_COLORS[categoryKey] || CATEGORY_COLORS['other'];
             const gradientFrom = colorSet.from;
             const gradientTo = colorSet.to;
 
@@ -220,7 +242,7 @@ export function Browse() {
                               background: `linear-gradient(to right, ${gradientFrom}, ${gradientTo})`
                             }}
                           >
-                            {prompt.category}
+                            {CATEGORY_LABELS[categoryKey] || categoryKey}
                           </span>
                           {isShellScript && (
                             <span

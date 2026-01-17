@@ -61,6 +61,7 @@ export const jaJP = {
     presentation: 'プレゼンテーション',
     'pseudo-multi-agent': '疑似マルチエージェント',
     writing: 'ライティング',
+    other: 'その他',
   },
   language: {
     ja: '日本語',
