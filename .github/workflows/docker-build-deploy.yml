@@ -1,4 +1,4 @@
-name: 🐳 Docker Build and Deploy Hallo2
+name: 🐳 Docker Build and Deploy
 
 on:
   workflow_dispatch:
