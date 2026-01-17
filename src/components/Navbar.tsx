@@ -23,7 +23,7 @@ export function Navbar() {
 
           <div className="flex items-center space-x-6">
             <Link
-              to="/wiki"
+              to="/browse"
               className="flex items-center space-x-1 text-primary-dark hover:text-primary transition-colors"
             >
               <Search className="h-5 w-5" />
@@ -41,21 +41,19 @@ export function Navbar() {
               <Languages className="h-5 w-5 text-primary" />
               <button
                 onClick={() => setLanguage('ja')}
-                className={`px-3 py-1 rounded text-sm font-medium transition-colors ${
-                  language === 'ja'
+                className={`px-3 py-1 rounded text-sm font-medium transition-colors ${language === 'ja'
                     ? 'bg-primary text-white'
                     : 'text-primary-dark hover:bg-gray-100'
-                }`}
+                  }`}
               >
                 JP
               </button>
               <button
                 onClick={() => setLanguage('en')}
-                className={`px-3 py-1 rounded text-sm font-medium transition-colors ${
-                  language === 'en'
+                className={`px-3 py-1 rounded text-sm font-medium transition-colors ${language === 'en'
                     ? 'bg-primary text-white'
                     : 'text-primary-dark hover:bg-gray-100'
-                }`}
+                  }`}
               >
                 EN
               </button>
