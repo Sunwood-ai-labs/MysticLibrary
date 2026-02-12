@@ -1,0 +1,674 @@
+@import "tailwindcss";
+
+/* ============================================
+   CUSTOM UTILITY CLASSES
+   ============================================ */
+
+@layer utilities {
+	.text-primary-dark {
+		color: #1e293b; /* slate-800: より濃い色で高コントラスト */
+	}
+
+	.border-light {
+		border-color: #e2e8f0; /* slate-200 */
+	}
+
+	.bg-light {
+		background-color: #f8fafc; /* slate-50 */
+	}
+}
+
+/* ============================================
+   BASE STYLES & TYPOGRAPHY
+   ============================================ */
+
+:root {
+	font-family: 'Zen Kurenaido', sans-serif;
+
+	/* カラーパレット - コントラスト改善 */
+	--primary-rgb: 46, 87, 140;
+	--accent-rgb: 191, 128, 122;
+	--dark-rgb: 15, 23, 42;
+	--muted-rgb: 100, 116, 139;
+
+	/* アニメーションタイミング */
+	--ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+	--ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+	--ease-spring: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+* {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #f8fafc;
+	color: #0f172a;
+	min-height: 100vh;
+	/* 微かなテクスチャを追加 */
+	background-image:
+		radial-gradient(circle at 20% 50%, rgba(46, 87, 140, 0.04) 0%, transparent 50%),
+		radial-gradient(circle at 80% 80%, rgba(191, 128, 122, 0.04) 0%, transparent 50%);
+	background-attachment: fixed;
+}
+
+/* フォントファミリー */
+.font-kaisei {
+	font-family: 'Kaisei Decol', serif;
+}
+
+.font-zen {
+	font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.font-yomogi {
+	font-family: 'Yomogi', cursive;
+}
+
+/* ============================================
+   GRADIENTS & COLORS
+   ============================================ */
+
+/* グラデーションテキスト - Chrome/Firefox/Safari対応 */
+.gradient-text {
+	display: inline-block;
+	background-image: linear-gradient(135deg, #2E578C 0%, #BF807A 100%);
+	background-size: 200% 200%;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: transparent;
+	animation: gradientShift 3s ease infinite;
+	/* SVGフィルター方式のフォールバック（古いブラウザ用） */
+}
+
+/* グラデーション表示時 */
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+	.gradient-text {
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		color: transparent;
+	}
+}
+
+@keyframes gradientShift {
+	0%, 100% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+}
+
+/* ============================================
+   CARD COMPONENTS
+   ============================================ */
+
+.card {
+	transition: all 0.3s var(--ease-out-expo);
+	transform-style: preserve-3d;
+	background: #ffffff;
+	border: 1px solid #e2e8f0;
+}
+
+.card:hover {
+	transform: translateY(-4px) scale(1.01);
+	box-shadow:
+		0 20px 40px -12px rgba(46, 87, 140, 0.15),
+		0 0 0 1px rgba(46, 87, 140, 0.05);
+	border-color: #cbd5e1;
+}
+
+/* カード内のリンクホバー時 */
+.card:has(a:hover) {
+	transform: translateY(-6px) scale(1.02);
+}
+
+/* ============================================
+   BUTTONS & INTERACTIVE ELEMENTS
+   ============================================ */
+
+button {
+	position: relative;
+	overflow: hidden;
+	transition: all 0.2s var(--ease-out-expo);
+}
+
+button::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.2);
+	transform: translate(-50%, -50%);
+	transition: width 0.4s, height 0.4s;
+}
+
+button:active::before {
+	width: 200px;
+	height: 200px;
+}
+
+button:active {
+	transform: scale(0.97);
+}
+
+/* 言語切り替えボタン */
+button.px-3.py-1.rounded {
+	transition: all 0.2s var(--ease-spring);
+}
+
+button.px-3.py-1.rounded:hover {
+	transform: scale(1.05);
+}
+
+button.px-3.py-1.rounded:active {
+	transform: scale(0.95);
+}
+
+/* ============================================
+   ANIMATIONS
+   ============================================ */
+
+.floating {
+	animation: float 4s var(--ease-in-out) infinite;
+}
+
+.floating:nth-child(2) {
+	animation-delay: -1s;
+}
+
+.floating:nth-child(3) {
+	animation-delay: -2s;
+}
+
+@keyframes float {
+	0%, 100% {
+		transform: translateY(0) rotate(0deg);
+	}
+	25% {
+		transform: translateY(-8px) rotate(2deg);
+	}
+	50% {
+		transform: translateY(-12px) rotate(0deg);
+	}
+	75% {
+		transform: translateY(-8px) rotate(-2deg);
+	}
+}
+
+/* ============================================
+   LOADING STATES
+   ============================================ */
+
+.magic-loading {
+	position: relative;
+	height: 5rem;
+	width: 5rem;
+}
+
+.orbit-ring {
+	position: absolute;
+	inset: 0;
+	border-radius: 9999px;
+	border: 4px solid rgba(46, 87, 140, 0.15);
+	animation: orbit 3s linear infinite;
+}
+
+.orbit-ring::before {
+	content: '';
+	position: absolute;
+	inset: -4px;
+	border-radius: 9999px;
+	border: 4px solid transparent;
+	border-top-color: #2E578C;
+	animation: orbit 2s linear infinite reverse;
+}
+
+.magic-trail {
+	position: absolute;
+	inset: 0.5rem;
+	border-radius: 9999px;
+	border: 2px solid rgba(191, 128, 122, 0.3);
+	animation: orbit 2s linear infinite reverse;
+}
+
+.magic-wand {
+	position: absolute;
+	inset: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	animation: wandFloat 2s var(--ease-spring) infinite;
+}
+
+@keyframes orbit {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes wandFloat {
+	0%, 100% {
+		transform: rotate(0deg) scale(1);
+	}
+	50% {
+		transform: rotate(15deg) scale(1.1);
+	}
+}
+
+.magic-sparkles {
+	position: absolute;
+	inset: 0;
+}
+
+.sparkle {
+	position: absolute;
+	width: 0.5rem;
+	height: 0.5rem;
+	background: linear-gradient(135deg, #2E578C, #BF807A);
+	border-radius: 9999px;
+	animation: sparkle 1.5s var(--ease-in-out) infinite;
+	box-shadow: 0 0 10px rgba(46, 87, 140, 0.3);
+}
+
+.sparkle:nth-child(1) {
+	top: 0;
+	left: 50%;
+	animation-delay: 0s;
+}
+
+.sparkle:nth-child(2) {
+	top: 50%;
+	right: 0;
+	animation-delay: 0.3s;
+}
+
+.sparkle:nth-child(3) {
+	bottom: 0;
+	left: 50%;
+	animation-delay: 0.6s;
+}
+
+.sparkle:nth-child(4) {
+	top: 50%;
+	left: 0;
+	animation-delay: 0.9s;
+}
+
+.sparkle:nth-child(5) {
+	top: 25%;
+	left: 25%;
+	animation-delay: 0.2s;
+}
+
+@keyframes sparkle {
+	0%, 100% {
+		opacity: 0;
+		transform: scale(0);
+	}
+	50% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+/* ============================================
+   HIGHLIGHT BOXES
+   ============================================ */
+
+.highlight-box {
+	background: linear-gradient(
+		135deg,
+		rgba(46, 87, 140, 0.08) 0%,
+		rgba(191, 128, 122, 0.08) 100%
+	);
+	border-left: 4px solid #2E578C;
+	padding: 1.25rem;
+	border-radius: 0.75rem;
+	position: relative;
+	overflow: hidden;
+}
+
+.highlight-box::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: linear-gradient(
+		135deg,
+		rgba(46, 87, 140, 0.04) 0%,
+		rgba(191, 128, 122, 0.04) 100%
+	);
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.highlight-box:hover::before {
+	opacity: 1;
+}
+
+/* ============================================
+   FLOWING BACKGROUNDS
+   ============================================ */
+
+.flowing-background {
+	position: absolute;
+	inset: 0;
+	opacity: 0.06;
+	background: linear-gradient(
+		135deg,
+		var(--gradient-from, #2E578C) 0%,
+		var(--gradient-to, #BF807A) 100%
+	);
+	mask-image: radial-gradient(circle at center, black 30%, transparent 70%);
+	-webkit-mask-image: radial-gradient(circle at center, black 30%, transparent 70%);
+	animation: flowingMove 10s var(--ease-in-out) infinite alternate;
+}
+
+@keyframes flowingMove {
+	0% {
+		transform: scale(1) rotate(-3deg);
+		opacity: 0.06;
+	}
+	100% {
+		transform: scale(1.15) rotate(3deg);
+		opacity: 0.1;
+	}
+}
+
+.flowing-icon {
+	background: linear-gradient(
+		135deg,
+		var(--gradient-from, #2E578C) 0%,
+		var(--gradient-to, #BF807A) 100%
+	);
+	box-shadow:
+		0 4px 12px rgba(46, 87, 140, 0.2),
+		inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+/* ============================================
+   TEXT STYLES
+   ============================================ */
+
+.keyword {
+	font-weight: 600;
+	background: linear-gradient(
+		135deg,
+		rgba(46, 87, 140, 0.1) 0%,
+		rgba(191, 128, 122, 0.1) 100%
+	);
+	padding: 0.125rem 0.375rem;
+	border-radius: 0.25rem;
+}
+
+/* ============================================
+   NAVIGATION
+   ============================================ */
+
+nav {
+	backdrop-filter: blur(8px);
+	background: rgba(255, 255, 255, 0.9);
+}
+
+/* ============================================
+   UTILITY COLOR CLASSES
+   ============================================ */
+
+.text-primary-dark {
+	color: #1e293b; /* slate-800: より濃い色で高コントラスト */
+}
+
+.border-light {
+	border-color: #e2e8f0; /* slate-200 */
+}
+
+.bg-light {
+	background-color: #f8fafc; /* slate-50 */
+}
+
+/* ============================================
+   RESPONSIVE IMPROVEMENTS
+   ============================================ */
+
+@media (max-width: 768px) {
+	.card:hover {
+		transform: translateY(-2px) scale(1.005);
+	}
+
+	.floating {
+		animation: float 4s var(--ease-in-out) infinite;
+	}
+}
+
+/* ============================================
+   UTILITY CLASSES
+   ============================================ */
+
+/* グラスモーフィズム */
+.glass {
+	background: rgba(255, 255, 255, 0.7);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* ============================================
+   PROSE / CONTENT STYLING
+   ============================================ */
+
+/* prose-primary 用のカスタムスタイル */
+.prose-primary {
+	--tw-prose-body: #1e293b;
+	--tw-prose-headings: #0f172a;
+	--tw-prose-lead: #64748b;
+	--tw-prose-links: #2E578C;
+	--tw-prose-bold: #0f172a;
+	--tw-prose-counters: #2E578C;
+	--tw-prose-bullets: #2E578C;
+	--tw-prose-hr: #e2e8f0;
+	--tw-prose-quotes: #1e293b;
+	--tw-prose-quote-borders: #2E578C;
+	--tw-prose-captions: #64748b;
+	--tw-prose-code: #dc2626;
+	--tw-prose-pre-code: #f1f5f9;
+	--tw-prose-pre-bg: #0f172a;
+	--tw-prose-th-borders: #e2e8f0;
+	--tw-prose-td-borders: #e2e8f0;
+}
+
+/* prose-xs: 小さいサイズの prose */
+.prose-xs {
+	font-size: 0.75rem;
+	line-height: 1.5;
+}
+
+.prose-xs p {
+	font-size: 0.75rem;
+	margin-bottom: 0.5rem;
+}
+
+.prose-xs h1, .prose-xs h2, .prose-xs h3 {
+	font-size: 0.875rem;
+	margin-bottom: 0.5rem;
+}
+
+/* コードブロックのスタイル改善 */
+.prose pre {
+	background-color: #1e293b !important;
+	color: #f1f5f9 !important;
+	border-radius: 0.75rem;
+	padding: 1.25rem;
+	overflow-x: auto;
+}
+
+.prose pre code {
+	color: #f1f5f9 !important;
+	background: transparent !important;
+}
+
+.prose code {
+	background-color: #f1f5f9;
+	color: #dc2626;
+	padding: 0.125rem 0.375rem;
+	border-radius: 0.25rem;
+	font-size: 0.875em;
+}
+
+.prose a {
+	color: #2E578C;
+	text-decoration: underline;
+	text-underline-offset: 2px;
+}
+
+.prose a:hover {
+	color: #BF807A;
+}
+
+.prose strong {
+	color: #0f172a;
+	font-weight: 600;
+}
+
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+	color: #0f172a;
+	font-weight: 700;
+}
+
+/* フェードインアニメーション */
+@keyframes fadeInUp {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.fade-in-up {
+	animation: fadeInUp 0.6s var(--ease-out-expo) forwards;
+}
+
+/* スケールインアニメーション */
+@keyframes scaleIn {
+	from {
+		opacity: 0;
+		transform: scale(0.9);
+	}
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+.scale-in {
+	animation: scaleIn 0.4s var(--ease-spring) forwards;
+}
+
+/* パルスアニメーション（CTA用） */
+@keyframes subtlePulse {
+	0%, 100% {
+		box-shadow: 0 0 0 0 rgba(46, 87, 140, 0.3);
+	}
+	50% {
+		box-shadow: 0 0 0 10px rgba(46, 87, 140, 0);
+	}
+}
+
+.pulse-subtle {
+	animation: subtlePulse 2s var(--ease-in-out) infinite;
+}
+
+/* ============================================
+   ACCESSIBILITY
+   ============================================ */
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+	}
+}
+
+/* フォーカス_visible */
+*:focus-visible {
+	outline: 2px solid #2E578C;
+	outline-offset: 2px;
+	border-radius: 4px;
+}
+
+/* ============================================
+   PAGE TRANSITIONS
+   ============================================ */
+
+/* ページ全体のフェードイン */
+.page-enter {
+	animation: pageEnter 0.4s var(--ease-out-expo);
+}
+
+@keyframes pageEnter {
+	from {
+		opacity: 0;
+		transform: translateY(10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* ============================================
+   SCROLLBAR STYLING
+   ============================================ */
+
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+	background: linear-gradient(135deg, #2E578C, #BF807A);
+	border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: linear-gradient(135deg, #3d6ba8, #d4938d);
+}
+
+/* ============================================
+   SELECTION STYLING
+   ============================================ */
+
+::selection {
+	background: rgba(46, 87, 140, 0.25);
+	color: #0f172a;
+}
+
+::-moz-selection {
+	background: rgba(46, 87, 140, 0.25);
+	color: #0f172a;
+}

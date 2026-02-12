@@ -62,3 +62,5 @@ docs
 examples
 
 prompts/
+
+node_modules/
