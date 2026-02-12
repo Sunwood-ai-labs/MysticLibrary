@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "promptList": "プロンプト一覧",
+    "wiki": "Wiki"
+  },
+  "home": {
+    "heroTitle": "AIの魔法を解き放つ",
+    "heroDescription": "創造的で効果的なAIプロンプトを発見、作成、共有できるプラットフォーム",
+    "feature1Title": "厳選されたプロンプト",
+    "feature1Desc": "様々なカテゴリーの高品質なプロンプトコレクションにアクセス",
+    "feature2Title": "学習と上達",
+    "feature2Desc": "プロンプトエンジニアリングの包括的なガイドで技術を習得",
+    "feature3Title": "コミュニティ駆動",
+    "feature3Desc": "活気あるAIエンスージアストとプロンプトエンジニアのコミュニティに参加",
+    "ctaTitle": "プロンプトを探す",
+    "ctaDescription": "Mystic Libraryで、あなたのAIとの対話を変革しませんか？",
+    "ctaButton": "プロンプト一覧を見る",
+    "highlight": "あなたのプロンプトが、次のAIイノベーションの鍵となるかもしれません"
+  },
+  "browse": {
+    "title": "プロンプト一覧",
+    "searchPlaceholder": "プロンプトを検索...",
+    "loading": "魔法の図書館から知識を呼び出し中...",
+    "noPrompts": "まだプロンプトが投稿されていません。",
+    "script": "スクリプト",
+    "updated": "更新日",
+    "highlight": "新しいプロンプトは毎日追加されています。あなたのアイデアも共有してみませんか？"
+  },
+  "wiki": {
+    "title": "プロンプトWiki",
+    "selectPrompt": "プロンプトを選択してください",
+    "copy": "コピー",
+    "share": "共有",
+    "copyTooltip": "マークダウンをコピー",
+    "shareTooltip": "ページURLを共有",
+    "copied": "コピーしました！",
+    "shared": "URLをコピーしました！",
+    "filePath": "ファイルパス"
+  },
+  "preview": {
+    "loading": "プロンプトを召喚中...",
+    "notFound": "該当するプロンプトが見つかりません。",
+    "copy": "コピー",
+    "copyTooltip": "マークダウンをコピー",
+    "copied": "コピーしました！"
+  },
+  "categories": {
+    "audio": "音声",
+    "coding": "コーディング",
+    "aws-certification": "AWS認定",
+    "Company-as-a-Code": "Company as a Code",
+    "diagram": "ダイアグラム",
+    "documentation": "ドキュメント",
+    "education": "教育",
+    "game": "ゲーム",
+    "image": "画像生成",
+    "meta": "メタ",
+    "methodology": "手法",
+    "mind-mapping": "マインドマップ",
+    "multimodal": "マルチモーダル",
+    "presentation": "プレゼンテーション",
+    "pseudo-multi-agent": "疑似マルチエージェント",
+    "writing": "ライティング",
+    "other": "その他"
+  },
+  "language": {
+    "ja": "日本語",
+    "en": "English"
+  }
+}
