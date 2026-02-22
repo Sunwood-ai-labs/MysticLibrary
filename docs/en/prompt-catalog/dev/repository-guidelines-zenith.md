@@ -1,16 +1,16 @@
 ---
-title: Zenith リポジトリ運用ガイドライン
-description: README構成、設計原則、コミット規約などを定義するリポジトリ運用ガイドライン。
+title: Zenith Repository Operations Guidelines
+description: Repository operations guidelines defining README structure, design principles, commit conventions, and more.
 category: dev
 intent: repository_guidelines_zenith
 audience:
-  - 開発チーム
-  - リポジトリ管理者
-  - AIコーディングエージェント
+  - Development team
+  - Repository administrators
+  - AI coding agents
 input_requirements:
-  - 対象リポジトリ
-  - コミット規約
-  - README/ドキュメント方針
+  - Target repository
+  - Commit conventions
+  - README/documentation policy
 tags:
   - repository
   - guidelines
@@ -21,119 +21,119 @@ owner: prompt-lb-team
 last_reviewed: 2026-02-22
 ---
 
-# Zenith リポジトリ運用ガイドライン
+# Zenith Repository Operations Guidelines
 
-## 想定用途
+## Intended Use
 
-- 新規/既存リポジトリの運用ルール整備
-- エージェントの作業規範として共有
+- Establishing operating rules for new/existing repositories
+- Sharing as an agent work standard
 
-## プロンプト本文
+## Prompt Body
 
 ~~~~~md
-## リポジトリ要件定義プロンプト
+## Repository Requirements Definition Prompt
 
-### 基本方針
+### Basic Policy
 
-- **言語ポリシー**  
-  - コード中の変数名・関数名・クラス名・ファイル名などのコード要素：英語  
-  - コメント、README、ドキュメント、コミットメッセージ：日本語
+- **Language Policy**  
+  - Code elements such as variable names, function names, class names, and file names in code: English  
+  - Comments, README, documentation, and commit messages: Japanese
 
-- **README作成・整備**  
-  - `README.md`を必ず作成し、日本語で記述すること。  
-  - `README.md`には、`assets`ディレクトリに格納したSVGヘッダー画像を使用し、中央揃えで配置する。  
-    - SVGは角を丸めた形状、グラデーション、図形・テキスト・グラデーションに対するアニメーションを付与し、英語の洗練された表現を入れること。  
-  - `README.md`は変更が生じるたびに更新すること。  
-  - 重複コンテンツは避け、情報源を一元化する。
-　- READMEの章には絵文字を付与して可読性を高めて
+- **README Creation and Maintenance**  
+  - Always create `README.md` and write it in Japanese.  
+  - In `README.md`, use an SVG header image stored in the `assets` directory and place it centered.  
+    - The SVG should have rounded corners, gradients, and animations for shapes/text/gradients, and include polished English wording.  
+  - Update `README.md` whenever changes occur.  
+  - Avoid duplicate content and centralize sources of truth.
+  - Add emojis to README sections to improve readability
 
-### コーディング原則
+### Coding Principles
 
-1. **DRY（Don't Repeat Yourself）**  
-   - 同一・類似処理は関数・モジュール化することで再利用性を高める。
+1. **DRY (Don't Repeat Yourself)**  
+   - Improve reusability by turning identical/similar processing into functions or modules.
 
-2. **責務の分離（Separation of Concerns）**  
-   - 各モジュール・クラス・関数は単一責務を明確にし、表現・ロジック・データ処理を分離する。
+2. **Separation of Concerns**  
+   - Clarify a single responsibility for each module/class/function, and separate presentation, logic, and data processing.
 
-3. **KISS（Keep It Simple, Stupid）**  
-   - コードは可能な限りシンプルに保ち、過度な複雑化を避ける。
+3. **KISS (Keep It Simple, Stupid)**  
+   - Keep code as simple as possible and avoid excessive complexity.
 
-4. **分割統治（Divide and Conquer）**  
-   - 大きな問題は小さな単位に分割し、テスト・保守性を向上させる。
+4. **Divide and Conquer**  
+   - Break large problems into smaller units to improve testability and maintainability.
 
-5. **防御的プログラミング（Defensive Programming）**  
-   - 入力値検証、例外処理、エラー対策を行い、堅牢性とセキュリティを確保する。
+5. **Defensive Programming**  
+   - Perform input validation, exception handling, and error countermeasures to ensure robustness and security.
 
-6. **YAGNI（You Aren't Gonna Need It）**  
-   - 現在の要件に集中し、不要な将来予測による過剰実装を避ける。
+6. **YAGNI (You Aren't Gonna Need It)**  
+   - Focus on current requirements and avoid over-implementation based on unnecessary future speculation.
 
-7. **可読性とドキュメンテーション**  
-   - 変数・関数・クラス名は英語で、役割が一目でわかるような命名を行う。  
-   - コメントやREADMEでコードの意図・ロジックを日本語で明確に説明する。
+7. **Readability and Documentation**  
+   - Use English for variable/function/class names, with naming that clearly shows their roles at a glance.  
+   - Clearly explain code intent and logic in Japanese via comments and the README.
 
-8. **テスト駆動開発（TDD）とユニットテスト**  
-   - 基本機能にはユニットテストを用意する。  
-   - TDDを推奨し、要件定義→テスト→実装→リファクタリングのサイクルを確立する。
+8. **Test-Driven Development (TDD) and Unit Tests**  
+   - Provide unit tests for core functionality.  
+   - Recommend TDD and establish the cycle of requirements definition -> tests -> implementation -> refactoring.
 
-9. **バージョン管理とコードレビュー**  
-   - Gitで変更履歴を管理し、プルリクエストを通じてコードレビューを行う。  
-   - ファイルを変更したら、変更があったファイルごとにコミットを行い、履歴管理を明確化すること。
+9. **Version Control and Code Review**  
+   - Manage change history with Git and conduct code reviews through pull requests.  
+   - When files are changed, commit per changed file to keep history management clear.
 
-10. **SOLID原則の適用**  
-    - SRP, OCP, LSP, ISP, DIPを考慮し、拡張性・保守性の高い設計を行う。
+10. **Applying SOLID Principles**  
+    - Consider SRP, OCP, LSP, ISP, and DIP to create designs with high extensibility and maintainability.
 
-### コミットメッセージ形式
+### Commit Message Format
 
-- コミットメッセージは以下の形式に従うこと:
+- Commit messages must follow the format below:
 
   ```
-  <絵文字> <タイプ>: <タイトル>
+  <emoji> <type>: <title>
 
-  <本文>
+  <body>
 
-  <フッター>
+  <footer>
   ```
 
-- タイトル（コミットメッセージの1行目）の先頭には必ず絵文字を付与し、日本語で記述すること。  
-- タイプは以下のいずれかとする：
+- The title (the first line of the commit message) must always start with an emoji and be written in Japanese.  
+- The type must be one of the following:
 
-  - **feat**: 新機能  
-  - **fix**: バグ修正  
-  - **docs**: ドキュメントの変更  
-  - **style**: コードスタイルの変更（動作に影響しない）  
-  - **refactor**: リファクタリング  
-  - **perf**: パフォーマンス改善  
-  - **test**: テストの追加・修正  
-  - **chore**: ビルドプロセスやツールの変更
+  - **feat**: New feature  
+  - **fix**: Bug fix  
+  - **docs**: Documentation changes  
+  - **style**: Code style changes (no behavior impact)  
+  - **refactor**: Refactoring  
+  - **perf**: Performance improvement  
+  - **test**: Add/modify tests  
+  - **chore**: Build process or tooling changes
 
-### 追加要件（必要に応じて）
+### Additional Requirements (As Needed)
 
-- **CI/CD導入**: 自動テスト、ビルド、デプロイを行うパイプラインを整備し、品質と迅速なリリースを実現する。  
-- **パフォーマンス最適化**: 必要に応じて計測・改善を行い、効率的なスケールを実現する。  
-- **アクセシビリティ・国際化対応**: ターゲットユーザに応じてi18nやアクセシビリティ対応を検討する。
+- **CI/CD Introduction**: Establish pipelines for automated testing, builds, and deployment to achieve quality and rapid releases.  
+- **Performance Optimization**: Measure and improve as needed to achieve efficient scaling.  
+- **Accessibility / Internationalization Support**: Consider i18n and accessibility support according to target users.
 
 ~~~~~
 
-## 使い方
+## How to Use
 
-1. チーム規約のベースとして読み合わせる
-2. 不要/過剰なルールを削って適用範囲を絞る
-3. 自動検査可能な項目は CI ルール化する
+1. Review it together as a base for team conventions
+2. Remove unnecessary/excessive rules and narrow the scope of application
+3. Convert automatically verifiable items into CI rules
 
-## 入力例
-
-```text
-対象: TypeScript Webアプリのリポジトリ
-運用: PRベース開発 / Conventional Commits
-```
-
-## 出力例
+## Input Example
 
 ```text
-README/コード/コミットに関する統一運用ルールのたたき台
+Target: TypeScript web application repository
+Operation: PR-based development / Conventional Commits
 ```
 
-## 注意点
+## Output Example
 
-- ルールを増やしすぎると運用負荷が上がる
-- 見た目要件はプロダクト特性に合わせて調整する
+```text
+Draft of unified operating rules for README/code/commits
+```
+
+## Notes
+
+- Adding too many rules increases operational overhead
+- Adjust visual requirements to match product characteristics
