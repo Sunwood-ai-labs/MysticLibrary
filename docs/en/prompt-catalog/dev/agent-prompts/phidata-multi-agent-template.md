@@ -38,9 +38,9 @@ Template for automatically designing and implementing multi-agent AI systems usi
 
 ## Project Purpose
 
-【Enter project purpose here】
+[Describe the project purpose here]
 
-Example: "Want to establish a consulting company using AI for real estate price prediction and market analysis"
+Example: "I want to establish a consulting company that performs real estate price prediction and market analysis using AI"
 
 ## Desired Content
 - Organizational structure
@@ -52,27 +52,27 @@ Example: "Want to establish a consulting company using AI for real estate price 
 # Output Format
 
 ## 1. Organizational Analysis
-【LLM analyzes organizational requirements and proposes optimal structure】
+[LLM analyzes organizational requirements and proposes optimal structure]
 
 ### 1.1 Organizational Structure
-【Display department composition and hierarchy in tree format】
+[Display department composition and hierarchy in tree format]
 
 ### 1.2 Roles and Responsibilities
-【Detailed responsibility scope of each department/position】
+[Detailed responsibility scope of each department/position]
 
 ## 2. AI Agent Design
-【Identification and design of required AI agents】
+[Identification and design of required AI agents]
 
 ### 2.1 Agent Composition
-【Definition of agent types and roles】
+[Definition of agent types and roles]
 
 ### 2.2 Data Flow
-【Collaboration and information flow between agents】
+[Collaboration and information flow between agents]
 
 ## 3. Implementation Code
 
 ```python
-# Enter code implementation here
+# Write code implementation here
 ```
 ```
 
@@ -160,9 +160,9 @@ data_collector = Agent(
         YFinanceTools(enable_all=True)
     ],
     instructions=[
-        "不動産市場データを収集",
-        "信頼性の高いソースを優先",
-        "データの前処理と整形を行う"
+        "Collect real estate market data",
+        "Prioritize reliable sources",
+        "Perform data preprocessing and formatting"
     ],
     storage=SqlAgentStorage(
         table_name="data_collector",
