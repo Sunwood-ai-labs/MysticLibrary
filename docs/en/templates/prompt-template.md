@@ -1,73 +1,73 @@
-# プロンプトテンプレート
+# Prompt Template
 
-新しいプロンプトを登録する際のベーステンプレートです。個別プロンプトページでは frontmatter を必ず設定してください。
+This is the base template for registering a new prompt. Be sure to set frontmatter on each individual prompt page.
 
-## 使い方
+## How to Use
 
-1. カテゴリ配下に新規 `.md` を作成する
-2. 以下のテンプレートを貼り付ける
-3. frontmatter の必須項目を埋める
-4. 入力例・出力例・注意点まで書く
-5. 対応するカテゴリの `index.md` にリンクを追加する
+1. Create a new `.md` file under the appropriate category.
+2. Paste the template below.
+3. Fill in the required frontmatter fields.
+4. Write the input examples, output examples, and notes.
+5. Add a link to the corresponding category's `index.md`.
 
-## テンプレート
+## Template
 
 ````md
 ---
-title: （プロンプト名）
-description: （何をするプロンプトかを1文で）
-category: （writing / dev / ...）
-intent: （機械判定しやすい識別子）
+title: (Prompt Name)
+description: (One sentence describing what the prompt does)
+category: (writing / dev / ...)
+intent: (Identifier that is easy for machine classification)
 audience:
-  - （想定利用者）
+  - (Intended user)
 input_requirements:
-  - （必要な入力情報）
+  - (Required input information)
 tags:
-  - （検索用タグ）
+  - (Search tag)
 status: draft
-owner: （管理チーム名）
+owner: (Managing team name)
 last_reviewed: YYYY-MM-DD
 ---
 
-# （プロンプト名）
+# (Prompt Name)
 
-## 想定用途
+## Intended Use
 
-- （利用シーン）
+- (Usage scenario)
 
-## プロンプト本文
-
-```text
-（そのまま使えるプロンプト本文）
-```
-
-## 使い方
-
-1. （入力の埋め方）
-2. （レビュー観点）
-
-## 入力例
+## Prompt Body
 
 ```text
-（入力例）
+(Prompt body that can be used as-is)
 ```
 
-## 出力例
+## How to Use
+
+1. (How to fill in the inputs)
+2. (Review points)
+
+## Input Example
 
 ```text
-（期待する出力例）
+(Input example)
 ```
 
-## 注意点
+## Output Example
 
-- （誤用防止）
-- （人間確認が必要な点）
+```text
+(Expected output example)
+```
+
+## Notes
+
+- (Misuse prevention)
+- (Points requiring human review)
 ```
 ````
 
-## レビュー観点
+## Review Checklist
 
-- `description` と `intent` が一致しているか
-- `input_requirements` が実運用で収集可能か
-- 出力例がプロンプト本文の要件を満たしているか
-- 注意点にリスク（誤情報、個人情報、権限逸脱）が含まれているか
+- Do `description` and `intent` match?
+- Are `input_requirements` collectable in actual operations?
+- Does the output example satisfy the requirements in the prompt body?
+- Do the notes include risks (misinformation, personal information, privilege overreach)?

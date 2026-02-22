@@ -1,30 +1,30 @@
-# 運用ルール
+# Operation Rules
 
-Mystic Library（プロンプトライブラリ）を継続的に使える状態に保つための最低限の運用ルールです。
+These are the minimum operating rules to keep Mystic Library (the prompt library) continuously usable.
 
-## 登録ルール
+## Registration Rules
 
-- 個別プロンプトはカテゴリ配下に配置する
-- 各個別プロンプトに frontmatter 必須項目をすべて記載する
-- `intent` は重複を避け、機械処理しやすい識別子にする
-- `status` は `draft` / `active` / `deprecated` を使用する
-- `last_reviewed` は `YYYY-MM-DD` 形式で記載する
+- Place each individual prompt under a category.
+- Include all required frontmatter fields in each individual prompt.
+- Make `intent` unique and easy to process programmatically.
+- Use `draft` / `active` / `deprecated` for `status`.
+- Write `last_reviewed` in `YYYY-MM-DD` format.
 
-## 品質ルール
+## Quality Rules
 
-- プロンプト本文だけでなく、使い方・入力例・出力例・注意点を必ず書く
-- 出力例は誇張せず、現実的な品質にする
-- 高リスク用途（法務・医療・金融判断）は補助用途であることを明記する
-- 個人情報や秘密情報を含む入力例は匿名化する
+- Write not only the prompt body, but also usage instructions, input examples, output examples, and notes.
+- Keep output examples realistic and avoid exaggerated quality.
+- For high-risk use cases (legal, medical, financial decisions), clearly state that the prompt is for assistive use only.
+- Anonymize input examples that include personal or confidential information.
 
-## 更新ルール
+## Update Rules
 
-- 既存プロンプトを変更したら `docs/log/update.md` に要点を追記する
-- 破壊的変更（入力形式変更、出力要件変更）は理由を記載する
-- `deprecated` にする場合は代替プロンプトを示す
+- When changing an existing prompt, append the key points to `docs/log/update.md`.
+- For breaking changes (input format changes, output requirement changes), document the reason.
+- If marking a prompt as `deprecated`, provide an alternative prompt.
 
-## レビュー運用
+## Review Operations
 
-- 初回登録は最低1名のレビューを推奨
-- `active` プロンプトは定期的に `last_reviewed` を更新する
-- 実運用での失敗例があれば、注意点に反映する
+- For initial registration, at least one reviewer is recommended.
+- Regularly update `last_reviewed` for `active` prompts.
+- If there are failure cases in actual operations, reflect them in the notes.

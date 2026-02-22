@@ -1,27 +1,27 @@
-# よくある質問（FAQ）
+# Frequently Asked Questions (FAQ)
 
-## Q. まず何から書けばいいですか？
+## Q. What should I write first?
 
-`description` と `intent` を先に決めてください。何をさせるプロンプトなのかが曖昧だと、本文と例がぶれやすくなります。
+Decide `description` and `intent` first. If it is unclear what the prompt is supposed to do, the body and examples are more likely to become inconsistent.
 
-## Q. 入力例と出力例はどこまで詳細に書くべきですか？
+## Q. How detailed should input and output examples be?
 
-実務でそのまま試せる粒度を目安にします。最低でも、入力例から出力例の品質イメージが伝わるようにしてください。
+Use a level of detail that can be tested directly in real work. At minimum, the input example should clearly convey the expected quality level of the output example.
 
-## Q. 機密情報を含む実データを例として使ってもいいですか？
+## Q. Can I use real data containing confidential information as examples?
 
-避けてください。匿名化・ダミーデータ化した例を使います。ログ例も同様です。
+Avoid this. Use anonymized or dummy-data examples instead. The same applies to log examples.
 
-## Q. `status` はどう使い分けますか？
+## Q. How should I use `status` values?
 
-- `draft`: 作成中、または検証不足
-- `active`: 運用可能
-- `deprecated`: 新規利用を非推奨（代替あり）
+- `draft`: In progress, or insufficiently validated
+- `active`: Ready for operation
+- `deprecated`: Not recommended for new use (alternative available)
 
-## Q. 出力が安定しない場合はどうすればいいですか？
+## Q. What should I do if the output is unstable?
 
-入力要件を増やす、出力フォーマットを明示する、禁止事項を追加する、の順で改善してください。改善内容は更新ログに残します。
+Improve in this order: add input requirements, specify the output format, and add prohibitions. Record the improvements in the update log.
 
-## Q. LLM が誤った内容を出した場合の責任分界は？
+## Q. Where is the responsibility boundary if the LLM outputs incorrect content?
 
-最終判断・送信・実行は人間が行います。ライブラリは補助ツールであり、自動承認の前提にはしません。
+Final judgment, sending, and execution must be done by humans. The library is an assistive tool and must not be treated as a basis for automatic approval.
