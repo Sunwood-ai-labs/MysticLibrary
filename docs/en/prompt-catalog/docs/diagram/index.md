@@ -33,6 +33,8 @@ A collection of prompts for visually representing system architectures and proce
 ### Eraser
 
 - [Eraser Syntax Guide ①](./eraser-syntax-guide-1.md) - Guide to Eraser platform notation
+- [Eraser Syntax Guide ② ERD](./eraser-syntax-guide-erd.md) - Entity Relationship Diagram (ERD) notation guide
+- [EraserAI Practical Guide](./eraser-ai-practical-guide.md) - Practical use cases for creating useful diagrams
 
 ## How to Use
 
