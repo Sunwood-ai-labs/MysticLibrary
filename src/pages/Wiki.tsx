@@ -6,24 +6,8 @@ import * as Icons from 'lucide-react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHatWizard } from '@fortawesome/free-solid-svg-icons';
-
-const CATEGORY_LABELS: Record<string, string> = {
-  audio: '音声',
-  coding: 'コーディング',
-  'aws-certification': 'AWS認定',
-  'Company-as-a-Code': 'Company as a Code',
-  'deep-research': 'リサーチ',
-  diagram: 'ダイアグラム',
-  documentation: 'ドキュメント',
-  education: '教育',
-  game: 'ゲーム',
-  image: '画像生成',
-  meta: 'メタ',
-  methodology: '手法',
-  'mind-mapping': 'マインドマップ',
-  'pseudo-multi-agent': '疑似マルチエージェント',
-  writing: 'ライティング',
-};
+import { useLanguage } from '../contexts/LanguageContext';
+import { getPromptFilesByLanguage } from '../lib/promptLoader';
 
 const CATEGORY_ICONS: Record<string, React.ComponentType<any>> = {
   audio: Icons.Mic,
@@ -52,9 +36,6 @@ type PromptFile = {
   segments: string[]; // ["category", "subdir1", ..., "filename.md"]
 };
 
-const mdFiles = import.meta.glob('/prompts/**/*.md', { query: '?raw', import: 'default' });
-const shFiles = import.meta.glob('/prompts/**/*.sh', { query: '?raw', import: 'default' });
-
 function buildTree(files: PromptFile[]) {
   // category > subdir... > file というツリーを構築
   const tree: any = {};
@@ -75,6 +56,7 @@ function buildTree(files: PromptFile[]) {
 }
 
 export function Wiki() {
+  const { language, t } = useLanguage();
   // URLパラメータ取得
   // react-router-dom v6: catch-allは useParams().['*']
   const { '*': wikiPath = '' } = useParams();
@@ -87,13 +69,33 @@ export function Wiki() {
   const [copied, setCopied] = useState(false);
   const [shared, setShared] = useState(false);
 
+  // 動的なカテゴリラベル
+  const CATEGORY_LABELS = useMemo(() => ({
+    audio: t('categories.audio'),
+    coding: t('categories.coding'),
+    'aws-certification': t('categories.aws-certification'),
+    'Company-as-a-Code': t('categories.Company-as-a-Code'),
+    'deep-research': t('categories.deep-research'),
+    diagram: t('categories.diagram'),
+    documentation: t('categories.documentation'),
+    education: t('categories.education'),
+    game: t('categories.game'),
+    image: t('categories.image'),
+    meta: t('categories.meta'),
+    methodology: t('categories.methodology'),
+    'mind-mapping': t('categories.mind-mapping'),
+    multimodal: t('categories.multimodal'),
+    presentation: t('categories.presentation'),
+    'pseudo-multi-agent': t('categories.pseudo-multi-agent'),
+    writing: t('categories.writing'),
+  }), [t]);
+
   // ファイル一覧ロード
   useEffect(() => {
     async function loadAll() {
-      // マークダウンファイルとシェルスクリプトファイルの両方を読み込み
-      const mdEntries = Object.entries(mdFiles);
-      const shEntries = Object.entries(shFiles);
-      const allEntries = [...mdEntries, ...shEntries];
+      // 言語に応じたファイルを読み込み
+      const allFiles = getPromptFilesByLanguage(language);
+      const allEntries = Object.entries(allFiles);
       
       const loaded: PromptFile[] = [];
       for (const [path, loader] of allEntries) {
@@ -122,7 +124,7 @@ export function Wiki() {
       setLoading(false);
     }
     loadAll();
-  }, []);
+  }, [language]);
 
   // URLパスから該当プロンプトを特定
   const selected: PromptFile | null = useMemo(() => {
@@ -242,7 +244,7 @@ export function Wiki() {
             <div className="sparkle"></div>
           </div>
         </div>
-        <p className="text-primary-dark font-zen mt-4 opacity-70">魔法の図書館から知識を呼び出し中...</p>
+        <p className="text-primary-dark font-zen mt-4 opacity-70">{t('wiki.loading')}</p>
       </div>
     );
   }
@@ -253,7 +255,7 @@ export function Wiki() {
       <aside className="w-80 bg-white border-r border-light p-4 overflow-y-auto text-xs">
         <div className="flex items-center gap-2 mb-6">
           <WikiIcon className="h-6 w-6 text-primary" />
-          <span className="font-bold text-lg text-primary-dark">プロンプトWiki</span>
+          <span className="font-bold text-lg text-primary-dark">{t('wiki.title')}</span>
         </div>
         {renderTree(tree)}
       </aside>
@@ -276,7 +278,7 @@ export function Wiki() {
                 </span>
                 {selected.path.endsWith('.sh') && (
                   <span className="text-xs text-white bg-gray-700 px-2 py-1 rounded ml-2">
-                    スクリプト
+                    {t('browse.script')}
                   </span>
                 )}
                 {/* コピーボタン・共有ボタン */}
@@ -288,9 +290,9 @@ export function Wiki() {
                       setTimeout(() => setCopied(false), 2000);
                     }}
                     className="px-3 py-1 rounded-full bg-primary text-white text-xs font-bold shadow hover:bg-accent transition-colors"
-                    title="マークダウンをコピー"
+                    title={t('wiki.copyTooltip')}
                   >
-                    コピー
+                    {t('wiki.copy')}
                   </button>
                   <button
                     onClick={async () => {
@@ -299,25 +301,25 @@ export function Wiki() {
                       setTimeout(() => setShared(false), 2000);
                     }}
                     className="px-3 py-1 rounded-full bg-primary text-white text-xs font-bold shadow hover:bg-accent transition-colors"
-                    title="ページURLを共有"
+                    title={t('wiki.shareTooltip')}
                   >
-                    共有
+                    {t('wiki.share')}
                   </button>
                 </div>
                 {/* コピー・共有トースト */}
                 {copied && (
                   <span className="ml-2 px-2 py-1 bg-primary text-white text-xs rounded shadow">
-                    コピーしました！
+                    {t('wiki.copied')}
                   </span>
                 )}
                 {shared && (
                   <span className="ml-2 px-2 py-1 bg-accent text-white text-xs rounded shadow">
-                    URLをコピーしました！
+                    {t('wiki.shared')}
                   </span>
                 )}
               </div>
               <div className="text-xs text-primary-dark opacity-70 font-mono">
-                ファイルパス: <a
+                {t('wiki.filePath')}: <a
                   href={`https://github.com/Sunwood-ai-labs/MysticLibrary/blob/main/prompts/${selected.segments.join('/')}`}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -340,7 +342,7 @@ export function Wiki() {
             )}
           </div>
         ) : (
-          <div className="text-center text-primary-dark">プロンプトを選択してください</div>
+          <div className="text-center text-primary-dark">{t('wiki.selectPrompt')}</div>
         )}
       </main>
     </div>

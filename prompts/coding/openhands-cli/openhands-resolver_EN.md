@@ -1,4 +1,4 @@
-# openhands-resolver.yml
+# forgejo openhands-resolver.yml
 
 ```yaml
 name: OpenHands Issue Resolver (Ultra Simple)
@@ -31,30 +31,30 @@ jobs:
     runs-on: docker
     container:
       image: python:3.12-bookworm
-    
+
     permissions:
       contents: write
       pull-requests: write
       issues: write
-    
+
     steps:
       - name: Install dependencies
         run: |
           echo "🔧 Installing dependencies..."
           apt-get update
           apt-get install -y curl git jq ca-certificates
-          
-          # Node.js 20をインストール（actions/checkout@v4に必要）
+
+          # Install Node.js 20 (required for actions/checkout@v4)
           curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
           apt-get install -y nodejs
-          
-          # uvをインストール
+
+          # Install uv
           curl -LsSf https://astral.sh/uv/install.sh | sh
-          
-          # PATHを正しく設定
+
+          # Set PATH correctly
           export PATH="/root/.local/bin:$PATH"
           echo "/root/.local/bin" >> $GITHUB_PATH
-          
+
           echo "✅ Dependencies installed"
           python --version
           node --version
@@ -64,7 +64,7 @@ jobs:
       - name: Add eyes reaction
         run: |
           echo "👀 Adding eyes reaction..."
-          
+
           case "${{ github.event_name }}" in
             "issue_comment")
               REACTION_URL="${{ github.api_url }}/repos/${{ github.repository }}/issues/comments/${{ github.event.comment.id }}/reactions"
@@ -76,7 +76,7 @@ jobs:
               REACTION_URL="${{ github.api_url }}/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/reactions"
               ;;
           esac
-          
+
           if [ -n "$REACTION_URL" ]; then
             curl -X POST \
               -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
@@ -93,12 +93,12 @@ jobs:
       - name: Extract issue content and run OpenHands
         id: openhands
         run: |
-          # PATHを確実に設定
+          # Ensure PATH is set
           export PATH="/root/.local/bin:$PATH"
-          
+
           echo "🚀 Extracting issue content and running OpenHands..."
-          
-          # Issue/PR番号とタスク内容を特定
+
+          # Identify Issue/PR number and task content
           if [ -n "${{ github.event.pull_request.number }}" ]; then
             ISSUE_NUMBER="${{ github.event.pull_request.number }}"
             TASK_CONTENT="${{ github.event.pull_request.body }}"
@@ -110,33 +110,33 @@ jobs:
               TASK_CONTENT="${{ github.event.issue.body }}"
             fi
           fi
-          
-          # @openhands-agentを除去してタスク内容をクリーンアップ
+
+          # Remove @openhands-agent to clean task content
           CLEAN_TASK=$(echo "$TASK_CONTENT" | sed 's/@openhands-agent[^[:space:]]*//' | sed 's/^[[:space:]]*//' | sed 's/[[:space:]]*$//')
-          
-          # 空の場合はデフォルトタスクを設定
+
+          # Set default task if empty
           if [ -z "$CLEAN_TASK" ]; then
-            CLEAN_TASK="Issue #${ISSUE_NUMBER}を解決してください"
+            CLEAN_TASK="Please resolve issue #${ISSUE_NUMBER}"
           fi
-          
+
           echo "📝 Task: $CLEAN_TASK"
           echo "🏃 Running OpenHands with headless mode..."
-          
-          # Git設定
+
+          # Git configuration
           git config --global user.name "OpenHands Agent"
           git config --global user.email "openhands-agent@users.noreply.github.com"
-          
-          # OpenHands設定ディレクトリを作成
+
+          # Create OpenHands configuration directory
           mkdir -p ~/.config/openhands
           mkdir -p .openhands
-          
-          # 設定ファイルを作成（信頼済みディレクトリ設定）
+
+          # Create configuration file (trusted directory settings)
           cat > ~/.config/openhands/config.toml << 'EOF'
           [sandbox]
           trusted_dirs = [ "/workspace", "/prj", "/home", "/tmp" ]
           EOF
-          
-          # settings.jsonを環境変数から作成
+
+          # Create settings.json from environment variables
           cat > .openhands/settings.json << EOF
           {
               "language": null,
@@ -163,16 +163,16 @@ jobs:
               "email_verified": null
           }
           EOF
-          
-          # 実験版かどうか判定
+
+          # Determine if experimental version
           IS_EXPERIMENTAL=false
           if [ "${{ github.event.label.name }}" = "fix-me-experimental" ]; then
             IS_EXPERIMENTAL=true
           elif [[ "$TASK_CONTENT" == *"@openhands-agent-exp"* ]]; then
             IS_EXPERIMENTAL=true
           fi
-          
-          # OpenHandsを uvx で headless mode 実行（自動実行）
+
+          # Run OpenHands with uvx in headless mode (auto execution)
           if [ "$IS_EXPERIMENTAL" = "true" ]; then
             echo "🧪 Using experimental version with uvx headless mode..."
             /root/.local/bin/uvx --python 3.12 --from "git+https://github.com/all-hands-ai/openhands.git" python -m openhands.core.main -t "$CLEAN_TASK" || OPENHANDS_EXIT_CODE=$?
@@ -180,8 +180,8 @@ jobs:
             echo "🔧 Using stable version with uvx headless mode..."
             /root/.local/bin/uvx --python 3.12 --from openhands-ai python -m openhands.core.main -t "$CLEAN_TASK" || OPENHANDS_EXIT_CODE=$?
           fi
-          
-          # 変更があるかチェック
+
+          # Check if there are changes
           CHANGES=$(git status --porcelain)
           if [ -n "$CHANGES" ]; then
             echo "RESOLUTION_SUCCESS=true" >> $GITHUB_OUTPUT
@@ -192,7 +192,7 @@ jobs:
             echo "HAS_CHANGES=false" >> $GITHUB_OUTPUT
             echo "⚠️ OpenHands completed without changes"
           fi
-          
+
           echo "ISSUE_NUMBER=$ISSUE_NUMBER" >> $GITHUB_OUTPUT
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -203,28 +203,28 @@ jobs:
         if: steps.openhands.outputs.HAS_CHANGES == 'true'
         id: create_pr
         run: |
-          # PATHを確実に設定
+          # Ensure PATH is set
           export PATH="/root/.local/bin:$PATH"
-          
+
           echo "🔧 Creating Pull Request..."
-          
+
           ISSUE_NUMBER="${{ steps.openhands.outputs.ISSUE_NUMBER }}"
           TIMESTAMP=$(date -u +"%Y%m%d-%H%M%S")
           BRANCH_NAME="openhands/fix-issue-${ISSUE_NUMBER}-${TIMESTAMP}"
-          
-          # 新しいブランチを作成してコミット
+
+          # Create new branch and commit
           git checkout -b "$BRANCH_NAME"
           git add .
           git commit -m "🤖 OpenHands: Fix for issue #${ISSUE_NUMBER}"
           git push origin "$BRANCH_NAME"
-          
-          # シンプルなPR作成
+
+          # Simple PR creation
           curl -X POST \
             -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
             -H "Content-Type: application/json" \
-            -d "{\"title\":\"🤖 OpenHands: Fix for issue #${ISSUE_NUMBER}\",\"head\":\"${BRANCH_NAME}\",\"base\":\"main\",\"body\":\"🤖 OpenHands による自動修正\",\"draft\":true}" \
+            -d "{\"title\":\"🤖 OpenHands: Fix for issue #${ISSUE_NUMBER}\",\"head\":\"${BRANCH_NAME}\",\"base\":\"main\",\"body\":\"🤖 Automatic fix by OpenHands\",\"draft\":true}" \
             "${{ github.api_url }}/repos/${{ github.repository }}/pulls" > pr_response.json
-          
+
           PR_NUMBER=$(grep -o '"number":[0-9]*' pr_response.json | cut -d':' -f2 | head -1)
           echo "PR_NUMBER=${PR_NUMBER}" >> $GITHUB_OUTPUT
           echo "✅ PR created: #${PR_NUMBER}"
@@ -233,19 +233,19 @@ jobs:
         if: always()
         run: |
           echo "📝 Posting results..."
-          
+
           ISSUE_NUMBER="${{ steps.openhands.outputs.ISSUE_NUMBER }}"
           HAS_CHANGES="${{ steps.openhands.outputs.HAS_CHANGES }}"
           PR_NUMBER="${{ steps.create_pr.outputs.PR_NUMBER }}"
-          
+
           if [ "$HAS_CHANGES" = "true" ] && [ -n "$PR_NUMBER" ]; then
-            COMMENT_BODY="🎉 OpenHands完了！ドラフトPR #${PR_NUMBER} を作成しました。"
+            COMMENT_BODY="🎉 OpenHands completed! Created draft PR #${PR_NUMBER}."
           elif [ "$HAS_CHANGES" = "true" ]; then
-            COMMENT_BODY="🎉 OpenHandsが変更を作成しましたが、PR作成に失敗しました。"
+            COMMENT_BODY="🎉 OpenHands created changes but failed to create PR."
           else
-            COMMENT_BODY="⚠️ OpenHandsを実行しましたが、変更は検出されませんでした。"
+            COMMENT_BODY="⚠️ OpenHands ran but no changes were detected."
           fi
-          
+
           curl -X POST \
             -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
             -H "Content-Type: application/json" \
@@ -256,16 +256,16 @@ jobs:
         if: always()
         run: |
           echo "🎯 Adding completion reaction..."
-          
+
           SUCCESS="${{ steps.openhands.outputs.RESOLUTION_SUCCESS }}"
           HAS_CHANGES="${{ steps.openhands.outputs.HAS_CHANGES }}"
-          
+
           if [ "$SUCCESS" = "true" ] && [ "$HAS_CHANGES" = "true" ]; then
             REACTION_CONTENT="+1"
           else
             REACTION_CONTENT="-1"
           fi
-          
+
           case "${{ github.event_name }}" in
             "issue_comment")
               REACTION_URL="${{ github.api_url }}/repos/${{ github.repository }}/issues/comments/${{ github.event.comment.id }}/reactions"
@@ -277,7 +277,7 @@ jobs:
               REACTION_URL="${{ github.api_url }}/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/reactions"
               ;;
           esac
-          
+
           if [ -n "$REACTION_URL" ]; then
             curl -X POST \
               -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \

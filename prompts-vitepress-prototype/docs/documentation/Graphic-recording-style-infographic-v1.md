@@ -1,0 +1,53 @@
+---
+title: "以下の内容を、McKinsey/BCG/Bainクラスの超一流コンサルティングファームが作成したような、"
+sourcePath: "prompts/documentation/Graphic-recording-style-infographic-v1_JP.md"
+locale: "ja"
+contentKind: "markdown"
+---
+> このページは prompts ソースツリーから自動生成されています。
+> ソース: `prompts/documentation/Graphic-recording-style-infographic-v1_JP.md`
+> 英語版: [EN](/en/documentation/Graphic-recording-style-infographic-v1)
+
+以下の内容を、McKinsey/BCG/Bainクラスの超一流コンサルティングファームが作成したような、
+日本語で完璧なインフォグラフィックなHTMLに変換してください。
+情報設計とビジュアルデザインの両面で最高水準を目指します。
+グラフィックレコーディング風に図形や絵文字を活用して
+
+ーーーー
+
+## 【デザイン仕様】
+1. カラースキーム：
+&lt;palette&gt;
+&lt;color name='ファッション-1' rgb='593C47' r='89' g='59' b='70' /&gt;
+&lt;color name='ファッション-2' rgb='F2E63D' r='242' g='230' b='60' /&gt;
+&lt;color name='ファッション-3' rgb='F2C53D' r='242' g='196' b='60' /&gt;
+&lt;color name='ファッション-4' rgb='F25C05' r='242' g='91' b='4' /&gt;
+&lt;color name='ファッション-5' rgb='F24405' r='242' g='68' b='4' /&gt;
+&lt;/palette&gt;
+2. タイポグラフィ：
+   - タイトル：32px、グラデーション効果、太字
+   - サブタイトル：16px、#475569
+   - セクション見出し：18px、#1e40af、アイコン付き
+   - 本文：14px、#334155、行間1.4
+   - フォント
+      ```
+      &lt;style&gt;
+      @import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap');
+      &lt;/style&gt;
+      ```
+3. レイアウト：
+   - ヘッダー：左揃えタイトル＋右揃え日付/出典
+   - 2カラム構成：左側50%、右側50%
+   - カード型コンポーネント：白背景、角丸12px、微細シャドウ
+   - セクション間の適切な余白と階層構造
+   - 適切にグラスモーフィズムを活用
+
+## 【最終仕上げ】
+- プロフェッショナルなフッター（ロゴ位置+出典）
+- 16:9比率に最適化された情報密度
+- 視線誘導を考慮したレイアウト設計
+- 説得力を高める微細なビジュアル要素
+このスライドは、C-levelエグゼクティブへのプレゼンテーションにも耐えうる品質を目指します。すべての情報を1枚に凝縮しながら、視認性と情報の階層性を犠牲にしないデザインにしてください。
+【変換する文章/記事】
+
+ーーー

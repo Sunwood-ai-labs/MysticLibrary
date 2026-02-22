@@ -1,9 +1,12 @@
 import { Link } from 'react-router-dom';
-import { Search, BookOpenCheck } from 'lucide-react';
+import { Search, BookOpenCheck, Languages } from 'lucide-react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHatWizard } from '@fortawesome/free-solid-svg-icons';
+import { useLanguage } from '../contexts/LanguageContext';
 
 export function Navbar() {
+  const { language, setLanguage, t } = useLanguage();
+
   return (
     <nav className="bg-white shadow-md">
       <div className="container mx-auto px-4">
@@ -17,22 +20,41 @@ export function Navbar() {
               Mystic Library
             </span>
           </Link>
-          
+
           <div className="flex items-center space-x-6">
             <Link
               to="/browse"
               className="flex items-center space-x-1 text-primary-dark hover:text-primary transition-colors"
             >
               <Search className="h-5 w-5" />
-              <span className="font-zen">プロンプト一覧</span>
+              <span className="font-zen">{t('nav.promptList')}</span>
             </Link>
             <Link
               to="/wiki"
               className="flex items-center space-x-1 text-primary-dark hover:text-primary transition-colors"
             >
               <BookOpenCheck className="h-5 w-5" />
-              <span className="font-zen">Wiki</span>
+              <span className="font-zen">{t('nav.wiki')}</span>
             </Link>
+
+            <div className="flex items-center space-x-2 border-l border-gray-300 pl-6">
+              <Languages className="h-5 w-5 text-primary" />
+              {([
+                { code: 'ja', label: 'JP' },
+                { code: 'en', label: 'EN' },
+              ] as const).map(({ code, label }) => (
+                <button
+                  key={code}
+                  onClick={() => setLanguage(code)}
+                  className={`px-3 py-1 rounded text-sm font-medium transition-colors ${language === code
+                      ? 'bg-primary text-white'
+                      : 'text-primary-dark hover:bg-gray-100'
+                    }`}
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
       </div>
