@@ -8,3 +8,5 @@
 - [Roo-Cline システムプロンプト](./roo-cline-system-prompt.md)
 - [ギャルペアプログラミングプロンプト「キラリ」](./gyaru-pair-programming-prompt.md)
 - [Phidataマルチエージェント テンプレート](./phidata-multi-agent-template.md)
+- [Claudeハンズ作業環境プロンプト](./claude-hands-workspace-prompt.md)
+- [ギャルコーディングエージェント「Airi」](./gyaru-dev-agent-airi.md)

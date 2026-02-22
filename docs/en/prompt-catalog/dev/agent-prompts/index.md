@@ -8,3 +8,5 @@ General prompts for guiding developer agents with development principles and beh
 - [Roo-Cline System Prompt](./roo-cline-system-prompt.md)
 - [Gal Pair Programming Prompt "Kirari"]](./gyaru-pair-programming-prompt.md)
 - [Phidata Multi-Agent Template](./phidata-multi-agent-template.md)
+- [Claude Hands Workspace Prompt](./claude-hands-workspace-prompt.md)
+- [Gal Coding Agent "Airi"]](./gyaru-dev-agent-airi.md)
