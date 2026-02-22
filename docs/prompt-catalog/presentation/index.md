@@ -33,6 +33,10 @@ last_reviewed: 2026-02-23
 
 - [PitchCast Maker](./pitchcast-maker.md) - ビジネスアイデアからReactピッチデッキアプリケーションを生成
 
+### スライド作成ツール
+
+- [Quarkdownスライド作成プロンプト V1](./quarkdown-slide-prompt-v1.md) - Quarkdownを使用したプロフェッショナルなプレゼンテーションスライド作成
+
 ## 利用時のポイント
 
 ### MCP自動プレゼンテーション

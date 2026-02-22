@@ -33,6 +33,10 @@ Prompts for supporting automatic presentation and pitch deck creation.
 
 - [PitchCast Maker](./pitchcast-maker.md) - Generate React pitch deck application from business ideas
 
+### Slide Creation Tools
+
+- [Quarkdown Slide Creation Prompt V1](./quarkdown-slide-prompt-v1.md) - Professional presentation slide creation using Quarkdown
+
 ## Tips for Use
 
 ### MCP Auto Presentation
