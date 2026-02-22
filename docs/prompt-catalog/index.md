@@ -10,6 +10,7 @@
 - [Dev（開発支援）](./dev/index.md)
 - [Docs（ドキュメント作成）](./docs/index.md)
 - [Methodology（メソドロジー）](./methodology/index.md)
+- [Agent（AIエージェント）](./agent/index.md)
 
 ## 選び方の目安
 

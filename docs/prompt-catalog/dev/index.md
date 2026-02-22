@@ -13,6 +13,7 @@
 - [システムプロンプト](./system-prompts/index.md)
   - [Claude 系](./system-prompts/claude/index.md)
   - [Windsurf 系](./system-prompts/windsurf/index.md)
+- [OpenHands](./openhands/index.md)
 
 ## 利用時のポイント
 

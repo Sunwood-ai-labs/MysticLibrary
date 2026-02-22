@@ -28,8 +28,10 @@ category: creative
 ## 収録プロンプト一覧
 
 ### 音楽生成
-- [包括的ラップ歌詞生成プロンプト v1.1](./audio/comprehensive-rap-lyrics-generator-v1.1.md)
+- [包括的ラップ歌詞生成プロンプト v1.1](./audio/comprehensive-rap-lyrics-generator.md)
+- [包括的ラップ歌詞生成プロンプト v1.1（簡易版）](./audio/comprehensive-rap-lyrics-generator-v1.1.md)
 - [アップテンポ演歌歌詞生成プロンプト](./audio/up-tempo-enka-lyrics-generator.md)
+- [アップテンポ演歌歌詞生成プロンプト（詳細版）](./audio/amped-up-enka-lyrics-generator.md)
 
 ### ビデオ生成
 - [Veo3 ASMR ビデオ生成プロンプト](./video/veo3-asmr-prompts.md)

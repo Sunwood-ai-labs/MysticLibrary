@@ -10,6 +10,7 @@ Prompts are organized by use case. Start by browsing the category pages.
 - [Dev (Development Support)](./dev/index.md)
 - [Docs (Documentation Creation)](./docs/index.md)
 - [Methodology (Methodology)](./methodology/index.md)
+- [Agent (AI Agents)](./agent/index.md)
 
 ## How to Choose
 
