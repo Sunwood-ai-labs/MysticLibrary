@@ -38,6 +38,7 @@ Graphic Recording is a technique for summarizing meeting and presentation conten
 
 ### Thumbnail Generation
 
+- [Infographic Thumbnail V1](./infographic-thumbnail-v1.md) - Thumbnail generation with graphic design color palette
 - [Graphic Recording Thumbnail v4](./graphic-recording-thumbnail-v4.md) - Blog article 16:9 thumbnail generation
 
 ### Slide Generation
