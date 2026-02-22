@@ -29,6 +29,7 @@ A collection of prompts for transforming information into visually appealing doc
 - [Diagram](./diagram/index.md) - Architecture diagrams and flowcharts
 - [Education](./education/index.md) - Educational notebook creation
 - [Markwhen](./markwhen/index.md) - Text-based timeline creation
+- [Quarkdown](./quarkdown/index.md) - Markdown-based slide creation
 
 ## Common Use Cases
 

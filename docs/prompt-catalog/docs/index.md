@@ -29,6 +29,7 @@ last_reviewed: 2026-02-23
 - [Diagram（ダイアグラム）](./diagram/index.md) - アーキテクチャ図やフローチャートの作成
 - [Education（教育）](./education/index.md) - 教育用コードノートブックの作成
 - [Markwhen（タイムライン）](./markwhen/index.md) - テキストベースのタイムライン作成
+- [Quarkdown（スライド）](./quarkdown/index.md) - Markdownベースのスライド作成
 
 ## 主な用途
 
