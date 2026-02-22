@@ -54,14 +54,14 @@
 			<div class="flex items-center space-x-2">
 				<a
 					href="/browse"
-					class="flex items-center space-x-2 px-4 py-2 rounded-lg text-slate-700 font-zen font-medium hover:bg-slate-100 hover:text-primary transition-all duration-200"
+					class="flex items-center space-x-2 px-4 py-2 rounded-lg text-slate-900 font-zen font-medium hover:bg-slate-100 hover:text-primary transition-all duration-200"
 				>
 					<Search class="h-5 w-5" />
 					<span class="font-semibold">{t?.nav?.promptList || 'プロンプト一覧'}</span>
 				</a>
 				<a
 					href="/wiki"
-					class="flex items-center space-x-2 px-4 py-2 rounded-lg text-slate-700 font-zen font-medium hover:bg-slate-100 hover:text-primary transition-all duration-200"
+					class="flex items-center space-x-2 px-4 py-2 rounded-lg text-slate-900 font-zen font-medium hover:bg-slate-100 hover:text-primary transition-all duration-200"
 				>
 					<BookOpenCheck class="h-5 w-5" />
 					<span class="font-semibold">{t?.nav?.wiki || 'Wiki'}</span>
@@ -76,7 +76,7 @@
 							onclick={() => setLanguage(code)}
 							class="px-3 py-1.5 rounded-lg text-sm font-bold font-zen transition-all duration-200 {currentLocale === code
 								? 'bg-primary text-white shadow-md'
-								: 'text-slate-700 hover:bg-slate-100'}"
+								: 'text-slate-900 hover:bg-slate-100'}"
 						>
 							{label}
 						</button>

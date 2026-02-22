@@ -32,7 +32,7 @@ export default {
 				},
 				dark: '#0f172a',
 				light: '#f8fafc',
-				muted: '#64748b'
+				muted: '#475569'  // slate-600 (より濃く)
 			},
 			fontFamily: {
 				kaisei: ['Kaisei Decol', 'serif'],

@@ -50,7 +50,7 @@
 				href="https://x.com/hAru_mAki_ch"
 				target="_blank"
 				rel="noopener noreferrer"
-				class="flex items-center space-x-2 text-slate-800 hover:text-primary transition-colors group"
+				class="flex items-center space-x-2 text-slate-900 hover:text-primary transition-colors group"
 			>
 				<Twitter class="h-6 w-6 group-hover:scale-110 transition-transform" />
 				<span class="font-zen font-semibold text-lg">Maki@Sunwood AI Labs. (@hAru_mAki_ch)</span>
@@ -61,7 +61,7 @@
 				href="https://github.com/Sunwood-ai-labs/MysticLibrary"
 				target="_blank"
 				rel="noopener noreferrer"
-				class="flex items-center space-x-2 text-slate-800 hover:text-primary transition-colors group"
+				class="flex items-center space-x-2 text-slate-900 hover:text-primary transition-colors group"
 			>
 				<Github class="h-5 w-5 group-hover:scale-110 transition-transform" />
 				<span class="font-zen">Sunwood-ai-labs/MysticLibrary</span>
@@ -70,7 +70,7 @@
 
 		<!-- Copyright -->
 		<div class="mt-6 pt-6 border-t border-light text-center">
-			<div class="flex items-center justify-center space-x-2 text-slate-800">
+			<div class="flex items-center justify-center space-x-2 text-slate-900">
 				<span class="font-zen text-sm">
 					© 2024 Mystic Library. Released under the MIT License.
 				</span>

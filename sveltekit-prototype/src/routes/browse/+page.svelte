@@ -74,9 +74,9 @@
 			<input
 				type="text"
 				placeholder={t?.browse?.searchPlaceholder || 'プロンプトを検索...'}
-				class="pl-10 pr-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent font-zen bg-white text-slate-700 placeholder:text-slate-400"
+				class="pl-10 pr-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent font-zen bg-white text-slate-800 placeholder:text-slate-500"
 			/>
-			<Search class="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-slate-400" />
+			<Search class="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-slate-500" />
 		</div>
 	</div>
 
@@ -96,13 +96,13 @@
 					<div class="sparkle"></div>
 				</div>
 			</div>
-			<p class="text-slate-600 font-zen mt-4 opacity-70">
+			<p class="text-slate-800 font-zen mt-4 opacity-80">
 				{t?.browse?.loading || '魔法の図書館から知識を呼び出し中...'}
 			</p>
 		</div>
 	{:else if prompts.length === 0}
 		<div class="text-center py-8 bg-white rounded-xl border border-slate-200 p-12">
-			<p class="text-slate-600 font-zen">{t?.browse?.noPrompts || 'まだプロンプトが投稿されていません。'}</p>
+			<p class="text-slate-800 font-zen">{t?.browse?.noPrompts || 'まだプロンプトが投稿されていません。'}</p>
 		</div>
 	{:else}
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -139,7 +139,7 @@
 									<h3 class="font-kaisei text-lg font-bold text-slate-900 leading-snug">
 										<span class="keyword line-clamp-2 break-words block">{prompt.title}</span>
 									</h3>
-									<p class="prose prose-xs prose-primary prose-headings:text-xs prose-p:text-xs text-slate-600 font-zen line-clamp-2 mt-1 max-w-xs">
+									<p class="prose prose-xs prose-primary prose-headings:text-xs prose-p:text-xs text-slate-800 font-zen line-clamp-2 mt-1 max-w-xs">
 										{prompt.description}
 									</p>
 									<div class="flex flex-wrap gap-2 mt-2">
@@ -168,7 +168,7 @@
 							</div>
 						</a>
 						<div class="relative z-10 mt-auto pt-2 border-t border-slate-100">
-							<div class="text-xs text-slate-500 font-zen">
+							<div class="text-xs text-slate-800 font-zen">
 								{t?.browse?.updated || '更新日'}:
 								{new Date(prompt.lastModified).toLocaleDateString(locale.get() === 'ja' ? 'ja-JP' : 'en-US', {
 									year: 'numeric',
@@ -184,7 +184,7 @@
 	{/if}
 
 	<div class="highlight-box mt-8">
-		<p class="font-zen text-center text-lg text-slate-700">
+		<p class="font-zen text-center text-lg text-slate-900">
 			{t?.browse?.highlight || '新しいプロンプトは毎日追加されています。あなたのアイデアも共有してみませんか？'}
 		</p>
 	</div>

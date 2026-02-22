@@ -29,7 +29,7 @@
 	--primary-rgb: 46, 87, 140;
 	--accent-rgb: 191, 128, 122;
 	--dark-rgb: 15, 23, 42;
-	--muted-rgb: 100, 116, 139;
+	--muted-rgb: 71, 85, 105;  /* slate-600: より濃く */
 
 	/* アニメーションタイミング */
 	--ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
@@ -77,24 +77,14 @@ body {
 /* グラデーションテキスト - Chrome/Firefox/Safari対応 */
 .gradient-text {
 	display: inline-block;
-	background-image: linear-gradient(135deg, #2E578C 0%, #BF807A 100%);
+	color: #1e3a5f;
+	/* グラデーション表示（ブラウザが対応している場合） */
+	background-image: linear-gradient(135deg, #1e3a5f 0%, #3d6ba8 100%);
 	background-size: 200% 200%;
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	color: transparent;
 	animation: gradientShift 3s ease infinite;
-	/* SVGフィルター方式のフォールバック（古いブラウザ用） */
-}
-
-/* グラデーション表示時 */
-@supports (background-clip: text) or (-webkit-background-clip: text) {
-	.gradient-text {
-		background-clip: text;
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		color: transparent;
-	}
 }
 
 @keyframes gradientShift {
@@ -476,7 +466,7 @@ nav {
 .prose-primary {
 	--tw-prose-body: #1e293b;
 	--tw-prose-headings: #0f172a;
-	--tw-prose-lead: #64748b;
+	--tw-prose-lead: #475569;  /* より濃く */
 	--tw-prose-links: #2E578C;
 	--tw-prose-bold: #0f172a;
 	--tw-prose-counters: #2E578C;
@@ -484,7 +474,7 @@ nav {
 	--tw-prose-hr: #e2e8f0;
 	--tw-prose-quotes: #1e293b;
 	--tw-prose-quote-borders: #2E578C;
-	--tw-prose-captions: #64748b;
+	--tw-prose-captions: #475569;  /* より濃く */
 	--tw-prose-code: #dc2626;
 	--tw-prose-pre-code: #f1f5f9;
 	--tw-prose-pre-bg: #0f172a;

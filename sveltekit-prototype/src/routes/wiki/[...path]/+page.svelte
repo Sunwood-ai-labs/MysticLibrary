@@ -235,7 +235,7 @@
 				<div class="sparkle"></div>
 			</div>
 		</div>
-		<p class="text-slate-800 font-zen mt-4 opacity-70">
+		<p class="text-slate-900 font-zen mt-4">
 			{t?.wiki?.loading || 'プロンプトを召喚中...'}
 		</p>
 	</div>
@@ -245,7 +245,7 @@
 		<aside class="w-80 bg-white border-r border-slate-200 p-4 overflow-y-auto text-xs">
 			<div class="flex items-center gap-2 mb-6">
 				<BookOpenCheck class="h-6 w-6 text-primary" />
-				<span class="font-bold text-lg text-slate-800">{t?.wiki?.title || 'プロンプトWiki'}</span>
+				<span class="font-bold text-lg text-slate-900">{t?.wiki?.title || 'プロンプトWiki'}</span>
 			</div>
 			<ul class="space-y-2">
 				{#each treeData as node}
@@ -255,7 +255,7 @@
 								onclick={() => selectFile(node.file)}
 								class="text-left w-full px-2 py-1 rounded hover:bg-primary/10 transition {node.isSelected
 									? 'bg-primary/10 font-bold text-primary'
-									: 'text-slate-800'}"
+									: 'text-slate-900'}"
 							>
 								{node.file.title}
 							</button>
@@ -264,7 +264,7 @@
 						<li>
 							<button
 								onclick={() => toggleNode(node.key)}
-								class="flex items-center gap-2 w-full font-semibold text-slate-800 mb-1 hover:bg-primary/10 rounded px-2 py-1 transition"
+								class="flex items-center gap-2 w-full font-semibold text-slate-900 mb-1 hover:bg-primary/10 rounded px-2 py-1 transition"
 							>
 								{#if node.isCategory}
 									{@const IconComp = getCategoryIconComponent(node.label)}
@@ -273,7 +273,7 @@
 									<Folder class="h-4 w-4" />
 								{/if}
 								<span>{node.isCategory ? getCategoryLabel(node.label) : node.label}</span>
-								<span class="ml-auto text-[10px] text-slate-800 opacity-60"
+								<span class="ml-auto text-[10px] text-slate-600"
 									>{node.isOpen ? '▼' : '▶'}</span
 								>
 							</button>
@@ -286,7 +286,7 @@
 													onclick={() => selectFile(child.file)}
 													class="text-left w-full px-2 py-1 rounded hover:bg-primary/10 transition {child.isSelected
 														? 'bg-primary/10 font-bold text-primary'
-														: 'text-slate-800'}"
+														: 'text-slate-900'}"
 												>
 													{child.file.title}
 												</button>
@@ -295,7 +295,7 @@
 											<li>
 												<button
 													onclick={() => toggleNode(child.key)}
-													class="flex items-center gap-2 w-full font-semibold text-slate-800 mb-1 hover:bg-primary/10 rounded px-2 py-1 transition"
+													class="flex items-center gap-2 w-full font-semibold text-slate-900 mb-1 hover:bg-primary/10 rounded px-2 py-1 transition"
 												>
 													{#if child.isCategory}
 														{@const ChildIconComp = getCategoryIconComponent(child.label)}
@@ -308,7 +308,7 @@
 															? getCategoryLabel(child.label)
 															: child.label}</span
 													>
-													<span class="ml-auto text-[10px] text-slate-800 opacity-60"
+													<span class="ml-auto text-[10px] text-slate-600"
 														>{child.isOpen ? '▼' : '▶'}</span
 													>
 												</button>
@@ -321,7 +321,7 @@
 																		onclick={() => selectFile(grandchild.file)}
 																		class="text-left w-full px-2 py-1 rounded hover:bg-primary/10 transition {grandchild.isSelected
 																			? 'bg-primary/10 font-bold text-primary'
-																			: 'text-slate-800'}"
+																			: 'text-slate-900'}"
 																	>
 																		{grandchild.file.title}
 																	</button>
@@ -354,7 +354,7 @@
 								<SelectedIconComp class="h-6 w-6 text-primary" />
 							{/if}
 							<h1 class="m-0">{selected.title}</h1>
-							<span class="text-xs text-slate-800 bg-light px-2 py-1 rounded ml-2">
+							<span class="text-xs text-slate-900 bg-light px-2 py-1 rounded ml-2">
 								{getCategoryLabel(selected.category)}
 							</span>
 							{#if selected.path.endsWith('.sh')}
@@ -391,7 +391,7 @@
 								</span>
 							{/if}
 						</div>
-						<div class="text-xs text-slate-800 opacity-70 font-mono">
+						<div class="text-xs text-slate-900 font-mono">
 							{t?.wiki?.filePath || 'ファイルパス'}:
 							<a
 								href="https://github.com/Sunwood-ai-labs/MysticLibrary/blob/main/prompts/{selected.path
@@ -426,7 +426,7 @@
 					{/if}
 				</div>
 			{:else}
-				<div class="text-center text-slate-800">
+				<div class="text-center text-slate-900">
 					{t?.wiki?.selectPrompt || 'プロンプトを選択してください'}
 				</div>
 			{/if}
