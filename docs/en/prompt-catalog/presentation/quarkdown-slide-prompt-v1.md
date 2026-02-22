@@ -21,13 +21,13 @@ last_reviewed: 2026-02-23
 
 # Quarkdown Slide Creation Prompt V1
 
-## 想定用途
+## Intended Use
 
 - Create presentation slides using Quarkdown
 - Generate attractive slides from release notes or technical documentation
 - Utilize animation effects and layout control
 
-## プロンプト本文
+## Prompt
 
 ```text
 # Quarkdown Slide Creation Prompt
@@ -236,13 +236,13 @@ Please create professional presentation slides using Quarkdown from the followin
 4. **Animation**: Use `.fragment` effectively to create storytelling
 ```
 
-## 使い方
+## How to Use
 
 1. Prepare release notes or technical documentation content
 2. Paste content into `[Insert release notes or technical documentation content here]` section
 3. Generate slides using Quarkdown
 
-## 入力例
+## Input Example
 
 ```text
 Project: MysticLibrary v1.0
@@ -254,13 +254,13 @@ Major Features:
 - VitePress-based documentation site
 ```
 
-## 出力例
+## Output Example
 
 ```qmd
 .docname {MysticLibrary}
 .docauthor {Sunwood AI Labs}
 .doctype {slides}
-.doclang {Japanese}
+.doclang {English}
 .theme {darko} layout:{minimal}
 .autopagebreak maxdepth:{2}
 
@@ -273,7 +273,7 @@ Major Features:
 
 .column alignment:{center}
     .fragment
-        .text {**プロンプトカタログシステム**} size:{huge} weight:{bold}
+        .text {**Prompt Catalog System**} size:{huge} weight:{bold}
 
     .fragment
         .text {2026-02-23} size:{large}
@@ -281,14 +281,14 @@ Major Features:
     .fragment
         .row alignment:{center} gap:{3cm}
             .box
-                **カタログ管理**
+                **Catalog Management**
             .box
-                **バイリンガル対応**
+                **Bilingual Support**
             .box
-                **自動生成**
+                **Auto Generation**
 ```
 
-## 注意点
+## Notes
 
 - Color specifications (`color:{#xxx}`) cause errors and should not be used
 - Only use size values: `tiny`, `small`, `normal`, `medium`, `large`, `huge`
