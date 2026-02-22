@@ -1,15 +1,15 @@
-# Writing プロンプト
+# Writing Prompts
 
-メール、案内文、要約など、文章作成を支援するプロンプト群です。
+This is a collection of prompts for writing emails, notices, summaries, and other documents.
 
-## 一覧
+## List
 
-### メール
+### Email
 
-- [フォローアップメール作成](./email-followup.md)
+- [Follow-Up Email Drafting](./email-followup.md)
 
-## 利用時のポイント
+## Usage Tips
 
-- 宛先との関係性（顧客 / 社内 / パートナー）を明示する
-- 目的（催促 / 確認 / 日程調整）を最初に指定する
-- 禁止事項（強すぎる表現、法務未確認の約束）を入力に含める
+- Specify your relationship to the recipient (customer / internal / partner)
+- State the purpose first (follow-up / confirmation / scheduling)
+- Include prohibited items in the input (overly strong wording, promises not reviewed by legal)
