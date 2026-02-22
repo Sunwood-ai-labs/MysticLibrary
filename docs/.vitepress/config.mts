@@ -102,7 +102,7 @@ function withBase(base: string, path: string) {
 const DOCS_ROOT_DIR = path.resolve(process.cwd(), "docs");
 
 const directoryOrderMap: Record<string, string[]> = {
-  "prompt-catalog": ["writing", "dev"],
+  "prompt-catalog": ["writing", "presentation", "creative", "dev", "docs", "methodology"],
   "prompt-catalog/dev": [
     "triage",
     "review",
@@ -112,7 +112,10 @@ const directoryOrderMap: Record<string, string[]> = {
     "agent-prompts",
     "system-prompts"
   ],
-  "prompt-catalog/dev/system-prompts": ["claude", "windsurf"]
+  "prompt-catalog/dev/system-prompts": ["claude", "windsurf", "mcp"],
+  "prompt-catalog/docs": ["graphic-recording", "diagram", "education"],
+  "prompt-catalog/creative": ["audio", "video", "visual", "game"],
+  "prompt-catalog/methodology": ["abstract-prompting", "mind-mapping", "research", "multi-agent", "meta", "agent"]
 };
 
 function sortEntries(entries: string[], directoryPath: string, locale: LocaleCode) {

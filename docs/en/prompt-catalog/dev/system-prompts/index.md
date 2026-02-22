@@ -6,3 +6,4 @@ System prompts grouped by tool / agent vendor.
 
 - [Claude](./claude/index.md)
 - [Windsurf](./windsurf/index.md)
+- [MCP](./mcp/index.md)

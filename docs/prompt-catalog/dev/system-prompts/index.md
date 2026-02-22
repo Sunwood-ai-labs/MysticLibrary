@@ -6,3 +6,4 @@
 
 - [Claude 系](./claude/index.md)
 - [Windsurf 系](./windsurf/index.md)
+- [MCP 系](./mcp/index.md)
