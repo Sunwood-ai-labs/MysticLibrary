@@ -29,6 +29,7 @@ last_reviewed: 2026-02-23
 
 - [グラレコHTML作成 V1 トラベルブルー](./graphic-recording-html-v1.md) - トラベルブルーカラーパレットの基本版
 - [グラフ付きグラレコ V1 Mermaid](./graphic-recording-mermaid-v1.md) - Mermaidグラフ統合型のグラレコ
+- [コンサルティング風インフォグラフィック V1](./consulting-infographic-v1.md) - ファッションカラーパレットのコンサル風インフォグラフィック
 - [グラレコHTML作成 V2 シューティングスター](./graphic-recording-html-v2.md) - シューティングスターカラーパレット版
 - [グラレコHTML作成 V2 フルムーンダーク](./graphic-recording-html-v2-dark.md) - フルムーンカラーパレットのダークテーマ版
 - [グラレコHTML作成 V3](./graphic-recording-html-v3.md) - 基本的なグラレコHTMLの生成

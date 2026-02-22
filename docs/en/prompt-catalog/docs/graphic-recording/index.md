@@ -29,6 +29,7 @@ Graphic Recording is a technique for summarizing meeting and presentation conten
 
 - [Graphic Recording HTML v1 Travel Blue](./graphic-recording-html-v1.md) - Basic version with Travel Blue color palette
 - [Graph-Enhanced Graphic Recording V1 Mermaid](./graphic-recording-mermaid-v1.md) - Mermaid graph integrated graphic recording
+- [Consulting-Style Infographic V1](./consulting-infographic-v1.md) - Fashion color palette consulting-style infographic
 - [Graphic Recording HTML v2 Shooting Star](./graphic-recording-html-v2.md) - Shooting Star color palette version
 - [Graphic Recording HTML v2 Full Moon Dark](./graphic-recording-html-v2-dark.md) - Full Moon color palette dark theme version
 - [Graphic Recording HTML v3](./graphic-recording-html-v3.md) - Basic graphic recording HTML generation
