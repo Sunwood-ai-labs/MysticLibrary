@@ -2,15 +2,15 @@ import { defineConfig } from "vitepress";
 
 export default defineConfig({
   lang: "ja-JP",
-  title: "Prompt Library",
-  description: "日本語のプロンプトライブラリ",
+  title: "Mystic Library",
+  description: "Mystic Library - 日本語のプロンプトライブラリ",
   cleanUrls: true,
   lastUpdated: false,
   head: [
     ["script", { async: "", src: "https://platform.twitter.com/widgets.js", charset: "utf-8" }]
   ],
   themeConfig: {
-    siteTitle: "Prompt Library",
+    siteTitle: "Mystic Library",
     nav: [
       { text: "ホーム", link: "/" },
       { text: "カタログ", link: "/prompt-catalog/" },
