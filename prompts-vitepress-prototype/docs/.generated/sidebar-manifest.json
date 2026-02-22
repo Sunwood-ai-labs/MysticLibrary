@@ -1,0 +1,1766 @@
+{
+  "version": 1,
+  "generatedAt": "2026-02-22T16:36:49.234Z",
+  "sourceRoot": "/prj/MysticLibrary/prompts",
+  "docsRoot": "/prj/MysticLibrary/prompts-vitepress-prototype/docs",
+  "locales": {
+    "ja": {
+      "base": "/",
+      "sidebar": [
+        {
+          "text": "agent",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "一覧",
+              "link": "/agent/"
+            },
+            {
+              "text": "minecraft",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "一覧",
+                  "link": "/agent/minecraft/"
+                },
+                {
+                  "text": "minecraft mcp builder prompt v1.0",
+                  "link": "/agent/minecraft/minecraft_mcp_builder_prompt-v1.0"
+                },
+                {
+                  "text": "minecraft mcp builder prompt v1.1",
+                  "link": "/agent/minecraft/minecraft_mcp_builder_prompt-v1.1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "audio",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "一覧",
+              "link": "/audio/"
+            },
+            {
+              "text": "amped enka lyrics",
+              "link": "/audio/amped_enka_lyrics"
+            },
+            {
+              "text": "comprehensive improved rap prompt",
+              "link": "/audio/comprehensive-improved-rap-prompt"
+            },
+            {
+              "text": "comprehensive improved rap prompt v1.1",
+              "link": "/audio/comprehensive-improved-rap-prompt_v1.1"
+            }
+          ]
+        },
+        {
+          "text": "aws-certification",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "一覧",
+              "link": "/aws-certification/"
+            },
+            {
+              "text": "AWS CERTIFICATION EXAM GUIDE TEMPLATE",
+              "link": "/aws-certification/AWS_CERTIFICATION_EXAM_GUIDE_TEMPLATE"
+            }
+          ]
+        },
+        {
+          "text": "coding",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "一覧",
+              "link": "/coding/"
+            },
+            {
+              "text": "agent ops note",
+              "link": "/coding/agent_ops_note"
+            },
+            {
+              "text": "ai coding agent safety charter v1",
+              "link": "/coding/ai-coding-agent-safety-charter-v1"
+            },
+            {
+              "text": "AI Gal Claude Hand v1",
+              "link": "/coding/AI-Gal-Claude-Hand-v1"
+            },
+            {
+              "text": "BEST PROGRAMMING PRACTICES REQUIREMENTS JA",
+              "link": "/coding/BEST_PROGRAMMING_PRACTICES_REQUIREMENTS_JA"
+            },
+            {
+              "text": "Checklist for Developing Python Packages and Libraries",
+              "link": "/coding/Checklist_for_Developing_Python_Packages_and_Libraries"
+            },
+            {
+              "text": "CLAUDE DEV SYSTEM PROMT",
+              "link": "/coding/CLAUDE-DEV-SYSTEM-PROMT"
+            },
+            {
+              "text": "CLAUDE DEV SYSTEM PROMT PS",
+              "link": "/coding/CLAUDE-DEV-SYSTEM-PROMT-PS"
+            },
+            {
+              "text": "Requirements for High Quality Code",
+              "link": "/coding/Requirements_for_High-Quality_Code"
+            },
+            {
+              "text": "v0",
+              "link": "/coding/v0"
+            },
+            {
+              "text": "Zenith Excellence Repository Guidelines",
+              "link": "/coding/Zenith-Excellence-Repository-Guidelines"
+            },
+            {
+              "text": "claude-code-company",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "一覧",
+                  "link": "/coding/claude-code-company/"
+                },
+                {
+                  "text": "create user cc company",
+                  "link": "/coding/claude-code-company/create-user-cc-company"
+                },
+                {
+                  "text": "setup cc company",
+                  "link": "/coding/claude-code-company/setup-cc-company"
+                }
+              ]
+            },
+            {
+              "text": "claude-hands",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "一覧",
+                  "link": "/coding/claude-hands/"
+                },
+                {
+                  "text": "claude hands jp win gal",
+                  "link": "/coding/claude-hands/claude_hands-jp-win-gal"
+                },
+                {
+                  "text": "claude hands jp win gal image",
+                  "link": "/coding/claude-hands/claude_hands-jp-win-gal-image"
+                },
+                {
+                  "text": "roo hands jp win gal image",
+                  "link": "/coding/claude-hands/roo_hands-jp-win-gal-image"
+                }
+              ]
+            },
+            {
+              "text": "codex",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "一覧",
+                  "link": "/coding/codex/"
+                },
+                {
+                  "text": "codex rules",
+                  "link": "/coding/codex/codex-rules"
+                },
+                {
+                  "text": "CodeXInstaller",
+                  "link": "/coding/codex/CodeXInstaller"
+                }
+              ]
+            },
+            {
+              "text": "dev-agent",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "一覧",
+                  "link": "/coding/dev-agent/"
+                },
+                {
+                  "text": "dev agent prompt v1",
+                  "link": "/coding/dev-agent/dev_agent_prompt-v1"
+                },
+                {
+                  "text": "gyaru dev agent airi v3",
+                  "link": "/coding/dev-agent/gyaru_dev_agent_airi_v3"
+                }
+              ]
+            },
+            {
+              "text": "openhands-cli",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "一覧",
+                  "link": "/coding/openhands-cli/"
+                },
+                {
+                  "text": "openhands resolver",
+                  "link": "/coding/openhands-cli/openhands-resolver"
+                }
+              ]
+            },
+            {
+              "text": "Roo-cline",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "一覧",
+                  "link": "/coding/Roo-cline/"
+                },
+                {
+                  "text": "gh issue workflow from diff",
+                  "link": "/coding/Roo-cline/gh-issue-workflow-from-diff"
+                },
+                {
+                  "text": "gh issue workflow from diff v2",
+                  "link": "/coding/Roo-cline/gh-issue-workflow-from-diff-v2"
+                },
+                {
+                  "text": "gh issue workflow from diff v2 lite",
+                  "link": "/coding/Roo-cline/gh-issue-workflow-from-diff-v2-lite"
+                },
+                {
+                  "text": "gh issue workflow from diff v3 lite",
+                  "link": "/coding/Roo-cline/gh-issue-workflow-from-diff-v3-lite"
+                },
+                {
+                  "text": "gh issue workflow from diff v3 lite en",
+                  "link": "/coding/Roo-cline/gh-issue-workflow-from-diff-v3-lite-en"
+                },
+                {
+                  "text": "gh issue workflow template",
+                  "link": "/coding/Roo-cline/gh-issue-workflow-template"
+                },
+                {
+                  "text": "git auto commit prompt v4 1 lite",
+                  "link": "/coding/Roo-cline/git_auto_commit_prompt-v4-1-lite"
+                },
+                {
+                  "text": "git auto commit prompt v4 2 lite",
+                  "link": "/coding/Roo-cline/git_auto_commit_prompt-v4-2-lite"
+                },
+                {
+                  "text": "git auto commit prompt v4 lite",
+                  "link": "/coding/Roo-cline/git_auto_commit_prompt-v4-lite"
+                },
+                {
+                  "text": "git auto commit prompt v4 lite en",
+                  "link": "/coding/Roo-cline/git_auto_commit_prompt-v4-lite-en"
+                },
+                {
+                  "text": "git auto commit prompt v4 lite ps",
+                  "link": "/coding/Roo-cline/git_auto_commit_prompt-v4-lite-ps"
+                },
+                {
+                  "text": "git release notes generator prompt v0",
+                  "link": "/coding/Roo-cline/git-release-notes-generator-prompt_v0"
+                },
+                {
+                  "text": "git release notes generator prompt v1",
+                  "link": "/coding/Roo-cline/git-release-notes-generator-prompt_v1"
+                },
+                {
+                  "text": "gyaru pair programming prompt",
+                  "link": "/coding/Roo-cline/gyaru-pair-programming-prompt"
+                },
+                {
+                  "text": "MCP as a Language 01",
+                  "link": "/coding/Roo-cline/MCP-as-a-Language-01"
+                },
+                {
+                  "text": "MCP as a Language luma",
+                  "link": "/coding/Roo-cline/MCP-as-a-Language-luma"
+                },
+                {
+                  "text": "repo review prompt",
+                  "link": "/coding/Roo-cline/repo-review-prompt"
+                },
+                {
+                  "text": "repo review prompt v1",
+                  "link": "/coding/Roo-cline/repo-review-prompt-v1"
+                },
+                {
+                  "text": "repo review prompt v2",
+                  "link": "/coding/Roo-cline/repo-review-prompt-v2"
+                },
+                {
+                  "text": "repo review prompt v3",
+                  "link": "/coding/Roo-cline/repo-review-prompt-v3"
+                },
+                {
+                  "text": "repo review prompt v4",
+                  "link": "/coding/Roo-cline/repo-review-prompt-v4"
+                },
+                {
+                  "text": "roo cline system prompt 01",
+                  "link": "/coding/Roo-cline/roo-cline-system_prompt_01"
+                },
+                {
+                  "text": "task1",
+                  "link": "/coding/Roo-cline/task1"
+                },
+                {
+                  "text": "task2",
+                  "link": "/coding/Roo-cline/task2"
+                },
+                {
+                  "text": "task3",
+                  "link": "/coding/Roo-cline/task3"
+                }
+              ]
+            },
+            {
+              "text": "Windsurf",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "一覧",
+                  "link": "/coding/Windsurf/"
+                },
+                {
+                  "text": "Windsurf system prompt 01",
+                  "link": "/coding/Windsurf/Windsurf_system_prompt_01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "colormap",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "一覧",
+              "link": "/colormap/"
+            },
+            {
+              "text": "colormap generator v1.0",
+              "link": "/colormap/colormap-generator-v1.0"
+            },
+            {
+              "text": "LP-style",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "一覧",
+                  "link": "/colormap/LP-style/"
+                },
+                {
+                  "text": "colormap generator v2.0",
+                  "link": "/colormap/LP-style/colormap-generator-v2.0"
+                },
+                {
+                  "text": "colormap generator v3.0",
+                  "link": "/colormap/LP-style/colormap-generator-v3.0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Company-as-a-Code",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "一覧",
+              "link": "/Company-as-a-Code/"
+            },
+            {
+              "text": "Phidata Prompt Template",
+              "link": "/Company-as-a-Code/Phidata-Prompt-Template"
+            },
+            {
+              "text": "phidate cookbook Repository summary",
+              "link": "/Company-as-a-Code/phidate-cookbook_Repository_summary"
+            }
+          ]
+        },
+        {
+          "text": "deep-research",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "一覧",
+              "link": "/deep-research/"
+            },
+            {
+              "text": "deep research explainer prompt v1",
+              "link": "/deep-research/deep-research-explainer-prompt-v1"
+            },
+            {
+              "text": "deep research explainer prompt v2 story style",
+              "link": "/deep-research/deep-research-explainer-prompt-v2-story-style"
+            },
+            {
+              "text": "deep research explainer prompt v3 light novel style",
+              "link": "/deep-research/deep-research-explainer-prompt-v3-light-novel-style"
+            },
+            {
+              "text": "deep research explainer prompt v3.1 light novel kishoutenketsu",
+              "link": "/deep-research/deep-research-explainer-prompt-v3.1-light-novel-kishoutenketsu"
+            }
+          ]
+        },
+        {
+          "text": "diagram",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "一覧",
+              "link": "/diagram/"
+            },
+            {
+              "text": "aws drawio architecture diagram generator v1",
+              "link": "/diagram/aws_drawio_architecture_diagram_generator_v1"
+            },
+            {
+              "text": "aws drawio architecture diagram generator v4",
+              "link": "/diagram/aws_drawio_architecture_diagram_generator_v4"
+            },
+            {
+              "text": "aws drawio architecture diagram generator v4 dcolor",
+              "link": "/diagram/aws_drawio_architecture_diagram_generator_v4_dcolor"
+            },
+            {
+              "text": "Eraser guide1",
+              "link": "/diagram/Eraser_guide1"
+            },
+            {
+              "text": "Eraser guide2",
+              "link": "/diagram/Eraser_guide2"
+            },
+            {
+              "text": "Eraser guide3",
+              "link": "/diagram/Eraser_guide3"
+            }
+          ]
+        },
+        {
+          "text": "documentation",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "一覧",
+              "link": "/documentation/"
+            },
+            {
+              "text": "Graphic recording infographic anim Graph v0",
+              "link": "/documentation/Graphic-recording-infographic-anim-Graph-v0"
+            },
+            {
+              "text": "Graphic recording infographic anim Graph v1",
+              "link": "/documentation/Graphic-recording-infographic-anim-Graph-v1"
+            },
+            {
+              "text": "Graphic recording infographic anim Timeline v1",
+              "link": "/documentation/Graphic-recording-infographic-anim-Timeline-v1"
+            },
+            {
+              "text": "Graphic recording infographic anim Timeline v2",
+              "link": "/documentation/Graphic-recording-infographic-anim-Timeline-v2"
+            },
+            {
+              "text": "Graphic recording infographic anim Timeline v3",
+              "link": "/documentation/Graphic-recording-infographic-anim-Timeline-v3"
+            },
+            {
+              "text": "Graphic recording infographic anim Timeline v3a",
+              "link": "/documentation/Graphic-recording-infographic-anim-Timeline-v3a"
+            },
+            {
+              "text": "Graphic recording infographic anim v1",
+              "link": "/documentation/Graphic-recording-infographic-anim-v1"
+            },
+            {
+              "text": "Graphic recording infographic anim v2",
+              "link": "/documentation/Graphic-recording-infographic-anim-v2"
+            },
+            {
+              "text": "Graphic recording infographic anim v2 dcolor",
+              "link": "/documentation/Graphic-recording-infographic-anim-v2-dcolor"
+            },
+            {
+              "text": "Graphic recording infographic anim v3",
+              "link": "/documentation/Graphic-recording-infographic-anim-v3"
+            },
+            {
+              "text": "Graphic recording infographic anim v3.1",
+              "link": "/documentation/Graphic-recording-infographic-anim-v3.1"
+            },
+            {
+              "text": "Graphic recording style infographic anim v1",
+              "link": "/documentation/Graphic-recording-style-infographic-anim-v1"
+            },
+            {
+              "text": "Graphic recording style infographic anim v2",
+              "link": "/documentation/Graphic-recording-style-infographic-anim-v2"
+            },
+            {
+              "text": "Graphic recording style infographic anim v3",
+              "link": "/documentation/Graphic-recording-style-infographic-anim-v3"
+            },
+            {
+              "text": "Graphic recording style infographic anim v4",
+              "link": "/documentation/Graphic-recording-style-infographic-anim-v4"
+            },
+            {
+              "text": "Graphic recording style infographic anim v5",
+              "link": "/documentation/Graphic-recording-style-infographic-anim-v5"
+            },
+            {
+              "text": "Graphic recording style infographic anim v6 water",
+              "link": "/documentation/Graphic-recording-style-infographic-anim-v6-water"
+            },
+            {
+              "text": "Graphic recording style infographic v1",
+              "link": "/documentation/Graphic-recording-style-infographic-v1"
+            },
+            {
+              "text": "Graphic recording style infographic v2",
+              "link": "/documentation/Graphic-recording-style-infographic-v2"
+            },
+            {
+              "text": "Infographic Thumbnail Prompt V1",
+              "link": "/documentation/Infographic_Thumbnail_Prompt_V1"
+            },
+            {
+              "text": "MARKWHEN REQUIREMENTS SPECIFICATION",
+              "link": "/documentation/MARKWHEN_REQUIREMENTS_SPECIFICATION"
+            },
+            {
+              "text": "MARKWHEN REQUIREMENTS SPECIFICATION V2",
+              "link": "/documentation/MARKWHEN_REQUIREMENTS_SPECIFICATION_V2"
+            },
+            {
+              "text": "quarkdown slide prompt v1",
+              "link": "/documentation/quarkdown_slide_prompt-v1"
+            },
+            {
+              "text": "comic",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "一覧",
+                  "link": "/documentation/comic/"
+                },
+                {
+                  "text": "comic style html generator prompt v1.0",
+                  "link": "/documentation/comic/comic-style-html-generator-prompt-v1.0"
+                },
+                {
+                  "text": "comic style html generator prompt v2.0",
+                  "link": "/documentation/comic/comic-style-html-generator-prompt-v2.0"
+                }
+              ]
+            },
+            {
+              "text": "graphic-recording",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "一覧",
+                  "link": "/documentation/graphic-recording/"
+                },
+                {
+                  "text": "docs",
+                  "collapsed": true,
+                  "items": [
+                    {
+                      "text": "一覧",
+                      "link": "/documentation/graphic-recording/docs/"
+                    },
+                    {
+                      "text": "editable graficrecord v2",
+                      "link": "/documentation/graphic-recording/docs/editable-graficrecord-v2"
+                    },
+                    {
+                      "text": "editable graficrecord v2.1",
+                      "link": "/documentation/graphic-recording/docs/editable-graficrecord-v2.1"
+                    },
+                    {
+                      "text": "editable graficrecord v3.0",
+                      "link": "/documentation/graphic-recording/docs/editable-graficrecord-v3.0"
+                    }
+                  ]
+                },
+                {
+                  "text": "slide",
+                  "collapsed": true,
+                  "items": [
+                    {
+                      "text": "一覧",
+                      "link": "/documentation/graphic-recording/slide/"
+                    },
+                    {
+                      "text": "graphic recording slide prompt V4",
+                      "link": "/documentation/graphic-recording/slide/graphic-recording_slide_prompt_V4"
+                    },
+                    {
+                      "text": "wa modern gareco slide maker V1",
+                      "link": "/documentation/graphic-recording/slide/wa_modern_gareco_slide_maker-V1"
+                    }
+                  ]
+                },
+                {
+                  "text": "thumbnail",
+                  "collapsed": true,
+                  "items": [
+                    {
+                      "text": "一覧",
+                      "link": "/documentation/graphic-recording/thumbnail/"
+                    },
+                    {
+                      "text": "graphic recording thumbnail prompt V2",
+                      "link": "/documentation/graphic-recording/thumbnail/graphic-recording_thumbnail_prompt_V2"
+                    },
+                    {
+                      "text": "graphic recording thumbnail prompt V3",
+                      "link": "/documentation/graphic-recording/thumbnail/graphic-recording_thumbnail_prompt_V3"
+                    },
+                    {
+                      "text": "graphic recording thumbnail prompt V4",
+                      "link": "/documentation/graphic-recording/thumbnail/graphic-recording_thumbnail_prompt_V4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "education",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "一覧",
+              "link": "/education/"
+            },
+            {
+              "text": "educational code notebook creation prompts v0",
+              "link": "/education/educational-code-notebook-creation-prompts_v0"
+            }
+          ]
+        },
+        {
+          "text": "game",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "一覧",
+              "link": "/game/"
+            },
+            {
+              "text": "threejs wireframe game tech guide",
+              "link": "/game/threejs-wireframe-game-tech-guide"
+            },
+            {
+              "text": "threejs wireframe game tech guide mono",
+              "link": "/game/threejs-wireframe-game-tech-guide-mono"
+            },
+            {
+              "text": "threejs wireframe game tech guide mono v2",
+              "link": "/game/threejs-wireframe-game-tech-guide-mono-v2"
+            }
+          ]
+        },
+        {
+          "text": "image",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "一覧",
+              "link": "/image/"
+            },
+            {
+              "text": "PRIME NUMBER THEORY IMAGE GENERATION AI CONCEPT",
+              "link": "/image/PRIME-NUMBER-THEORY-IMAGE-GENERATION-AI-CONCEPT"
+            },
+            {
+              "text": "PRIMEART PROMPTGENERATOR SPEC",
+              "link": "/image/PRIMEART_PROMPTGENERATOR_SPEC"
+            },
+            {
+              "text": "cake",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "一覧",
+                  "link": "/image/cake/"
+                },
+                {
+                  "text": "layered cake diorama",
+                  "link": "/image/cake/layered-cake-diorama"
+                },
+                {
+                  "text": "layered cake diorama gpts system prompt",
+                  "link": "/image/cake/layered-cake-diorama_gpts-system-prompt"
+                }
+              ]
+            },
+            {
+              "text": "low-poly",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "一覧",
+                  "link": "/image/low-poly/"
+                },
+                {
+                  "text": "icons",
+                  "collapsed": true,
+                  "items": [
+                    {
+                      "text": "一覧",
+                      "link": "/image/low-poly/icons/"
+                    },
+                    {
+                      "text": "lowpoly animal grid 3x3 prompt v1",
+                      "link": "/image/low-poly/icons/lowpoly_animal_grid_3x3_prompt-v1"
+                    },
+                    {
+                      "text": "lowpoly animal grid 3x3 prompt v1 lite",
+                      "link": "/image/low-poly/icons/lowpoly_animal_grid_3x3_prompt-v1-lite"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "meta",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "一覧",
+              "link": "/meta/"
+            },
+            {
+              "text": "CLAUDE DEV GITHUB REPO INIT",
+              "link": "/meta/CLAUDE-DEV_GITHUB-REPO-INIT"
+            },
+            {
+              "text": "GITHUB REPO CREATION REQUIREMENTS",
+              "link": "/meta/GITHUB-REPO-CREATION-REQUIREMENTS"
+            },
+            {
+              "text": "project naming",
+              "link": "/meta/project_naming"
+            },
+            {
+              "text": "openai_meta_prompt",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "一覧",
+                  "link": "/meta/openai_meta_prompt/"
+                },
+                {
+                  "text": "openai meta prompt",
+                  "link": "/meta/openai_meta_prompt/openai_meta_prompt"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "methodology",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "一覧",
+              "link": "/methodology/"
+            },
+            {
+              "text": "Abstract Prompting for Problem Solving",
+              "link": "/methodology/Abstract_Prompting_for_Problem_Solving"
+            },
+            {
+              "text": "abstract prompting for workflow",
+              "link": "/methodology/abstract-prompting-for-workflow"
+            }
+          ]
+        },
+        {
+          "text": "mind-mapping",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "一覧",
+              "link": "/mind-mapping/"
+            },
+            {
+              "text": "markdown for mindmaps",
+              "link": "/mind-mapping/markdown-for-mindmaps"
+            }
+          ]
+        },
+        {
+          "text": "multimodal",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "一覧",
+              "link": "/multimodal/"
+            },
+            {
+              "text": "surreal",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "一覧",
+                  "link": "/multimodal/surreal/"
+                },
+                {
+                  "text": "surreal vehicle prompt pack v1.0",
+                  "link": "/multimodal/surreal/surreal_vehicle_prompt_pack-v1.0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "presentation",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "一覧",
+              "link": "/presentation/"
+            },
+            {
+              "text": "agent vrm auto presenter v1",
+              "link": "/presentation/agent-vrm_auto_presenter-v1"
+            },
+            {
+              "text": "PitchCast Maker",
+              "link": "/presentation/PitchCast_Maker"
+            },
+            {
+              "text": "voicevox auto presenter v1",
+              "link": "/presentation/voicevox_auto_presenter-v1"
+            }
+          ]
+        },
+        {
+          "text": "pseudo-multi-agent",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "一覧",
+              "link": "/pseudo-multi-agent/"
+            },
+            {
+              "text": "pseudo multi agent anime werewolf nanj simulator",
+              "link": "/pseudo-multi-agent/pseudo_multi_agent_anime_werewolf_nanj_simulator"
+            },
+            {
+              "text": "RonJ Newbie Expert Nanj Thread",
+              "link": "/pseudo-multi-agent/RonJ_Newbie-Expert_Nanj_Thread"
+            }
+          ]
+        },
+        {
+          "text": "video",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "一覧",
+              "link": "/video/"
+            },
+            {
+              "text": "veo3",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "一覧",
+                  "link": "/video/veo3/"
+                },
+                {
+                  "text": "asmr",
+                  "collapsed": true,
+                  "items": [
+                    {
+                      "text": "一覧",
+                      "link": "/video/veo3/asmr/"
+                    },
+                    {
+                      "text": "origami",
+                      "link": "/video/veo3/asmr/origami"
+                    },
+                    {
+                      "text": "syodo",
+                      "link": "/video/veo3/asmr/syodo"
+                    },
+                    {
+                      "text": "tap dance",
+                      "link": "/video/veo3/asmr/tap-dance"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "writing",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "一覧",
+              "link": "/writing/"
+            },
+            {
+              "text": "slide",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "一覧",
+                  "link": "/writing/slide/"
+                },
+                {
+                  "text": "def slide",
+                  "link": "/writing/slide/def_slide"
+                },
+                {
+                  "text": "def slide design2",
+                  "link": "/writing/slide/def_slide_design2"
+                },
+                {
+                  "text": "def slide text1",
+                  "link": "/writing/slide/def_slide_text1"
+                },
+                {
+                  "text": "def slide2",
+                  "link": "/writing/slide/def_slide2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "en": {
+      "base": "/en/",
+      "sidebar": [
+        {
+          "text": "agent",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "Index",
+              "link": "/en/agent/"
+            },
+            {
+              "text": "minecraft",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "Index",
+                  "link": "/en/agent/minecraft/"
+                },
+                {
+                  "text": "minecraft mcp builder prompt v1.0",
+                  "link": "/en/agent/minecraft/minecraft_mcp_builder_prompt-v1.0"
+                },
+                {
+                  "text": "minecraft mcp builder prompt v1.1",
+                  "link": "/en/agent/minecraft/minecraft_mcp_builder_prompt-v1.1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "audio",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "Index",
+              "link": "/en/audio/"
+            },
+            {
+              "text": "amped enka lyrics",
+              "link": "/en/audio/amped_enka_lyrics"
+            },
+            {
+              "text": "comprehensive improved rap prompt",
+              "link": "/en/audio/comprehensive-improved-rap-prompt"
+            },
+            {
+              "text": "comprehensive improved rap prompt v1.1",
+              "link": "/en/audio/comprehensive-improved-rap-prompt_v1.1"
+            }
+          ]
+        },
+        {
+          "text": "aws-certification",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "Index",
+              "link": "/en/aws-certification/"
+            },
+            {
+              "text": "AWS CERTIFICATION EXAM GUIDE TEMPLATE",
+              "link": "/en/aws-certification/AWS_CERTIFICATION_EXAM_GUIDE_TEMPLATE"
+            }
+          ]
+        },
+        {
+          "text": "coding",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "Index",
+              "link": "/en/coding/"
+            },
+            {
+              "text": "agent ops note",
+              "link": "/en/coding/agent_ops_note"
+            },
+            {
+              "text": "ai coding agent safety charter v1",
+              "link": "/en/coding/ai-coding-agent-safety-charter-v1"
+            },
+            {
+              "text": "AI Gal Claude Hand v1",
+              "link": "/en/coding/AI-Gal-Claude-Hand-v1"
+            },
+            {
+              "text": "BEST PROGRAMMING PRACTICES REQUIREMENTS JA",
+              "link": "/en/coding/BEST_PROGRAMMING_PRACTICES_REQUIREMENTS_JA"
+            },
+            {
+              "text": "Checklist for Developing Python Packages and Libraries",
+              "link": "/en/coding/Checklist_for_Developing_Python_Packages_and_Libraries"
+            },
+            {
+              "text": "CLAUDE DEV SYSTEM PROMT",
+              "link": "/en/coding/CLAUDE-DEV-SYSTEM-PROMT"
+            },
+            {
+              "text": "CLAUDE DEV SYSTEM PROMT PS",
+              "link": "/en/coding/CLAUDE-DEV-SYSTEM-PROMT-PS"
+            },
+            {
+              "text": "Requirements for High Quality Code",
+              "link": "/en/coding/Requirements_for_High-Quality_Code"
+            },
+            {
+              "text": "v0",
+              "link": "/en/coding/v0"
+            },
+            {
+              "text": "Zenith Excellence Repository Guidelines",
+              "link": "/en/coding/Zenith-Excellence-Repository-Guidelines"
+            },
+            {
+              "text": "claude-code-company",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "Index",
+                  "link": "/en/coding/claude-code-company/"
+                },
+                {
+                  "text": "create user cc company",
+                  "link": "/en/coding/claude-code-company/create-user-cc-company"
+                },
+                {
+                  "text": "setup cc company",
+                  "link": "/en/coding/claude-code-company/setup-cc-company"
+                }
+              ]
+            },
+            {
+              "text": "claude-hands",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "Index",
+                  "link": "/en/coding/claude-hands/"
+                },
+                {
+                  "text": "claude hands jp win gal",
+                  "link": "/en/coding/claude-hands/claude_hands-jp-win-gal"
+                },
+                {
+                  "text": "claude hands jp win gal image",
+                  "link": "/en/coding/claude-hands/claude_hands-jp-win-gal-image"
+                },
+                {
+                  "text": "roo hands jp win gal image",
+                  "link": "/en/coding/claude-hands/roo_hands-jp-win-gal-image"
+                }
+              ]
+            },
+            {
+              "text": "codex",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "Index",
+                  "link": "/en/coding/codex/"
+                },
+                {
+                  "text": "codex rules",
+                  "link": "/en/coding/codex/codex-rules"
+                },
+                {
+                  "text": "CodeXInstaller",
+                  "link": "/en/coding/codex/CodeXInstaller"
+                }
+              ]
+            },
+            {
+              "text": "dev-agent",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "Index",
+                  "link": "/en/coding/dev-agent/"
+                },
+                {
+                  "text": "dev agent prompt v1",
+                  "link": "/en/coding/dev-agent/dev_agent_prompt-v1"
+                },
+                {
+                  "text": "gyaru dev agent airi v3",
+                  "link": "/en/coding/dev-agent/gyaru_dev_agent_airi_v3"
+                }
+              ]
+            },
+            {
+              "text": "openhands-cli",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "Index",
+                  "link": "/en/coding/openhands-cli/"
+                },
+                {
+                  "text": "openhands resolver",
+                  "link": "/en/coding/openhands-cli/openhands-resolver"
+                }
+              ]
+            },
+            {
+              "text": "Roo-cline",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "Index",
+                  "link": "/en/coding/Roo-cline/"
+                },
+                {
+                  "text": "gh issue workflow from diff",
+                  "link": "/en/coding/Roo-cline/gh-issue-workflow-from-diff"
+                },
+                {
+                  "text": "gh issue workflow from diff v2",
+                  "link": "/en/coding/Roo-cline/gh-issue-workflow-from-diff-v2"
+                },
+                {
+                  "text": "gh issue workflow from diff v2 lite",
+                  "link": "/en/coding/Roo-cline/gh-issue-workflow-from-diff-v2-lite"
+                },
+                {
+                  "text": "gh issue workflow from diff v3 lite",
+                  "link": "/en/coding/Roo-cline/gh-issue-workflow-from-diff-v3-lite"
+                },
+                {
+                  "text": "gh issue workflow from diff v3 lite en",
+                  "link": "/en/coding/Roo-cline/gh-issue-workflow-from-diff-v3-lite-en"
+                },
+                {
+                  "text": "gh issue workflow template",
+                  "link": "/en/coding/Roo-cline/gh-issue-workflow-template"
+                },
+                {
+                  "text": "git auto commit prompt v4 1 lite",
+                  "link": "/en/coding/Roo-cline/git_auto_commit_prompt-v4-1-lite"
+                },
+                {
+                  "text": "git auto commit prompt v4 2 lite",
+                  "link": "/en/coding/Roo-cline/git_auto_commit_prompt-v4-2-lite"
+                },
+                {
+                  "text": "git auto commit prompt v4 lite",
+                  "link": "/en/coding/Roo-cline/git_auto_commit_prompt-v4-lite"
+                },
+                {
+                  "text": "git auto commit prompt v4 lite en",
+                  "link": "/en/coding/Roo-cline/git_auto_commit_prompt-v4-lite-en"
+                },
+                {
+                  "text": "git auto commit prompt v4 lite ps",
+                  "link": "/en/coding/Roo-cline/git_auto_commit_prompt-v4-lite-ps"
+                },
+                {
+                  "text": "git release notes generator prompt v0",
+                  "link": "/en/coding/Roo-cline/git-release-notes-generator-prompt_v0"
+                },
+                {
+                  "text": "git release notes generator prompt v1",
+                  "link": "/en/coding/Roo-cline/git-release-notes-generator-prompt_v1"
+                },
+                {
+                  "text": "gyaru pair programming prompt",
+                  "link": "/en/coding/Roo-cline/gyaru-pair-programming-prompt"
+                },
+                {
+                  "text": "MCP as a Language 01",
+                  "link": "/en/coding/Roo-cline/MCP-as-a-Language-01"
+                },
+                {
+                  "text": "MCP as a Language luma",
+                  "link": "/en/coding/Roo-cline/MCP-as-a-Language-luma"
+                },
+                {
+                  "text": "repo review prompt",
+                  "link": "/en/coding/Roo-cline/repo-review-prompt"
+                },
+                {
+                  "text": "repo review prompt v1",
+                  "link": "/en/coding/Roo-cline/repo-review-prompt-v1"
+                },
+                {
+                  "text": "repo review prompt v2",
+                  "link": "/en/coding/Roo-cline/repo-review-prompt-v2"
+                },
+                {
+                  "text": "repo review prompt v3",
+                  "link": "/en/coding/Roo-cline/repo-review-prompt-v3"
+                },
+                {
+                  "text": "repo review prompt v4",
+                  "link": "/en/coding/Roo-cline/repo-review-prompt-v4"
+                },
+                {
+                  "text": "roo cline system prompt 01",
+                  "link": "/en/coding/Roo-cline/roo-cline-system_prompt_01"
+                },
+                {
+                  "text": "task1",
+                  "link": "/en/coding/Roo-cline/task1"
+                },
+                {
+                  "text": "task2",
+                  "link": "/en/coding/Roo-cline/task2"
+                },
+                {
+                  "text": "task3",
+                  "link": "/en/coding/Roo-cline/task3"
+                }
+              ]
+            },
+            {
+              "text": "Windsurf",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "Index",
+                  "link": "/en/coding/Windsurf/"
+                },
+                {
+                  "text": "Windsurf system prompt 01",
+                  "link": "/en/coding/Windsurf/Windsurf_system_prompt_01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Company-as-a-Code",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "Index",
+              "link": "/en/Company-as-a-Code/"
+            },
+            {
+              "text": "Phidata Prompt Template",
+              "link": "/en/Company-as-a-Code/Phidata-Prompt-Template"
+            },
+            {
+              "text": "phidate cookbook Repository summary",
+              "link": "/en/Company-as-a-Code/phidate-cookbook_Repository_summary"
+            }
+          ]
+        },
+        {
+          "text": "deep-research",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "Index",
+              "link": "/en/deep-research/"
+            },
+            {
+              "text": "deep research explainer prompt v1",
+              "link": "/en/deep-research/deep-research-explainer-prompt-v1"
+            },
+            {
+              "text": "deep research explainer prompt v3 light novel style",
+              "link": "/en/deep-research/deep-research-explainer-prompt-v3-light-novel-style"
+            },
+            {
+              "text": "deep research explainer prompt v3.1 light novel kishoutenketsu",
+              "link": "/en/deep-research/deep-research-explainer-prompt-v3.1-light-novel-kishoutenketsu"
+            }
+          ]
+        },
+        {
+          "text": "diagram",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "Index",
+              "link": "/en/diagram/"
+            },
+            {
+              "text": "aws drawio architecture diagram generator v1",
+              "link": "/en/diagram/aws_drawio_architecture_diagram_generator_v1"
+            },
+            {
+              "text": "aws drawio architecture diagram generator v4",
+              "link": "/en/diagram/aws_drawio_architecture_diagram_generator_v4"
+            },
+            {
+              "text": "aws drawio architecture diagram generator v4 dcolor",
+              "link": "/en/diagram/aws_drawio_architecture_diagram_generator_v4_dcolor"
+            },
+            {
+              "text": "Eraser guide1",
+              "link": "/en/diagram/Eraser_guide1"
+            },
+            {
+              "text": "Eraser guide2",
+              "link": "/en/diagram/Eraser_guide2"
+            },
+            {
+              "text": "Eraser guide3",
+              "link": "/en/diagram/Eraser_guide3"
+            }
+          ]
+        },
+        {
+          "text": "documentation",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "Index",
+              "link": "/en/documentation/"
+            },
+            {
+              "text": "Graphic recording infographic anim Graph v0",
+              "link": "/en/documentation/Graphic-recording-infographic-anim-Graph-v0"
+            },
+            {
+              "text": "Graphic recording infographic anim Timeline v1",
+              "link": "/en/documentation/Graphic-recording-infographic-anim-Timeline-v1"
+            },
+            {
+              "text": "Graphic recording infographic anim Timeline v2",
+              "link": "/en/documentation/Graphic-recording-infographic-anim-Timeline-v2"
+            },
+            {
+              "text": "Graphic recording infographic anim Timeline v3",
+              "link": "/en/documentation/Graphic-recording-infographic-anim-Timeline-v3"
+            },
+            {
+              "text": "Graphic recording infographic anim Timeline v3a",
+              "link": "/en/documentation/Graphic-recording-infographic-anim-Timeline-v3a"
+            },
+            {
+              "text": "Graphic recording infographic anim v1",
+              "link": "/en/documentation/Graphic-recording-infographic-anim-v1"
+            },
+            {
+              "text": "Graphic recording infographic anim v2",
+              "link": "/en/documentation/Graphic-recording-infographic-anim-v2"
+            },
+            {
+              "text": "Graphic recording infographic anim v2 dcolor",
+              "link": "/en/documentation/Graphic-recording-infographic-anim-v2-dcolor"
+            },
+            {
+              "text": "Graphic recording infographic anim v3.1",
+              "link": "/en/documentation/Graphic-recording-infographic-anim-v3.1"
+            },
+            {
+              "text": "Graphic recording style infographic anim v2",
+              "link": "/en/documentation/Graphic-recording-style-infographic-anim-v2"
+            },
+            {
+              "text": "Graphic recording style infographic anim v3",
+              "link": "/en/documentation/Graphic-recording-style-infographic-anim-v3"
+            },
+            {
+              "text": "Graphic recording style infographic anim v4",
+              "link": "/en/documentation/Graphic-recording-style-infographic-anim-v4"
+            },
+            {
+              "text": "Graphic recording style infographic anim v5",
+              "link": "/en/documentation/Graphic-recording-style-infographic-anim-v5"
+            },
+            {
+              "text": "Graphic recording style infographic anim v6 water",
+              "link": "/en/documentation/Graphic-recording-style-infographic-anim-v6-water"
+            },
+            {
+              "text": "Graphic recording style infographic v1",
+              "link": "/en/documentation/Graphic-recording-style-infographic-v1"
+            },
+            {
+              "text": "Graphic recording style infographic v2",
+              "link": "/en/documentation/Graphic-recording-style-infographic-v2"
+            },
+            {
+              "text": "MARKWHEN REQUIREMENTS SPECIFICATION V2",
+              "link": "/en/documentation/MARKWHEN_REQUIREMENTS_SPECIFICATION_V2"
+            },
+            {
+              "text": "quarkdown slide prompt v1",
+              "link": "/en/documentation/quarkdown_slide_prompt-v1"
+            },
+            {
+              "text": "comic",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "Index",
+                  "link": "/en/documentation/comic/"
+                },
+                {
+                  "text": "comic style html generator prompt v1.0",
+                  "link": "/en/documentation/comic/comic-style-html-generator-prompt-v1.0"
+                }
+              ]
+            },
+            {
+              "text": "graphic-recording",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "Index",
+                  "link": "/en/documentation/graphic-recording/"
+                },
+                {
+                  "text": "docs",
+                  "collapsed": true,
+                  "items": [
+                    {
+                      "text": "Index",
+                      "link": "/en/documentation/graphic-recording/docs/"
+                    },
+                    {
+                      "text": "editable graficrecord v2",
+                      "link": "/en/documentation/graphic-recording/docs/editable-graficrecord-v2"
+                    },
+                    {
+                      "text": "editable graficrecord v2.1",
+                      "link": "/en/documentation/graphic-recording/docs/editable-graficrecord-v2.1"
+                    },
+                    {
+                      "text": "editable graficrecord v3.0",
+                      "link": "/en/documentation/graphic-recording/docs/editable-graficrecord-v3.0"
+                    }
+                  ]
+                },
+                {
+                  "text": "slide",
+                  "collapsed": true,
+                  "items": [
+                    {
+                      "text": "Index",
+                      "link": "/en/documentation/graphic-recording/slide/"
+                    },
+                    {
+                      "text": "graphic recording slide prompt V4",
+                      "link": "/en/documentation/graphic-recording/slide/graphic-recording_slide_prompt_V4"
+                    },
+                    {
+                      "text": "wa modern gareco slide maker V1",
+                      "link": "/en/documentation/graphic-recording/slide/wa_modern_gareco_slide_maker-V1"
+                    }
+                  ]
+                },
+                {
+                  "text": "thumbnail",
+                  "collapsed": true,
+                  "items": [
+                    {
+                      "text": "Index",
+                      "link": "/en/documentation/graphic-recording/thumbnail/"
+                    },
+                    {
+                      "text": "graphic recording thumbnail prompt V2",
+                      "link": "/en/documentation/graphic-recording/thumbnail/graphic-recording_thumbnail_prompt_V2"
+                    },
+                    {
+                      "text": "graphic recording thumbnail prompt V3",
+                      "link": "/en/documentation/graphic-recording/thumbnail/graphic-recording_thumbnail_prompt_V3"
+                    },
+                    {
+                      "text": "graphic recording thumbnail prompt V4",
+                      "link": "/en/documentation/graphic-recording/thumbnail/graphic-recording_thumbnail_prompt_V4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "education",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "Index",
+              "link": "/en/education/"
+            },
+            {
+              "text": "educational code notebook creation prompts v0",
+              "link": "/en/education/educational-code-notebook-creation-prompts_v0"
+            }
+          ]
+        },
+        {
+          "text": "game",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "Index",
+              "link": "/en/game/"
+            },
+            {
+              "text": "threejs wireframe game tech guide",
+              "link": "/en/game/threejs-wireframe-game-tech-guide"
+            },
+            {
+              "text": "threejs wireframe game tech guide mono",
+              "link": "/en/game/threejs-wireframe-game-tech-guide-mono"
+            }
+          ]
+        },
+        {
+          "text": "meta",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "Index",
+              "link": "/en/meta/"
+            },
+            {
+              "text": "CLAUDE DEV GITHUB REPO INIT",
+              "link": "/en/meta/CLAUDE-DEV_GITHUB-REPO-INIT"
+            },
+            {
+              "text": "project naming",
+              "link": "/en/meta/project_naming"
+            },
+            {
+              "text": "openai_meta_prompt",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "Index",
+                  "link": "/en/meta/openai_meta_prompt/"
+                },
+                {
+                  "text": "openai meta prompt",
+                  "link": "/en/meta/openai_meta_prompt/openai_meta_prompt"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "methodology",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "Index",
+              "link": "/en/methodology/"
+            },
+            {
+              "text": "Abstract Prompting for Problem Solving",
+              "link": "/en/methodology/Abstract_Prompting_for_Problem_Solving"
+            },
+            {
+              "text": "abstract prompting for workflow",
+              "link": "/en/methodology/abstract-prompting-for-workflow"
+            }
+          ]
+        },
+        {
+          "text": "mind-mapping",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "Index",
+              "link": "/en/mind-mapping/"
+            },
+            {
+              "text": "markdown for mindmaps",
+              "link": "/en/mind-mapping/markdown-for-mindmaps"
+            }
+          ]
+        },
+        {
+          "text": "multimodal",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "Index",
+              "link": "/en/multimodal/"
+            },
+            {
+              "text": "surreal",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "Index",
+                  "link": "/en/multimodal/surreal/"
+                },
+                {
+                  "text": "surreal vehicle prompt pack v1.0",
+                  "link": "/en/multimodal/surreal/surreal_vehicle_prompt_pack-v1.0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "presentation",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "Index",
+              "link": "/en/presentation/"
+            },
+            {
+              "text": "agent vrm auto presenter v1",
+              "link": "/en/presentation/agent-vrm_auto_presenter-v1"
+            },
+            {
+              "text": "PitchCast Maker",
+              "link": "/en/presentation/PitchCast_Maker"
+            },
+            {
+              "text": "voicevox auto presenter v1",
+              "link": "/en/presentation/voicevox_auto_presenter-v1"
+            }
+          ]
+        },
+        {
+          "text": "pseudo-multi-agent",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "Index",
+              "link": "/en/pseudo-multi-agent/"
+            },
+            {
+              "text": "pseudo multi agent anime werewolf nanj simulator",
+              "link": "/en/pseudo-multi-agent/pseudo_multi_agent_anime_werewolf_nanj_simulator"
+            },
+            {
+              "text": "RonJ Newbie Expert Nanj Thread",
+              "link": "/en/pseudo-multi-agent/RonJ_Newbie-Expert_Nanj_Thread"
+            }
+          ]
+        },
+        {
+          "text": "video",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "Index",
+              "link": "/en/video/"
+            },
+            {
+              "text": "veo3",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "Index",
+                  "link": "/en/video/veo3/"
+                },
+                {
+                  "text": "asmr",
+                  "collapsed": true,
+                  "items": [
+                    {
+                      "text": "Index",
+                      "link": "/en/video/veo3/asmr/"
+                    },
+                    {
+                      "text": "origami",
+                      "link": "/en/video/veo3/asmr/origami"
+                    },
+                    {
+                      "text": "syodo",
+                      "link": "/en/video/veo3/asmr/syodo"
+                    },
+                    {
+                      "text": "tap dance",
+                      "link": "/en/video/veo3/asmr/tap-dance"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "writing",
+          "collapsed": true,
+          "items": [
+            {
+              "text": "Index",
+              "link": "/en/writing/"
+            },
+            {
+              "text": "slide",
+              "collapsed": true,
+              "items": [
+                {
+                  "text": "Index",
+                  "link": "/en/writing/slide/"
+                },
+                {
+                  "text": "def slide",
+                  "link": "/en/writing/slide/def_slide"
+                },
+                {
+                  "text": "def slide design2",
+                  "link": "/en/writing/slide/def_slide_design2"
+                },
+                {
+                  "text": "def slide text1",
+                  "link": "/en/writing/slide/def_slide_text1"
+                },
+                {
+                  "text": "def slide2",
+                  "link": "/en/writing/slide/def_slide2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
