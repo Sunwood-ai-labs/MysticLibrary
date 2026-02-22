@@ -51,6 +51,7 @@ last_reviewed: 2026-02-23
 
 - [インフォグラフィックサムネイル V1](./infographic-thumbnail-v1.md) - グラフィックデザインカラーパレットを使用したサムネイル生成
 - [グラレコサムネ V2 和モダン](./graphic-recording-thumbnail-v2.md) - 和モダンカラーパレットのサムネイル生成
+- [グラレコサムネ v3 涼雅簡易版](./graphic-recording-thumbnail-v3.md) - 涼雅カラーパレットのシンプルサムネイル（編集機能なし）
 - [グラレコサムネ v4](./graphic-recording-thumbnail-v4.md) - ブログ記事用16:9サムネイル生成
 
 ### スライド生成
