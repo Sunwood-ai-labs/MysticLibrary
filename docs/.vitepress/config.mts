@@ -114,7 +114,7 @@ const directoryOrderMap: Record<string, string[]> = {
     "system-prompts"
   ],
   "prompt-catalog/dev/system-prompts": ["claude", "windsurf", "mcp"],
-  "prompt-catalog/docs": ["graphic-recording", "diagram", "education"],
+  "prompt-catalog/docs": ["graphic-recording", "diagram", "education", "markwhen"],
   "prompt-catalog/creative": ["audio", "video", "visual", "game"],
   "prompt-catalog/methodology": ["abstract-prompting", "mind-mapping", "research", "multi-agent", "meta", "agent"]
 };

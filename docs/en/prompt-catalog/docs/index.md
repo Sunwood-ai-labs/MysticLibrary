@@ -28,6 +28,7 @@ A collection of prompts for transforming information into visually appealing doc
 - [Graphic Recording](./graphic-recording/index.md) - Real-time visual summaries of discussions
 - [Diagram](./diagram/index.md) - Architecture diagrams and flowcharts
 - [Education](./education/index.md) - Educational notebook creation
+- [Markwhen](./markwhen/index.md) - Text-based timeline creation
 
 ## Common Use Cases
 

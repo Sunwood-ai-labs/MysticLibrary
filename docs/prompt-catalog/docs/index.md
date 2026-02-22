@@ -28,6 +28,7 @@ last_reviewed: 2026-02-23
 - [Graphic Recording（グラフィックレコーディング）](./graphic-recording/index.md) - 議論の内容を図やイラストでリアルタイムにまとめる手法
 - [Diagram（ダイアグラム）](./diagram/index.md) - アーキテクチャ図やフローチャートの作成
 - [Education（教育）](./education/index.md) - 教育用コードノートブックの作成
+- [Markwhen（タイムライン）](./markwhen/index.md) - テキストベースのタイムライン作成
 
 ## 主な用途
 
