@@ -1,7 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Noto+Sans+JP:wght@400;500;700&display=swap");
 
 :root {
   --docs-font-sans:
+    "Noto Sans JP",
     ui-sans-serif,
     system-ui,
     -apple-system,
@@ -16,10 +17,12 @@
 }
 
 :root {
-  --vp-c-brand-1: #0f766e;
-  --vp-c-brand-2: #0b9488;
-  --vp-c-brand-3: #14b8a6;
-  --vp-c-brand-soft: rgba(20, 184, 166, 0.14);
+  /* VitePress uses brand-3 -> button bg, brand-2 -> hover, brand-1 -> active */
+  /* Keep all three dark enough for white button text in light mode */
+  --vp-c-brand-1: #115e59;
+  --vp-c-brand-2: #0f766e;
+  --vp-c-brand-3: #087f77;
+  --vp-c-brand-soft: rgba(15, 118, 110, 0.14);
 
   --vp-c-bg: #fafaf7;
   --vp-c-bg-alt: #f2f3ed;
@@ -45,13 +48,19 @@
 }
 
 .dark {
-  --vp-c-brand-1: #34d399;
-  --vp-c-brand-2: #2dd4bf;
-  --vp-c-brand-3: #67e8f9;
-  --vp-c-brand-soft: rgba(52, 211, 153, 0.14);
+  /* Keep links/highlights bright on dark surfaces */
+  --vp-c-brand-1: #99f6e4;
+  --vp-c-brand-2: #5eead4;
+  --vp-c-brand-3: #2dd4bf;
+  --vp-c-brand-soft: rgba(45, 212, 191, 0.16);
 
   --vp-c-bg: #0e1414;
   --vp-c-bg-alt: #151d1c;
+
+  /* Role-based on-color override for bright brand buttons (Material-like) */
+  --vp-button-brand-text: #06201d;
+  --vp-button-brand-hover-text: #06201d;
+  --vp-button-brand-active-text: #06201d;
 }
 
 .VPNavBar {
@@ -90,6 +99,7 @@ body {
 }
 
 .VPFeature {
+  color: var(--vp-c-text-1);
   border-radius: 16px;
   border: 1px solid color-mix(in srgb, var(--vp-c-divider) 72%, white);
   background: linear-gradient(
@@ -98,6 +108,41 @@ body {
     var(--vp-c-bg-elv) 100%
   );
   box-shadow: 0 10px 28px rgba(15, 23, 42, 0.04);
+}
+
+.VPFeature .box .title,
+.VPFeature .heading,
+.VPFeature .box .link-text,
+.VPFeature .box .link-text-value {
+  color: var(--vp-c-text-1);
+}
+
+.VPFeature .box .details,
+.VPFeature .excerpt {
+  color: var(--vp-c-text-2);
+}
+
+.dark .VPFeature {
+  border-color: color-mix(in srgb, var(--vp-c-divider) 70%, white 14%);
+  background: linear-gradient(180deg, #182322 0%, #131b1b 100%);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.24);
+}
+
+.dark .VPFeature .box .title,
+.dark .VPFeature .box .link-text-value {
+  color: #f3fbfa !important;
+}
+
+.dark .VPFeature .box .details {
+  color: rgba(243, 251, 250, 0.9) !important;
+}
+
+.dark .VPFeature .box {
+  background: transparent;
+}
+
+.dark .VPFeature .icon {
+  background-color: color-mix(in srgb, var(--vp-c-default-soft) 72%, white 6%);
 }
 
 .VPDoc .content-container a {
