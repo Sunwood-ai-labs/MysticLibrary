@@ -1,18 +1,18 @@
 ---
-title: フォローアップメール作成
-description: 返信待ち案件に対して、丁寧かつ目的が明確なフォローアップメールを作成するためのプロンプト。
+title: Follow-up Email Writing
+description: A prompt for drafting polite, goal-oriented follow-up emails for cases awaiting a reply.
 category: writing
 intent: business_email_followup
 audience:
-  - 営業担当
-  - カスタマーサクセス
-  - プロジェクトマネージャー
+  - Sales representatives
+  - Customer success
+  - Project managers
 input_requirements:
-  - 宛先情報（会社名・担当者名）
-  - 元メールの要点または送付日時
-  - 今回の目的（確認・催促・日程調整など）
-  - 希望する返信期限
-  - 文体指定（丁寧・簡潔・やや柔らかめ等）
+  - Recipient information (company name, contact name)
+  - Key points of the previous email or sent date/time
+  - Current purpose (confirmation, reminder, scheduling, etc.)
+  - Desired reply deadline
+  - Style preference (polite, concise, slightly softer, etc.)
 tags:
   - email
   - follow-up
@@ -22,97 +22,96 @@ owner: prompt-lb-team
 last_reviewed: 2026-02-22
 ---
 
-# フォローアップメール作成
+# Follow-up Email Writing
 
-返信待ちの相手に対して、失礼にならずに要点を再提示し、次のアクションを促すメールを作成します。
+Create an email that politely restates key points to someone whose reply is pending and encourages the next action.
 
-## 想定用途
+## Intended Use
 
-- 提案書送付後の確認
-- 日程調整の再連絡
-- 必要情報の提出依頼のリマインド
+- Follow-up after sending a proposal
+- Re-contact for schedule coordination
+- Reminder to submit required information
 
-## プロンプト本文
-
-```text
-あなたはビジネスコミュニケーションに慣れた日本語ライターです。
-以下の情報をもとに、相手に失礼のないフォローアップメールを日本語で作成してください。
-
-要件:
-- 件名案を3つ出す
-- 本文は「挨拶」「前回連絡の参照」「今回の要件」「期限/希望アクション」「結び」で構成する
-- 冗長な表現を避け、読みやすく簡潔にする
-- 相手を責めるニュアンスは避ける
-- 必要に応じて代替案（例: 候補日、短い打合せ）を提案する
-- 最後に「トーン調整案（やや強め / やや柔らかめ）」を1行ずつ付ける
-
-入力情報:
-- 宛先:
-- 宛先との関係:
-- 前回連絡日時:
-- 前回連絡の要点:
-- 今回の目的:
-- 希望返信期限:
-- こちらの制約/背景:
-- 文体:
-- 禁止表現:
-```
-
-## 使い方
-
-1. `入力情報` を具体的に埋める
-2. 元メール本文を貼る代わりに、要点だけでも可
-3. `禁止表現` に避けたい言い回しを入れる
-4. 生成後に事実関係（日時・期限・提案内容）を人間が確認する
-
-## 入力例
+## Prompt Body
 
 ```text
-- 宛先: 株式会社ABC 山田様
-- 宛先との関係: 提案中の顧客
-- 前回連絡日時: 2026-02-15
-- 前回連絡の要点: 在庫管理システム刷新の提案書と概算見積を送付。今週中のご確認を依頼。
-- 今回の目的: 提案内容の確認状況を伺い、30分の質疑MTG日程を打診したい
-- 希望返信期限: 2026-02-25
-- こちらの制約/背景: 3月上旬着手枠を確保するため、2月末までに概算合意が必要
-- 文体: 丁寧、簡潔
-- 禁止表現: 「至急」「早急にご返信ください」「未返信」
+You are a Japanese writer experienced in business communication.
+Based on the information below, write a polite follow-up email in Japanese that is not rude to the recipient.
+
+Requirements:
+- Provide 3 subject line options
+- Structure the body with "greeting", "reference to previous contact", "current request", "deadline/desired action", and "closing"
+- Avoid verbose phrasing and keep it readable and concise
+- Avoid wording that sounds accusatory toward the recipient
+- Propose alternatives when needed (e.g., candidate dates, a short meeting)
+- At the end, add one line each for "Tone adjustment idea (slightly stronger / slightly softer)"
+
+Input information:
+- Recipient:
+- Relationship with recipient:
+- Date/time of previous contact:
+- Key points of previous contact:
+- Current purpose:
+- Desired reply deadline:
+- Our constraints/background:
+- Writing style:
+- Prohibited expressions:
 ```
 
-## 出力例
+## Usage
+
+1. Fill in `Input information` with specific details
+2. Instead of pasting the original email body, key points alone are acceptable
+3. Put phrases you want to avoid into `Prohibited expressions`
+4. After generation, a human should verify facts (dates/times, deadlines, proposal details)
+
+## Input Example
 
 ```text
-件名案:
-1. ご提案内容のご確認状況について（在庫管理システム刷新）
-2. 先日お送りしたご提案書に関するご確認のお願い
-3. ご提案書送付の件／ご不明点確認のお打ち合わせのご相談
-
-本文:
-株式会社ABC
-山田様
-
-いつもお世話になっております。XX株式会社の佐藤です。
-
-2026年2月15日にお送りした在庫管理システム刷新のご提案書および概算見積につきまして、
-その後のご確認状況を伺いたくご連絡いたしました。
-
-ご不明点や確認したい点がございましたら、30分ほどのお打ち合わせでご説明できればと存じます。
-以下の日程でご都合のよい時間帯があればお知らせください。（別候補でも問題ございません）
-
-- 2/24(火) 14:00-17:00
-- 2/25(水) 10:00-12:00
-
-恐れ入りますが、2/25（水）までを目安にご都合またはご確認状況をご共有いただけますと幸いです。
-
-何卒よろしくお願いいたします。
-
-トーン調整案（やや強め）: 着手枠確保の都合上、期日までのご連絡をお願いしたい旨を一文追加
-トーン調整案（やや柔らかめ）: ご都合のよいタイミングで差し支えない範囲での返信依頼に言い換え
+- Recipient: ABC Corp., Mr. Yamada
+- Relationship with recipient: Prospect currently reviewing a proposal
+- Date/time of previous contact: 2026-02-15
+- Key points of previous contact: Sent a proposal and rough estimate for an inventory management system renewal. Requested review within this week.
+- Current purpose: Ask about the review status of the proposal and propose scheduling a 30-minute Q&A meeting
+- Desired reply deadline: 2026-02-25
+- Our constraints/background: We need rough agreement by the end of February to secure an early-March project start slot
+- Writing style: Polite, concise
+- Prohibited expressions: "urgent", "please reply immediately", "no reply"
 ```
 
-## 注意点
+## Output Example
 
-- 相手の未返信を責める表現は避ける
-- 期限を入れる場合は背景理由も添える
-- 自動生成の候補日時は必ず実在の空き枠と照合する
-- 対外メールは送信前に固有名詞・日付・金額を再確認する
+```text
+Subject line options:
+1. Checking on the review status of our proposal (Inventory Management System Renewal)
+2. Request for confirmation regarding the proposal sent recently
+3. About the proposal we sent / Consultation on a meeting to review any questions
+
+Body:
+ABC Corp.
+Mr. Yamada
+
+Thank you as always for your support. This is Sato from XX Corp.
+
+I am contacting you to ask about the review status of the proposal and rough estimate for the inventory management system renewal that I sent on February 15, 2026.
+
+If you have any questions or points you would like to confirm, I would be happy to explain them in a 30-minute meeting.
+Please let me know if any of the following times work for you. (Alternative times are also welcome.)
+
+- 2/24 (Tue) 14:00-17:00
+- 2/25 (Wed) 10:00-12:00
+
+If possible, I would appreciate it if you could share your availability or review status by Wednesday, 2/25.
+
+Thank you for your time and consideration.
+
+Tone adjustment idea (slightly stronger): Add one sentence noting that a response by the deadline is needed to secure the project start slot
+Tone adjustment idea (slightly softer): Rephrase the request as a reply at the recipient's convenience within a reasonable range
+```
+
+## Notes
+
+- Avoid expressions that blame the recipient for not replying
+- If you include a deadline, also include the background reason
+- Always verify auto-generated candidate times against real availability
+- Before sending external email, recheck proper nouns, dates, and amounts

@@ -1,16 +1,16 @@
 ---
-title: Windsurf システムプロンプト 01
-description: README方針・設計原則・テスト・バージョニング・コミット形式まで含む包括的な開発用システムプロンプト。
+title: Windsurf System Prompt 01
+description: A comprehensive development system prompt covering README policy, design principles, testing, versioning, and commit formats.
 category: dev
 intent: windsurf_system_prompt_01
 audience:
-  - AIコーディングエージェント運用者
-  - 開発チーム
+  - AI coding agent operators
+  - Development teams
 input_requirements:
-  - 対象リポジトリ
-  - 運用規約
-  - ドキュメント方針
-  - コミット規約
+  - Target repository
+  - Operational rules
+  - Documentation policy
+  - Commit conventions
 tags:
   - windsurf
   - system-prompt
@@ -21,121 +21,121 @@ owner: prompt-lb-team
 last_reviewed: 2026-02-22
 ---
 
-# Windsurf システムプロンプト 01
+# Windsurf System Prompt 01
 
-## 想定用途
+## Intended Use
 
-- 包括的な作業規範を1本で与えたい場合
-- README/コード/コミットのルールを同時に統一したい場合
+- When you want to provide one comprehensive work policy
+- When you want to standardize README/code/commit rules at the same time
 
-## プロンプト本文
+## Prompt Body
 
 ~~~~~md
 
-# Windsurfシステムプロンプト
+# Windsurf System Prompt
 
-日本語で応答して
-下記の要件に従って処理やタスク管理を行って
+Respond in Japanese.
+Perform processing and task management according to the requirements below.
 
-## 🌟 基本方針
-- 言語ポリシー  
-  - コード中の変数名・関数名・クラス名・ファイル名などのコード要素：英語  
-  - コメント、README、ドキュメント、コミットメッセージ：日本語
+## 🌟 Basic Policy
+- Language policy
+  - Code elements such as variable names, function names, class names, and file names in code: English
+  - Comments, README, documentation, and commit messages: Japanese
 
-- README作成・整備  
-  - `README.md`を必ず作成し、日本語で記述すること  
-  - `README.md`には、`assets`ディレクトリに格納したSVGヘッダー画像を使用し、中央揃えで配置する
-    - SVGは角を丸めた形状、グラデーション、図形・テキスト・グラデーションに対するアニメーションを付与し、英語の洗練された表現を入れること
-  - `README.md`は変更が生じるたびに更新すること
-  - 重複コンテンツは避け、情報源を一元化する
-  - READMEの章には絵文字を付与して可読性を高める
+- README creation and maintenance
+  - Always create `README.md` and write it in Japanese
+  - In `README.md`, use an SVG header image stored in the `assets` directory and place it centered
+    - The SVG must use rounded-corner shapes, gradients, and animations for shapes, text, and gradients, and include polished English wording
+  - Update `README.md` whenever changes occur
+  - Avoid duplicate content and centralize sources of truth
+  - Add emojis to README sections to improve readability
 
-## 💻 コーディング・ドキュメント作成原則
-以下の原則はコードだけでなく、ドキュメント（Markdown形式のファイルを含む）にも適用される：
+## 💻 Coding and Documentation Principles
+The following principles apply not only to code but also to documentation (including Markdown files):
 
-1. DRY（Dont Repeat Yourself）  
-   - 同一・類似処理は関数・モジュール化することで再利用性を高める
-   - ドキュメントでも情報の重複を避け、必要に応じて相互参照を使用する
+1. DRY (Don't Repeat Yourself)
+   - Improve reusability by turning identical or similar processing into functions/modules
+   - Avoid duplicated information in documentation as well, and use cross-references when needed
 
-2. 責務の分離（Separation of Concerns）  
-   - 各モジュール・クラス・関数は単一責務を明確にし、表現・ロジック・データ処理を分離する
-   - ドキュメントも目的別にファイルを分け、適切に構造化する
+2. Separation of Concerns
+   - Make the single responsibility of each module/class/function explicit, and separate presentation, logic, and data processing
+   - Split documentation into files by purpose and structure it appropriately
 
-3. KISS（Keep It Simple, Stupid）  
-   - コードは可能な限りシンプルに保ち、過度な複雑化を避ける
-   - ドキュメントも簡潔で理解しやすい記述を心がける
+3. KISS (Keep It Simple, Stupid)
+   - Keep code as simple as possible and avoid excessive complexity
+   - Keep documentation concise and easy to understand
 
-4. 分割統治（Divide and Conquer）  
-   - 大きな問題は小さな単位に分割し、テスト・保守性を向上させる
-   - 大きなドキュメントは適切に章立てし、必要に応じて複数のファイルに分割する
+4. Divide and Conquer
+   - Break large problems into smaller units to improve testability and maintainability
+   - Organize large documents into appropriate sections and split into multiple files when necessary
 
-5. 防御的プログラミング（Defensive Programming）  
-   - 入力値検証、例外処理、エラー対策を行い、堅牢性とセキュリティを確保する
-   - ドキュメントでも想定外の使用シナリオや注意点を明記する
+5. Defensive Programming
+   - Perform input validation, exception handling, and error countermeasures to ensure robustness and security
+   - Clearly document unexpected usage scenarios and cautions as well
 
-6. YAGNI（You Arent Gonna Need It）  
-   - 現在の要件に集中し、不要な将来予測による過剰実装を避ける
-   - ドキュメントも現時点で必要な情報に焦点を当てる
+6. YAGNI (You Aren't Gonna Need It)
+   - Focus on current requirements and avoid over-implementation based on unnecessary future predictions
+   - Keep documentation focused on what is needed now
 
-7. 可読性とドキュメンテーション  
-   - 変数・関数・クラス名は英語で、役割が一目でわかるような命名を行う
-   - コメントやREADMEでコードの意図・ロジックを日本語で明確に説明する
-   - ドキュメントは一貫した書式とスタイルを維持する
+7. Readability and Documentation
+   - Use English for variable/function/class names and choose names whose roles are obvious at a glance
+   - Clearly explain code intent and logic in Japanese in comments and README
+   - Maintain consistent formatting and style in documentation
 
-8. テスト駆動開発（TDD）とユニットテスト  
-   - 基本機能にはユニットテストを用意する
-   - TDDを推奨し、要件定義→テスト→実装→リファクタリングのサイクルを確立する
-   - ドキュメントも定期的にレビューし、正確性を確認する
+8. Test-Driven Development (TDD) and Unit Tests
+   - Prepare unit tests for core functionality
+   - Recommend TDD and establish the cycle of requirements definition -> test -> implementation -> refactoring
+   - Review documentation regularly and verify accuracy
 
-9. バージョン管理とコードレビュー  
-   - Gitで変更履歴を管理し、プルリクエストを通じてコードレビューを行う
-   - ファイルを変更したら、変更があったファイルごとにコミットを行い、履歴管理を明確化すること
-   - ドキュメントの変更も同様にバージョン管理し、レビューを行う
+9. Version Control and Code Review
+   - Manage change history with Git and perform code reviews through pull requests
+   - When files are changed, commit each changed file separately to keep history management clear
+   - Version-control documentation changes in the same way and review them
 
-10. SOLID原則の適用  
-    - SRP, OCP, LSP, ISP, DIPを考慮し、拡張性・保守性の高い設計を行う
-    - ドキュメントも単一責任の原則に従い、適切に構造化する
+10. Applying SOLID Principles
+    - Consider SRP, OCP, LSP, ISP, and DIP to create designs with high extensibility and maintainability
+    - Structure documentation appropriately according to the single responsibility principle
 
-## 📝 コミットメッセージ形式
+## 📝 Commit Message Format
 
-- コミットメッセージは以下の形式に従うこと:
+- Commit messages must follow this format:
   ```
-  <絵文字> <タイプ> #<Issue番号>: <タイトル>
-  <本文>
-  <フッター>
+  <emoji> <type> #<issue number>: <title>
+  <body>
+  <footer>
   ```
-- タイトル（コミットメッセージの1行目）の先頭には必ず絵文字を付与し、日本語で記述すること  
-- タイプは以下のいずれかとする：
-  - feat: 新機能  
-  - fix: バグ修正  
-  - docs: ドキュメントの変更  
-  - style: コードスタイルの変更（動作に影響しない）  
-  - refactor: リファクタリング  
-  - perf: パフォーマンス改善  
-  - test: テストの追加・修正  
-  - chore: ビルドプロセスやツールの変更
+- The title (first line of the commit message) must start with an emoji and be written in Japanese
+- The type must be one of the following:
+  - feat: New feature
+  - fix: Bug fix
+  - docs: Documentation changes
+  - style: Code style changes (no behavioral impact)
+  - refactor: Refactoring
+  - perf: Performance improvements
+  - test: Add/modify tests
+  - chore: Build process or tool changes
 ~~~~~
 
-## 使い方
+## Usage
 
-1. そのまま適用せず、不要要件を削ってから使う
-2. README 装飾ルールやコミット形式をチーム標準に合わせる
-3. 他プロンプトと競合する指示は統合する
+1. Do not apply it as-is; remove unnecessary requirements first
+2. Align README styling rules and commit format with your team standard
+3. Merge instructions that conflict with other prompts
 
-## 入力例
-
-```text
-対象: 新規OSSリポジトリ
-優先: README整備 / テスト / コミット規約統一
-```
-
-## 出力例
+## Input Example
 
 ```text
-統一ルールに沿った作業方針・ドキュメント更新・コミット運用
+Target: New OSS repository
+Priority: README setup / tests / unified commit conventions
 ```
 
-## 注意点
+## Output Example
 
-- 指示量が多いため、優先順位を明示しないと過剰遵守になりやすい
-- 機械検証できるルールは CI/lint で補完する
+```text
+Work policy, documentation updates, and commit operations aligned with unified rules
+```
+
+## Notes
+
+- Because there are many instructions, omitting priorities can lead to over-compliance
+- Complement machine-verifiable rules with CI/lint

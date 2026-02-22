@@ -1,16 +1,16 @@
 ---
-title: Python パッケージ開発チェックリスト
-description: Python パッケージ/ライブラリの設計・実装・配布・保守の観点を網羅するチェックリスト。
+title: Python Package Development Checklist
+description: A checklist covering design, implementation, distribution, and maintenance perspectives for Python packages/libraries.
 category: dev
 intent: python_package_development_checklist
 audience:
-  - Python開発者
-  - ライブラリ保守者
+  - Python developers
+  - Library maintainers
 input_requirements:
-  - パッケージの目的
-  - 対応Pythonバージョン
-  - 配布方法
-  - 保守体制
+  - Package purpose
+  - Supported Python versions
+  - Distribution method
+  - Maintenance setup
 tags:
   - python
   - package
@@ -21,95 +21,95 @@ owner: prompt-lb-team
 last_reviewed: 2026-02-22
 ---
 
-# Python パッケージ開発チェックリスト
+# Python Package Development Checklist
 
-## 想定用途
+## Intended Use
 
-- 新規ライブラリ立ち上げ時の抜け漏れ防止
-- 公開/社内配布前の最終確認
+- Prevent omissions when starting a new library
+- Final checks before public/internal distribution
 
-## プロンプト本文
+## Prompt Body
 
 ~~~~~md
-# Pythonパッケージ・ライブラリ開発チェックリストプロンプト
+# Python Package/Library Development Checklist Prompt
 
-## 1. パッケージ・ライブラリの設計
-- 機能要件の明確化
-  - 提供する機能の特定
-    - 例: データ処理、機械学習、APIラッパー等
-  - ユースケースの検討
-    - 例: データクレンジング、モデル構築、外部サービスとの連携等
-- アーキテクチャの設計
-  - モジュール構成の決定
-    - 例: データ入力、前処理、モデル、評価等のモジュールに分割
-  - クラス・関数の設計
-    - 例: データ構造を表現するクラス、処理を行う関数等
-- APIの設計
-  - 公開するインターフェースの決定
-    - 例: 主要な機能を提供する関数、設定用のクラス等
-  - ドキュメンテーションの作成
-    - 例: README、API référence、サンプルコード等
+## 1. Package/Library Design
+- Clarify functional requirements
+  - Identify the functions to provide
+    - Example: data processing, machine learning, API wrappers, etc.
+  - Consider use cases
+    - Example: data cleansing, model building, integration with external services, etc.
+- Architecture design
+  - Decide the module structure
+    - Example: split into modules such as data input, preprocessing, model, evaluation, etc.
+  - Design classes/functions
+    - Example: classes representing data structures, functions that perform processing, etc.
+- API design
+  - Decide the public interfaces
+    - Example: functions providing key capabilities, configuration classes, etc.
+  - Create documentation
+    - Example: README, API reference, sample code, etc.
 
-## 2. コーディング
-- コーディング規約の遵守
-  - PEP 8等の規約に沿ったコード記述
-    - 例: 適切なインデント、命名規則、コメント等
-- ドキュメンテーションの追加
-  - docstringを使用した関数・クラスの説明
-    - 例: 引数、戻り値、機能の説明等
-- テストコードの作成
-  - ユニットテストの実装
-    - 例: 個々の関数・クラスの動作を検証するテスト
-  - 統合テストの実装
-    - 例: 複数のモジュールを組み合わせた動作を検証するテスト
+## 2. Coding
+- Follow coding conventions
+  - Write code according to standards such as PEP 8
+    - Example: proper indentation, naming conventions, comments, etc.
+- Add documentation
+  - Describe functions/classes using docstrings
+    - Example: arguments, return values, feature descriptions, etc.
+- Create test code
+  - Implement unit tests
+    - Example: tests that verify the behavior of individual functions/classes
+  - Implement integration tests
+    - Example: tests that verify behavior across combined modules
 
-## 3. パッケージ化
-- setup.pyの作成
-  - パッケージのメタデータ記述
-    - 例: パッケージ名、バージョン、作者、ライセンス等
-  - 依存関係の指定
-    - 例: 必要なPythonバージョン、外部ライブラリ等
+## 3. Packaging
+- Create `setup.py`
+  - Describe package metadata
+    - Example: package name, version, author, license, etc.
+  - Specify dependencies
+    - Example: required Python version, external libraries, etc.
 
-## 4. メンテナンスと更新
-- バグ修正とアップデート
-  - イシューの管理
-    - 例: GitHubのイシュートラッカーを使用した問題の追跡
-  - パッチリリースの提供
-    - 例: バグ修正のみを含むマイナーバージョンアップ
-- 機能追加と改善
-  - 新機能の開発
-    - 例: ユーザーからの要望に基づく機能拡張
-  - マイナーバージョンアップ
-    - 例: 新機能を含むリリース
-- ユーザーサポート
-  - ドキュメンテーションの充実化
-    - 例: よくある質問、トラブルシューティングガイド等の追加
-  - フィードバックの収集と対応
-    - 例: ユーザーからの質問・要望への回答、バグ報告への対処等
+## 4. Maintenance and Updates
+- Bug fixes and updates
+  - Manage issues
+    - Example: track problems using GitHub issue tracker
+  - Provide patch releases
+    - Example: minor version updates containing only bug fixes
+- Feature additions and improvements
+  - Develop new features
+    - Example: feature enhancements based on user requests
+  - Minor version upgrades
+    - Example: releases that include new features
+- User support
+  - Enhance documentation
+    - Example: add FAQs, troubleshooting guides, etc.
+  - Collect and respond to feedback
+    - Example: answer user questions/requests and handle bug reports, etc.
 ~~~~~
 
-## 使い方
+## Usage
 
-1. 設計段階で未決事項を洗い出す
-2. リリース前に再チェックする
-3. チーム標準の lint/test/release 手順を追記して使う
+1. Identify unresolved items during the design phase
+2. Re-check before release
+3. Add your team-standard lint/test/release procedures before use
 
-## 入力例
+## Input Example
 
 ```text
-パッケージ名: acme-utils
-目的: 社内共通ユーティリティの共通化
+Package name: acme-utils
+Purpose: Standardize internal shared utilities
 Python: 3.10+
-配布: Private PyPI
+Distribution: Private PyPI
 ```
 
-## 出力例
+## Output Example
 
 ```text
-設計・実装・配布・保守までの確認項目一覧と未実施項目
+Checklist of verification items from design to implementation, distribution, and maintenance, plus unfinished items
 ```
 
-## 注意点
+## Notes
 
-- ライセンス/配布方針は組織ルールに合わせる
-- README とサンプルコードの動作確認を省略しない
+- Align license/distribution policy with organizational rules
+- Do not skip runtime checks for README and sample code
