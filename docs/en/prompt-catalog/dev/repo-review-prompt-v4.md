@@ -1,16 +1,16 @@
 ---
-title: リポジトリ品質レビュー V4
-description: README・ドキュメント整合性・セキュリティ・コード品質・構成をチェックリスト評価するレビュー用プロンプト。
+title: Repository Quality Review V4
+description: A review prompt for checklist-based evaluation of README, documentation consistency, security, code quality, and structure.
 category: dev
 intent: repository_quality_review_v4
 audience:
-  - レビュー担当
+  - Reviewer
   - Tech Lead
-  - AIレビュー運用者
+  - AI review operator
 input_requirements:
-  - 対象リポジトリ
-  - レビュー対象範囲
-  - 出力形式の要件
+  - Target repository
+  - Review scope
+  - Output format requirements
 tags:
   - repo-review
   - checklist
@@ -21,116 +21,116 @@ owner: prompt-lb-team
 last_reviewed: 2026-02-22
 ---
 
-# リポジトリ品質レビュー V4
+# Repository Quality Review V4
 
-## 想定用途
+## Intended Use
 
-- リリース前の品質確認
-- リポジトリ健全性の定期棚卸し
+- Pre-release quality checks
+- Periodic repository health audits
 
-## プロンプト本文
+## Prompt Body
 
 ~~~~~md
-# リポジトリ品質確認プロンプト V4
+# Repository Quality Check Prompt V4
 
-あなたは優れたコードレビューとリポジトリ構造分析の専門家です。以下のチェックリストに沿って、リポジトリ全体の品質確認を行ってください。各項目について「✅」（問題なし）、「❌」（問題あり）、「⚠️」（一部問題あり）のいずれかで評価し、問題がある場合は具体的な改善提案を提示してください。
+You are an expert in code review and repository structure analysis. Please perform a quality review of the entire repository using the checklist below. For each item, evaluate it as one of the following: "✅" (no issue), "❌" (issue found), or "⚠️" (partially problematic). If there is a problem, provide specific improvement suggestions.
 
-## チェックリスト
+## Checklist
 
-### 📝 README.md の品質確認
-- [ ] タイトルは中央揃えになっているか
-- [ ] ヘッダー画像は中央揃えになっているか(既にヘッダー画像がある場合はそれを使用すること)
-- [ ] 技術スタックのバッジが適切に配置され、中央揃えになっているか
-- [ ] 各セクションに絵文字が活用され、可読性が向上しているか
-- [ ] ドキュメントは適切に分割されて、それぞれに適切にリンクされているか
-- [ ] インストール手順が明確に記載されているか
-- [ ] 使用方法が明確に記載されているか
-- [ ] スクリーンショットや図が適切に使用されているか
+### 📝 README.md Quality Review
+- [ ] Is the title center-aligned?
+- [ ] Is the header image center-aligned? (If a header image already exists, use it.)
+- [ ] Are technology stack badges placed appropriately and center-aligned?
+- [ ] Are emojis used effectively in each section to improve readability?
+- [ ] Is the documentation appropriately split and properly cross-linked?
+- [ ] Are installation steps clearly documented?
+- [ ] Is usage clearly documented?
+- [ ] Are screenshots or diagrams used appropriately?
 
-### 📚 ドキュメンテーション全体の一貫性
-- [ ] 大元の README.md が存在し、適切に構成されているか
-- [ ] example フォルダが存在する場合、その中に README.md が存在するか
-- [ ] example フォルダの README.md が大元の README.md を適切に参照しているか
-- [ ] 大元の README.md と example フォルダの README.md の内容が重複せず、適切に分割されているか
-- [ ] 各 README.md が重くなりすぎていないか、適切にファイル分割されているか
-- [ ] 分割されたファイルに適切にリンクが貼られているか
-- [ ] 全てのドキュメントで一貫した用語が使用されているか
-- [ ] ドキュメントの構造が論理的か
+### 📚 Overall Documentation Consistency
+- [ ] Does a top-level README.md exist and is it properly structured?
+- [ ] If an `example` folder exists, does it contain a README.md?
+- [ ] Does the README.md in the `example` folder properly reference the top-level README.md?
+- [ ] Are the top-level README.md and the `example` folder README.md properly divided without overlapping content?
+- [ ] Is each README.md kept from becoming too large, with appropriate file splitting?
+- [ ] Are proper links added to the split files?
+- [ ] Is consistent terminology used across all documentation?
+- [ ] Is the documentation structure logical?
 
-### 🔒 環境設定とセキュリティ
-- [ ] `.env` や環境変数が適切に使用されているか
-- [ ] 直接コード内にAPIキーやパスワードなどの機密情報が記載されていないか(`.env`にはOK)
-- [ ] `.gitignore` ファイルに `.env` が適切に記載されているか
-- [ ] `.env.example` が存在し、必要な環境変数の例が記載されているか
+### 🔒 Environment Configuration and Security
+- [ ] Are `.env` files and environment variables used appropriately?
+- [ ] Are sensitive values such as API keys or passwords not written directly in code? (`.env` is allowed)
+- [ ] Is `.env` properly listed in the `.gitignore` file?
+- [ ] Does `.env.example` exist and include examples of required environment variables?
 
-### 💻 コード品質
-- [ ] コードコメントは適切に記載されているか
-- [ ] 命名規則が一貫しているか
-- [ ] 未使用のコードやコメントアウトされたコードが放置されていないか
+### 💻 Code Quality
+- [ ] Are code comments written appropriately?
+- [ ] Are naming conventions consistent?
+- [ ] Is unused code or commented-out code not left behind?
 
-### 📂 プロジェクト構造
-- [ ] フォルダ構造が論理的で理解しやすいか
-- [ ] 依存関係が適切に管理されているか
+### 📂 Project Structure
+- [ ] Is the folder structure logical and easy to understand?
+- [ ] Are dependencies managed appropriately?
 
-## 出力形式
+## Output Format
 
-以下のような形式でチェックリストの結果を出力してください：
+Please output the checklist results in the following format:
 
-### 📝 README.md の品質確認
-- [✅/❌/⚠️] タイトルは中央揃えになっているか
-  - 問題点と改善提案（問題がある場合）
-- [✅/❌/⚠️] ヘッダー画像は中央揃えになっているか
-  - 問題点と改善提案（問題がある場合）
-- ...（以下同様）
+### 📝 README.md Quality Review
+- [✅/❌/⚠️] Is the title center-aligned?
+  - Issues and improvement suggestions (if there is a problem)
+- [✅/❌/⚠️] Is the header image center-aligned?
+  - Issues and improvement suggestions (if there is a problem)
+- ... (same for the remaining items)
 
-### 📚 ドキュメンテーション全体の一貫性
-- [✅/❌/⚠️] 大元の README.md が存在し、適切に構成されているか
-  - 問題点と改善提案（問題がある場合）
-- [✅/❌/⚠️] example フォルダが存在する場合、その中に README.md が存在するか
-  - 問題点と改善提案（問題がある場合）
-- ...（以下同様）
+### 📚 Overall Documentation Consistency
+- [✅/❌/⚠️] Does a top-level README.md exist and is it properly structured?
+  - Issues and improvement suggestions (if there is a problem)
+- [✅/❌/⚠️] If an `example` folder exists, does it contain a README.md?
+  - Issues and improvement suggestions (if there is a problem)
+- ... (same for the remaining items)
 
-（他のセクションも同様の形式で）
+(Use the same format for the other sections as well.)
 
-### 🔍 総評
-リポジトリの現在の状態に関する簡潔な総評と、優先して対応すべき最重要の改善点3つを提示してください。
+### 🔍 Overall Assessment
+Provide a brief overall assessment of the repository's current state and the top 3 most important improvements to prioritize.
 
-### 📝 具体的な修正例
-最も重要な改善点について、具体的なコードやマークダウンの修正例を提示してください。
+### 📝 Concrete Fix Examples
+For the most important improvement, provide concrete code or Markdown fix examples.
 
-#### README.md 構造確認対象
-以下の点を特に注意して確認してください：
-1. 大元の README.md が適切に構成されているか確認し、不足があれば改善を提案する
-2. example フォルダが存在する場合、その中に README.md があるか確認し、なければ作成を提案する
-3. example フォルダの README.md が大元の README.md を適切に参照し、重複を避けているか確認する
-4. README.md が長すぎる場合は、適切なファイル分割とリンク設定を提案する
+#### README.md Structure Review Focus
+Pay special attention to the following points:
+1. Check whether the top-level README.md is properly structured, and propose improvements if anything is missing.
+2. If an `example` folder exists, check whether it contains a README.md; if not, propose creating one.
+3. Check whether the README.md in the `example` folder properly references the top-level README.md and avoids duplication.
+4. If the README.md is too long, propose appropriate file splitting and link organization.
 
 ---
 
-このチェックリストに沿って、リポジトリ全体を分析し、開発サイクルのクロージング処理として必要な改善点を明確にしてください。
+Analyze the entire repository using this checklist, and clearly identify the improvements needed as part of the development cycle closing process.
 ~~~~~
 
-## 使い方
+## Usage
 
-1. 対象範囲（全体/一部）を明示して実行する
-2. 出力形式（✅/⚠️/❌、総評、修正例）を維持する
-3. 指摘事項は実ファイルを確認してから採用する
+1. Specify the target scope (entire repository / partial) before running.
+2. Keep the output format (`✅/⚠️/❌`, overall assessment, fix examples).
+3. Validate findings against actual files before adopting them.
 
-## 入力例
-
-```text
-対象: monorepo 全体
-重点: README整合性 / 機密情報漏洩 / プロジェクト構造
-出力: チェックリスト + 総評 + 修正例
-```
-
-## 出力例
+## Input Example
 
 ```text
-項目ごとの評価と改善提案、優先改善点3つ、具体的修正例
+Target: entire monorepo
+Focus: README consistency / secret leakage / project structure
+Output: checklist + overall assessment + fix examples
 ```
 
-## 注意点
+## Output Example
 
-- LLMレビューは誤検知/見落としがあるため人間確認が必要
-- 機密情報チェックは専用ツールと併用する
+```text
+Per-item evaluations and improvement suggestions, top 3 priority improvements, concrete fix examples
+```
+
+## Notes
+
+- LLM reviews may include false positives/oversights, so human verification is required.
+- Use dedicated tools together with this prompt for secret scanning.
