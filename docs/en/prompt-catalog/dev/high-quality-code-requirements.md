@@ -1,16 +1,16 @@
 ---
-title: 高品質コード要件
-description: 可読性・保守性・拡張性・安全性などの観点でコード品質を確認する要件リスト。
+title: High-Quality Code Requirements
+description: A requirement list for checking code quality from perspectives such as readability, maintainability, extensibility, and security.
 category: dev
 intent: high_quality_code_requirements
 audience:
-  - 開発者
-  - コードレビュー担当
-  - AIコーディングエージェント
+  - Developers
+  - Code reviewers
+  - AI coding agents
 input_requirements:
-  - 対象コードまたは設計
-  - 品質評価の観点
-  - チーム規約
+  - Target code or design
+  - Quality evaluation perspectives
+  - Team conventions
 tags:
   - code-quality
   - checklist
@@ -21,82 +21,82 @@ owner: prompt-lb-team
 last_reviewed: 2026-02-22
 ---
 
-# 高品質コード要件
+# High-Quality Code Requirements
 
-## 想定用途
+## Intended Use
 
-- PR前のセルフチェック
-- レビュー観点の共通化
+- Self-check before a PR
+- Standardizing review perspectives
 
-## プロンプト本文
+## Prompt Body
 
 ~~~~~md
 
-# 最高のプログラム要件プロンプト
+# Prompt for Excellent Program Requirements
 
-## 1. 可読性
-- コードは理解しやすく、明確であること
-- 変数や関数には説明的で意味のある名前を付ける
-- コードのフォーマットは一貫性があり、読みやすいこと
-- コメントやドキュメントを適切に使用し、コードの意図を明確にする
+## 1. Readability
+- Code should be easy to understand and clear
+- Give variables and functions descriptive, meaningful names
+- Code formatting should be consistent and easy to read
+- Use comments and documentation appropriately to clarify the intent of the code
 
-## 2. 効率性
-- パフォーマンスを向上させるために、コードを最適化する
-- 冗長または不要な操作を避ける
-- アルゴリズムとデータ構造を適切に選択し、効率的な実装を行う
-- メモリ使用量とCPU使用率を最小限に抑える
+## 2. Efficiency
+- Optimize code to improve performance
+- Avoid redundant or unnecessary operations
+- Choose appropriate algorithms and data structures for efficient implementation
+- Minimize memory usage and CPU utilization
 
-## 3. モジュール性
-- コードを論理的な関数やクラスに分割し、整理する
-- 関心事の分離を適切に行い、各モジュールが単一の責任を持つようにする
-- モジュール間の結合度を低く保ち、疎結合を目指す
-- インターフェースを明確に定義し、モジュール間の相互作用を簡素化する
+## 3. Modularity
+- Organize code by dividing it into logical functions and classes
+- Properly separate concerns so each module has a single responsibility
+- Keep coupling low between modules and aim for loose coupling
+- Define interfaces clearly to simplify interactions between modules
 
-## 4. 拡張性
-- 将来の変更や新機能の追加を容易にするために、柔軟な設計を行う
-- オープン・クローズドの原則（OCP）を適用し、既存のコードを変更せずに拡張できるようにする
-- 依存性の注入（DI）を活用し、モジュール間の依存関係を管理する
-- 設計パターンを適切に使用し、拡張性と保守性を向上させる
+## 4. Extensibility
+- Use flexible design to make future changes and new features easy to add
+- Apply the Open/Closed Principle (OCP) so code can be extended without modifying existing code
+- Use Dependency Injection (DI) to manage dependencies between modules
+- Use design patterns appropriately to improve extensibility and maintainability
 
-## 5. ベストプラクティスとデザインパターン
-- 特定のプログラミング言語の確立されたベストプラクティスに従う
-- DRY（Don't Repeat Yourself）の原則を適用し、コードの重複を避ける
-- SOLID原則（単一責任、オープン・クローズド、リスコフの置換、インターフェース分離、依存性逆転）を尊重する
-- 適切なデザインパターン（シングルトン、ファクトリ、オブザーバーなど）を使用し、コードの構造と再利用性を向上させる
+## 5. Best Practices and Design Patterns
+- Follow established best practices for the specific programming language
+- Apply the DRY (Don't Repeat Yourself) principle to avoid code duplication
+- Respect SOLID principles (Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion)
+- Use appropriate design patterns (Singleton, Factory, Observer, etc.) to improve code structure and reusability
 
-## 6. テスト
-- ユニットテスト、統合テスト、システムテストを適切に実施し、コードの品質を確保する
-- テスト駆動開発（TDD）を採用し、テストとコードを同時に開発する
-- モックやスタブを活用し、テストの独立性を高める
-- テストカバレッジを高め、コードのすべての部分が十分にテストされていることを確認する
+## 6. Testing
+- Properly conduct unit tests, integration tests, and system tests to ensure code quality
+- Adopt Test-Driven Development (TDD) and develop tests and code together
+- Use mocks and stubs to improve test independence
+- Increase test coverage and confirm all parts of the code are sufficiently tested
 
-## 7. セキュリティ
-- 安全なコーディング practices に従い、一般的な脆弱性を回避する
-- ユーザー入力のバリデーションとサニタイズを適切に行う
-- 機密情報の暗号化と安全な保管を行う
-- 最小権限の原則を適用し、各コンポーネントが必要最小限の権限のみを持つようにする
+## 7. Security
+- Follow secure coding practices and avoid common vulnerabilities
+- Properly validate and sanitize user input
+- Encrypt sensitive information and store it securely
+- Apply the principle of least privilege so each component has only the minimum necessary permissions
 ~~~~~
 
-## 使い方
+## How to Use
 
-1. 対象コードと制約を先に共有する
-2. 重要観点（例: 安全性/保守性）を優先順位付きで指定する
-3. 指摘結果はチーム基準で最終判断する
+1. Share the target code and constraints first
+2. Specify important perspectives (e.g., security/maintainability) with priorities
+3. Make final decisions on findings based on team standards
 
-## 入力例
-
-```text
-対象: 認証処理の改修PR
-重点: セキュリティ、テスト容易性、可読性
-```
-
-## 出力例
+## Input Example
 
 ```text
-品質観点ごとの満たしている点/不足点と優先修正項目
+Target: PR for authentication processing changes
+Focus: Security, testability, readability
 ```
 
-## 注意点
+## Output Example
 
-- チェックリスト準拠だけで要件適合が保証されるわけではない
-- 性能は必ず計測で確認する
+```text
+Strengths/gaps by quality perspective and prioritized fixes
+```
+
+## Notes
+
+- Checklist compliance alone does not guarantee requirement fit
+- Always verify performance through measurement
