@@ -32,6 +32,7 @@ last_reviewed: 2026-02-23
 - [グラレコHTML作成 V4 アイコン強調版](./graphic-recording-html-v4.md) - 大型アイコンを最大限に活用したアイコン重視版
 - [グラレコHTML作成 V5 UI/UXテーマ](./graphic-recording-html-v5.md) - UI/UXカラーパレットと大型アイコン使用版
 - [タイムライン付きグラレコ V3](./graphic-recording-timeline-v3.md) - 宇宙テーマのタイムライン形式グラレコ
+- [ギャラクシータイムライン付きグラレコ V3a](./graphic-recording-timeline-v3a.md) - トロピカルフルーツパンチカラーパレット版
 - [水テーマグラレコ V6](./graphic-recording-water-v6.md) - 水の流れのような柔軟性と動きを持つグラレコ
 
 ### 編集可能グラレコ
