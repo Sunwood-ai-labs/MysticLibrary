@@ -1,17 +1,17 @@
 ---
-title: Agent Ops Note（作業記録テンプレート）
-description: 作業の背景・計画・実行・検証・次アクションを整理して残すためのテンプレート型プロンプト。
+title: Agent Ops Note (Work Log Template)
+description: A template prompt for organizing and recording work background, plan, execution, verification, and next actions.
 category: dev
 intent: agent_ops_note_template
 audience:
-  - 開発者
-  - AIエージェント運用者
-  - レビュー担当
+  - Developers
+  - AI agent operators
+  - Reviewers
 input_requirements:
-  - タスクID/担当/日時
-  - 背景と目的
-  - 実施内容と検証結果
-  - 残課題と次アクション
+  - Task ID / owner / date and time
+  - Background and objective
+  - Work performed and verification results
+  - Remaining issues and next actions
 tags:
   - agent
   - ops
@@ -22,68 +22,68 @@ owner: prompt-lb-team
 last_reviewed: 2026-02-22
 ---
 
-# Agent Ops Note（作業記録テンプレート）
+# Agent Ops Note (Work Log Template)
 
-## 想定用途
+## Intended Use
 
-- PR やチケットに作業サマリを残す
-- 引き継ぎ時に背景・判断・残課題を共有する
+- Leave work summaries in PRs and tickets
+- Share background, decisions, and remaining issues during handoff
 
-## プロンプト本文
+## Prompt Body
 
 ~~~~~md
 # Agent Ops Note (AON)
-- **Task ID / Owner / 日時**
-- **TL;DR**（2〜3行：ねらい → 主要アクション → 成果/影響）
+- **Task ID / Owner / Date & Time**
+- **TL;DR** (2-3 lines: goal -> key actions -> results/impact)
 
-## 🎯 1. コンテキスト & 目的
-- なぜこの作業をしたのか（背景 / 制約 / 目標）
+## 🎯 1. Context & Objective
+- Why this work was done (background / constraints / goal)
 
-## 📝 2. 計画（Plan）
-- 簡単な進め方・意識したポイント
+## 📝 2. Plan
+- Brief approach and points kept in mind
 
-## 🔧 3. 実行内容（Do）
-- Git差分を取得（3ファイル変更）
-- LLMで要約を生成
-- レポートをPRに添付
+## 🔧 3. Execution (Do)
+- Retrieve Git diff (3 files changed)
+- Generate a summary with an LLM
+- Attach the report to the PR
 
-## ✅ 4. 成果 & 検証（Check）
-- 期待 vs 実測（テスト結果やレビュー状況）
-- 成果物リンク（PR/ファイル/スクショ等）
+## ✅ 4. Results & Verification (Check)
+- Expected vs actual (test results, review status, etc.)
+- Deliverable links (PR/files/screenshots, etc.)
 
-## 💡 5. 意思決定（Act）
-- 今回の判断を1行で要約  
-  （例：「古い手順は削除して最新APIのみサポートすることにした」）
+## 💡 5. Decision (Act)
+- Summarize this decision in one line  
+  (Example: "We removed the old procedure and decided to support only the latest API.")
 
-## 🚧 6. 課題・リスク・次アクション
-- 未解決事項、リスク、誰が次やるか
+## 🚧 6. Issues, Risks, and Next Actions
+- Open issues, risks, and who handles the next step
 
-## 🔥 7. 障害/逸脱があった場合のみ：ポストモーテム
-- 何が起きたか / 原因 / 再発防止策
+## 🔥 7. Only if an incident/deviation occurred: Postmortem
+- What happened / cause / recurrence prevention measures
 ~~~~~
 
-## 使い方
+## How to Use
 
-1. 各セクションを事実ベースで埋める
-2. 検証結果は数値・ログ・リンクを添える
-3. 次アクションは担当者と期限を明記する
+1. Fill each section with fact-based information
+2. Include metrics, logs, and links for verification results
+3. Clearly specify the owner and deadline for next actions
 
-## 入力例
+## Input Example
 
 ```text
 Task ID: FE-142
-目的: 検索レスポンス改善
-実行内容: クエリ見直し/インデックス追加
-検証: p95 1.8s -> 0.7s
+Objective: Improve search response
+Execution: Query review / added index
+Verification: p95 1.8s -> 0.7s
 ```
 
-## 出力例
+## Output Example
 
 ```text
-背景/計画/実行/検証/意思決定/残課題が整理された作業記録Markdown
+Work log Markdown with organized background/plan/execution/verification/decision/open issues
 ```
 
-## 注意点
+## Notes
 
-- 推測は「仮説」と明記する
-- 実施していない検証を実施済みとして書かない
+- Clearly label speculation as a "hypothesis"
+- Do not write unperformed verification as if it was completed
