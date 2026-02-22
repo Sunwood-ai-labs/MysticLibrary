@@ -1,15 +1,15 @@
 ---
-title: Codex 作業ルール（todo.md運用）
-description: タスク分解・todo.md 更新・調査/実装の進め方を定義する運用ルール系プロンプト。
+title: Codex Work Rules (todo.md Workflow)
+description: An operational rules prompt that defines task breakdown, todo.md updates, and how to proceed with investigation/implementation.
 category: dev
 intent: codex_work_rules_todo
 audience:
-  - AIエージェント運用者
-  - 開発者
+  - AI Agent Operators
+  - Developers
 input_requirements:
-  - ユーザー依頼内容
-  - 作業対象リポジトリ
-  - todo.md の運用方針
+  - User request details
+  - Target repository for the work
+  - todo.md operation policy
 tags:
   - codex
   - workflow
@@ -20,68 +20,68 @@ owner: prompt-lb-team
 last_reviewed: 2026-02-22
 ---
 
-# Codex 作業ルール（todo.md運用）
+# Codex Work Rules (todo.md Workflow)
 
-## 想定用途
+## Intended Use
 
-- エージェントにタスク分解と進捗更新を徹底させる
-- 調査タスク/実装タスクの扱いを統一する
+- Enforce task breakdown and progress updates for agents
+- Standardize handling of investigation tasks and implementation tasks
 
-## プロンプト本文
+## Prompt Text
 
 ~~~~~md
-# タスク管理
-・ユーザから依頼された際、ユーザは何を求めているのかよく考え、これからやるべきことをtodo.mdにマークダウン形式に書き起こす   
-・タスクとサブタスクの数は依頼内容によって判断してください   
+# Task Management
+・When a request is received from a user, think carefully about what the user is asking for and write what should be done next in `todo.md` in Markdown format
+・Decide the number of tasks and subtasks based on the request details
 
-# 重要
-・mdファイルなどテキストファイルを出力する場合は、文字エンコーディングが正しく変換してください
-・テキストファイルにはバイナリデータを混入しないでください
+# Important
+・When outputting text files such as `.md` files, ensure character encoding is converted correctly
+・Do not mix binary data into text files
 
 ~~~
-例
-# 〇〇タスク
-## タスク名１
-- [ ] サブタスク１
-- [ ] サブタスク２
-- [ ] サブタスク３
-・そのタスクリストに沿ってタスクを実行してください、終わったタスクは
-- [x] タスク　のようにtodo.mdを更新すること
+Example
+# XX Task
+## Task Name 1
+- [ ] Subtask 1
+- [ ] Subtask 2
+- [ ] Subtask 3
+・Execute tasks according to that task list, and update `todo.md` for completed tasks
+- [x] Task  (for example)
 ~~~
 
-・調査タスクは調査し、実装タスクは実装してください   
-・調査タスクは調査結果に基づいて、ユーザ要件を満たすために深堀りする必要がある かを考え、調査すべき内容とタスクの変更をtodo.mdに更新すること   
-・更新されたタスクに基づいて続けて実施してください
+・Investigate investigation tasks, and implement implementation tasks
+・For investigation tasks, based on the findings, consider whether deeper investigation is needed to satisfy the user requirements, and update `todo.md` with what should be investigated and any task changes
+・Continue working based on the updated tasks
 
-# 開発環境
+# Development Environment
 
-・Ubuntu 22.04.5 LTS   
-・node -v : v20.19.0   
-・uv -V : uv 0.6.10   
-・python3 -V : Python 3.12.8   
-・pythonで開発する場合はuvで仮想環境を作ること   
+・Ubuntu 22.04.5 LTS
+・node -v : v20.19.0
+・uv -V : uv 0.6.10
+・python3 -V : Python 3.12.8
+・When developing in Python, create a virtual environment with `uv`
 ~~~~~
 
-## 使い方
+## How to Use
 
-1. system/developer prompt に組み込む
-2. 作業開始前に `todo.md` 更新を必須化する
-3. 調査結果に応じた再計画も `todo.md` に反映させる
+1. Integrate it into the system/developer prompt
+2. Make updating `todo.md` mandatory before starting work
+3. Reflect replanning based on investigation results in `todo.md`
 
-## 入力例
-
-```text
-依頼: APIタイムアウトの原因調査と修正
-期待: 調査・実装を分けて todo.md 管理
-```
-
-## 出力例
+## Input Example
 
 ```text
-todo.md にタスク/サブタスクが作成され、完了時にチェック更新される
+Request: Investigate and fix the cause of an API timeout
+Expectation: Manage investigation and implementation separately in todo.md
 ```
 
-## 注意点
+## Output Example
 
-- 環境バージョン記述は現行環境と一致するか確認する
-- `todo.md` が存在しない場合の作成ルールを別途決める
+```text
+Tasks/subtasks are created in todo.md, and their checkboxes are updated upon completion
+```
+
+## Notes
+
+- Confirm that the documented environment versions match the current environment
+- Define a separate rule for how to create `todo.md` if it does not exist
