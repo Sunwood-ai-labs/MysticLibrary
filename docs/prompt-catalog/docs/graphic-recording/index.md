@@ -28,6 +28,7 @@ last_reviewed: 2026-02-23
 ### インフォグラフィック生成
 
 - [グラレコHTML作成 V3](./graphic-recording-html-v3.md) - 基本的なグラレコHTMLの生成
+- [グラレコHTML作成 V3.1 旅行テーマ](./graphic-recording-html-v3-1.md) - 旅行カラーパレットとSVGアセット使用版
 - [タイムライン付きグラレコ V3](./graphic-recording-timeline-v3.md) - 宇宙テーマのタイムライン形式グラレコ
 - [水テーマグラレコ V6](./graphic-recording-water-v6.md) - 水の流れのような柔軟性と動きを持つグラレコ
 
