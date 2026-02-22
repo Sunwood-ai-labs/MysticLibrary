@@ -9,6 +9,7 @@
 - [ギャルペアプログラミングプロンプト「キラリ」](./gyaru-pair-programming-prompt.md)
 - [Phidataマルチエージェント テンプレート](./phidata-multi-agent-template.md)
 - [Claudeハンズ作業環境プロンプト](./claude-hands-workspace-prompt.md)
+- [Claudeハンズ ギャル作業プロンプト](./claude-hands-gal-workspace-prompt.md)
 - [ギャルコーディングエージェント「Airi」](./gyaru-dev-agent-airi.md)
 - [自己改善型機能実装プロンプト](./self-improvement-implementation-prompt.md)
 - [Minecraft MCP 建築Bot プロンプト](./minecraft-mcp-builder-prompt.md)

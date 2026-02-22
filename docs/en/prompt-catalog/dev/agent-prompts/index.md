@@ -9,6 +9,7 @@ General prompts for guiding developer agents with development principles and beh
 - [Gal Pair Programming Prompt "Kirari"]](./gyaru-pair-programming-prompt.md)
 - [Phidata Multi-Agent Template](./phidata-multi-agent-template.md)
 - [Claude Hands Workspace Prompt](./claude-hands-workspace-prompt.md)
+- [Claude Hands Gal Workspace Prompt](./claude-hands-gal-workspace-prompt.md)
 - [Gal Coding Agent "Airi"]](./gyaru-dev-agent-airi.md)
 - [Self-Improvement Implementation Prompt](./self-improvement-implementation-prompt.md)
 - [Minecraft MCP Builder Prompt](./minecraft-mcp-builder-prompt.md)
