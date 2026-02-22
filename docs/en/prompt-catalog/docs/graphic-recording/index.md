@@ -34,6 +34,7 @@ Graphic Recording is a technique for summarizing meeting and presentation conten
 - [Graphic Recording HTML v3.1 Travel Palette](./graphic-recording-html-v3-1.md) - Travel color palette with SVG assets
 - [Graphic Recording HTML v4 Icon Emphasis](./graphic-recording-html-v4.md) - Icon-centered version with maximum large icons
 - [Graphic Recording HTML v5 UI/UX Theme](./graphic-recording-html-v5.md) - UI/UX color palette with large icons
+- [Graphic Recording Timeline v2](./graphic-recording-timeline-v2.md) - Illustration color palette timeline graphic recording
 - [Graphic Recording Timeline v3](./graphic-recording-timeline-v3.md) - Space-themed timeline graphic recording
 - [Galaxy Timeline Graphic Recording V3a](./graphic-recording-timeline-v3a.md) - Tropical Fruit Punch color palette version
 - [Graphic Recording Water v6](./graphic-recording-water-v6.md) - Water-themed flexible and dynamic graphic recording
