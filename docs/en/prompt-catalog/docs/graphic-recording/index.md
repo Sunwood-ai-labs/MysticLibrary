@@ -43,6 +43,10 @@ Graphic Recording is a technique for summarizing meeting and presentation conten
 
 - [Graphic Recording Slide v4](./graphic-recording-slide-v4.md) - Horizontal scroll enabled presentation slides
 
+### Comic-style Conversion
+
+- [Comic-style HTML Generator V2.0](./comic-style-html-generator-v2.md) - Convert to 4-panel manga-style HTML format
+
 ## How to Use
 
 1. Copy the prompt and paste it into an AI chat tool

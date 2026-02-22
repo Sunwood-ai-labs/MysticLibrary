@@ -43,6 +43,10 @@ last_reviewed: 2026-02-23
 
 - [グラレコスライド v4](./graphic-recording-slide-v4.md) - 横スクロール機能付きプレゼンテーションスライド
 
+### コミック調変換
+
+- [コミック調HTMLジェネレーター V2.0](./comic-style-html-generator-v2.md) - 4コマ漫画風HTML形式への変換
+
 ## 使い方
 
 1. プロンプトをコピーしてAIチャットツールに貼り付け
