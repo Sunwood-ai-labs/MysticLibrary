@@ -27,6 +27,7 @@ Graphic Recording is a technique for summarizing meeting and presentation conten
 
 ### Infographic Generation
 
+- [Graphic Recording HTML v2 Full Moon Dark](./graphic-recording-html-v2-dark.md) - Full Moon color palette dark theme version
 - [Graphic Recording HTML v3](./graphic-recording-html-v3.md) - Basic graphic recording HTML generation
 - [Graphic Recording HTML v3.1 Travel Palette](./graphic-recording-html-v3-1.md) - Travel color palette with SVG assets
 - [Graphic Recording HTML v4 Icon Emphasis](./graphic-recording-html-v4.md) - Icon-centered version with maximum large icons

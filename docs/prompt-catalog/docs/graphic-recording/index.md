@@ -27,6 +27,7 @@ last_reviewed: 2026-02-23
 
 ### インフォグラフィック生成
 
+- [グラレコHTML作成 V2 フルムーンダーク](./graphic-recording-html-v2-dark.md) - フルムーンカラーパレットのダークテーマ版
 - [グラレコHTML作成 V3](./graphic-recording-html-v3.md) - 基本的なグラレコHTMLの生成
 - [グラレコHTML作成 V3.1 旅行テーマ](./graphic-recording-html-v3-1.md) - 旅行カラーパレットとSVGアセット使用版
 - [グラレコHTML作成 V4 アイコン強調版](./graphic-recording-html-v4.md) - 大型アイコンを最大限に活用したアイコン重視版
