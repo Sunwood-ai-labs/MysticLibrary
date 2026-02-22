@@ -1,3 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap");
+
+:root {
+  --docs-font-sans:
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Noto Sans JP",
+    "Hiragino Sans",
+    "Yu Gothic UI",
+    "Yu Gothic",
+    "Meiryo",
+    sans-serif;
+}
+
 :root {
   --vp-c-brand-1: #0f766e;
   --vp-c-brand-2: #0b9488;
@@ -21,6 +38,10 @@
     transparent 60%
   );
   --vp-home-hero-image-filter: blur(52px);
+
+  /* Match the main app typography (src/) */
+  --vp-font-family-base: var(--docs-font-sans);
+  --vp-font-family-heading: var(--docs-font-sans);
 }
 
 .dark {
@@ -42,6 +63,24 @@
 .VPNavBarTitle .title {
   letter-spacing: 0.02em;
   font-weight: 700;
+}
+
+body {
+  font-family: var(--docs-font-sans);
+}
+
+.VPDoc h1,
+.VPDoc h2,
+.VPDoc h3,
+.VPDoc h4,
+.VPDoc h5,
+.VPDoc h6 {
+  font-family: var(--docs-font-sans);
+}
+
+.VPHero .name,
+.VPHero .text {
+  font-family: "Kaisei Decol", serif;
 }
 
 .VPContent.is-home {
