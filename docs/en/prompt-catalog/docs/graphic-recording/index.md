@@ -60,6 +60,7 @@ Graphic Recording is a technique for summarizing meeting and presentation conten
 
 ### Comic-style Conversion
 
+- [Comic Style HTML Generator V1.0](./comic-style-html-generator-v1.md) - Simple comic panel-style HTML conversion
 - [Comic-style HTML Generator V2.0](./comic-style-html-generator-v2.md) - Convert to 4-panel manga-style HTML format
 
 ## How to Use

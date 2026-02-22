@@ -45,6 +45,8 @@ last_reviewed: 2026-02-23
 
 ### 編集可能グラレコ
 
+- [編集可能グラレコ v2](./editable-graphic-recording-v2.md) - 和モダンデザインの編集可能グラレコ
+- [編集可能グラレコ v2.1 藍雅](./editable-graphic-recording-v2-1.md) - 藍染めの美学を現代に昇華させた編集可能グラレコ
 - [編集可能グラレコ v3.0](./editable-graphic-recording-v3.md) - 涼雅夏和デザインの編集可能グラレコ
 
 ### サムネイル生成
@@ -60,6 +62,7 @@ last_reviewed: 2026-02-23
 
 ### コミック調変換
 
+- [コミック調HTMLジェネレーター V1.0](./comic-style-html-generator-v1.md) - シンプルなコミックパネル式HTML変換
 - [コミック調HTMLジェネレーター V2.0](./comic-style-html-generator-v2.md) - 4コマ漫画風HTML形式への変換
 
 ## 使い方
