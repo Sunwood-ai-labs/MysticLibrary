@@ -6,3 +6,4 @@ AIエージェントやリポジトリ運用のルール・ガイドラインを
 
 - [Codex 作業ルール（todo.md運用）](./codex-work-rules.md)
 - [Zenith リポジトリ運用ガイドライン](./repository-guidelines-zenith.md)
+- [AIコーディングエージェント運用安全憲章](./ai-coding-agent-safety-charter.md)
