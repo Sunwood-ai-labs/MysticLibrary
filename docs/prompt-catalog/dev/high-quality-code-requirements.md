@@ -23,8 +23,6 @@ last_reviewed: 2026-02-22
 
 # 高品質コード要件
 
-移行元 `prompts/coding/Requirements_for_High-Quality_Code_JP.md` の内容を、`docs` カタログ形式で登録したページです。
-
 ## 想定用途
 
 - PR前のセルフチェック

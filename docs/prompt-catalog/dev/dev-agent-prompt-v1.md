@@ -22,8 +22,6 @@ last_reviewed: 2026-02-22
 
 # Dev Agent Prompt v1（簡潔開発原則）
 
-移行元 `prompts/coding/dev-agent/dev_agent_prompt-v1_JP.md` の内容を、`docs` カタログ形式で登録したページです。
-
 ## 想定用途
 
 - 過剰実装を避けたい開発タスク

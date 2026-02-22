@@ -23,8 +23,6 @@ last_reviewed: 2026-02-22
 
 # Python パッケージ開発チェックリスト
 
-移行元 `prompts/coding/Checklist_for_Developing_Python_Packages_and_Libraries_JP.md` の内容を、`docs` カタログ形式で登録したページです。
-
 ## 想定用途
 
 - 新規ライブラリ立ち上げ時の抜け漏れ防止

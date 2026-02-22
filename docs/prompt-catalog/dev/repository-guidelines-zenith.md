@@ -23,8 +23,6 @@ last_reviewed: 2026-02-22
 
 # Zenith リポジトリ運用ガイドライン
 
-移行元 `prompts/coding/Zenith-Excellence-Repository-Guidelines_JP.md` の内容を、`docs` カタログ形式で登録したページです。
-
 ## 想定用途
 
 - 新規/既存リポジトリの運用ルール整備

@@ -6,6 +6,9 @@ export default defineConfig({
   description: "日本語のプロンプトライブラリ",
   cleanUrls: true,
   lastUpdated: false,
+  head: [
+    ["script", { async: "", src: "https://platform.twitter.com/widgets.js", charset: "utf-8" }]
+  ],
   themeConfig: {
     siteTitle: "Prompt Library",
     nav: [
@@ -26,54 +29,67 @@ export default defineConfig({
         },
         {
           text: "収録プロンプト",
+          collapsed: false,
           items: [
             {
-              text: "フォローアップメール作成",
-              link: "/prompt-catalog/writing/email-followup"
+              text: "Writing",
+              collapsed: false,
+              items: [
+                {
+                  text: "フォローアップメール作成",
+                  link: "/prompt-catalog/writing/email-followup"
+                }
+              ]
             },
             {
-              text: "バグ報告トリアージ",
-              link: "/prompt-catalog/dev/bug-report-triage"
-            },
-            {
-              text: "Agent Ops Note（作業記録テンプレート）",
-              link: "/prompt-catalog/dev/agent-ops-note"
-            },
-            {
-              text: "Codex 作業ルール（todo.md運用）",
-              link: "/prompt-catalog/dev/codex-work-rules"
-            },
-            {
-              text: "高品質コード要件",
-              link: "/prompt-catalog/dev/high-quality-code-requirements"
-            },
-            {
-              text: "Python パッケージ開発チェックリスト",
-              link: "/prompt-catalog/dev/python-package-development-checklist"
-            },
-            {
-              text: "Zenith リポジトリ運用ガイドライン",
-              link: "/prompt-catalog/dev/repository-guidelines-zenith"
-            },
-            {
-              text: "Claude Dev システムプロンプト（Unix系）",
-              link: "/prompt-catalog/dev/claude-dev-system-prompt-unix"
-            },
-            {
-              text: "Claude Dev システムプロンプト（PowerShell）",
-              link: "/prompt-catalog/dev/claude-dev-system-prompt-powershell"
-            },
-            {
-              text: "Dev Agent Prompt v1（簡潔開発原則）",
-              link: "/prompt-catalog/dev/dev-agent-prompt-v1"
-            },
-            {
-              text: "Windsurf システムプロンプト 01",
-              link: "/prompt-catalog/dev/windsurf-system-prompt-01"
-            },
-            {
-              text: "リポジトリ品質レビュー V4",
-              link: "/prompt-catalog/dev/repo-review-prompt-v4"
+              text: "Dev",
+              collapsed: false,
+              items: [
+                {
+                  text: "バグ報告トリアージ",
+                  link: "/prompt-catalog/dev/bug-report-triage"
+                },
+                {
+                  text: "Agent Ops Note（作業記録テンプレート）",
+                  link: "/prompt-catalog/dev/agent-ops-note"
+                },
+                {
+                  text: "Codex 作業ルール（todo.md運用）",
+                  link: "/prompt-catalog/dev/codex-work-rules"
+                },
+                {
+                  text: "高品質コード要件",
+                  link: "/prompt-catalog/dev/high-quality-code-requirements"
+                },
+                {
+                  text: "Python パッケージ開発チェックリスト",
+                  link: "/prompt-catalog/dev/python-package-development-checklist"
+                },
+                {
+                  text: "Zenith リポジトリ運用ガイドライン",
+                  link: "/prompt-catalog/dev/repository-guidelines-zenith"
+                },
+                {
+                  text: "Claude Dev システムプロンプト（Unix系）",
+                  link: "/prompt-catalog/dev/claude-dev-system-prompt-unix"
+                },
+                {
+                  text: "Claude Dev システムプロンプト（PowerShell）",
+                  link: "/prompt-catalog/dev/claude-dev-system-prompt-powershell"
+                },
+                {
+                  text: "Dev Agent Prompt v1（簡潔開発原則）",
+                  link: "/prompt-catalog/dev/dev-agent-prompt-v1"
+                },
+                {
+                  text: "Windsurf システムプロンプト 01",
+                  link: "/prompt-catalog/dev/windsurf-system-prompt-01"
+                },
+                {
+                  text: "リポジトリ品質レビュー V4",
+                  link: "/prompt-catalog/dev/repo-review-prompt-v4"
+                }
+              ]
             }
           ]
         }

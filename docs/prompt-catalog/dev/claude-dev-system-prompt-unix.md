@@ -23,8 +23,6 @@ last_reviewed: 2026-02-22
 
 # Claude Dev システムプロンプト（Unix系）
 
-移行元 `prompts/coding/CLAUDE-DEV-SYSTEM-PROMT_JP.md` の内容を、`docs` カタログ形式で登録したページです。
-
 ## 想定用途
 
 - Claude系エージェントの初期行動規範を定義する

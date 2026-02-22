@@ -24,8 +24,6 @@ last_reviewed: 2026-02-22
 
 # Agent Ops Note（作業記録テンプレート）
 
-移行元 `prompts/coding/agent_ops_note_JP.md` の内容を、`docs` カタログ形式で登録したページです。
-
 ## 想定用途
 
 - PR やチケットに作業サマリを残す

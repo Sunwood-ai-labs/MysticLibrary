@@ -22,8 +22,6 @@ last_reviewed: 2026-02-22
 
 # Codex 作業ルール（todo.md運用）
 
-移行元 `prompts/coding/codex/codex-rules_JP.md` の内容を、`docs` カタログ形式で登録したページです。
-
 ## 想定用途
 
 - エージェントにタスク分解と進捗更新を徹底させる

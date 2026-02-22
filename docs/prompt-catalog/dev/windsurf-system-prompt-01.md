@@ -23,8 +23,6 @@ last_reviewed: 2026-02-22
 
 # Windsurf システムプロンプト 01
 
-移行元 `prompts/coding/Windsurf/Windsurf_system_prompt_01_JP.md` の内容を、`docs` カタログ形式で登録したページです。
-
 ## 想定用途
 
 - 包括的な作業規範を1本で与えたい場合

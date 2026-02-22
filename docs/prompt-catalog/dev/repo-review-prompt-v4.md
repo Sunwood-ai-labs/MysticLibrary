@@ -23,8 +23,6 @@ last_reviewed: 2026-02-22
 
 # リポジトリ品質レビュー V4
 
-移行元 `prompts/coding/Roo-cline/repo-review-prompt-v4_JP.md` の内容を、`docs` カタログ形式で登録したページです。
-
 ## 想定用途
 
 - リリース前の品質確認

@@ -33,6 +33,12 @@ last_reviewed: 2026-02-22
 - QA 起票前の情報不足チェック
 - 障害調査の初動整理
 
+## デモ動画
+
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/2025574599501713492" />
+</ClientOnly>
+
 ## プロンプト本文
 
 ```text
