@@ -1,3 +1,5 @@
+import { readdirSync, readFileSync, statSync } from "node:fs";
+import path from "node:path";
 import { defineConfig, type DefaultTheme } from "vitepress";
 
 type LocaleCode = "ja" | "en";
@@ -97,6 +99,160 @@ function withBase(base: string, path: string) {
   return `${base}${path}`;
 }
 
+const DOCS_ROOT_DIR = path.resolve(process.cwd(), "docs");
+
+const directoryOrderMap: Record<string, string[]> = {
+  "prompt-catalog": ["writing", "dev"],
+  "prompt-catalog/dev": [
+    "triage",
+    "review",
+    "checklists",
+    "templates",
+    "guidelines",
+    "agent-prompts",
+    "system-prompts"
+  ],
+  "prompt-catalog/dev/system-prompts": ["claude", "windsurf"]
+};
+
+function sortEntries(entries: string[], directoryPath: string, locale: LocaleCode) {
+  const localeDocsRoot = locale === "ja" ? DOCS_ROOT_DIR : path.join(DOCS_ROOT_DIR, "en");
+  const relativeDirectory = normalizeRoutePath(path.relative(localeDocsRoot, directoryPath));
+  const preferredOrder = directoryOrderMap[relativeDirectory] ?? [];
+  const orderIndex = new Map(preferredOrder.map((name, index) => [name, index]));
+
+  return [...entries].sort((a, b) => {
+    const aIndex = orderIndex.get(a) ?? Number.MAX_SAFE_INTEGER;
+    const bIndex = orderIndex.get(b) ?? Number.MAX_SAFE_INTEGER;
+    if (aIndex !== bIndex) return aIndex - bIndex;
+    return a.localeCompare(b, "en");
+  });
+}
+
+function normalizeRoutePath(route: string) {
+  return route.replace(/\\/g, "/");
+}
+
+function stripQuotes(value: string) {
+  const trimmed = value.trim();
+  if (
+    (trimmed.startsWith('"') && trimmed.endsWith('"')) ||
+    (trimmed.startsWith("'") && trimmed.endsWith("'"))
+  ) {
+    return trimmed.slice(1, -1);
+  }
+  return trimmed;
+}
+
+function readMarkdownLabel(filePath: string, fallback: string) {
+  try {
+    const source = readFileSync(filePath, "utf8");
+    const frontmatterMatch = source.match(/^---\n([\s\S]*?)\n---/);
+    if (frontmatterMatch) {
+      const titleLine = frontmatterMatch[1].match(/^title:\s*(.+)$/m);
+      if (titleLine) return stripQuotes(titleLine[1]);
+    }
+
+    const headingMatch = source.match(/^#\s+(.+)$/m);
+    if (headingMatch) return headingMatch[1].trim();
+  } catch {
+    // Ignore and fall back.
+  }
+
+  return fallback;
+}
+
+function humanizeDirName(name: string) {
+  return name
+    .split("-")
+    .filter(Boolean)
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(" ");
+}
+
+function routeFromMarkdownFile(filePath: string, locale: LocaleCode, base: string) {
+  const localeDocsRoot = locale === "ja" ? DOCS_ROOT_DIR : path.join(DOCS_ROOT_DIR, "en");
+  const relativePath = normalizeRoutePath(path.relative(localeDocsRoot, filePath));
+  const routePath = `/${relativePath.replace(/\.md$/, "")}`;
+  const resolvedRoute = routePath.endsWith("/index")
+    ? `${routePath.slice(0, -"/index".length) || "/"}/`
+    : routePath;
+  return withBase(base, resolvedRoute);
+}
+
+function buildPromptCatalogDirectoryItems(
+  directoryPath: string,
+  locale: LocaleCode,
+  base: string,
+  depth = 0
+): DefaultTheme.SidebarItem[] {
+  const entries = sortEntries(
+    readdirSync(directoryPath).filter((entry) => !entry.startsWith(".")),
+    directoryPath,
+    locale
+  );
+
+  const directories = entries.filter((entry) => statSync(path.join(directoryPath, entry)).isDirectory());
+  const files = entries.filter((entry) => {
+    const fullPath = path.join(directoryPath, entry);
+    return statSync(fullPath).isFile() && entry.endsWith(".md") && entry !== "index.md";
+  });
+
+  const items: DefaultTheme.SidebarItem[] = [];
+
+  for (const dirName of directories) {
+    const childDir = path.join(directoryPath, dirName);
+    const indexFile = path.join(childDir, "index.md");
+    const hasIndex = statSync(childDir).isDirectory() && (() => {
+      try {
+        return statSync(indexFile).isFile();
+      } catch {
+        return false;
+      }
+    })();
+    const childItems = buildPromptCatalogDirectoryItems(childDir, locale, base, depth + 1);
+    const label = hasIndex
+      ? readMarkdownLabel(indexFile, humanizeDirName(dirName))
+      : humanizeDirName(dirName);
+
+    const item: DefaultTheme.SidebarItem = {
+      text: label,
+      ...(hasIndex ? { link: routeFromMarkdownFile(indexFile, locale, base) } : {}),
+      ...(childItems.length > 0 ? { items: childItems } : {}),
+      ...(childItems.length > 0 ? { collapsed: depth >= 1 } : {})
+    };
+
+    items.push(item);
+  }
+
+  for (const fileName of files) {
+    const filePath = path.join(directoryPath, fileName);
+    items.push({
+      text: readMarkdownLabel(filePath, fileName.replace(/\.md$/, "")),
+      link: routeFromMarkdownFile(filePath, locale, base)
+    });
+  }
+
+  return items;
+}
+
+function createPromptCatalogSidebar(base: string, locale: LocaleCode): DefaultTheme.SidebarItem[] {
+  const t = localeText[locale];
+  const localeDocsRoot = locale === "ja" ? DOCS_ROOT_DIR : path.join(DOCS_ROOT_DIR, "en");
+  const promptCatalogDir = path.join(localeDocsRoot, "prompt-catalog");
+  const categoryDirectories = buildPromptCatalogDirectoryItems(promptCatalogDir, locale, base);
+
+  return [
+    {
+      text: t.sidebar.promptCatalog,
+      items: [
+        { text: t.sidebar.categoryList, link: withBase(base, "/prompt-catalog/") },
+        ...categoryDirectories
+      ]
+    }
+  ];
+}
+
 function createNav(base: string, locale: LocaleCode): DefaultTheme.NavItem[] {
   const t = localeText[locale];
 
@@ -112,82 +268,7 @@ function createSidebar(base: string, locale: LocaleCode): DefaultTheme.Sidebar {
   const t = localeText[locale];
 
   return {
-    [withBase(base, "/prompt-catalog/")]: [
-      {
-        text: t.sidebar.promptCatalog,
-        items: [
-          { text: t.sidebar.categoryList, link: withBase(base, "/prompt-catalog/") },
-          { text: "Writing", link: withBase(base, "/prompt-catalog/writing/") },
-          { text: "Dev", link: withBase(base, "/prompt-catalog/dev/") }
-        ]
-      },
-      {
-        text: t.sidebar.recordedPrompts,
-        collapsed: false,
-        items: [
-          {
-            text: "Writing",
-            collapsed: false,
-            items: [
-              {
-                text: t.promptItems.followupEmail,
-                link: withBase(base, "/prompt-catalog/writing/email-followup")
-              }
-            ]
-          },
-          {
-            text: "Dev",
-            collapsed: false,
-            items: [
-              {
-                text: t.promptItems.bugTriage,
-                link: withBase(base, "/prompt-catalog/dev/bug-report-triage")
-              },
-              {
-                text: t.promptItems.agentOpsNote,
-                link: withBase(base, "/prompt-catalog/dev/agent-ops-note")
-              },
-              {
-                text: t.promptItems.codexWorkRules,
-                link: withBase(base, "/prompt-catalog/dev/codex-work-rules")
-              },
-              {
-                text: t.promptItems.highQualityCode,
-                link: withBase(base, "/prompt-catalog/dev/high-quality-code-requirements")
-              },
-              {
-                text: t.promptItems.pythonChecklist,
-                link: withBase(base, "/prompt-catalog/dev/python-package-development-checklist")
-              },
-              {
-                text: t.promptItems.zenithGuidelines,
-                link: withBase(base, "/prompt-catalog/dev/repository-guidelines-zenith")
-              },
-              {
-                text: t.promptItems.claudeUnix,
-                link: withBase(base, "/prompt-catalog/dev/claude-dev-system-prompt-unix")
-              },
-              {
-                text: t.promptItems.claudePowershell,
-                link: withBase(base, "/prompt-catalog/dev/claude-dev-system-prompt-powershell")
-              },
-              {
-                text: t.promptItems.devAgentPrompt,
-                link: withBase(base, "/prompt-catalog/dev/dev-agent-prompt-v1")
-              },
-              {
-                text: t.promptItems.windsurfPrompt,
-                link: withBase(base, "/prompt-catalog/dev/windsurf-system-prompt-01")
-              },
-              {
-                text: t.promptItems.repoReviewPrompt,
-                link: withBase(base, "/prompt-catalog/dev/repo-review-prompt-v4")
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    [withBase(base, "/prompt-catalog/")]: createPromptCatalogSidebar(base, locale),
     [withBase(base, "/templates/")]: [
       {
         text: t.sidebar.templates,
