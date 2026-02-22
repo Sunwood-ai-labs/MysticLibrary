@@ -11,4 +11,5 @@ category: creative
 ## 収録プロンプト
 
 - [包括的ラップ歌詞生成プロンプト v1.1](./comprehensive-rap-lyrics-generator-v1.1.md) - ラップ歌詞の基礎知識から応用技法までを網羅した包括的なプロンプト
-- [アップテンポ演歌歌詞生成プロンプト](./up-tempo-enka-lyrics-generator.md) - アップテンポでハイテンションな演歌風歌詞を生成するプロンプト
+- [アップテンポ演歌歌詞生成プロンプト](./up-tempo-enka-lyrics-generator.md) - アップテンポでハイテンションな演歌風歌詞を生成するプロンプト（簡易版）
+- [アップテンポ演歌歌詞生成プロンプト（詳細版）](./amped-up-enka-lyrics-generator.md) - Sunoタグチートシート付きの詳細な演歌歌詞生成プロンプト
