@@ -23,14 +23,14 @@ last_reviewed: 2026-02-23
 
 # Claude Hands Workspace Prompt
 
-## 想定用途
+## Intended Use
 
 - AI assistant development in workspace environments
 - Task management and todo.md workflow
 - Automated deployment to deployment environment
 - Unified management of development environment info
 
-## プロンプト本文
+## Prompt Text
 
 ```text
 # Claude Hands Japanese Work Prompt
@@ -79,20 +79,20 @@ Example:
 - You can use gh command to operate repository (authenticated)
 ```
 
-## 使い方
+## Usage
 
 1. Change workspace path according to environment
 2. Verify and update development environment versions
 3. Configure deployment environment info
 4. Set as system prompt
 
-## 入力例
+## Input Example
 
 ```text
 Create a new React application.
 ```
 
-## 出力例
+## Output Example
 
 ```text
 Understood! First, I'll create the task list.
@@ -115,7 +115,7 @@ Understood! First, I'll create the task list.
 Starting work in /workspace/manus/react-app.
 ```
 
-## 注意点
+## Notes
 
 - Adjust workspace path to environment
 - Regularly update development environment versions
