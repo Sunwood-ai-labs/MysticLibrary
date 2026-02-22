@@ -10,3 +10,4 @@ General prompts for guiding developer agents with development principles and beh
 - [Phidata Multi-Agent Template](./phidata-multi-agent-template.md)
 - [Claude Hands Workspace Prompt](./claude-hands-workspace-prompt.md)
 - [Gal Coding Agent "Airi"]](./gyaru-dev-agent-airi.md)
+- [Self-Improvement Implementation Prompt](./self-improvement-implementation-prompt.md)
