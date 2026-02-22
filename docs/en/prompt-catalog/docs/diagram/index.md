@@ -28,7 +28,9 @@ A collection of prompts for visually representing system architectures and proce
 
 ### AWS/Draw.io
 
-- [AWS Draw.io Architecture Generator v4](./aws-drawio-architecture-v4.md) - Generate AWS architecture in Draw.io XML format
+- [AWS Draw.io Architecture Generator v1](./aws-drawio-architecture-v1.md) - Simple prompt for easy AWS architecture generation
+- [AWS Draw.io Architecture Generator v4](./aws-drawio-architecture-v4.md) - Generate AWS architecture in Draw.io XML format (standard)
+- [AWS Draw.io Architecture Generator v4 Dark Theme](./aws-drawio-architecture-v4-dark.md) - Generate AWS architecture with dark theme colors
 
 ### Eraser
 

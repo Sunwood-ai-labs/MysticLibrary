@@ -28,7 +28,9 @@ last_reviewed: 2026-02-23
 
 ### AWS/Draw.io
 
-- [AWS Draw.io アーキテクチャ図生成 v4](./aws-drawio-architecture-v4.md) - Draw.ioのXML形式でAWS構成図を生成
+- [AWS Draw.io アーキテクチャ図生成 v1](./aws-drawio-architecture-v1.md) - 簡易版プロンプトで手軽にAWS構成図を生成
+- [AWS Draw.io アーキテクチャ図生成 v4](./aws-drawio-architecture-v4.md) - Draw.ioのXML形式でAWS構成図を生成（標準版）
+- [AWS Draw.io アーキテクチャ図生成 v4 ダークテーマ](./aws-drawio-architecture-v4-dark.md) - ダークテーマ配色でAWS構成図を生成
 
 ### Eraser
 
