@@ -17,7 +17,10 @@ Prompts related to music and lyric generation
 Prompts related to video and ASMR generation
 
 ### [Visual Content Generation](./visual/)
-Prompts related to visual content generation such as images, illustrations, color maps, and multimodal
+Prompts related to visual content generation such as images, illustrations, and color maps
+
+### [Multimodal Generation](./multimodal/)
+Prompts related to combined image and video multimodal generation
 
 ### [Game Development](./game/)
 Prompts related to game development
@@ -36,6 +39,9 @@ Prompts related to game development
 - [Layered Cake Diorama Prompts](./visual/layered-cake-diorama-prompts.md)
 - [Color Map Generation Prompt v3.0](./visual/colormap-generator-v3.0.md)
 - [Surreal Vehicle Prompt Pack V1.0](./visual/surreal-vehicle-prompt-pack.md)
+
+### Multimodal Generation
+- [Reality × Surreal Vehicles Batch Generation Prompt V1.0](./multimodal/surreal-vehicles-v1.md)
 
 ### Game Development
 - [Three.js Wire Art Game Technology Stack](./game/threejs-wireframe-game-tech-guide.md)
