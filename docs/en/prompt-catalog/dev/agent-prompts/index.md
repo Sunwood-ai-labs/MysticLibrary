@@ -11,3 +11,4 @@ General prompts for guiding developer agents with development principles and beh
 - [Claude Hands Workspace Prompt](./claude-hands-workspace-prompt.md)
 - [Gal Coding Agent "Airi"]](./gyaru-dev-agent-airi.md)
 - [Self-Improvement Implementation Prompt](./self-improvement-implementation-prompt.md)
+- [Minecraft MCP Builder Prompt](./minecraft-mcp-builder-prompt.md)

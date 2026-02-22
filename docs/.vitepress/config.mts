@@ -104,6 +104,7 @@ const DOCS_ROOT_DIR = path.resolve(process.cwd(), "docs");
 const directoryOrderMap: Record<string, string[]> = {
   "prompt-catalog": ["writing", "presentation", "creative", "dev", "docs", "methodology"],
   "prompt-catalog/dev": [
+    "python",
     "triage",
     "review",
     "checklists",

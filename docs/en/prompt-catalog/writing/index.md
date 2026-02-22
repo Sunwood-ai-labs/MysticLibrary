@@ -8,6 +8,10 @@ This is a collection of prompts for writing emails, notices, summaries, and othe
 
 - [Follow-Up Email Drafting](./email-followup.md)
 
+### Slides
+
+- [Slide Creation Prompts](./slide/) - Create and convert slides in reveal.js format
+
 ## Usage Tips
 
 - Specify your relationship to the recipient (customer / internal / partner)
