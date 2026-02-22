@@ -5,6 +5,16 @@
 ## 一覧
 
 - [バグ報告トリアージ](./bug-report-triage.md)
+- [Agent Ops Note（作業記録テンプレート）](./agent-ops-note.md)
+- [Codex 作業ルール（todo.md運用）](./codex-work-rules.md)
+- [高品質コード要件](./high-quality-code-requirements.md)
+- [Python パッケージ開発チェックリスト](./python-package-development-checklist.md)
+- [Zenith リポジトリ運用ガイドライン](./repository-guidelines-zenith.md)
+- [Claude Dev システムプロンプト（Unix系）](./claude-dev-system-prompt-unix.md)
+- [Claude Dev システムプロンプト（PowerShell）](./claude-dev-system-prompt-powershell.md)
+- [Dev Agent Prompt v1（簡潔開発原則）](./dev-agent-prompt-v1.md)
+- [Windsurf システムプロンプト 01](./windsurf-system-prompt-01.md)
+- [リポジトリ品質レビュー V4](./repo-review-prompt-v4.md)
 
 ## 利用時のポイント
 
