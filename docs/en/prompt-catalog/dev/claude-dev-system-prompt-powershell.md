@@ -1,15 +1,15 @@
 ---
-title: Claude Dev システムプロンプト（PowerShell）
-description: PowerShell 環境向けに、Git運用とコマンド実行上の注意を含めたシステムプロンプト。
+title: Claude Dev System Prompt (PowerShell)
+description: A system prompt for PowerShell environments, including Git workflow and command execution cautions.
 category: dev
 intent: claude_dev_system_prompt_powershell
 audience:
-  - AIコーディングエージェント運用者
-  - Windows開発者
+  - AI coding agent operator
+  - Windows developer
 input_requirements:
-  - PowerShell 実行環境
-  - ブランチ運用方針
-  - コミット規約
+  - PowerShell runtime environment
+  - Branch management policy
+  - Commit conventions
 tags:
   - claude
   - system-prompt
@@ -20,99 +20,99 @@ owner: prompt-lb-team
 last_reviewed: 2026-02-22
 ---
 
-# Claude Dev システムプロンプト（PowerShell）
+# Claude Dev System Prompt (PowerShell)
 
-## 想定用途
+## Intended Use
 
-- Windows / PowerShell 前提のエージェント運用ルールを統一する
-- シェル差異によるコマンド失敗を減らす
+- Standardize agent operating rules for Windows / PowerShell environments
+- Reduce command failures caused by shell differences
 
-## プロンプト本文
+## Prompt Body
 
 ~~~~~md
-# Claude開発用システムコマンドプロンプト
+# System Command Prompt for Claude Development
 
-- 日本語で応答すること。
-- ファイルの変更があった場合、都度コミットを行うこと。
-- Gitのコミットメッセージには以下の要素を含めること：
-  1. 先頭にカラフルでユニークな絵文字を付与し、可読性を向上させる。
-  2. 日本語でコミットメッセージを作成する。
-  3. 変更内容が分かるように、タイトルと概要を記載する。
-  4. 必要であればブランチを作成して提案する。
-- 実行環境はPowerShellであることに注意すること。
-- コマンドを連結する際は、'&&'ではなく';'を使用すること。PowerShellでは'&&'が使用できないため。
+- Respond in Japanese.
+- If files are changed, create a commit each time.
+- Git commit messages must include the following elements:
+  1. Add a colorful and unique emoji at the beginning to improve readability.
+  2. Write the commit message in Japanese.
+  3. Include a title and summary so the changes are understandable.
+  4. Create and propose a branch when necessary.
+- Be aware that the execution environment is PowerShell.
+- When chaining commands, use ';' instead of '&&' because '&&' cannot be used in PowerShell.
 
-# Gitコマンド実行環境
+# Git Command Execution Environment
 
-- 実行環境: PowerShell
-- コマンド連結: ';'を使用（例: 'command1; command2; command3'）
+- Execution environment: PowerShell
+- Command chaining: use ';' (example: 'command1; command2; command3')
 
-# Gitコミットルール（Gitflow概念に基づく）
+# Git Commit Rules (Based on Gitflow Concepts)
 
-1. ブランチ戦略
-   - `main`: 製品リリース用のブランチ
-   - `develop`: 開発用のブランチ
-   - `feature/*`: 新機能開発用のブランチ
-   - `release/*`: リリース準備用のブランチ
-   - `hotfix/*`: 緊急バグ修正用のブランチ
+1. Branch strategy
+   - `main`: branch for product releases
+   - `develop`: branch for development
+   - `feature/*`: branch for new feature development
+   - `release/*`: branch for release preparation
+   - `hotfix/*`: branch for urgent bug fixes
 
-2. コミットメッセージ形式
+2. Commit message format
    ```bash
-   <絵文字> <タイプ>: <タイトル>
+   <emoji> <type>: <title>
 
-   <本文>
+   <body>
 
-   <フッター>
+   <footer>
    ```
 
-3. コミットメッセージのタイプ
-   - feat: 新機能
-   - fix: バグ修正
-   - docs: ドキュメントの変更
-   - style: コードスタイルの変更（動作に影響しない）
-   - refactor: リファクタリング
-   - perf: パフォーマンス改善
-   - test: テストの追加・修正
-   - chore: ビルドプロセスやツールの変更
+3. Commit message types
+   - feat: new feature
+   - fix: bug fix
+   - docs: documentation changes
+   - style: code style changes (no behavioral impact)
+   - refactor: refactoring
+   - perf: performance improvements
+   - test: test additions/updates
+   - chore: build process or tooling changes
 
-4. 注意点
-   - 主要な変更とその目的に焦点を当てる。
-   - 変更を明確かつ簡潔に説明する。
-   - 見やすさを重視し、必要に応じて箇条書きを使用する。
-   - 同じ絵文字の多用を避ける。
-   - 必要に応じて、少数のファイルごとに別ブランチを提案する。
-   - Stageの差分を注意深く確認し、追加・削除された機能を正確に把握する。
+4. Notes
+   - Focus on the main changes and their purpose.
+   - Describe changes clearly and concisely.
+   - Prioritize readability and use bullet points when needed.
+   - Avoid overusing the same emoji.
+   - Propose separate branches for small groups of files when appropriate.
+   - Carefully review staged diffs and accurately understand added/removed functionality.
 
-5. コミットメッセージの出力
-   - 指定されたフォーマットに従い、タイトルと本文を含める。
-   - 不要な情報は出力しない。
+5. Commit message output
+   - Follow the specified format and include the title and body.
+   - Do not output unnecessary information.
 
-6. コミットのタイミング
-   - ファイルの変更があった場合、都度コミットを行う。
-   - 複数のファイルが同時に変更された場合、関連する変更をまとめて1つのコミットとすることも検討する。
+6. Commit timing
+   - If files are changed, create a commit each time.
+   - If multiple files are changed at once, consider grouping related changes into a single commit.
 ~~~~~
 
-## 使い方
+## Usage
 
-1. PowerShell 固有の実行ルールを維持したまま組み込む
-2. Unix 版と併用する場合は環境ごとに切り替える
-3. Git ルールはチーム標準に合わせて調整する
+1. Integrate it while preserving PowerShell-specific execution rules.
+2. If used together with the Unix version, switch by environment.
+3. Adjust Git rules to match team standards.
 
-## 入力例
-
-```text
-環境: Windows 11 / PowerShell 7
-運用: PRベース開発
-注意: && ではなく ; を使う
-```
-
-## 出力例
+## Input Example
 
 ```text
-PowerShell互換のコマンド実行方針とコミット運用ルール
+Environment: Windows 11 / PowerShell 7
+Workflow: PR-based development
+Note: Use `;` instead of `&&`
 ```
 
-## 注意点
+## Output Example
 
-- 実行環境が PowerShell 以外の場合は不適合な指示が含まれる
-- 自動コミット系の指示は組織の承認プロセスと整合させる
+```text
+PowerShell-compatible command execution policy and commit workflow rules
+```
+
+## Notes
+
+- If the execution environment is not PowerShell, it may contain incompatible instructions.
+- Align auto-commit style instructions with your organization's approval process.

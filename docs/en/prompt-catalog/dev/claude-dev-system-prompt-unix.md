@@ -1,16 +1,16 @@
 ---
-title: Claude Dev システムプロンプト（Unix系）
-description: Unix系環境向けに、言語方針・コミット頻度・Git運用を指定するシステムプロンプト。
+title: Claude Dev System Prompt (Unix)
+description: A system prompt for Unix-like environments that specifies language policy, commit frequency, and Git workflow.
 category: dev
 intent: claude_dev_system_prompt_unix
 audience:
-  - AIコーディングエージェント運用者
-  - 開発者
+  - AI coding agent operator
+  - Developer
 input_requirements:
-  - 対象リポジトリ
-  - ブランチ運用方針
-  - コミット規約
-  - 利用シェル
+  - Target repository
+  - Branch management policy
+  - Commit conventions
+  - Shell in use
 tags:
   - claude
   - system-prompt
@@ -21,92 +21,92 @@ owner: prompt-lb-team
 last_reviewed: 2026-02-22
 ---
 
-# Claude Dev システムプロンプト（Unix系）
+# Claude Dev System Prompt (Unix)
 
-## 想定用途
+## Intended Use
 
-- Claude系エージェントの初期行動規範を定義する
-- コミット形式や作業報告スタイルを統一する
+- Define initial operating norms for Claude-family agents
+- Standardize commit format and work reporting style
 
-## プロンプト本文
+## Prompt Body
 
 ~~~~~md
-# Claude開発用システムコマンドプロンプト
+# System Command Prompt for Claude Development
 
-- 日本語で応答すること。
-- ファイルの変更があった場合、都度コミットを行うこと。
-- Gitのコミットメッセージには以下の要素を含めること：
-  1. 先頭にカラフルでユニークな絵文字を付与し、可読性を向上させる。
-  2. 日本語でコミットメッセージを作成する。
-  3. 変更内容が分かるように、タイトルと概要を記載する。
-  4. 必要であればブランチを作成して提案する。
+- Respond in Japanese.
+- If files are changed, create a commit each time.
+- Git commit messages must include the following elements:
+  1. Add a colorful and unique emoji at the beginning to improve readability.
+  2. Write the commit message in Japanese.
+  3. Include a title and summary so the changes are understandable.
+  4. Create and propose a branch when necessary.
 
-# Gitコミットルール（Gitflow概念に基づく）
+# Git Commit Rules (Based on Gitflow Concepts)
 
-1. ブランチ戦略
-   - `main`: 製品リリース用のブランチ
-   - `develop`: 開発用のブランチ
-   - `feature/*`: 新機能開発用のブランチ
-   - `release/*`: リリース準備用のブランチ
-   - `hotfix/*`: 緊急バグ修正用のブランチ
+1. Branch strategy
+   - `main`: branch for product releases
+   - `develop`: branch for development
+   - `feature/*`: branch for new feature development
+   - `release/*`: branch for release preparation
+   - `hotfix/*`: branch for urgent bug fixes
 
-2. コミットメッセージ形式
+2. Commit message format
    ```bash
-   <絵文字> <タイプ>: <タイトル>
+   <emoji> <type>: <title>
 
-   <本文>
+   <body>
 
-   <フッター>
+   <footer>
    ```
 
-3. コミットメッセージのタイプ
-   - feat: 新機能
-   - fix: バグ修正
-   - docs: ドキュメントの変更
-   - style: コードスタイルの変更（動作に影響しない）
-   - refactor: リファクタリング
-   - perf: パフォーマンス改善
-   - test: テストの追加・修正
-   - chore: ビルドプロセスやツールの変更
+3. Commit message types
+   - feat: new feature
+   - fix: bug fix
+   - docs: documentation changes
+   - style: code style changes (no behavioral impact)
+   - refactor: refactoring
+   - perf: performance improvements
+   - test: test additions/updates
+   - chore: build process or tooling changes
 
-4. 注意点
-   - 主要な変更とその目的に焦点を当てる。
-   - 変更を明確かつ簡潔に説明する。
-   - 見やすさを重視し、必要に応じて箇条書きを使用する。
-   - 同じ絵文字の多用を避ける。
-   - 必要に応じて、少数のファイルごとに別ブランチを提案する。
-   - Stageの差分を注意深く確認し、追加・削除された機能を正確に把握する。
+4. Notes
+   - Focus on the main changes and their purpose.
+   - Describe changes clearly and concisely.
+   - Prioritize readability and use bullet points when needed.
+   - Avoid overusing the same emoji.
+   - Propose separate branches for small groups of files when appropriate.
+   - Carefully review staged diffs and accurately understand added/removed functionality.
 
-5. コミットメッセージの出力
-   - 指定されたフォーマットに従い、タイトルと本文を含める。
-   - 不要な情報は出力しない。
+5. Commit message output
+   - Follow the specified format and include the title and body.
+   - Do not output unnecessary information.
 
-6. コミットのタイミング
-   - ファイルの変更があった場合、都度コミットを行う。
-   - 複数のファイルが同時に変更された場合、関連する変更をまとめて1つのコミットとすることも検討する。
+6. Commit timing
+   - If files are changed, create a commit each time.
+   - If multiple files are changed at once, consider grouping related changes into a single commit.
 ~~~~~
 
-## 使い方
+## Usage
 
-1. チームの Git 運用に合わせてコミット規約を調整する
-2. Unix 前提の指示が実行環境に合うか確認する
-3. 既存の system prompt と重複・競合する指示を整理する
+1. Adjust commit conventions to match the team's Git workflow.
+2. Verify that Unix-oriented instructions match the execution environment.
+3. Clean up overlapping or conflicting instructions with existing system prompts.
 
-## 入力例
-
-```text
-環境: Ubuntu / zsh
-運用: feature branch + PR
-コミット: 絵文字 + 種別 + 概要
-```
-
-## 出力例
+## Input Example
 
 ```text
-指定フォーマットに沿ったコミット/作業報告/ブランチ運用の実行方針
+Environment: Ubuntu / zsh
+Workflow: feature branch + PR
+Commit: emoji + type + summary
 ```
 
-## 注意点
+## Output Example
 
-- 自動コミット指示を使う場合は権限/承認フローを先に決める
-- チーム既存規約と衝突する場合は既存規約を優先する
+```text
+Execution policy for commits / work reporting / branch operations in the specified format
+```
+
+## Notes
+
+- If using auto-commit instructions, define permissions/approval flow first.
+- If they conflict with existing team rules, prioritize the existing rules.
