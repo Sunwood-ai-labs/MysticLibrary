@@ -62,6 +62,15 @@
 
 迷う場合は、反証役に「他カテゴリとの境界」をレビューさせる。
 
+既存カテゴリに最適なものがない場合は、新カテゴリを追加してよい。
+
+- 無理に既存カテゴリへ押し込まない（検索性・保守性が落ちるため）
+- 追加時は `docs/...` と `docs/en/...` の両方に同じ構造を作る
+- 関連する `index.md`（カテゴリ一覧）を日英で追加/更新する
+- 新カテゴリ/サブカテゴリの `index.md` には `title`（frontmatter）または `# 見出し` を必ず入れる（sidebar 表示名のため）
+- `docs/.vitepress/config.mts` の `directoryOrderMap` に順序を追加する（必要な階層すべて）
+- 多階層カテゴリを追加した場合は、親階層のキーも含めて `directoryOrderMap` を更新する（未指定だとアルファベット順になる）
+
 ### 2. 日本語版を追加する（先行）
 
 - 配置先: `docs/prompt-catalog/<category>/...`
@@ -160,6 +169,8 @@
 - `docs/.vitepress/config.mts`
   - `directoryOrderMap`（順序。ネストした階層も対象）
   - 自動生成ロジック（壊れていないか）
+- `docs/prompt-catalog/.../index.md` / `docs/en/prompt-catalog/.../index.md`
+  - 新カテゴリへの導線追加（一覧・説明）
 
 ## 並列作業の推奨パターン（このリポジトリ向け）
 
