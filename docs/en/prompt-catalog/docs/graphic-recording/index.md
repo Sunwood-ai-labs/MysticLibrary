@@ -45,7 +45,9 @@ Graphic Recording is a technique for summarizing meeting and presentation conten
 
 ### Editable Graphic Recording
 
-- [Editable Graphic Recording v3.0](./editable-graphic-recording-v3.md) - Ryoka summer design themed editable graphic recording
+- [Editable Graphic Recording v2](./editable-graphic-recording-v2.md) - Japanese modern design themed editable graphic recording
+- [Editable Graphic Recording v2.1 Aimi Yabi](./editable-graphic-recording-v2-1.md) - Editable graphic recording elevating traditional indigo aesthetics to modern times
+- [Editable Graphic Recording v3.0 Ryoka](./editable-graphic-recording-v3.md) - Ryoka summer design themed editable graphic recording
 
 ### Thumbnail Generation
 
