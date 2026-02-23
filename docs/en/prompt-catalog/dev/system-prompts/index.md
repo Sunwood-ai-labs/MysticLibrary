@@ -6,3 +6,7 @@ System prompts grouped by tool / agent vendor.
 
 - [Claude](./claude/index.md)
 - [MCP](./mcp/index.md)
+
+## Individual Prompts
+
+- [Windsurf System Prompt](./windsurf-system-prompt.md) - Japanese-supported system prompt for Windsurf IDE

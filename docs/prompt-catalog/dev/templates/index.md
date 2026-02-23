@@ -8,4 +8,8 @@
 - [Gitリリースノート生成プロンプト](./git-release-notes-generator.md)
 - [GitHub Issueワークフローテンプレート](./github-issue-workflow.md)
 - [Git自動コミットプロンプト V4.0 Lite](./git-auto-commit-prompt.md)
+- [Git自動コミットプロンプト V4.1 Lite](./git-auto-commit-prompt-v4-1-lite.md) - インタラクティブモード回避版
+- [Git自動コミットプロンプト V4.2 Lite](./git-auto-commit-prompt-v4-2-lite.md) - ページャー無効版
+- [Git自動コミットプロンプト V4.0 Lite EN](./git-auto-commit-prompt-v4-lite-en.md) - 英語コミット版
+- [Git自動コミットプロンプト V4.0 Lite PS](./git-auto-commit-prompt-v4-lite-ps.md) - PowerShell版
 - [OpenHands GitHub Action ワークフロー](./openhands-github-action-workflow.md)
