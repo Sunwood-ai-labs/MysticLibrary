@@ -102,3 +102,90 @@ Font Awesome アイコンを積極的に活用して情報を視覚的に整理
 - レスポンシブ対応：スマートフォンでもタッチ操作可能
 - キーボードショートカット完全対応
 - テーマ切り替えでライト/ダークモードを変更可能
+
+---
+
+# Graphic Recording Slide v4 Ryoga x Yaryo
+
+## Intended Use
+
+- Create presentations navigable with horizontal scrolling
+- Auto-generate beautiful graphic recording style slides
+- Create slides with keyboard and touch swipe support
+
+## Prompt Content
+
+```text
+# Graphic Recording Slide Prompt v4: Dual Theme Ryoga x Yaryo Edition
+
+This prompt generates **graphic recording style presentations with horizontal scrolling functionality** that sublimates **summer coolness and Japanese aesthetics** into modern form.
+
+## Basic Composition
+### Presentation Slide Creation Prompt Format
+```
+Create [Input Document/Content] as a presentation slide with horizontal scrolling in HTML/CSS/JavaScript
+Size each slide to 16:9 (1920x1080px)
+Enable movement between slides with horizontal scrolling, and place pagination buttons (Previous/Next)
+Actively use Font Awesome icons to visually organize information in a friendly, easy-to-understand design
+Also use the following Ryoga colormap and fonts
+Express graphic recording style handwritten warmth
+```
+
+## Design Specifications
+### 1. Color Palette Definition (Ryoga Graphic Recording Palette + Yaryo Dark Theme)
+
+#### Light Theme "Ryoga" - Summer Day Graphic Recording
+- Primary: #025E73 (Main title, important information)
+- Secondary: #038C8C (Section headers, emphasis)
+- Accent: #04BFAD (Points, decorative lines)
+- Neon-Gold: #F2C166 (Important numbers, hover effects)
+
+#### Dark Theme "Yaryo" - Summer Night Graphic Recording
+- Primary-Dark: #04BFAD (Firefly light)
+- Secondary-Dark: #F2C166 (Starlight)
+- Accent-Dark: #038C8C (Night sea surface)
+- Neon-Dark: #66D9EF (Moonlight)
+
+### 2. Presentation Basic Functions
+- Slide movement with horizontal scrolling
+- Pagination buttons (Previous/Next)
+- Slide indicators
+- Keyboard shortcut support (arrow keys, space)
+- Touch swipe support
+```
+
+## How to Use
+
+1. Copy the prompt format text
+2. Enter presentation content in `[Input Document/Content]` part
+3. Send to AI to generate HTML
+4. Display in browser for presentation
+
+## Input Example
+
+```
+Create "GraphGen - Knowledge Graph Synthetic Data Generation" as a presentation slide with horizontal scrolling
+Size each slide to 16:9 (1920x1080px)
+Enable movement between slides with horizontal scrolling, and place pagination buttons
+Actively use Font Awesome icons to visually organize information
+```
+
+## Output Example
+
+- Horizontal scrolling presentation HTML
+- Navigation header (slide counter, theme toggle)
+- Pagination buttons and slide indicators
+- Keyboard operation support
+
+## Controls
+
+- **Next slide**: Right arrow key / Space key / "Next" button
+- **Previous slide**: Left arrow key / "Previous" button
+- **Specific slide**: Click indicator
+- **Theme toggle**: Moon/Sun button
+
+## Notes
+
+- Responsive support: Touch operation available on smartphones
+- Full keyboard shortcut support
+- Light/dark mode can be changed with theme toggle

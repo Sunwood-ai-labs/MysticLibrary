@@ -98,3 +98,85 @@ Font Awesome アイコンを活用してインフォグラフィックな可読�
 - サムネイルとして使用する場合は、ブラウザで表示してスクリーンショット撮影
 - 編集モードでテキストを調整可能
 - テーマ切り替えでライト/ダークモードを切り替え可能
+
+---
+
+# Graphic Recording Thumbnail v4 Ryoga
+
+## Intended Use
+
+- Create attractive thumbnail images for blog articles and SNS posts
+- Generate professional 16:9 aspect ratio thumbnails
+- Create thumbnails with light/dark theme toggle feature
+
+## Prompt Content
+
+```text
+# Editable Graphic Recording Thumbnail Prompt v4 ~Ryoga~
+
+This prompt generates **high-quality blog article thumbnails** that sublimate **summer coolness and Japanese aesthetics** into modern form.
+
+**Important**: Editable button and dark theme toggle button must be placed in the **navigation bar**.
+
+## Basic Composition
+### Thumbnail Creation Prompt Format
+```
+Create a thumbnail for [Article Title] in HTML/CSS
+Size to 16:9 (1920x1080px)
+Use Font Awesome icons to enhance infographic readability and professionalism
+Place editable button and dark theme toggle button in navigation bar
+Also use the following Ryoga colormap and fonts
+```
+
+## Design Specifications
+### 1. Color Palette Definition (Ryoga Summer Harmony Palette + Yaryo Dark Theme)
+
+#### Light Theme "Ryoga" - Summer Day
+- Primary: #025E73 (Title, important background)
+- Secondary: #038C8C (Accent, links)
+- Accent: #04BFAD (Highlight, decoration)
+- Neon-Gold: #F2C166 (Hover, glow effect)
+- BG-Dark: #F2F2F2 (Base background)
+- BG-Light: #FAFAFA (Section background)
+
+#### Dark Theme "Yaryo" - Summer Night
+- Primary-Dark: #04BFAD (Firefly light)
+- Secondary-Dark: #F2C166 (Starlight)
+- Accent-Dark: #038C8C (Night sea surface)
+- Neon-Dark: #66D9EF (Moonlight)
+- BG-Dark-Dark: #0A1A1F (Deep night sea)
+- BG-Light-Dark: #1A2F35 (Night mist)
+
+### 3. Navigation Bar (Required Implementation)
+- Edit mode button: contentEditable for browser editing
+- Theme toggle button: One-click light/dark theme switching
+```
+
+## How to Use
+
+1. Copy the prompt format text
+2. Enter actual title in `[Article Title]` part
+3. Send to AI to generate HTML
+4. Display in browser and take screenshot
+
+## Input Example
+
+```
+Create a thumbnail for "Programming Learning Methods in the AI Era" in HTML/CSS
+Size to 16:9 (1920x1080px)
+Use Font Awesome icons to enhance infographic readability and professionalism
+Place editable button and dark theme toggle button in navigation bar
+Also use the following Ryoga colormap and fonts
+```
+
+## Output Example
+
+- 16:9 aspect ratio thumbnail HTML
+- Edit and theme toggle buttons placed in navigation bar
+- Beautiful design based on Ryoga color palette
+
+## Notes
+
+- For thumbnail use, display in browser and take screenshot
+- Text can be adjusted in edit mode
+- Light/dark mode can be toggled with theme switching

@@ -96,3 +96,83 @@ Font Awesome アイコンを活用してインフォグラフィックな可読�
 - サムネイルとして使用する場合は、ブラウザで表示してスクリーンショット撮影
 - V4と異なり編集機能はありません
 - シンプルな構造で素早く生成できます
+
+---
+
+# Graphic Recording Thumbnail v3 Ryoga (Simple)
+
+## Intended Use
+
+- Create simple thumbnails with Ryoga color palette
+- Generate thumbnails with simple HTML without editing features
+- Use light/dark theme Ryoga design
+
+## Prompt Content
+
+```text
+# Graphic Recording Thumbnail Prompt v3 ~Ryoga~
+
+This prompt generates **high-quality blog article thumbnails** that sublimate **summer coolness and Japanese aesthetics** into modern form. Create visually sophisticated 16:9 aspect ratio infographics that convey content at a glance, actively using ***Font Awesome icons***, with Ryoga's summer aesthetic consciousness.
+
+## Basic Composition
+
+### Thumbnail Creation Prompt Format
+```
+Create a thumbnail for [Article Title] in HTML/CSS
+Size to 16:9 (1920x1080px)
+Use Font Awesome icons to enhance infographic readability and professionalism
+Also use the following Ryoga colormap and fonts
+```
+
+## Design Specifications
+
+### 1. Color Palette Definition (Ryoga Summer Harmony Palette)
+
+#### Light Theme "Ryoga" - Summer Day
+| Name | HEX | RGB | Main Usage | Font Awesome Icon Example |
+|------|-----|-----|------------|---------------------------|
+| Primary | #025E73 | rgb(2,94,115) | Title, important background | `<i class="fas fa-water"></i>` |
+| Secondary | #038C8C | rgb(3,140,140) | Accent, links | `<i class="fas fa-wind"></i>` |
+| Accent | #04BFAD | rgb(4,191,173) | Highlight, decoration | `<i class="fas fa-leaf"></i>` |
+| Neon-Gold | #F2C166 | rgb(242,193,102) | Hover, glow effect | `<i class="fas fa-sun"></i>` |
+| BG-Dark | #F2F2F2 | rgb(242,242,242) | Base background | `<i class="fas fa-circle"></i>` |
+| BG-Light | #FAFAFA | rgb(250,250,250) | Section background | `<i class="fas fa-square"></i>` |
+
+#### Dark Theme "Yaryo" - Summer Night
+| Name | HEX | RGB | Main Usage | Font Awesome Icon Example |
+|------|-----|-----|------------|---------------------------|
+| Primary-Dark | #04BFAD | rgb(4,191,173) | Title, important background (firefly light) | `<i class="fas fa-moon"></i>` |
+| Secondary-Dark | #F2C166 | rgb(242,193,102) | Accent, links (starlight) | `<i class="fas fa-star"></i>` |
+| Accent-Dark | #038C8C | rgb(3,140,140) | Highlight, decoration (night sea surface) | `<i class="fas fa-fish"></i>` |
+| Neon-Dark | #66D9EF | rgb(102,217,239) | Hover, glow effect (moonlight) | `<i class="fas fa-feather"></i>` |
+| BG-Dark-Dark | #0A1A1F | rgb(10,26,31) | Base background (deep night sea) | `<i class="fas fa-circle"></i>` |
+| BG-Light-Dark | #1A2F35 | rgb(26,47,53) | Section background (night mist) | `<i class="fas fa-square"></i>` |
+```
+
+## How to Use
+
+1. Copy the prompt format text
+2. Enter actual title in `[Article Title]` part
+3. Send to AI to generate HTML
+4. Display in browser and take screenshot
+
+## Input Example
+
+```
+Create a thumbnail for "Programming Learning Methods in the AI Era" in HTML/CSS
+Size to 16:9 (1920x1080px)
+Use Font Awesome icons to enhance infographic readability and professionalism
+Also use the following Ryoga colormap and fonts
+```
+
+## Output Example
+
+- 16:9 aspect ratio thumbnail HTML
+- Beautiful design based on Ryoga color palette
+- Light/dark theme 2 patterns
+
+## Notes
+
+- For thumbnail use, display in browser and take screenshot
+- Unlike V4, no editing features
+- Quick generation with simple structure
