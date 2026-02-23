@@ -20,8 +20,10 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-      - name: Test build website
-        run: npm run build
+      - name: Test build docs
+        run: npm run docs:build
+        env:
+          GITHUB_PAGES: true
 
   deploy:
     name: Deploy to GitHub Pages
@@ -45,18 +47,16 @@ jobs:
           cache: npm
       - name: Install dependencies
         run: npm ci
-      - name: Generate Git info
-        run: node script/generate-git-info.js
-      - name: Build website
-        run: npm run build
-      - name: SPA fallback for GitHub Pages
-        run: cp dist/index.html dist/404.html
+      - name: Build docs
+        run: npm run docs:build
+        env:
+          GITHUB_PAGES: true
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: docs/.vitepress/dist
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
