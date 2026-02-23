@@ -16,6 +16,9 @@
 - [開発エージェント](./dev-agent/index.md)
 - [CodeX](./codex/index.md)
 - [OpenHands](./openhands/index.md)
+- [Git ワークフロー](./git/index.md)
+- [Python](./python/index.md)
+- [ワークフロー](./workflow/index.md)
 
 ## 利用時のポイント
 
