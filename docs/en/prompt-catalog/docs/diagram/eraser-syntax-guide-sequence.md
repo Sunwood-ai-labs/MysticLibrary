@@ -1,5 +1,5 @@
 ---
-title: Eraser Syntax Guide Part 3: Sequence Diagrams
+title: "Eraser Syntax Guide Part 3: Sequence Diagrams"
 description: Guide for creating sequence diagrams in Eraser platform
 category: docs
 intent: eraser-syntax-guide-sequence
