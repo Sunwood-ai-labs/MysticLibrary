@@ -25,6 +25,7 @@ Prompts related to Git and GitHub.
 ## List
 
 - [GitHub Repository Creation Requirements (GitFlow Edition)](./github-repo-creation-gitflow.md) - Repository creation following GitFlow branching strategy
+- [Git Release Notes Generator V1](./git-release-notes-generator-v1.md) - Create release notes from commit history and code diffs between tags
 
 ## Features
 

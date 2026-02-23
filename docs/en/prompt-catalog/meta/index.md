@@ -25,9 +25,11 @@ Meta-level prompts related to project management and naming.
 ## List
 
 - [Project Naming Prompt](./project-naming.md) - Generate project name proposals
+- [GitHub Repository Creation Requirements](./github-repo-creation.md) - Define GitHub repository creation procedures with GitFlow support
 
 ## Features
 
 - Creative name generation
 - Unique abbreviation creation
 - Multiple option presentation
+- Automated repository initialization

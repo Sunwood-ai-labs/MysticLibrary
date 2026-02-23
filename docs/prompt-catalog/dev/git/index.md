@@ -25,6 +25,7 @@ GitやGitHubに関連するプロンプトです。
 ## 一覧
 
 - [GitHub リポジトリ作成要件定義書（GitFlow対応版）](./github-repo-creation-gitflow.md) - GitFlowブランチ戦略に従ったリポジトリ作成
+- [Gitリリースノート作成 V1](./git-release-notes-generator-v1.md) - タグ間のコミット履歴と差分からリリースノート作成
 
 ## 特徴
 
