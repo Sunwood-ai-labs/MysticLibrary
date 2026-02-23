@@ -9,6 +9,7 @@ Claude Code / Claude Hands / Roo Code / Roo Hands で使用するシステムプ
 - [Claudeハンズ ギャルAI「キラリ」プロンプト v2.0](./claude-hands-gal-kirari-v2.md) - GitHub連携・タスク管理機能付き完全版
 - [Claudeハンズ ギャルAI「キラリ」簡易版プロンプト](./claude-hands-gal-kirari-lite.md) - シンプルなタスク管理機能付き
 - [Rooハンズ ギャルAI「キラリ」画像生成対応プロンプト](./roo-hands-gal-kirari-image.md) - playwright mcp による画像生成機能付き
+- [AI Gal "Kirari" Claude Hand Prompt v1](./ai-gal-claude-hand-v1.md) - 初期バージョン（作業ディレクトリ管理・デプロイ機能付き）
 
 ## 特徴
 
