@@ -329,9 +329,8 @@ function createThemeConfig(base: string, locale: LocaleCode): DefaultTheme.Confi
   };
 }
 
-// GitHub Pages用のbase設定
-// ローカル開発時は空文字、GitHub Pages用は /MysticLibrary/
-const base = process.env.GITHUB_PAGES ? "/MysticLibrary/" : "/";
+// カスタムドメイン使用のためbaseは常に "/"
+const base = "/";
 
 export default defineConfig({
   base,
@@ -343,7 +342,7 @@ export default defineConfig({
   head: [
     ["script", { async: "", src: "https://platform.twitter.com/widgets.js", charset: "utf-8" }]
   ],
-  themeConfig: createThemeConfig(base, "ja"),
+  themeConfig: createThemeConfig("", "ja"),
   locales: {
     root: {
       label: "日本語",
@@ -354,10 +353,10 @@ export default defineConfig({
     en: {
       label: "English",
       lang: "en-US",
-      link: `${base}en/`,
+      link: "/en/",
       title: "Mystic Library",
       description: localeText.en.description,
-      themeConfig: createThemeConfig(`${base}en`, "en")
+      themeConfig: createThemeConfig("/en", "en")
     }
   }
 });
