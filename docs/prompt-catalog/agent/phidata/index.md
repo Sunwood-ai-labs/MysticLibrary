@@ -24,3 +24,4 @@ Phidataフレームワークを使用したマルチエージェントAIシス�
 ## プロンプト一覧
 
 - [Phidata マルチエージェント プロンプトテンプレート](./phidata-multi-agent-template.md) - Phidataフレームワークを使用したマルチエージェントAIシステムの設計・実装を自動生成するためのテンプレート
+- [phidata-cookbook リポジトリサマリー](./phidata-cookbook-repository-summary.md) - phidata-cookbook-jpプロジェクトの構造と内容の詳細サマリー

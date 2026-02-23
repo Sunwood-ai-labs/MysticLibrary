@@ -68,6 +68,10 @@ last_reviewed: 2026-02-23
 - [コミック調HTMLジェネレーター V1.0](./comic-style-html-generator-v1.md) - シンプルなコミックパネル式HTML変換
 - [コミック調HTMLジェネレーター V2.0](./comic-style-html-generator-v2.md) - 4コマ漫画風HTML形式への変換
 
+### その他
+
+- [グラレコ風インフォグラフィック V1 石鹸泡グリーン](./graphic-recording-soap-bubble-v1.md) - 石鹸の泡のようなグリーン系カラーパレットのアニメーション付きインフォグラフィック
+
 ## 使い方
 
 1. プロンプトをコピーしてAIチャットツールに貼り付け

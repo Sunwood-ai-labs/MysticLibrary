@@ -36,6 +36,7 @@ last_reviewed: 2026-02-23
 
 - [Eraser 記法ガイド①](./eraser-syntax-guide-1.md) - Eraserプラットフォームの記法ガイド
 - [Eraser 記法ガイド② ERD](./eraser-syntax-guide-erd.md) - エンティティ関係図（ERD）の記法ガイド
+- [Eraser 記法ガイド③ シーケンス図](./eraser-syntax-guide-sequence.md) - シーケンス図の記法ガイド
 - [EraserAI 実践ガイド](./eraser-ai-practical-guide.md) - 実用的なダイアグラム作成のユースケース集
 
 ### その他

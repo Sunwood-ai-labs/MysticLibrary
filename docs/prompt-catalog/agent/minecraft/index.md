@@ -26,3 +26,4 @@ Minecraft MCP (Model Control Protocol) を使用した自律的な建築Botな�
 ## プロンプト一覧
 
 - [Minecraft MCP 前提プロンプト v1.1](./minecraft-mcp-builder-v1.1.md) - Minecraft MCPを使用して自律的に建築を行うBot用プロンプト
+- [Minecraft MCP 前提プロンプト v1.0](./minecraft-mcp-builder-v1.0.md) - Minecraft MCPを使用して自律的に建築を行うBot用プロンプトの初期バージョン
