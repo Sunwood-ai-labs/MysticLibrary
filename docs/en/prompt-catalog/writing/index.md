@@ -12,6 +12,10 @@ This is a collection of prompts for writing emails, notices, summaries, and othe
 
 - [Slide Creation Prompts](./slide/) - Create and convert slides in reveal.js format
 
+### Deep Research Explainers
+
+- [Deep Research Explainer Prompts](./deep-research/) - Explain latest technologies in an easy-to-understand way for beginners
+
 ## Usage Tips
 
 - Specify your relationship to the recipient (customer / internal / partner)

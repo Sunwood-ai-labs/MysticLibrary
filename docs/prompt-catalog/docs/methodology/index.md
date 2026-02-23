@@ -25,6 +25,7 @@ last_reviewed: 2026-02-23
 ## 一覧
 
 - [抽象化プロンプトの構造と意味の解説](./abstract-prompting-problem-solving.md) - 問題解決プロセスを抽象的に表現するための手法
+- [抽象化プロンプトによるワークフロー生成](./abstract-prompting-for-workflow.md) - 抽象化プロンプト記法を用いた問題解決ワークフローの生成
 
 ## 特徴
 

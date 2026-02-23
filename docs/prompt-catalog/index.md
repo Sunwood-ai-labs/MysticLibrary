@@ -11,6 +11,7 @@
 - [Docs（ドキュメント作成）](./docs/index.md)
 - [Methodology（メソドロジー）](./methodology/index.md)
 - [Agent（AIエージェント）](./agent/index.md)
+- [Meta（メタ／その他）](./meta/index.md)
 
 ## 選び方の目安
 
@@ -19,6 +20,7 @@
 - 音楽・ビデオ・画像・ゲームなどの創作: `Creative`
 - 障害整理・調査の初動支援: `Dev`
 - ドライバ開発・調査手法: `Methodology`
+- プロジェクトネーミング: `Meta`
 
 ## 収録ポリシー
 
