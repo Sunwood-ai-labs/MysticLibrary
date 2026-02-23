@@ -1,7 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Noto+Sans+JP:wght@400;500;700&display=swap");
 
 :root {
   --docs-font-sans:
+    "Noto Sans JP",
     ui-sans-serif,
     system-ui,
     -apple-system,
@@ -13,13 +14,22 @@
     "Yu Gothic",
     "Meiryo",
     sans-serif;
+
+  /* Accent references from src/index.css */
+  --docs-c-primary: #2e578c;
+  --docs-c-primary-dark: #182d40;
+  --docs-c-accent: #bf807a;
+  --docs-c-accent-dark: #592a2a;
 }
 
 :root {
-  --vp-c-brand-1: #0f766e;
-  --vp-c-brand-2: #0b9488;
-  --vp-c-brand-3: #14b8a6;
-  --vp-c-brand-soft: rgba(20, 184, 166, 0.14);
+  /* VitePress uses brand-3 -> button bg, brand-2 -> hover, brand-1 -> active */
+  /* Keep all three dark enough for white button text in light mode */
+  /* Adapted from src primary (#2E578C) while preserving role-based steps */
+  --vp-c-brand-1: #223b5a;
+  --vp-c-brand-2: var(--docs-c-primary);
+  --vp-c-brand-3: #3c6aa7;
+  --vp-c-brand-soft: rgba(46, 87, 140, 0.14);
 
   --vp-c-bg: #fafaf7;
   --vp-c-bg-alt: #f2f3ed;
@@ -28,14 +38,14 @@
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: linear-gradient(
     120deg,
-    #0f766e 0%,
-    #1d4ed8 55%,
-    #0ea5a4 100%
+    var(--docs-c-primary) 0%,
+    var(--docs-c-accent) 58%,
+    #4b7abb 100%
   );
   --vp-home-hero-image-background-image: radial-gradient(
     circle at 40% 35%,
-    rgba(20, 184, 166, 0.28),
-    transparent 60%
+    rgba(46, 87, 140, 0.24),
+    transparent 58%
   );
   --vp-home-hero-image-filter: blur(52px);
 
@@ -45,13 +55,19 @@
 }
 
 .dark {
-  --vp-c-brand-1: #34d399;
-  --vp-c-brand-2: #2dd4bf;
-  --vp-c-brand-3: #67e8f9;
-  --vp-c-brand-soft: rgba(52, 211, 153, 0.14);
+  /* Keep links/highlights bright on dark surfaces (src primary mapped to MD-like on-dark palette) */
+  --vp-c-brand-1: #d5e2ff;
+  --vp-c-brand-2: #a9c3ff;
+  --vp-c-brand-3: #83a8ff;
+  --vp-c-brand-soft: rgba(131, 168, 255, 0.18);
 
   --vp-c-bg: #0e1414;
   --vp-c-bg-alt: #151d1c;
+
+  /* Role-based on-color override for bright brand buttons (Material-like) */
+  --vp-button-brand-text: #101a2a;
+  --vp-button-brand-hover-text: #101a2a;
+  --vp-button-brand-active-text: #101a2a;
 }
 
 .VPNavBar {
@@ -85,11 +101,12 @@ body {
 
 .VPContent.is-home {
   background:
-    radial-gradient(circle at 15% 10%, rgba(15, 118, 110, 0.07), transparent 35%),
-    radial-gradient(circle at 85% 20%, rgba(29, 78, 216, 0.06), transparent 36%);
+    radial-gradient(circle at 15% 10%, rgba(46, 87, 140, 0.09), transparent 36%),
+    radial-gradient(circle at 85% 20%, rgba(191, 128, 122, 0.08), transparent 38%);
 }
 
 .VPFeature {
+  color: var(--vp-c-text-1);
   border-radius: 16px;
   border: 1px solid color-mix(in srgb, var(--vp-c-divider) 72%, white);
   background: linear-gradient(
@@ -98,6 +115,45 @@ body {
     var(--vp-c-bg-elv) 100%
   );
   box-shadow: 0 10px 28px rgba(15, 23, 42, 0.04);
+}
+
+.VPFeature .box .title,
+.VPFeature .heading,
+.VPFeature .box .link-text,
+.VPFeature .box .link-text-value {
+  color: var(--vp-c-text-1);
+}
+
+.VPFeature .box .details,
+.VPFeature .excerpt {
+  color: var(--vp-c-text-2);
+}
+
+.dark .VPFeature {
+  border-color: color-mix(in srgb, var(--vp-c-divider) 70%, white 14%);
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, #1b2433 82%, var(--vp-c-brand-soft)) 0%,
+    #131924 100%
+  );
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.24);
+}
+
+.dark .VPFeature .box .title,
+.dark .VPFeature .box .link-text-value {
+  color: #f5f7ff !important;
+}
+
+.dark .VPFeature .box .details {
+  color: rgba(245, 247, 255, 0.88) !important;
+}
+
+.dark .VPFeature .box {
+  background: transparent;
+}
+
+.dark .VPFeature .icon {
+  background-color: color-mix(in srgb, var(--vp-c-default-soft) 78%, var(--vp-c-brand-soft));
 }
 
 .VPDoc .content-container a {

@@ -5,12 +5,22 @@
 ## カテゴリ
 
 - [Writing（文章作成）](./writing/index.md)
+- [Presentation（プレゼンテーション）](./presentation/index.md)
+- [Creative（クリエイティブ）](./creative/index.md)
 - [Dev（開発支援）](./dev/index.md)
+- [Docs（ドキュメント作成）](./docs/index.md)
+- [Methodology（メソドロジー）](./methodology/index.md)
+- [Agent（AIエージェント）](./agent/index.md)
+- [Meta（メタ／その他）](./meta/index.md)
 
 ## 選び方の目安
 
 - 対外連絡・社内連絡の文面作成: `Writing`
+- スライド作成・自動プレゼンテーション: `Presentation`
+- 音楽・ビデオ・画像・ゲームなどの創作: `Creative`
 - 障害整理・調査の初動支援: `Dev`
+- ドライバ開発・調査手法: `Methodology`
+- プロジェクトネーミング: `Meta`
 
 ## 収録ポリシー
 

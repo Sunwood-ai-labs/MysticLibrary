@@ -1,0 +1,252 @@
+---
+title: AWS認定試験ガイドテンプレート
+description: AWS認定試験の問題を初心者向けに詳細に解説するためのテンプレートプロンプト
+category: docs
+intent: aws-certification-exam-guide
+audience:
+  - AWS学習者
+  - 認定試験受験者
+  - AWS技術者
+input_requirements:
+  - AWS認定試験の問題文
+  - 選択肢（A, B, C, D）
+  - 正解の選択肢
+tags:
+  - aws
+  - certification
+  - exam-preparation
+  - education
+  - template
+status: stable
+owner: prompt-catalog-team
+last_reviewed: 2026-02-23
+---
+
+# AWS認定試験ガイドテンプレート
+
+## 想定用途
+
+- AWS認定試験の問題を初心者向けに解説する
+- 問題の背景や概念を詳しく説明する
+- 正解の理由と他の選択肢が不適切な理由を説明する
+- 攻略法と具体的な思考プロセスを提供する
+
+## プロンプト本文
+
+```text
+# AWS認定試験問題解説と攻略法
+
+## 入力
+
+### 問題文
+【ここに問題文を記載してください】
+
+### 選択肢
+- **A**: 【選択肢Aの内容を記載します】
+- **B**: 【選択肢Bの内容を記載します】
+- **C**: 【選択肢Cの内容を記載します】
+- **D**: 【選択肢Dの内容を記載します】
+
+### 解答
+**正解**: 【ここに正解の選択肢を記載してください】
+
+---
+
+## 問題概要
+
+【問題の要約を記述してください。初心者にも分かりやすく、問題の主題やシナリオを説明します】
+
+## 初心者向け解説
+
+### 問題の背景
+- 【問題の状況や背景を簡潔に説明します。専門用語は可能な限りわかりやすい言葉に置き換えてください】
+
+### 求められていること
+- 【問題で何が求められているのかを箇条書きで明確に示します】
+
+### キーポイント
+- 【問題を解く上で重要なポイントや概念を説明します】
+
+## 解答と解説
+
+### 正解
+**【正解の選択肢】**: 【正解の簡潔な説明】
+
+### 詳細な解説
+【正解となる理由を詳しく説明します。初心者にも理解できるように、ステップバイステップで解説してください】
+
+### 他の選択肢が不適切な理由
+- **A**: 【選択肢Aが不適切な理由を説明します】
+- **B**: 【選択肢Bが不適切な理由を説明します】
+- **C**: 【選択肢Cが不適切な理由を説明します】
+- **D**: 【選択肢Dが不適切な理由を説明します】（正解の場合は省略）
+
+## 攻略法
+
+1. **キーワードの抽出**
+   - 【問題文から重要なキーワードやフレーズをリストアップします】
+
+2. **要件の整理**
+   - 【問題で要求されている事項を整理し、何を解決すべきか明確にします】
+
+3. **関連するAWSサービスの理解**
+   - 【関連するAWSサービスや機能を説明し、その特徴を簡潔にまとめます】
+
+4. **選択肢の分析**
+   - 【各選択肢のメリット・デメリットを分析し、要件との適合性を評価します】
+
+5. **最新サービスの確認**
+   - 【必要に応じて、新しいAWSサービスや機能が関連していないか確認します】
+
+6. **消去法の適用**
+   - 【不適切な選択肢を除外する方法を説明し、最適な解答に絞り込みます】
+
+7. **AWSベストプラクティスの考慮**
+   - 【AWSの推奨事項やベストプラクティスに基づいて、最適な解決策を選びます】
+
+---
+
+## 具体的な思考プロセス
+
+【問題解決のための思考の流れを具体的に記述します。初心者が同じ手順で考えられるように、詳細に説明してください】
+
+---
+
+## 例題
+
+**例題**:
+
+### 問題文
+【新しい問題文を記載してください。元の問題の解答に関連する内容で、初心者が理解を深めるためのものにします】
+
+### 選択肢
+- **A**: 【選択肢Aの内容を記載します】
+- **B**: 【選択肢Bの内容を記載します】
+- **C**: 【選択肢Cの内容を記載します】
+- **D**: 【選択肢Dの内容を記載します】
+
+### 解答
+**正解**: 【例題の正解の選択肢を記載してください】
+
+### 解説
+【なぜこの解答が正しいのか、詳細に説明します。元の問題との関連性も示してください】
+
+---
+
+## 関連リソース
+
+- [AWS公式ドキュメントへのリンク](#)
+- [関連するホワイトペーパーやブログ記事へのリンク](#)
+
+---
+
+## 選択肢比較表
+
+| 要件/機能 | 選択肢A(OOO) | 選択肢B(OOO) | 選択肢C(OOO) | 選択肢D(OOO) |
+|----------|:--------:|:--------:|:--------:|:--------:|
+| 要件1    | ✅ / ❌  | ✅ / ❌  | ✅ / ❌  | ✅ / ❌  |
+| 要件2    | ✅ / ❌  | ✅ / ❌  | ✅ / ❌  | ✅ / ❌  |
+| 要件3    | ✅ / ❌  | ✅ / ❌  | ✅ / ❌  | ✅ / ❌  |
+| 要件4    | ✅ / ❌  | ✅ / ❌  | ✅ / ❌  | ✅ / ❌  |
+
+---
+
+## アーキテクチャ図
+
+以下の図は問題のシナリオに関連するアーキテクチャを示しています。理解を深めるために参考にしてください。
+各ノードはカラフルにして視覚的理解しやすいようにしてください
+
+```mermaid
+graph TB
+    User[User/Client] --> Entrypoint
+    subgraph Region["AWS Region"]
+        Entrypoint[Entry Point]
+
+        subgraph VPC["VPC"]
+            subgraph AZ["Availability Zone"]
+                subgraph Public["Public Subnet"]
+                    PublicService[Public Service]
+                end
+
+                subgraph Private["Private Subnet"]
+                    PrivateService[Private Service]
+                    Database[(Database)]
+                end
+            end
+        end
+
+        StorageService[Storage Service]
+        ManagementService[Management Service]
+    end
+    Entrypoint --> PublicService
+    PublicService --> PrivateService
+    PrivateService --> Database
+    PrivateService --> StorageService
+    ManagementService -.-> PublicService
+    ManagementService -.-> PrivateService
+    ManagementService -.-> Database
+    ManagementService -.-> StorageService
+
+    style User fill:#f9f,stroke:#333,stroke-width:2px
+    style Region fill:#e6f3ff,stroke:#333,stroke-width:2px
+    style VPC fill:#b3d9ff,stroke:#333,stroke-width:2px
+    style AZ fill:#80bfff,stroke:#333,stroke-width:2px
+    style Public fill:#ff9900,stroke:#333,stroke-width:2px
+    style Private fill:#ff6666,stroke:#333,stroke-width:2px
+    style StorageService fill:#ffd700,stroke:#333,stroke-width:2px
+    style Entrypoint fill:#90ee90,stroke:#333,stroke-width:2px
+    style PublicService fill:#66c2ff,stroke:#333,stroke-width:2px
+    style PrivateService fill:#3399ff,stroke:#333,stroke-width:2px
+    style Database fill:#ff6666,stroke:#333,stroke-width:2px
+    style ManagementService fill:#90ee90,stroke:#333,stroke-width:2px```
+```
+
+## 使い方
+
+1. AWS認定試験の問題を入力欄に貼り付ける
+2. 正解の選択肢を指定する
+3. プロンプトに従って詳細な解説を生成する
+
+## 入力例
+
+```text
+### 問題文
+Amazon S3に保存された機密データを、VPC内のEC2インスタンスからのみアクセス可能にしたい。セキュリティを最大化するための最適な構成は？
+
+### 選択肢
+- A: S3バケットをパブリックに設定し、IPアドレスで制限
+- B: S3バケットをプライベートに設定し、VPCエンドポイントを使用
+- C: S3バケットをパブリックに設定し、IAMポリシーで制限
+- D: S3バケットをCloudFront経由で配信
+
+### 解答
+**正解**: B
+```
+
+## 出力例
+
+```text
+## 問題概要
+VPC内のEC2インスタンスからのみS3バケットへのアクセスを制限し、セキュリティを最大化する構成を検討する問題です。
+
+## 初心者向け解説
+
+### 問題の背景
+S3は本来インターネットからアクセス可能なサービスですが、VPC内のリソースからのみアクセスさせたいケースがあります。
+
+### 求められていること
+- VPC内のEC2インスタンスからのアクセスのみ許可
+- セキュリティの最大化
+
+### キーポイント
+- VPCエンドポイント（ゲートウェイ型）の活用
+- プライベート通信の実現
+[詳細な解説が続きます...]
+```
+
+## 注意点
+
+- 初心者にも分かる専門用語の説明を含める
+- 最新のAWSサービス情報を反映する
+- 図や表を活用して視覚的に理解しやすくする
+- 例題を通じて理解を深める

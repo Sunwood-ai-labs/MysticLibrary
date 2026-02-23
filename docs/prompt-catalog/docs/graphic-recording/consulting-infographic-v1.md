@@ -1,0 +1,184 @@
+---
+title: コンサルティング風インフォグラフィック V1 ファッションカラー
+description: ファッションカラーパレットを使用したコンサルティングファーム風のインフォグラフィックHTML生成プロンプト
+category: docs
+intent: infographic-consulting-fashion
+audience:
+  - コンサルタント
+  - プレゼンター
+  - ビジネス文書作成者
+input_requirements:
+  - インフォグラフィック化したいテキストコンテンツ
+tags:
+  - インフォグラフィック
+  - HTML生成
+  - コンサルティング
+  - ファッションカラー
+status: stable
+owner: prompt-catalog-team
+last_reviewed: 2026-02-23
+---
+
+# コンサルティング風インフォグラフィック V1 ファッションカラー
+
+## 想定用途
+
+- McKinsey/BCG/Bainクラスの超一流コンサルティングファーム風のインフォグラフィックを作成したい
+- ファッションカラーパレット（ピンク・オレンジ系）のプロフェッショナルなプレゼンを作成したい
+- C-levelエグゼクティブ向けの高品質なスライドを生成したい
+
+## プロンプト本文
+
+```text
+以下の内容を、McKinsey/BCG/Bainクラスの超一流コンサルティングファームが作成したような、日本語で完璧なインフォグラフィックなHTMLに変換してください。情報設計とビジュアルデザインの両面で最高水準を目指します。グラフィックレコーディング風に図形や絵文字を活用して
+
+---
+
+## 【デザイン仕様】
+1. カラースキーム（ファッション）：
+```
+<palette>
+<color name='ファッション-1' rgb='593C47' r='89' g='59' b='70' />
+<color name='ファッション-2' rgb='F2E63D' r='242' g='230' b='60' />
+<color name='ファッション-3' rgb='F2C53D' r='242' g='196' b='60' />
+<color name='ファッション-4' rgb='F25C05' r='242' g='91' b='4' />
+<color name='ファッション-5' rgb='F24405' r='242' g='68' b='4' />
+</palette>
+```
+
+2. タイポグラフィ：
+   - タイトル：32px、グラデーション効果、太字
+   - サブタイトル：16px、#475569
+   - セクション見出し：18px、#1e40af、アイコン付き
+   - 本文：14px、#334155、行間1.4
+   - フォント指定：Kaisei Decol
+
+3. レイアウト：
+   - ヘッダー：左揃えタイトル＋右揃え日付/出典
+   - 2カラム構成：左側50%、右側50%
+   - カード型コンポーネント：白背景、角丸12px、微細シャドウ
+   - セクション間の適切な余白と階層構造
+   - 適切にグラスモーフィズムを活用
+
+## 【最終仕上げ】
+- プロフェッショナルなフッター（ロゴ位置+出典）
+- 16:9比率に最適化された情報密度
+- 視線誘導を考慮したレイアウト設計
+- 説得力を高める微細なビジュアル要素
+
+このスライドは、C-levelエグゼクティブへのプレゼンテーションにも耐えうる品質を目指します。すべての情報を1枚に凝縮しながら、視認性と情報の階層性を犠牲にしないデザインにしてください。
+
+---
+
+【変換する文章/記事】
+[ここにインフォグラフィック化したいテキストコンテンツを入力]
+```
+
+## 使い方
+
+1. プロンプトをコピーしてAIチャットツールに貼り付け
+2. 変換する文章/記事部分にインフォグラフィック化したいテキストを入力
+3. 生成されたHTMLをブラウザで表示・保存
+
+## 入力例
+
+```
+【変換する文章/記事】
+### 事業戦略の要点
+市場分析：競合他社との差別化ポイント
+成長戦略：新規顧客獲得と既存顧客のLTV向上
+組織変革：アジャイル導入による開発スピード向上
+```
+
+## 出力例
+
+ファッションカラーパレット（紫#593C47、ピンク#F2E63D、オレンジ#F25C05、#F24405）を使用した、2カラム構成のコンサルティング風インフォグラフィックHTMLが生成されます。
+
+## 注意点
+
+- コンサルティングファーム風のプロフェッショナルな仕上がりです
+- 16:9比率に最適化されています
+- グラスモーフィズム効果でモダンな印象になります
+
+---
+
+# Consulting Style Infographic V1 Fashion Colors
+
+## Intended Use
+
+- Create McKinsey/BCG/Bain-class top-tier consulting firm style infographics
+- Create professional presentations with fashion color palette (pink/orange tones)
+- Generate high-quality slides for C-level executives
+
+## Prompt Content
+
+```text
+Convert the following content into a perfect Japanese infographic HTML that looks like it was created by a top-tier consulting firm like McKinsey/BCG/Bain. Aim for the highest standards in both information design and visual design. Utilize graphic recording style shapes and emojis
+
+---
+
+## [Design Specifications]
+1. Color Scheme (Fashion):
+```
+<palette>
+<color name='Fashion-1' rgb='593C47' r='89' g='59' b='70' />
+<color name='Fashion-2' rgb='F2E63D' r='242' g='230' b='60' />
+<color name='Fashion-3' rgb='F2C53D' r='242' g='196' b='60' />
+<color name='Fashion-4' rgb='F25C05' r='242' g='91' b='4' />
+<color name='Fashion-5' rgb='F24405' r='242' g='68' b='4' />
+</palette>
+```
+
+2. Typography:
+   - Title: 32px, gradient effect, bold
+   - Subtitle: 16px, #475569
+   - Section heading: 18px, #1e40af, with icon
+   - Body: 14px, #334155, line-height 1.4
+   - Font: Kaisei Decol
+
+3. Layout:
+   - Header: left-aligned title + right-aligned date/source
+   - 2-column layout: 50% left, 50% right
+   - Card components: white background, 12px rounded corners, subtle shadow
+   - Proper spacing and hierarchy between sections
+   - Appropriate use of glassmorphism
+
+## [Final Touches]
+- Professional footer (logo position + source)
+- Information density optimized for 16:9 ratio
+- Layout design considering visual flow
+- Subtle visual elements to enhance persuasiveness
+
+This slide aims for quality suitable for C-level executive presentations. Condense all information onto one page while sacrificing neither visibility nor information hierarchy.
+
+---
+
+[Article to Convert]
+[Enter text content to be converted to infographic here]
+```
+
+## How to Use
+
+1. Copy the prompt and paste it into an AI chat tool
+2. Enter the text you want to convert to infographic in the "Article to Convert" section
+3. Display/save the generated HTML in a browser
+
+## Input Example
+
+```
+[Article to Convert]
+### Business Strategy Key Points
+Market Analysis: Differentiation points from competitors
+Growth Strategy: New customer acquisition and existing customer LTV improvement
+Organizational Transformation: Development speed improvement through agile adoption
+```
+
+## Output Example
+
+A 2-column consulting style infographic HTML using fashion color palette (purple #593C47, pink #F2E63D, orange #F25C05, #F24405) is generated.
+
+## Notes
+
+- Professional consulting firm style finish
+- Optimized for 16:9 ratio
+- Glassmorphism effects for a modern impression
