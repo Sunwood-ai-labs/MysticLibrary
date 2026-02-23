@@ -84,9 +84,9 @@ Process and manage tasks according to the following requirements
 
 - Commit messages should follow this format:
   ```
-  <emoji> <type> #<Issue-number>: <title>
-  <body>
-  <footer>
+  [emoji] [type] #[Issue-number]: [title]
+  [body]
+  [footer]
   ```
 - Always add an emoji at the beginning of the title, write in Japanese
 - Types should be one of the following:
