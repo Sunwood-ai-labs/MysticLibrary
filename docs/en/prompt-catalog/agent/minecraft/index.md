@@ -26,3 +26,4 @@ Prompts for autonomous building bots using Minecraft MCP (Model Control Protocol
 ## Prompts List
 
 - [Minecraft MCP System Prompt v1.1](./minecraft-mcp-builder-v1.1.md) - Prompt for autonomous building bot using Minecraft MCP
+- [Minecraft MCP Builder Prompt v1.0](./minecraft-mcp-builder-v1.0.md) - Initial version of the prompt for a bot that autonomously builds using Minecraft MCP

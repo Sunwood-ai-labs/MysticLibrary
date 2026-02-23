@@ -24,3 +24,4 @@ Prompts for design and implementation of multi-agent AI systems using Phidata fr
 ## Prompts List
 
 - [Phidata Multi-Agent Prompt Template](./phidata-multi-agent-template.md) - Template for automated generation of multi-agent AI system design and implementation using Phidata framework
+- [phidata-cookbook Repository Summary](./phidata-cookbook-repository-summary.md) - Detailed summary of the phidata-cookbook-jp project structure and content

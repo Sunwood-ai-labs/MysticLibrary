@@ -16,4 +16,5 @@ A category of prompts related to visual content generation (images, illustration
 - [Color Map Generation Prompt v3.0](./colormap-generator-v3.0.md) - A prompt for extracting beautiful color palettes from images and generating LP-style interactive color map HTML
 - [Surreal Vehicle Prompt Pack V1.0](./surreal-vehicle-prompt-pack.md) - A prompt pack for depicting surreal vehicles suddenly appearing in the real world with ultra-high quality in both still images and videos
 - [Colormap Generator v2.0 LP Style](./colormap-generator-v2.0.md) - A prompt for extracting beautiful color palettes from images and generating LP-style interactive colormap HTML (v2.0)
+- [Color Map Generator Prompt v1.0](./colormap-generator-v1.0.md) - Initial version of the prompt that extracts beautiful color palettes from images and generates professional interactive color map HTML
 - [Prime Number Image Prompt Generator](./prime-number-image-generator.md) - Creates image generation prompts using prime number theory concepts from keywords
