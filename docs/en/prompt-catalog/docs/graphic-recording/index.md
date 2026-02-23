@@ -57,6 +57,7 @@ Graphic Recording is a technique for summarizing meeting and presentation conten
 ### Slide Generation
 
 - [Graphic Recording Slide v4](./graphic-recording-slide-v4.md) - Horizontal scroll enabled presentation slides
+- [Japanese Modern Graphic Recording Slide Maker V1](./wa-modern-gareco-slide-v1.md) - Graphic recording-style slides with fixed code × variable design philosophy (includes editing and slideshow features)
 
 ### Comic-style Conversion
 

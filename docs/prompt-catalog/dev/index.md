@@ -13,6 +13,9 @@
 - [システムプロンプト](./system-prompts/index.md)
   - [Claude 系](./system-prompts/claude/index.md)
   - [Windsurf 系](./system-prompts/windsurf/index.md)
+- [Claude/Rooハンズ](./claude-hands/index.md)
+- [開発エージェント](./dev-agent/index.md)
+- [CodeX](./codex/index.md)
 - [OpenHands](./openhands/index.md)
 
 ## 利用時のポイント

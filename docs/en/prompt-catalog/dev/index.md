@@ -13,6 +13,9 @@ Development and operations prompts have been reorganized into task-based subcate
 - [System Prompts](./system-prompts/index.md)
   - [Claude](./system-prompts/claude/index.md)
   - [Windsurf](./system-prompts/windsurf/index.md)
+- [Claude/Roo Hands](./claude-hands/index.md)
+- [Development Agent](./dev-agent/index.md)
+- [CodeX](./codex/index.md)
 - [OpenHands](./openhands/index.md)
 
 ## Usage Tips

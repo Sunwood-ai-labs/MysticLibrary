@@ -1,35 +1,36 @@
 ---
-title: OpenHands Issue Resolver GitHub Actions ワークフロー
-description: GitHub/Forgejo上でOpenHands AIを使用してIssueやPRのコメントから自動的にコード修正を行うGitHub Actionsワークフロー
+title: OpenHands Issue Resolver GitHub Actions Workflow
+description: GitHub Actions workflow definition for automatically resolving GitHub Issues using OpenHands
 category: dev
-intent: openhands-issue-resolver
+intent: openhands-resolver-workflow
 audience:
-  - DevOpsエンジニア
-  - AI開発者
-  - GitHub管理者
+  - GitHub repository administrators
+  - Automation tool implementers
 input_requirements:
-  - GitHubリポジトリの設定
-  - ANTHROPIC_API_KEY シークレット
+  - GitHub repository
+  - ANTHROPIC_API_KEY secret
+  - LLM_MODEL variable (optional)
 tags:
   - openhands
   - github-actions
-  - ai-coding
-  - workflow
+  - issue-resolution
   - automation
+  - claude
+  - workflow
 status: stable
 owner: dev-team
-last_reviewed: 2026-02-23
+last_reviewed: 2025-02-23
 ---
 
-# OpenHands Issue Resolver GitHub Actions ワークフロー
+# OpenHands Issue Resolver GitHub Actions Workflow
 
-## 想定用途
+## Intended Use
 
-- GitHub/Forgejo上でOpenHands AIを使用した自動コード修正
-- IssueやPRのコメントからの自動タスク実行
-- ラベルベースのAIエージェントトリガー
+- Automatic resolution of GitHub Issues
+- Automatic response to PR review comments
+- Label-based automatic fix triggers
 
-## ワークフロー定義
+## Workflow Definition
 
 ```yaml
 name: OpenHands Issue Resolver (Ultra Simple)
@@ -75,14 +76,14 @@ jobs:
           apt-get update
           apt-get install -y curl git jq ca-certificates
 
-          # Node.js 20をインストール（actions/checkout@v4に必要）
+          # Install Node.js 20 (required for actions/checkout@v4)
           curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
           apt-get install -y nodejs
 
-          # uvをインストール
+          # Install uv
           curl -LsSf https://astral.sh/uv/install.sh | sh
 
-          # PATHを正しく設定
+          # Set PATH correctly
           export PATH="/root/.local/bin:$PATH"
           echo "/root/.local/bin" >> $GITHUB_PATH
 
@@ -124,12 +125,12 @@ jobs:
       - name: Extract issue content and run OpenHands
         id: openhands
         run: |
-          # PATHを確実に設定
+          # Ensure PATH is set
           export PATH="/root/.local/bin:$PATH"
 
           echo "🚀 Extracting issue content and running OpenHands..."
 
-          # Issue/PR番号とタスク内容を特定
+          # Identify Issue/PR number and task content
           if [ -n "${{ github.event.pull_request.number }}" ]; then
             ISSUE_NUMBER="${{ github.event.pull_request.number }}"
             TASK_CONTENT="${{ github.event.pull_request.body }}"
@@ -142,32 +143,32 @@ jobs:
             fi
           fi
 
-          # @openhands-agentを除去してタスク内容をクリーンアップ
+          # Remove @openhands-agent to clean task content
           CLEAN_TASK=$(echo "$TASK_CONTENT" | sed 's/@openhands-agent[^[:space:]]*//' | sed 's/^[[:space:]]*//' | sed 's/[[:space:]]*$//')
 
-          # 空の場合はデフォルトタスクを設定
+          # Set default task if empty
           if [ -z "$CLEAN_TASK" ]; then
-            CLEAN_TASK="Issue #${ISSUE_NUMBER}を解決してください"
+            CLEAN_TASK="Please resolve issue #${ISSUE_NUMBER}"
           fi
 
           echo "📝 Task: $CLEAN_TASK"
           echo "🏃 Running OpenHands with headless mode..."
 
-          # Git設定
+          # Git configuration
           git config --global user.name "OpenHands Agent"
           git config --global user.email "openhands-agent@users.noreply.github.com"
 
-          # OpenHands設定ディレクトリを作成
+          # Create OpenHands configuration directory
           mkdir -p ~/.config/openhands
           mkdir -p .openhands
 
-          # 設定ファイルを作成（信頼済みディレクトリ設定）
+          # Create configuration file (trusted directory settings)
           cat > ~/.config/openhands/config.toml << 'EOF'
           [sandbox]
           trusted_dirs = [ "/workspace", "/prj", "/home", "/tmp" ]
           EOF
 
-          # settings.jsonを環境変数から作成
+          # Create settings.json from environment variables
           cat > .openhands/settings.json << EOF
           {
               "language": null,
@@ -195,7 +196,7 @@ jobs:
           }
           EOF
 
-          # 実験版かどうか判定
+          # Determine if experimental version
           IS_EXPERIMENTAL=false
           if [ "${{ github.event.label.name }}" = "fix-me-experimental" ]; then
             IS_EXPERIMENTAL=true
@@ -203,7 +204,7 @@ jobs:
             IS_EXPERIMENTAL=true
           fi
 
-          # OpenHandsを uvx で headless mode 実行（自動実行）
+          # Run OpenHands with uvx in headless mode (auto execution)
           if [ "$IS_EXPERIMENTAL" = "true" ]; then
             echo "🧪 Using experimental version with uvx headless mode..."
             /root/.local/bin/uvx --python 3.12 --from "git+https://github.com/all-hands-ai/openhands.git" python -m openhands.core.main -t "$CLEAN_TASK" || OPENHANDS_EXIT_CODE=$?
@@ -212,7 +213,7 @@ jobs:
             /root/.local/bin/uvx --python 3.12 --from openhands-ai python -m openhands.core.main -t "$CLEAN_TASK" || OPENHANDS_EXIT_CODE=$?
           fi
 
-          # 変更があるかチェック
+          # Check if there are changes
           CHANGES=$(git status --porcelain)
           if [ -n "$CHANGES" ]; then
             echo "RESOLUTION_SUCCESS=true" >> $GITHUB_OUTPUT
@@ -234,7 +235,7 @@ jobs:
         if: steps.openhands.outputs.HAS_CHANGES == 'true'
         id: create_pr
         run: |
-          # PATHを確実に設定
+          # Ensure PATH is set
           export PATH="/root/.local/bin:$PATH"
 
           echo "🔧 Creating Pull Request..."
@@ -243,17 +244,17 @@ jobs:
           TIMESTAMP=$(date -u +"%Y%m%d-%H%M%S")
           BRANCH_NAME="openhands/fix-issue-${ISSUE_NUMBER}-${TIMESTAMP}"
 
-          # 新しいブランチを作成してコミット
+          # Create new branch and commit
           git checkout -b "$BRANCH_NAME"
           git add .
           git commit -m "🤖 OpenHands: Fix for issue #${ISSUE_NUMBER}"
           git push origin "$BRANCH_NAME"
 
-          # シンプルなPR作成
+          # Simple PR creation
           curl -X POST \
             -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
             -H "Content-Type: application/json" \
-            -d "{\"title\":\"🤖 OpenHands: Fix for issue #${ISSUE_NUMBER}\",\"head\":\"${BRANCH_NAME}\",\"base\":\"main\",\"body\":\"🤖 OpenHands による自動修正\",\"draft\":true}" \
+            -d "{\"title\":\"🤖 OpenHands: Fix for issue #${ISSUE_NUMBER}\",\"head\":\"${BRANCH_NAME}\",\"base\":\"main\",\"body\":\"🤖 Automatic fix by OpenHands\",\"draft\":true}" \
             "${{ github.api_url }}/repos/${{ github.repository }}/pulls" > pr_response.json
 
           PR_NUMBER=$(grep -o '"number":[0-9]*' pr_response.json | cut -d':' -f2 | head -1)
@@ -270,11 +271,11 @@ jobs:
           PR_NUMBER="${{ steps.create_pr.outputs.PR_NUMBER }}"
 
           if [ "$HAS_CHANGES" = "true" ] && [ -n "$PR_NUMBER" ]; then
-            COMMENT_BODY="🎉 OpenHands完了！ドラフトPR #${PR_NUMBER} を作成しました。"
+            COMMENT_BODY="🎉 OpenHands completed! Created draft PR #${PR_NUMBER}."
           elif [ "$HAS_CHANGES" = "true" ]; then
-            COMMENT_BODY="🎉 OpenHandsが変更を作成しましたが、PR作成に失敗しました。"
+            COMMENT_BODY="🎉 OpenHands created changes but failed to create PR."
           else
-            COMMENT_BODY="⚠️ OpenHandsを実行しましたが、変更は検出されませんでした。"
+            COMMENT_BODY="⚠️ OpenHands ran but no changes were detected."
           fi
 
           curl -X POST \
@@ -319,23 +320,31 @@ jobs:
           fi
 ```
 
-## 使い方
+## Usage
 
-1. リポジトリの `.github/workflows/openhands-resolver.yml` に配置
-2. シークレット `ANTHROPIC_API_KEY` を設定
-3. オプションで変数 `LLM_MODEL` を設定
-4. Issueに `fix-me` ラベルを付与、またはコメントに `@openhands-agent` を記述
+1. Place at `.github/workflows/openhands-resolver.yml` in your repository
+2. Set `ANTHROPIC_API_KEY` in GitHub Secrets
+3. Set `LLM_MODEL` in Variables (optional, default: `anthropic/claude-sonnet-4-20250514`)
+4. Add `fix-me` label to an Issue or PR
+5. Or include `@openhands-agent` in a comment
 
-## トリガー方法
+## Trigger Methods
 
-- `fix-me` ラベルをIssue/PRに追加
-- `fix-me-experimental` ラベルで実験版を使用
-- Issue/PRのコメントに `@openhands-agent` を記述
-- レビューコメントに `@openhands-agent` を記述
+- **Label-based**: Add `fix-me` or `fix-me-experimental` label to Issue/PR
+- **Comment-based**: Mention `@openhands-agent` in Issue comment, PR comment, or PR review
 
-## 注意点
+## Environment Variables
 
-- Dockerコンテナ環境で実行されます
-- OpenHandsは headless モードで自動実行されます
-- 変更がある場合は自動的にドラフトPRが作成されます
-- 実験版を使用する場合は `fix-me-experimental` ラベルまたは `@openhands-agent-exp` を使用
+| Variable | Description | Default Value |
+|----------|-------------|---------------|
+| `ANTHROPIC_API_KEY` | Anthropic API key (required) | - |
+| `LLM_MODEL` | LLM model to use | `anthropic/claude-sonnet-4-20250514` |
+| `MAX_ITERATIONS` | Maximum iteration count | Inherited from config |
+| `OPENHANDS_MACRO` | Trigger mention string | `@openhands-agent` |
+
+## Notes
+
+- OpenHands will automatically commit code changes and create a PR
+- Use `fix-me-experimental` label or `@openhands-agent-exp` mention for experimental version
+- Created PRs are in draft status
+- Proper permission settings are required for execution

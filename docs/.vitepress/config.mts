@@ -111,7 +111,11 @@ const directoryOrderMap: Record<string, string[]> = {
     "templates",
     "guidelines",
     "agent-prompts",
-    "system-prompts"
+    "system-prompts",
+    "claude-hands",
+    "dev-agent",
+    "codex",
+    "openhands"
   ],
   "prompt-catalog/dev/system-prompts": ["claude", "windsurf", "mcp"],
   "prompt-catalog/docs": ["graphic-recording", "diagram", "education", "markwhen"],
