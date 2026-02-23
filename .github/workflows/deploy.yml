@@ -22,8 +22,6 @@ jobs:
         run: npm ci
       - name: Test build docs
         run: npm run docs:build
-        env:
-          GITHUB_PAGES: true
 
   deploy:
     name: Deploy to GitHub Pages
@@ -49,8 +47,6 @@ jobs:
         run: npm ci
       - name: Build docs
         run: npm run docs:build
-        env:
-          GITHUB_PAGES: true
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
