@@ -26,6 +26,7 @@ last_reviewed: 2026-02-23
 
 - [プロジェクトネーミングプロンプト](./project-naming.md) - プロジェクト名の提案を生成
 - [GitHubリポジトリ作成要件定義書](./github-repo-creation.md) - GitFlow対応版のGitHubリポジトリ作成手順を定義
+- [OpenAIメタプロンプト](./openai-meta-prompt.md) - タスクの説明から効果的なシステムプロンプトを作成
 
 ## 特徴
 

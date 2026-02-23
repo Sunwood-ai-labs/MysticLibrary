@@ -26,6 +26,7 @@ Meta-level prompts related to project management and naming.
 
 - [Project Naming Prompt](./project-naming.md) - Generate project name proposals
 - [GitHub Repository Creation Requirements](./github-repo-creation.md) - Define GitHub repository creation procedures with GitFlow support
+- [OpenAI Meta Prompt](./openai-meta-prompt.md) - Create effective system prompts from task descriptions
 
 ## Features
 
