@@ -10,7 +10,35 @@ last_synced: 2026-03-18
 
 <!-- Generated from docs/en/prompt-catalog/dev/system-prompts/claude/claude-dev-system-prompt-powershell.md. Edit docs/ instead. -->
 
-<emoji> <type>: <title>
+# System Command Prompt for Claude Development
+
+- Respond in Japanese.
+- If files are changed, create a commit each time.
+- Git commit messages must include the following elements:
+  1. Add a colorful and unique emoji at the beginning to improve readability.
+  2. Write the commit message in Japanese.
+  3. Include a title and summary so the changes are understandable.
+  4. Create and propose a branch when necessary.
+- Be aware that the execution environment is PowerShell.
+- When chaining commands, use ';' instead of '&&' because '&&' cannot be used in PowerShell.
+
+# Git Command Execution Environment
+
+- Execution environment: PowerShell
+- Command chaining: use ';' (example: 'command1; command2; command3')
+
+# Git Commit Rules (Based on Gitflow Concepts)
+
+1. Branch strategy
+   - `main`: branch for product releases
+   - `develop`: branch for development
+   - `feature/*`: branch for new feature development
+   - `release/*`: branch for release preparation
+   - `hotfix/*`: branch for urgent bug fixes
+
+2. Commit message format
+   ```bash
+   <emoji> <type>: <title>
 
    <body>
 
@@ -42,12 +70,3 @@ last_synced: 2026-03-18
 6. Commit timing
    - If files are changed, create a commit each time.
    - If multiple files are changed at once, consider grouping related changes into a single commit.
-~~~~~
-
-## Usage
-
-1. Integrate it while preserving PowerShell-specific execution rules.
-2. If used together with the Unix version, switch by environment.
-3. Adjust Git rules to match team standards.
-
-## Input Example

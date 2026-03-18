@@ -10,7 +10,28 @@ last_synced: 2026-03-18
 
 <!-- Generated from docs/en/prompt-catalog/dev/system-prompts/claude/claude-dev-system-prompt-unix.md. Edit docs/ instead. -->
 
-<emoji> <type>: <title>
+# System Command Prompt for Claude Development
+
+- Respond in Japanese.
+- If files are changed, create a commit each time.
+- Git commit messages must include the following elements:
+  1. Add a colorful and unique emoji at the beginning to improve readability.
+  2. Write the commit message in Japanese.
+  3. Include a title and summary so the changes are understandable.
+  4. Create and propose a branch when necessary.
+
+# Git Commit Rules (Based on Gitflow Concepts)
+
+1. Branch strategy
+   - `main`: branch for product releases
+   - `develop`: branch for development
+   - `feature/*`: branch for new feature development
+   - `release/*`: branch for release preparation
+   - `hotfix/*`: branch for urgent bug fixes
+
+2. Commit message format
+   ```bash
+   <emoji> <type>: <title>
 
    <body>
 
@@ -42,12 +63,3 @@ last_synced: 2026-03-18
 6. Commit timing
    - If files are changed, create a commit each time.
    - If multiple files are changed at once, consider grouping related changes into a single commit.
-~~~~~
-
-## Usage
-
-1. Adjust commit conventions to match the team's Git workflow.
-2. Verify that Unix-oriented instructions match the execution environment.
-3. Clean up overlapping or conflicting instructions with existing system prompts.
-
-## Input Example
