@@ -18,6 +18,8 @@ tags:
 status: draft
 owner: prompt-lb-team
 last_reviewed: 2026-02-22
+canonical_id: "dev/agent-prompts/dev-agent-prompt-v1"
+prompt_source: "prompts/docs-first/dev/agent-prompts/dev-agent-prompt-v1_JP.md"
 ---
 
 # Dev Agent Prompt v1（簡潔開発原則）

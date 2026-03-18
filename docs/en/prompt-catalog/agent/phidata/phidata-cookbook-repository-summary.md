@@ -16,6 +16,8 @@ tags:
 status: stable
 owner: agent-team
 last_reviewed: 2026-02-23
+canonical_id: "agent/phidata/phidata-cookbook-repository-summary"
+prompt_source: "prompts/docs-first/agent/phidata/phidata-cookbook-repository-summary_EN.md"
 ---
 
 # phidata-cookbook Repository Summary

@@ -20,6 +20,8 @@ tags:
 status: stable
 owner: docs-team
 last_reviewed: 2025-02-23
+canonical_id: "docs/graphic-recording/infographic-thumbnail-v1"
+prompt_source: "prompts/docs-first/docs/graphic-recording/infographic-thumbnail-v1_EN.md"
 ---
 
 # Infographic Thumbnail Prompt V1

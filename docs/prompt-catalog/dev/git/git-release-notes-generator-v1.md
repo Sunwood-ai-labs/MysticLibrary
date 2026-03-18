@@ -19,6 +19,8 @@ tags:
 status: stable
 owner: dev-team
 last_reviewed: 2026-02-23
+canonical_id: "dev/git/git-release-notes-generator-v1"
+prompt_source: "prompts/docs-first/dev/git/git-release-notes-generator-v1_JP.md"
 ---
 
 # Gitリリースノート作成 V1

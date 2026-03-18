@@ -17,6 +17,8 @@ tags:
 status: stable
 owner: writing-team
 last_reviewed: 2026-02-23
+canonical_id: "writing/deep-research/deep-research-explainer-v1"
+prompt_source: "prompts/docs-first/writing/deep-research/deep-research-explainer-v1_EN.md"
 ---
 
 # Deep Research Quick Explainer V1

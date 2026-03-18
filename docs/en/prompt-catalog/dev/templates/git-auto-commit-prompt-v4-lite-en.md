@@ -20,6 +20,8 @@ tags:
 status: stable
 owner: Roo-Cline
 last_reviewed: 2026-02-23
+canonical_id: "dev/templates/git-auto-commit-prompt-v4-lite-en"
+prompt_source: "prompts/docs-first/dev/templates/git-auto-commit-prompt-v4-lite-en_EN.md"
 ---
 
 # Git Auto Commit Prompt V4.0 Lite EN (English Commit Version)

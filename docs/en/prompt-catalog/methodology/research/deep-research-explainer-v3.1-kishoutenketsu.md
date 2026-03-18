@@ -17,6 +17,8 @@ tags:
 status: published
 owner: methodology-worker
 last_reviewed: 2026-02-23
+canonical_id: "methodology/research/deep-research-explainer-v3.1-kishoutenketsu"
+prompt_source: "prompts/docs-first/methodology/research/deep-research-explainer-v3.1-kishoutenketsu_EN.md"
 ---
 
 # Deep Research Explainer V3.1 (Light Novel with Kishoutenketsu)

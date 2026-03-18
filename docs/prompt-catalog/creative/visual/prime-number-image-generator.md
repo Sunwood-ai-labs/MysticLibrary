@@ -18,6 +18,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "creative/visual/prime-number-image-generator"
+prompt_source: "prompts/docs-first/creative/visual/prime-number-image-generator_JP.md"
 ---
 
 # 素数×画像生成プロンプトジェネレーター

@@ -19,6 +19,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "dev/guidelines/high-quality-code-requirements"
+prompt_source: "prompts/docs-first/dev/guidelines/high-quality-code-requirements_JP.md"
 ---
 
 # 最高のプログラム要件

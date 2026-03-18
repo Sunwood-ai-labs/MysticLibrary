@@ -17,6 +17,8 @@ tags:
 status: stable
 owner: docs-team
 last_reviewed: 2026-02-23
+canonical_id: "dev/review/repo-review-prompt-v1"
+prompt_source: "prompts/docs-first/dev/review/repo-review-prompt-v1_EN.md"
 ---
 
 # Repository Quality Review Prompt V1

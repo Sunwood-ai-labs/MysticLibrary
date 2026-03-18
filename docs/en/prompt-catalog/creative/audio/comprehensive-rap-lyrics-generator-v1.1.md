@@ -22,9 +22,11 @@ tags:
   - rhythm
 status: stable
 version: "1.1"
-legacy_source: prompts/audio/comprehensive-improved-rap-prompt_v1.1_EN.md
 owner: creative-team
 last_reviewed: 2026-02-23
+canonical_id: "creative/audio/comprehensive-rap-lyrics-generator-v1.1"
+legacy_source: "prompts/audio/comprehensive-improved-rap-prompt_v1.1_EN.md"
+prompt_source: "prompts/docs-first/creative/audio/comprehensive-rap-lyrics-generator-v1.1_EN.md"
 ---
 
 # Comprehensive Rap Lyric Generation Prompt v1.1

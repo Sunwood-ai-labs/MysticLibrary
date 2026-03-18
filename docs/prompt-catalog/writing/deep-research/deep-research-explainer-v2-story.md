@@ -18,6 +18,8 @@ tags:
 status: stable
 owner: writing-team
 last_reviewed: 2026-02-23
+canonical_id: "writing/deep-research/deep-research-explainer-v2-story"
+prompt_source: "prompts/docs-first/writing/deep-research/deep-research-explainer-v2-story_JP.md"
 ---
 
 # ディープリサーチざっくり解説 V2 物語風

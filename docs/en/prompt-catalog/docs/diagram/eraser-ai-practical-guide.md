@@ -21,6 +21,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/diagram/eraser-ai-practical-guide"
+prompt_source: "prompts/docs-first/docs/diagram/eraser-ai-practical-guide_EN.md"
 ---
 
 # EraserAI Practical Guide

@@ -17,6 +17,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "creative/visual/colormap-generator-v2.0"
+prompt_source: "prompts/docs-first/creative/visual/colormap-generator-v2.0_EN.md"
 ---
 
 # Color Map Generator Prompt v2.0 LP Style

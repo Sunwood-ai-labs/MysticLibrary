@@ -19,6 +19,8 @@ tags:
 status: stable
 owner: dev-team
 last_reviewed: 2025-02-23
+canonical_id: "dev/dev-agent/dev-agent-system-prompt-v1"
+prompt_source: "prompts/docs-first/dev/dev-agent/dev-agent-system-prompt-v1_JP.md"
 ---
 
 # 開発エージェント システムプロンプト V1

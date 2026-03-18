@@ -17,6 +17,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/education/educational-notebook-v0"
+prompt_source: "prompts/docs-first/docs/education/educational-notebook-v0_JP.md"
 ---
 
 # 教育用コードノートブック作成 v0

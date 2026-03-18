@@ -20,6 +20,8 @@ tags:
 status: stable
 owner: claude-hands-team
 last_reviewed: 2025-02-23
+canonical_id: "dev/claude-hands/claude-hands-gal-kirari-v2"
+prompt_source: "prompts/docs-first/dev/claude-hands/claude-hands-gal-kirari-v2_EN.md"
 ---
 
 # Claude Hands Gal AI "Kirari" Prompt v2.0

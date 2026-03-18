@@ -17,6 +17,8 @@ tags:
 status: stable
 owner: writing-team
 last_reviewed: 2026-02-23
+canonical_id: "writing/slide/slide-design-template"
+prompt_source: "prompts/docs-first/writing/slide/slide-design-template_EN.md"
 ---
 
 # reveal.js Slide Design Template

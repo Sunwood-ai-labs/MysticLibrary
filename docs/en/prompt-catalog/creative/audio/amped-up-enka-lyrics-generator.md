@@ -18,9 +18,11 @@ tags:
   - music-generation-ai
 status: stable
 variant: detailed
-legacy_source: prompts/audio/amped_enka_lyrics_EN.md
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "creative/audio/amped-up-enka-lyrics-generator"
+legacy_source: "prompts/audio/amped_enka_lyrics_EN.md"
+prompt_source: "prompts/docs-first/creative/audio/amped-up-enka-lyrics-generator_EN.md"
 ---
 
 # Up-Tempo Enka Lyrics Generator

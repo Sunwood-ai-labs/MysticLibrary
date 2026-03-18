@@ -16,6 +16,8 @@ tags:
 status: stable
 owner: writing-team
 last_reviewed: 2026-02-23
+canonical_id: "writing/slide/slide-text-sample"
+prompt_source: "prompts/docs-first/writing/slide/slide-text-sample_EN.md"
 ---
 
 # Slide Text Content Sample

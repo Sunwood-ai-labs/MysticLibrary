@@ -19,6 +19,8 @@ tags:
 status: draft
 owner: prompt-lb-team
 last_reviewed: 2026-02-22
+canonical_id: "dev/review/high-quality-code-requirements"
+prompt_source: "prompts/docs-first/dev/review/high-quality-code-requirements_EN.md"
 ---
 
 # High-Quality Code Requirements

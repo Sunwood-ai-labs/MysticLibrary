@@ -17,6 +17,9 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/comic/comic-style-html-generator-v1"
+legacy_source: "prompts/documentation/comic/comic-style-html-generator-prompt-v1.0_JP.md"
+prompt_source: "prompts/docs-first/docs/comic/comic-style-html-generator-v1_JP.md"
 ---
 
 # コミック調HTMLジェネレーター v1.0

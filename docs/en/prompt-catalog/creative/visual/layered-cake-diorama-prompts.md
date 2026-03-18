@@ -20,6 +20,8 @@ tags:
 status: stable
 owner: creative-team
 last_reviewed: 2026-02-23
+canonical_id: "creative/visual/layered-cake-diorama-prompts"
+prompt_source: "prompts/docs-first/creative/visual/layered-cake-diorama-prompts_EN.md"
 ---
 
 # Layered Cake Diorama Prompts

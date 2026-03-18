@@ -17,6 +17,8 @@ tags:
 status: stable
 owner: creative-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/graphic-recording/graphic-recording-soap-bubble-v1"
+prompt_source: "prompts/docs-first/docs/graphic-recording/graphic-recording-soap-bubble-v1_EN.md"
 ---
 
 # Graphic Recording Soap Bubble Style v1

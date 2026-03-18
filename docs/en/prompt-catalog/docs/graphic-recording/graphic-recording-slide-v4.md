@@ -17,6 +17,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/graphic-recording/graphic-recording-slide-v4"
+prompt_source: "prompts/docs-first/docs/graphic-recording/graphic-recording-slide-v4_EN.md"
 ---
 
 # Graphic Recording Slide v4 Ryoka × Yoryo

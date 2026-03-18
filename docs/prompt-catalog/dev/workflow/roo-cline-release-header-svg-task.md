@@ -3,7 +3,6 @@ title: Roo-Cline リリースヘッダー SVG 作成タスク
 description: 既存 SVG を参考に、リポジトリ名とバージョン表記を含むリリースノート用ヘッダー画像を作るためのタスクプロンプト。
 category: dev
 intent: roo-cline-release-header-svg-task
-prompt_source: prompts/coding/Roo-cline/task2_JP.md
 audience:
   - 開発者
   - リリース担当者
@@ -19,6 +18,9 @@ tags:
 status: active
 owner: prompt-lb-team
 last_reviewed: 2026-03-18
+canonical_id: "dev/workflow/roo-cline-release-header-svg-task"
+legacy_source: "prompts/coding/Roo-cline/task2_JP.md"
+prompt_source: "prompts/docs-first/dev/workflow/roo-cline-release-header-svg-task_JP.md"
 ---
 
 # Roo-Cline リリースヘッダー SVG 作成タスク

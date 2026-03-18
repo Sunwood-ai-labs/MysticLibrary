@@ -18,6 +18,8 @@ tags:
 status: stable
 owner: creative-team
 last_reviewed: 2026-02-23
+canonical_id: "agent/minecraft/minecraft-mcp-builder-v1.1"
+prompt_source: "prompts/docs-first/agent/minecraft/minecraft-mcp-builder-v1.1_EN.md"
 ---
 
 # Minecraft MCP Prerequisite Prompt v1.1

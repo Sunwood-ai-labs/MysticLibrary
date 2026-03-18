@@ -18,6 +18,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/markwhen/markwhen-requirements-specification"
+prompt_source: "prompts/docs-first/docs/markwhen/markwhen-requirements-specification_EN.md"
 ---
 
 # Markwhen Requirements Specification

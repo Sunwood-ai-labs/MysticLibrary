@@ -19,6 +19,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "creative/game/pseudo-multi-agent-werewolf-nanj"
+prompt_source: "prompts/docs-first/creative/game/pseudo-multi-agent-werewolf-nanj_JP.md"
 ---
 
 # 疑似マルチエージェント人狼シミュレーター - なんJ風掲示板版

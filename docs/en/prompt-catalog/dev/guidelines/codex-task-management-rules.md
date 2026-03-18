@@ -17,6 +17,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "dev/guidelines/codex-task-management-rules"
+prompt_source: "prompts/docs-first/dev/guidelines/codex-task-management-rules_EN.md"
 ---
 
 # Codex Task Management Rules

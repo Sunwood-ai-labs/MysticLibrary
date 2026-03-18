@@ -17,6 +17,8 @@ tags:
 status: published
 owner: methodology-worker
 last_reviewed: 2026-02-23
+canonical_id: "methodology/research/deep-research-explainer-v3.1-kishoutenketsu"
+prompt_source: "prompts/docs-first/methodology/research/deep-research-explainer-v3.1-kishoutenketsu_JP.md"
 ---
 
 # ディープリサーチざっくり解説 V3.1（ライトノベル風・起承転結）

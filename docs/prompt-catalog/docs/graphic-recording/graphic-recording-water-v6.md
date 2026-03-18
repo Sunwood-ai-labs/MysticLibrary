@@ -17,6 +17,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/graphic-recording/graphic-recording-water-v6"
+prompt_source: "prompts/docs-first/docs/graphic-recording/graphic-recording-water-v6_JP.md"
 ---
 
 # グラレコ風インフォグラフィック V6 - 水テーマ

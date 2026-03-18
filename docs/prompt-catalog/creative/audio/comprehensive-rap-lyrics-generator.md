@@ -19,9 +19,11 @@ tags:
   - 韻
 status: stable
 version: "1.0"
-legacy_source: prompts/audio/comprehensive-improved-rap-prompt_JP.md
 owner: creative-team
 last_reviewed: 2026-02-23
+canonical_id: "creative/audio/comprehensive-rap-lyrics-generator"
+legacy_source: "prompts/audio/comprehensive-improved-rap-prompt_JP.md"
+prompt_source: "prompts/docs-first/creative/audio/comprehensive-rap-lyrics-generator_JP.md"
 ---
 
 # 包括的ラップ歌詞生成プロンプト v1.0

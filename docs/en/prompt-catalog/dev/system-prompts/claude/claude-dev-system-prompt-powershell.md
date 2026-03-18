@@ -18,6 +18,8 @@ tags:
 status: draft
 owner: prompt-lb-team
 last_reviewed: 2026-02-22
+canonical_id: "dev/system-prompts/claude/claude-dev-system-prompt-powershell"
+prompt_source: "prompts/docs-first/dev/system-prompts/claude/claude-dev-system-prompt-powershell_EN.md"
 ---
 
 # Claude Dev System Prompt (PowerShell)

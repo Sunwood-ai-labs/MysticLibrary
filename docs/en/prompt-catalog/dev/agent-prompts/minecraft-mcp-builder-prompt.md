@@ -19,6 +19,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "dev/agent-prompts/minecraft-mcp-builder-prompt"
+prompt_source: "prompts/docs-first/dev/agent-prompts/minecraft-mcp-builder-prompt_EN.md"
 ---
 
 # Minecraft MCP Builder Prompt

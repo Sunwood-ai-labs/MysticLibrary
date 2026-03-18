@@ -16,6 +16,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "dev/system-prompts/windsurf-system-prompt"
+prompt_source: "prompts/docs-first/dev/system-prompts/windsurf-system-prompt_JP.md"
 ---
 
 # Windsurfシステムプロンプト

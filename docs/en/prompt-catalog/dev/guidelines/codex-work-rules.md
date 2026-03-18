@@ -18,6 +18,8 @@ tags:
 status: draft
 owner: prompt-lb-team
 last_reviewed: 2026-02-22
+canonical_id: "dev/guidelines/codex-work-rules"
+prompt_source: "prompts/docs-first/dev/guidelines/codex-work-rules_EN.md"
 ---
 
 # Codex Work Rules (todo.md Workflow)

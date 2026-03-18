@@ -20,6 +20,8 @@ tags:
 status: stable
 owner: docs-team
 last_reviewed: 2026-02-23
+canonical_id: "dev/git/github-repo-creation-gitflow"
+prompt_source: "prompts/docs-first/dev/git/github-repo-creation-gitflow_EN.md"
 ---
 
 # GitHub Repository Creation Requirements (GitFlow Edition)

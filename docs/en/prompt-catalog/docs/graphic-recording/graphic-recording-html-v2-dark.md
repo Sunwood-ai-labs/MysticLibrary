@@ -17,6 +17,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/graphic-recording/graphic-recording-html-v2-dark"
+prompt_source: "prompts/docs-first/docs/graphic-recording/graphic-recording-html-v2-dark_EN.md"
 ---
 
 # Graphic Recording HTML Creation V2 Full Moon Dark Theme

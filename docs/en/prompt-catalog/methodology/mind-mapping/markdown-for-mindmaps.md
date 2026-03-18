@@ -16,6 +16,8 @@ tags:
 status: published
 owner: methodology-worker
 last_reviewed: 2026-02-23
+canonical_id: "methodology/mind-mapping/markdown-for-mindmaps"
+prompt_source: "prompts/docs-first/methodology/mind-mapping/markdown-for-mindmaps_EN.md"
 ---
 
 # Markdown Syntax for Mind Maps

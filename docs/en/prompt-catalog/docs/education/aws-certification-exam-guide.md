@@ -20,6 +20,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/education/aws-certification-exam-guide"
+prompt_source: "prompts/docs-first/docs/education/aws-certification-exam-guide_EN.md"
 ---
 
 # AWS Certification Exam Guide Template

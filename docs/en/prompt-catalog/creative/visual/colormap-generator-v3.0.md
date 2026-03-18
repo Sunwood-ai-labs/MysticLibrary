@@ -20,6 +20,8 @@ tags:
 status: stable
 owner: creative-team
 last_reviewed: 2026-02-23
+canonical_id: "creative/visual/colormap-generator-v3.0"
+prompt_source: "prompts/docs-first/creative/visual/colormap-generator-v3.0_EN.md"
 ---
 
 # Color Map Generation Prompt v3.0

@@ -17,6 +17,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/graphic-recording/graphic-recording-mermaid-v1"
+prompt_source: "prompts/docs-first/docs/graphic-recording/graphic-recording-mermaid-v1_EN.md"
 ---
 
 # Graph-Enhanced Graphic Recording V1 Mermaid Integration

@@ -17,6 +17,8 @@ tags:
 status: published
 owner: methodology-worker
 last_reviewed: 2026-02-23
+canonical_id: "methodology/agent/minecraft-mcp-builder"
+prompt_source: "prompts/docs-first/methodology/agent/minecraft-mcp-builder_JP.md"
 ---
 
 # Minecraft MCP前提プロンプト

@@ -20,6 +20,8 @@ tags:
 status: stable
 owner: writing-team
 last_reviewed: 2026-02-23
+canonical_id: "presentation/pitchcast-maker"
+prompt_source: "prompts/docs-first/presentation/pitchcast-maker_EN.md"
 ---
 
 # PitchCast Maker

@@ -18,6 +18,8 @@ tags:
 status: stable
 owner: docs-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/methodology/abstract-prompting-for-workflow"
+prompt_source: "prompts/docs-first/docs/methodology/abstract-prompting-for-workflow_JP.md"
 ---
 
 # 抽象化プロンプトによるワークフロー生成

@@ -18,6 +18,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/diagram/aws-drawio-architecture-v1"
+prompt_source: "prompts/docs-first/docs/diagram/aws-drawio-architecture-v1_EN.md"
 ---
 
 # AWS Draw.io Architecture Diagram Generation v1

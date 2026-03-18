@@ -19,6 +19,8 @@ tags:
 status: draft
 owner: prompt-lb-team
 last_reviewed: 2026-02-22
+canonical_id: "dev/review/repo-review-prompt-v4"
+prompt_source: "prompts/docs-first/dev/review/repo-review-prompt-v4_EN.md"
 ---
 
 # Repository Quality Review V4

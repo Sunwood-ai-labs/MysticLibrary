@@ -15,6 +15,8 @@ tags:
 status: published
 owner: methodology-worker
 last_reviewed: 2026-02-23
+canonical_id: "methodology/abstract-prompting/abstract-prompting-for-problem-solving"
+prompt_source: "prompts/docs-first/methodology/abstract-prompting/abstract-prompting-for-problem-solving_EN.md"
 ---
 
 # Problem Solving with Abstraction Prompts

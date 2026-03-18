@@ -18,6 +18,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "meta/github-repo-creation"
+prompt_source: "prompts/docs-first/meta/github-repo-creation_EN.md"
 ---
 
 # GitHub Repository Creation Requirements

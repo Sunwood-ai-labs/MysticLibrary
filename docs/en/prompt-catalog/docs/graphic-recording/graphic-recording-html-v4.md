@@ -17,6 +17,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/graphic-recording/graphic-recording-html-v4"
+prompt_source: "prompts/docs-first/docs/graphic-recording/graphic-recording-html-v4_EN.md"
 ---
 
 # Graphic Recording HTML Creation V4 Icon Emphasis

@@ -20,6 +20,8 @@ tags:
 status: draft
 owner: prompt-lb-team
 last_reviewed: 2026-02-22
+canonical_id: "dev/templates/agent-ops-note"
+prompt_source: "prompts/docs-first/dev/templates/agent-ops-note_EN.md"
 ---
 
 # Agent Ops Note (Work Log Template)

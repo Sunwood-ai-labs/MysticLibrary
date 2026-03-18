@@ -17,6 +17,8 @@ tags:
 status: published
 owner: methodology-worker
 last_reviewed: 2026-02-23
+canonical_id: "methodology/multi-agent/ronj-newbie-expert"
+prompt_source: "prompts/docs-first/methodology/multi-agent/ronj-newbie-expert_JP.md"
 ---
 
 # ろんJ式 初心者エキスパートプロンプト

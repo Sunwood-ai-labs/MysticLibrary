@@ -21,6 +21,8 @@ tags:
 status: stable
 owner: creative-team
 last_reviewed: 2026-02-23
+canonical_id: "creative/game/threejs-wireframe-game-tech-guide-mono-v2"
+prompt_source: "prompts/docs-first/creative/game/threejs-wireframe-game-tech-guide-mono-v2_JP.md"
 ---
 
 # Three.js ワイヤーアートゲーム技術スタック モノクロ版 V2

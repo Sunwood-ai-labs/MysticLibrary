@@ -22,6 +22,8 @@ tags:
 status: stable
 owner: Roo-Cline
 last_reviewed: 2026-02-23
+canonical_id: "dev/system-prompts/mcp/mcp-as-a-language-luma"
+prompt_source: "prompts/docs-first/dev/system-prompts/mcp/mcp-as-a-language-luma_JP.md"
 ---
 
 # MCP-as-a-Language プロンプト Luma

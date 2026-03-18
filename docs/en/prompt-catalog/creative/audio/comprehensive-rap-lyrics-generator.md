@@ -19,9 +19,11 @@ tags:
   - rhyme
 status: stable
 version: "1.0"
-legacy_source: prompts/audio/comprehensive-improved-rap-prompt_EN.md
 owner: creative-team
 last_reviewed: 2026-02-23
+canonical_id: "creative/audio/comprehensive-rap-lyrics-generator"
+legacy_source: "prompts/audio/comprehensive-improved-rap-prompt_EN.md"
+prompt_source: "prompts/docs-first/creative/audio/comprehensive-rap-lyrics-generator_EN.md"
 ---
 
 # Comprehensive Rap Lyric Generation Prompt v1.0

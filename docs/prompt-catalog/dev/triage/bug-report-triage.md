@@ -3,8 +3,6 @@ title: バグ報告トリアージ
 description: バグ報告の内容を整理し、再現性・影響範囲・優先度の初期判断を支援するプロンプト。
 category: dev
 intent: bug_report_triage
-canonical_id: bug-report-triage
-prompt_source: prompts/dev/triage/bug-report-triage_JP.md
 audience:
   - 開発者
   - QA
@@ -23,6 +21,9 @@ tags:
 status: active
 owner: prompt-lb-team
 last_reviewed: 2026-02-22
+canonical_id: "dev/triage/bug-report-triage"
+legacy_source: "prompts/dev/triage/bug-report-triage_JP.md"
+prompt_source: "prompts/docs-first/dev/triage/bug-report-triage_JP.md"
 ---
 
 # バグ報告トリアージ

@@ -19,6 +19,8 @@ tags:
 status: stable
 owner: writing-team
 last_reviewed: 2026-02-23
+canonical_id: "presentation/agent-vrm-auto-presenter"
+prompt_source: "prompts/docs-first/presentation/agent-vrm-auto-presenter_EN.md"
 ---
 
 # Agent VRM MCP Auto Presentation

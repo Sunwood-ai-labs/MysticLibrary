@@ -18,6 +18,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "dev/agent-prompts/self-improvement-implementation-prompt"
+prompt_source: "prompts/docs-first/dev/agent-prompts/self-improvement-implementation-prompt_EN.md"
 ---
 
 # Self-Improvement Implementation Prompt

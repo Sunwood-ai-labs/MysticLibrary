@@ -16,6 +16,8 @@ tags:
 status: published
 owner: methodology-worker
 last_reviewed: 2026-02-23
+canonical_id: "methodology/research/deep-research-explainer-v1"
+prompt_source: "prompts/docs-first/methodology/research/deep-research-explainer-v1_JP.md"
 ---
 
 # ディープリサーチざっくり解説 V1

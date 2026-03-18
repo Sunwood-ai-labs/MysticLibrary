@@ -16,6 +16,8 @@ tags:
 status: published
 owner: methodology-worker
 last_reviewed: 2026-02-23
+canonical_id: "methodology/abstract-prompting/abstract-prompting-for-workflow"
+prompt_source: "prompts/docs-first/methodology/abstract-prompting/abstract-prompting-for-workflow_EN.md"
 ---
 
 # Workflow Generation with Abstraction Prompts

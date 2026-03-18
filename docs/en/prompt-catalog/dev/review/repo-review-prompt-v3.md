@@ -19,6 +19,8 @@ tags:
 status: stable
 owner: Roo-Cline
 last_reviewed: 2026-02-23
+canonical_id: "dev/review/repo-review-prompt-v3"
+prompt_source: "prompts/docs-first/dev/review/repo-review-prompt-v3_EN.md"
 ---
 
 # Repository Quality Verification Prompt V3

@@ -21,6 +21,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "creative/multimodal/surreal-vehicles-v1"
+prompt_source: "prompts/docs-first/creative/multimodal/surreal-vehicles-v1_EN.md"
 ---
 
 # Reality Cross Surreal Vehicles Batch Generation Prompt V1.0

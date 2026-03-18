@@ -16,6 +16,8 @@ tags:
 status: published
 owner: methodology-worker
 last_reviewed: 2026-02-23
+canonical_id: "methodology/research/deep-research-explainer-v3-light-novel"
+prompt_source: "prompts/docs-first/methodology/research/deep-research-explainer-v3-light-novel_JP.md"
 ---
 
 # ディープリサーチざっくり解説 V3（ライトノベル風）

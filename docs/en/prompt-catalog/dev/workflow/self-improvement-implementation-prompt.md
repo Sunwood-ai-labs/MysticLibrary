@@ -18,6 +18,8 @@ tags:
 status: stable
 owner: docs-team
 last_reviewed: 2026-02-23
+canonical_id: "dev/workflow/self-improvement-implementation-prompt"
+prompt_source: "prompts/docs-first/dev/workflow/self-improvement-implementation-prompt_EN.md"
 ---
 
 # Self-Improvement Implementation Prompt

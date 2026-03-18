@@ -20,6 +20,8 @@ tags:
 status: stable
 owner: creative-team
 last_reviewed: 2026-02-23
+canonical_id: "creative/visual/surreal-vehicle-prompt-pack"
+prompt_source: "prompts/docs-first/creative/visual/surreal-vehicle-prompt-pack_EN.md"
 ---
 
 # Surreal Vehicle Prompt Pack V1.0

@@ -17,6 +17,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/graphic-recording/consulting-infographic-v2"
+prompt_source: "prompts/docs-first/docs/graphic-recording/consulting-infographic-v2_JP.md"
 ---
 
 # グラレコ風インフォグラフィック V2 ファッションカラー3カラム

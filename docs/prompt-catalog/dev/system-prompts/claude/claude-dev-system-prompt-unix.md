@@ -19,6 +19,8 @@ tags:
 status: draft
 owner: prompt-lb-team
 last_reviewed: 2026-02-22
+canonical_id: "dev/system-prompts/claude/claude-dev-system-prompt-unix"
+prompt_source: "prompts/docs-first/dev/system-prompts/claude/claude-dev-system-prompt-unix_JP.md"
 ---
 
 # Claude Dev システムプロンプト（Unix系）

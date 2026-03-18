@@ -18,6 +18,8 @@ tags:
 status: stable
 owner: docs-team
 last_reviewed: 2026-02-23
+canonical_id: "dev/triage/gh-issue-workflow-from-diff"
+prompt_source: "prompts/docs-first/dev/triage/gh-issue-workflow-from-diff_EN.md"
 ---
 
 # GitHub Issue Workflow (From Diff)

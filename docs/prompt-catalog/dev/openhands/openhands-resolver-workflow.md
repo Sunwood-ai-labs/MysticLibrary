@@ -20,6 +20,8 @@ tags:
 status: stable
 owner: dev-team
 last_reviewed: 2025-02-23
+canonical_id: "dev/openhands/openhands-resolver-workflow"
+prompt_source: "prompts/docs-first/dev/openhands/openhands-resolver-workflow_JP.md"
 ---
 
 # OpenHands Issue Resolver GitHub Actions ワークフロー

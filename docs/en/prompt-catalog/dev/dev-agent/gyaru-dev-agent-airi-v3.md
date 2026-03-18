@@ -20,6 +20,8 @@ tags:
 status: stable
 owner: dev-team
 last_reviewed: 2025-02-23
+canonical_id: "dev/dev-agent/gyaru-dev-agent-airi-v3"
+prompt_source: "prompts/docs-first/dev/dev-agent/gyaru-dev-agent-airi-v3_EN.md"
 ---
 
 # Gyaru Coding Agent "Airi" System Prompt V3.1

@@ -20,6 +20,8 @@ tags:
 status: stable
 owner: creative-team
 last_reviewed: 2026-02-23
+canonical_id: "creative/visual/surreal-vehicle-prompt-pack"
+prompt_source: "prompts/docs-first/creative/visual/surreal-vehicle-prompt-pack_JP.md"
 ---
 
 # 現実×シュール乗り物 一括生成プロンプト

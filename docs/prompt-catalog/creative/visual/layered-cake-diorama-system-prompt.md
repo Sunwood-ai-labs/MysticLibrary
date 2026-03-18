@@ -18,6 +18,8 @@ tags:
 status: stable
 owner: creative-team
 last_reviewed: 2026-02-23
+canonical_id: "creative/visual/layered-cake-diorama-system-prompt"
+prompt_source: "prompts/docs-first/creative/visual/layered-cake-diorama-system-prompt_JP.md"
 ---
 
 # 断面ケーキジオラマ GPTsシステムプロンプト

@@ -20,6 +20,8 @@ tags:
 status: stable
 owner: docs-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/graphic-recording/wa-modern-gareco-slide-v1"
+prompt_source: "prompts/docs-first/docs/graphic-recording/wa-modern-gareco-slide-v1_EN.md"
 ---
 
 # Japanese Modern Graphic Recording Slide Maker V1

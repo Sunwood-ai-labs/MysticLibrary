@@ -17,6 +17,8 @@ tags:
 status: published
 owner: methodology-worker
 last_reviewed: 2026-02-23
+canonical_id: "methodology/meta/github-repo-creation-requirements"
+prompt_source: "prompts/docs-first/methodology/meta/github-repo-creation-requirements_JP.md"
 ---
 
 # GitHubリポジトリ作成要件定義書（GitFlow対応版）

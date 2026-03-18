@@ -19,6 +19,8 @@ tags:
 status: published
 owner: methodology-worker
 last_reviewed: 2026-02-23
+canonical_id: "methodology/meta/github-repo-init"
+prompt_source: "prompts/docs-first/methodology/meta/github-repo-init_JP.md"
 ---
 
 # GitHubリポジトリ初期化

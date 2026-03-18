@@ -17,6 +17,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/graphic-recording/consulting-infographic-v2"
+prompt_source: "prompts/docs-first/docs/graphic-recording/consulting-infographic-v2_EN.md"
 ---
 
 # Graphic Recording Style Infographic V2 Fashion Colors 3-Column

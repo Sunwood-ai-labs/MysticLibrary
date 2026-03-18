@@ -17,6 +17,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/graphic-recording/graphic-recording-thumbnail-v3"
+prompt_source: "prompts/docs-first/docs/graphic-recording/graphic-recording-thumbnail-v3_JP.md"
 ---
 
 # グラレコサムネ v3 涼雅（簡易版）

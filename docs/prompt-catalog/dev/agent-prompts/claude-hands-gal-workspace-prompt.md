@@ -20,6 +20,8 @@ tags:
 status: stable
 owner: Roo-Cline
 last_reviewed: 2026-02-23
+canonical_id: "dev/agent-prompts/claude-hands-gal-workspace-prompt"
+prompt_source: "prompts/docs-first/dev/agent-prompts/claude-hands-gal-workspace-prompt_JP.md"
 ---
 
 # Claudeハンズ ギャル作業プロンプト

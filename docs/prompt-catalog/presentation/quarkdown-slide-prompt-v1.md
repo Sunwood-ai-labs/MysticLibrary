@@ -17,6 +17,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "presentation/quarkdown-slide-prompt-v1"
+prompt_source: "prompts/docs-first/presentation/quarkdown-slide-prompt-v1_JP.md"
 ---
 
 # Quarkdownスライド作成プロンプト V1

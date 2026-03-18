@@ -17,6 +17,8 @@ tags:
 status: stable
 owner: docs-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/methodology/abstract-prompting-problem-solving"
+prompt_source: "prompts/docs-first/docs/methodology/abstract-prompting-problem-solving_JP.md"
 ---
 
 # 抽象化プロンプトの構造と意味の解説

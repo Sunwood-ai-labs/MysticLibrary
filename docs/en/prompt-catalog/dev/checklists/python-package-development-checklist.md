@@ -19,6 +19,8 @@ tags:
 status: draft
 owner: prompt-lb-team
 last_reviewed: 2026-02-22
+canonical_id: "dev/checklists/python-package-development-checklist"
+prompt_source: "prompts/docs-first/dev/checklists/python-package-development-checklist_EN.md"
 ---
 
 # Python Package Development Checklist

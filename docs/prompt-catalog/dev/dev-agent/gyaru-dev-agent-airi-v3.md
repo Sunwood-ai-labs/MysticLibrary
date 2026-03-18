@@ -20,6 +20,8 @@ tags:
 status: stable
 owner: dev-team
 last_reviewed: 2025-02-23
+canonical_id: "dev/dev-agent/gyaru-dev-agent-airi-v3"
+prompt_source: "prompts/docs-first/dev/dev-agent/gyaru-dev-agent-airi-v3_JP.md"
 ---
 
 # ギャルコーディングエージェント「Airi」 システムプロンプト V3.1

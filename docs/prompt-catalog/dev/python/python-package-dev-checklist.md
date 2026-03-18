@@ -19,6 +19,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "dev/python/python-package-dev-checklist"
+prompt_source: "prompts/docs-first/dev/python/python-package-dev-checklist_JP.md"
 ---
 
 # Pythonパッケージ・ライブラリ開発チェックリスト

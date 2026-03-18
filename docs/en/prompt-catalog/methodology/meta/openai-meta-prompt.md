@@ -15,6 +15,8 @@ tags:
 status: published
 owner: methodology-worker
 last_reviewed: 2026-02-23
+canonical_id: "methodology/meta/openai-meta-prompt"
+prompt_source: "prompts/docs-first/methodology/meta/openai-meta-prompt_EN.md"
 ---
 
 # OpenAI Meta Prompt

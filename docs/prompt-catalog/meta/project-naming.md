@@ -17,6 +17,8 @@ tags:
 status: stable
 owner: docs-team
 last_reviewed: 2026-02-23
+canonical_id: "meta/project-naming"
+prompt_source: "prompts/docs-first/meta/project-naming_JP.md"
 ---
 
 # プロジェクトネーミングプロンプト

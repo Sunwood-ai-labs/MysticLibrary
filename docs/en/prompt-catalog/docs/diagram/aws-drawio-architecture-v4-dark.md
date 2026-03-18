@@ -18,6 +18,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/diagram/aws-drawio-architecture-v4-dark"
+prompt_source: "prompts/docs-first/docs/diagram/aws-drawio-architecture-v4-dark_EN.md"
 ---
 
 # AWS Draw.io Architecture Diagram Generation v4 Dark Theme

@@ -3,7 +3,6 @@ title: Roo-Cline Issue Close Error Task
 description: Task prompt for investigating and fixing an issue-close failure while following issue-based execution and reporting workflow.
 category: dev
 intent: roo-cline-issue-close-error-task
-prompt_source: prompts/coding/Roo-cline/task1_EN.md
 audience:
   - Developers
   - MCP tool maintainers
@@ -19,6 +18,9 @@ tags:
 status: active
 owner: prompt-lb-team
 last_reviewed: 2026-03-18
+canonical_id: "dev/workflow/roo-cline-issue-close-error-task"
+legacy_source: "prompts/coding/Roo-cline/task1_EN.md"
+prompt_source: "prompts/docs-first/dev/workflow/roo-cline-issue-close-error-task_EN.md"
 ---
 
 # Roo-Cline Issue Close Error Task

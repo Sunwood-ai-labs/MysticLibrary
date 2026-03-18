@@ -16,6 +16,8 @@ tags:
 status: stable
 owner: dev-team
 last_reviewed: 2025-02-23
+canonical_id: "dev/codex/codex-rules"
+prompt_source: "prompts/docs-first/dev/codex/codex-rules_JP.md"
 ---
 
 # CodeX ルール

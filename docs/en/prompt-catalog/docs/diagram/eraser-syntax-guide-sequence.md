@@ -19,6 +19,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/diagram/eraser-syntax-guide-sequence"
+prompt_source: "prompts/docs-first/docs/diagram/eraser-syntax-guide-sequence_EN.md"
 ---
 
 # Eraser Syntax Guide Part 3: Sequence Diagrams

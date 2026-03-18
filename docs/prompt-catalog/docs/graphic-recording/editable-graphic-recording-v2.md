@@ -20,6 +20,8 @@ tags:
 status: stable
 owner: docs-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/graphic-recording/editable-graphic-recording-v2"
+prompt_source: "prompts/docs-first/docs/graphic-recording/editable-graphic-recording-v2_JP.md"
 ---
 
 # 編集可能グラフィックレコーディング v2

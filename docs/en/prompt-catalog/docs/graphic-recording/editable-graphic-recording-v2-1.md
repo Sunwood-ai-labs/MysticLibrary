@@ -19,6 +19,8 @@ tags:
 status: stable
 owner: docs-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/graphic-recording/editable-graphic-recording-v2-1"
+prompt_source: "prompts/docs-first/docs/graphic-recording/editable-graphic-recording-v2-1_EN.md"
 ---
 
 # Editable Graphic Recording v2.1 - Aimi Yabi

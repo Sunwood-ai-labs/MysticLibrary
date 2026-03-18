@@ -16,6 +16,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/graphic-recording/graphic-recording-timeline-v2"
+prompt_source: "prompts/docs-first/docs/graphic-recording/graphic-recording-timeline-v2_EN.md"
 ---
 
 # Timeline Graphic Recording V2 Illustration Palette

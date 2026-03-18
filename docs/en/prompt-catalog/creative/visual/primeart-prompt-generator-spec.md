@@ -15,6 +15,8 @@ tags:
 status: stable
 owner: creative-team
 last_reviewed: 2026-02-23
+canonical_id: "creative/visual/primeart-prompt-generator-spec"
+prompt_source: "prompts/docs-first/creative/visual/primeart-prompt-generator-spec_EN.md"
 ---
 
 # PRIMEART Prompt Generator Specification

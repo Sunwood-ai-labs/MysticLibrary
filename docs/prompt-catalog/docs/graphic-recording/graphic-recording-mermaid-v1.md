@@ -17,6 +17,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/graphic-recording/graphic-recording-mermaid-v1"
+prompt_source: "prompts/docs-first/docs/graphic-recording/graphic-recording-mermaid-v1_JP.md"
 ---
 
 # グラフ付きグラレコ V1 Mermaid統合

@@ -18,6 +18,8 @@ tags:
 status: stable
 owner: Roo-Cline
 last_reviewed: 2026-02-23
+canonical_id: "dev/templates/git-release-notes-generator-v0"
+prompt_source: "prompts/docs-first/dev/templates/git-release-notes-generator-v0_JP.md"
 ---
 
 # Gitリリースノート作成プロンプト V0

@@ -18,6 +18,8 @@ tags:
 status: stable
 owner: writing-team
 last_reviewed: 2026-02-23
+canonical_id: "writing/deep-research/deep-research-explainer-v3-light-novel"
+prompt_source: "prompts/docs-first/writing/deep-research/deep-research-explainer-v3-light-novel_JP.md"
 ---
 
 # ディープリサーチざっくり解説 V3 ラノベ風

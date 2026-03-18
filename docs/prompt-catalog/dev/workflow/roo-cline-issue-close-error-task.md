@@ -3,7 +3,6 @@ title: Roo-Cline Issue Close エラー修正タスク
 description: gh issue close と issue ベース運用を前提に、Issue クローズ失敗の原因調査と修正を進めるためのタスクプロンプト。
 category: dev
 intent: roo-cline-issue-close-error-task
-prompt_source: prompts/coding/Roo-cline/task1_JP.md
 audience:
   - 開発者
   - MCP ツール保守者
@@ -19,6 +18,9 @@ tags:
 status: active
 owner: prompt-lb-team
 last_reviewed: 2026-03-18
+canonical_id: "dev/workflow/roo-cline-issue-close-error-task"
+legacy_source: "prompts/coding/Roo-cline/task1_JP.md"
+prompt_source: "prompts/docs-first/dev/workflow/roo-cline-issue-close-error-task_JP.md"
 ---
 
 # Roo-Cline Issue Close エラー修正タスク

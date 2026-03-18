@@ -19,9 +19,11 @@ tags:
   - high-energy
 status: stable
 variant: simplified
-legacy_source: prompts/audio/amped_enka_lyrics_EN.md
 owner: creative-team
 last_reviewed: 2026-02-23
+canonical_id: "creative/audio/up-tempo-enka-lyrics-generator"
+legacy_source: "prompts/audio/amped_enka_lyrics_EN.md"
+prompt_source: "prompts/docs-first/creative/audio/up-tempo-enka-lyrics-generator_EN.md"
 ---
 
 # Up-tempo Enka Lyrics Generation Prompt

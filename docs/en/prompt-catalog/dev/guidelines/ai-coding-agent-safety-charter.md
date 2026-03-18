@@ -19,6 +19,8 @@ tags:
 status: stable
 owner: AI-Safety-Team
 last_reviewed: 2026-02-23
+canonical_id: "dev/guidelines/ai-coding-agent-safety-charter"
+prompt_source: "prompts/docs-first/dev/guidelines/ai-coding-agent-safety-charter_EN.md"
 ---
 
 # AI Coding Agent Safety Charter

@@ -17,6 +17,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/graphic-recording/graphic-recording-html-v5"
+prompt_source: "prompts/docs-first/docs/graphic-recording/graphic-recording-html-v5_JP.md"
 ---
 
 # グラレコHTML作成 V5 UI/UXテーマ

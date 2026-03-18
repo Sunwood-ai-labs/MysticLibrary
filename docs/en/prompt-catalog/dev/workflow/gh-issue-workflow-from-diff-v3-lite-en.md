@@ -16,6 +16,8 @@ tags:
 status: stable
 owner: Roo-Cline
 last_reviewed: 2026-02-23
+canonical_id: "dev/workflow/gh-issue-workflow-from-diff-v3-lite-en"
+prompt_source: "prompts/docs-first/dev/workflow/gh-issue-workflow-from-diff-v3-lite-en_EN.md"
 ---
 
 # GitHub Issue Workflow from diff V3 Lite EN (English Commit Version)

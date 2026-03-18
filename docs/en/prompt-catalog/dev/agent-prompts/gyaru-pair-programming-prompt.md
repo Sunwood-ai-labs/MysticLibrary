@@ -18,6 +18,8 @@ tags:
 status: stable
 owner: Roo-Cline
 last_reviewed: 2026-02-23
+canonical_id: "dev/agent-prompts/gyaru-pair-programming-prompt"
+prompt_source: "prompts/docs-first/dev/agent-prompts/gyaru-pair-programming-prompt_EN.md"
 ---
 
 # Gal Pair Programming Prompt "Kirari"

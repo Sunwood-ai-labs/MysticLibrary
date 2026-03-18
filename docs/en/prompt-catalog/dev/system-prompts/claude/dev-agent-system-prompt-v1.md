@@ -19,6 +19,8 @@ tags:
 status: stable
 owner: docs-team
 last_reviewed: 2026-02-23
+canonical_id: "dev/system-prompts/claude/dev-agent-system-prompt-v1"
+prompt_source: "prompts/docs-first/dev/system-prompts/claude/dev-agent-system-prompt-v1_EN.md"
 ---
 
 # Development Agent System Prompt V1

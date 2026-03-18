@@ -18,6 +18,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/graphic-recording/graphic-recording-html-uiux"
+prompt_source: "prompts/docs-first/docs/graphic-recording/graphic-recording-html-uiux_JP.md"
 ---
 
 # グラレコHTML作成 V3 UI/UX

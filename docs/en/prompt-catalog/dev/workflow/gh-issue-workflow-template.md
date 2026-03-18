@@ -17,6 +17,8 @@ tags:
 status: stable
 owner: Roo-Cline
 last_reviewed: 2026-02-23
+canonical_id: "dev/workflow/gh-issue-workflow-template"
+prompt_source: "prompts/docs-first/dev/workflow/gh-issue-workflow-template_EN.md"
 ---
 
 # GitHub Issue Workflow Template

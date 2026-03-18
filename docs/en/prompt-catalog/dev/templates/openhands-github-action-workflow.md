@@ -20,6 +20,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "dev/templates/openhands-github-action-workflow"
+prompt_source: "prompts/docs-first/dev/templates/openhands-github-action-workflow_EN.md"
 ---
 
 # OpenHands GitHub Action Workflow

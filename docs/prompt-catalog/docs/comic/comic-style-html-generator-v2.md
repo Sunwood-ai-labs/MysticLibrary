@@ -17,6 +17,9 @@ tags:
 status: stable
 owner: docs-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/comic/comic-style-html-generator-v2"
+legacy_source: "prompts/documentation/comic/comic-style-html-generator-prompt-v2.0_JP.md"
+prompt_source: "prompts/docs-first/docs/comic/comic-style-html-generator-v2_JP.md"
 ---
 
 # コミック調HTMLジェネレーター v2.0

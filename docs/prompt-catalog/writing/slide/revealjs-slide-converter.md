@@ -17,6 +17,8 @@ tags:
 status: stable
 owner: writing-team
 last_reviewed: 2026-02-23
+canonical_id: "writing/slide/revealjs-slide-converter"
+prompt_source: "prompts/docs-first/writing/slide/revealjs-slide-converter_JP.md"
 ---
 
 # reveal.js スライド変換プロンプト

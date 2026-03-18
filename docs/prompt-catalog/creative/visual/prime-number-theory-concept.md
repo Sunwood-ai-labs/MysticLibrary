@@ -17,6 +17,8 @@ tags:
 status: stable
 owner: creative-team
 last_reviewed: 2026-02-23
+canonical_id: "creative/visual/prime-number-theory-concept"
+prompt_source: "prompts/docs-first/creative/visual/prime-number-theory-concept_JP.md"
 ---
 
 # 素数理論を活用した画像生成AIの概念体系

@@ -17,6 +17,8 @@ tags:
 status: published
 owner: methodology-worker
 last_reviewed: 2026-02-23
+canonical_id: "methodology/meta/project-naming"
+prompt_source: "prompts/docs-first/methodology/meta/project-naming_EN.md"
 ---
 
 # Project Naming

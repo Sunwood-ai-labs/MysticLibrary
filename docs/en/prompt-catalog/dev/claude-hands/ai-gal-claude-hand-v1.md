@@ -16,6 +16,8 @@ tags:
 status: stable
 owner: dev-team
 last_reviewed: 2026-02-23
+canonical_id: "dev/claude-hands/ai-gal-claude-hand-v1"
+prompt_source: "prompts/docs-first/dev/claude-hands/ai-gal-claude-hand-v1_EN.md"
 ---
 
 # AI Gal Claude Hand v1.0

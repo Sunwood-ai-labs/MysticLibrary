@@ -21,6 +21,8 @@ tags:
 status: stable
 owner: Roo-Cline
 last_reviewed: 2026-02-23
+canonical_id: "dev/agent-prompts/roo-cline-system-prompt"
+prompt_source: "prompts/docs-first/dev/agent-prompts/roo-cline-system-prompt_EN.md"
 ---
 
 # Roo-Cline System Prompt

@@ -3,7 +3,6 @@ title: Roo-Cline Japanese Release Notes Task
 description: Task prompt for drafting Japanese release notes from git diffs and a release header image while following issue-based execution workflow.
 category: dev
 intent: roo-cline-ja-release-notes-task
-prompt_source: prompts/coding/Roo-cline/task3_EN.md
 audience:
   - Developers
   - Release managers
@@ -19,6 +18,9 @@ tags:
 status: active
 owner: prompt-lb-team
 last_reviewed: 2026-03-18
+canonical_id: "dev/workflow/roo-cline-ja-release-notes-task"
+legacy_source: "prompts/coding/Roo-cline/task3_EN.md"
+prompt_source: "prompts/docs-first/dev/workflow/roo-cline-ja-release-notes-task_EN.md"
 ---
 
 # Roo-Cline Japanese Release Notes Task

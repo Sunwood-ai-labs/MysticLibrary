@@ -16,6 +16,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "meta/openai-meta-prompt"
+prompt_source: "prompts/docs-first/meta/openai-meta-prompt_JP.md"
 ---
 
 # OpenAIメタプロンプト

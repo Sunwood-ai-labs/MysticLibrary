@@ -19,6 +19,8 @@ tags:
 status: draft
 owner: prompt-lb-team
 last_reviewed: 2026-02-22
+canonical_id: "dev/guidelines/repository-guidelines-zenith"
+prompt_source: "prompts/docs-first/dev/guidelines/repository-guidelines-zenith_EN.md"
 ---
 
 # Zenith Repository Operations Guidelines

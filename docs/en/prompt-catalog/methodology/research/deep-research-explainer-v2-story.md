@@ -16,6 +16,8 @@ tags:
 status: published
 owner: methodology-worker
 last_reviewed: 2026-02-23
+canonical_id: "methodology/research/deep-research-explainer-v2-story"
+prompt_source: "prompts/docs-first/methodology/research/deep-research-explainer-v2-story_EN.md"
 ---
 
 # Deep Research Explainer V2 (Story Style)

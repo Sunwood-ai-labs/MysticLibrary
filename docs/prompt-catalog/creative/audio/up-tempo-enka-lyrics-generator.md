@@ -19,9 +19,11 @@ tags:
   - ハイテンション
 status: stable
 variant: simplified
-legacy_source: prompts/audio/amped_enka_lyrics_JP.md
 owner: creative-team
 last_reviewed: 2026-02-23
+canonical_id: "creative/audio/up-tempo-enka-lyrics-generator"
+legacy_source: "prompts/audio/amped_enka_lyrics_JP.md"
+prompt_source: "prompts/docs-first/creative/audio/up-tempo-enka-lyrics-generator_JP.md"
 ---
 
 # アップテンポ演歌歌詞生成プロンプト

@@ -17,6 +17,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/diagram/eraser-syntax-guide-1"
+prompt_source: "prompts/docs-first/docs/diagram/eraser-syntax-guide-1_JP.md"
 ---
 
 # Eraser 記法ガイド①

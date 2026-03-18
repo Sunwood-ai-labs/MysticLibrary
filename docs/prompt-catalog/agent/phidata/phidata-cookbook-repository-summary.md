@@ -17,6 +17,8 @@ tags:
 status: stable
 owner: creative-team
 last_reviewed: 2026-02-23
+canonical_id: "agent/phidata/phidata-cookbook-repository-summary"
+prompt_source: "prompts/docs-first/agent/phidata/phidata-cookbook-repository-summary_JP.md"
 ---
 
 # phidata-cookbook リポジトリサマリー

@@ -21,6 +21,8 @@ tags:
 status: stable
 owner: writing-team
 last_reviewed: 2026-02-23
+canonical_id: "presentation/voicevox-auto-presenter"
+prompt_source: "prompts/docs-first/presentation/voicevox-auto-presenter_JP.md"
 ---
 
 # VoiceVox MCP 自動プレゼンテーション

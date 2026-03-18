@@ -3,7 +3,6 @@ title: Roo-Cline Release Header SVG Task
 description: Task prompt for creating a release-note header SVG with repository name and large version label based on an existing reference asset.
 category: dev
 intent: roo-cline-release-header-svg-task
-prompt_source: prompts/coding/Roo-cline/task2_EN.md
 audience:
   - Developers
   - Release managers
@@ -19,6 +18,9 @@ tags:
 status: active
 owner: prompt-lb-team
 last_reviewed: 2026-03-18
+canonical_id: "dev/workflow/roo-cline-release-header-svg-task"
+legacy_source: "prompts/coding/Roo-cline/task2_EN.md"
+prompt_source: "prompts/docs-first/dev/workflow/roo-cline-release-header-svg-task_EN.md"
 ---
 
 # Roo-Cline Release Header SVG Task

@@ -20,6 +20,8 @@ tags:
 status: stable
 owner: claude-hands-team
 last_reviewed: 2025-02-23
+canonical_id: "dev/claude-hands/roo-hands-gal-kirari-image"
+prompt_source: "prompts/docs-first/dev/claude-hands/roo-hands-gal-kirari-image_EN.md"
 ---
 
 # Roo Hands Gal AI "Kirari" Image Generation Prompt

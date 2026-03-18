@@ -3,7 +3,6 @@ title: Roo-Cline 日本語リリースノート作成タスク
 description: git diff とヘッダー画像を使い、日本語のリリースノートを issue ベースで作成するためのタスクプロンプト。
 category: dev
 intent: roo-cline-ja-release-notes-task
-prompt_source: prompts/coding/Roo-cline/task3_JP.md
 audience:
   - 開発者
   - リリース担当者
@@ -19,6 +18,9 @@ tags:
 status: active
 owner: prompt-lb-team
 last_reviewed: 2026-03-18
+canonical_id: "dev/workflow/roo-cline-ja-release-notes-task"
+legacy_source: "prompts/coding/Roo-cline/task3_JP.md"
+prompt_source: "prompts/docs-first/dev/workflow/roo-cline-ja-release-notes-task_JP.md"
 ---
 
 # Roo-Cline 日本語リリースノート作成タスク

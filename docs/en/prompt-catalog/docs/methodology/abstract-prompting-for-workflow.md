@@ -18,6 +18,8 @@ tags:
 status: stable
 owner: docs-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/methodology/abstract-prompting-for-workflow"
+prompt_source: "prompts/docs-first/docs/methodology/abstract-prompting-for-workflow_EN.md"
 ---
 
 # Abstract Prompting Workflow Generation

@@ -20,6 +20,8 @@ tags:
 status: stable
 owner: creative-team
 last_reviewed: 2026-02-23
+canonical_id: "creative/video/veo3-asmr-prompts"
+prompt_source: "prompts/docs-first/creative/video/veo3-asmr-prompts_EN.md"
 ---
 
 # Veo3 ASMR Video Generation Prompts

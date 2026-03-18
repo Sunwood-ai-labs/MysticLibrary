@@ -18,6 +18,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/graphic-recording/graphic-recording-html-mysticlibrary"
+prompt_source: "prompts/docs-first/docs/graphic-recording/graphic-recording-html-mysticlibrary_JP.md"
 ---
 
 # グラレコHTML作成 V2 MysticLibrary

@@ -17,6 +17,8 @@ tags:
 status: stable
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/graphic-recording/comic-style-html-generator-v1"
+prompt_source: "prompts/docs-first/docs/graphic-recording/comic-style-html-generator-v1_EN.md"
 ---
 
 # Comic Style HTML Generator V1.0

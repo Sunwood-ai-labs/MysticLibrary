@@ -17,6 +17,8 @@ tags:
 status: stable
 owner: docs-team
 last_reviewed: 2026-02-23
+canonical_id: "docs/diagram/markdown-for-mindmaps"
+prompt_source: "prompts/docs-first/docs/diagram/markdown-for-mindmaps_JP.md"
 ---
 
 # マインドマップ用Markdown記法

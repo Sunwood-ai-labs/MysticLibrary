@@ -20,6 +20,8 @@ tags:
 status: stable
 owner: Roo-Cline
 last_reviewed: 2026-02-23
+canonical_id: "dev/templates/github-issue-workflow"
+prompt_source: "prompts/docs-first/dev/templates/github-issue-workflow_JP.md"
 ---
 
 # GitHub Issueワークフローテンプレート

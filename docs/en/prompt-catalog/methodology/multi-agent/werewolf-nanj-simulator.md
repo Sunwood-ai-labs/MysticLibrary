@@ -17,6 +17,8 @@ tags:
 status: published
 owner: methodology-worker
 last_reviewed: 2026-02-23
+canonical_id: "methodology/multi-agent/werewolf-nanj-simulator"
+prompt_source: "prompts/docs-first/methodology/multi-agent/werewolf-nanj-simulator_EN.md"
 ---
 
 # Werewolf Simulator (NanJ Style)

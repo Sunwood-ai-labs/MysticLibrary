@@ -18,6 +18,8 @@ tags:
 status: stable
 owner: creative-team
 last_reviewed: 2026-02-23
+canonical_id: "creative/visual/low-poly-animal-grid-generator-lite"
+prompt_source: "prompts/docs-first/creative/visual/low-poly-animal-grid-generator-lite_EN.md"
 ---
 
 # Low-Poly Animal Grid Generator Prompt V1 Lite
