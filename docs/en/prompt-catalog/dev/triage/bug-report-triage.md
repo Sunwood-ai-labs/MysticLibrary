@@ -3,6 +3,8 @@ title: Bug Report Triage
 description: A prompt to organize bug reports and support initial assessment of reproducibility, impact scope, and priority.
 category: dev
 intent: bug_report_triage
+canonical_id: bug-report-triage
+prompt_source: prompts/dev/triage/bug-report-triage_EN.md
 audience:
   - Developers
   - QA

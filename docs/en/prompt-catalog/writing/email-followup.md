@@ -3,6 +3,8 @@ title: Follow-up Email Writing
 description: A prompt for drafting polite, goal-oriented follow-up emails for cases awaiting a reply.
 category: writing
 intent: business_email_followup
+canonical_id: email-followup
+prompt_source: prompts/writing/email-followup_EN.md
 audience:
   - Sales representatives
   - Customer success

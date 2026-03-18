@@ -3,6 +3,8 @@ title: フォローアップメール作成
 description: 返信待ち案件に対して、丁寧かつ目的が明確なフォローアップメールを作成するためのプロンプト。
 category: writing
 intent: business_email_followup
+canonical_id: email-followup
+prompt_source: prompts/writing/email-followup_JP.md
 audience:
   - 営業担当
   - カスタマーサクセス
