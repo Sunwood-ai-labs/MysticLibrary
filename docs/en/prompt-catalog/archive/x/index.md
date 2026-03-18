@@ -12,5 +12,5 @@ last_reviewed: 2026-03-19
 
 The imported X archive is currently published in Japanese first.
 
-- Japanese archive index: [X Prompt Archive](/prompt-catalog/archive/x/)
-
+- English archive category: [Archive](../index.md)
+- Japanese source archive: [X Prompt Archive (JA)](/prompt-catalog/archive/x/)
