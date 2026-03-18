@@ -30,6 +30,9 @@ Prompts related to development processes and iterative improvement.
 - [GitHub Issue Workflow from diff V2 Lite](./gh-issue-workflow-from-diff-v2-lite.md) - Simple development workflow (Lite version)
 - [GitHub Issue Workflow from diff V3 Lite](./gh-issue-workflow-from-diff-v3-lite.md) - Detailed commit support (V3 Lite version)
 - [GitHub Issue Workflow from diff V3 Lite EN](./gh-issue-workflow-from-diff-v3-lite-en.md) - English commit version
+- [Roo-Cline Issue Close Error Task](./roo-cline-issue-close-error-task.md) - Fixing `gh issue edit --state` failure
+- [Roo-Cline Release Header SVG Task](./roo-cline-release-header-svg-task.md) - Task prompt for release-note header image creation
+- [Roo-Cline Japanese Release Notes Task](./roo-cline-ja-release-notes-task.md) - Task prompt for Japanese release notes from git diff
 
 ## Features
 

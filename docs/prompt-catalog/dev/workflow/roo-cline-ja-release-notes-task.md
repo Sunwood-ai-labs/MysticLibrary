@@ -1,0 +1,121 @@
+---
+title: Roo-Cline 日本語リリースノート作成タスク
+description: git diff とヘッダー画像を使い、日本語のリリースノートを issue ベースで作成するためのタスクプロンプト。
+category: dev
+intent: roo-cline-ja-release-notes-task
+prompt_source: prompts/coding/Roo-cline/task3_JP.md
+audience:
+  - 開発者
+  - リリース担当者
+  - 技術ライター
+input_requirements:
+  - 対象リポジトリ
+  - 差分取得コマンド
+  - 使用するヘッダー画像 URL
+tags:
+  - roo-cline
+  - workflow
+  - issue-driven
+status: active
+owner: prompt-lb-team
+last_reviewed: 2026-03-18
+---
+
+# Roo-Cline 日本語リリースノート作成タスク
+
+## 想定用途
+
+- 既存 diff から日本語リリースノートを組み立てたいとき
+- テンプレート付きで release article を起こしたいとき
+
+## プロンプト本文
+
+````text
+下記の指令を遂行するために、まずはタスクを洗い出してissueに登録して
+
+ファイルを変更した場合はissue番号を付与してコミットして
+
+また、進捗報告はコメントで実施して
+
+## 指令
+
+下記のコマンドを使用してv0.1.0の日本語のリリースノートを作成して
+
+git diff --name-only --diff-filter=AMCRD tag1 tag2 > ./tmp/list.txt
+git diff --diff-filter=AMCRD tag1 tag2 > ./tmp/diff.txt
+
+リポジトリは下記です
+https://github.com/Sunwood-ai-labs/command-executor-mcp-server
+
+ヘッダー画像のSVGは下記を使用して
+![](https://raw.githubusercontent.com/Sunwood-ai-labs/command-executor-mcp-server/refs/heads/master/assets/release-header-v0.1.0.svg)
+
+## リリースノートのテンプレート
+```
+# 🚀 リポジトリ名：v[x.y.z] - [YYYY-MM-DD]
+
+![](https://raw.githubusercontent.com/Sunwood-ai-labs/command-executor-mcp-server/refs/heads/master/assets/release-header-v0.1.0.svg)
+
+## 主な変更点 / Highlights
+
+製品バージョン `x.y.z` では以下の改善が行われました：
+
+- 🎯 [主要な変更点1]
+- ⚡️ [主要な変更点2]
+- 🔧 [主要な変更点3]
+
+## ✨ 新機能 / New Features
+
+### ⭐️ [新機能タイトル]
+- 機能の詳細説明
+- 関連Issue: #xxx
+- 関連PR: #xxx
+
+## 🔧 改善 / Improvements
+
+- [改善内容1] (#PR番号)
+- [改善内容2] (#PR番号)
+
+## 🐛 バグ修正 / Bug Fixes
+
+- [修正内容1] (#Issue番号)
+- [修正内容2] (#Issue番号)
+
+## ⚠️ Breaking Changes
+
+このバージョンには以下の破壊的変更が含まれています：
+
+- [破壊的変更の内容]
+- 移行方法: [説明]
+
+## 📝 その他の変更 / Other Changes
+
+- [その他の変更内容]
+- [ドキュメントの更新]
+- [依存関係の更新]
+
+## 📦 アップグレード方法 / How to Upgrade
+
+```bash
+# パッケージマネージャーを使用している場合
+npm install [パッケージ名]@latest
+
+# または
+yarn add [パッケージ名]@latest
+```
+
+## 🙏 謝辞 / Acknowledgements
+
+このリリースに貢献してくださった皆様に感謝いたします：
+
+- @username1
+- @username2
+
+---
+**Full Changelog**: [v1.0.0...v1.1.0](リンク)
+```
+````
+
+## 注意点
+
+- テンプレート内に Markdown、画像 URL、diff コマンドが含まれるため、コードブロックをそのまま扱える形で保持しています。

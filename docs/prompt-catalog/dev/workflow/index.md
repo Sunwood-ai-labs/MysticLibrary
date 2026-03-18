@@ -30,6 +30,9 @@ last_reviewed: 2026-02-23
 - [GitHub Issueワークフロー from diff V2 Lite](./gh-issue-workflow-from-diff-v2-lite.md) - シンプルな開発ワークフロー（Lite版）
 - [GitHub Issueワークフロー from diff V3 Lite](./gh-issue-workflow-from-diff-v3-lite.md) - 詳細コミット対応（V3 Lite版）
 - [GitHub Issueワークフロー from diff V3 Lite EN](./gh-issue-workflow-from-diff-v3-lite-en.md) - 英語コミット版
+- [Roo-Cline Issue Close エラー修正タスク](./roo-cline-issue-close-error-task.md) - `gh issue edit --state` 失敗の修正タスク
+- [Roo-Cline リリースヘッダー SVG 作成タスク](./roo-cline-release-header-svg-task.md) - リリース用ヘッダー画像を作る task prompt
+- [Roo-Cline 日本語リリースノート作成タスク](./roo-cline-ja-release-notes-task.md) - diff とテンプレートから日本語 release notes を作る task prompt
 
 ## 特徴
 
