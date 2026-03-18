@@ -11,6 +11,8 @@ Prompts are organized by use case. Start by browsing the category pages.
 - [Docs (Documentation Creation)](./docs/index.md)
 - [Methodology (Methodology)](./methodology/index.md)
 - [Agent (AI Agents)](./agent/index.md)
+- [Meta (Meta / Other)](./meta/index.md)
+- [Archive (Archive)](./archive/index.md)
 
 ## How to Choose
 

@@ -260,8 +260,8 @@ function extractPromptBody(body) {
 }
 
 function extractFirstFence(text) {
-  const match = text.match(/```[^\n]*\n([\s\S]*?)\n```/);
-  return match ? match[1].trim() : null;
+  const match = text.match(/(`{3,}|~{3,})[^\n]*\n([\s\S]*?)\n\1/);
+  return match ? match[2].trim() : null;
 }
 
 function yamlScalar(value) {

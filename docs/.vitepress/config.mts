@@ -102,7 +102,8 @@ function withBase(base: string, path: string) {
 const DOCS_ROOT_DIR = path.resolve(process.cwd(), "docs");
 
 const directoryOrderMap: Record<string, string[]> = {
-  "prompt-catalog": ["writing", "presentation", "creative", "dev", "docs", "methodology"],
+  "prompt-catalog": ["writing", "presentation", "creative", "dev", "docs", "methodology", "agent", "meta", "archive"],
+  "prompt-catalog/archive": ["x"],
   "prompt-catalog/dev": [
     "python",
     "triage",
@@ -133,12 +134,23 @@ function sortEntries(entries: string[], directoryPath: string, locale: LocaleCod
     const aIndex = orderIndex.get(a) ?? Number.MAX_SAFE_INTEGER;
     const bIndex = orderIndex.get(b) ?? Number.MAX_SAFE_INTEGER;
     if (aIndex !== bIndex) return aIndex - bIndex;
+    if (isArchiveBranch(relativeDirectory)) {
+      return b.localeCompare(a, "en");
+    }
     return a.localeCompare(b, "en");
   });
 }
 
 function normalizeRoutePath(route: string) {
   return route.replace(/\\/g, "/");
+}
+
+function isArchiveBranch(relativeDirectory: string) {
+  return relativeDirectory === "prompt-catalog/archive/x" || relativeDirectory.startsWith("prompt-catalog/archive/x/");
+}
+
+function shouldHideArchiveLeafFiles(relativeDirectory: string) {
+  return isArchiveBranch(relativeDirectory);
 }
 
 function stripQuotes(value: string) {
@@ -194,6 +206,8 @@ function buildPromptCatalogDirectoryItems(
   base: string,
   depth = 0
 ): DefaultTheme.SidebarItem[] {
+  const localeDocsRoot = locale === "ja" ? DOCS_ROOT_DIR : path.join(DOCS_ROOT_DIR, "en");
+  const relativeDirectory = normalizeRoutePath(path.relative(localeDocsRoot, directoryPath));
   const entries = sortEntries(
     readdirSync(directoryPath).filter((entry) => !entry.startsWith(".")),
     directoryPath,
@@ -203,7 +217,12 @@ function buildPromptCatalogDirectoryItems(
   const directories = entries.filter((entry) => statSync(path.join(directoryPath, entry)).isDirectory());
   const files = entries.filter((entry) => {
     const fullPath = path.join(directoryPath, entry);
-    return statSync(fullPath).isFile() && entry.endsWith(".md") && entry !== "index.md";
+    return (
+      statSync(fullPath).isFile() &&
+      entry.endsWith(".md") &&
+      entry !== "index.md" &&
+      !shouldHideArchiveLeafFiles(relativeDirectory)
+    );
   });
 
   const items: DefaultTheme.SidebarItem[] = [];

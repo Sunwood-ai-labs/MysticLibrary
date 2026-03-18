@@ -12,6 +12,7 @@
 - [Methodology（メソドロジー）](./methodology/index.md)
 - [Agent（AIエージェント）](./agent/index.md)
 - [Meta（メタ／その他）](./meta/index.md)
+- [Archive（アーカイブ）](./archive/index.md)
 
 ## 選び方の目安
 
