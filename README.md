@@ -1,92 +1,71 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/English-English-blue?style=flat-square" alt="English">
-  <a href="README.ja.md"><img src="https://img.shields.io/badge/%E6%97%A5%E6%9C%AC%E8%AA%9E-Japanese-green?style=flat-square" alt="Japanese"></a>
-</p>
-
-<p align="center">
-  <img src="https://huggingface.co/datasets/MakiAi/IconAssets/resolve/main/MysticLibrary_icon2.png" width="100%" alt="Mystic Library Logo">
-</p>
-
 # Mystic Library
 
-An open-source prompt collection for prompt engineering.
+Mystic Library is a docs-first prompt library powered by VitePress. The published site is the app, and the source of truth lives in `docs/`.
 
-<p align="center">
-  <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node.js-20.x-green?logo=node.js" alt="Node.js"></a>
-  <a href="https://vitejs.dev/"><img src="https://img.shields.io/badge/Vite-5.x-purple?logo=vite" alt="Vite"></a>
-  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-5.x-blue?logo=typescript" alt="TypeScript"></a>
-  <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/TailwindCSS-3.x-38bdf8?logo=tailwindcss" alt="TailwindCSS"></a>
-  <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-ready-blue?logo=docker" alt="Docker"></a>
-</p>
+## Stack
 
-## What is this?
+- Node.js 20
+- VitePress 1.x
+- Docker / Docker Compose
 
-When working with AI, you often find yourself thinking "I've written this prompt before...". Mystic Library is designed to manage such prompts in Markdown format and make them easy to publish and share as a static site.
+## Source Of Truth
 
-Anyone can view and utilize prompts organized by categories such as audio generation, coding, documentation, image generation, and more.
+- Maintain catalog content in `docs/prompt-catalog/` and `docs/en/prompt-catalog/`
+- Treat `docs/` as the primary editing surface
+- Treat `prompts/docs-first/` as generated mirrors
+- Keep `legacy_source` only as historical metadata when a docs page replaces an older prompt file
 
-## Features
-
-**No Database, Just Markdown**: All prompts are stored as Markdown files. Version control with Git and environment setup are straightforward.
-
-**Self-Host Ready**: Deploy on your internal server to securely manage prompts that shouldn't be exposed externally. Works seamlessly with GitHub Enterprise and GitLab.
-
-**Static Site Generation**: Simply build with Vite and deploy to GitHub Pages. No server maintenance required.
-
-## Source of Truth
-
-The published prompt catalog is maintained in `docs/`.
-
-- Update catalog pages under `docs/prompt-catalog/` and `docs/en/prompt-catalog/`
-- `prompt_source` now points to generated docs-first mirrors under `prompts/docs-first/`
-- Preserve legacy prompt lineage in `legacy_source` when a page supersedes an older prompt file
-- Treat `prompt_source` as the authoritative current mirror and `legacy_source` as historical metadata only
-- Treat `prompts/` as a migration or mirror layer, not the primary editing surface
-
-## Setup
+## Local Development
 
 ```bash
-git clone https://github.com/your-username/MysticLibrary.git
-cd MysticLibrary
-npm install
-npm run docs:dev             # Start VitePress locally
-npm run docs:build           # Build the published docs
-npm run docs:canonical-audit # Audit docs/prompts canonical mapping
-npm run docs:prompt-mirror-sync # Refresh prompt mirrors from docs/
+npm ci
+npm run docs:dev
 ```
 
-## Directory Structure
+Useful commands:
 
+```bash
+npm run docs:build
+npm run docs:preview
+npm run docs:canonical-audit
+npm run docs:prompt-mirror-sync
 ```
+
+If Windows leaves file handles under `docs/.vitepress/dist`, remove that directory and rerun the build.
+
+## Docker Compose
+
+The container image builds the VitePress site and serves the generated static files with nginx.
+
+```bash
+docker compose up --build
+```
+
+Then open `http://localhost:4173`.
+
+## Directory Layout
+
+```text
 MysticLibrary/
-├── docs/              # Source of truth for the published catalog
-├── prompts/           # Legacy or mirrored prompt files during migration
-├── public/            # Static assets
-├── src/               # Frontend
-├── nginx/             # nginx config for Docker
-├── examples/          # Sample code
+├── docs/                      # VitePress app and published catalog
+├── prompts/docs-first/        # Generated prompt mirrors from docs/
+├── script/                    # Canonical audit and mirror sync scripts
+├── nginx/                     # Static site serving config for Docker
 ├── Dockerfile
 ├── docker-compose.yml
+├── package.json
 └── README.md
 ```
 
-## Screenshot
+## Publishing
 
-![alt text](image.png)
+- GitHub Pages deploys `docs/.vitepress/dist`
+- The published custom domain is `https://www.mystic-prompt-library.com/`
+- Docker images are built from the same docs-first source
 
 ## Contributing
 
-Please add or update catalog content under `docs/prompt-catalog/` and `docs/en/prompt-catalog/`. Run `npm run docs:prompt-mirror-sync` when you need to refresh mirrored prompt files in `prompts/docs-first/`. Issues and PRs are welcome.
-
-## Contact
-
-- **X (Twitter)**: [@hAru_mAki_ch](https://x.com/hAru_mAki_ch)
-
-## Featured
-
-<a href="https://orynth.dev/projects/mystic-prompt-open-library" target="_blank" rel="noopener">
-  <img src="https://orynth.dev/api/badge/mystic-prompt-open-library?theme=light&style=minimal" alt="Featured on Orynth" width="180" height="48" />
-</a>
+Update docs content first, then run `npm run docs:prompt-mirror-sync` if prompt mirrors need to be refreshed.
 
 ## License
 
