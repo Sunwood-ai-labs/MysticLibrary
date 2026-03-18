@@ -1,0 +1,13 @@
+*
+!package.json
+!package-lock.json
+!docs/
+!docs/**
+!nginx/
+!nginx/default.conf
+docs/.vitepress/dist
+docs/.vitepress/dist/**
+docs/.vitepress/dist-check
+docs/.vitepress/dist-check/**
+docs/.vitepress/cache
+docs/.vitepress/cache/**

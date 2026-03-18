@@ -1,21 +1,18 @@
-# Ubuntu系（Debianベース）のNode.js公式イメージを使用
-FROM node:20
+FROM node:20-alpine AS build
 
 WORKDIR /app
 
-# 依存関係インストールのためにpackageファイルを先にコピー
 COPY package.json package-lock.json ./
-
 RUN npm ci
 
-# 全ファイルをコピー
-COPY . .
+COPY docs ./docs
+RUN npm run docs:build
 
-# ビルド
-RUN npm run build
+FROM nginx:1.27-alpine AS runtime
 
-# ポート（Vite previewのデフォルト5173）
-EXPOSE 5173
+COPY nginx/default.conf /etc/nginx/conf.d/default.conf
+COPY --from=build /app/docs/.vitepress/dist /usr/share/nginx/html
 
-# サーバ起動
-CMD ["npm", "run", "preview"]
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
