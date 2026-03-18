@@ -140,13 +140,14 @@ async function loadArchiveItems(archiveDir) {
     if (!text.includes(MARKER)) {
       continue;
     }
+    const resolvedText = resolveTweetText(tweet);
     items.push({
       kind: 'tweet',
       id: tweet.id_str,
       rawTimestamp: tweet.created_at,
       createdAtIso: new Date(tweet.created_at).toISOString(),
-      prompt: normalizeText(extractPromptText(text)),
-      head: normalizeText(extractHeadText(text)),
+      prompt: normalizeText(extractPromptText(resolvedText)),
+      head: normalizeText(extractHeadText(resolvedText)),
       fullText: text,
     });
   }
@@ -174,13 +175,14 @@ async function loadArchiveItems(archiveDir) {
     if (!text.includes(MARKER)) {
       continue;
     }
+    const resolvedText = resolveTweetText(tweet);
     items.push({
       kind: 'tweet',
       id: tweet.id_str,
       rawTimestamp: tweet.created_at,
       createdAtIso: new Date(tweet.created_at).toISOString(),
-      prompt: normalizeText(extractPromptText(text)),
-      head: normalizeText(extractHeadText(text)),
+      prompt: normalizeText(extractPromptText(resolvedText)),
+      head: normalizeText(extractHeadText(resolvedText)),
       fullText: text,
     });
   }
@@ -778,7 +780,7 @@ function extractPromptText(text) {
   if (markerIndex < 0) {
     return '';
   }
-  return text.slice(markerIndex + MARKER.length).replace(/https?:\/\/t\.co\/\S+/g, '').trim();
+  return stripTrailingXStatusUrls(text.slice(markerIndex + MARKER.length)).trim();
 }
 
 function extractHeadText(text) {
@@ -793,6 +795,35 @@ function normalizeText(value) {
     .replace(/[ \t]+/g, ' ')
     .replace(/\n{3,}/g, '\n\n')
     .trim();
+}
+
+function resolveTweetText(tweet) {
+  let text = tweet.full_text ?? '';
+  const urlEntities = tweet.entities?.urls ?? [];
+  const mediaEntities = tweet.entities?.media ?? [];
+
+  for (const entity of urlEntities) {
+    if (!entity?.url || !entity?.expanded_url) {
+      continue;
+    }
+    text = text.split(entity.url).join(entity.expanded_url);
+  }
+
+  for (const entity of mediaEntities) {
+    if (!entity?.url) {
+      continue;
+    }
+    text = text.split(entity.url).join('');
+  }
+
+  return text;
+}
+
+function stripTrailingXStatusUrls(value) {
+  return (value ?? '').replace(
+    /(?:\s+https?:\/\/(?:x|twitter)\.com\/[^\s]+\/status\/\d+(?:\/[^\s]+)*)+\s*$/gi,
+    '',
+  );
 }
 
 function firstMeaningfulLine(text) {
