@@ -1,0 +1,557 @@
+[
+  {
+    "primary_id": "1973441209181020204",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1973441209181020204.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1973441209181020204",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 私も Sora2.0で一撃生成できた!!!",
+      "summary: 日本のテレビショッピング。 日本人女性がスチームパンク風の車を紹介する。",
+      "matched_keywords: Sora"
+    ]
+  },
+  {
+    "primary_id": "1973440251243982901",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1973440251243982901.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1973440251243982901",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 私も #Sora2 に対策映画風のを作ってもらった!!!",
+      "summary: サイバーパンク風の車をテーマにして、大作映画を作って。とにかくカット割りまくって10秒で映画の筋を全部見せて。吹き替えの言語は日本語で",
+      "matched_keywords: Sora"
+    ]
+  },
+  {
+    "primary_id": "1973389824473350434",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1973389824473350434.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1973389824473350434",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: sora2 で日本語文字を出しつつ、日本語で喋らせれたぞ!!!!",
+      "summary: ハリウッド級の美女が日本語でGPUの売り込みをしている映像",
+      "matched_keywords: Sora"
+    ]
+  },
+  {
+    "primary_id": "1972466376238645294",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/09/1972466376238645294.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1972466376238645294",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: docs/diagram, writing",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: akhaliq/HunyuanImage-3.0 使ってみた2⃣",
+      "summary: Envision: a breathtaking, fantastical night scene that blends elements of gothi…",
+      "matched_keywords: Kling, ad"
+    ]
+  },
+  {
+    "primary_id": "1971416163499507718",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/09/1971416163499507718.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1971416163499507718",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: ViduQ2 触ってみた1⃣",
+      "summary: In a fantastical space, a beautiful, pretty woman is playing the piano. Her hai…",
+      "matched_keywords: Vidu"
+    ]
+  },
+  {
+    "primary_id": "1969549814770909185",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/09/1969549814770909185.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1969549814770909185",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: creative/audio, creative/visual",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 私もプロンプトを参考にしてGorkで画像から動画化までやってみた!!!",
+      "summary: 1. ゴシックなカフェの肖像",
+      "matched_keywords: 動画, ad, プロンプト, futuristic, 化"
+    ]
+  },
+  {
+    "primary_id": "1968706964143358395",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/09/1968706964143358395.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1968706964143358395",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: creative/audio, creative/visual",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: seedream v4 ✖ Kling AI使って車の設計から具現化・疾走までやってみた!!",
+      "summary: カット 3-1:ホログラムから実体化",
+      "matched_keywords: Kling, ad, 疾走, プロンプト, 疾走"
+    ]
+  },
+  {
+    "primary_id": "1967252015152771375",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/09/1967252015152771375.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1967252015152771375",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: creative/audio, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Seedance-1-pro で私もやってみた!!",
+      "summary: 1 失われた神殿",
+      "matched_keywords: Seedance"
+    ]
+  },
+  {
+    "primary_id": "1967238396327432629",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/09/1967238396327432629.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1967238396327432629",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/templates, dev/system-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Gemini 2.5 proで動画の字幕(SRT)生成!",
+      "summary: いいね!また、この動画を英語圏でも展開したいです!英語版の字幕も生成して",
+      "matched_keywords: 動画"
+    ]
+  },
+  {
+    "primary_id": "1967232015885123809",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/09/1967232015885123809.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1967232015885123809",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: creative/audio, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Gemini 2.5 proで動画の字幕を入れるためにSRTファイルを生成してもらったけど、、、話者分離もしつつ色分けもできるぽいぞ、、、まじかよ、、、",
+      "summary: ポッドキャストに字幕をつけたいです!全体のSRTファイルを作成して。また、「。」とかではべつのトラックにしてなるべく長い字幕にならないようにして変な空白とか入…",
+      "matched_keywords: 動画"
+    ]
+  },
+  {
+    "primary_id": "1962123433569071158",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/08/1962123433569071158.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1962123433569071158",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/templates, creative/visual",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Origami プロンプトでリポジトリのヘッダー画像作ってみた!!!!",
+      "summary: 🕊️ 折り鶴(鶴) – 「昇華と架け橋」",
+      "matched_keywords: ad, プロンプト, キツネ, 化"
+    ]
+  },
+  {
+    "primary_id": "1959469336898462059",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/08/1959469336898462059.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1959469336898462059",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: creative/audio, creative/visual",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: GeminiのVeo3が今週末限定で無料ユーザーで使えるぽいので早速使ってみた5⃣",
+      "summary: shot:",
+      "matched_keywords: アニメーション, Veo, 妖怪, 紙"
+    ]
+  },
+  {
+    "primary_id": "1959466528732237930",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/08/1959466528732237930.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1959466528732237930",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/templates, creative/visual",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: GeminiのVeo3が今週末限定で無料ユーザーで使えるぽいので早速使ってみた4⃣",
+      "summary: prompt:",
+      "matched_keywords: video, Veo"
+    ]
+  },
+  {
+    "primary_id": "1959464367747207495",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/08/1959464367747207495.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1959464367747207495",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/system-prompts, writing",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: GeminiのVeo3が今週末限定で無料ユーザーで使えるぽいので早速使ってみた2⃣",
+      "summary: &#123;",
+      "matched_keywords: Veo"
+    ]
+  },
+  {
+    "primary_id": "1959258913536430377",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/08/1959258913536430377.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1959258913536430377",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/templates, creative/visual",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: GeminiのVeo3が今週末限定で無料ユーザーで使えるぽいので早速使ってみた!!!",
+      "summary: &#123;",
+      "matched_keywords: video, Veo, ad"
+    ]
+  },
+  {
+    "primary_id": "1959256825121140736",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/08/1959256825121140736.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1959256825121140736",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/agent-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: これを参考にしてロボット✖スケルトン風にしてみた!! #YokaiParae",
+      "summary: 🦊 Kitsune Mecha(九尾メカ狐)",
+      "matched_keywords: ad, 九尾, 九尾"
+    ]
+  },
+  {
+    "primary_id": "1958515407062761724",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/08/1958515407062761724.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1958515407062761724",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: creative/visual, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Kling 2.1 で開始フレームと終了フレームでランウェイプロンプトを爆誕!!!!",
+      "summary: &#91;Scene Setup&#93;",
+      "matched_keywords: Kling, Runway, ad, プロンプト"
+    ]
+  },
+  {
+    "primary_id": "1951268380499124650",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/08/1951268380499124650.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1951268380499124650",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: creative/audio, creative/visual",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Crystal プロンプト",
+      "summary: A hyper-realistic high-resolution rendering of a towering slice of strawberry s…",
+      "matched_keywords: ad, プロンプト"
+    ]
+  },
+  {
+    "primary_id": "1949503486988836864",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/07/1949503486988836864.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1949503486988836864",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 特急訪問プロンプト使ってみた!~Kling版~",
+      "summary: A stabilized high-speed drone-mounted camera zips through Kyoto at midday, weav…",
+      "matched_keywords: Kling, ad, プロンプト"
+    ]
+  },
+  {
+    "primary_id": "1949296935485190372",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/07/1949296935485190372.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1949296935485190372",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: seedance-v1-pro-t2v-480p でカット割りやってみた2⃣",
+      "summary: Japanese moe–fantasy anime, transparent watercolor style. Use wet‐on‐wet blooms…",
+      "matched_keywords: Seedance, ad"
+    ]
+  },
+  {
+    "primary_id": "1947696391570231607",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/07/1947696391570231607.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1947696391570231607",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Veo3で車の紹介映像作ってみたら、思ったよりもいい感じになったぞ!!!",
+      "summary: Start from the provided still frame. Maintain a Hollywood-grade, vertical 9:16…",
+      "matched_keywords: Veo, commercial, ad, morph"
+    ]
+  },
+  {
+    "primary_id": "1947690821438083546",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/07/1947690821438083546.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1947690821438083546",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Veo3でGPUの紹介映像作ってみたら、思ったよりもいい感じになったぞ!!!",
+      "summary: Start from the provided still frame. Maintain a Hollywood-grade cinematic look…",
+      "matched_keywords: Veo, WAN, commercial, ad, drift"
+    ]
+  },
+  {
+    "primary_id": "1941456387466461480",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/07/1941456387466461480.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1941456387466461480",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/templates, dev/system-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Volumetric Fog Lighting プロンプトをYAMLに改造してやってみた!",
+      "summary: image_type: volumetric_cinematic_cat_wizard_v1",
+      "matched_keywords: drift, プロンプト"
+    ]
+  },
+  {
+    "primary_id": "1939701450319548533",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/07/1939701450319548533.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1939701450319548533",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Hailuo 02 使ってみた!!!!",
+      "summary: GoPro selfie, dynamic action shot of a very beautiful model-like woman with lon…",
+      "matched_keywords: Hailuo"
+    ]
+  },
+  {
+    "primary_id": "1938783452524093749",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1938783452524093749.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1938783452524093749",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: creative/visual, creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Veo3 ASMR:茶道ASMR",
+      "summary: scene_description: \"ミニチュアサイズのアンドロイド美女が着物で抹茶を点てる近未来的で美しいシーン\"",
+      "matched_keywords: Veo, CM, ad, ASMR"
+    ]
+  },
+  {
+    "primary_id": "1938553232273686921",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1938553232273686921.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1938553232273686921",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: creative/audio, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Veo3でタップダンスさせてみた2⃣",
+      "summary: scene_description: \"室内で美しい着物の女性がタップダンスする優雅なシーン\"",
+      "matched_keywords: Veo"
+    ]
+  },
+  {
+    "primary_id": "1938549653068456308",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1938549653068456308.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1938549653068456308",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: creative/audio, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 私もVeo3でタップダンスさせてみた!!!",
+      "summary: scene_description: \"室内で白猫がタップダンスする可愛らしいシーン\"",
+      "matched_keywords: Veo"
+    ]
+  },
+  {
+    "primary_id": "1933851662978085118",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1933851662978085118.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1933851662978085118",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: creative/audio, creative/visual",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 現実×シュール乗り物の一括生成プロンプトを参考にして、線画の動画一括生成プロンプト「汎用 線画ビジュアル一括生成プロンプト」も作ってみた!!!",
+      "summary: 汎用 線画ビジュアル一括生成プロンプト V1.0",
+      "matched_keywords: 動画, video, Runway, Pika, プロンプト"
+    ]
+  },
+  {
+    "primary_id": "1933165434658083156",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1933165434658083156.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1933165434658083156",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/system-prompts, docs/graphic-recording",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: コミック風HTMLジェネレーター プロンプト V2.0 爆誕!",
+      "summary: コミック調HTMLジェネレーター プロンプト V2.0",
+      "matched_keywords: プロンプト, キャラクタ"
+    ]
+  },
+  {
+    "primary_id": "1932823792071684100",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1932823792071684100.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1932823792071684100",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: docs/graphic-recording, creative/visual",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: コミック調HTMLジェネレーター プロンプト V1.0 爆誕",
+      "summary: コミック調HTMLジェネレーター プロンプト V1.0",
+      "matched_keywords: アニメーション, ad, プロンプト, 化"
+    ]
+  },
+  {
+    "primary_id": "1932396286638215592",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1932396286638215592.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1932396286638215592",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/agent-prompts, creative/visual",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Veo3のFast モード触ってみる2⃣",
+      "summary: scene:",
+      "matched_keywords: Veo, morph"
+    ]
+  },
+  {
+    "primary_id": "1932065786463711469",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1932065786463711469.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1932065786463711469",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/templates, dev/system-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 太陽のプロミネンスプロンプトにしてみた",
+      "summary: Ultra-realistic cinematic shot from a low-angle perspective **on the blazing ph…",
+      "matched_keywords: ad, プロンプト"
+    ]
+  },
+  {
+    "primary_id": "1929191644899012698",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1929191644899012698.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1929191644899012698",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: creative/audio, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Kling AI 2.1 master使ってみる5⃣",
+      "summary: A horned, sapphire-scaled dragon-born gentleman—dressed in a crisply tailored b…",
+      "matched_keywords: Kling"
+    ]
+  },
+  {
+    "primary_id": "1929175843638804619",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1929175843638804619.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1929175843638804619",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Kling AI 2.1 master使ってみる4⃣",
+      "summary: A voluptuous woman dressed in a striking red-and-gold kimono—its silk sleeves f…",
+      "matched_keywords: Kling"
+    ]
+  },
+  {
+    "primary_id": "1926994900928606684",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/05/1926994900928606684.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1926994900928606684",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: creative/audio, presentation",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Veo3でLLMについてのプレゼンしてもらった!!!",
+      "summary: video_type: llm_presentation_actress_v1",
+      "matched_keywords: video, Veo, ad"
+    ]
+  },
+  {
+    "primary_id": "1926981386818207866",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/05/1926981386818207866.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1926981386818207866",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: creative/audio, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Veo3でF1でドローンの空撮+実況!!!",
+      "summary: F1 Race Aerial Commentary — drone · broadcast · 4K (v1.1)",
+      "matched_keywords: video, Veo, ad, FPV"
+    ]
+  },
+  {
+    "primary_id": "1926631787846881280",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/05/1926631787846881280.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1926631787846881280",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: creative/audio, dev/agent-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Veo3の動画を繋げてみた!!",
+      "summary: Open-Wheel Duel Aerial — FPV drone · P-in-P commentary · 4K (v1.5)",
+      "matched_keywords: 動画, video, Veo, ad, FPV"
+    ]
+  }
+]

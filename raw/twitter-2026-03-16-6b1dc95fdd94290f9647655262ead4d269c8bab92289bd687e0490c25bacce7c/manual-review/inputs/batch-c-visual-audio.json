@@ -1,0 +1,2282 @@
+[
+  {
+    "primary_id": "2029440091643691282",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2026/03/2029440091643691282.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2029440091643691282",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 実際にやった生のプロンプトですが、.env方式は今バグがあるぽいのでこの指定はしないほうがいいです!",
+      "summary: 下記のサイトを参考にしてOpenClawのConfigに追加してアリババモデルも使えるようにしてほしい",
+      "matched_keywords: プロンプト"
+    ]
+  },
+  {
+    "primary_id": "2024512919745286446",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2026/02/2024512919745286446.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2024512919745286446",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "audio",
+    "confidence": "low",
+    "rationale": "Classified as creative/audio but requires human review. Alternatives: dev/system-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Gemini で音楽生成ツール「Lyria 3」が来たので遊んでみる🎵❸",
+      "summary: シマウマのラップで、実は縞模様が迷彩にならない悩みを打ち明けるコミカルなトラップ。重厚な808ベースと鋭いハイハットが刻む本格的なトラップビート。",
+      "matched_keywords: 音楽"
+    ]
+  },
+  {
+    "primary_id": "2023737384488280235",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2026/02/2023737384488280235.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2023737384488280235",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: シズクちゃんのDiscordサーバーで自作スタンプって作れるのを発見したので作ってみる❶",
+      "summary: 画像1のキャラクターのDiscordの絵文字を4x4の16個作成して。背景は灰色にして",
+      "matched_keywords: 画像"
+    ]
+  },
+  {
+    "primary_id": "2021911233172320459",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2026/02/2021911233172320459.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2021911233172320459",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Meshy触ってみる❸",
+      "summary: ねんどろいどフィギュア化して",
+      "matched_keywords: 画像, プロンプト, フィギュア"
+    ]
+  },
+  {
+    "primary_id": "2020840358553489599",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2026/02/2020840358553489599.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2020840358553489599",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: docs/graphic-recording, presentation",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: グラフィックレコーディング風インフォグラフィック風 Remotion生成プロンプト",
+      "summary: グラフィックレコーディング風インフォグラフィック風 Remotion生成プロンプト",
+      "matched_keywords: プロンプト, アイコン"
+    ]
+  },
+  {
+    "primary_id": "2020149187011305659",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2026/02/2020149187011305659.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2020149187011305659",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: writing, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: エージェントチームを作ってください。",
+      "summary: エージェントチームを作ってください。",
+      "matched_keywords: 画像, icon, アイコン, ロゴ, アセット"
+    ]
+  },
+  {
+    "primary_id": "2020133733060460772",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2026/02/2020133733060460772.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2020133733060460772",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/system-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Grokでスタイル色々お試し実験プロンプト5種",
+      "summary: 2頭身のちびキャラ、白い猫人族の大賢者、全身フルボディ(頭から足先まで)、縦長、中央に立つ。頭が大きく体が小さいSD比率、短い手足、丸い肉球。和風ローブと袴風…",
+      "matched_keywords: プロンプト, ちびキャラ"
+    ]
+  },
+  {
+    "primary_id": "2018344947569844519",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2026/02/2018344947569844519.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2018344947569844519",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: OpenClaw-Dockerのヘッダー画像作成中、、、やはりこのテイスト良い!!!",
+      "summary: A professional minimalist typography logo for a brand named \"OpenClaw Docker\" w…",
+      "matched_keywords: 画像, ヘッダー画像"
+    ]
+  },
+  {
+    "primary_id": "2017265362153402585",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2026/01/2017265362153402585.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2017265362153402585",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: A cozy miniature diorama inside a vintage teacup turned into a tiny café, tiny a",
+      "summary: A cozy miniature diorama inside a vintage teacup turned into a tiny café, tiny…",
+      "matched_keywords: diorama"
+    ]
+  },
+  {
+    "primary_id": "2016115928052781432",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2026/01/2016115928052781432.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2016115928052781432",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "audio",
+    "confidence": "medium",
+    "rationale": "Classified as creative/audio but requires human review. Alternatives: dev/templates, creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Grokが10秒になったので高速ドローンプロンプトで遊んでみる❹",
+      "summary: Ultra-fast FPV drone POV in a minimal white infinite studio (cyclorama), 16:9.…",
+      "matched_keywords: BGM, bpm, bass"
+    ]
+  },
+  {
+    "primary_id": "2013692011354972566",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2026/01/2013692011354972566.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2013692011354972566",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: A hand-forged metal figurine of a bipedal cat wizard, assembled from aged copper",
+      "summary: A hand-forged metal figurine of a bipedal cat wizard, assembled from aged coppe…",
+      "matched_keywords: character"
+    ]
+  },
+  {
+    "primary_id": "2012134066855063958",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2026/01/2012134066855063958.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2012134066855063958",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: dev/agent-prompts, creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 私も 飛び出し画像やってみた!!!!",
+      "summary: &#123;",
+      "matched_keywords: 画像, Whisk"
+    ]
+  },
+  {
+    "primary_id": "2010336465755242604",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2026/01/2010336465755242604.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2010336465755242604",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Google stitch やばくないか❷",
+      "summary: おちついたカラーマップのライトモードもください",
+      "matched_keywords: カラーマップ"
+    ]
+  },
+  {
+    "primary_id": "2009261608002859490",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2026/01/2009261608002859490.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2009261608002859490",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: nano banana pro で ドット絵GIFに挑戦中❾",
+      "summary: 添付のドット絵の緑のハリネズミのキャラクターの4x7のゲームで使えるスプライトシートを生成して、背景は黒",
+      "matched_keywords: Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "2009261425441866064",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2026/01/2009261425441866064.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2009261425441866064",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: nano banana pro で ドット絵GIFに挑戦中❽",
+      "summary: GENERAL STYLE &amp; MOOD:",
+      "matched_keywords: pixel art, Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "2008162972309569851",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2026/01/2008162972309569851.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2008162972309569851",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "audio",
+    "confidence": "low",
+    "rationale": "Classified as creative/audio but requires human review. Alternatives: dev/templates, dev/agent-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 私も「セパレートプロンプト」改造して使ってみた!!",
+      "summary: A single location slowly dolly-zooms forward, revealing two contrasting worlds…",
+      "matched_keywords: music, OST"
+    ]
+  },
+  {
+    "primary_id": "2007116338146501011",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2026/01/2007116338146501011.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2007116338146501011",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, docs/graphic-recording",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: グラビティプロンプト × 映画垂直ミニチュアプロンプトでめちゃ良いのできたぞ!!!",
+      "summary: あなたは**物語構造を視覚化する建築家兼コンセプトアーティスト**です。...",
+      "matched_keywords: プロンプト, ミニチュア"
+    ]
+  },
+  {
+    "primary_id": "2006343419178963188",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2006343419178963188.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2006343419178963188",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ⓯",
+      "summary: 参照画像 &#91;Image 1&#93;〜&#91;Image 4&#93; のキャラクターIDを使用。",
+      "matched_keywords: 画像, pixel art, ちびキャラ"
+    ]
+  },
+  {
+    "primary_id": "2006342432225718510",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2006342432225718510.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2006342432225718510",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ⓮",
+      "summary: 参照画像 &#91;Image 1&#93;〜&#91;Image 4&#93; のキャラクターIDを使用。",
+      "matched_keywords: 画像, pixel art, ちびキャラ"
+    ]
+  },
+  {
+    "primary_id": "2006339595894731226",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2006339595894731226.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2006339595894731226",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ⓭",
+      "summary: 参照画像 &#91;Image 1&#93;〜&#91;Image 4&#93; のキャラクターIDを使用。",
+      "matched_keywords: 画像, pixel art, ちびキャラ"
+    ]
+  },
+  {
+    "primary_id": "2006337416131498308",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2006337416131498308.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2006337416131498308",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ❾",
+      "summary: 参照画像 &#91;Image 1&#93;〜&#91;Image 4&#93; のキャラクターIDを使用。",
+      "matched_keywords: 画像, ロゴ"
+    ]
+  },
+  {
+    "primary_id": "2006337175076434033",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2006337175076434033.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2006337175076434033",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ❽",
+      "summary: 参照画像 &#91;Image 1&#93;〜&#91;Image 4&#93; のキャラクターIDを使用。",
+      "matched_keywords: 画像, ロゴ, 表紙, ちびキャラ"
+    ]
+  },
+  {
+    "primary_id": "2006333446814400992",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2006333446814400992.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2006333446814400992",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ❼",
+      "summary: 参照画像 &#91;Image 1&#93;〜&#91;Image 4&#93; のキャラクターIDを使用。",
+      "matched_keywords: 画像, イラスト"
+    ]
+  },
+  {
+    "primary_id": "2006333189292454292",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2006333189292454292.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2006333189292454292",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ❻",
+      "summary: 参照画像 &#91;Image 1&#93;〜&#91;Image 4&#93; のキャラクターIDを使用。",
+      "matched_keywords: 画像, イラスト, ロゴ, ちびキャラ"
+    ]
+  },
+  {
+    "primary_id": "2006332821514711202",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2006332821514711202.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2006332821514711202",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ❺",
+      "summary: 参照画像 &#91;Image 1&#93;〜&#91;Image 4&#93; のキャラクターIDを使用。",
+      "matched_keywords: 画像, 折り紙, ぬいぐるみ, ジオラマ, ミニチュア"
+    ]
+  },
+  {
+    "primary_id": "2006332543675539892",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2006332543675539892.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2006332543675539892",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ❹",
+      "summary: 参照画像 &#91;Image 1&#93;〜&#91;Image 4&#93; のキャラクターIDを使用。",
+      "matched_keywords: 画像, ロゴ"
+    ]
+  },
+  {
+    "primary_id": "2006332188015591609",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2006332188015591609.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2006332188015591609",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ❸",
+      "summary: 参照画像 &#91;Image 1&#93;, &#91;Image 2&#93;, &#91;Image 3&#93;, &#91;Image 4&#93; ",
+      "matched_keywords: 画像, ちびキャラ"
+    ]
+  },
+  {
+    "primary_id": "2006314582709846474",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2006314582709846474.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2006314582709846474",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ❶",
+      "summary: 参照画像 &#91;Image 1&#93;, &#91;Image 2&#93;, &#91;Image 3&#93;, &#91;Image 4&#93; ",
+      "matched_keywords: 画像, Nano Banana, ちびキャラ"
+    ]
+  },
+  {
+    "primary_id": "2003841447074914340",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2003841447074914340.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2003841447074914340",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Eternal Rome in Paper Layers",
+      "summary: &#123;",
+      "matched_keywords: icon"
+    ]
+  },
+  {
+    "primary_id": "2003841443207807404",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2003841443207807404.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2003841443207807404",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Aurora Fjord Paper-Cut Dream",
+      "summary: &#123;",
+      "matched_keywords: icon"
+    ]
+  },
+  {
+    "primary_id": "2003373382348472371",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2003373382348472371.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2003373382348472371",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "audio",
+    "confidence": "low",
+    "rationale": "Classified as creative/audio but requires human review. Alternatives: dev/templates, docs/diagram",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: GENERAL STYLE & MOOD:",
+      "summary: GENERAL STYLE &amp; MOOD:",
+      "matched_keywords: mood"
+    ]
+  },
+  {
+    "primary_id": "2002602714795225544",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2002602714795225544.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2002602714795225544",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: nanobanana pro RPGステータス画面Xプロフプロンプト爆誕🔥",
+      "summary: GENERAL STYLE &amp; MOOD:",
+      "matched_keywords: 画像, プロンプト, グリッド, アイコン, ポートレート"
+    ]
+  },
+  {
+    "primary_id": "2001984622624948636",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2001984622624948636.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2001984622624948636",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 余白を塗り足しプロンプトはこちら👇",
+      "summary: TASK:",
+      "matched_keywords: 画像, プロンプト, アイコン, ロゴ"
+    ]
+  },
+  {
+    "primary_id": "2001612610295480416",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2001612610295480416.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2001612610295480416",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/system-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: ❿円版",
+      "summary: Role",
+      "matched_keywords: ミニチュア"
+    ]
+  },
+  {
+    "primary_id": "2001612607032365256",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2001612607032365256.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2001612607032365256",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 100円版",
+      "summary: Role",
+      "matched_keywords: ミニチュア"
+    ]
+  },
+  {
+    "primary_id": "2001592507675853134",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2001592507675853134.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2001592507675853134",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: GENERAL STYLE & MOOD:",
+      "summary: GENERAL STYLE &amp; MOOD:",
+      "matched_keywords: 画像, ロゴ"
+    ]
+  },
+  {
+    "primary_id": "2001592503926165895",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2001592503926165895.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2001592503926165895",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: GPT Image 1.5 でワールドツアープロンプト V1爆誕🔥",
+      "summary: GENERAL STYLE &amp; MOOD:",
+      "matched_keywords: 画像, プロンプト, ロゴ"
+    ]
+  },
+  {
+    "primary_id": "2001028384818913732",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2001028384818913732.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2001028384818913732",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/system-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 「うちの子スライド」のプロンプトを改造して、ロゴでもやってみた!!!",
+      "summary: 以下の条件をすべて厳密に守って、解説用スライドを作成してください。",
+      "matched_keywords: プロンプト, イラスト, アイコン, ロゴ"
+    ]
+  },
+  {
+    "primary_id": "2001020797163598223",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2001020797163598223.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2001020797163598223",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: dev/templates, creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 🍌Nano Banana Pro Prompt Agent V2.3~Archetype~ ✖ ディープリサーチの自分のアカウントのレポートでロゴのデザイン作",
+      "summary: /* パターン選択: A. ブリーフ型(ロゴ特化)",
+      "matched_keywords: アイコン, ロゴ, Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "2000921880136704062",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2000921880136704062.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2000921880136704062",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: こちらのを参考にして、🍌Nano Banana Pro Prompt Agent V2.3~Archetype~ でオリジナルキャラクターの神輿を作ってみた!",
+      "summary: Nano Banana Pro Prompt: Character-Shaped Mikoshi (Statue Style)",
+      "matched_keywords: 画像, character, フィギュア, Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "2000179297970213262",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2000179297970213262.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2000179297970213262",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/system-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Kaggleで今ってどんなコンペが開催してる??",
+      "summary: Kaggleで今ってどんなコンペが開催してる??",
+      "matched_keywords: プロンプト"
+    ]
+  },
+  {
+    "primary_id": "1999484851594879441",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1999484851594879441.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1999484851594879441",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: nano banana pro 用のサムネイルを作成する「認知科学ベース・高CTRサムネイル設計プロンプト V0」爆誕🔥",
+      "summary: あなたは、認知科学(神経科学、心理学、行動経済学)の知見をクリエイティブに統合する「適応的顕著性モデル」の専門家であり、トップクラスのアートディレクターです。",
+      "matched_keywords: 画像, プロンプト, アイコン, Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "1999057700790178235",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1999057700790178235.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1999057700790178235",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: dev/templates, methodology/multi-agent",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: あなたは「超現実的な物理シミュレーション」を行う3Dアーティストです。",
+      "summary: あなたは「超現実的な物理シミュレーション」を行う3Dアーティストです。",
+      "matched_keywords: 画像, Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "1999057696923009505",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1999057696923009505.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1999057696923009505",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: dev/templates, creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: あなたは「超現実的な物理シミュレーション」を行う3Dアーティストです。",
+      "summary: あなたは「超現実的な物理シミュレーション」を行う3Dアーティストです。",
+      "matched_keywords: 画像, Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "1999057688718967190",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1999057688718967190.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1999057688718967190",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: dev/templates, methodology/multi-agent",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: あなたは「超現実的な物理シミュレーション」を行う3Dアーティストです。",
+      "summary: あなたは「超現実的な物理シミュレーション」を行う3Dアーティストです。",
+      "matched_keywords: 画像, Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "1998387569763987782",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1998387569763987782.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1998387569763987782",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: あなたは新規サービスの立ち上げやリデザインを得意とする、経験豊富なシニアUI/UXデザイナーです。",
+      "summary: あなたは新規サービスの立ち上げやリデザインを得意とする、経験豊富なシニアUI/UXデザイナーです。",
+      "matched_keywords: 画像, グリッド, イラスト"
+    ]
+  },
+  {
+    "primary_id": "1998281099940876412",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1998281099940876412.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1998281099940876412",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/agent-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: AIブラウザ Comet ✖ higgsfield で実験自動化2⃣",
+      "summary: コメットnano banana pro自動実験プロンプト V1.0",
+      "matched_keywords: 画像, プロンプト, アイコン, Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "1997637299161509903",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997637299161509903.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1997637299161509903",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, docs/graphic-recording",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 🍌 nano banana pro エージェントV1.2使って「ホラーサムネイル」プロンプト爆誕🔥",
+      "summary: あなたは**ホラー系コンセプトアーティスト兼YouTubeサムネイル専門家**です。",
+      "matched_keywords: 画像, プロンプト, Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "1997628820179042473",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997628820179042473.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1997628820179042473",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 🍌 nano banana pro エージェントV1.2使って「超現実水族館」プロンプト爆誕!!!",
+      "summary: あなたは**超現実主義のコンセプトアーティスト兼水族館デザイナー**です。",
+      "matched_keywords: 画像, プロンプト, Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "1997523574291312640",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997523574291312640.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1997523574291312640",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 🍌 nano banana pro エージェントV1.2使って「赤ちゃんのアニバーサリーフォトグラファープロンプト」作ってみた!!",
+      "summary: あなたは「赤ちゃんの成長記録を専門とするアニバーサリーフォトグラファー」です。",
+      "matched_keywords: 画像, プロンプト, ポートレート, Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "1997366281964781884",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997366281964781884.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1997366281964781884",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: nano banana pro ✖ トラベルインフルエンサープロンプト V1 使って「サントリーニ島・イア」に行ってみた!!",
+      "summary: あなたは世界トップクラスのトラベルインフルエンサー兼アートディレクターです。",
+      "matched_keywords: 画像, プロンプト, Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "1997363797846380989",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997363797846380989.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1997363797846380989",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 「トラベルフォトグラファープロンプト V1 」で二重カルデラの孤島:青ヶ島(日本・東京)を旅してきた!!",
+      "summary: あなたは熟練のトラベルフォトグラファー兼ライティングディレクターです。",
+      "matched_keywords: 画像, プロンプト, ポートレート, Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "1997363106323075293",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997363106323075293.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1997363106323075293",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 3x3グリッドプロンプトをトラベルフォトグラファープロンプトをコラボしてみた!!!",
+      "summary: 【全体的な画面設定】",
+      "matched_keywords: 画像, プロンプト, グリッド, 3x3, ロゴ"
+    ]
+  },
+  {
+    "primary_id": "1997361635686777187",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997361635686777187.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1997361635686777187",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 「トラベルフォトグラファープロンプト V1 」でアンテロープ・キャニオン を旅してきた!!",
+      "summary: あなたは熟練のトラベルフォトグラファー兼ライティングディレクターです。",
+      "matched_keywords: 画像, プロンプト, ポートレート, Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "1997359999962730839",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997359999962730839.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1997359999962730839",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: トラベルフォトグラファープロンプト V1",
+      "summary: あなたは熟練のトラベルフォトグラファー兼ライティングディレクターです。",
+      "matched_keywords: 画像, プロンプト, ポートレート, Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "1997245921072222382",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997245921072222382.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1997245921072222382",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/system-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 2人で秘境探検プロンプトを開発中2⃣",
+      "summary: 《位置情報》緯度と経度が38.643093, 34.828825の位置",
+      "matched_keywords: 画像, プロンプト"
+    ]
+  },
+  {
+    "primary_id": "1997245352026771829",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997245352026771829.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1997245352026771829",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/system-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: これをベースに2人で秘境探検プロンプトを開発中、、、",
+      "summary: 《位置情報》緯度と経度が38.643093, 34.828825の位置",
+      "matched_keywords: 画像, プロンプト"
+    ]
+  },
+  {
+    "primary_id": "1997237984052248677",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997237984052248677.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1997237984052248677",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 《位置情報》緯度と経度が35.31721720077321, 139.5357227423284の位置",
+      "summary: 《位置情報》緯度と経度が35.31721720077321, 139.5357227423284の位置",
+      "matched_keywords: 画像"
+    ]
+  },
+  {
+    "primary_id": "1997236080509354453",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997236080509354453.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1997236080509354453",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 《位置情報》緯度と経度が35.31721720077321, 139.5357227423284の位置",
+      "summary: 《位置情報》緯度と経度が35.31721720077321, 139.5357227423284の位置",
+      "matched_keywords: ファッション誌"
+    ]
+  },
+  {
+    "primary_id": "1997233466094821872",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997233466094821872.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1997233466094821872",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, docs/graphic-recording",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 《位置情報》緯度と経度が35.31721720077321, 139.5357227423284の位置",
+      "summary: 《位置情報》緯度と経度が35.31721720077321, 139.5357227423284の位置",
+      "matched_keywords: 画像"
+    ]
+  },
+  {
+    "primary_id": "1997163100521611380",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997163100521611380.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1997163100521611380",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/system-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: プロンプトの構造をアイソメトリックなピクト図解してみたらトンデモなく分かりやすくてビビった、、、",
+      "summary: 下記のプロンプトの構造をアイソメトリックなピクト図解して",
+      "matched_keywords: プロンプト"
+    ]
+  },
+  {
+    "primary_id": "1997143645057868116",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997143645057868116.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1997143645057868116",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: dev/agent-prompts, creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Hyper-realistic 3D square diorama of Santorini as a floating sky island, carved ",
+      "summary: Hyper-realistic 3D square diorama of Santorini as a floating sky island, carved…",
+      "matched_keywords: icon, diorama"
+    ]
+  },
+  {
+    "primary_id": "1997143636514165027",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997143636514165027.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1997143636514165027",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Hyper-realistic 3D square diorama of Sydney, carved out with exposed underwater ",
+      "summary: Hyper-realistic 3D square diorama of Sydney, carved out with exposed underwater…",
+      "matched_keywords: diorama"
+    ]
+  },
+  {
+    "primary_id": "1997142548725530831",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997142548725530831.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1997142548725530831",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Visual: Focus on Bondi Beach section. Tiny surfers ride the gentle waves. The wa",
+      "summary: Visual: Focus on Bondi Beach section. Tiny surfers ride the gentle waves. The w…",
+      "matched_keywords: diorama"
+    ]
+  },
+  {
+    "primary_id": "1997138388584161328",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997138388584161328.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1997138388584161328",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Visual: Slow 360-degree orbit around the floating Sydney diorama. The sun gliste",
+      "summary: Visual: Slow 360-degree orbit around the floating Sydney diorama. The sun glist…",
+      "matched_keywords: diorama"
+    ]
+  },
+  {
+    "primary_id": "1996981586487885824",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996981586487885824.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1996981586487885824",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, docs/graphic-recording",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 3Dアイソメトリック・ピクト図解 V3",
+      "summary: ビジュアルスタイル",
+      "matched_keywords: ジオラマ, ミニチュア"
+    ]
+  },
+  {
+    "primary_id": "1996976230852448655",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996976230852448655.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1996976230852448655",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/system-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 「アイソメトリックなピクト図解」プロンプトを改造してオリジナルキャラクター ✖ 3D ミニチュア要素も入れたらメッチャ可愛くなった!",
+      "summary: 下記について、添付のキャラクターを使用して3Dミニチュアのアイソメトリックなピクト図解して",
+      "matched_keywords: プロンプト, ミニチュア"
+    ]
+  },
+  {
+    "primary_id": "1996970280728908166",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996970280728908166.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1996970280728908166",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "audio",
+    "confidence": "low",
+    "rationale": "Classified as creative/audio but requires human review. Alternatives: dev/agent-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 🎞️❷ 限界突破 (Ultra User)",
+      "summary: Visual: The woman with the beret and shopping bags turns her body slightly. The…",
+      "matched_keywords: voice"
+    ]
+  },
+  {
+    "primary_id": "1996924089894891792",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996924089894891792.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1996924089894891792",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Kling AI Avatar 2.0 使ってみた6⃣",
+      "summary: Standing confidently, the character is singing joyfully, gazing directly at the…",
+      "matched_keywords: character"
+    ]
+  },
+  {
+    "primary_id": "1996873100814663680",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996873100814663680.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1996873100814663680",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 🎞️❷ 決意のダイブ (The Leap)",
+      "summary: Visual: Edge of skyscraper rooftop, city sprawling below, wind howling. &#91;Fig",
+      "matched_keywords: figure"
+    ]
+  },
+  {
+    "primary_id": "1996590877658280174",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996590877658280174.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1996590877658280174",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "audio",
+    "confidence": "low",
+    "rationale": "Classified as creative/audio but requires human review. Alternatives: dev/templates, dev/agent-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 🎞️❸ ビューティー:科学と贅沢 (Golden Serum)",
+      "summary: Visual: Marble bathroom vanity, soft diffused lighting, water droplets on glass…",
+      "matched_keywords: voice"
+    ]
+  },
+  {
+    "primary_id": "1996571141578899762",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996571141578899762.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1996571141578899762",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 🎞️❸ 迫り来る波 (Tsunami Panic)",
+      "summary: Visual: Coastal fishing village, massive wave rising on the horizon, birds flee…",
+      "matched_keywords: figure"
+    ]
+  },
+  {
+    "primary_id": "1996209729971028213",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996209729971028213.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1996209729971028213",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "audio",
+    "confidence": "low",
+    "rationale": "Classified as creative/audio but requires human review",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: タバコ・サイバーパンク・クローズアップ",
+      "summary: Cinematic close-up. &#91;@ Yuki and @ Takeshi&#93; stands in the neon-lit street",
+      "matched_keywords: neon"
+    ]
+  },
+  {
+    "primary_id": "1995747876811780423",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1995747876811780423.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1995747876811780423",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: docs/graphic-recording, creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: あなたはポップカルチャーに精通したイラストレーターAIです。",
+      "summary: あなたはポップカルチャーに精通したイラストレーターAIです。",
+      "matched_keywords: グリッド, イラスト"
+    ]
+  },
+  {
+    "primary_id": "1995378901082861793",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1995378901082861793.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1995378901082861793",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: やはりメカ系はFLUX.2 Pro の方が良さそうな気がする!",
+      "summary: 巨大人型ロボットメカ兵器、魔神、メカのウィング、壮大、幻想的、西暦8000年の未来の兵器、世界を断絶するソードを持っている",
+      "matched_keywords: FLUX"
+    ]
+  },
+  {
+    "primary_id": "1994810674422452591",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1994810674422452591.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1994810674422452591",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: nano banana pro 黒化プロンプトの研究中1⃣",
+      "summary: 黒化プロンプトテンプレート",
+      "matched_keywords: プロンプト, character, Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "1994353117018919407",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1994353117018919407.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1994353117018919407",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: presentation, creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Google スライドの nano banana pro のスライドモードお試し❾~バッチモードでオリジナルキャラクター実験~",
+      "summary: 1スライドの画像を参考にして、「まき」と「こはく」を登場させてLLMについての解説スライドを葛飾北斎の浮世絵風に4スライド生成して 全部のスライドを1つの画像…",
+      "matched_keywords: 画像, Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "1994067413760168243",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1994067413760168243.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1994067413760168243",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/system-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 3D City Weather プロンプト使って世界の秘境でやってみた!!!",
+      "summary: 👇",
+      "matched_keywords: プロンプト"
+    ]
+  },
+  {
+    "primary_id": "1994063218264928586",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1994063218264928586.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1994063218264928586",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Nano Banana Pro で マチュピチュの上空を飛んでみた!",
+      "summary: 緯度と経度が-13.1631, -72.5450の位置の上空に馴染む空撮の写真集を作成してください。指定のキャラクターがその場所から落下してるように馴染ませて…",
+      "matched_keywords: Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "1993997858660552749",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1993997858660552749.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1993997858660552749",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Nano Banana Pro で ハワイ上空 プロンプト使ってみた!",
+      "summary: 緯度と経度が21.280773495217826, -157.83667385084246の位置の上空に馴染む空撮の写真集を作成してください。指定のキャラクタ…",
+      "matched_keywords: プロンプト, Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "1993597636541399119",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1993597636541399119.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1993597636541399119",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: fal-ai/flux-2 pro 実験3⃣",
+      "summary: フォトリアルで実写の架空の空中要塞",
+      "matched_keywords: FLUX"
+    ]
+  },
+  {
+    "primary_id": "1993352776513208344",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1993352776513208344.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1993352776513208344",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/system-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 日本式ミニストーリー漫画プロンプトを改造してGem化してみました!!!",
+      "summary: あなたは「こはく」と「じん」専属の漫画家AIです。",
+      "matched_keywords: 画像, プロンプト, Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "1992923081892151545",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1992923081892151545.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1992923081892151545",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Higgsfield の Nano Banana Pro お試し38",
+      "summary: このキャラクターで、3x3グリッド正方形のLINEスタンプアニメーションのスプライトシート。各列は異なる3フレームアニメーションを示す。",
+      "matched_keywords: プロンプト, グリッド, 3x3, Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "1992558919701701038",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1992558919701701038.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1992558919701701038",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Higgsfield の Nano Banana Pro お試し34",
+      "summary: 今年の抱負をたくさん考えてミチミチに詰め込んで",
+      "matched_keywords: Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "1992558305399767239",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1992558305399767239.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1992558305399767239",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Higgsfield の Nano Banana Pro お試し33",
+      "summary: 2026年の干支は**「丙午(ひのえうま)」**です。",
+      "matched_keywords: Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "1992510004621177215",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1992510004621177215.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1992510004621177215",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Higgsfield の Nano Banana Pro お試し31",
+      "summary: このキャラクターの設定資料集を作成して。",
+      "matched_keywords: Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "1992294523821850719",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1992294523821850719.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1992294523821850719",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: dev/templates, creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Higgsfield の Nano Banana Pro お試し30",
+      "summary: An educational infographic image combining a real, high-resolution photograph o…",
+      "matched_keywords: sketch, Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "1992288419855388999",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1992288419855388999.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1992288419855388999",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: presentation, creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: NotebookLMにもスライド機能プロンプト調整して「透明なホワイトボード✖手書き風」でやってみた!!",
+      "summary: 透明なホワイトボードに手書きの文字やイラスト",
+      "matched_keywords: プロンプト, イラスト"
+    ]
+  },
+  {
+    "primary_id": "1992285677237706918",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1992285677237706918.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1992285677237706918",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Higgsfield の Nano Banana Pro お試し28",
+      "summary: 1. “Aetherion Dynamics”",
+      "matched_keywords: Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "1991852771524636747",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1991852771524636747.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1991852771524636747",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Higgsfield の Nano Banana Pro お試し⓳",
+      "summary: make an ID card",
+      "matched_keywords: Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "1991843987540640009",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1991843987540640009.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1991843987540640009",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Higgsfield の Nano Banana Pro お試し⓱",
+      "summary: このペンギンキャラクターを使用して「プロバナナシェフ」というポップなプロのデザインしたサムネイルを作成して",
+      "matched_keywords: Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "1991238125910388789",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1991238125910388789.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1991238125910388789",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/agent-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 久しぶりに 3D low poly style プロンプト使ってみたけどメチャ良いぞ!!!",
+      "summary: ❇️ 1. “Crystal Voyager”",
+      "matched_keywords: プロンプト, Whisk"
+    ]
+  },
+  {
+    "primary_id": "1990681873228423275",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1990681873228423275.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1990681873228423275",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, writing",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Higgsfieldの無制限画像生成お試し~名刺作成パート❷:Multi Ref~",
+      "summary: このキャラクターの画像を使用したクールなデザインの近未来的な名刺、名前は「MURASAKI」 電話番号は「000-x9x9-y0y0y」 メールアドレスは 「…",
+      "matched_keywords: 画像"
+    ]
+  },
+  {
+    "primary_id": "1989694289224352111",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1989694289224352111.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1989694289224352111",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Folded metallic プロンプト使ってみた!!!",
+      "summary: summary unavailable",
+      "matched_keywords: プロンプト"
+    ]
+  },
+  {
+    "primary_id": "1989623614854054146",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1989623614854054146.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1989623614854054146",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: こちらのプロンプト使ってみた!!",
+      "summary: summary unavailable",
+      "matched_keywords: プロンプト"
+    ]
+  },
+  {
+    "primary_id": "1989362672526299292",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1989362672526299292.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1989362672526299292",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: SHINY CHROME プロンプトやってみた!!!",
+      "summary: summary unavailable",
+      "matched_keywords: プロンプト"
+    ]
+  },
+  {
+    "primary_id": "1988974039097045311",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1988974039097045311.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1988974039097045311",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: BIOLUMINESCENT FOREST REVERIE プロンプトでリポジトリのヘッダ画像・動画を作成してみた!!",
+      "summary: summary unavailable",
+      "matched_keywords: 画像, プロンプト"
+    ]
+  },
+  {
+    "primary_id": "1988675098824568880",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1988675098824568880.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1988675098824568880",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: docs/graphic-recording",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Higgsfield Popcorn 実験記録1⃣4⃣",
+      "summary: Using the reference image of a soft, plush penguin character wearing a tiny exp…",
+      "matched_keywords: character"
+    ]
+  },
+  {
+    "primary_id": "1988270217294934215",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1988270217294934215.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1988270217294934215",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: ~アニメ調の画像へのスワップ編~",
+      "summary: A heavy stone mask is put on. Glowing cracks race across the fractures as grain…",
+      "matched_keywords: 画像"
+    ]
+  },
+  {
+    "primary_id": "1988268970252923038",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1988268970252923038.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1988268970252923038",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: writing",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 自作シートV2 ✖ 料理やってみた",
+      "summary: A 9-panel slice-of-life cooking manga storyboard, 3×3 square layout.",
+      "matched_keywords: character, sketch, Whisk"
+    ]
+  },
+  {
+    "primary_id": "1986653928080232903",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1986653928080232903.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1986653928080232903",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Stencil-style プロンプト使ってみた!!",
+      "summary: summary unavailable",
+      "matched_keywords: プロンプト"
+    ]
+  },
+  {
+    "primary_id": "1982337169038676399",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1982337169038676399.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1982337169038676399",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 私もモフモフのぬいぐるみとコラボしてやってみた!",
+      "summary: A fluffy plush sheep stands serenely on a misty mountain peak surrounded by swi…",
+      "matched_keywords: ぬいぐるみ"
+    ]
+  },
+  {
+    "primary_id": "1980969846738432247",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1980969846738432247.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1980969846738432247",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: EXPRESSIONIST ACTION PAINTING プロンプトで早速リポジトリのヘッダ画像用の画像を生成してみた!!",
+      "summary: 1.",
+      "matched_keywords: 画像, プロンプト"
+    ]
+  },
+  {
+    "primary_id": "1980674738549846219",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1980674738549846219.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1980674738549846219",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "audio",
+    "confidence": "medium",
+    "rationale": "Classified as creative/audio but requires human review. Alternatives: dev/templates, creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: CineBurst YAML V1.4 でミュージックビデオ風の作ってみた!",
+      "summary: version: \"1.4\"",
+      "matched_keywords: audio, BGM, genre, neon, crescendo"
+    ]
+  },
+  {
+    "primary_id": "1979862689112592569",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1979862689112592569.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1979862689112592569",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/system-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 私もSplit screen のプロンプト使ってみた!!",
+      "summary: Split screen",
+      "matched_keywords: プロンプト"
+    ]
+  },
+  {
+    "primary_id": "1979609347274785119",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1979609347274785119.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1979609347274785119",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "audio",
+    "confidence": "medium",
+    "rationale": "Classified as creative/audio but requires human review. Alternatives: creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Veo3.1 Director V0.2 で フライパンジオラマ作ってみた!",
+      "summary: 🍳 コンセプト1「朝のスチームシティ」",
+      "matched_keywords: music, audio, BGM, neon, cyberpunk"
+    ]
+  },
+  {
+    "primary_id": "1979462538292240766",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1979462538292240766.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1979462538292240766",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 3D Clay Miniature Restaurants プロンプトをVeo3.1でやってみた!!",
+      "summary: 🥐 Bakery Café",
+      "matched_keywords: プロンプト, character, icon, diorama"
+    ]
+  },
+  {
+    "primary_id": "1978835349460877493",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1978835349460877493.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1978835349460877493",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "audio",
+    "confidence": "medium",
+    "rationale": "Classified as creative/audio but requires human review. Alternatives: dev/templates, creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Glitch Couture Collage プロンプト使ってみた!",
+      "summary: 1「Futuristic Vogue Anomaly」",
+      "matched_keywords: OST, neon, cyberpunk"
+    ]
+  },
+  {
+    "primary_id": "1977396457213952372",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1977396457213952372.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1977396457213952372",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "audio",
+    "confidence": "medium",
+    "rationale": "Classified as creative/audio but requires human review. Alternatives: dev/templates, writing",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Higgsfield Sora 2 Unlmited ✖ CineBurst-V1.1 YAML やってみた1⃣9⃣",
+      "summary: HiggsfieldSora2",
+      "matched_keywords: audio, BGM, mood"
+    ]
+  },
+  {
+    "primary_id": "1976640990946660807",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1976640990946660807.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1976640990946660807",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "audio",
+    "confidence": "medium",
+    "rationale": "Classified as creative/audio but requires human review. Alternatives: dev/templates, writing",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Higgsfield Sora 2 Unlmited やってみた7⃣",
+      "summary: HiggsfieldSora2",
+      "matched_keywords: audio, 合唱, BGM, 聖歌, mood"
+    ]
+  },
+  {
+    "primary_id": "1976352718991262058",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1976352718991262058.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1976352718991262058",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 手動で無限Sora2 を Higgsfield Sora 2 Unlmited でトライ!",
+      "summary: shot_id: S001",
+      "matched_keywords: character"
+    ]
+  },
+  {
+    "primary_id": "1975991984469967032",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1975991984469967032.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1975991984469967032",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "audio",
+    "confidence": "medium",
+    "rationale": "Classified as creative/audio but requires human review. Alternatives: dev/templates, writing",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: CineBurst-V1.1 YAML ✖ Higgsfield Sora 2 使ってみた!!",
+      "summary: version: \"1.1\"",
+      "matched_keywords: audio, BGM, radio, mood"
+    ]
+  },
+  {
+    "primary_id": "1974710410315194612",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1974710410315194612.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1974710410315194612",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 東京ai祭で《illustrious》というサービス見つけた2⃣",
+      "summary: Photorealistic full-body portrait of a beautiful snake-woman yokai with long ob…",
+      "matched_keywords: portrait"
+    ]
+  },
+  {
+    "primary_id": "1973774968149434422",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1973774968149434422.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1973774968149434422",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Sora2用のGPTs「SoLa2Craftr V2」使ってみた3⃣",
+      "summary: &#91;Subject&#93; 主題: 黒色のクラシックな蒸気機関車(SL)が、人型のロボットへ変形する。ロボットは煙突を頭部に、車輪を肩や脚部の装甲に残し",
+      "matched_keywords: ジオラマ, ミニチュア"
+    ]
+  },
+  {
+    "primary_id": "1973433988078510509",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1973433988078510509.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1973433988078510509",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/system-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: sora2 で私もギャルプロンプトやってみた!!",
+      "summary: 被写体設定",
+      "matched_keywords: プロンプト, アイコン"
+    ]
+  },
+  {
+    "primary_id": "1972307386460451312",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/09/1972307386460451312.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1972307386460451312",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: HunyuanImage 3.0 で falで使ってみた2⃣",
+      "summary: Detailed technical drawing of an ocean city-ship \"Manta Ark\", on white paper wi…",
+      "matched_keywords: HunyuanImage"
+    ]
+  },
+  {
+    "primary_id": "1972306156426346930",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/09/1972306156426346930.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1972306156426346930",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: HunyuanImage 3.0 で falで使ってみた!!",
+      "summary: A young Japanese woman in her early 20s named \"Airi\". She has a cute and beauti…",
+      "matched_keywords: HunyuanImage"
+    ]
+  },
+  {
+    "primary_id": "1969549814959652892",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/09/1969549814959652892.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1969549814959652892",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 私もプロンプトを参考にしてGorkで画像から動画化までやってみた!!!",
+      "summary: 1. ゴシックなカフェの肖像",
+      "matched_keywords: 画像, プロンプト, portrait"
+    ]
+  },
+  {
+    "primary_id": "1969405875329908862",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/09/1969405875329908862.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1969405875329908862",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/agent-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: SINGLE LINE CONTINUUM プロンプト使ってみた",
+      "summary: 🌌 Prompt 1",
+      "matched_keywords: プロンプト, figure, portrait, single line"
+    ]
+  },
+  {
+    "primary_id": "1968703423098085547",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/09/1968703423098085547.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1968703423098085547",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: seedream v4使って車の設計シーンを作成してみた!",
+      "summary: 参照素材",
+      "matched_keywords: sketch, Seedream"
+    ]
+  },
+  {
+    "primary_id": "1967142190402203717",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/09/1967142190402203717.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1967142190402203717",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: SRPO使ってみた1⃣",
+      "summary: Photorealistic full-body portrait of a beautiful snake-woman yokai with long ob…",
+      "matched_keywords: portrait"
+    ]
+  },
+  {
+    "primary_id": "1966877088365113722",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/09/1966877088365113722.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1966877088365113722",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Nano Bananaで塗り絵を作成して、1歳児と5歳児の塗り方もNano Bananaでシミュレーションしてみた!!!",
+      "summary: A vast steampunk railway station where giant clockwork gears and glowing crysta…",
+      "matched_keywords: 画像, プロンプト, 塗り絵, Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "1966719531570831598",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/09/1966719531570831598.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1966719531570831598",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: dev/templates, creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 私もAtomic Punk な空中戦艦を作ってみた",
+      "summary: A colossal flying battleship in the Atomic Punk style, hovering over a dystopia…",
+      "matched_keywords: atomic punk, 空中戦艦"
+    ]
+  },
+  {
+    "primary_id": "1965413941028552836",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/09/1965413941028552836.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1965413941028552836",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: NANO BANANAでGoogleマップ画像から水槽都市ジオラマ化にしてみた! これは持ち運びたい!!!",
+      "summary: Create a photorealistic isometric diorama inside a modern transparent suitcase.",
+      "matched_keywords: 画像, ジオラマ, diorama, Nano Banana"
+    ]
+  },
+  {
+    "primary_id": "1964659745618637063",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/09/1964659745618637063.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1964659745618637063",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: DIGITAL RAIN NOIR プロンプトをベースに、神秘的で幻想的な雰囲気を持つ個性的な動物でリポジトリのヘッダー画像作ってみた!!",
+      "summary: 銀河梟 (Galaxy Owl)",
+      "matched_keywords: 画像, プロンプト, ヘッダー画像, digital rain"
+    ]
+  },
+  {
+    "primary_id": "1964571897007608045",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/09/1964571897007608045.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1964571897007608045",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: ぬいぐるみプロンプトで日本神話をテーマにしてやってみた!!",
+      "summary: 1. 天照大神(アマテラス)",
+      "matched_keywords: プロンプト, ぬいぐるみ"
+    ]
+  },
+  {
+    "primary_id": "1964153266826310046",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/09/1964153266826310046.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1964153266826310046",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Superhero Cereal プロンプトで神界の英雄でやってみた!",
+      "summary: 1. 天照大神(アマテラス)",
+      "matched_keywords: プロンプト, superhero cereal, cereal box"
+    ]
+  },
+  {
+    "primary_id": "1963927585802572275",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/09/1963927585802572275.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1963927585802572275",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Charcoal sketch やってみた!!",
+      "summary: 1. 月光の狐",
+      "matched_keywords: sketch, charcoal sketch"
+    ]
+  },
+  {
+    "primary_id": "1959720467704823871",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/08/1959720467704823871.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1959720467704823871",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Children's drawing プロンプトで妖怪を作ってみた!!",
+      "summary: 1. Kitsune(狐)",
+      "matched_keywords: プロンプト, 妖怪"
+    ]
+  },
+  {
+    "primary_id": "1958938438302146723",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/08/1958938438302146723.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1958938438302146723",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/agent-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 素材画像のプロンプトはこちら!",
+      "summary: 1 デロリアン(通常形態)",
+      "matched_keywords: 画像, プロンプト"
+    ]
+  },
+  {
+    "primary_id": "1958575391926624309",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/08/1958575391926624309.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1958575391926624309",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "audio",
+    "confidence": "medium",
+    "rationale": "Classified as creative/audio but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: VEO3で架空のゲーム機のPV作ってみた!!!",
+      "summary: &#123;",
+      "matched_keywords: music, audio, OST, synthwave, neon"
+    ]
+  },
+  {
+    "primary_id": "1950503135686111343",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/07/1950503135686111343.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1950503135686111343",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Concept sheet をWhiskでやってみた!!!",
+      "summary: 📚 A concept sheet for a **bioluminescent origami koi environmental‐mapping dro…",
+      "matched_keywords: Whisk"
+    ]
+  },
+  {
+    "primary_id": "1949510434937262438",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/07/1949510434937262438.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1949510434937262438",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "audio",
+    "confidence": "medium",
+    "rationale": "Classified as creative/audio but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 特急訪問プロンプト使ってみた!~Kling版~2⃣",
+      "summary: POV shot, captured with a compact digital cinema camera rig mounted on a stabil…",
+      "matched_keywords: audio, OST, mood, bass"
+    ]
+  },
+  {
+    "primary_id": "1940775753123266572",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/07/1940775753123266572.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1940775753123266572",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 「Cracked Obsidian Ashlands」プロンプトを作ってみた!!!",
+      "summary: &#91;SUBJECT&#93; traversing a Cracked Obsidian Ashlands, where volcanic-glass s",
+      "matched_keywords: プロンプト"
+    ]
+  },
+  {
+    "primary_id": "1938943562848313817",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1938943562848313817.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1938943562848313817",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/system-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 私もこちらのプロンプトを参考にして Retro style icons を作成してみた!!!",
+      "summary: Create an illustration of nine different &#91;ANIMAL&#93; icons arranged in a cr",
+      "matched_keywords: プロンプト, icon"
+    ]
+  },
+  {
+    "primary_id": "1938795972127269165",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1938795972127269165.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1938795972127269165",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 断面都市ジオラマプロンプト 改造中6⃣",
+      "summary: Photorealistic 3d cross-section base viewed from diagonal top angle, vertical c…",
+      "matched_keywords: プロンプト, ジオラマ"
+    ]
+  },
+  {
+    "primary_id": "1938791624798281929",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1938791624798281929.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1938791624798281929",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: dev/system-prompts, creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 断面都市ジオラマプロンプト 改造中2⃣",
+      "summary: Photorealistic 3d cross-section base viewed from diagonal top angle, a Nordic f…",
+      "matched_keywords: プロンプト, ジオラマ"
+    ]
+  },
+  {
+    "primary_id": "1938791624714448897",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1938791624714448897.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1938791624714448897",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: dev/system-prompts, creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 断面都市ジオラマプロンプト 改造中2⃣",
+      "summary: Photorealistic 3d cross-section base viewed from diagonal top angle, a Nordic f…",
+      "matched_keywords: プロンプト, ジオラマ"
+    ]
+  },
+  {
+    "primary_id": "1938789822057062435",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1938789822057062435.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1938789822057062435",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: dev/system-prompts, creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 断面都市ジオラマプロンプト 改造中、、、",
+      "summary: Photorealistic 3d cross-section base viewed from diagonal top angle, a floating…",
+      "matched_keywords: プロンプト, ジオラマ"
+    ]
+  },
+  {
+    "primary_id": "1938785385267765324",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1938785385267765324.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1938785385267765324",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Imagen4でやってみたけど普通に良いかも!!!",
+      "summary: Photorealistic 3d cross-section base, a mountainous village intersected by turq…",
+      "matched_keywords: Imagen"
+    ]
+  },
+  {
+    "primary_id": "1936032997029167410",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1936032997029167410.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1936032997029167410",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 「編集可能グラフィックレコーディングプロンプト v3.0 ~涼雅(りょうが)~」リリース",
+      "summary: summary unavailable",
+      "matched_keywords: プロンプト"
+    ]
+  },
+  {
+    "primary_id": "1934112895497081208",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1934112895497081208.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1934112895497081208",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: dev/system-prompts, creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 断面ケーキ風景ジオラマプロンプト GPTs使ってみた1⃣",
+      "summary: A hyper-realistic composite still-life image of a cross-sectioned layered cake…",
+      "matched_keywords: プロンプト, ジオラマ"
+    ]
+  },
+  {
+    "primary_id": "1934112895371255809",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1934112895371255809.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1934112895371255809",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/system-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 断面ケーキ風景ジオラマプロンプト GPTs使ってみた1⃣",
+      "summary: A hyper-realistic composite still-life image of a cross-sectioned layered cake…",
+      "matched_keywords: プロンプト, ジオラマ"
+    ]
+  },
+  {
+    "primary_id": "1933843026281177524",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1933843026281177524.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1933843026281177524",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: dev/templates, creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 現実×シュール乗り物をImagen4✖Veo3で生成してみた!!!",
+      "summary: Scene: Dawn. A hyper-realistic, wasabi-glass nigiri car zooms along an airborne…",
+      "matched_keywords: character, Imagen"
+    ]
+  },
+  {
+    "primary_id": "1933838861270180004",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1933838861270180004.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1933838861270180004",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "audio",
+    "confidence": "medium",
+    "rationale": "Classified as creative/audio but requires human review. Alternatives: creative/video, creative/visual",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 現実×シュール乗り物 一括生成プロンプト V2.0 で作ってみた!!!!",
+      "summary: 現実×シュール乗り物 一括生成プロンプト V2.0",
+      "matched_keywords: Suno, 音楽, audio, BGM, OST"
+    ]
+  },
+  {
+    "primary_id": "1933474987647906113",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1933474987647906113.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1933474987647906113",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "medium",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/audio, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: WhiskでImagen4使ってみた3⃣",
+      "summary: Awakened-Eye Warrior — photoreal · cinematic · VFX (v1.0)",
+      "matched_keywords: portrait, Whisk, Imagen"
+    ]
+  },
+  {
+    "primary_id": "1933173134292889786",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1933173134292889786.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1933173134292889786",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: WhiskでImagen4使ってみた2⃣",
+      "summary: White Cat Warrior — photoreal · epic · knightly greatsword (v1.0)",
+      "matched_keywords: Whisk, Imagen"
+    ]
+  },
+  {
+    "primary_id": "1932823792965074947",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1932823792965074947.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1932823792965074947",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: コミック調HTMLジェネレーター プロンプト V1.0 爆誕",
+      "summary: コミック調HTMLジェネレーター プロンプト V1.0",
+      "matched_keywords: プロンプト"
+    ]
+  },
+  {
+    "primary_id": "1932395518837317947",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1932395518837317947.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1932395518837317947",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/system-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 意外とこれだけのプロンプトでバレットタイム風できた!",
+      "summary: 猫人族の2丁拳銃のガンナーが撃ち合っているバレットタイムのシーン",
+      "matched_keywords: プロンプト"
+    ]
+  },
+  {
+    "primary_id": "1926626582237437952",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/05/1926626582237437952.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1926626582237437952",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "audio",
+    "confidence": "medium",
+    "rationale": "Classified as creative/audio but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 面白そうなので私もFlowのVeo3でインスタグラマー作成してみた4⃣",
+      "summary: F1 Race Commentary — broadcast · high-energy · 4K (v1.0)",
+      "matched_keywords: audio, OST, radio, mood"
+    ]
+  },
+  {
+    "primary_id": "1922323250195152928",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/05/1922323250195152928.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1922323250195152928",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "audio",
+    "confidence": "low",
+    "rationale": "Classified as creative/audio but requires human review. Alternatives: dev/agent-prompts, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: さらに改良してYAMLにしてロボットの猫と白猫にしてみた!!!",
+      "summary: Fantasy Mirror Cat Contrast — surreal · mystical · duality-themed",
+      "matched_keywords: OST, mood"
+    ]
+  },
+  {
+    "primary_id": "1921545313048826117",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/05/1921545313048826117.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1921545313048826117",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "visual",
+    "confidence": "low",
+    "rationale": "Classified as creative/visual but requires human review. Alternatives: creative/video, dev/agent-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: ideogram でもYAMLプロンプトが使える模様、、、これはめっちゃ使える!!!",
+      "summary: Castle-Tree Bottle &amp; “Solar Castle” Typography — watercolor · charcoal · mix",
+      "matched_keywords: プロンプト, portrait"
+    ]
+  }
+]

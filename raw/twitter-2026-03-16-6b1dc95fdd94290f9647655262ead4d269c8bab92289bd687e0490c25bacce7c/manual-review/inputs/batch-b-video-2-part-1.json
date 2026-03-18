@@ -1,0 +1,572 @@
+[
+  {
+    "primary_id": "1991483501775086066",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1991483501775086066.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1991483501775086066",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: writing, creative/visual",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Hand-cut paper プロンプトを使ってみた",
+      "summary: 1. “Garden Spirit in Paper” 🌿",
+      "matched_keywords: ad, プロンプト"
+    ]
+  },
+  {
+    "primary_id": "1991392195157586120",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1991392195157586120.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1991392195157586120",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/system-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Gemini3 canvas で VRM の描画もできたぞ!!!!!!",
+      "summary: 二人のVRMファイルのキャラクターが喋っているシーンのアプリ",
+      "matched_keywords: キャラクタ"
+    ]
+  },
+  {
+    "primary_id": "1991163831268368515",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1991163831268368515.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1991163831268368515",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/templates, dev/agent-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Antigravity をギャルエンジニア化してみた!!!!",
+      "summary: 🌸 GEMINI. md — ギャルエンジニア × 開発原則(SOLID/KISS/YAGNI/DRY)対応版",
+      "matched_keywords: 化"
+    ]
+  },
+  {
+    "primary_id": "1988675098686205952",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1988675098686205952.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1988675098686205952",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: creative/audio, creative/visual",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Higgsfield Popcorn 実験記録1⃣4⃣",
+      "summary: Using the reference image of a soft, plush penguin character wearing a tiny exp…",
+      "matched_keywords: ad, railway"
+    ]
+  },
+  {
+    "primary_id": "1988675077588840876",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1988675077588840876.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1988675077588840876",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: creative/audio, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Higgsfield Popcorn 実験記録9⃣~1⃣4⃣",
+      "summary: subject:",
+      "matched_keywords: video, ad, drift"
+    ]
+  },
+  {
+    "primary_id": "1987914939064025265",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1987914939064025265.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1987914939064025265",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 久しぶりに LUMA RAY 3 使ってみたけどメチャ良い",
+      "summary: summary unavailable",
+      "matched_keywords: Luma"
+    ]
+  },
+  {
+    "primary_id": "1986059098983629054",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1986059098983629054.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1986059098983629054",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/agent-prompts, creative/visual",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 思いつきプロンプト",
+      "summary: A mythical and fantastical \"Sword of Genesis\" floating in the air, splitting he…",
+      "matched_keywords: ad, プロンプト"
+    ]
+  },
+  {
+    "primary_id": "1983821127324705111",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1983821127324705111.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1983821127324705111",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Sora 2 の キャラカメオできたぞ!!!!!",
+      "summary: @ makimakia.pastrypuff カフェで料理をしている",
+      "matched_keywords: Sora"
+    ]
+  },
+  {
+    "primary_id": "1981002783366213806",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1981002783366213806.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1981002783366213806",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 私も #ViduQ2Reference でバスケやってみた!!",
+      "summary: &#91;雪村綾乃&#93;がバスケで華麗なダブルクラッチして相手選手をかわしてシュートする",
+      "matched_keywords: Vidu"
+    ]
+  },
+  {
+    "primary_id": "1980969555121107213",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1980969555121107213.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1980969555121107213",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/agent-prompts, creative/visual",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: EXPRESSIONIST ACTION PAINTING プロンプトを私も使ってみた!!",
+      "summary: 1.",
+      "matched_keywords: WAN, ad, プロンプト"
+    ]
+  },
+  {
+    "primary_id": "1980677506887000474",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1980677506887000474.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1980677506887000474",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/templates, creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: CineBurst YAML V1.4 でミュージックビデオ風の作ってみた!3⃣",
+      "summary: version: \"1.4\"",
+      "matched_keywords: アニメーション, animation, ad, ビデオ, 化"
+    ]
+  },
+  {
+    "primary_id": "1980675431285354966",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1980675431285354966.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1980675431285354966",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/templates, creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: CineBurst YAML V1.4 でミュージックビデオ風の作ってみた!2⃣",
+      "summary: version: \"1.4\"",
+      "matched_keywords: video, アニメーション, animation, ad, ビデオ"
+    ]
+  },
+  {
+    "primary_id": "1979883494550749355",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1979883494550749355.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1979883494550749355",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: creative/audio, creative/visual",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Sora2 でフルーツジオラマやってみた!",
+      "summary: title: \"Crystal Apple Forest\"",
+      "matched_keywords: Kling, Sora, ad, drift, futuristic"
+    ]
+  },
+  {
+    "primary_id": "1979830916194390130",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1979830916194390130.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1979830916194390130",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/system-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Grokでカーアクションチャレンジ1",
+      "summary: アグレッシブな高速カメラワーク。物理的に正しい動き。高速。カーアクション。次々と車をスラロームで追い抜く",
+      "matched_keywords: アクション"
+    ]
+  },
+  {
+    "primary_id": "1979784012324597844",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1979784012324597844.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1979784012324597844",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/templates, dev/system-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 私も grok で遊んでみた!!",
+      "summary: ダイナミックに動くガンアクションシーン、electric particles, glowing field, intense lighting, rim li…",
+      "matched_keywords: アクション, アクションシーン"
+    ]
+  },
+  {
+    "primary_id": "1979781627615355271",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1979781627615355271.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1979781627615355271",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: sora2の15秒のテスト!",
+      "summary: 街づくりゲームのトレーラームービー",
+      "matched_keywords: Sora"
+    ]
+  },
+  {
+    "primary_id": "1979601119941927085",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1979601119941927085.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1979601119941927085",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: creative/audio, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 透明楽器のコンセプトをお借りして Veo3.1 で動物シリーズでやってみた!!",
+      "summary: 🐻 Mint Dream Bear – 「アクアハープのくま」",
+      "matched_keywords: Veo, ad"
+    ]
+  },
+  {
+    "primary_id": "1979461621287411795",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1979461621287411795.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1979461621287411795",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/templates, creative/visual",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: GRAVITATIONAL LENSING プロンプトをVeo3.1 でやってみた!!",
+      "summary: 🎨 QUANTUM RIPPLE",
+      "matched_keywords: Veo, プロンプト"
+    ]
+  },
+  {
+    "primary_id": "1979243458285179249",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1979243458285179249.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1979243458285179249",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: creative/audio, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Veo3.1用のGPTs「Veo3.1 Director V0.2」使ってみた1⃣",
+      "summary: subject: a single diver in a wetsuit",
+      "matched_keywords: Veo, drift"
+    ]
+  },
+  {
+    "primary_id": "1979184903754519045",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1979184903754519045.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1979184903754519045",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/agent-prompts, creative/visual",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Higgsfield Voe3.1 を使ってみた1⃣",
+      "summary: An 8-second artistic documentary-style video with smooth cuts and layered graph…",
+      "matched_keywords: video, ad"
+    ]
+  },
+  {
+    "primary_id": "1979183573128351818",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1979183573128351818.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1979183573128351818",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/agent-prompts, creative/visual",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Higgsfield Voe3.1 を使ってみた1⃣",
+      "summary: An 8-second artistic documentary-style video with smooth cuts and layered graph…",
+      "matched_keywords: video, ad"
+    ]
+  },
+  {
+    "primary_id": "1977280050752782752",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1977280050752782752.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1977280050752782752",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/templates, dev/agent-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: マークダウンファイルをリポジトリにアップロードしたら自動でZennとQiitaにクロス投稿するOSS「Oasis Sync」用のGPTsを作成!",
+      "summary: あなたは「Oasis 記事整形アシスタント」です。与えられた**Markdown記事本文**と**ファイル名**を受け取り、次を厳密に実行します。",
+      "matched_keywords: 化"
+    ]
+  },
+  {
+    "primary_id": "1976645827826454815",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1976645827826454815.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1976645827826454815",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/templates, writing",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Higgsfield Sora 2 Unlmited ✖ CineBurst-V1.1 YAML やってみた1⃣6⃣",
+      "summary: HiggsfieldSora2",
+      "matched_keywords: Sora, ad, 疾走, 疾走, 紙"
+    ]
+  },
+  {
+    "primary_id": "1976644685746896934",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1976644685746896934.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1976644685746896934",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Higgsfield Sora 2 Unlmited ✖ CineBurst-V1.1 YAML やってみた1⃣4⃣",
+      "summary: HiggsfieldSora2",
+      "matched_keywords: Sora"
+    ]
+  },
+  {
+    "primary_id": "1976644157604299223",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1976644157604299223.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1976644157604299223",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: creative/audio, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Higgsfield Sora 2 Unlmited ✖ CineBurst-V1.1 YAML やってみた1⃣3⃣",
+      "summary: HiggsfieldSora2",
+      "matched_keywords: Sora, ad, 紙, 化"
+    ]
+  },
+  {
+    "primary_id": "1976354852927307784",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1976354852927307784.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1976354852927307784",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/templates, creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Higgsfield Sora 2 Unlmited やってみた6⃣",
+      "summary: HiggsfieldSora2",
+      "matched_keywords: Sora, ad, 紙, 化"
+    ]
+  },
+  {
+    "primary_id": "1976306917292339298",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1976306917292339298.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1976306917292339298",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/templates, creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: CineBurst-V1.1 YAML ✖ Higgsfield Sora 2 使ってみた!!",
+      "summary: version: \"1.1\"",
+      "matched_keywords: Sora, ad, 紙, 化"
+    ]
+  },
+  {
+    "primary_id": "1976305139339362665",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1976305139339362665.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1976305139339362665",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/templates, creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: CineBurst-V1.1 YAML ✖ Higgsfield Sora 2 使ってみた!!",
+      "summary: version: \"1.1\"",
+      "matched_keywords: Sora, ad, 紙, 化"
+    ]
+  },
+  {
+    "primary_id": "1975570491600666965",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1975570491600666965.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1975570491600666965",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: creative/audio, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Higgsfield Sora 2 Pro やってみた2⃣",
+      "summary: version: \"1.0\"",
+      "matched_keywords: Sora, ad, 日常"
+    ]
+  },
+  {
+    "primary_id": "1974829354426507417",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1974829354426507417.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1974829354426507417",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: sora2 YAML特化型 GPTs 「SoLa2Craftr YAML V1.0」で作ってみた3⃣",
+      "summary: version: \"1.0\"",
+      "matched_keywords: Sora, ad, 疾走, 公道, 疾走"
+    ]
+  },
+  {
+    "primary_id": "1974826926490685887",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1974826926490685887.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1974826926490685887",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: creative/audio, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: sora2 YAML特化型 GPTs 「SoLa2Craftr YAML V1.0」で作ってみた1⃣",
+      "summary: version: \"1.0\"",
+      "matched_keywords: Sora, ad, 化"
+    ]
+  },
+  {
+    "primary_id": "1974475283723161817",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1974475283723161817.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1974475283723161817",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: creative/audio, docs/graphic-recording",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Japanese ink wash テイストでSora2で動画化してみた!!",
+      "summary: &#91;Subject&#93; 主題: 水墨画スタイルで描かれる壮大な物語、象徴的な存在(カワセミ、鶴、虎、鹿などの自然モチーフ)",
+      "matched_keywords: 動画, Sora, 化"
+    ]
+  },
+  {
+    "primary_id": "1974472166797348919",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1974472166797348919.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1974472166797348919",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/system-prompts, docs/graphic-recording",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: できた!!NotebookLMの動画からYoutubeのタイムライン付の動画概要を生成するプロンプトを共有します!!!",
+      "summary: YouTube概要欄 生成用システムプロンプト",
+      "matched_keywords: 動画, アクション, プロンプト, 化"
+    ]
+  },
+  {
+    "primary_id": "1974468617749295262",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1974468617749295262.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1974468617749295262",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/templates, dev/agent-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 早速、Sora2 で明日の東京AI祭ハッカソン用のデモ動画を作ってみた!!!!",
+      "summary: &#91;Subject&#93; 主題: 東京AI祭ハッカソンの「セミファイナル以降の進化」を紹介する予告CM風モンタージュ映像。未来感あるUIやAIエージェ",
+      "matched_keywords: 動画, Sora, CM, 化"
+    ]
+  },
+  {
+    "primary_id": "1973760356645470260",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1973760356645470260.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1973760356645470260",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/system-prompts, creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Sora2用のGPTsを改良しました!!",
+      "summary: 🎬 SoLa2Craftr V2.1 – System Prompt(ワンカット基準 + 複数カット対応 + 構造化/フラット分離)",
+      "matched_keywords: Sora, プロンプト, 化"
+    ]
+  },
+  {
+    "primary_id": "1973585681453871375",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1973585681453871375.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1973585681453871375",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "medium",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: creative/audio, dev/system-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Sora2用のGPTs作成しました!!",
+      "summary: 🎬 Sora2 Prompt Designer – System Prompt",
+      "matched_keywords: Sora, プロンプト, 化"
+    ]
+  },
+  {
+    "primary_id": "1973570290727919625",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1973570290727919625.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1973570290727919625",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: sora2 で漫才やってもらった!!!",
+      "summary: 日本語で漫才するコンビ",
+      "matched_keywords: Sora"
+    ]
+  },
+  {
+    "primary_id": "1973445092569739351",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1973445092569739351.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1973445092569739351",
+    "proposed_top_category": "creative",
+    "proposed_subpath": "video",
+    "confidence": "low",
+    "rationale": "Classified as creative/video but requires human review. Alternatives: dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 私もゲーム配信ライバーやってみた!!!",
+      "summary: A graceful and charming Japanese idol with a mature, older-sister-like aura liv…",
+      "matched_keywords: ad"
+    ]
+  }
+]

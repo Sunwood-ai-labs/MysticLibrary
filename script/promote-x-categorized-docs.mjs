@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { access, mkdir, readFile, stat, writeFile } from 'node:fs/promises';
+import { access, mkdir, readFile, rm, stat, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
 const DEFAULT_REVIEW_FILE =
@@ -19,6 +19,9 @@ async function main() {
   const reviewFile = path.resolve(cwd, options.reviewFile);
   const sourceManifestFile = path.resolve(cwd, options.sourceManifest);
   const outputManifestFile = path.resolve(cwd, options.outputManifest);
+  if (options.write && options.cleanPrevious) {
+    await cleanupPreviousCategorizedBranches(outputManifestFile, cwd);
+  }
   const reviewDecisions = await loadJsonl(reviewFile);
   const sourceManifest = JSON.parse(await readFile(sourceManifestFile, 'utf8'));
   const archiveRecordMap = new Map(
@@ -40,6 +43,13 @@ async function main() {
     const archiveDoc = await readArchiveDoc(archiveAbsPath);
 
     if (shouldStayArchiveOnly(decision)) {
+      const archiveNext = removeCategorizedEntrySection(archiveDoc.raw);
+      if (archiveNext !== archiveDoc.raw) {
+        writes.push({
+          absPath: archiveAbsPath,
+          content: archiveNext,
+        });
+      }
       archiveOnlyEntries.push(buildArchiveOnlyEntry(decision, archiveRecord));
       continue;
     }
@@ -144,6 +154,7 @@ function parseArgs(argv) {
     sourceManifest: DEFAULT_SOURCE_MANIFEST,
     outputManifest: DEFAULT_OUTPUT_MANIFEST,
     write: false,
+    cleanPrevious: false,
   };
 
   for (let index = 0; index < argv.length; index += 1) {
@@ -167,6 +178,10 @@ function parseArgs(argv) {
       options.write = true;
       continue;
     }
+    if (arg === '--clean-previous') {
+      options.cleanPrevious = true;
+      continue;
+    }
     if (arg === '--help' || arg === '-h') {
       printHelp();
       process.exit(0);
@@ -186,7 +201,7 @@ function requireValue(value, flag) {
 
 function printHelp() {
   console.log([
-    'Usage: node script/promote-x-categorized-docs.mjs [--write]',
+    'Usage: node script/promote-x-categorized-docs.mjs [--write] [--clean-previous]',
     '',
     'Promotes X archive prompt records into categorized docs paths',
     'using the per-record review ledger in x-category-review.jsonl.',
@@ -206,6 +221,35 @@ async function loadJsonl(absPath) {
         throw new Error(`Invalid JSONL at ${absPath}:${index + 1}: ${error.message}`);
       }
     });
+}
+
+async function cleanupPreviousCategorizedBranches(outputManifestFile, cwd) {
+  const previousRaw = await readIfExists(outputManifestFile);
+  if (!previousRaw) {
+    return;
+  }
+
+  let previousManifest;
+  try {
+    previousManifest = JSON.parse(previousRaw);
+  } catch {
+    return;
+  }
+
+  const branchRoots = new Set();
+  for (const entry of previousManifest.categorized_docs ?? []) {
+    const relPath = normalizeSlash(String(entry.categorized_doc_path ?? ''));
+    const segments = relPath.split('/');
+    const xIndex = segments.lastIndexOf('x');
+    if (xIndex <= 0) {
+      continue;
+    }
+    branchRoots.add(path.resolve(cwd, ...segments.slice(0, xIndex + 1)));
+  }
+
+  for (const branchRoot of branchRoots) {
+    await rm(branchRoot, { recursive: true, force: true });
+  }
 }
 
 async function readArchiveDoc(absPath) {
@@ -260,16 +304,17 @@ function extractSummary(raw) {
 }
 
 async function resolveCategoryLocation({ cwd, docRoot, archiveRecord, decision, pathCache }) {
-  const topCategory = String(decision.proposed_top_category ?? '').trim();
-  const subSegments = normalizeSegments(decision.proposed_subpath);
+  const { topCategory, subSegments, isNewCategory } = extractDecisionCategory(decision);
   const resolvedSegments = [...subSegments];
 
-  while (resolvedSegments.length > 0) {
-    const candidateDir = path.resolve(docRoot, topCategory, ...resolvedSegments);
-    if (await pathExists(candidateDir, pathCache)) {
-      break;
+  if (!isNewCategory) {
+    while (resolvedSegments.length > 0) {
+      const candidateDir = path.resolve(docRoot, topCategory, ...resolvedSegments);
+      if (await pathExists(candidateDir, pathCache)) {
+        break;
+      }
+      resolvedSegments.pop();
     }
-    resolvedSegments.pop();
   }
 
   const year = archiveRecord.created_at_iso.slice(0, 4);
@@ -295,6 +340,41 @@ function normalizeSegments(value) {
     .filter(Boolean);
 }
 
+function extractDecisionCategory(decision) {
+  const preferredPath = [
+    String(decision.final_decision ?? '').trim() === 'categorize_new' ? decision.new_category_path : '',
+    decision.final_category_path,
+    buildCategoryPath(decision.final_top_category, decision.final_subpath),
+    buildCategoryPath(decision.proposed_top_category, decision.proposed_subpath),
+  ]
+    .map((value) => String(value ?? '').trim())
+    .find(Boolean);
+
+  const segments = normalizeSegments(preferredPath);
+  const topCategory = segments[0] ?? String(decision.final_top_category ?? decision.proposed_top_category ?? '').trim();
+  const subSegments = segments.length > 0
+    ? segments.slice(1)
+    : normalizeSegments(decision.final_subpath ?? decision.proposed_subpath);
+
+  return {
+    topCategory,
+    subSegments,
+    isNewCategory:
+      String(decision.final_decision ?? '').trim() === 'categorize_new'
+      || decision.requires_new_category === true
+      || String(decision.requires_new_category ?? '').trim() === 'true',
+  };
+}
+
+function buildCategoryPath(topCategory, subpath) {
+  const top = String(topCategory ?? '').trim();
+  if (!top) {
+    return '';
+  }
+  const tail = normalizeSegments(subpath).join('/');
+  return tail ? `${top}/${tail}` : top;
+}
+
 async function pathExists(absPath, cache) {
   if (cache.has(absPath)) {
     return cache.get(absPath);
@@ -312,7 +392,9 @@ async function pathExists(absPath, cache) {
 
 function shouldStayArchiveOnly(decision) {
   return (
-    String(decision.proposed_top_category ?? '').trim() === 'archive_only'
+    String(decision.final_decision ?? '').trim() === 'archive_only'
+    || String(decision.final_top_category ?? '').trim() === 'archive_only'
+    || String(decision.proposed_top_category ?? '').trim() === 'archive_only'
     || String(decision.fallback_action ?? '').trim() === 'archive_only'
   );
 }
@@ -439,6 +521,15 @@ function upsertCategorizedEntrySection(raw, entry) {
     return normalized.replace(anchor, `\n${section}\n${anchor}`);
   }
   return `${normalized.trimEnd()}\n\n${section}\n`;
+}
+
+function removeCategorizedEntrySection(raw) {
+  const normalized = raw.replace(/\r\n/g, '\n');
+  const pattern = /\n## Categorized Entry\n[\s\S]*?(?=\n## [^\n]+|\n?$)/;
+  if (!pattern.test(normalized)) {
+    return raw;
+  }
+  return normalized.replace(pattern, '');
 }
 
 function buildCategorizedIndexWrites({ cwd, categorizedEntries }) {

@@ -1,0 +1,1094 @@
+[
+  {
+    "primary_id": "2030636216274825400",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2026/03/2030636216274825400.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2030636216274825400",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "low",
+    "rationale": "Classified as dev/templates but requires human review. Alternatives: dev/agent-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Codex GPT5.4 のお陰で Cドライブの残り20GBの真っ赤から 171GB まで復活したぞ!!",
+      "summary: CドライブがWSLとかDockerとかのデータで圧迫されています。Dドライブに移動して無事に動くことを確認してほしい!",
+      "matched_keywords: Docker"
+    ]
+  },
+  {
+    "primary_id": "2024109044953502028",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2026/02/2024109044953502028.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2024109044953502028",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "low",
+    "rationale": "Classified as dev/templates but requires human review. Alternatives: dev/agent-prompts, creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Codex CLI の MULTI-AGENT 使ってみた❸",
+      "summary: リポジトリを“最低限ちゃんとしてる状態”に整備したい(大改造はしない)。",
+      "matched_keywords: PR, CLI"
+    ]
+  },
+  {
+    "primary_id": "2021683678615941249",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2026/02/2021683678615941249.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2021683678615941249",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "low",
+    "rationale": "Classified as dev/templates but requires human review. Alternatives: dev/agent-prompts, dev/system-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: https://t.co/SWO5c8SB6K",
+      "summary: https://t.co/SWO5c8SB6K",
+      "matched_keywords: PR"
+    ]
+  },
+  {
+    "primary_id": "2019512230673543517",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2026/02/2019512230673543517.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2019512230673543517",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "agent-prompts",
+    "confidence": "low",
+    "rationale": "Classified as dev/agent-prompts but requires human review. Alternatives: methodology/multi-agent",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: AI人狼村( $AIWEV )のUIをGoogle Stitch改修❷",
+      "summary: AI エージェント同士でバトルしている人狼ゲームのアプリ画面で下記の要件を満たしたカッコイイデザインのゲーム画面にして",
+      "matched_keywords: エージェント"
+    ]
+  },
+  {
+    "primary_id": "2019511871569817811",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2026/02/2019511871569817811.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2019511871569817811",
+    "proposed_top_category": "methodology",
+    "proposed_subpath": "multi-agent",
+    "confidence": "low",
+    "rationale": "Classified as methodology/multi-agent but requires human review",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: AI人狼村( $AIWEV )のUIをGoogle Stitch改修❶",
+      "summary: 現状のUIの配置が分かりにくいので、改修しようと思います!デザイナーに相談したいので、機能要件を洗い出して!",
+      "matched_keywords: 人狼"
+    ]
+  },
+  {
+    "primary_id": "2012597198517936548",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2026/01/2012597198517936548.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2012597198517936548",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "agent-prompts",
+    "confidence": "low",
+    "rationale": "Classified as dev/agent-prompts but requires human review. Alternatives: dev/system-prompts, methodology/multi-agent",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: GLM4.7 × ClaudeCode で 協調マルチエージェントにデビュー❷",
+      "summary: A breathtaking 3D composition showcasing \"cc ensemble\" rendered in a majestic a…",
+      "matched_keywords: エージェント"
+    ]
+  },
+  {
+    "primary_id": "2011883504028856731",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2026/01/2011883504028856731.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2011883504028856731",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "low",
+    "rationale": "Classified as dev/templates but requires human review. Alternatives: dev/system-prompts, methodology/multi-agent",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: AI人狼村( $AIWEV )の GLM4.7×ClaudeCode版開発中❼",
+      "summary: summary unavailable",
+      "matched_keywords: PR"
+    ]
+  },
+  {
+    "primary_id": "2003325168010371438",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2003325168010371438.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2003325168010371438",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "system-prompts",
+    "confidence": "low",
+    "rationale": "Classified as dev/system-prompts but requires human review",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: https://discord.com/channels/1452871068241891441/1452873675350085732",
+      "summary: https://discord.com/channels/1452871068241891441/1452873675350085732",
+      "matched_keywords: Claude"
+    ]
+  },
+  {
+    "primary_id": "2001932303770276012",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2001932303770276012.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2001932303770276012",
+    "proposed_top_category": "docs",
+    "proposed_subpath": "graphic-recording",
+    "confidence": "medium",
+    "rationale": "Classified as docs/graphic-recording but requires human review. Alternatives: creative/visual, creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: テツメモさんのXのプロフインフォグラフィックプロンプトをさらに改造して「古文書スタイル」で自分のプロフを可視化してみた!!",
+      "summary: GENERAL STYLE &amp; MOOD:",
+      "matched_keywords: インフォグラフィック, 可視化, 視覚化, ノート"
+    ]
+  },
+  {
+    "primary_id": "2001592514613276674",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2001592514613276674.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2001592514613276674",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "low",
+    "rationale": "Classified as dev/templates but requires human review",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 。。。",
+      "summary: 。。。",
+      "matched_keywords: Git"
+    ]
+  },
+  {
+    "primary_id": "2000171520245801261",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2000171520245801261.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2000171520245801261",
+    "proposed_top_category": "docs",
+    "proposed_subpath": "diagram",
+    "confidence": "low",
+    "rationale": "Classified as docs/diagram but requires human review. Alternatives: methodology/research",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Kaggleで今ってどんなコンペが開催してる??",
+      "summary: Kaggleで今ってどんなコンペが開催してる??",
+      "matched_keywords: 図"
+    ]
+  },
+  {
+    "primary_id": "1996907052333928896",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996907052333928896.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1996907052333928896",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "agent-prompts",
+    "confidence": "medium",
+    "rationale": "Classified as dev/agent-prompts but requires human review. Alternatives: creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 🎞️❷ 激闘のデッドヒート (High-Speed Chase)",
+      "summary: Visual: High-speed chase through illuminated circuit, sparks flying as cars nea…",
+      "matched_keywords: bot, GAS, voice, bot"
+    ]
+  },
+  {
+    "primary_id": "1996873100927922359",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996873100927922359.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1996873100927922359",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "low",
+    "rationale": "Classified as dev/templates but requires human review",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 🎞️❷ 決意のダイブ (The Leap)",
+      "summary: Visual: Edge of skyscraper rooftop, city sprawling...",
+      "matched_keywords: PR"
+    ]
+  },
+  {
+    "primary_id": "1996209750036386090",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996209750036386090.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1996209750036386090",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "low",
+    "rationale": "Classified as dev/templates but requires human review",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 宇宙服・SF・広角ショット",
+      "summary: 宇宙服・SF・広角ショット",
+      "matched_keywords: CLI"
+    ]
+  },
+  {
+    "primary_id": "1996161969460760795",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996161969460760795.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1996161969460760795",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "low",
+    "rationale": "Classified as dev/templates but requires human review. Alternatives: dev/agent-prompts, creative/visual",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 書道のシーン",
+      "summary: @ Element1, wearing a stylish @ Image3 and @ Image2 around their neck, with @ I…",
+      "matched_keywords: PR, REST"
+    ]
+  },
+  {
+    "primary_id": "1995415251248922934",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1995415251248922934.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1995415251248922934",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "system-prompts",
+    "confidence": "low",
+    "rationale": "Classified as dev/system-prompts but requires human review",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 絶望的やらかしをGeminiでカッコよくしたらワンチャン許される選手権",
+      "summary: テキスト: \"ごめん!借りたPSPレンジでチンした!\"",
+      "matched_keywords: Gemini"
+    ]
+  },
+  {
+    "primary_id": "1992516449760330102",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1992516449760330102.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1992516449760330102",
+    "proposed_top_category": "writing",
+    "proposed_subpath": "",
+    "confidence": "low",
+    "rationale": "Classified as writing but requires human review. Alternatives: presentation, creative/visual",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 【NotebookLM】スライド✖ホラーデザインプロンプトがエグイ",
+      "summary: 古いホラー映画のエンドロール風。背景は真っ暗、文字は血のような赤でゆっくり滴るエフェクト(静止画で表現)。BGMが聞こえてきそうな不気味さ。最後に「THIS…",
+      "matched_keywords: story, story"
+    ]
+  },
+  {
+    "primary_id": "1992469006083875177",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1992469006083875177.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1992469006083875177",
+    "proposed_top_category": "docs",
+    "proposed_subpath": "graphic-recording",
+    "confidence": "low",
+    "rationale": "Classified as docs/graphic-recording but requires human review. Alternatives: presentation, creative/visual",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 【NotebookLM】スライド✖葛飾北斎プロンプトもエグイ",
+      "summary: 浮世絵師・葛飾北斎が描いたような和風インフォグラフィックにして。波や雲の装飾を入れ、文字は江戸文字(勘亭流)で。カラーパレットは墨・藍・朱・淡黄のみ。現代のデ…",
+      "matched_keywords: インフォグラフィック, note"
+    ]
+  },
+  {
+    "primary_id": "1991853291899363726",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1991853291899363726.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1991853291899363726",
+    "proposed_top_category": "docs",
+    "proposed_subpath": "graphic-recording",
+    "confidence": "low",
+    "rationale": "Classified as docs/graphic-recording but requires human review. Alternatives: presentation, creative/visual",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: NotebookLMにもスライド機能をカスタムプロンプト調整したらめちゃカッコいいのできたぞ!!!!",
+      "summary: グラフィックレコーディングスタイル、手書きサイバーパンク風",
+      "matched_keywords: グラフィックレコーディング, note"
+    ]
+  },
+  {
+    "primary_id": "1991820866838286363",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1991820866838286363.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1991820866838286363",
+    "proposed_top_category": "docs",
+    "proposed_subpath": "graphic-recording",
+    "confidence": "low",
+    "rationale": "Classified as docs/graphic-recording but requires human review. Alternatives: presentation, creative/visual",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: NotebookLMにもスライド機能をカスタムプロンプト調整してグラレコ風にしてみた!",
+      "summary: グラフィックレコーディングスタイル",
+      "matched_keywords: グラフィックレコーディング, note"
+    ]
+  },
+  {
+    "primary_id": "1991409946408415488",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1991409946408415488.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1991409946408415488",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "medium",
+    "rationale": "Classified as dev/templates but requires human review. Alternatives: dev/system-prompts, presentation",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 「🎤PitchCast Maker」のシステムプロンプトはこちら",
+      "summary: System Prompt for PitchCast Maker",
+      "matched_keywords: React, PR, エンジニア"
+    ]
+  },
+  {
+    "primary_id": "1991409943430430720",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1991409943430430720.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1991409943430430720",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "medium",
+    "rationale": "Classified as dev/templates but requires human review. Alternatives: creative/audio, creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 「🎤PitchCast Maker」のシステムプロンプトはこちら",
+      "summary: System Prompt for PitchCast Maker",
+      "matched_keywords: React, PR, API, CLI, template"
+    ]
+  },
+  {
+    "primary_id": "1991032528866849244",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1991032528866849244.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1991032528866849244",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "system-prompts",
+    "confidence": "low",
+    "rationale": "Classified as dev/system-prompts but requires human review",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Gemini3 爆誕したので遊んでみた4⃣",
+      "summary: タワーディフェンス防衛ゲームを作成して。UIは日本語",
+      "matched_keywords: Gemini"
+    ]
+  },
+  {
+    "primary_id": "1990841798626062793",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1990841798626062793.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1990841798626062793",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "system-prompts",
+    "confidence": "low",
+    "rationale": "Classified as dev/system-prompts but requires human review",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Gemini3 爆誕したので遊んでみた3⃣",
+      "summary: 縦スクロールの弾幕シューティングゲーム",
+      "matched_keywords: Gemini"
+    ]
+  },
+  {
+    "primary_id": "1990841045228401089",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1990841045228401089.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1990841045228401089",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "low",
+    "rationale": "Classified as dev/templates but requires human review. Alternatives: dev/system-prompts, docs/graphic-recording",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Gemini3 爆誕したので遊んでみた2⃣",
+      "summary: 下記の内容の記事のカッコいいサムネイルをHTMLで作成して",
+      "matched_keywords: HTML"
+    ]
+  },
+  {
+    "primary_id": "1990839635371774409",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1990839635371774409.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1990839635371774409",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "system-prompts",
+    "confidence": "low",
+    "rationale": "Classified as dev/system-prompts but requires human review",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Gemini3 爆誕したので遊んでみた1⃣",
+      "summary: シンプルな街づくりボクセルゲーム",
+      "matched_keywords: Gemini"
+    ]
+  },
+  {
+    "primary_id": "1990526442741117236",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1990526442741117236.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1990526442741117236",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "low",
+    "rationale": "Classified as dev/templates but requires human review",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Origami Products やってみた!!!",
+      "summary: summary unavailable",
+      "matched_keywords: PR"
+    ]
+  },
+  {
+    "primary_id": "1988099448149602415",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1988099448149602415.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1988099448149602415",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "low",
+    "rationale": "Classified as dev/templates but requires human review. Alternatives: dev/system-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: こちらを参考にしてGrokで作成してみた!!!",
+      "summary: summary unavailable",
+      "matched_keywords: PR"
+    ]
+  },
+  {
+    "primary_id": "1987894585444774383",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1987894585444774383.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1987894585444774383",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "low",
+    "rationale": "Classified as dev/templates but requires human review. Alternatives: dev/system-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 🎨 GROK IMAGINE🎨",
+      "summary: summary unavailable",
+      "matched_keywords: PR"
+    ]
+  },
+  {
+    "primary_id": "1987187270567534796",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1987187270567534796.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1987187270567534796",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "low",
+    "rationale": "Classified as dev/templates but requires human review. Alternatives: dev/system-prompts",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Grokでやってみた!だいぶ画風が変わるが、、、これはこれで結構いいかも??!!",
+      "summary: summary unavailable",
+      "matched_keywords: PR"
+    ]
+  },
+  {
+    "primary_id": "1987086475318731099",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1987086475318731099.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1987086475318731099",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "low",
+    "rationale": "Classified as dev/templates but requires human review",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 楽しそうなので参加してみた!",
+      "summary: summary unavailable",
+      "matched_keywords: PR"
+    ]
+  },
+  {
+    "primary_id": "1979837369860911177",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1979837369860911177.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1979837369860911177",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "medium",
+    "rationale": "Classified as dev/templates but requires human review. Alternatives: creative/video, creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 7色プリズムプロンプト ✖ CineBurst YAML V1.4 で映画のCM作ってみた!!",
+      "summary: version: \"1.4\"",
+      "matched_keywords: PR, CLI, material, physics, animation"
+    ]
+  },
+  {
+    "primary_id": "1979786140069892205",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1979786140069892205.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1979786140069892205",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "medium",
+    "rationale": "Classified as dev/templates but requires human review. Alternatives: creative/audio, writing",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 早速、ハリウッド大作映画予告の調査レポート ✖ CineBurst YAML をアップデートして予告CMを作成してみた!!!",
+      "summary: version: \"1.4\"",
+      "matched_keywords: PR, API, CLI, material, physics"
+    ]
+  },
+  {
+    "primary_id": "1978371834828722239",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1978371834828722239.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1978371834828722239",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "system-prompts",
+    "confidence": "medium",
+    "rationale": "Classified as dev/system-prompts but requires human review. Alternatives: creative/video, dev/templates",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 「Google Fonts Icons」をChatGPTのCanvasで手軽に試せるプロンプト作りました!!!",
+      "summary: ⚙️ System Prompt — 「Google Fonts Icons を多用したHTMLを**生成**するアシスタント」",
+      "matched_keywords: system prompt, role, 役割, ChatGPT, 共有"
+    ]
+  },
+  {
+    "primary_id": "1977994182280216832",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1977994182280216832.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1977994182280216832",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "medium",
+    "rationale": "Classified as dev/templates but requires human review. Alternatives: creative/audio, writing",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Kandinsky 5.0 使ってみた!!!2⃣",
+      "summary: version: \"1.1\"",
+      "matched_keywords: PR, REST, material, physics"
+    ]
+  },
+  {
+    "primary_id": "1977276972138103135",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1977276972138103135.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1977276972138103135",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "medium",
+    "rationale": "Classified as dev/templates but requires human review. Alternatives: creative/video, creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Higgsfield Sora 2 Unlmited ✖ CineBurst-V1.1 YAML やってみた1⃣8⃣",
+      "summary: HiggsfieldSora2",
+      "matched_keywords: PR, REST, material, physics"
+    ]
+  },
+  {
+    "primary_id": "1976645463312044235",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1976645463312044235.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1976645463312044235",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "medium",
+    "rationale": "Classified as dev/templates but requires human review. Alternatives: writing, creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Higgsfield Sora 2 Unlmited ✖ CineBurst-V1.1 YAML やってみた1⃣5⃣",
+      "summary: HiggsfieldSora2",
+      "matched_keywords: PR, API, CLI, material, physics"
+    ]
+  },
+  {
+    "primary_id": "1976644685461688320",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1976644685461688320.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1976644685461688320",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "medium",
+    "rationale": "Classified as dev/templates but requires human review. Alternatives: creative/video, creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Higgsfield Sora 2 Unlmited ✖ CineBurst-V1.1 YAML やってみた1⃣4⃣",
+      "summary: HiggsfieldSora2",
+      "matched_keywords: PR, API, material, physics"
+    ]
+  },
+  {
+    "primary_id": "1976643622293352878",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1976643622293352878.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1976643622293352878",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "medium",
+    "rationale": "Classified as dev/templates but requires human review. Alternatives: creative/audio, writing",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Higgsfield Sora 2 Unlmited やってみた1⃣2⃣",
+      "summary: HiggsfieldSora2",
+      "matched_keywords: PR, API, material, physics"
+    ]
+  },
+  {
+    "primary_id": "1976642347497660442",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1976642347497660442.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1976642347497660442",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "medium",
+    "rationale": "Classified as dev/templates but requires human review. Alternatives: creative/audio, writing",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Higgsfield Sora 2 Unlmited やってみた🔟",
+      "summary: HiggsfieldSora2",
+      "matched_keywords: PR, API, material, physics"
+    ]
+  },
+  {
+    "primary_id": "1976641895431581988",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1976641895431581988.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1976641895431581988",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "medium",
+    "rationale": "Classified as dev/templates but requires human review. Alternatives: creative/video, creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Higgsfield Sora 2 Unlmited やってみた9⃣",
+      "summary: HiggsfieldSora2",
+      "matched_keywords: PR, API, material, physics"
+    ]
+  },
+  {
+    "primary_id": "1976354138897383784",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1976354138897383784.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1976354138897383784",
+    "proposed_top_category": "writing",
+    "proposed_subpath": "",
+    "confidence": "medium",
+    "rationale": "Classified as writing but requires human review. Alternatives: dev/templates, creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Higgsfield Sora 2 Unlmited やってみた5⃣",
+      "summary: HiggsfieldSora2",
+      "matched_keywords: story, 物語, script, 起承転結, story"
+    ]
+  },
+  {
+    "primary_id": "1975580552129556636",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1975580552129556636.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1975580552129556636",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "medium",
+    "rationale": "Classified as dev/templates but requires human review. Alternatives: creative/audio, writing",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 10秒AIホラーチャレンジ",
+      "summary: version: \"1.1\"",
+      "matched_keywords: PR, API, material, physics"
+    ]
+  },
+  {
+    "primary_id": "1975571537538523197",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1975571537538523197.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1975571537538523197",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "medium",
+    "rationale": "Classified as dev/templates but requires human review. Alternatives: creative/audio, writing",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Higgsfield Sora 2 Pro ✖ SoLa2Craftr YAML V1.2 やってみた3⃣",
+      "summary: version: \"1.1\"",
+      "matched_keywords: PR, API, material, physics"
+    ]
+  },
+  {
+    "primary_id": "1974873936849731837",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1974873936849731837.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1974873936849731837",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "medium",
+    "rationale": "Classified as dev/templates but requires human review. Alternatives: creative/audio, creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 私も動物達でやってみた!!!!",
+      "summary: version: \"1.0\"",
+      "matched_keywords: PR, CLI, material, physics"
+    ]
+  },
+  {
+    "primary_id": "1974858243429257379",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1974858243429257379.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1974858243429257379",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "medium",
+    "rationale": "Classified as dev/templates but requires human review. Alternatives: creative/audio, creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 私も情報商材の啓蒙動画作ってみた2⃣",
+      "summary: version: \"1.0\"",
+      "matched_keywords: React, PR, material, physics"
+    ]
+  },
+  {
+    "primary_id": "1974857999694123252",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/10/1974857999694123252.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1974857999694123252",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "medium",
+    "rationale": "Classified as dev/templates but requires human review. Alternatives: creative/video, creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 私も情報商材の啓蒙動画作ってみた1⃣",
+      "summary: version: \"1.0\"",
+      "matched_keywords: PR, CLI, material, physics"
+    ]
+  },
+  {
+    "primary_id": "1970887203325989190",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/09/1970887203325989190.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1970887203325989190",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "system-prompts",
+    "confidence": "medium",
+    "rationale": "Classified as dev/system-prompts but requires human review. Alternatives: creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Suno v5 のプロンプトのベストプラクティスの記事を参考にしてGPTsを作成しました!プロンプトも共有するので好きに改造してみてください!",
+      "summary: 🌟 SUNO V5 GPTs システムプロンプト",
+      "matched_keywords: GPTs, システムプロンプト, 役割, Suno v5 プロンプト作成アシスタント, ベストプラクティス"
+    ]
+  },
+  {
+    "primary_id": "1964581673825361964",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/09/1964581673825361964.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1964581673825361964",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "medium",
+    "rationale": "Classified as dev/templates but requires human review. Alternatives: creative/visual, creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Particle grids でリポジトリのヘッダー画像作ってみた!",
+      "summary: 1) 星霊のシルエット(Celestial Fox)",
+      "matched_keywords: React, PR, particle, constellation"
+    ]
+  },
+  {
+    "primary_id": "1953137587352432929",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/08/1953137587352432929.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1953137587352432929",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "system-prompts",
+    "confidence": "low",
+    "rationale": "Classified as dev/system-prompts but requires human review",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 私もclaude4.1でテトリスチャレンジしてみた!!",
+      "summary: 和モダンとグラスモーフィズムを融合させたテトリスでミニマルにして「おしゃれテトリス」作って",
+      "matched_keywords: Claude"
+    ]
+  },
+  {
+    "primary_id": "1950523701797224607",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/07/1950523701797224607.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1950523701797224607",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "templates",
+    "confidence": "medium",
+    "rationale": "Classified as dev/templates but requires human review. Alternatives: creative/audio, creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 特急訪問プロンプト使ってみた!~Veo3版~",
+      "summary: 1) Hood &amp; Grille Dive",
+      "matched_keywords: Git, commit, PR, CLI, mesh"
+    ]
+  },
+  {
+    "primary_id": "1939308756296417416",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1939308756296417416.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1939308756296417416",
+    "proposed_top_category": "dev",
+    "proposed_subpath": "agent-prompts",
+    "confidence": "medium",
+    "rationale": "Classified as dev/agent-prompts but requires human review. Alternatives: creative/visual, creative/video",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 「AgentVRM MCP」のヘッダー画像はこれにしました!",
+      "summary: AgentVRM MCP Server Header — surreal · minimal · SD mascots · nebula-glass void…",
+      "matched_keywords: Agent, MCP, bot, bot"
+    ]
+  },
+  {
+    "primary_id": "1938920341780447473",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1938920341780447473.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1938920341780447473",
+    "proposed_top_category": "presentation",
+    "proposed_subpath": "",
+    "confidence": "medium",
+    "rationale": "Classified as presentation but requires human review. Alternatives: dev/agent-prompts, creative/audio",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: Roo-Code ✖ voicevox MCP ✖ Playwright MCP ✖ VMagicMirror ✖ Banana でリアルタイムアバタープレゼン",
+      "summary: http ://127.0.0.1:5500/voicevox_mcp_slides_improved-v2.html",
+      "matched_keywords: slide, スライド, プレゼン, スライド"
+    ]
+  },
+  {
+    "primary_id": "1936426098948215212",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1936426098948215212.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1936426098948215212",
+    "proposed_top_category": "docs",
+    "proposed_subpath": "graphic-recording",
+    "confidence": "low",
+    "rationale": "Classified as docs/graphic-recording but requires human review. Alternatives: writing, creative/visual",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 「編集可能グラレコサムネプロンプト✖ 涼雅 V4」リリース!!!",
+      "summary: 編集可能 グラレコサムネイルプロンプト v4 ~涼雅(りょうが)~",
+      "matched_keywords: インフォグラフィック, サムネイル"
+    ]
+  },
+  {
+    "primary_id": "1936084074042740802",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1936084074042740802.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1936084074042740802",
+    "proposed_top_category": "docs",
+    "proposed_subpath": "graphic-recording",
+    "confidence": "low",
+    "rationale": "Classified as docs/graphic-recording but requires human review. Alternatives: writing, creative/visual",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: 「グラレコサムネプロンプト✖ 涼雅 V3」",
+      "summary: グラレコサムネイルプロンプト v3 ~涼雅(りょうが)~",
+      "matched_keywords: インフォグラフィック, サムネイル"
+    ]
+  },
+  {
+    "primary_id": "1936058461017850360",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1936058461017850360.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1936058461017850360",
+    "proposed_top_category": "docs",
+    "proposed_subpath": "graphic-recording",
+    "confidence": "low",
+    "rationale": "Classified as docs/graphic-recording but requires human review. Alternatives: writing, creative/visual",
+    "fallback_action": "needs_review",
+    "evidence": [
+      "title: こちらのサムネイルは「グラレコサムネプロンプト V2」でポン出し生成したものです!",
+      "summary: グラレコサムネプロンプト V2",
+      "matched_keywords: インフォグラフィック, サムネイル"
+    ]
+  },
+  {
+    "primary_id": "2020133745521742334",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2026/02/2020133745521742334.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2020133745521742334",
+    "proposed_top_category": "archive_only",
+    "proposed_subpath": "",
+    "confidence": "low",
+    "rationale": "Content does not match existing taxonomy categories; keep as archive reference",
+    "fallback_action": "archive_only",
+    "evidence": [
+      "title: ...",
+      "summary: ..."
+    ]
+  },
+  {
+    "primary_id": "2020133739452592430",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2026/02/2020133739452592430.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2020133739452592430",
+    "proposed_top_category": "archive_only",
+    "proposed_subpath": "",
+    "confidence": "low",
+    "rationale": "Content does not match existing taxonomy categories; keep as archive reference",
+    "fallback_action": "archive_only",
+    "evidence": [
+      "title: 「2頭身ちびの白い猫人族の大賢者、全身が切れないフルボディ、縦長、中距離で余白あり。サイバーパンクのネオン霧、発光する魔術回路ローブ。ホログラムの魔導書ページ、",
+      "summary: 「2頭身ちびの白い猫人族の大賢者、全身が切れないフルボディ、縦長、中距離で余白あり。サイバーパンクのネオン霧、発光する魔術回路ローブ。ホログラムの魔導書ページ…"
+    ]
+  },
+  {
+    "primary_id": "2020133736352993363",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2026/02/2020133736352993363.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2020133736352993363",
+    "proposed_top_category": "archive_only",
+    "proposed_subpath": "",
+    "confidence": "low",
+    "rationale": "Content does not match existing taxonomy categories; keep as archive reference",
+    "fallback_action": "archive_only",
+    "evidence": [
+      "title: 2頭身SDの白い猫人族の大賢者、フルボディ、縦長、正面気味で直立。ステンドグラス風の宝石色と鉛線、キラキラ発光。頭は大きく、体は小さく、マント短め。周囲に小さな",
+      "summary: 2頭身SDの白い猫人族の大賢者、フルボディ、縦長、正面気味で直立。ステンドグラス風の宝石色と鉛線、キラキラ発光。頭は大きく、体は小さく、マント短め。周囲に小さ…"
+    ]
+  },
+  {
+    "primary_id": "2019480701746528425",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2026/02/2019480701746528425.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2019480701746528425",
+    "proposed_top_category": "archive_only",
+    "proposed_subpath": "",
+    "confidence": "low",
+    "rationale": "Content does not match existing taxonomy categories; keep as archive reference",
+    "fallback_action": "archive_only",
+    "evidence": [
+      "title: Opus4.6 爆誕したので遊んでみる❷",
+      "summary: モダンなデザインの大局将棋ゲームを作成して"
+    ]
+  },
+  {
+    "primary_id": "2017491933627830483",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2026/01/2017491933627830483.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2017491933627830483",
+    "proposed_top_category": "archive_only",
+    "proposed_subpath": "",
+    "confidence": "low",
+    "rationale": "Content does not match existing taxonomy categories; keep as archive reference",
+    "fallback_action": "archive_only",
+    "evidence": [
+      "title: 念のための設定も!",
+      "summary: いいね!また、ローカルネットワークからしかアクセスできないようになってるか確認して"
+    ]
+  },
+  {
+    "primary_id": "2017491929743925325",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2026/01/2017491929743925325.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2017491929743925325",
+    "proposed_top_category": "archive_only",
+    "proposed_subpath": "",
+    "confidence": "low",
+    "rationale": "Content does not match existing taxonomy categories; keep as archive reference",
+    "fallback_action": "archive_only",
+    "evidence": [
+      "title: メチャ熱そうなリモートデスクトップソフト「rustdesk」使ってみる❶",
+      "summary: rustdeskをやりたい"
+    ]
+  },
+  {
+    "primary_id": "2005656448462917950",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2005656448462917950.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2005656448462917950",
+    "proposed_top_category": "archive_only",
+    "proposed_subpath": "",
+    "confidence": "low",
+    "rationale": "Content does not match existing taxonomy categories; keep as archive reference",
+    "fallback_action": "archive_only",
+    "evidence": [
+      "title: ハッキング画面ぽい感じのかっこいい縦スクロールゲームを作成して",
+      "summary: ハッキング画面ぽい感じのかっこいい縦スクロールゲームを作成して"
+    ]
+  },
+  {
+    "primary_id": "2005649023022289224",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2005649023022289224.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2005649023022289224",
+    "proposed_top_category": "archive_only",
+    "proposed_subpath": "",
+    "confidence": "low",
+    "rationale": "Content does not match existing taxonomy categories; keep as archive reference",
+    "fallback_action": "archive_only",
+    "evidence": [
+      "title: おしゃれな猫カフェを塾が融合した新しいサービスのホームページを作成して",
+      "summary: おしゃれな猫カフェを塾が融合した新しいサービスのホームページを作成して"
+    ]
+  },
+  {
+    "primary_id": "2003365922413920716",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2003365922413920716.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2003365922413920716",
+    "proposed_top_category": "archive_only",
+    "proposed_subpath": "",
+    "confidence": "low",
+    "rationale": "Content does not match existing taxonomy categories; keep as archive reference",
+    "fallback_action": "archive_only",
+    "evidence": [
+      "title: Higgsfieldの Cinema Studio でスタートフレーム+エンドフレーム固定実験1⃣3⃣~車の組み上げ~",
+      "summary: 様々なパーツが出現して組みあがる"
+    ]
+  },
+  {
+    "primary_id": "2003311586979778745",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2003311586979778745.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2003311586979778745",
+    "proposed_top_category": "archive_only",
+    "proposed_subpath": "",
+    "confidence": "low",
+    "rationale": "Content does not match existing taxonomy categories; keep as archive reference",
+    "fallback_action": "archive_only",
+    "evidence": [
+      "title: https://www.amazon.co.jp/baby-reg/welcomebox?ref_=br_dsk_hp_bene_wb",
+      "summary: https://www.amazon.co.jp/baby-reg/welcomebox?ref_=br_dsk_hp_bene_wb"
+    ]
+  },
+  {
+    "primary_id": "2000171284492427559",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/2000171284492427559.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/2000171284492427559",
+    "proposed_top_category": "archive_only",
+    "proposed_subpath": "",
+    "confidence": "low",
+    "rationale": "Content does not match existing taxonomy categories; keep as archive reference",
+    "fallback_action": "archive_only",
+    "evidence": [
+      "title: 背景をクリスマスっぽく変更して",
+      "summary: 背景をクリスマスっぽく変更して"
+    ]
+  },
+  {
+    "primary_id": "1996571144523288846",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996571144523288846.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1996571144523288846",
+    "proposed_top_category": "archive_only",
+    "proposed_subpath": "",
+    "confidence": "low",
+    "rationale": "Content does not match existing taxonomy categories; keep as archive reference",
+    "fallback_action": "archive_only",
+    "evidence": [
+      "title: 🎞️❹ 墜落寸前 (Cockpit Crash)",
+      "summary: Visual: Interior of damaged spaceship cockpit, red warning lights flashing, deb…"
+    ]
+  },
+  {
+    "primary_id": "1996209737830998236",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996209737830998236.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1996209737830998236",
+    "proposed_top_category": "archive_only",
+    "proposed_subpath": "",
+    "confidence": "low",
+    "rationale": "Content does not match existing taxonomy categories; keep as archive reference",
+    "fallback_action": "archive_only",
+    "evidence": [
+      "title: 神社・ミディアムショット",
+      "summary: 神社・ミディアムショット"
+    ]
+  },
+  {
+    "primary_id": "1995854577779048757",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1995854577779048757.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1995854577779048757",
+    "proposed_top_category": "archive_only",
+    "proposed_subpath": "",
+    "confidence": "low",
+    "rationale": "Content does not match existing taxonomy categories; keep as archive reference",
+    "fallback_action": "archive_only",
+    "evidence": [
+      "title: 🌟素材集",
+      "summary: 桜吹雪"
+    ]
+  },
+  {
+    "primary_id": "1995374749476913558",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/12/1995374749476913558.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1995374749476913558",
+    "proposed_top_category": "archive_only",
+    "proposed_subpath": "",
+    "confidence": "low",
+    "rationale": "Content does not match existing taxonomy categories; keep as archive reference",
+    "fallback_action": "archive_only",
+    "evidence": [
+      "title: 私も参戦してみた!",
+      "summary: 巨大人型ロボットメカ兵器、魔神、メカのウィング、壮大、幻想的"
+    ]
+  },
+  {
+    "primary_id": "1994453895163343161",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1994453895163343161.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1994453895163343161",
+    "proposed_top_category": "archive_only",
+    "proposed_subpath": "",
+    "confidence": "low",
+    "rationale": "Content does not match existing taxonomy categories; keep as archive reference",
+    "fallback_action": "archive_only",
+    "evidence": [
+      "title: プリトヴィツェ湖群で水面歩行させてみた!!",
+      "summary: 若い女性が水面を優雅に左方向へ歩き続ける。足元は透明なガラス板の上を歩くように水面を全く破らず、乾いたまま。カメラは低アングルから被写体を追従し、黄金色の光に…"
+    ]
+  },
+  {
+    "primary_id": "1994357206574125060",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/11/1994357206574125060.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1994357206574125060",
+    "proposed_top_category": "archive_only",
+    "proposed_subpath": "",
+    "confidence": "low",
+    "rationale": "Content does not match existing taxonomy categories; keep as archive reference",
+    "fallback_action": "archive_only",
+    "evidence": [
+      "title: ウユニ塩湖で水面をスキップさせてみた!",
+      "summary: 水面にはどんな重さにも耐える絶対に破れない透明な膜がある。彼女がその膜の上を左方向に軽快にスキップしていく。絶対に膜は破れない。膜は最初から最後まで見えない。…"
+    ]
+  },
+  {
+    "primary_id": "1936324800647250245",
+    "current_doc_path": "docs/prompt-catalog/archive/x/2025/06/1936324800647250245.md",
+    "source_url": "https://x.com/hAru_mAki_ch/status/1936324800647250245",
+    "proposed_top_category": "archive_only",
+    "proposed_subpath": "",
+    "confidence": "low",
+    "rationale": "Content does not match existing taxonomy categories; keep as archive reference",
+    "fallback_action": "archive_only",
+    "evidence": [
+      "title: 私も Natural disasters 系作成してみた2⃣",
+      "summary: Surreal giga-disaster: planet-spanning fissures ejecting glowing oceans into sp…"
+    ]
+  }
+]

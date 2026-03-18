@@ -110,6 +110,8 @@ const directoryOrderMap: Record<string, string[]> = {
     "review",
     "checklists",
     "templates",
+    "git",
+    "workflow",
     "guidelines",
     "agent-prompts",
     "system-prompts",
@@ -119,9 +121,11 @@ const directoryOrderMap: Record<string, string[]> = {
     "openhands"
   ],
   "prompt-catalog/dev/system-prompts": ["claude", "windsurf", "mcp"],
-  "prompt-catalog/docs": ["graphic-recording", "diagram", "education", "markwhen"],
-  "prompt-catalog/creative": ["audio", "video", "visual", "game"],
-  "prompt-catalog/methodology": ["abstract-prompting", "mind-mapping", "research", "multi-agent", "meta", "agent"]
+  "prompt-catalog/docs": ["graphic-recording", "diagram", "comic", "methodology", "quarkdown", "education", "markwhen"],
+  "prompt-catalog/creative": ["audio", "video", "visual", "multimodal", "game"],
+  "prompt-catalog/methodology": ["abstract-prompting", "mind-mapping", "research", "multi-agent", "meta", "agent"],
+  "prompt-catalog/writing": ["deep-research", "slide"],
+  "prompt-catalog/agent": ["minecraft", "phidata"]
 };
 
 function sortEntries(entries: string[], directoryPath: string, locale: LocaleCode) {

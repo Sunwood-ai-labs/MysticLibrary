@@ -13,6 +13,7 @@
     "docs:canonical-audit": "node script/canonicalize-prompt-catalog.mjs --mode check --json",
     "docs:canonical-sync": "node script/canonicalize-prompt-catalog.mjs --mode sync --write",
     "docs:prompt-mirror-sync": "node script/sync-docs-first-prompts.mjs --write",
+    "docs:x-manual-review-merge": "node script/merge-x-manual-review.mjs --write",
     "docs:x-category-promote": "node script/promote-x-categorized-docs.mjs --write",
     "docs:x-category-verify": "node script/verify-x-categorized-docs.mjs --write",
     "docs:x-catalog-sync": "node script/import-x-prompt-archive.mjs --write && node script/promote-x-categorized-docs.mjs --write && node script/verify-x-prompt-archive-docs.mjs --write && node script/verify-x-categorized-docs.mjs --write",

@@ -1,0 +1,33 @@
+﻿Create an agent team in this workspace.
+Spawn exactly 3 teammates yourself.
+Before making changes, create a short QA inventory that lists the deliverables, planned file changes, final claims, and checks required for signoff.
+
+Task:
+We are manually re-reviewing X prompt imports in D:\Prj\MysticLibrary.
+Your scope is taxonomy audit only, not doc edits.
+Review these files:
+- D:\Prj\MysticLibrary\raw\twitter-2026-03-16-6b1dc95fdd94290f9647655262ead4d269c8bab92289bd687e0490c25bacce7c\x-category-review-summary.md
+- D:\Prj\MysticLibrary\raw\twitter-2026-03-16-6b1dc95fdd94290f9647655262ead4d269c8bab92289bd687e0490c25bacce7c\manual-review\inputs\batch-d-dev-docs-archive.json
+- D:\Prj\MysticLibrary\docs\prompt-catalog\ (current taxonomy)
+
+Ownership:
+- teammate 1 owns archive_only and weird uncategorized records; decide whether new categories are warranted
+- teammate 2 owns dev/docs/methodology/writing/presentation edge cases; propose taxonomy rules and naming
+- teammate 3 is reviewer; challenge the first two teammates, look for overfitting, and produce final signoff
+
+Requirements:
+- Review records one by one from the input JSON where needed
+- Open the actual docs referenced by current_doc_path for any record you cite
+- Prefer existing taxonomy when reasonable
+- Recommend a new category only when it would be reusable and materially clearer than current lanes
+- Do not edit docs or scripts
+- Write one markdown report to D:\Prj\MysticLibrary\raw\twitter-2026-03-16-6b1dc95fdd94290f9647655262ead4d269c8bab92289bd687e0490c25bacce7c\manual-review\claude-taxonomy-audit.md
+
+The report must include:
+- recommended new categories or explicit rejection of new categories
+- concrete affected record IDs for each recommendation
+- migration criteria / decision rules
+- risks and reviewer objections
+- teammate-by-teammate report
+
+Clean up the team when done.
