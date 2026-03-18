@@ -38,7 +38,9 @@ AIを使っていると「このプロンプト、前も書いたな...」とい
 公開しているプロンプトカタログは `docs/` を正本として管理します。
 
 - 追加・修正は `docs/prompt-catalog/` と `docs/en/prompt-catalog/` を優先します
-- `prompts/` に対応元や互換ファイルがある場合は `prompt_source` frontmatter で追跡します
+- `prompt_source` は docs-first の mirror である `prompts/docs-first/` を参照します
+- 旧 prompt との対応関係がある場合は `legacy_source` frontmatter に残します
+- 現在の正規 mirror は `prompt_source` を優先し、`legacy_source` は履歴情報としてのみ扱います
 - `prompts/` は移行中の mirror / legacy レイヤーとして扱います
 
 ## セットアップ
@@ -50,6 +52,7 @@ npm install
 npm run docs:dev             # VitePress をローカル起動
 npm run docs:build           # 公開用 docs をビルド
 npm run docs:canonical-audit # docs/prompts の正本対応を監査
+npm run docs:prompt-mirror-sync # docs から prompt mirror を再生成
 ```
 
 ## ディレクトリ構成
@@ -73,7 +76,7 @@ MysticLibrary/
 
 ## コントリビューション
 
-新しいカタログ項目は `docs/prompt-catalog/` と `docs/en/prompt-catalog/` に追加・修正してください。`prompts/` 側に対応元がある場合は `prompt_source` frontmatter も合わせて管理してください。Issue・PRお待ちしています。
+新しいカタログ項目は `docs/prompt-catalog/` と `docs/en/prompt-catalog/` に追加・修正してください。mirror prompt を更新したいときは `npm run docs:prompt-mirror-sync` を実行してください。Issue・PRお待ちしています。
 
 ## お問い合わせ
 

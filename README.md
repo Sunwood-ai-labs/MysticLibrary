@@ -38,7 +38,9 @@ Anyone can view and utilize prompts organized by categories such as audio genera
 The published prompt catalog is maintained in `docs/`.
 
 - Update catalog pages under `docs/prompt-catalog/` and `docs/en/prompt-catalog/`
-- Use `prompt_source` frontmatter when a docs page mirrors or supersedes a file in `prompts/`
+- `prompt_source` now points to generated docs-first mirrors under `prompts/docs-first/`
+- Preserve legacy prompt lineage in `legacy_source` when a page supersedes an older prompt file
+- Treat `prompt_source` as the authoritative current mirror and `legacy_source` as historical metadata only
 - Treat `prompts/` as a migration or mirror layer, not the primary editing surface
 
 ## Setup
@@ -50,6 +52,7 @@ npm install
 npm run docs:dev             # Start VitePress locally
 npm run docs:build           # Build the published docs
 npm run docs:canonical-audit # Audit docs/prompts canonical mapping
+npm run docs:prompt-mirror-sync # Refresh prompt mirrors from docs/
 ```
 
 ## Directory Structure
@@ -73,7 +76,7 @@ MysticLibrary/
 
 ## Contributing
 
-Please add or update catalog content under `docs/prompt-catalog/` and `docs/en/prompt-catalog/`. If a page corresponds to a legacy prompt file, keep the `prompt_source` metadata in sync. Issues and PRs are welcome.
+Please add or update catalog content under `docs/prompt-catalog/` and `docs/en/prompt-catalog/`. Run `npm run docs:prompt-mirror-sync` when you need to refresh mirrored prompt files in `prompts/docs-first/`. Issues and PRs are welcome.
 
 ## Contact
 

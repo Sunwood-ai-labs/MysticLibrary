@@ -68,7 +68,8 @@ function printSummary(report) {
   console.log(`Docs with canonical source: ${report.withCanonical}`);
   console.log(`Matched: ${report.matched}`);
   console.log(`Unmatched docs: ${report.unmatched.length}`);
-  console.log(`Orphaned prompts (no doc mapping): ${report.orphanedPrompts.length}`);
+  console.log(`Orphaned docs-first prompt mirrors: ${report.orphanedPrompts.length}`);
+  console.log(`Legacy-only prompts: ${report.orphanedLegacyPrompts.length}`);
 
   if (report.errors.length > 0) {
     console.log(`\nErrors:`);
@@ -222,10 +223,16 @@ function compareCanonicalState({ docs, promptFiles, promptsRoot }) {
   }
 
   const orphanedPrompts = [];
-  for (const [absPath] of promptFiles.byPath.entries()) {
+  const orphanedLegacyPrompts = [];
+  for (const [absPath, promptFile] of promptFiles.byPath.entries()) {
     const count = promptUsage.get(absPath.toLowerCase()) ?? 0;
     if (count === 0) {
-      orphanedPrompts.push(relativeFromRoot(absPath, process.cwd()));
+      const relPath = relativeFromRoot(absPath, process.cwd());
+      if (promptFile.isDocsFirstMirror) {
+        orphanedPrompts.push(relPath);
+      } else {
+        orphanedLegacyPrompts.push(relPath);
+      }
     }
   }
 
@@ -237,6 +244,7 @@ function compareCanonicalState({ docs, promptFiles, promptsRoot }) {
     unmatched,
     unmatchedCount: unmatched.length,
     orphanedPrompts,
+    orphanedLegacyPrompts,
     unresolved,
     autoAttach,
     errors,
@@ -507,6 +515,7 @@ async function collectPromptFiles(root) {
         relPath: relativeFromRoot(fullPath, root),
         stem,
         localeSuffix,
+        isDocsFirstMirror: relativeFromRoot(fullPath, root).startsWith('docs-first/'),
       });
     }
   }
