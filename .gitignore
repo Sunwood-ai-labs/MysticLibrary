@@ -195,4 +195,5 @@ tmp2.md
 supabase/
 
 pnpm-lock.yaml
-src/assets/git-info.json
+docs/.vitepress/dist-check/
+raw/
