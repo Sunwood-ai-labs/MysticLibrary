@@ -11,11 +11,12 @@ last_reviewed: 2026-03-19
 # X Imports 2025-10
 
 - branch: creative / video
-- items: 68
+- items: 69
 
 ## Entries
 - [Sora2 のキャラカメオ ✖ RPG風キャラクターでやってみた!](./1983893561700676092.md) - 2025-10-30 22:47:38 JST / classified / high
 - [Sora2 のキャラカメオ ✖ ぬいぐるみ ✖ 複数キャラクターでやってみた!!!](./1983883940055392745.md) - 2025-10-30 22:09:24 JST / classified / medium
+- [Sora 2 キャラカメオ動画 prompt](./1983821127324705111.md) - 2025-10-30 17:59:49 JST / classified / 0.98
 - [FROSTED FANTASY REALM プロンプトを使ってみた!](./1982422622907625719.md) - 2025-10-26 21:22:39 JST / classified / medium
 - [カラフルおばあちゃんプロンプト](./1982402717172568487.md) - 2025-10-26 20:03:33 JST / classified / high
 - [Futuristic Zodiac Illustrations プロンプト でリポジトリのヘッダ画像作ってみた!!](./1982145458165494067.md) - 2025-10-26 03:01:18 JST / classified / high

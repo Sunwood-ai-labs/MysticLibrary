@@ -48,7 +48,7 @@ last_reviewed: 2026-03-19
 - [GENERAL STYLE &amp; MOOD:](./2003371121522143387.md) - 2025-12-23 16:44:30 JST / GENERAL STYLE &amp; MOOD:
 - [Higgsfieldの Cinema Studio でスタートフレーム+エンドフレーム固定実験1⃣3⃣~車の組み上げ~](./2003365922413920716.md) - 2025-12-23 16:23:51 JST / 様々なパーツが出現して組みあがる
 - [https://discord.com/channels/1452871068241891441/1452873675350085732](./2003325168010371438.md) - 2025-12-23 13:41:54 JST / https://discord.com/channels/1452871068241891441/1452873675350085732
-- [https://www.amazon.co.jp/baby-reg/welcomebox?ref_=br_dsk_hp_bene_wb](./2003311586979778745.md) - 2025-12-23 12:47:56 JST / https://www.amazon.co.jp/baby-reg/welcomebox?ref_=br_dsk_hp_bene_wb
+- [Amazonらくらくベビー在庫確認プロンプト](./2003311586979778745.md) - 2025-12-23 12:47:56 JST / Amazon らくらくベビーのお試しBox在庫を確認するプロンプト
 - [https://t.co/Lj1Q7ca46C](./2003116088331239805.md) - 2025-12-22 23:51:06 JST / https://t.co/Lj1Q7ca46C
 - [GENERAL STYLE &amp; MOOD:](./2002960121555832870.md) - 2025-12-22 13:31:20 JST / GENERAL STYLE &amp; MOOD:
 - [ブログやプロフから作成する nano banana 今年の漢字プロンプト V1 爆誕🔥🔥🔥](./2002793781805130211.md) - 2025-12-22 02:30:22 JST / GENERAL STYLE &amp; MOOD:
