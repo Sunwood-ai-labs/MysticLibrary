@@ -32,6 +32,10 @@ A collection of prompts for visually representing system architectures and proce
 - [AWS Draw.io Architecture Generator v4](./aws-drawio-architecture-v4.md) - Generate AWS architecture in Draw.io XML format (standard)
 - [AWS Draw.io Architecture Generator v4 Dark Theme](./aws-drawio-architecture-v4-dark.md) - Generate AWS architecture with dark theme colors
 
+### Workflow / Skills
+
+- [Draw.io Codex Spark Eclipse Legion Flow Diagram](./drawio-codex-spark-eclipse-legion-flow.md) - Short prompt for diagramming the Codex Spark Eclipse Legion skill flow with header-aligned colors
+
 ### Eraser
 
 - [Eraser Syntax Guide ①](./eraser-syntax-guide-1.md) - Guide to Eraser platform notation

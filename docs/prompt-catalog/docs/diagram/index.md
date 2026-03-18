@@ -32,6 +32,10 @@ last_reviewed: 2026-02-23
 - [AWS Draw.io アーキテクチャ図生成 v4](./aws-drawio-architecture-v4.md) - Draw.ioのXML形式でAWS構成図を生成（標準版）
 - [AWS Draw.io アーキテクチャ図生成 v4 ダークテーマ](./aws-drawio-architecture-v4-dark.md) - ダークテーマ配色でAWS構成図を生成
 
+### Workflow / Skills
+
+- [Draw.io Codex Spark Eclipse Legion フロー図](./drawio-codex-spark-eclipse-legion-flow.md) - Codex Spark Eclipse Legion スキルの流れを配色付きで図解する短文プロンプト
+
 ### Eraser
 
 - [Eraser 記法ガイド①](./eraser-syntax-guide-1.md) - Eraserプラットフォームの記法ガイド
