@@ -33,6 +33,11 @@ prompt_source: "prompts/docs-first/creative/visual/low-poly-animal-grid-generato
 - 統一感のある動物アイコンシリーズの作成
 - ベクター品質のクリップアート生成
 
+## 参考ツイート
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1939197205174460774" />
+</ClientOnly>
+
 ## プロンプト本文
 
 ```text

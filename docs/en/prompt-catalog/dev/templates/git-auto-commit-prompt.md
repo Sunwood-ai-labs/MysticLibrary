@@ -31,6 +31,11 @@ prompt_source: "prompts/docs-first/dev/templates/git-auto-commit-prompt_EN.md"
 - Automate complete Git operations from branch creation to merge
 - Achieve granular commit splitting for clear work history
 
+## Related X Posts
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1939137953911210259" />
+</ClientOnly>
+
 ## プロンプト本文
 
 ```text

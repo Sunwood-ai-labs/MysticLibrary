@@ -31,6 +31,11 @@ prompt_source: "prompts/docs-first/docs/graphic-recording/editable-graphic-recor
 - Font Awesome を活用した視覚的な表現
 - 伝統と現代が調和した上品なグラレコ
 
+## 参考ツイート
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1936026784988115364" />
+</ClientOnly>
+
 ## プロンプト本文
 
 ```text

@@ -31,6 +31,11 @@ prompt_source: "prompts/docs-first/dev/system-prompts/claude/dev-agent-system-pr
 - 開発原則（YAGNI、KISS、DRY）に基づいた実装
 - シンプルでメンテナンス可能なコードベースの構築
 
+## 参考ツイート
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1944500789457895681" />
+</ClientOnly>
+
 ## プロンプト本文
 
 ```text

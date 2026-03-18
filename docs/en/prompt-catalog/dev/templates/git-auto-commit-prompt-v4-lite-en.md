@@ -28,6 +28,11 @@ prompt_source: "prompts/docs-first/dev/templates/git-auto-commit-prompt-v4-lite-
 
 A prompt that automatically creates appropriate English commit messages by analyzing Git diffs and automates the entire Git operation from branch creation to merge.
 
+## Related X Posts
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1939204879140167857" />
+</ClientOnly>
+
 ## Intended Use
 
 - Automatically create appropriate English commit messages by analyzing Git diffs

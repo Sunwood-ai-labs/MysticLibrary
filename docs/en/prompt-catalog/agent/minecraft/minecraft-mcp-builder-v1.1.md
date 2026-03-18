@@ -24,6 +24,11 @@ prompt_source: "prompts/docs-first/agent/minecraft/minecraft-mcp-builder-v1.1_EN
 
 # Minecraft MCP Prerequisite Prompt v1.1
 
+## Related X Posts
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1932429410206179742" />
+</ClientOnly>
+
 ## Intended Use
 
 - Building autonomous construction bots using Minecraft MCP (Model Control Protocol)

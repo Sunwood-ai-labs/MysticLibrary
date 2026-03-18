@@ -24,6 +24,11 @@ prompt_source: "prompts/docs-first/creative/visual/low-poly-animal-grid-generato
 
 # Low-Poly Animal Grid Generator Prompt V1 Lite
 
+## Related X Posts
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1939197601154506891" />
+</ClientOnly>
+
 ## Intended Use
 
 - When you want to quickly generate animal icon sets

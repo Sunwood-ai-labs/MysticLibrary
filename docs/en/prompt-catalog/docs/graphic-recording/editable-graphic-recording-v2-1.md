@@ -25,6 +25,11 @@ prompt_source: "prompts/docs-first/docs/graphic-recording/editable-graphic-recor
 
 # Editable Graphic Recording v2.1 - Aimi Yabi
 
+## Related X Posts
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1936026784988115364" />
+</ClientOnly>
+
 ## Intended Use
 
 - Editable graphic recording with traditional indigo aesthetics elevated to modern times

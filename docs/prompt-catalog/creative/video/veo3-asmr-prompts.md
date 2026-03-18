@@ -33,6 +33,11 @@ prompt_source: "prompts/docs-first/creative/video/veo3-asmr-prompts_JP.md"
 - ミニチュア着物フィギュアを活用した美しいビジュアルコンテンツの生成
 - 伝統文化と現代技術の融合を表現するアートコンテンツの制作
 
+## 参考ツイート
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1938618458872418770" />
+</ClientOnly>
+
 ## プロンプト本文
 
 このプロンプトは3つのシーンパターンに対応しています。生成したいシーンを選択してください。

@@ -26,6 +26,11 @@ prompt_source: "prompts/docs-first/creative/video/veo3-asmr-prompts_EN.md"
 
 # Veo3 ASMR Video Generation Prompts
 
+## Related X Posts
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1938618458872418770" />
+</ClientOnly>
+
 ## Intended Use
 
 - Creating ASMR videos with AI video generation tools (Veo3, etc.)

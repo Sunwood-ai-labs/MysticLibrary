@@ -25,6 +25,11 @@ prompt_source: "prompts/docs-first/dev/system-prompts/claude/dev-agent-system-pr
 
 # Development Agent System Prompt V1
 
+## Related X Posts
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1944500789457895681" />
+</ClientOnly>
+
 ## Intended Use
 
 - Creating high-quality code and documentation

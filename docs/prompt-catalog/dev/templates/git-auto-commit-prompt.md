@@ -31,6 +31,11 @@ prompt_source: "prompts/docs-first/dev/templates/git-auto-commit-prompt_JP.md"
 - ブランチ作成からマージまでの一連のGit操作を自動化する
 - 作業履歴を明確に残すための細かいコミット分割を実現する
 
+## 参考ツイート
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1939137953911210259" />
+</ClientOnly>
+
 ## プロンプト本文
 
 ```text

@@ -31,6 +31,11 @@ prompt_source: "prompts/docs-first/creative/visual/low-poly-animal-grid-generato
 - ローポリゴンスタイルの一貫性を重視する場合
 - ベクターフレンドリーなクリーンなデザインが必要な場合
 
+## 参考ツイート
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1939197601154506891" />
+</ClientOnly>
+
 ## プロンプト本文
 
 ```text

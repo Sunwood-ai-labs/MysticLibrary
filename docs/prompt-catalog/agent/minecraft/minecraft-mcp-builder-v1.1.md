@@ -30,6 +30,11 @@ prompt_source: "prompts/docs-first/agent/minecraft/minecraft-mcp-builder-v1.1_JP
 - コマンドベースの遠隔建築による干渉回避
 - クリエイティブモードでの効率的な建築作業
 
+## 参考ツイート
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1932429410206179742" />
+</ClientOnly>
+
 ## プロンプト本文
 
 ```text
