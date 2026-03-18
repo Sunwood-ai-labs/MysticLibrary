@@ -18,6 +18,8 @@ tags:
   - up-tempo
   - high-energy
 status: stable
+variant: simplified
+legacy_source: prompts/audio/amped_enka_lyrics_EN.md
 owner: creative-team
 last_reviewed: 2026-02-23
 ---

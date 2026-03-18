@@ -1,5 +1,5 @@
 ---
-title: 包括的ラップ歌詞生成プロンプト v1.1
+title: 包括的ラップ歌詞生成プロンプト v1.0
 description: 韻の技法からSUNOスタイルガイドラインまで、ラップ歌詞作成のすべてを網羅した包括的なプロンプト
 category: creative
 intent: comprehensive-rap-lyrics-generator
@@ -18,11 +18,13 @@ tags:
   - 音楽生成AI
   - 韻
 status: stable
+version: "1.0"
+legacy_source: prompts/audio/comprehensive-improved-rap-prompt_JP.md
 owner: creative-team
 last_reviewed: 2026-02-23
 ---
 
-# 包括的ラップ歌詞生成プロンプト v1.1
+# 包括的ラップ歌詞生成プロンプト v1.0
 
 ## 想定用途
 
@@ -33,7 +35,7 @@ last_reviewed: 2026-02-23
 ## プロンプト本文
 
 ```text
-# 包括的ラップ歌詞生成プロンプト v1.1
+# 包括的ラップ歌詞生成プロンプト v1.0
 
 ## 入力要件
 以下の項目について、希望する要素を指定してください：

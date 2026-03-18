@@ -17,6 +17,8 @@ tags:
   - Suno
   - 音楽生成AI
 status: stable
+variant: detailed
+legacy_source: prompts/audio/amped_enka_lyrics_JP.md
 owner: prompt-catalog-team
 last_reviewed: 2026-02-23
 ---

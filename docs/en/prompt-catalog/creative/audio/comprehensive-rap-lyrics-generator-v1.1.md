@@ -21,6 +21,8 @@ tags:
   - rhyme
   - rhythm
 status: stable
+version: "1.1"
+legacy_source: prompts/audio/comprehensive-improved-rap-prompt_v1.1_EN.md
 owner: creative-team
 last_reviewed: 2026-02-23
 ---

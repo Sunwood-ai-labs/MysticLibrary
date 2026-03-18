@@ -1,5 +1,5 @@
 ---
-title: Comprehensive Rap Lyric Generation Prompt v1.1
+title: Comprehensive Rap Lyric Generation Prompt v1.0
 description: Comprehensive prompt covering all rap lyric creation from rhyme techniques to SUNO style guidelines
 category: creative
 intent: comprehensive-rap-lyrics-generator
@@ -18,11 +18,13 @@ tags:
   - music-generation-ai
   - rhyme
 status: stable
+version: "1.0"
+legacy_source: prompts/audio/comprehensive-improved-rap-prompt_EN.md
 owner: creative-team
 last_reviewed: 2026-02-23
 ---
 
-# Comprehensive Rap Lyric Generation Prompt v1.1
+# Comprehensive Rap Lyric Generation Prompt v1.0
 
 ## Intended Use
 
@@ -33,7 +35,7 @@ last_reviewed: 2026-02-23
 ## Prompt Text
 
 ```text
-# Comprehensive Rap Lyric Generation Prompt v1.1
+# Comprehensive Rap Lyric Generation Prompt v1.0
 
 ## Input Requirements
 Please specify your preferred elements for the following items:

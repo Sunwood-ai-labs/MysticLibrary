@@ -18,6 +18,8 @@ tags:
   - アップテンポ
   - ハイテンション
 status: stable
+variant: simplified
+legacy_source: prompts/audio/amped_enka_lyrics_JP.md
 owner: creative-team
 last_reviewed: 2026-02-23
 ---
