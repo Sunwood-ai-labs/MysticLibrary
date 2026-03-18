@@ -11,8 +11,8 @@ last_reviewed: 2026-03-19
 # X Imports
 
 - branch: docs / graphic-recording
-- items: 26
-- classified: 26
+- items: 27
+- classified: 27
 - needs review: 0
 
 ## Latest 20
@@ -39,4 +39,4 @@ last_reviewed: 2026-03-19
 
 ## By Year
 - [2026](./2026/index.md) - 1 items
-- [2025](./2025/index.md) - 25 items
+- [2025](./2025/index.md) - 26 items

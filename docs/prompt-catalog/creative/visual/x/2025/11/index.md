@@ -11,7 +11,7 @@ last_reviewed: 2026-03-19
 # X Imports 2025-11
 
 - branch: creative / visual
-- items: 46
+- items: 47
 
 ## Entries
 - [ほんわかNanoBananaPro図解 プロンプト2Kモードで使ってみた!](./1995140880685203588.md) - 2025-11-30 23:40:28 JST / classified / high
@@ -59,4 +59,5 @@ last_reviewed: 2026-03-19
 - [Clay Characters プロンプト でリポジトリのヘッダ画像を作ってみた!!](./1987562023597883402.md) - 2025-11-10 01:44:48 JST / classified / high
 - [Clay Characters プロンプトをWhiskでやってみた!!](./1987559935606186210.md) - 2025-11-10 01:36:30 JST / classified / high
 - [Stencil-style プロンプト でリポジトリのヘッダ画像作ってみた!!](./1986658520113242241.md) - 2025-11-07 13:54:36 JST / classified / medium
+- [Stencil-style プロンプト使ってみた!!](./1986653928080232903.md) - 2025-11-07 13:36:21 JST / classified / 0.97
 - [思いつきプロンプト](./1986059098983629054.md) - 2025-11-05 22:12:43 JST / classified / medium

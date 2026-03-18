@@ -11,11 +11,11 @@ last_reviewed: 2026-03-19
 # X Imports 2025
 
 - branch: creative / visual
-- items: 237
+- items: 244
 
 ## By Month
-- [2025-12](./12/index.md) - 101 items
-- [2025-11](./11/index.md) - 46 items
+- [2025-12](./12/index.md) - 107 items
+- [2025-11](./11/index.md) - 47 items
 - [2025-10](./10/index.md) - 12 items
 - [2025-09](./09/index.md) - 32 items
 - [2025-08](./08/index.md) - 10 items

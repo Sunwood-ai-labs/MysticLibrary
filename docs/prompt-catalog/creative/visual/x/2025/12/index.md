@@ -11,7 +11,7 @@ last_reviewed: 2026-03-19
 # X Imports 2025-12
 
 - branch: creative / visual
-- items: 101
+- items: 107
 
 ## Entries
 - [まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ⓰](./2006343971858198809.md) - 2025-12-31 21:37:33 JST / classified / high
@@ -31,6 +31,7 @@ last_reviewed: 2026-03-19
 - [Aurora Fjord Paper-Cut Dream](./2003841443207807404.md) - 2025-12-24 23:53:24 JST / classified / low
 - [GENERAL STYLE &amp; MOOD:](./2003371471146831987.md) - 2025-12-23 16:45:54 JST / classified / high
 - [GENERAL STYLE &amp; MOOD:](./2003371121522143387.md) - 2025-12-23 16:44:30 JST / classified / high
+- [Higgsfieldの Cinema Studio でスタートフレーム+エンドフレーム固定実験1⃣3⃣~車の組み上げ~](./2003365922413920716.md) - 2025-12-23 16:23:51 JST / classified / 0.96
 - [GENERAL STYLE &amp; MOOD:](./2002960121555832870.md) - 2025-12-22 13:31:20 JST / classified / high
 - [ブログやプロフから作成する nano banana 今年の漢字プロンプト V1 爆誕🔥🔥🔥](./2002793781805130211.md) - 2025-12-22 02:30:22 JST / classified / high
 - [結構良い出来だがありがちな漢字なのがな~](./2002793517626900520.md) - 2025-12-22 02:29:19 JST / classified / high
@@ -56,6 +57,7 @@ last_reviewed: 2026-03-19
 - [編集契約書:背景の群衆だけ除去2⃣](./2000785318585491584.md) - 2025-12-16 13:29:27 JST / classified / high
 - [編集契約書:背景の群衆だけ除去1⃣](./2000785312793153835.md) - 2025-12-16 13:29:26 JST / classified / high
 - [ブリーフ型:大人数・シネマティック集合写真](./2000781020216615300.md) - 2025-12-16 13:12:22 JST / classified / medium
+- [背景をクリスマスっぽく変更して](./2000171284492427559.md) - 2025-12-14 20:49:30 JST / classified / 0.73
 - [🍌バナナプロンプトエージェント V1.3使って 「ダークファンタジー四天王」プロンプト作ってみた!](./1999918377226383360.md) - 2025-12-14 04:04:32 JST / classified / high
 - [nano banana pro 用のサムネイルを作成する「認知科学ベース・高CTRサムネイル設計プロンプト V0」爆誕🔥](./1999484851594879441.md) - 2025-12-12 23:21:51 JST / classified / medium
 - [あなたは「超現実的な物理シミュレーション」を行う3Dアーティストです。](./1999057700790178235.md) - 2025-12-11 19:04:31 JST / classified / low
@@ -69,6 +71,7 @@ last_reviewed: 2026-03-19
 - [🍌 nano banana pro エージェントV1.2を使って空想の世界地図を作成する「王宮地図製作者(ロイヤル・カートグラファー)」プロンプト爆誕🔥](./1998288112313852049.md) - 2025-12-09 16:06:27 JST / classified / medium
 - [🍌 nano banana pro エージェントV1.2を使って空想の世界地図を作成する「王宮地図製作者(ロイヤル・カートグラファー)」プロンプト爆誕🔥](./1998288112125100032.md) - 2025-12-09 16:06:26 JST / classified / high
 - [🍌 nano banana pro エージェントV1.2を使って空想の世界地図を作成する「王宮地図製作者(ロイヤル・カートグラファー)」プロンプト爆誕🔥](./1998283398700560812.md) - 2025-12-09 15:47:43 JST / classified / high
+- [AIブラウザ Comet ✖ higgsfield で実験自動化2⃣](./1998281099940876412.md) - 2025-12-09 15:38:35 JST / classified / medium
 - [🍌 nano banana pro エージェントV1.2使って「ホラーサムネイル」プロンプト爆誕🔥](./1997637299161509903.md) - 2025-12-07 21:00:21 JST / classified / medium
 - [🍌 nano banana pro エージェントV1.2使って「鍋に入ったままの今日の料理かっこよくする」プロンプト爆誕🔥](./1997635783226986823.md) - 2025-12-07 20:54:19 JST / classified / high
 - [🍌 nano banana pro エージェントV1.2使って「超現実水族館」プロンプト爆誕!!!](./1997628820179042473.md) - 2025-12-07 20:26:39 JST / classified / medium
@@ -113,5 +116,8 @@ last_reviewed: 2026-03-19
 - [Nano Banana Pro vs FLUX.2 Pro vs FLUX.2 Dev vs Z Image Turbo vs SeeDream 4.5 バトル実験❸](./1996256466735677445.md) - 2025-12-04 01:33:24 JST / classified / high
 - [Nano Banana Pro vs FLUX.2 Pro vs FLUX.2 Dev vs Z Image Turbo vs SeeDream 4.5 バトル実験❶](./1996246298882937288.md) - 2025-12-04 00:53:00 JST / classified / high
 - [Nano Banana Pro vs FLUX.2 Pro vs FLUX.2 Dev vs Z Image Turbo vs SeeDream 4.5 バトル実験❶](./1996244874203684934.md) - 2025-12-04 00:47:21 JST / classified / high
+- [神社・ミディアムショット](./1996209737830998236.md) - 2025-12-03 22:27:43 JST / classified / medium
+- [🌟素材集](./1995854577779048757.md) - 2025-12-02 22:56:27 JST / classified / high
 - [あなたはポップカルチャーに精通したイラストレーターAIです。](./1995747876811780423.md) - 2025-12-02 15:52:27 JST / classified / low
 - [やはりメカ系はFLUX.2 Pro の方が良さそうな気がする!](./1995378901082861793.md) - 2025-12-01 15:26:17 JST / classified / low
+- [私も参戦してみた!](./1995374749476913558.md) - 2025-12-01 15:09:47 JST / classified / medium
