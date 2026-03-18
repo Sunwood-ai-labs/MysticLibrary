@@ -442,6 +442,9 @@ async function collectDocPages(roots) {
       }
       const raw = await readFile(absPath, 'utf8');
       const frontmatter = parseFrontmatter(raw);
+      if (shouldSkipCanonicalAudit(frontmatter)) {
+        continue;
+      }
       const relPath = relativeFromRoot(absPath, process.cwd());
       const locale = path
         .relative(process.cwd(), absPath)
@@ -458,6 +461,11 @@ async function collectDocPages(roots) {
     }
   }
   return result;
+}
+
+function shouldSkipCanonicalAudit(frontmatter) {
+  const intent = String(frontmatter.intent ?? '').trim();
+  return intent === 'x-import' || intent === 'x-marker-archive';
 }
 
 async function collectMarkdownFiles(dir) {

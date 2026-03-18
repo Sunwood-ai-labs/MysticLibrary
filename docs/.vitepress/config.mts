@@ -131,10 +131,12 @@ function sortEntries(entries: string[], directoryPath: string, locale: LocaleCod
   const orderIndex = new Map(preferredOrder.map((name, index) => [name, index]));
 
   return [...entries].sort((a, b) => {
+    if (a === "x" && b !== "x") return 1;
+    if (b === "x" && a !== "x") return -1;
     const aIndex = orderIndex.get(a) ?? Number.MAX_SAFE_INTEGER;
     const bIndex = orderIndex.get(b) ?? Number.MAX_SAFE_INTEGER;
     if (aIndex !== bIndex) return aIndex - bIndex;
-    if (isArchiveBranch(relativeDirectory)) {
+    if (isXSeriesBranch(relativeDirectory)) {
       return b.localeCompare(a, "en");
     }
     return a.localeCompare(b, "en");
@@ -145,12 +147,13 @@ function normalizeRoutePath(route: string) {
   return route.replace(/\\/g, "/");
 }
 
-function isArchiveBranch(relativeDirectory: string) {
-  return relativeDirectory === "prompt-catalog/archive/x" || relativeDirectory.startsWith("prompt-catalog/archive/x/");
+function isXSeriesBranch(relativeDirectory: string) {
+  const normalized = normalizeRoutePath(relativeDirectory);
+  return normalized.startsWith("prompt-catalog/") && normalized.split("/").includes("x");
 }
 
-function shouldHideArchiveLeafFiles(relativeDirectory: string) {
-  return isArchiveBranch(relativeDirectory);
+function shouldHideXLeafFiles(relativeDirectory: string) {
+  return isXSeriesBranch(relativeDirectory);
 }
 
 function stripQuotes(value: string) {
@@ -221,7 +224,7 @@ function buildPromptCatalogDirectoryItems(
       statSync(fullPath).isFile() &&
       entry.endsWith(".md") &&
       entry !== "index.md" &&
-      !shouldHideArchiveLeafFiles(relativeDirectory)
+      !shouldHideXLeafFiles(relativeDirectory)
     );
   });
 
