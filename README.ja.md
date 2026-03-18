@@ -33,21 +33,31 @@ AIを使っていると「このプロンプト、前も書いたな...」とい
 
 **静的サイト生成**: Viteでビルドして GitHub Pages にデプロイするだけ。サーバー運用の手間がかかりません。
 
+## 正本
+
+公開しているプロンプトカタログは `docs/` を正本として管理します。
+
+- 追加・修正は `docs/prompt-catalog/` と `docs/en/prompt-catalog/` を優先します
+- `prompts/` に対応元や互換ファイルがある場合は `prompt_source` frontmatter で追跡します
+- `prompts/` は移行中の mirror / legacy レイヤーとして扱います
+
 ## セットアップ
 
 ```bash
 git clone https://github.com/your-username/MysticLibrary.git
 cd MysticLibrary
 npm install
-npm run dev      # 開発サーバー起動
-npm run build    # 本番ビルド
+npm run docs:dev             # VitePress をローカル起動
+npm run docs:build           # 公開用 docs をビルド
+npm run docs:canonical-audit # docs/prompts の正本対応を監査
 ```
 
 ## ディレクトリ構成
 
 ```
 MysticLibrary/
-├── prompts/           # プロンプト本体（カテゴリ別）
+├── docs/              # 公開カタログの正本
+├── prompts/           # 移行中の mirror / legacy prompt
 ├── public/            # 静的アセット
 ├── src/               # フロントエンド
 ├── nginx/             # Docker用nginx設定
@@ -63,7 +73,7 @@ MysticLibrary/
 
 ## コントリビューション
 
-新しいプロンプトは `prompts/` 配下にMarkdownで追加してください。Issue・PRお待ちしています。
+新しいカタログ項目は `docs/prompt-catalog/` と `docs/en/prompt-catalog/` に追加・修正してください。`prompts/` 側に対応元がある場合は `prompt_source` frontmatter も合わせて管理してください。Issue・PRお待ちしています。
 
 ## お問い合わせ
 

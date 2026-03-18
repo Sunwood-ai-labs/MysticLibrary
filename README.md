@@ -33,21 +33,31 @@ Anyone can view and utilize prompts organized by categories such as audio genera
 
 **Static Site Generation**: Simply build with Vite and deploy to GitHub Pages. No server maintenance required.
 
+## Source of Truth
+
+The published prompt catalog is maintained in `docs/`.
+
+- Update catalog pages under `docs/prompt-catalog/` and `docs/en/prompt-catalog/`
+- Use `prompt_source` frontmatter when a docs page mirrors or supersedes a file in `prompts/`
+- Treat `prompts/` as a migration or mirror layer, not the primary editing surface
+
 ## Setup
 
 ```bash
 git clone https://github.com/your-username/MysticLibrary.git
 cd MysticLibrary
 npm install
-npm run dev      # Start development server
-npm run build    # Production build
+npm run docs:dev             # Start VitePress locally
+npm run docs:build           # Build the published docs
+npm run docs:canonical-audit # Audit docs/prompts canonical mapping
 ```
 
 ## Directory Structure
 
 ```
 MysticLibrary/
-├── prompts/           # Prompts (organized by category)
+├── docs/              # Source of truth for the published catalog
+├── prompts/           # Legacy or mirrored prompt files during migration
 ├── public/            # Static assets
 ├── src/               # Frontend
 ├── nginx/             # nginx config for Docker
@@ -63,7 +73,7 @@ MysticLibrary/
 
 ## Contributing
 
-Please add new prompts as Markdown files under `prompts/`. Issues and PRs are welcome.
+Please add or update catalog content under `docs/prompt-catalog/` and `docs/en/prompt-catalog/`. If a page corresponds to a legacy prompt file, keep the `prompt_source` metadata in sync. Issues and PRs are welcome.
 
 ## Contact
 
