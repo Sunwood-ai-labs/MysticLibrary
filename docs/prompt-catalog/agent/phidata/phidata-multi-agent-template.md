@@ -3,6 +3,9 @@ title: Phidata マルチエージェント プロンプトテンプレート
 description: Phidataフレームワークを使用したマルチエージェントAIシステムの設計・実装を自動生成するためのテンプレート
 category: agent
 intent: phidata-multi-agent
+canonical_id: phidata-multi-agent-template
+canonical_role: source
+prompt_source: prompts/Company-as-a-Code/Phidata-Prompt-Template_JP.md
 audience:
   - AIエンジニア
   - マルチエージェントシステム開発者
@@ -21,6 +24,12 @@ last_reviewed: 2026-02-23
 ---
 
 # Phidata マルチエージェント プロンプトテンプレート
+
+## ドキュメントの役割
+
+- 本ページは `agent` カタログ側の**正本**です。
+- 元プロンプトは `prompts/Company-as-a-Code/Phidata-Prompt-Template_JP.md` を参照します。
+- 開発運用向けの導入版は [phidata-multi-agent-template（開発向け）](../../dev/agent-prompts/phidata-multi-agent-template.md) です。
 
 ## 想定用途
 

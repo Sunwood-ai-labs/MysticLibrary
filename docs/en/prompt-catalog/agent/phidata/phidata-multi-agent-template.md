@@ -3,6 +3,9 @@ title: Phidata Multi-Agent Prompt Template
 description: Template for automatically designing and implementing multi-agent AI systems using the Phidata framework
 category: agent
 intent: phidata-multi-agent
+canonical_id: phidata-multi-agent-template
+canonical_role: source
+prompt_source: prompts/Company-as-a-Code/Phidata-Prompt-Template_EN.md
 audience:
   - AI engineers
   - Multi-agent system developers
@@ -21,6 +24,12 @@ last_reviewed: 2026-02-23
 ---
 
 # Phidata Multi-Agent Prompt Template
+
+## Document Role
+
+- This page is the **source-of-truth** entry in `agent` catalog.
+- It is sourced from `prompts/Company-as-a-Code/Phidata-Prompt-Template_EN.md`.
+- The implementation-oriented variant is [Phidata Multi-Agent Template (dev guide)](../../dev/agent-prompts/phidata-multi-agent-template.md).
 
 ## Intended Use
 
