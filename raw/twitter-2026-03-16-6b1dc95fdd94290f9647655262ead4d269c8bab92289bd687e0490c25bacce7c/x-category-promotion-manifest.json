@@ -5,11 +5,11 @@
   "summary": {
     "canonical_record_count": 812,
     "review_decisions": 802,
-    "categorized_docs": 799,
-    "archive_only_records": 3,
+    "categorized_docs": 801,
+    "archive_only_records": 1,
     "counts_by_top_category": {
-      "creative": 596,
-      "dev": 139,
+      "creative": 597,
+      "dev": 140,
       "methodology": 3,
       "docs": 39,
       "writing": 8,
@@ -1740,6 +1740,21 @@
       "reviewer": "manual:batch-d-dev-docs-archive",
       "source_url": "https://x.com/hAru_mAki_ch/status/2003325168010371438",
       "source_published_at": "2025-12-23T04:41:54.000Z",
+      "archive_bucket": "2025-12"
+    },
+    {
+      "primary_id": "2003311586979778745",
+      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2003311586979778745.md",
+      "categorized_doc_path": "docs/prompt-catalog/dev/agent-prompts/x/2025/12/2003311586979778745.md",
+      "top_category": "dev",
+      "subpath": "agent-prompts",
+      "title": "Amazon らくらくベビーお試しBox 在庫確認タスク",
+      "summary": "Amazon らくらくベビーの出産準備お試しBoxの在庫確認タスク",
+      "review_status": "classified",
+      "confidence": "0.99",
+      "reviewer": "manual:thread-recovery-round3",
+      "source_url": "https://x.com/hAru_mAki_ch/status/2003311586979778745",
+      "source_published_at": "2025-12-23T03:47:56.000Z",
       "archive_bucket": "2025-12"
     },
     {
@@ -6855,6 +6870,21 @@
       "reviewer": "classifier-nodejs",
       "source_url": "https://x.com/hAru_mAki_ch/status/1983883940055392745",
       "source_published_at": "2025-10-30T13:09:24.000Z",
+      "archive_bucket": "2025-10"
+    },
+    {
+      "primary_id": "1983821127324705111",
+      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/10/1983821127324705111.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/10/1983821127324705111.md",
+      "top_category": "creative",
+      "subpath": "video",
+      "title": "Sora 2 キャラカメオ動画 prompt",
+      "summary": "@ makimakia.pastrypuff カフェで料理をしている",
+      "review_status": "classified",
+      "confidence": "0.98",
+      "reviewer": "manual:thread-recovery-round3",
+      "source_url": "https://x.com/hAru_mAki_ch/status/1983821127324705111",
+      "source_published_at": "2025-10-30T08:59:49.000Z",
       "archive_bucket": "2025-10"
     },
     {
@@ -12005,23 +12035,9 @@
   ],
   "archive_only_records": [
     {
-      "primary_id": "2003311586979778745",
-      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2003311586979778745.md",
-      "reason": "本文は Amazon の URL だけで、再利用できるプロンプト手順や指示文がないため、カタログ化の根拠がない。",
-      "fallback_action": "archive_only",
-      "reviewer": "manual:archive-only-round2-batch-6-mixed-edge"
-    },
-    {
       "primary_id": "1987914939064025265",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1987914939064025265.md",
       "reason": "アーカイブ文書は prompt body が extraction 後に空で、添付 mp4 の先頭フレームを見ても LUMA の生成結果らしい映像しかなく、再利用可能な指示文を復元できない。",
-      "fallback_action": "archive_only",
-      "reviewer": "manual:archive-only-round2-batch-6-mixed-edge"
-    },
-    {
-      "primary_id": "1983821127324705111",
-      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/10/1983821127324705111.md",
-      "reason": "復元した本文は Sora 2 のキャラカメオができたという状態メモで、プロンプトとして再利用できる指示が含まれていない。",
       "fallback_action": "archive_only",
       "reviewer": "manual:archive-only-round2-batch-6-mixed-edge"
     }
