@@ -1,0 +1,95 @@
+---
+title: "X Imports 2025-12"
+description: "Categorized X prompt imports for creative / visual in 2025-12"
+category: "creative"
+intent: x-import-index
+status: archived
+owner: prompt-catalog-team
+last_reviewed: 2026-03-19
+---
+
+# X Imports 2025-12
+
+- branch: creative / visual
+- items: 79
+
+## Entries
+- [まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ⓯](./2006343419178963188.md) - 2025-12-31 21:35:21 JST / needs_review / medium
+- [まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ⓮](./2006342432225718510.md) - 2025-12-31 21:31:26 JST / needs_review / medium
+- [まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ⓭](./2006339595894731226.md) - 2025-12-31 21:20:10 JST / needs_review / medium
+- [まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ❾](./2006337416131498308.md) - 2025-12-31 21:11:30 JST / needs_review / low
+- [まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ❽](./2006337175076434033.md) - 2025-12-31 21:10:33 JST / needs_review / medium
+- [まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ❼](./2006333446814400992.md) - 2025-12-31 20:55:44 JST / needs_review / low
+- [まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ❻](./2006333189292454292.md) - 2025-12-31 20:54:42 JST / needs_review / medium
+- [まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ❺](./2006332821514711202.md) - 2025-12-31 20:53:15 JST / needs_review / medium
+- [まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ❹](./2006332543675539892.md) - 2025-12-31 20:52:08 JST / needs_review / low
+- [まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ❸](./2006332188015591609.md) - 2025-12-31 20:50:44 JST / needs_review / low
+- [まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ❶](./2006314582709846474.md) - 2025-12-31 19:40:46 JST / needs_review / medium
+- [Eternal Rome in Paper Layers](./2003841447074914340.md) - 2025-12-24 23:53:25 JST / needs_review / low
+- [Aurora Fjord Paper-Cut Dream](./2003841443207807404.md) - 2025-12-24 23:53:24 JST / needs_review / low
+- [nanobanana pro RPGステータス画面Xプロフプロンプト爆誕🔥](./2002602714795225544.md) - 2025-12-21 13:51:08 JST / needs_review / medium
+- [nanobanana pro名刺ケース Xプロフプロンプト爆誕🔥](./2002262807237308889.md) - 2025-12-20 15:20:28 JST / classified / high
+- [余白を塗り足しプロンプトはこちら👇](./2001984622624948636.md) - 2025-12-19 20:55:03 JST / needs_review / medium
+- [Xプロフ名刺プロンプト V3(裏面版)爆誕🔥](./2001946908353609826.md) - 2025-12-19 18:25:11 JST / classified / high
+- [Xプロフ名刺プロンプト V3爆誕🔥オリジナルキャラクターのカラーマップを考慮して名刺の表と裏を作成してくれます!](./2001946570837876866.md) - 2025-12-19 18:23:51 JST / classified / high
+- [Xプロフ名刺プロンプト V2爆誕🔥オリジナルキャラクターのカラーマップを考慮して名刺にしてくれます!](./2001942809440559276.md) - 2025-12-19 18:08:54 JST / classified / high
+- [❿円版](./2001612610295480416.md) - 2025-12-18 20:16:49 JST / needs_review / low
+- [100円版](./2001612607032365256.md) - 2025-12-18 20:16:48 JST / needs_review / low
+- [GENERAL STYLE &amp; MOOD:](./2001592507675853134.md) - 2025-12-18 18:56:56 JST / needs_review / low
+- [GPT Image 1.5 でワールドツアープロンプト V1爆誕🔥](./2001592503926165895.md) - 2025-12-18 18:56:55 JST / needs_review / medium
+- [「うちの子スライド」のプロンプトを改造して、ロゴでもやってみた!!!](./2001028384818913732.md) - 2025-12-17 05:35:18 JST / needs_review / medium
+- [🍌Nano Banana Pro Prompt Agent V2.3~Archetype~ ✖ ディープリサーチの自分のアカウントのレポートでロゴのデザイン作ってもらった!!](./2001020797163598223.md) - 2025-12-17 05:05:09 JST / needs_review / medium
+- [こちらのを参考にして、🍌Nano Banana Pro Prompt Agent V2.3~Archetype~ でオリジナルキャラクターの神輿を作ってみた!!!](./2000921880136704062.md) - 2025-12-16 22:32:06 JST / needs_review / medium
+- [🍌Nano Banana Pro Prompt Agent V2.3~Archetype~✖ジオラマ✖コーヒーカップでやってみた!](./2000899151903793421.md) - 2025-12-16 21:01:47 JST / classified / high
+- [ブリーフ型:大人数・シネマティック集合写真](./2000781020216615300.md) - 2025-12-16 13:12:22 JST / classified / medium
+- [Kaggleで今ってどんなコンペが開催してる??](./2000179297970213262.md) - 2025-12-14 21:21:20 JST / needs_review / low
+- [🍌バナナプロンプトエージェント V1.3使って 「ダークファンタジー四天王」プロンプト作ってみた!](./1999918377226383360.md) - 2025-12-14 04:04:32 JST / classified / high
+- [nano banana pro 用のサムネイルを作成する「認知科学ベース・高CTRサムネイル設計プロンプト V0」爆誕🔥](./1999484851594879441.md) - 2025-12-12 23:21:51 JST / needs_review / medium
+- [あなたは「超現実的な物理シミュレーション」を行う3Dアーティストです。](./1999057700790178235.md) - 2025-12-11 19:04:31 JST / needs_review / low
+- [あなたは「超現実的な物理シミュレーション」を行う3Dアーティストです。](./1999057696923009505.md) - 2025-12-11 19:04:30 JST / needs_review / low
+- [あなたは「超現実的な物理シミュレーション」を行う3Dアーティストです。](./1999057692636205207.md) - 2025-12-11 19:04:29 JST / classified / high
+- [あなたは「超現実的な物理シミュレーション」を行う3Dアーティストです。](./1999057688718967190.md) - 2025-12-11 19:04:28 JST / needs_review / low
+- [あなたは新規サービスの立ち上げやリデザインを得意とする、経験豊富なシニアUI/UXデザイナーです。](./1998387569763987782.md) - 2025-12-09 22:41:39 JST / needs_review / medium
+- [🍌 nano banana pro エージェントV1.2で VideコーディングしたアプリのUIを刷新するプロンプト作成した🔥](./1998387564659810735.md) - 2025-12-09 22:41:38 JST / classified / high
+- [さらに便乗して🍌 nano banana pro エージェントV1.2で帽子の上ジオラマ(Head-top Diorama)プロンプトにして作成してみた!!!](./1998335885985669354.md) - 2025-12-09 19:16:17 JST / classified / high
+- [私も便乗して頭上ジオラマ(Head-top Diorama)プロンプトにして🍌 nano banana pro エージェントV1.2で作成してみた!!!](./1998329861744570695.md) - 2025-12-09 18:52:20 JST / classified / high
+- [🍌 nano banana pro エージェントV1.2を使って空想の世界地図を作成する「王宮地図製作者(ロイヤル・カートグラファー)」プロンプト爆誕🔥](./1998288112313852049.md) - 2025-12-09 16:06:27 JST / classified / medium
+- [AIブラウザ Comet ✖ higgsfield で実験自動化2⃣](./1998281099940876412.md) - 2025-12-09 15:38:35 JST / needs_review / medium
+- [🍌 nano banana pro エージェントV1.2使って「ホラーサムネイル」プロンプト爆誕🔥](./1997637299161509903.md) - 2025-12-07 21:00:21 JST / needs_review / medium
+- [🍌 nano banana pro エージェントV1.2使って「超現実水族館」プロンプト爆誕!!!](./1997628820179042473.md) - 2025-12-07 20:26:39 JST / needs_review / medium
+- [🍌 nano banana pro エージェントV1.2を使って「世界遺産の巨大ジオラマを作成するプロンプト」爆誕](./1997616865347252552.md) - 2025-12-07 19:39:09 JST / classified / high
+- [🍌 nano banana pro エージェントV1.2を使って、経度と緯度を指定したら、その場所のジオラマができる](./1997605299448856749.md) - 2025-12-07 18:53:11 JST / classified / high
+- [🍌 nano banana pro エージェントV1.2使って「赤ちゃんのアニバーサリーフォトグラファープロンプト」作ってみた!!](./1997523574467490148.md) - 2025-12-07 13:28:27 JST / classified / medium
+- [🍌 nano banana pro エージェントV1.2使って「赤ちゃんのアニバーサリーフォトグラファープロンプト」作ってみた!!](./1997523574291312640.md) - 2025-12-07 13:28:26 JST / needs_review / medium
+- [🍌バナナプロンプトエージェント V1.2使って「ニューボーンフォトグラファープロンプト」作ってみた!!](./1997520885478289614.md) - 2025-12-07 13:17:45 JST / classified / high
+- [nano banana pro ✖ トラベルインフルエンサープロンプト V1 使って「サントリーニ島・イア」に行ってみた!!](./1997366281964781884.md) - 2025-12-07 03:03:25 JST / needs_review / medium
+- [「トラベルフォトグラファープロンプト V1 」で二重カルデラの孤島:青ヶ島(日本・東京)を旅してきた!!](./1997363797846380989.md) - 2025-12-07 02:53:33 JST / needs_review / medium
+- [3x3グリッドプロンプトをトラベルフォトグラファープロンプトをコラボしてみた!!!](./1997363106323075293.md) - 2025-12-07 02:50:48 JST / needs_review / medium
+- [「トラベルフォトグラファープロンプト V1 」でアンテロープ・キャニオン を旅してきた!!](./1997361635686777187.md) - 2025-12-07 02:44:57 JST / needs_review / medium
+- [トラベルフォトグラファープロンプト V1](./1997359999962730839.md) - 2025-12-07 02:38:27 JST / needs_review / medium
+- [nano banana pro のグラレコプロンプト 爆誕🔥](./1997349048127516919.md) - 2025-12-07 01:54:56 JST / classified / high
+- [3Dアイソメトリック・ピクト図解 V4(オリジナルキャラクター版)](./1997342805107372292.md) - 2025-12-07 01:30:08 JST / classified / high
+- [3Dアイソメトリック・ピクト図解 V4(シンプル版)](./1997340072082042958.md) - 2025-12-07 01:19:16 JST / classified / high
+- [2人で秘境探検プロンプトを開発中2⃣](./1997245921072222382.md) - 2025-12-06 19:05:09 JST / needs_review / low
+- [これをベースに2人で秘境探検プロンプトを開発中、、、](./1997245352026771829.md) - 2025-12-06 19:02:53 JST / needs_review / low
+- [《位置情報》緯度と経度が35.31721720077321, 139.5357227423284の位置](./1997237984052248677.md) - 2025-12-06 18:33:36 JST / needs_review / low
+- [《位置情報》緯度と経度が35.31721720077321, 139.5357227423284の位置](./1997236080509354453.md) - 2025-12-06 18:26:03 JST / needs_review / low
+- [《位置情報》緯度と経度が35.31721720077321, 139.5357227423284の位置](./1997233466094821872.md) - 2025-12-06 18:15:39 JST / needs_review / low
+- [プロンプトの構造をアイソメトリックなピクト図解してみたらトンデモなく分かりやすくてビビった、、、](./1997163100521611380.md) - 2025-12-06 13:36:03 JST / needs_review / low
+- [Hyper-realistic 3D square diorama of Santorini as a floating sky island, carved out with expose…](./1997143645057868116.md) - 2025-12-06 12:18:44 JST / needs_review / low
+- [Hyper-realistic 3D square diorama of Sydney, carved out with exposed underwater cross-section b…](./1997143636514165027.md) - 2025-12-06 12:18:42 JST / needs_review / low
+- [Visual: Focus on Bondi Beach section. Tiny surfers ride the gentle waves. The water splashes ag…](./1997142548725530831.md) - 2025-12-06 12:14:23 JST / needs_review / low
+- [Visual: Slow 360-degree orbit around the floating Sydney diorama. The sun glistens on the water…](./1997138388584161328.md) - 2025-12-06 11:57:51 JST / needs_review / low
+- [3Dアイソメトリック・ピクト図解 V3](./1996981586647265572.md) - 2025-12-06 01:34:47 JST / classified / medium
+- [3Dアイソメトリック・ピクト図解 V3](./1996981586487885824.md) - 2025-12-06 01:34:46 JST / needs_review / low
+- [3Dアイソメトリック・ピクト図解 プロンプト V2](./1996980498200228259.md) - 2025-12-06 01:30:27 JST / classified / high
+- [「アイソメトリックなピクト図解」プロンプトを改造してオリジナルキャラクター ✖ 3D ミニチュア要素も入れたらメッチャ可愛くなった!](./1996976230852448655.md) - 2025-12-06 01:13:30 JST / needs_review / low
+- [Kling AI Avatar 2.0 使ってみた6⃣](./1996924089894891792.md) - 2025-12-05 21:46:18 JST / needs_review / low
+- [🎞️❷ 決意のダイブ (The Leap)](./1996873100814663680.md) - 2025-12-05 18:23:41 JST / needs_review / low
+- [🎞️❸ 迫り来る波 (Tsunami Panic)](./1996571141578899762.md) - 2025-12-04 22:23:49 JST / needs_review / low
+- [Nano Banana Pro vs FLUX.2 Pro vs FLUX.2 Dev vs Z Image Turbo vs SeeDream 4.5 バトル実験❸](./1996256466844762575.md) - 2025-12-04 01:33:25 JST / classified / high
+- [Nano Banana Pro vs FLUX.2 Pro vs FLUX.2 Dev vs Z Image Turbo vs SeeDream 4.5 バトル実験❸](./1996256466735677445.md) - 2025-12-04 01:33:24 JST / classified / high
+- [Nano Banana Pro vs FLUX.2 Pro vs FLUX.2 Dev vs Z Image Turbo vs SeeDream 4.5 バトル実験❶](./1996246298882937288.md) - 2025-12-04 00:53:00 JST / classified / high
+- [Nano Banana Pro vs FLUX.2 Pro vs FLUX.2 Dev vs Z Image Turbo vs SeeDream 4.5 バトル実験❶](./1996244874203684934.md) - 2025-12-04 00:47:21 JST / classified / high
+- [あなたはポップカルチャーに精通したイラストレーターAIです。](./1995747876811780423.md) - 2025-12-02 15:52:27 JST / needs_review / low
+- [やはりメカ系はFLUX.2 Pro の方が良さそうな気がする!](./1995378901082861793.md) - 2025-12-01 15:26:17 JST / needs_review / low
