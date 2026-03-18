@@ -17,7 +17,7 @@ last_reviewed: 2026-03-19
 - [Google Antigravity自己進化型エージェント❷](./2003868977735590099.md) - 2025-12-25 01:42:49 JST / classified / high
 - [ブリーフ型:高級プロダクト広告](./2000781016252997868.md) - 2025-12-16 13:12:21 JST / classified / medium
 - [🎞️❶ 創造の世界へ (Welcome Guide)](./1996970277285278013.md) - 2025-12-06 00:49:50 JST / classified / medium
-- [🎞️❷ 激闘のデッドヒート (High-Speed Chase)](./1996907052333928896.md) - 2025-12-05 20:38:36 JST / needs_review / medium
+- [🎞️❷ 激闘のデッドヒート (High-Speed Chase)](./1996907052333928896.md) - 2025-12-05 20:38:36 JST / classified / medium
 - [巨大ロボット・SF・広角ショット](./1996209754411253828.md) - 2025-12-03 22:27:47 JST / classified / medium
 - [寿司を切るシーン](./1996161966080155829.md) - 2025-12-03 19:17:54 JST / classified / medium
 - [本を読むシーン](./1996161962917699795.md) - 2025-12-03 19:17:53 JST / classified / medium

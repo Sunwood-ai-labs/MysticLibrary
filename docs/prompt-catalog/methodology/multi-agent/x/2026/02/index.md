@@ -14,4 +14,4 @@ last_reviewed: 2026-03-19
 - items: 1
 
 ## Entries
-- [AI人狼村( $AIWEV )のUIをGoogle Stitch改修❶](./2019511871569817811.md) - 2026-02-06 05:42:05 JST / needs_review / low
+- [AI人狼村( $AIWEV )のUIをGoogle Stitch改修❶](./2019511871569817811.md) - 2026-02-06 05:42:05 JST / classified / low

@@ -11,14 +11,14 @@ last_reviewed: 2026-03-19
 # X Imports 2025
 
 - branch: creative / video
-- items: 319
+- items: 253
 
 ## By Month
-- [2025-12](./12/index.md) - 118 items
-- [2025-11](./11/index.md) - 23 items
-- [2025-10](./10/index.md) - 84 items
-- [2025-09](./09/index.md) - 24 items
-- [2025-08](./08/index.md) - 21 items
-- [2025-07](./07/index.md) - 19 items
-- [2025-06](./06/index.md) - 22 items
+- [2025-12](./12/index.md) - 88 items
+- [2025-11](./11/index.md) - 13 items
+- [2025-10](./10/index.md) - 68 items
+- [2025-09](./09/index.md) - 22 items
+- [2025-08](./08/index.md) - 18 items
+- [2025-07](./07/index.md) - 18 items
+- [2025-06](./06/index.md) - 18 items
 - [2025-05](./05/index.md) - 8 items

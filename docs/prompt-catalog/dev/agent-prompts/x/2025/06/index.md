@@ -14,4 +14,4 @@ last_reviewed: 2026-03-19
 - items: 1
 
 ## Entries
-- [「AgentVRM MCP」のヘッダー画像はこれにしました!](./1939308756296417416.md) - 2025-06-29 22:03:32 JST / needs_review / medium
+- [「AgentVRM MCP」のヘッダー画像はこれにしました!](./1939308756296417416.md) - 2025-06-29 22:03:32 JST / classified / medium

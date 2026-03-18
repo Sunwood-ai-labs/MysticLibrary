@@ -11,7 +11,7 @@ last_reviewed: 2026-03-19
 # X Imports 2025-11
 
 - branch: presentation
-- items: 8
+- items: 9
 
 ## Entries
 - [Google スライドの nano banana pro のスライドモードお試し⓫~縦長生成編~](./1994636150309548356.md) - 2025-11-29 14:14:51 JST / classified / medium
@@ -21,4 +21,5 @@ last_reviewed: 2026-03-19
 - [Google スライドの nano banana pro のスライドモードお試し❺](./1994326727489712611.md) - 2025-11-28 17:45:19 JST / classified / medium
 - [コンテンツの指示](./1994311327238484325.md) - 2025-11-28 16:44:07 JST / classified / medium
 - [コンテンツの指示](./1994311320896963059.md) - 2025-11-28 16:44:06 JST / classified / medium
+- [コンテンツの指示](./1994311317939954080.md) - 2025-11-28 16:44:05 JST / classified / medium
 - [Google スライドの nano banana pro のスライドモードお試し2](./1994302825401360790.md) - 2025-11-28 16:10:20 JST / classified / medium

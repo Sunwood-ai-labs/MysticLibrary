@@ -11,25 +11,23 @@ last_reviewed: 2026-03-19
 # X Imports 2025-09
 
 - branch: creative / video
-- items: 24
+- items: 22
 
 ## Entries
 - [KLING 2.5 Turbo ✖ 海底遺跡 ✖ 海底探査船風 でやってみた!!!](./1972674710011031624.md) - 2025-09-29 23:47:56 JST / classified / high
 - [メテオプロンプト ✖ Kling 2.5 Turboでやってみた!!](./1972674089396695324.md) - 2025-09-29 23:45:28 JST / classified / high
 - [KLING 2.5 Turbo ✖ 海底遺跡 ✖ 骨になった海洋生物 でやってみた!!!](./1972662327423197192.md) - 2025-09-29 22:58:43 JST / classified / high
-- [akhaliq/HunyuanImage-3.0 使ってみた2⃣](./1972466376238645294.md) - 2025-09-29 10:00:05 JST / needs_review / low
 - [Higgsfield WAN 2.5 ✖ Drow to video ✖ hunyuan image V3 で阿修羅を召喚してみた!!](./1972314958395490696.md) - 2025-09-28 23:58:24 JST / classified / high
 - [Higgsfield WAN 2.5 で公道レース動画作ってみた!!](./1972182829934301418.md) - 2025-09-28 15:13:22 JST / classified / high
-- [ViduQ2 触ってみた1⃣](./1971416163499507718.md) - 2025-09-26 12:26:55 JST / needs_review / low
+- [ViduQ2 触ってみた1⃣](./1971416163499507718.md) - 2025-09-26 12:26:55 JST / classified / medium
 - [Kling 2.5 Turbo でドリフトシーンを作ってみた!](./1970535194450178050.md) - 2025-09-24 02:06:15 JST / classified / high
 - [Kling 2.5 Turbo で峠からダイブしてまたコースに戻るシーンを作成してみた!!](./1970533339313684945.md) - 2025-09-24 01:58:53 JST / classified / high
 - [Animal Plush Toys プロンプトをGrok Imageで作ってみた!!](./1969550721143226524.md) - 2025-09-21 08:54:19 JST / classified / high
-- [私もプロンプトを参考にしてGorkで画像から動画化までやってみた!!!](./1969549814770909185.md) - 2025-09-21 08:50:42 JST / needs_review / medium
 - [Lego bricked objects プロンプト使ってみた!!](./1969420498158436693.md) - 2025-09-21 00:16:51 JST / classified / high
-- [seedream v4 ✖ Kling AI使って車の設計から具現化・疾走までやってみた!!](./1968706964143358395.md) - 2025-09-19 01:01:31 JST / needs_review / medium
-- [Seedance-1-pro で私もやってみた!!](./1967252015152771375.md) - 2025-09-15 00:40:04 JST / needs_review / low
-- [Gemini 2.5 proで動画の字幕(SRT)生成!](./1967238396327432629.md) - 2025-09-14 23:45:57 JST / needs_review / low
-- [Gemini 2.5 proで動画の字幕を入れるためにSRTファイルを生成してもらったけど、、、話者分離もしつつ色分けもできるぽいぞ、、、まじかよ、、、](./1967232015885123809.md) - 2025-09-14 23:20:36 JST / needs_review / low
+- [seedream v4 ✖ Kling AI使って車の設計から具現化・疾走までやってみた!!](./1968706964143358395.md) - 2025-09-19 01:01:31 JST / classified / medium
+- [Seedance-1-pro で私もやってみた!!](./1967252015152771375.md) - 2025-09-15 00:40:04 JST / classified / medium
+- [Gemini 2.5 proで動画の字幕(SRT)生成!](./1967238396327432629.md) - 2025-09-14 23:45:57 JST / classified / medium
+- [Gemini 2.5 proで動画の字幕を入れるためにSRTファイルを生成してもらったけど、、、話者分離もしつつ色分けもできるぽいぞ、、、まじかよ、、、](./1967232015885123809.md) - 2025-09-14 23:20:36 JST / classified / medium
 - [ViduのMCPサーバー(Streamable Http)をRooCode✖Grok Code Fast1で動画を作ってみた3⃣](./1967203335767011455.md) - 2025-09-14 21:26:38 JST / classified / high
 - [スケッチ動画作ってみた!!!](./1966889180413522138.md) - 2025-09-14 00:38:18 JST / classified / high
 - [画像をキャンパス化できたぞ!!!](./1966886465151135850.md) - 2025-09-14 00:27:30 JST / classified / high
