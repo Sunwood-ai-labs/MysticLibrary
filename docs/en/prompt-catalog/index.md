@@ -4,15 +4,15 @@ Prompts are organized by use case. Start by browsing the category pages.
 
 ## Categories
 
-- [Writing (Content Creation)](./writing/index.md)
-- [Presentation (Presentation)](./presentation/index.md)
-- [Creative (Creative)](./creative/index.md)
-- [Dev (Development Support)](./dev/index.md)
-- [Docs (Documentation Creation)](./docs/index.md)
-- [Methodology (Methodology)](./methodology/index.md)
-- [Agent (AI Agents)](./agent/index.md)
-- [Meta (Meta / Other)](./meta/index.md)
-- [Archive (Archive)](./archive/index.md)
+- <a class="catalog-root-link catalog-root-link--writing" href="./writing/index.md">Writing (Content Creation)</a>
+- <a class="catalog-root-link catalog-root-link--presentation" href="./presentation/index.md">Presentation (Presentation)</a>
+- <a class="catalog-root-link catalog-root-link--creative" href="./creative/index.md">Creative (Creative)</a>
+- <a class="catalog-root-link catalog-root-link--dev" href="./dev/index.md">Dev (Development Support)</a>
+- <a class="catalog-root-link catalog-root-link--docs" href="./docs/index.md">Docs (Documentation Creation)</a>
+- <a class="catalog-root-link catalog-root-link--methodology" href="./methodology/index.md">Methodology (Methodology)</a>
+- <a class="catalog-root-link catalog-root-link--agent" href="./agent/index.md">Agent (AI Agents)</a>
+- <a class="catalog-root-link catalog-root-link--meta" href="./meta/index.md">Meta (Meta / Other)</a>
+- <a class="catalog-root-link catalog-root-link--archive" href="./archive/index.md">Archive (Archive)</a>
 
 ## How to Choose
 

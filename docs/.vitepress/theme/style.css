@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Noto+Sans+JP:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20,500,0,0&icon_names=description,edit_note,inventory_2,palette,schema,slideshow,smart_toy,terminal,tune&display=block");
 
 :root {
   --docs-font-sans:
@@ -20,6 +21,9 @@
   --docs-c-primary-dark: #182d40;
   --docs-c-accent: #bf807a;
   --docs-c-accent-dark: #592a2a;
+  --catalog-root-icon-size: 1.1rem;
+  --catalog-root-icon-gap: 0.55rem;
+  --catalog-root-icon-color: color-mix(in srgb, var(--vp-c-text-1) 78%, var(--vp-c-brand-2));
 }
 
 :root {
@@ -158,6 +162,113 @@ body {
 
 .VPDoc .content-container a {
   text-underline-offset: 0.18em;
+}
+
+.catalog-root-link,
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/writing/"],
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/presentation/"],
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/creative/"],
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/dev/"],
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/docs/"],
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/methodology/"],
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/agent/"],
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/meta/"],
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/archive/"] {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--catalog-root-icon-gap);
+}
+
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/writing/"],
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/presentation/"],
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/creative/"],
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/dev/"],
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/docs/"],
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/methodology/"],
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/agent/"],
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/meta/"],
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/archive/"] {
+  width: 100%;
+}
+
+.catalog-root-link::before,
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/writing/"]::before,
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/presentation/"]::before,
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/creative/"]::before,
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/dev/"]::before,
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/docs/"]::before,
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/methodology/"]::before,
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/agent/"]::before,
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/meta/"]::before,
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/archive/"]::before {
+  content: var(--catalog-root-icon);
+  font-family: "Material Symbols Rounded";
+  font-weight: normal;
+  font-style: normal;
+  font-size: var(--catalog-root-icon-size);
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  white-space: nowrap;
+  direction: ltr;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.25em;
+  flex: 0 0 1.25em;
+  color: var(--catalog-root-icon-color);
+  font-feature-settings: "liga";
+  font-variation-settings: "FILL" 0, "wght" 500, "GRAD" 0, "opsz" 20;
+  -webkit-font-smoothing: antialiased;
+}
+
+.catalog-root-link--writing,
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/writing/"] {
+  --catalog-root-icon: "edit_note";
+}
+
+.catalog-root-link--presentation,
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/presentation/"] {
+  --catalog-root-icon: "slideshow";
+}
+
+.catalog-root-link--creative,
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/creative/"] {
+  --catalog-root-icon: "palette";
+}
+
+.catalog-root-link--dev,
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/dev/"] {
+  --catalog-root-icon: "terminal";
+}
+
+.catalog-root-link--docs,
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/docs/"] {
+  --catalog-root-icon: "description";
+}
+
+.catalog-root-link--methodology,
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/methodology/"] {
+  --catalog-root-icon: "schema";
+}
+
+.catalog-root-link--agent,
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/agent/"] {
+  --catalog-root-icon: "smart_toy";
+}
+
+.catalog-root-link--meta,
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/meta/"] {
+  --catalog-root-icon: "tune";
+}
+
+.catalog-root-link--archive,
+.VPSidebarItem.level-1 > .item > .link[href$="/prompt-catalog/archive/"] {
+  --catalog-root-icon: "inventory_2";
+}
+
+.catalog-root-link .vp-doc-link-icon {
+  display: none;
 }
 
 .VPSidebarItem.level-0 > .item > .text {

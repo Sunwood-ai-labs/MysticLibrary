@@ -4,15 +4,15 @@
 
 ## カテゴリ
 
-- [Writing（文章作成）](./writing/index.md)
-- [Presentation（プレゼンテーション）](./presentation/index.md)
-- [Creative（クリエイティブ）](./creative/index.md)
-- [Dev（開発支援）](./dev/index.md)
-- [Docs（ドキュメント作成）](./docs/index.md)
-- [Methodology（メソドロジー）](./methodology/index.md)
-- [Agent（AIエージェント）](./agent/index.md)
-- [Meta（メタ／その他）](./meta/index.md)
-- [Archive（アーカイブ）](./archive/index.md)
+- <a class="catalog-root-link catalog-root-link--writing" href="./writing/index.md">Writing（文章作成）</a>
+- <a class="catalog-root-link catalog-root-link--presentation" href="./presentation/index.md">Presentation（プレゼンテーション）</a>
+- <a class="catalog-root-link catalog-root-link--creative" href="./creative/index.md">Creative（クリエイティブ）</a>
+- <a class="catalog-root-link catalog-root-link--dev" href="./dev/index.md">Dev（開発支援）</a>
+- <a class="catalog-root-link catalog-root-link--docs" href="./docs/index.md">Docs（ドキュメント作成）</a>
+- <a class="catalog-root-link catalog-root-link--methodology" href="./methodology/index.md">Methodology（メソドロジー）</a>
+- <a class="catalog-root-link catalog-root-link--agent" href="./agent/index.md">Agent（AIエージェント）</a>
+- <a class="catalog-root-link catalog-root-link--meta" href="./meta/index.md">Meta（メタ／その他）</a>
+- <a class="catalog-root-link catalog-root-link--archive" href="./archive/index.md">Archive（アーカイブ）</a>
 
 ## 選び方の目安
 
