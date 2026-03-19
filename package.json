@@ -15,9 +15,9 @@
     "docs:prompt-mirror-sync": "node script/sync-docs-first-prompts.mjs --write",
     "docs:x-manual-review-merge": "node script/merge-x-manual-review.mjs --write",
     "docs:x-review-overlay": "node script/overlay-x-review-decisions.mjs --write",
-    "docs:x-category-promote": "npm run docs:x-manual-review-merge && npm run docs:x-review-overlay && node script/promote-x-categorized-docs.mjs --write --clean-previous",
-    "docs:x-category-verify": "node script/verify-x-categorized-docs.mjs --write",
-    "docs:x-catalog-sync": "node script/import-x-prompt-archive.mjs --write && npm run docs:x-category-promote && node script/verify-x-prompt-archive-docs.mjs --write && node script/verify-x-categorized-docs.mjs --write",
+    "docs:x-category-promote": "npm run docs:x-manual-review-merge && npm run docs:x-review-overlay && node script/promote-x-canonical-docs.mjs --write --clean-previous && npm run docs:prompt-mirror-sync",
+    "docs:x-category-verify": "node script/verify-x-canonical-docs.mjs --write",
+    "docs:x-catalog-sync": "node script/import-x-prompt-archive.mjs --write && npm run docs:x-category-promote && node script/verify-x-prompt-archive-docs.mjs --write && node script/verify-x-canonical-docs.mjs --write",
     "preview": "npm run docs:preview",
     "start": "vitepress preview docs --host 0.0.0.0 --port 4173"
   },

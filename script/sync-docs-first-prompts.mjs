@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
 const DOC_ROOTS = [
@@ -14,6 +14,7 @@ async function main() {
   const options = parseArgs(process.argv.slice(2));
   const cwd = process.cwd();
   const docs = await collectDocs(cwd);
+  const expectedMirrors = new Set(docs.map((doc) => normalizeSlash(buildMirrorPromptPath(doc.catalogPath, doc.locale))));
 
   let updatedDocs = 0;
   let writtenMirrors = 0;
@@ -57,9 +58,12 @@ async function main() {
     }
   }
 
+  const removedMirrors = await cleanupStaleMirrors(cwd, expectedMirrors, options.write);
+
   console.log(`Docs scanned: ${docs.length}`);
   console.log(`Docs updated: ${updatedDocs}`);
   console.log(`Prompt mirrors written: ${writtenMirrors}`);
+  console.log(`Prompt mirrors removed: ${removedMirrors}`);
 
   if (!options.write) {
     console.log('Dry run only. Re-run with --write to persist changes.');
@@ -113,7 +117,6 @@ async function collectDocs(cwd) {
 }
 
 async function collectMarkdownFiles(dir) {
-  const { readdir } = await import('node:fs/promises');
   const out = [];
   const stack = [dir];
   while (stack.length > 0) {
@@ -132,6 +135,51 @@ async function collectMarkdownFiles(dir) {
     }
   }
   return out;
+}
+
+async function cleanupStaleMirrors(cwd, expectedMirrors, write) {
+  const absRoot = path.resolve(cwd, DOCS_FIRST_PREFIX.replace(/\/$/, ''));
+  const existing = await collectMarkdownFiles(absRoot).catch(() => []);
+  let removed = 0;
+  for (const file of existing) {
+    const relative = normalizeSlash(path.relative(cwd, file));
+    if (expectedMirrors.has(relative)) continue;
+    removed += 1;
+    if (write) {
+      await rm(file, { force: true });
+    }
+  }
+  if (write) {
+    await pruneEmptyDirectories(absRoot);
+  }
+  return removed;
+}
+
+async function pruneEmptyDirectories(absRoot, isRoot = true) {
+  let entries;
+  try {
+    entries = await readdir(absRoot, { withFileTypes: true });
+  } catch {
+    return false;
+  }
+
+  let hasContent = false;
+  for (const entry of entries) {
+    const fullPath = path.join(absRoot, entry.name);
+    if (entry.isDirectory()) {
+      const childHasContent = await pruneEmptyDirectories(fullPath, false);
+      if (childHasContent) hasContent = true;
+      continue;
+    }
+    if (entry.isFile()) hasContent = true;
+  }
+
+  if (!isRoot && !hasContent) {
+    await rm(absRoot, { recursive: true, force: true });
+    return false;
+  }
+
+  return true;
 }
 
 function parseFrontmatter(raw) {
