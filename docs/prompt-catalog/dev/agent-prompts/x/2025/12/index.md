@@ -1,6 +1,6 @@
 ---
-title: "X Imports 2025-12"
-description: "Categorized X prompt imports for dev / agent-prompts in 2025-12"
+title: "X由来の実験プロンプト 2025-12"
+description: "dev / agent-prompts に分類した 2025-12 の X 由来の実験プロンプト"
 category: "dev"
 intent: x-import-index
 status: archived
@@ -8,14 +8,13 @@ owner: prompt-catalog-team
 last_reviewed: 2026-03-19
 ---
 
-# X Imports 2025-12
+# X由来の実験プロンプト 2025-12
 
 - branch: dev / agent-prompts
-- items: 10
+- items: 9
 
-## Entries
+## 一覧
 - [Google Antigravity自己進化型エージェント❷](./2003868977735590099.md) - 2025-12-25 01:42:49 JST / classified / high
-- [Amazon らくらくベビーお試しBox 在庫確認タスク](./2003311586979778745.md) - 2025-12-23 12:47:56 JST / classified / 0.99
 - [ブリーフ型:高級プロダクト広告](./2000781016252997868.md) - 2025-12-16 13:12:21 JST / classified / medium
 - [🎞️❶ 創造の世界へ (Welcome Guide)](./1996970277285278013.md) - 2025-12-06 00:49:50 JST / classified / medium
 - [🎞️❷ 激闘のデッドヒート (High-Speed Chase)](./1996907052333928896.md) - 2025-12-05 20:38:36 JST / classified / medium

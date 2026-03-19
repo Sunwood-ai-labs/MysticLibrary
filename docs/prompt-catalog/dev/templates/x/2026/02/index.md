@@ -1,6 +1,6 @@
 ---
-title: "X Imports 2026-02"
-description: "Categorized X prompt imports for dev / templates in 2026-02"
+title: "X由来の実験プロンプト 2026-02"
+description: "dev / templates に分類した 2026-02 の X 由来の実験プロンプト"
 category: "dev"
 intent: x-import-index
 status: archived
@@ -8,12 +8,12 @@ owner: prompt-catalog-team
 last_reviewed: 2026-03-19
 ---
 
-# X Imports 2026-02
+# X由来の実験プロンプト 2026-02
 
 - branch: dev / templates
 - items: 6
 
-## Entries
+## 一覧
 - [Codex CLI の MULTI-AGENT 使ってみた❹](./2024109508088480050.md) - 2026-02-18 22:11:27 JST / classified / high
 - [Codex CLI の MULTI-AGENT 使ってみた❸](./2024109044953502028.md) - 2026-02-18 22:09:37 JST / classified / low
 - [Codex CLI の MULTI-AGENT 使ってみた❷](./2024097187987419138.md) - 2026-02-18 21:22:30 JST / classified / high

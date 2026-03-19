@@ -1,6 +1,6 @@
 ---
-title: "X Imports 2025-11"
-description: "Categorized X prompt imports for presentation in 2025-11"
+title: "X由来の実験プロンプト 2025-11"
+description: "presentation に分類した 2025-11 の X 由来の実験プロンプト"
 category: "writing"
 intent: x-import-index
 status: archived
@@ -8,12 +8,12 @@ owner: prompt-catalog-team
 last_reviewed: 2026-03-19
 ---
 
-# X Imports 2025-11
+# X由来の実験プロンプト 2025-11
 
 - branch: presentation
 - items: 9
 
-## Entries
+## 一覧
 - [Google スライドの nano banana pro のスライドモードお試し⓫~縦長生成編~](./1994636150309548356.md) - 2025-11-29 14:14:51 JST / classified / medium
 - [💡オリキャラGoogleスライドのざっくりやり方動画](./1994402491564503344.md) - 2025-11-28 22:46:22 JST / classified / medium
 - [💡ついにオリキャラGoogleスライド爆誕💡](./1994356240152223941.md) - 2025-11-28 19:42:35 JST / classified / medium

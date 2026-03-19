@@ -1,6 +1,6 @@
 ---
-title: "X Imports 2025-12"
-description: "Categorized X prompt imports for creative / video in 2025-12"
+title: "X由来の実験プロンプト 2025-12"
+description: "creative / video に分類した 2025-12 の X 由来の実験プロンプト"
 category: "creative"
 intent: x-import-index
 status: archived
@@ -8,12 +8,12 @@ owner: prompt-catalog-team
 last_reviewed: 2026-03-19
 ---
 
-# X Imports 2025-12
+# X由来の実験プロンプト 2025-12
 
 - branch: creative / video
-- items: 89
+- items: 88
 
-## Entries
+## 一覧
 - [まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ⓱](./2006344267242115240.md) - 2025-12-31 21:38:44 JST / classified / medium
 - [まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ⓱](./2006344267040698368.md) - 2025-12-31 21:38:43 JST / classified / high
 - [まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ⓬](./2006339150375735697.md) - 2025-12-31 21:18:24 JST / classified / medium
@@ -64,7 +64,6 @@ last_reviewed: 2026-03-19
 - [「アイソメトリックなピクト図解」プロンプトを使って、今話題の「妊娠・出産・産後の妊産婦支援策」について今までの10回の議論を時系列で可視化してもらった!!](./1996610497978991052.md) - 2025-12-05 01:00:12 JST / classified / medium
 - [🎞️❶ テック:時間の最適化 (Smartwatch)](./1996590870997639676.md) - 2025-12-04 23:42:13 JST / classified / medium
 - [🎞️❷ ライフスタイル:至福の朝 (Coffee Ritual)](./1996590874432778459.md) - 2025-12-04 23:42:13 JST / classified / medium
-- [🎞️❹ 墜落寸前 (Cockpit Crash)](./1996571144523288846.md) - 2025-12-04 22:23:50 JST / classified / medium
 - [🎞️❷ 決闘の刻 (Samurai Duel)](./1996571137925644342.md) - 2025-12-04 22:23:48 JST / classified / medium
 - [Kling 2.6 Higgsfield を実験してみる4⃣](./1996571134792552448.md) - 2025-12-04 22:23:47 JST / classified / medium
 - [@Kling_ai O1 で初期フレーム作成して VIDEO 2.6 使って 演奏やってみた!!!](./1996324184771940647.md) - 2025-12-04 06:02:30 JST / classified / medium

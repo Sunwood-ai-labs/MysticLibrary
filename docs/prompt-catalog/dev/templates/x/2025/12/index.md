@@ -1,6 +1,6 @@
 ---
-title: "X Imports 2025-12"
-description: "Categorized X prompt imports for dev / templates in 2025-12"
+title: "X由来の実験プロンプト 2025-12"
+description: "dev / templates に分類した 2025-12 の X 由来の実験プロンプト"
 category: "dev"
 intent: x-import-index
 status: archived
@@ -8,13 +8,12 @@ owner: prompt-catalog-team
 last_reviewed: 2026-03-19
 ---
 
-# X Imports 2025-12
+# X由来の実験プロンプト 2025-12
 
 - branch: dev / templates
-- items: 20
+- items: 19
 
-## Entries
-- [おしゃれな猫カフェを塾が融合した新しいサービスのホームページを作成して](./2005649023022289224.md) - 2025-12-29 23:36:04 JST / classified / medium
+## 一覧
 - [https://t.co/Lj1Q7ca46C](./2003116088331239805.md) - 2025-12-22 23:51:06 JST / classified / high
 - [https://t.co/Lj1Q7ca46C](./2002653854610198757.md) - 2025-12-21 17:14:21 JST / classified / medium
 - [GPT Image 1.5 で 2000年代風セルフィープロンプトやってみた!!!](./2001619210309410830.md) - 2025-12-18 20:43:02 JST / classified / medium

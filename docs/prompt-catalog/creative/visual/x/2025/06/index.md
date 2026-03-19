@@ -1,6 +1,6 @@
 ---
-title: "X Imports 2025-06"
-description: "Categorized X prompt imports for creative / visual in 2025-06"
+title: "X由来の実験プロンプト 2025-06"
+description: "creative / visual に分類した 2025-06 の X 由来の実験プロンプト"
 category: "creative"
 intent: x-import-index
 status: archived
@@ -8,12 +8,12 @@ owner: prompt-catalog-team
 last_reviewed: 2026-03-19
 ---
 
-# X Imports 2025-06
+# X由来の実験プロンプト 2025-06
 
 - branch: creative / visual
 - items: 30
 
-## Entries
+## 一覧
 - [「和モダン折り紙ローポリ動物アイコン・3×3グリッドプロンプト」爆誕!!!](./1939198868740342236.md) - 2025-06-29 14:46:53 JST / classified / high
 - [ローポリプロンプト使ってみた5⃣](./1939171680812966254.md) - 2025-06-29 12:58:51 JST / classified / high
 - [ローポリプロンプト使ってみた4⃣](./1939170722489999569.md) - 2025-06-29 12:55:02 JST / classified / high

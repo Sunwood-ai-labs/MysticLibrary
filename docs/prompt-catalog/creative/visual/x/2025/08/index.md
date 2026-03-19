@@ -1,6 +1,6 @@
 ---
-title: "X Imports 2025-08"
-description: "Categorized X prompt imports for creative / visual in 2025-08"
+title: "X由来の実験プロンプト 2025-08"
+description: "creative / visual に分類した 2025-08 の X 由来の実験プロンプト"
 category: "creative"
 intent: x-import-index
 status: archived
@@ -8,12 +8,12 @@ owner: prompt-catalog-team
 last_reviewed: 2026-03-19
 ---
 
-# X Imports 2025-08
+# X由来の実験プロンプト 2025-08
 
 - branch: creative / visual
 - items: 10
 
-## Entries
+## 一覧
 - [Geminiアップデートがキタので、早速「gemini-2.5-flash-image-preview(nano banana)」を使ってみた4⃣](./1960355104424628623.md) - 2025-08-26 23:54:13 JST / classified / medium
 - [Geminiアップデートがキタので、早速「gemini-2.5-flash-image-preview(nano banana)」を使ってみた3⃣](./1960354311369887794.md) - 2025-08-26 23:51:04 JST / classified / medium
 - [Geminiアップデートがキタので、早速「gemini-2.5-flash-image-preview(nano banana)」を使ってみた2⃣](./1960352107065901223.md) - 2025-08-26 23:42:18 JST / classified / medium

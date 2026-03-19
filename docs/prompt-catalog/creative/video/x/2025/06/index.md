@@ -1,6 +1,6 @@
 ---
-title: "X Imports 2025-06"
-description: "Categorized X prompt imports for creative / video in 2025-06"
+title: "X由来の実験プロンプト 2025-06"
+description: "creative / video に分類した 2025-06 の X 由来の実験プロンプト"
 category: "creative"
 intent: x-import-index
 status: archived
@@ -8,18 +8,17 @@ owner: prompt-catalog-team
 last_reviewed: 2026-03-19
 ---
 
-# X Imports 2025-06
+# X由来の実験プロンプト 2025-06
 
 - branch: creative / video
-- items: 19
+- items: 18
 
-## Entries
+## 一覧
 - [Veo3 ASMR:茶道ASMR](./1938783452524093749.md) - 2025-06-28 11:16:10 JST / classified / medium
 - [Veo3 ASMR:折り紙ASMR](./1938620701084385387.md) - 2025-06-28 00:29:27 JST / classified / high
 - [Veo3でタップダンスさせてみた2⃣](./1938553232273686921.md) - 2025-06-27 20:01:21 JST / classified / medium
 - [私もVeo3でタップダンス ASMRさせてみた!!!](./1938549848636334527.md) - 2025-06-27 19:47:55 JST / classified / medium
 - [私もVeo3でタップダンスさせてみた!!!](./1938549653068456308.md) - 2025-06-27 19:47:08 JST / classified / medium
-- [私も Natural disasters 系作成してみた2⃣](./1936324800647250245.md) - 2025-06-21 16:26:22 JST / classified / medium
 - [Veo 3のASMRやってみた2⃣](./1936024678034031034.md) - 2025-06-20 20:33:47 JST / classified / high
 - [Veo 3のASMRやってみた!!!](./1936020574981300631.md) - 2025-06-20 20:17:29 JST / classified / high
 - [現実×シュール乗り物系はImagen4が得意かも???](./1933842310854480195.md) - 2025-06-14 20:01:50 JST / classified / high

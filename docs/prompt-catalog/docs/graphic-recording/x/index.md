@@ -1,6 +1,6 @@
 ---
-title: X Imports
-description: "Categorized X prompt imports for docs / graphic-recording"
+title: "X由来の実験プロンプト"
+description: "docs / graphic-recording に分類した X 由来の実験プロンプト"
 category: "docs"
 intent: x-import-index
 status: archived
@@ -8,14 +8,14 @@ owner: prompt-catalog-team
 last_reviewed: 2026-03-19
 ---
 
-# X Imports
+# X由来の実験プロンプト
 
 - branch: docs / graphic-recording
-- items: 27
-- classified: 27
+- items: 26
+- classified: 26
 - needs review: 0
 
-## Latest 20
+## 最新20件
 - [GLM 5使ってみた!!](./2026/02/2021577836663112062.md) - 2026-02-11 22:31:30 JST / classified / medium
 - [2025年の活動の要約+来年成長予測ディープリサーチ結果をグラレコ水彩図解プロンプトで可視化してみた!!](./2025/12/2003480554810081343.md) - 2025-12-23 23:59:21 JST / classified / high
 - [テツメモさんのXのプロフインフォグラフィックプロンプトをさらに改造して「古文書スタイル」で自分のプロフを可視化してみた!!](./2025/12/2001932303770276012.md) - 2025-12-19 17:27:09 JST / classified / medium
@@ -37,6 +37,6 @@ last_reviewed: 2026-03-19
 - [NotebookLMのインフォグラフィックス使ってみた!!!](./2025/11/1991868247168495642.md) - 2025-11-21 22:56:11 JST / classified / high
 - [NotebookLMにもスライド機能をカスタムプロンプト調整したらめちゃカッコいいのできたぞ!!!!](./2025/11/1991853291899363726.md) - 2025-11-21 21:56:46 JST / classified / low
 
-## By Year
-- [2026](./2026/index.md) - 1 items
-- [2025](./2025/index.md) - 26 items
+## 年別アーカイブ
+- [2026](./2026/index.md) - 1件
+- [2025](./2025/index.md) - 25件

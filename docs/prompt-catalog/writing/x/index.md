@@ -1,6 +1,6 @@
 ---
-title: X Imports
-description: "Categorized X prompt imports for writing"
+title: "X由来の実験プロンプト"
+description: "writing に分類した X 由来の実験プロンプト"
 category: "writing"
 intent: x-import-index
 status: archived
@@ -8,14 +8,14 @@ owner: prompt-catalog-team
 last_reviewed: 2026-03-19
 ---
 
-# X Imports
+# X由来の実験プロンプト
 
 - branch: writing
 - items: 8
 - classified: 8
 - needs review: 0
 
-## Latest 20
+## 最新20件
 - [エージェントチームを作ってください。](./2026/02/2020197419640844289.md) - 2026-02-08 03:06:12 JST / classified / high
 - [Design a YouTube Thumbnail in the style of \"Hollywood Blockbuster Movie Poster\" based on the st…](./2025/12/2001317145356214328.md) - 2025-12-18 00:42:44 JST / classified / high
 - [Design a YouTube Thumbnail in the style of \"Hollywood Blockbuster Movie Poster\" based on the st…](./2025/12/2001313719851336015.md) - 2025-12-18 00:29:08 JST / classified / medium
@@ -25,6 +25,6 @@ last_reviewed: 2026-03-19
 - [Higgsfield Sora 2 Unlmited やってみた5⃣](./2025/10/1976354138897383784.md) - 2025-10-10 03:28:40 JST / classified / medium
 - [akhaliq/HunyuanImage-3.0 使ってみた!!](./2025/09/1972322109876740331.md) - 2025-09-29 00:26:49 JST / classified / medium
 
-## By Year
-- [2026](./2026/index.md) - 1 items
-- [2025](./2025/index.md) - 7 items
+## 年別アーカイブ
+- [2026](./2026/index.md) - 1件
+- [2025](./2025/index.md) - 7件

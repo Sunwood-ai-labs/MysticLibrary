@@ -1,6 +1,6 @@
 ---
-title: "X Imports 2025-09"
-description: "Categorized X prompt imports for creative / video in 2025-09"
+title: "X由来の実験プロンプト 2025-09"
+description: "creative / video に分類した 2025-09 の X 由来の実験プロンプト"
 category: "creative"
 intent: x-import-index
 status: archived
@@ -8,12 +8,12 @@ owner: prompt-catalog-team
 last_reviewed: 2026-03-19
 ---
 
-# X Imports 2025-09
+# X由来の実験プロンプト 2025-09
 
 - branch: creative / video
 - items: 22
 
-## Entries
+## 一覧
 - [KLING 2.5 Turbo ✖ 海底遺跡 ✖ 海底探査船風 でやってみた!!!](./1972674710011031624.md) - 2025-09-29 23:47:56 JST / classified / high
 - [メテオプロンプト ✖ Kling 2.5 Turboでやってみた!!](./1972674089396695324.md) - 2025-09-29 23:45:28 JST / classified / high
 - [KLING 2.5 Turbo ✖ 海底遺跡 ✖ 骨になった海洋生物 でやってみた!!!](./1972662327423197192.md) - 2025-09-29 22:58:43 JST / classified / high

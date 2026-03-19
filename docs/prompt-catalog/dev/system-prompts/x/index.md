@@ -1,6 +1,6 @@
 ---
-title: X Imports
-description: "Categorized X prompt imports for dev / system-prompts"
+title: "X由来の実験プロンプト"
+description: "dev / system-prompts に分類した X 由来の実験プロンプト"
 category: "dev"
 intent: x-import-index
 status: archived
@@ -8,14 +8,14 @@ owner: prompt-catalog-team
 last_reviewed: 2026-03-19
 ---
 
-# X Imports
+# X由来の実験プロンプト
 
 - branch: dev / system-prompts
 - items: 17
 - classified: 17
 - needs review: 0
 
-## Latest 20
+## 最新20件
 - [Claude Code のエージェントオーケストレーション機能をGLM4.7で使ってみる❺](./2026/02/2019738031536906240.md) - 2026-02-06 20:40:46 JST / classified / medium
 - [Claude Code のエージェントオーケストレーション機能をGLM4.7で使ってみる❶](./2026/02/2019660660607435164.md) - 2026-02-06 15:33:19 JST / classified / medium
 - [2️⃣ 中身のシステムプロンプト全文](./2026/01/2013677182682567102.md) - 2026-01-21 03:17:07 JST / classified / high
@@ -34,6 +34,6 @@ last_reviewed: 2026-03-19
 - [私も、Gemini 2.5 Flash で「isometric model」プロンプトやってみた!](./2025/08/1960840103934496840.md) - 2025-08-28 08:01:26 JST / classified / medium
 - [私もclaude4.1でテトリスチャレンジしてみた!!](./2025/08/1953137587352432929.md) - 2025-08-07 01:54:23 JST / classified / low
 
-## By Year
-- [2026](./2026/index.md) - 3 items
-- [2025](./2025/index.md) - 14 items
+## 年別アーカイブ
+- [2026](./2026/index.md) - 3件
+- [2025](./2025/index.md) - 14件

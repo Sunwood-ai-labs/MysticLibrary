@@ -1,6 +1,6 @@
 ---
-title: X Imports
-description: "Categorized X prompt imports for creative / video"
+title: "X由来の実験プロンプト"
+description: "creative / video に分類した X 由来の実験プロンプト"
 category: "creative"
 intent: x-import-index
 status: archived
@@ -8,14 +8,14 @@ owner: prompt-catalog-team
 last_reviewed: 2026-03-19
 ---
 
-# X Imports
+# X由来の実験プロンプト
 
 - branch: creative / video
-- items: 272
-- classified: 272
+- items: 263
+- classified: 263
 - needs review: 0
 
-## Latest 20
+## 最新20件
 - [切り抜き文字世界プロンプト nanobanana pro ver爆誕🔥](./2026/02/2024070908655341833.md) - 2026-02-18 19:38:04 JST / classified / high
 - [添付キャラクター(白夜)のおしゃれな架空のプロフィールページLPを作成して アニメーションとかも活用しておしゃれなLPを作成してほしい!](./2026/02/2021686301536530876.md) - 2026-02-12 05:42:30 JST / classified / medium
 - [ViduQ3 でほっこりミニチュア動画を作成してみた](./2026/01/2017265359083180242.md) - 2026-01-31 00:55:15 JST / classified / high
@@ -37,6 +37,6 @@ last_reviewed: 2026-03-19
 - [Higgsfield WAN 2.6 お試し1⃣ Text to Video](./2025/12/2002743905641730374.md) - 2025-12-21 23:12:10 JST / classified / high
 - [Higgsfield WAN 2.6 お試し2⃣ Text to Video](./2025/12/2002743877967753369.md) - 2025-12-21 23:12:04 JST / classified / high
 
-## By Year
-- [2026](./2026/index.md) - 10 items
-- [2025](./2025/index.md) - 262 items
+## 年別アーカイブ
+- [2026](./2026/index.md) - 10件
+- [2025](./2025/index.md) - 253件

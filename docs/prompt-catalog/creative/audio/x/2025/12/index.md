@@ -1,6 +1,6 @@
 ---
-title: "X Imports 2025-12"
-description: "Categorized X prompt imports for creative / audio in 2025-12"
+title: "X由来の実験プロンプト 2025-12"
+description: "creative / audio に分類した 2025-12 の X 由来の実験プロンプト"
 category: "creative"
 intent: x-import-index
 status: archived
@@ -8,13 +8,13 @@ owner: prompt-catalog-team
 last_reviewed: 2026-03-19
 ---
 
-# X Imports 2025-12
+# X由来の実験プロンプト 2025-12
 
 - branch: creative / audio
 - items: 20
 
-## Entries
-- [GENERAL STYLE &amp; MOOD:](./2003373382348472371.md) - 2025-12-23 16:53:29 JST / classified / low
+## 一覧
+- [GENERAL STYLE &amp;amp; MOOD:](./2003373382348472371.md) - 2025-12-23 16:53:29 JST / classified / low
 - [Kling 2.6 Native Audio Higgsfield を実験してみる2⃣2⃣](./1997325366944542720.md) - 2025-12-07 00:20:50 JST / classified / high
 - [Kling 2.6 Native Audio Higgsfield を実験してみる2⃣0⃣](./1997324915222118400.md) - 2025-12-07 00:19:02 JST / classified / medium
 - [Kling 2.6 Native Audio Higgsfield を実験してみる2⃣0⃣](./1997324481497636864.md) - 2025-12-07 00:17:19 JST / classified / medium

@@ -1,6 +1,6 @@
 ---
-title: "X Imports 2025-06"
-description: "Categorized X prompt imports for dev / templates in 2025-06"
+title: "X由来の実験プロンプト 2025-06"
+description: "dev / templates に分類した 2025-06 の X 由来の実験プロンプト"
 category: "dev"
 intent: x-import-index
 status: archived
@@ -8,12 +8,12 @@ owner: prompt-catalog-team
 last_reviewed: 2026-03-19
 ---
 
-# X Imports 2025-06
+# X由来の実験プロンプト 2025-06
 
 - branch: dev / templates
 - items: 6
 
-## Entries
+## 一覧
 - [Create a **low-poly** illustration of nine different [SHIP] icons arranged in a crisp **3 × 3 g…](./1939203100088344984.md) - 2025-06-29 15:03:42 JST / classified / high
 - [Create a **low-poly** illustration of nine different [ROBOT] icons arranged in a crisp **3 × 3…](./1939202997273420021.md) - 2025-06-29 15:03:17 JST / classified / high
 - [Create a **low-poly** illustration of nine different [CAT] icons arranged in a crisp **3 × 3 gr…](./1939200791522533801.md) - 2025-06-29 14:54:31 JST / classified / high

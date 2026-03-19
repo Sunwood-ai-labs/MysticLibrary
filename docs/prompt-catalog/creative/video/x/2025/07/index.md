@@ -1,6 +1,6 @@
 ---
-title: "X Imports 2025-07"
-description: "Categorized X prompt imports for creative / video in 2025-07"
+title: "X由来の実験プロンプト 2025-07"
+description: "creative / video に分類した 2025-07 の X 由来の実験プロンプト"
 category: "creative"
 intent: x-import-index
 status: archived
@@ -8,12 +8,12 @@ owner: prompt-catalog-team
 last_reviewed: 2026-03-19
 ---
 
-# X Imports 2025-07
+# X由来の実験プロンプト 2025-07
 
 - branch: creative / video
 - items: 18
 
-## Entries
+## 一覧
 - [GLM 4.5 使ってみた!!](./1950547726749618330.md) - 2025-07-30 22:23:12 JST / classified / high
 - [Papercut Art Illustration プロンプトをWhiskでやってみた!!](./1950500271483982094.md) - 2025-07-30 19:14:37 JST / classified / high
 - [特急訪問プロンプト使ってみた!~Kling版~](./1949503487177642341.md) - 2025-07-28 01:13:46 JST / classified / medium

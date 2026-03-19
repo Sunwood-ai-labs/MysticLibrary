@@ -1,6 +1,6 @@
 ---
-title: "X Imports 2025-10"
-description: "Categorized X prompt imports for creative / audio in 2025-10"
+title: "X由来の実験プロンプト 2025-10"
+description: "creative / audio に分類した 2025-10 の X 由来の実験プロンプト"
 category: "creative"
 intent: x-import-index
 status: archived
@@ -8,12 +8,12 @@ owner: prompt-catalog-team
 last_reviewed: 2026-03-19
 ---
 
-# X Imports 2025-10
+# X由来の実験プロンプト 2025-10
 
 - branch: creative / audio
 - items: 18
 
-## Entries
+## 一覧
 - [CineBurst YAML V1.4 でミュージックビデオ風の作ってみた!](./1980674738549846219.md) - 2025-10-22 01:37:11 JST / classified / medium
 - [Veo3.1 Director V0.2 で フライパンジオラマ作ってみた!](./1979609347274785119.md) - 2025-10-19 03:03:42 JST / classified / medium
 - [Veo3.1用のGPTs「Veo3.1 Director V0.2」を開発中、、、](./1979241999078428779.md) - 2025-10-18 02:43:59 JST / classified / medium

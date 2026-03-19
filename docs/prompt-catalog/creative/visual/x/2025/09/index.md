@@ -1,6 +1,6 @@
 ---
-title: "X Imports 2025-09"
-description: "Categorized X prompt imports for creative / visual in 2025-09"
+title: "X由来の実験プロンプト 2025-09"
+description: "creative / visual に分類した 2025-09 の X 由来の実験プロンプト"
 category: "creative"
 intent: x-import-index
 status: archived
@@ -8,12 +8,12 @@ owner: prompt-catalog-team
 last_reviewed: 2026-03-19
 ---
 
-# X Imports 2025-09
+# X由来の実験プロンプト 2025-09
 
 - branch: creative / visual
 - items: 32
 
-## Entries
+## 一覧
 - [Note Book Half Sketch look プロンプトをHunyuanImage-3.0 でやってみた!!!!日本語トライ Ver](./1972476338704638016.md) - 2025-09-29 10:39:40 JST / classified / high
 - [akhaliq/HunyuanImage-3.0 使ってみた2⃣](./1972466376238645294.md) - 2025-09-29 10:00:05 JST / classified / medium
 - [HunyuanImage 3.0 でLINEスタンプ風の画像できたぞ!!](./1972323133677068470.md) - 2025-09-29 00:30:53 JST / classified / high

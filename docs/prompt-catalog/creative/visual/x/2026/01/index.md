@@ -1,6 +1,6 @@
 ---
-title: "X Imports 2026-01"
-description: "Categorized X prompt imports for creative / visual in 2026-01"
+title: "X由来の実験プロンプト 2026-01"
+description: "creative / visual に分類した 2026-01 の X 由来の実験プロンプト"
 category: "creative"
 intent: x-import-index
 status: archived
@@ -8,12 +8,12 @@ owner: prompt-catalog-team
 last_reviewed: 2026-03-19
 ---
 
-# X Imports 2026-01
+# X由来の実験プロンプト 2026-01
 
 - branch: creative / visual
 - items: 8
 
-## Entries
+## 一覧
 - [A cozy miniature diorama inside a vintage teacup turned into a tiny café, tiny animal friends s…](./2017265362153402585.md) - 2026-01-31 00:55:15 JST / classified / low
 - [A hand-forged metal figurine of a bipedal cat wizard, assembled from aged copper, bronze, and b…](./2013692011354972566.md) - 2026-01-21 04:16:02 JST / classified / low
 - [私も 飛び出し画像やってみた!!!!](./2012134066855063958.md) - 2026-01-16 21:05:19 JST / classified / low

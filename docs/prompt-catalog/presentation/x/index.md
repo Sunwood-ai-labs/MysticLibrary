@@ -1,6 +1,6 @@
 ---
-title: X Imports
-description: "Categorized X prompt imports for presentation"
+title: "X由来の実験プロンプト"
+description: "presentation に分類した X 由来の実験プロンプト"
 category: "writing"
 intent: x-import-index
 status: archived
@@ -8,14 +8,14 @@ owner: prompt-catalog-team
 last_reviewed: 2026-03-19
 ---
 
-# X Imports
+# X由来の実験プロンプト
 
 - branch: presentation
 - items: 14
 - classified: 14
 - needs review: 0
 
-## Latest 20
+## 最新20件
 - [ワンパン動画生成Skills「Remotion」使ってみた❸](./2026/01/2014342883491692668.md) - 2026-01-22 23:22:22 JST / classified / high
 - [Google スライドの nano banana pro のスライドモードお試し⓫~縦長生成編~](./2025/11/1994636150309548356.md) - 2025-11-29 14:14:51 JST / classified / medium
 - [💡オリキャラGoogleスライドのざっくりやり方動画](./2025/11/1994402491564503344.md) - 2025-11-28 22:46:22 JST / classified / medium
@@ -31,6 +31,6 @@ last_reviewed: 2026-03-19
 - [Markdownの進化系「quarkdown」のドキュメントをquarkdownスライド化する「Quarkdownスライド作成プロンプト V1」爆誕!!](./2025/06/1931670521122525534.md) - 2025-06-08 20:11:55 JST / classified / high
 - [グラフィックレコーディング風スライドHTML作成プロンプト V1 爆誕!!!!](./2025/05/1926607699996799239.md) - 2025-05-25 20:54:04 JST / classified / high
 
-## By Year
-- [2026](./2026/index.md) - 1 items
-- [2025](./2025/index.md) - 13 items
+## 年別アーカイブ
+- [2026](./2026/index.md) - 1件
+- [2025](./2025/index.md) - 13件

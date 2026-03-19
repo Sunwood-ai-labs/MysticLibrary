@@ -1,6 +1,6 @@
 ---
-title: "X Imports 2025-08"
-description: "Categorized X prompt imports for creative / video in 2025-08"
+title: "X由来の実験プロンプト 2025-08"
+description: "creative / video に分類した 2025-08 の X 由来の実験プロンプト"
 category: "creative"
 intent: x-import-index
 status: archived
@@ -8,12 +8,12 @@ owner: prompt-catalog-team
 last_reviewed: 2026-03-19
 ---
 
-# X Imports 2025-08
+# X由来の実験プロンプト 2025-08
 
 - branch: creative / video
 - items: 18
 
-## Entries
+## 一覧
 - [Caffeine Sculptures を妖怪の世界観風にしてやってみた!](./1959995038605459921.md) - 2025-08-26 00:03:26 JST / classified / high
 - [Children's drawing プロンプトで妖怪を作ってみた!!](./1959720467495084033.md) - 2025-08-25 05:52:23 JST / classified / high
 - [GeminiのVeo3が今週末限定で無料ユーザーで使えるぽいので早速使ってみた6⃣](./1959471539176587664.md) - 2025-08-24 13:23:14 JST / classified / high

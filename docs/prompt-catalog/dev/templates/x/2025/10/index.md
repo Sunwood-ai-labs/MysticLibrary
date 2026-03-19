@@ -1,6 +1,6 @@
 ---
-title: "X Imports 2025-10"
-description: "Categorized X prompt imports for dev / templates in 2025-10"
+title: "X由来の実験プロンプト 2025-10"
+description: "dev / templates に分類した 2025-10 の X 由来の実験プロンプト"
 category: "dev"
 intent: x-import-index
 status: archived
@@ -8,12 +8,12 @@ owner: prompt-catalog-team
 last_reviewed: 2026-03-19
 ---
 
-# X Imports 2025-10
+# X由来の実験プロンプト 2025-10
 
 - branch: dev / templates
 - items: 30
 
-## Entries
+## 一覧
 - [CineBurst YAML V1.4 でミュージックビデオ風の作ってみた!3⃣](./1980677506887000474.md) - 2025-10-22 01:48:11 JST / classified / high
 - [CineBurst YAML V1.4 でミュージックビデオ風の作ってみた!2⃣](./1980675431285354966.md) - 2025-10-22 01:39:56 JST / classified / high
 - [CineBurst YAML V1.4 で航空魔導士の予告映画作ってみた!](./1980673512701587871.md) - 2025-10-22 01:32:19 JST / classified / high

@@ -1,6 +1,6 @@
 ---
-title: "X Imports 2025"
-description: "Categorized X prompt imports for presentation in 2025"
+title: "X由来の実験プロンプト 2025"
+description: "presentation に分類した 2025 年の X 由来の実験プロンプト"
 category: "writing"
 intent: x-import-index
 status: archived
@@ -8,12 +8,12 @@ owner: prompt-catalog-team
 last_reviewed: 2026-03-19
 ---
 
-# X Imports 2025
+# X由来の実験プロンプト 2025
 
 - branch: presentation
 - items: 13
 
-## By Month
-- [2025-11](./11/index.md) - 9 items
-- [2025-06](./06/index.md) - 3 items
-- [2025-05](./05/index.md) - 1 items
+## 月別アーカイブ
+- [2025-11](./11/index.md) - 9件
+- [2025-06](./06/index.md) - 3件
+- [2025-05](./05/index.md) - 1件

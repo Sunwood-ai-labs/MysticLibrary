@@ -1,6 +1,6 @@
 ---
-title: "X Imports 2025-10"
-description: "Categorized X prompt imports for creative / visual in 2025-10"
+title: "X由来の実験プロンプト 2025-10"
+description: "creative / visual に分類した 2025-10 の X 由来の実験プロンプト"
 category: "creative"
 intent: x-import-index
 status: archived
@@ -8,12 +8,12 @@ owner: prompt-catalog-team
 last_reviewed: 2026-03-19
 ---
 
-# X Imports 2025-10
+# X由来の実験プロンプト 2025-10
 
 - branch: creative / visual
 - items: 12
 
-## Entries
+## 一覧
 - [私もモフモフのぬいぐるみとコラボしてやってみた!](./1982337169038676399.md) - 2025-10-26 15:43:05 JST / classified / low
 - [minimalistic line art プロンプトを使ってリポジトリのヘッダ画像作成中、、、どれも可愛いな、、、](./1981704868739068141.md) - 2025-10-24 21:50:33 JST / classified / high
 - [minimalistic line art プロンプトを使ってみた!](./1981688567438115206.md) - 2025-10-24 20:45:47 JST / classified / high

@@ -1,6 +1,6 @@
 ---
-title: "X Imports 2025-11"
-description: "Categorized X prompt imports for docs / graphic-recording in 2025-11"
+title: "X由来の実験プロンプト 2025-11"
+description: "docs / graphic-recording に分類した 2025-11 の X 由来の実験プロンプト"
 category: "docs"
 intent: x-import-index
 status: archived
@@ -8,12 +8,12 @@ owner: prompt-catalog-team
 last_reviewed: 2026-03-19
 ---
 
-# X Imports 2025-11
+# X由来の実験プロンプト 2025-11
 
 - branch: docs / graphic-recording
 - items: 14
 
-## Entries
+## 一覧
 - [💡記事の内容を応用したら出来ちまった、、、Googleスライド生成でオリジナルキャラクターを登場させた漫画爆誕💡💡](./1994452308814696661.md) - 2025-11-29 02:04:20 JST / classified / low
 - [📝【研究中】NotebookLMのスライドにオリジナルキャラを登場させられた!!](./1994036670790828101.md) - 2025-11-27 22:32:44 JST / classified / low
 - [📝【研究中】NotebookLMのインフォグラフィックにオリジナルキャラを登場させられた!!](./1994033728041914683.md) - 2025-11-27 22:21:02 JST / classified / high

@@ -1,6 +1,6 @@
 ---
-title: "X Imports 2026"
-description: "Categorized X prompt imports for creative / game in 2026"
+title: "X由来の実験プロンプト 2026"
+description: "creative / game に分類した 2026 年の X 由来の実験プロンプト"
 category: "creative"
 intent: x-import-index
 status: archived
@@ -8,11 +8,11 @@ owner: prompt-catalog-team
 last_reviewed: 2026-03-19
 ---
 
-# X Imports 2026
+# X由来の実験プロンプト 2026
 
 - branch: creative / game
-- items: 3
+- items: 2
 
-## By Month
-- [2026-03](./03/index.md) - 1 items
-- [2026-02](./02/index.md) - 2 items
+## 月別アーカイブ
+- [2026-03](./03/index.md) - 1件
+- [2026-02](./02/index.md) - 1件

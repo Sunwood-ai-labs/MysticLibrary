@@ -1,6 +1,6 @@
 ---
-title: "X Imports 2026-01"
-description: "Categorized X prompt imports for creative / video in 2026-01"
+title: "X由来の実験プロンプト 2026-01"
+description: "creative / video に分類した 2026-01 の X 由来の実験プロンプト"
 category: "creative"
 intent: x-import-index
 status: archived
@@ -8,12 +8,12 @@ owner: prompt-catalog-team
 last_reviewed: 2026-03-19
 ---
 
-# X Imports 2026-01
+# X由来の実験プロンプト 2026-01
 
 - branch: creative / video
 - items: 8
 
-## Entries
+## 一覧
 - [ViduQ3 でほっこりミニチュア動画を作成してみた](./2017265359083180242.md) - 2026-01-31 00:55:15 JST / classified / high
 - [Grokが10秒になったので峠プロンプトで遊んでみる❶](./2016125882306355291.md) - 2026-01-27 21:27:22 JST / classified / high
 - [Grokが10秒になったので高速ドローンプロンプトで遊んでみる❸](./2016115379152814095.md) - 2026-01-27 20:45:38 JST / classified / high

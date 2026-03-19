@@ -1,6 +1,6 @@
 ---
-title: "X Imports 2025-12"
-description: "Categorized X prompt imports for docs / graphic-recording in 2025-12"
+title: "X由来の実験プロンプト 2025-12"
+description: "docs / graphic-recording に分類した 2025-12 の X 由来の実験プロンプト"
 category: "docs"
 intent: x-import-index
 status: archived
@@ -8,12 +8,12 @@ owner: prompt-catalog-team
 last_reviewed: 2026-03-19
 ---
 
-# X Imports 2025-12
+# X由来の実験プロンプト 2025-12
 
 - branch: docs / graphic-recording
 - items: 6
 
-## Entries
+## 一覧
 - [2025年の活動の要約+来年成長予測ディープリサーチ結果をグラレコ水彩図解プロンプトで可視化してみた!!](./2003480554810081343.md) - 2025-12-23 23:59:21 JST / classified / high
 - [テツメモさんのXのプロフインフォグラフィックプロンプトをさらに改造して「古文書スタイル」で自分のプロフを可視化してみた!!](./2001932303770276012.md) - 2025-12-19 17:27:09 JST / classified / medium
 - [テツメモさんのXのプロフインフォグラフィックプロンプトをさらに改造して「古文書スタイル」で自分のプロフを可視化してみた!! これも良い](./2001923722748530893.md) - 2025-12-19 16:53:04 JST / classified / high

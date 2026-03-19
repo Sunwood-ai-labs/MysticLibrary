@@ -1,6 +1,6 @@
 ---
-title: "X Imports 2025-09"
-description: "Categorized X prompt imports for dev / templates in 2025-09"
+title: "X由来の実験プロンプト 2025-09"
+description: "dev / templates に分類した 2025-09 の X 由来の実験プロンプト"
 category: "dev"
 intent: x-import-index
 status: archived
@@ -8,12 +8,12 @@ owner: prompt-catalog-team
 last_reviewed: 2026-03-19
 ---
 
-# X Imports 2025-09
+# X由来の実験プロンプト 2025-09
 
 - branch: dev / templates
 - items: 5
 
-## Entries
+## 一覧
 - [HunyuanImage 3.0 で falで使ってみた!!](./1972306156312997888.md) - 2025-09-28 23:23:25 JST / classified / medium
 - [TWILIGHT JUNGLE プロンプト使ってみた!!](./1969410719650365442.md) - 2025-09-20 23:38:00 JST / classified / high
 - [Particle grids でリポジトリのヘッダー画像作ってみた!](./1964581673825361964.md) - 2025-09-07 15:49:05 JST / classified / medium
