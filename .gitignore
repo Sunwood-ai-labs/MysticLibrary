@@ -197,3 +197,4 @@ supabase/
 pnpm-lock.yaml
 docs/.vitepress/dist-check/
 raw/
+.codex-tmp/
