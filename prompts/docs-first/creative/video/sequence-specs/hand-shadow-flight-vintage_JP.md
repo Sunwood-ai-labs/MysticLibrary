@@ -1,0 +1,16 @@
+---
+title: "️❸ 手影絵の奇跡 (Hand Shadow Flight)"
+description: "Visual: A vintage bedroom wall illuminated by a single lamp. Real human hands f…"
+canonical_id: "creative/video/sequence-specs/hand-shadow-flight-vintage"
+canonical_doc: "docs/prompt-catalog/creative/video/sequence-specs/hand-shadow-flight-vintage.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/video/sequence-specs/hand-shadow-flight-vintage.md. Edit docs/ instead. -->
+
+Visual: A vintage bedroom wall illuminated by a single lamp. Real human hands form a shadow puppet of a bird. Suddenly, the shadow bird detaches from the hands and flies away freely across the wall.
+Audio: [Music] Gentle acoustic guitar melody, nostalgic and warm.
+Audio: [SFX] Soft fluttering sound of wings, a child giggling faintly in the background.
+Camera: Handheld feel, slightly shaky to enhance realism.

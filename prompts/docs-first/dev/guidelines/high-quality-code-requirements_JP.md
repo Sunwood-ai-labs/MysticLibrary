@@ -5,7 +5,7 @@ canonical_id: "dev/guidelines/high-quality-code-requirements"
 canonical_doc: "docs/prompt-catalog/dev/guidelines/high-quality-code-requirements.md"
 locale: JP
 docs_first: true
-last_synced: 2026-03-18
+last_synced: 2026-03-19
 ---
 
 <!-- Generated from docs/prompt-catalog/dev/guidelines/high-quality-code-requirements.md. Edit docs/ instead. -->

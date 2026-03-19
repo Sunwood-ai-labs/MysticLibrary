@@ -1,0 +1,23 @@
+---
+title: "天照大神(アマテラス)"
+description: "1. 天照大神(アマテラス)"
+canonical_id: "creative/visual/image-edits/soft-high-quality-plush-toy"
+canonical_doc: "docs/prompt-catalog/creative/visual/image-edits/soft-high-quality-plush-toy.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/visual/image-edits/soft-high-quality-plush-toy.md. Edit docs/ instead. -->
+
+1. 天照大神(アマテラス)
+A soft, high-quality plush toy of Amaterasu, portrayed as a beautiful woman with long flowing black hair adorned with a golden sun-shaped crown. Oversized head, small body, stubby limbs. Made of fuzzy white fabric with embroidered eyes and a serene smile. She wears a simple but elegant red and white robe, with tiny golden sun motifs. Lighting is soft and even, collectible plush look, centered full-body view.
+
+2. 月読命(ツクヨミ)
+A soft, high-quality plush toy of Tsukuyomi, portrayed as a handsome man with long silver hair and a calm, mysterious expression. Oversized head, small body, stubby limbs. Made of fuzzy pale-blue fabric with embroidered crescent-moon eyes. He wears a flowing indigo robe with silver embroidery and a small crescent moon accessory on his forehead. Neutral background, soft lighting, collectible plush look.
+
+3. 須佐之男命(スサノオ)
+A soft, high-quality plush toy of Susanoo, depicted as a strikingly handsome young man with wild, tousled hair and a confident smile. Oversized head, small body, stubby limbs. Made of soft dark-blue fabric with embroidered storm-cloud patterns. He wears simple warrior clothing with a tiny sword accessory at his side, symbolizing the Kusanagi blade. Lighting is soft and even, plush toy collectible look.
+
+4. 木花咲耶姫(コノハナサクヤヒメ)
+A soft, high-quality plush toy of Konohanasakuya-hime, portrayed as a graceful beauty with long flowing black hair decorated with cherry blossoms. Oversized head, small body, stubby limbs. Made of soft pink fabric, with embroidered gentle eyes and a sweet smile. She wears a delicate kimono with floral patterns, and small sakura petals are embroidered around her. Centered, full-body view with soft collectible lighting.

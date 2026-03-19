@@ -1,0 +1,27 @@
+---
+title: "天照大神(アマテラス)"
+description: "1. 天照大神(アマテラス)"
+canonical_id: "creative/visual/brand-assets/hyper-realistic-cereal-box-featuring"
+canonical_doc: "docs/prompt-catalog/creative/visual/brand-assets/hyper-realistic-cereal-box-featuring.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/visual/brand-assets/hyper-realistic-cereal-box-featuring.md. Edit docs/ instead. -->
+
+1. 天照大神(アマテラス)
+
+A hyper-realistic cereal box design featuring Amaterasu, the Sun Goddess Hero. The box should stand upright at a 45-degree angle facing left, filling most of the frame, with soft shadows on a clean studio background. Design it with radiant golden rays, bold divine typography, and a playful mascot illustration of Amaterasu in shining armor. Cereal pieces are shaped like small suns and mirror symbols. Add a “Limited Edition: Divine Dawn” badge. Include realistic details like barcode, nutrition info, and celestial mini-games on the back. Perfect print design.
+
+2. 雷神(ライジン)
+
+A hyper-realistic cereal box design featuring Raijin, the Thunder God Hero. The box should stand upright at a 45-degree angle facing left, filling most of the frame, with soft shadows on a clean studio background. Make it stormy with crackling lightning graphics, bold electric typography, and a mascot illustration of Raijin as a muscular armored hero with thunder drums. Cereal pieces shaped like lightning bolts and drum symbols. Add a “Limited Edition: Storm Breaker” badge. Include realistic details like barcode, nutrition info, and thunder maze mini-games on the back. Perfect print design.
+
+3. ヘルメス(Hermes)
+
+A hyper-realistic cereal box design featuring Hermes, the Messenger God Hero. The box should stand upright at a 45-degree angle facing left, filling most of the frame, with soft shadows on a clean studio background. Add winged motifs, bold Greek-inspired typography, and a mascot illustration of Hermes with winged sandals and caduceus staff. Cereal pieces shaped like wings and caduceus spirals. A “Limited Edition: Speed of the Gods” badge on the front. Include realistic details like barcode, nutrition info, and godly riddle mini-games on the back. Perfect print design.
+
+4. シヴァ(Shiva)
+
+A hyper-realistic cereal box design featuring Shiva, the Cosmic Hero. The box should stand upright at a 45-degree angle facing left, filling most of the frame, with soft shadows on a clean studio background. Design it with cosmic mandalas, bold Sanskrit-inspired typography, and a heroic mascot illustration of Shiva with trident and flowing hair. Cereal pieces shaped like tridents and lotus petals. Add a “Limited Edition: Cosmic Balance” badge. Include realistic details like barcode, nutrition info, and meditation mini-games on the back. Perfect print design.

@@ -1,0 +1,71 @@
+---
+title: "title: \\\"City Reborn"
+description: "HiggsfieldSora2"
+canonical_id: "creative/audio/city-builder-trailer-game"
+canonical_doc: "docs/prompt-catalog/creative/audio/city-builder-trailer-game.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/audio/city-builder-trailer-game.md. Edit docs/ instead. -->
+
+#HiggsfieldSora2 
+
+version: "1.1"
+meta:
+ title: "City Reborn"
+ purpose: "リアル街づくりゲームCM/映画予告風"
+ duration_sec: 10
+ aspect_ratio: "2.39:1"
+ fps: 24
+ style_refs: ["epic cinematic", "urban realism", "time-lapse montage", "emotional lighting"]
+story:
+ theme: "リアルな街づくりゲーム"
+ logline: "一人のプレイヤーが廃墟の土地から未来都市を築き、人々の笑顔を取り戻す。"
+ act_map: ["起:廃墟", "承:再建", "転:賑わい", "結:完成とタイトル表示"]
+scene:
+ description: "崩れた街の跡地、建設現場、輝く夜景の高層ビル群"
+ time_weather: "朝焼けから夜明けまでのタイムラプス、晴天→夕暮れ→夜景"
+subject_action:
+ description: "プレイヤーの指が画面をタップするたびに、街が再生していく。瓦礫が建物に変わり、光が通りに戻る。"
+ tempo: "furious"
+camera:
+ framing: ["aerial wide", "close-up", "time-lapse tilt"]
+ moves: ["drone orbit", "push-in", "whip pan"]
+ focus: "rack focus from hands to city skyline"
+lighting_style:
+ description: "朝日の金色の逆光と夜景のネオンブルーが交錯する、希望の光調"
+physics_materials:
+ notes: ["砂埃が立ち上る", "クレーンの鉄粉が陽光に輝く", "雨粒がガラスを滑る"]
+audio:
+ dialogue:
+ - who: "narrator"
+ text: "あなたの手で、この街は息を吹き返す。"
+ start_sec: 7
+ end_sec: 8
+ bgm:
+ mood: "piano build → orchestral rise → drop at logo"
+ start_sec: 0
+ end_sec: 10
+ sfx: ["construction clangs", "crowd ambience", "whoosh cuts"]
+montage:
+ cuts_total: 18
+ target_cuts_per_sec: 1.8
+ transition_types: ["match cut", "time-lapse dissolve", "hard cut"]
+timeline:
+ - start_sec: 0
+ end_sec: 3
+ action: "起: 荒廃した街。カメラがゆっくりと瓦礫を抜け、無音の静寂。"
+ - start_sec: 4
+ end_sec: 7
+ action: "承転: タップの瞬間、建物が立ち上がり、人が戻る。連続カットで都市が蘇る。"
+ - start_sec: 8
+ end_sec: 10
+ action: "結: 夜景の全景。静寂の後、タイトル『City Reborn』が輝く。"
+flat_prompt: >
+ "テーマ『リアルな街づくりゲーム』を10秒で描く映画予告風モンタージュ。
+ 荒廃した街がプレイヤーの指先で蘇る様をタイムラプスとウィップパンで展開。
+ 金色の朝日と青い夜景が交錯し、BGMが頂点に達した瞬間、静寂とともにタイトル『City Reborn』が表示される。"
+
+👉 https://t.co/UEUiOFiICM

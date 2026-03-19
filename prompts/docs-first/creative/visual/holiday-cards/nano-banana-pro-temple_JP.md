@@ -1,0 +1,26 @@
+---
+title: "2026年の干支は「丙午(ひのえうま)」です。"
+description: "2026年の干支は**「丙午(ひのえうま)」**です。"
+canonical_id: "creative/visual/holiday-cards/nano-banana-pro-temple"
+canonical_doc: "docs/prompt-catalog/creative/visual/holiday-cards/nano-banana-pro-temple.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/visual/holiday-cards/nano-banana-pro-temple.md. Edit docs/ instead. -->
+
+2026年の干支は**「丙午(ひのえうま)」**です。
+
+葛飾北斎の浮世絵風な2026年の年賀状
+下記の抱負をたくさん考えてミチミチに詰め込んで
+
+---
+
+2026年 限界突破&全方位爆速成長計画
+【健康・肉体改造編】 毎日7時間半睡眠死守・朝イチ白湯飲む・週4筋トレ(スクワット・デッドリフト・ベンチプレスBIG3強化)・体脂肪率〇〇%達成・腹筋バキバキにする・野菜一日350g摂取・加工食品可能な限り排除・砂糖断ちチャレンジ・水を毎日2リットル飲む・姿勢改善・猫背矯正ベルト導入・ヨガで柔軟性UP・毎朝瞑想15分・ストレスを翌日に持ち越さない・階段を使う・健康診断オールA判定・歯医者の定期検診行く・枕をオーダーメイドする・腸内環境整える・発酵食品毎日食べる・日光を浴びてセロトニン出す・二日酔いになるまで飲まない・休肝日週2日設ける・自分の体を神殿のように扱う
+
+。。。
+
+---
+今なら、Higgsfieldで65% OFF & これから3日以内に @higgsfield_ai に参加した人は Nano Banana Pro を1年間無制限で利用できます。

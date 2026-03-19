@@ -1,0 +1,38 @@
+---
+title: "“Aetherion Dynamics”"
+description: "1. “Aetherion Dynamics”"
+canonical_id: "creative/visual/brand-assets/nano-banana-pro-aetherion"
+canonical_doc: "docs/prompt-catalog/creative/visual/brand-assets/nano-banana-pro-aetherion.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/visual/brand-assets/nano-banana-pro-aetherion.md. Edit docs/ instead. -->
+
+1. “Aetherion Dynamics”
+A cinematic 3D logo for Aetherion Dynamics 
+Automatically assign a realistic texture (glass, fire, neon, chrome, liquid, ice, lava, wood, or cloud) based on the brand style. 
+Use dramatic lighting, depth of field, and a soft glowing background. 
+Style: product ad / reveal shot, cinematic tone, ultra HD.
+
+2. “Solara Quantum Systems”
+A cinematic 3D logo for Solara Quantum Systems 
+Automatically assign a realistic texture (glass, fire, neon, chrome, liquid, ice, lava, wood, or cloud) based on the brand style. 
+Use dramatic lighting, depth of field, and a soft glowing background. 
+Style: product ad / reveal shot, cinematic tone, ultra HD.
+
+3. “Nebula Forge Labs”
+A cinematic 3D logo for Nebula Forge Labs 
+Automatically assign a realistic texture (glass, fire, neon, chrome, liquid, ice, lava, wood, or cloud) based on the brand style. 
+Use dramatic lighting, depth of field, and a soft glowing background. 
+Style: product ad / reveal shot, cinematic tone, ultra HD.
+
+4. “Titan Arc Industries”
+A cinematic 3D logo for Titan Arc Industries 
+Automatically assign a realistic texture (glass, fire, neon, chrome, liquid, ice, lava, wood, or cloud) based on the brand style. 
+Use dramatic lighting, depth of field, and a soft glowing background. 
+Style: product ad / reveal shot, cinematic tone, ultra HD.
+
+---
+今なら、Higgsfieldで65% OFF & これから3日以内に @higgsfield_ai に参加した人は Nano Banana Pro を1年間無制限で利用できます。

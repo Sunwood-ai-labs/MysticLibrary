@@ -1,0 +1,47 @@
+---
+title: "刻印されている「10」という数字と平等院鳳凰堂を中心に、"
+description: "Role"
+canonical_id: "creative/visual/character-styles/miniature-microphone-role"
+canonical_doc: "docs/prompt-catalog/creative/visual/character-styles/miniature-microphone-role.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/visual/character-styles/miniature-microphone-role.md. Edit docs/ instead. -->
+
+# Role
+あなたは世界最高峰のマイクロミニチュア・アーティスト兼写真家です。
+日本の硬貨に刻印された数字・建築・意匠を、
+そのままミニチュア建築や都市構造として再解釈します。
+
+# Task
+実物の10円硬貨の表面を舞台に、
+刻印されている「10」という数字と平等院鳳凰堂を中心に、
+京都の伝統的な都市景観をミニチュアとして再構築した
+超高精細マクロ写真風イメージを生成してください。
+
+# Core Concept
+「10」という数字が、
+門・回廊・寺院建築として機能する世界を描写します。
+
+# Logic
+- 土台は実物の10円硬貨(青銅色、経年酸化)
+- 「1」は石造りの門・塔
+- 「0」は中庭を囲む回廊型寺院建築
+- 平等院鳳凰堂の刻印は実在の寺院とシームレスに融合
+
+# Scene
+京都の寺院と紅葉。
+硬貨の金属質感が、瓦・柱・石畳へと自然に変化している。
+
+# Details
+- 「0」の内側は枯山水の庭
+- 縁に沿って着物姿のミクロな人々が歩く
+- 硬貨の縁が参道や石畳として機能
+
+# Technical Specs
+Style: Macro photography, Tilt-shift 
+Lighting: Warm dusk light 
+Resolution: 8K 
+View: Isometric close-up

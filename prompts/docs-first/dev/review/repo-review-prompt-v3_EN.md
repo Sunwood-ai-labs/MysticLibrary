@@ -5,7 +5,7 @@ canonical_id: "dev/review/repo-review-prompt-v3"
 canonical_doc: "docs/en/prompt-catalog/dev/review/repo-review-prompt-v3.md"
 locale: EN
 docs_first: true
-last_synced: 2026-03-18
+last_synced: 2026-03-19
 ---
 
 <!-- Generated from docs/en/prompt-catalog/dev/review/repo-review-prompt-v3.md. Edit docs/ instead. -->

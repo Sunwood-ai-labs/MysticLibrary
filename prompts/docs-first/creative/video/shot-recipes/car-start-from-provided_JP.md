@@ -1,0 +1,38 @@
+---
+title: "Veo3で車のインプレッションしてもらったら普通に乗ってくれた!!!"
+description: "Start from the provided still frame. Maintain a Hollywood-grade, Instagram-Reel…"
+canonical_id: "creative/video/shot-recipes/car-start-from-provided"
+canonical_doc: "docs/prompt-catalog/creative/video/shot-recipes/car-start-from-provided.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/video/shot-recipes/car-start-from-provided.md. Edit docs/ instead. -->
+
+Start from the provided still frame. Maintain a Hollywood-grade, Instagram-Reels vibe with rich contrast, gentle film grain, and shallow focus.
+
+Scene flow (8–10 seconds total):
+1) The influencer leans closer to the lens, whispers “Check this out” with a playful smirk.
+2) Quick whip-pan to the car’s digital dashboard as holographic spec callouts pop up (0.3s pop, then fade).
+3) Smash cut to an exterior rolling shot: the car glides through a neon-lit tunnel; light streaks race across the bodywork.
+4) Match cut back inside: she taps the steering wheel, a floating UI carousel spins, showcasing performance numbers.
+5) End on a bold full-screen title: “OWN YOUR DRIVE.” (all caps, bold sans serif), then quick logo sting.
+
+Camera & motion:
+- Use fast, confident handheld micro-jitters during dialogue, then switch to buttery-stabilized tracking for the tunnel shot.
+- Employ a 35mm-equivalent lens feel inside the car; 85mm-equivalent for close-ups; 20mm ultra-wide for the tunnel glide.
+- Add one dramatic rack focus (eyes → HUD text).
+- Transitions: whip-pan, smash cut, match cut. Keep cuts under 0.5s except final hold (0.8s).
+
+Audio direction (if using audio):
+- Energetic, bassy beat with a subtle trap hi-hat pattern.
+- Her voice: upbeat, charismatic American accent, clear articulation.
+
+Voiceover lines (spoken by influencer):
+“Check this out— zero to wow in seconds. Performance? Off the charts. Style? Say no more. This isn’t just a ride, it’s a statement.”
+
+On-screen text cues:
+- “Swipe for specs” (small, top-right, 0:01–0:02)
+- Floating numbers: “0–100 km/h: 3.1s”, “700 HP”, “Active Aero”
+- Final card: “OWN YOUR DRIVE.” center screen, white on black for 0.8s

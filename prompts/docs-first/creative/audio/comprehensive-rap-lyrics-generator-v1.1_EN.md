@@ -5,7 +5,7 @@ canonical_id: "creative/audio/comprehensive-rap-lyrics-generator-v1.1"
 canonical_doc: "docs/en/prompt-catalog/creative/audio/comprehensive-rap-lyrics-generator-v1.1.md"
 locale: EN
 docs_first: true
-last_synced: 2026-03-18
+last_synced: 2026-03-19
 ---
 
 <!-- Generated from docs/en/prompt-catalog/creative/audio/comprehensive-rap-lyrics-generator-v1.1.md. Edit docs/ instead. -->

@@ -1,0 +1,13 @@
+---
+title: "Curve edge 3D Display プロンプト使ってみた!!"
+description: "A giant futuristic curved edge 3D anamorphic billboard on the side of a glass s…"
+canonical_id: "creative/visual/brand-assets/curve-edge-display-giant"
+canonical_doc: "docs/prompt-catalog/creative/visual/brand-assets/curve-edge-display-giant.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/visual/brand-assets/curve-edge-display-giant.md. Edit docs/ instead. -->
+
+A giant futuristic curved edge 3D anamorphic billboard on the side of a glass skyscraper in Shibuya crossing. On the 3D billboard is a man styled in a sleek cyberpunk gaming outfit with LED accents. He's sitting on a gaming chair inside the billboard, but his arm reaches out of the screen holding a glowing VR controller that hovers over passing pedestrians. Next to him, bold neon text styled like a tech brand slogan reads: "LEVEL UP YOUR REALITY" with tagline "GAME BEYOND LIMITS" inside the 3D billboard. The 3D billboard mixes cyberpunk aesthetics with playful anamorphic illusion. Put on bottom corner inside billboard a signature style text "@ YourName_Gaming". Photorealistic, futuristic, vibrant neon glow, and viral-worthy. 3:4 framing.

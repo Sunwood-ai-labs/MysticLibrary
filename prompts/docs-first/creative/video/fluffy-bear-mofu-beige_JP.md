@@ -1,0 +1,35 @@
+---
+title: "ふわふわモフモフプロンプト!"
+description: "🧸1 Fluffy Bear “Mofu”"
+canonical_id: "creative/video/fluffy-bear-mofu-beige"
+canonical_doc: "docs/prompt-catalog/creative/video/fluffy-bear-mofu-beige.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/video/fluffy-bear-mofu-beige.md. Edit docs/ instead. -->
+
+🧸1 Fluffy Bear “Mofu”
+“A fluffy beige teddy bear plushie with a round, soft body and short arms slightly forward as if ready for a hug.
+Its fur is long, light, and gently reflects sunlight.
+The bear has a calm expression with a faint smile.
+It sits on a light wooden desk bathed in warm natural light, evoking a cozy and comforting atmosphere.”
+
+🐰2 Fuzzy Bunny “Pyon”
+“A soft, fluffy white rabbit plush toy with slightly droopy long ears and round, gentle eyes.
+It wears a small ribbon around its neck and has a pastel color palette.
+The fur looks thick and cloud-like, giving a cushioned, sink-in softness.
+The background shows a softly lit room with a warm springlike glow.”
+
+🐑3 Woolly Sheep “Mil”
+“A fluffy white sheep plushie with a round, puffy body and wool-like texture.
+Its tiny legs and sleepy eyes make it look adorably calm.
+The fur appears airy and voluminous, catching light softly like cotton.
+It sits against a natural fabric surface or a gentle meadow-inspired setting.”
+
+🐧4 Puffy Penguin “Puku”
+“A chubby, soft plush penguin with gray and white fur.
+It has a plump round shape, short wings, and an endearing, curious expression with a slight head tilt.
+The fur is short and velvety, giving a springy, cushion-like texture.
+The background features a bright tabletop or cool-toned light, creating a cozy yet refreshing vibe.”

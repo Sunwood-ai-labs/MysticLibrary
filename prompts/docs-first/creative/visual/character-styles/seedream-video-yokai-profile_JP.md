@@ -1,0 +1,54 @@
+---
+title: "私もプロフィール画像から動画と音声を生成してみた!"
+description: "Seedream V4用プロンプト(和装アイドル・妖怪世界Ver.)"
+canonical_id: "creative/visual/character-styles/seedream-video-yokai-profile"
+canonical_doc: "docs/prompt-catalog/creative/visual/character-styles/seedream-video-yokai-profile.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/visual/character-styles/seedream-video-yokai-profile.md. Edit docs/ instead. -->
+
+Seedream V4用プロンプト(和装アイドル・妖怪世界Ver.)
+
+prompt:
+Create a typographic art portrait of a handsome Japanese male idol named Onizuki Ren. 
+He stands on a stage in a black kimono with fine silver embroidery and a draped haori. 
+His long silver hair flows like moonlit silk, sharp blue eyes glowing with an ethereal charm. 
+Stage background with faint silver mist and subtle spotlights, cinematic and dramatic atmosphere. 
+Ultra-detailed skin and fabric textures, photorealistic fine art style. --ar 3:4 --v 7 --style raw
+
+Overlay the composition with Japanese typography that interacts dynamically with his figure, hair, kimono, and the stage mist. 
+Typography should feel alive — glowing like silver light, curving along his silhouette, wrapping around his gaze, 
+and cutting across the flowing haori.
+
+HUGE TEXT (dominating the image, partially cut off at edges):
+「鬼月蓮」
+「月光ノ歌声」
+「銀髪ノ魅影」
+
+MEDIUM TEXT (floating across the stage mist and kimono folds):
+「闇夜に輝く蒼瞳」
+「和装アイドル」
+「舞台に現る幻影」
+「月と影を纏う存在」
+「刹那を永遠に変える声」
+
+SMALL TEXT (filling spaces like shimmering whispers and charms):
+「ステージ」 「旋律」 「蒼」 「銀光」 「拍手」 「刹那」 
+「儚さ」 「共鳴」 「観客」 「鼓動」 「魅了」 「幻想」 
+「和と洋」 「煌めき」 「月影」 「調べ」 「孤高」
+
+SURPRISING REVELATIONS (medium/large text, integrated into chaos):
+「歌声は人の心を操る力を秘めている」
+「舞台に立つたび、記憶を誰かから奪っている」
+「観客は知らぬ間に魂を差し出している」
+「彼自身も人ではなく、月に縛られた存在」
+「笑顔の裏に潜むのは孤独」
+「拍手の熱狂が消えるとき、彼は霧に溶ける」
+
+Typography must be silver-white, with dramatic contrast against the black stage and kimono. 
+Some letters should stretch beyond the frame, others shimmer like mist or moonlight trails. 
+The integration of text and image should create a hypnotic, glamorous, yet unsettling atmosphere, 
+blurring the line between idol and yokai.

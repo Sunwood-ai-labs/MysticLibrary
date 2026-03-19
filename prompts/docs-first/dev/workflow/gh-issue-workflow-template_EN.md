@@ -5,7 +5,7 @@ canonical_id: "dev/workflow/gh-issue-workflow-template"
 canonical_doc: "docs/en/prompt-catalog/dev/workflow/gh-issue-workflow-template.md"
 locale: EN
 docs_first: true
-last_synced: 2026-03-18
+last_synced: 2026-03-19
 ---
 
 <!-- Generated from docs/en/prompt-catalog/dev/workflow/gh-issue-workflow-template.md. Edit docs/ instead. -->

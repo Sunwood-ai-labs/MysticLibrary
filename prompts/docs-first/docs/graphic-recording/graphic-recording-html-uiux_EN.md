@@ -5,7 +5,7 @@ canonical_id: "docs/graphic-recording/graphic-recording-html-uiux"
 canonical_doc: "docs/en/prompt-catalog/docs/graphic-recording/graphic-recording-html-uiux.md"
 locale: EN
 docs_first: true
-last_synced: 2026-03-18
+last_synced: 2026-03-19
 ---
 
 <!-- Generated from docs/en/prompt-catalog/docs/graphic-recording/graphic-recording-html-uiux.md. Edit docs/ instead. -->

@@ -1,0 +1,23 @@
+---
+title: "“Luminous Essence Bottle”"
+description: "📸 1. “Luminous Essence Bottle”"
+canonical_id: "creative/visual/brand-assets/luminous-essence-bottle-product"
+canonical_doc: "docs/prompt-catalog/creative/visual/brand-assets/luminous-essence-bottle-product.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/visual/brand-assets/luminous-essence-bottle-product.md. Edit docs/ instead. -->
+
+📸 1. “Luminous Essence Bottle”
+product photography, a premium skincare essence bottle with frosted glass and gold accents, on the background, advertising style, soft pearl-white gradient backdrop, advertising poster, diffused studio lighting, high-resolution photography, high details, high-quality. in the style of commercial advertising.
+
+💼 2. “Steel Precision Watch”
+product photography, a luxury stainless-steel wristwatch with a midnight-blue dial, on the background, advertising style, brushed graphite texture, advertising poster, sharp directional spotlighting, high-resolution photography, high details, high-quality. in the style of commercial advertising.
+
+☕ 3. “Velvet Coffee Aroma”
+product photography, an artisanal coffee bag with minimalist matte packaging, on the background, advertising style, warm burlap texture, advertising poster, warm ambient lighting, high-resolution photography, high details, high-quality. in the style of commercial advertising.
+
+🎧 4. “Echo of Pure Sound”
+product photography, premium wireless headphones with sleek carbon-black finish, on the background, advertising style, dark smoky gradient backdrop, advertising poster, dramatic rim lighting, high-resolution photography, high details, high-quality. in the style of commercial advertising.

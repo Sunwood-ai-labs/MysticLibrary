@@ -1,0 +1,129 @@
+---
+title: "title: \\\"Crystal Apple Forest"
+description: "title: \\\"Crystal Apple Forest\\\""
+canonical_id: "creative/video/shot-recipes/1-diorama-title-crystal"
+canonical_doc: "docs/prompt-catalog/creative/video/shot-recipes/1-diorama-title-crystal.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/video/shot-recipes/1-diorama-title-crystal.md. Edit docs/ instead. -->
+
+title: "Crystal Apple Forest"
+subject: a transparent glass apple containing a miniature forest and lake with tiny deer and songbirds
+context: set on a clean marble pedestal under soft morning light; the apple’s stem and leaf act as refractive highlights
+action: dew glints on moss as birds flutter; a fawn drinks at the lake while leaves gently sway
+style: natural, dreamy terrarium aesthetic with pastel greens and soft bloom
+camera:
+ shots:
+ - time: 0s–4s
+ shot: ultra-wide establishing of the entire apple
+ framing: centered on pedestal, slight high angle
+ movement: slow 180° orbit to reveal refraction and internal layers
+ lens: 24mm wide-angle, deep depth of field
+ - time: 4s–8s
+ shot: medium through the apple’s surface
+ framing: pushes through a clear facet, framing the lakeside
+ movement: forward dolly + micro-pan following a flying bird
+ lens: 35mm, moderate depth of field
+ - time: 8s–12s
+ shot: macro close-up on residents
+ framing: the fawn and rippling water surface
+ movement: gentle push-in with subtle rack-focus from ripples to the fawn’s eye
+ lens: 85mm macro, shallow depth of field
+audio: soft forest ambience, distant birdsong, delicate water lapping; no music
+negative: full-sized humans, on-screen text, labels, heavy condensation, dust
+duration: 12s
+resolution: 1080p
+mode: T2V
+
+ーーー
+
+title: "Lemon Reef Dome"
+subject: a semi-transparent lemon housing a tropical coral reef with tiny fish and seahorses
+context: cool, watery light patterns play across the rind; the lemon sits on a wet glass tray
+action: bubbles drift; a miniature diver statue slowly turns while a seahorse rides a current
+style: tropical, refreshing aqua-terrarium vibe with high clarity and vibrant micro-fauna
+camera:
+ shots:
+ - time: 0s–4s
+ shot: wide establishing of the whole lemon reef
+ framing: three-quarter view showing rind translucency and interior coral
+ movement: lateral slider move with slight parallax
+ lens: 28mm, deep depth of field
+ - time: 4s–8s
+ shot: medium interior through a rind “window”
+ framing: schools of fish weaving between branching coral
+ movement: slow drift-in + tilt down following bubbles
+ lens: 40mm, medium depth of field
+ - time: 8s–12s
+ shot: macro close-up on residents
+ framing: seahorse near a polyp, micro-particles sparkling
+ movement: tiny forward creep + rack-focus from coral tip to seahorse
+ lens: 90mm macro, shallow depth of field
+audio: gentle reef ambience, soft bubble streams, faint glassy chimes; no narration
+negative: full-sized humans, text overlays, utensils, strong glare hotspots
+duration: 12s
+resolution: 1080p
+mode: T2V
+
+ーーー
+
+title: "Amethyst Grape City"
+subject: a cluster of transparent violet grapes containing a neon miniature city with a moving commuter train
+context: placed on black velvet; tiny streetlights glow and reflections sparkle in each grape
+action: the train glides across a sky-bridge; billboards flicker; pedestrians cross a micro plaza
+style: cyber-purple, futuristic diorama with crisp speculars and gentle bloom
+camera:
+ shots:
+ - time: 0s–4s
+ shot: wide establishing of the grape cluster-city
+ framing: low angle to silhouette the skyline inside the grapes
+ movement: slow arc to catch different grapes refracting the city
+ lens: 26mm, deep depth of field
+ - time: 4s–8s
+ shot: medium into a primary grape “district”
+ framing: tracks and sky-bridge, train entering frame
+ movement: forward dolly synchronized with train motion
+ lens: 35mm, moderate depth of field
+ - time: 8s–12s
+ shot: macro close-up on residents
+ framing: tiny crowd at a plaza with a holographic fountain
+ movement: micro-orbit + rack-focus from fountain to a pedestrian waving
+ lens: 100mm macro, shallow depth of field
+audio: distant city hum, soft maglev whoosh, gentle synth pads
+negative: full-sized humans, printed text, fingerprints, excessive noise grain
+duration: 12s
+resolution: 1080p
+mode: T2V
+
+ーーー
+
+title: "Watermelon Oasis"
+subject: a semi-transparent watermelon half containing a desert oasis with tents, lanterns, and tiny camels
+context: warm sunset light; rind patterns cast subtle shadows across the sand
+action: palm fronds sway; a caravan arrives as lanterns flicker on by the water
+style: nostalgic, warm desert-terrarium with golden hour tones and soft grain
+camera:
+ shots:
+ - time: 0s–4s
+ shot: wide establishing of the entire watermelon oasis
+ framing: overhead three-quarter to show shoreline and dunes
+ movement: slow descending crane move revealing depth
+ lens: 24mm, deep depth of field
+ - time: 4s–8s
+ shot: medium along the shoreline
+ framing: tents and palm line, camels approaching the pool
+ movement: gentle forward track with slight pan following the caravan
+ lens: 50mm, moderate depth of field
+ - time: 8s–12s
+ shot: macro close-up on residents
+ framing: lantern-light on a tiny figure pouring tea
+ movement: subtle push-in + rack-focus from lantern flame to the figure’s hands
+ lens: 85mm macro, shallow depth of field
+audio: soft desert wind, quiet bells on camels, distant hand drum; no vocals
+negative: full-sized humans, signage, harsh specular flares, condensation streaks
+duration: 12s
+resolution: 1080p
+mode: T2V

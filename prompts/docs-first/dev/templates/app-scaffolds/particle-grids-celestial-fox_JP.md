@@ -1,0 +1,31 @@
+---
+title: "Particle grids でリポジトリのヘッダー画像作ってみた!"
+description: "1) 星霊のシルエット(Celestial Fox)"
+canonical_id: "dev/templates/app-scaffolds/particle-grids-celestial-fox"
+canonical_doc: "docs/prompt-catalog/dev/templates/app-scaffolds/particle-grids-celestial-fox.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/dev/templates/app-scaffolds/particle-grids-celestial-fox.md. Edit docs/ instead. -->
+
+1) 星霊のシルエット(Celestial Fox)
+💬Prompt:
+Silhouette of a celestial fox, filled with symmetrical star maps and cosmic circuitry, glowing in indigo and silver. Set against a solid black background, minimalist and high contrast, ethereal visual style, crisp edges, vector-inspired composition.
+Add the title “gradio4 react compose lab” in large elegant serif typography (Kaisei Decol or similar), centered near the bottom, generous letter-spacing, subtle gold-foil sheen, perfectly aligned and balanced.
+
+2) 月下の巫女(Moonlit Miko)
+💬Prompt:
+Silhouette of a shrine maiden, filled with symmetrical lunar phases and radiant fractal grids, glowing in violet and pale gold. Solid black background, mystical and high contrast, futuristic elegance, crisp edges, vector-inspired composition.
+Place “gradio4 react compose lab” as a bold, oversized headline in refined serif (Kaisei Decol or similar), top-center, slight tracking, soft glow outline for readability, immaculate baseline grid.
+
+3) 龍脈の守護者(Ley-Dragon)
+💬Prompt:
+Silhouette of a dragon, filled with symmetrical leyline patterns and quantum circuitry, glowing in emerald and jade. Solid black background, arcane and high contrast, sharp luminous style, crisp edges, vector-inspired composition.
+Insert “gradio4 react compose lab” as a large, elegant display line in classic serif (Kaisei Decol or similar), bottom-right, tight kerning, subtle emboss effect, aligns with a golden ratio margin.
+
+4) 永遠の梟(Eternal Owl)
+💬Prompt:
+Silhouette of an owl, filled with symmetrical constellations and geometric particle flows, glowing in sapphire and white. Solid black background, mysterious and high contrast, futuristic mysticism, crisp edges, vector-inspired composition.
+Set “gradio4 react compose lab” in oversized, graceful serif (Kaisei Decol or similar), center-bottom banner style, slightly expanded tracking, thin underline rule, pristine optical spacing.

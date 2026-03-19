@@ -1,0 +1,23 @@
+---
+title: "これを参考にしてロボット✖スケルトン風にしてみた!! #YokaiParae"
+description: "🦊 Kitsune Mecha(九尾メカ狐)"
+canonical_id: "creative/visual/character-styles/mecha-yokaiparae-kitsune-transparent-robotic"
+canonical_doc: "docs/prompt-catalog/creative/visual/character-styles/mecha-yokaiparae-kitsune-transparent-robotic.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/visual/character-styles/mecha-yokaiparae-kitsune-transparent-robotic.md. Edit docs/ instead. -->
+
+🦊 Kitsune Mecha(九尾メカ狐)
+A transparent robotic yokai fox with nine mechanical tails, each tail containing glowing neon circuits and rotating gears inside its clear casing. The sleek fox body is made of translucent alloy panels, revealing pistons, wires, and a glowing core. Studio lighting, dark background, hyper-detailed toy-like sci-fi art.
+
+👺 Tengu Mecha(機械天狗)
+A transparent robotic tengu with a long clear alloy nose, inside which pipes and neon conduits are visible. Mechanical wings extend from its back, their internal gears and glowing energy cores shining through translucent plating. Toy-like, hyper-detailed, dark void background with cinematic lighting.
+
+👻 Rokurokubi Mecha(機械ろくろ首)
+A transparent robotic yokai with a long segmented neck, each joint made of clear alloy cylinders showing inner gears and neon wires. The head is stylized with robotic features, glowing eyes, and metallic fangs, all visible through the translucent casing. Toy-like surreal mecha art, studio-lit.
+
+🔥 Hitodama Core(機械人魂コア)
+A transparent robotic floating spirit orb yokai, made of a clear glass-like shell. Inside, a glowing AI core rotates with floating gears, wires, and neon circuitry. The orb emits faint energy trails, surreal toy-like hyper-detailed scientific mecha art, on a black background.

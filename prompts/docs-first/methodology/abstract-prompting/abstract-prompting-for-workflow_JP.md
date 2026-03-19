@@ -5,7 +5,7 @@ canonical_id: "methodology/abstract-prompting/abstract-prompting-for-workflow"
 canonical_doc: "docs/prompt-catalog/methodology/abstract-prompting/abstract-prompting-for-workflow.md"
 locale: JP
 docs_first: true
-last_synced: 2026-03-18
+last_synced: 2026-03-19
 ---
 
 <!-- Generated from docs/prompt-catalog/methodology/abstract-prompting/abstract-prompting-for-workflow.md. Edit docs/ instead. -->

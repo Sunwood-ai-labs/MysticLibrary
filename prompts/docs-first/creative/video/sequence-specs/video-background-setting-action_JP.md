@@ -1,0 +1,27 @@
+---
+title: "Sora2動画しりとり"
+description: "&#91;Subject&#93; 主題: 透明なガラス球体のテラリウムの中で、光を反射する幻想的な熱帯魚のような生き物が優雅に泳いでいる。魚の体は半透明で、青や紫の光を放つ…"
+canonical_id: "creative/video/sequence-specs/video-background-setting-action"
+canonical_doc: "docs/prompt-catalog/creative/video/sequence-specs/video-background-setting-action.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/video/sequence-specs/video-background-setting-action.md. Edit docs/ instead. -->
+
+[Subject] 主題: 透明なガラス球体のテラリウムの中で、光を反射する幻想的な熱帯魚のような生き物が優雅に泳いでいる。魚の体は半透明で、青や紫の光を放つ鰭を持つ。
+
+[Setting] 環境: テラリウムの中には小さな水草や苔、光る鉱石のような装飾があり、柔らかい光が漂っている。背景は暗めで、ガラス越しに星空がぼんやりと映り込んでいる。
+
+[Action] 動作: 魚がゆっくりと回遊しながら、光る鰭を広げて舞うように泳ぐ。
+
+[Camera] カメラ: ゆっくりとしたドリーインでテラリウムに近づき、中の魚を追従する。魚が画面中央を優雅に横切る瞬間を強調。
+
+[Style] 映像スタイル: 幻想的でドリーミーな雰囲気、柔らかな光、やや幻想的なグロー効果。水中に漂う微細な光の粒子が浮遊している。
+
+[Audio] 音声: 静かな水のせせらぎ音と、柔らかいシンセパッド音楽。背景に小さなガラスがきらめくような効果音。
+
+[Timeline] 時間構成: 1カット、約8秒。序盤はテラリウム全体、徐々に魚のアップへ。
+
+[Constraints] 制約条件: 魚やテラリウムの質感は自然に、CGっぽさを避ける。光は過度に強すぎず、柔らかい輝き。

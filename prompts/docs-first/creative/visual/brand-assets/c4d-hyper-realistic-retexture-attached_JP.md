@@ -1,0 +1,59 @@
+---
+title: "style: \\\"C4D hyper-realistic 3D render"
+description: "Prompt: Retexture the image attached based on the json below"
+canonical_id: "creative/visual/brand-assets/c4d-hyper-realistic-retexture-attached"
+canonical_doc: "docs/prompt-catalog/creative/visual/brand-assets/c4d-hyper-realistic-retexture-attached.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/visual/brand-assets/c4d-hyper-realistic-retexture-attached.md. Edit docs/ instead. -->
+
+Prompt: Retexture the image attached based on the json below
+
+style: "C4D hyper-realistic 3D render"
+object_form: "detailed mechanical design"
+
+geometry:
+ shape: "sharp edges with smooth curves"
+ scale: "real-world proportion"
+ detailing: "high-poly mesh with intricate mechanical features"
+
+material:
+ base: "polished plastic and carbon fiber"
+ texture: "fine surface variation with specular maps"
+ finish: "high gloss with realistic reflections"
+
+design_elements:
+ decals: "subtle branding and panel lines"
+ surface_effects: "anodized gradients, emissive lighting elements"
+ aero_parts: "spoilers, splitters, and aggressive styling cues"
+
+color_scheme:
+ primary: "#0ae2c0"
+ secondary: "#111111"
+ accents:
+ - "#ffffff"
+ - "#e00000"
+ reflections: "real-world HDRI light environment"
+ background: "#ffffff"
+
+lighting:
+ type: "studio 3-point with HDRI"
+ intensity: "balanced with key fill and rim lights"
+ shadows: "soft, subtle contact shadow under object"
+ highlights: "strong specular reflections on curves"
+
+rendering:
+ engine: "Cinema 4D Redshift or Octane"
+ resolution: "ultra high-definition (4K+)"
+ focus: "object-centered with floating illusion"
+ background_blur: "none"
+
+composition:
+ layout: "centered in frame"
+ object_count: 1
+ orientation: "three-quarter front view"
+ camera: "35mm lens, slightly elevated"
+ grounding: "floating mid-air with realistic soft shadow cast on white background"

@@ -5,7 +5,7 @@ canonical_id: "dev/python/python-package-dev-checklist"
 canonical_doc: "docs/en/prompt-catalog/dev/python/python-package-dev-checklist.md"
 locale: EN
 docs_first: true
-last_synced: 2026-03-18
+last_synced: 2026-03-19
 ---
 
 <!-- Generated from docs/en/prompt-catalog/dev/python/python-package-dev-checklist.md. Edit docs/ instead. -->

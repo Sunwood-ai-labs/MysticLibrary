@@ -1,0 +1,46 @@
+---
+title: "キャラクターは「案内役」として各シーンに配置"
+description: "3Dアイソメトリック・ピクト図解の作成"
+canonical_id: "docs/graphic-recording/isometric-diagrams/isometric-pictogram-diagram-miniature-diorama-diagram-background"
+canonical_doc: "docs/prompt-catalog/docs/graphic-recording/isometric-diagrams/isometric-pictogram-diagram-miniature-diorama-diagram-background.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/docs/graphic-recording/isometric-diagrams/isometric-pictogram-diagram-miniature-diorama-diagram-background.md. Edit docs/ instead. -->
+
+# 3Dアイソメトリック・ピクト図解の作成
+
+## 出力形式
+- **スタイル**: 3Dミニチュア風アイソメトリック(斜め上30°視点)
+- **テイスト**: ジオラマ風、ミニチュア模型のような立体感
+- **背景**: シンプルな単色 or グラデーション(内容が映えるように)
+
+## キャラクターの扱い
+- 添付キャラクターを3Dミニチュアスタイルに変換
+- キャラクターは「案内役」として各シーンに配置
+- 吹き出しや指差しで重要ポイントを示す
+
+## 網羅性の確保
+上記の内容について、以下の観点を漏れなく図解に含めてください:
+1. **全体像**(概念・仕組みの俯瞰)
+2. **主要な構成要素**(登場する人・物・概念)
+3. **プロセス/フロー**(時系列や手順がある場合)
+4. **関係性**(要素間のつながり、矢印等で表現)
+5. **重要ポイント**(特に強調すべき部分をハイライト)
+
+## 言語
+- すべてのテキスト・ラベルは**日本語**で記載
+
+## 補足指示
+- 情報量が多い場合は、見やすく区画分けする
+- アイコンや記号を活用して視覚的にわかりやすく
+- 色分けで要素のカテゴリを区別する
+
+## 図解の構成
+以下の内容を**1枚の画像内に複数シーン**または**ステップごとのパネル形式**で網羅的に表現してください:
+
+### 解説する内容
+
+===

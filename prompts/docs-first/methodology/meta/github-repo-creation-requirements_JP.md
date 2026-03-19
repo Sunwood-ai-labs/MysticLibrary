@@ -5,7 +5,7 @@ canonical_id: "methodology/meta/github-repo-creation-requirements"
 canonical_doc: "docs/prompt-catalog/methodology/meta/github-repo-creation-requirements.md"
 locale: JP
 docs_first: true
-last_synced: 2026-03-18
+last_synced: 2026-03-19
 ---
 
 <!-- Generated from docs/prompt-catalog/methodology/meta/github-repo-creation-requirements.md. Edit docs/ instead. -->

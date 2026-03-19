@@ -1,0 +1,23 @@
+---
+title: "下部キャプション"
+description: "中央タイトル"
+canonical_id: "creative/visual/image-edits/minimalistic-art-sleepy-axolotl"
+canonical_doc: "docs/prompt-catalog/creative/visual/image-edits/minimalistic-art-sleepy-axolotl.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/visual/image-edits/minimalistic-art-sleepy-axolotl.md. Edit docs/ instead. -->
+
+中央タイトル
+a minimalistic line art of a sleepy axolotl, illustrated in 2D flat vector style. Soft coral outline only on a powder blue background. No shadows, no details. Simplified shape, clean curves, and modern, abstract styling. Add the text “go cli sample” in an elegant serif font, center-aligned near the top, medium weight, clean kerning.
+
+下部キャプション
+a minimalistic line art of a sleepy axolotl, illustrated in 2D flat vector style. Soft coral outline only on a powder blue background. No shadows, no details. Simplified shape, clean curves, and modern, abstract styling. Place the text “go cli sample” in an elegant sans-serif font, small size, bottom-center, subtle spacing, no shadows.
+
+右下サイン風
+a minimalistic line art of a sleepy axolotl, illustrated in 2D flat vector style. Soft coral outline only on a powder blue background. No shadows, no details. Simplified shape, clean curves, and modern, abstract styling. Add “go cli sample” in an elegant italic serif font, small, bottom-right like a signature, matching the soft coral color.
+
+背景ウォーターマーク
+a minimalistic line art of a sleepy axolotl, illustrated in 2D flat vector style. Soft coral outline only on a powder blue background. No shadows, no details. Simplified shape, clean curves, and modern, abstract styling. Include the text “go cli sample” in an elegant light-weight sans-serif font as a faint watermark behind the axolotl, large size, low opacity.

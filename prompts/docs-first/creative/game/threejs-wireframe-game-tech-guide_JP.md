@@ -5,7 +5,7 @@ canonical_id: "creative/game/threejs-wireframe-game-tech-guide"
 canonical_doc: "docs/prompt-catalog/creative/game/threejs-wireframe-game-tech-guide.md"
 locale: JP
 docs_first: true
-last_synced: 2026-03-18
+last_synced: 2026-03-19
 ---
 
 <!-- Generated from docs/prompt-catalog/creative/game/threejs-wireframe-game-tech-guide.md. Edit docs/ instead. -->

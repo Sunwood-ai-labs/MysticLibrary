@@ -1,0 +1,19 @@
+---
+title: "[Audio - ambience] Vast spacial reverb, subtle cosmic hum, whispers of distant stars."
+description: "&#91;Scene&#93; Floating ethereal stage suspended in a starlit void, cosmic nebula colo…"
+canonical_id: "creative/video/shot-recipes/crystal-ambience-vast-spacial"
+canonical_doc: "docs/prompt-catalog/creative/video/shot-recipes/crystal-ambience-vast-spacial.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/video/shot-recipes/crystal-ambience-vast-spacial.md. Edit docs/ instead. -->
+
+[Scene] Floating ethereal stage suspended in a starlit void, cosmic nebula colors swirling in the background, crystal platforms reflecting infinite light.
+[Element] Mystical orchestra of glowing transparent crystal instruments floating and self-playing, surrounded by aurora-like light trails. Semi-transparent ethereal musicians made of light and mist gently conducting the crystal instruments.
+[Action] Camera spiraling upward around the floating orchestra, crystal instruments rotating slowly while playing themselves, light particles dancing between instruments. Graceful crane shot revealing the cosmic scale of the performance space.
+[Audio - music] Otherworldly orchestral composition with glass harmonica tones, crystalline chimes, and angelic harmonics. Music that sounds both ancient and futuristic, building from gentle whispers to majestic crescendo.
+[Audio - SFX] Magical glass resonance "shiiiiiing", crystal singing bowls "ommmmm", light particles chiming "ting ting ting", cosmic wind ambience "whoooosh".
+[Audio - ambience] Vast spacial reverb, subtle cosmic hum, whispers of distant stars.
+[Others - style] fantasy cinematic, particle effects, lens flares, prismatic color grading, smooth floating camera work, magical realism, anime-inspired lighting, 10s duration.

@@ -1,0 +1,23 @@
+---
+title: "白虎 (Byakko)"
+description: "Line art プロンプトやってみた!!Whiskだとイラストチックになってしまう、、、"
+canonical_id: "creative/visual/image-edits/byakko-modern-graphic-illustration"
+canonical_doc: "docs/prompt-catalog/creative/visual/image-edits/byakko-modern-graphic-illustration.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/visual/image-edits/byakko-modern-graphic-illustration.md. Edit docs/ instead. -->
+
+白虎 (Byakko)
+Modern graphic illustration, clean silhouette of a White Tiger, white line art on solid black background, minimalist Italian-style composition, geometric simplification, flat vector design, crisp strokes, contemporary visual language, mythological divine beast
+
+朱雀 (Suzaku)
+Modern graphic illustration, elegant silhouette of a Vermilion Bird with spread wings, white line art on solid black background, minimalist Italian-style composition, geometric simplification, flat vector design, crisp strokes, contemporary visual language, mythical guardian beast
+
+玄武 (Genbu)
+Modern graphic illustration, stylized silhouette of a Turtle entwined with a Snake, white line art on solid black background, minimalist Italian-style composition, geometric simplification, flat vector design, crisp strokes, contemporary visual language, sacred beast of the north
+
+麒麟 (Kirin)
+Modern graphic illustration, majestic silhouette of a Kirin (Qilin), white line art on solid black background, minimalist Italian-style composition, geometric simplification, flat vector design, crisp strokes, contemporary visual language, legendary divine creature

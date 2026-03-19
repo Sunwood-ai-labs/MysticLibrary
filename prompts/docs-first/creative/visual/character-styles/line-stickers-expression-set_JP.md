@@ -1,0 +1,31 @@
+---
+title: "カラフルな手描き風"
+description: "画像のキャラクターをベースに、Q版(デフォルメ/ちびキャラ)のLINEスタンプ風バストアップ表情集を作成してください。"
+canonical_id: "creative/visual/character-styles/line-stickers-expression-set"
+canonical_doc: "docs/prompt-catalog/creative/visual/character-styles/line-stickers-expression-set.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/visual/character-styles/line-stickers-expression-set.md. Edit docs/ instead. -->
+
+画像のキャラクターをベースに、Q版(デフォルメ/ちびキャラ)のLINEスタンプ風バストアップ表情集を作成してください。
+
+【スタイル】
+- カラフルな手描き風
+- 頭飾り・髪飾りは正確に再現すること
+- 元画像をそのままコピーせず、オリジナルのイラストとして描くこと
+
+【レイアウト】
+- 4×6のグリッド配置(計24種類)
+- 4K解像度、アスペクト比16:9
+
+【表情・テキスト内容】
+- よく使うチャットフレーズを網羅
+ (例:ありがとう、OK、了解、おはよう、おやすみ、ファイト!、なるほど、草、わかる、無理、助けて、天才、お疲れ様、ごめん、やったー、えーん、など)
+- ネットミーム・ネタ系も含める
+- すべてのテキストは手書き風の日本語で表記
+
+---
+今なら、Higgsfieldで65% OFF & これから3日以内に @higgsfield_ai に参加した人は Nano Banana Pro を1年間無制限で利用できます。

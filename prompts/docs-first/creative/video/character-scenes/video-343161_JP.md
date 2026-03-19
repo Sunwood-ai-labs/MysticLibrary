@@ -1,0 +1,13 @@
+---
+title: "プリトヴィツェ湖群で水面歩行させてみた!!"
+description: "若い女性が水面を優雅に左方向へ歩き続ける。足元は透明なガラス板の上を歩くように水面を全く破らず、乾いたまま。カメラは低アングルから被写体を追従し、黄金色の光に…"
+canonical_id: "creative/video/character-scenes/video-343161"
+canonical_doc: "docs/prompt-catalog/creative/video/character-scenes/video-343161.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/video/character-scenes/video-343161.md. Edit docs/ instead. -->
+
+若い女性が水面を優雅に左方向へ歩き続ける。足元は透明なガラス板の上を歩くように水面を全く破らず、乾いたまま。カメラは低アングルから被写体を追従し、黄金色の光に包まれた夢幻的な雰囲気を演出。水面は完璧な鏡面状態を保ち、足元の反射がくっきり映し出される。

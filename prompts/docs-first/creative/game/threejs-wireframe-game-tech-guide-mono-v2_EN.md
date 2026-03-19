@@ -5,7 +5,7 @@ canonical_id: "creative/game/threejs-wireframe-game-tech-guide-mono-v2"
 canonical_doc: "docs/en/prompt-catalog/creative/game/threejs-wireframe-game-tech-guide-mono-v2.md"
 locale: EN
 docs_first: true
-last_synced: 2026-03-18
+last_synced: 2026-03-19
 ---
 
 <!-- Generated from docs/en/prompt-catalog/creative/game/threejs-wireframe-game-tech-guide-mono-v2.md. Edit docs/ instead. -->

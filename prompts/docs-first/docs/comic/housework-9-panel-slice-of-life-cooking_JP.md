@@ -1,0 +1,28 @@
+---
+title: "A 9-panel slice-of-life cooking manga storyboard, 3×3 square layout."
+description: "自作シートV2 ✖ 料理やってみた3⃣"
+canonical_id: "docs/comic/housework-9-panel-slice-of-life-cooking"
+canonical_doc: "docs/prompt-catalog/docs/comic/housework-9-panel-slice-of-life-cooking.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/docs/comic/housework-9-panel-slice-of-life-cooking.md. Edit docs/ instead. -->
+
+A 9-panel slice-of-life cooking manga storyboard, 3×3 square layout. 
+Style: rough hand-drawn sketch, monochrome, minimal background. Tone: simple and warm. Characters: a calm, homey protagonist (male or female). No dialogue. 
+Each panel’s description and any text appearing in the image must be written in Japanese. 
+
+Panel 1: The protagonist smiles softly at freshly cooked rice in the morning kitchen. 
+Panel 2: Small plates with fillings like plum, salmon, and kelp are neatly arranged. 
+Panel 3: Stirring steaming rice with a rice paddle, gentle motion. 
+Panel 4: Close-up of wetting hands and sprinkling salt on fingertips. 
+Panel 5: Shaping the rice between hands with focused expression. 
+Panel 6: Placing the filling inside carefully, wrapping it gently. 
+Panel 7: Forming a perfect triangle, steam rising from the hands. 
+Panel 8: Wrapping with seaweed, satisfied smile. 
+Panel 9: Eating the onigiri outdoors, smiling peacefully, feeling content. 
+
+Global notes: minimal background, consistent character design, clear 3×3 panel borders. 
+Panel numbering: draw a small circled number at the top-left inside each panel frame (1 to 9); ensure visibility without covering key subjects.

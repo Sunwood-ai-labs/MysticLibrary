@@ -1,0 +1,21 @@
+---
+title: "cut 1 — Exterior hero / establishing"
+description: "Photoreal, Hollywood‐grade Instagram car impression. 24 fps, 9:16 vertical, sha…"
+canonical_id: "creative/video/shot-recipes/cut-exterior-hero-establishing"
+canonical_doc: "docs/prompt-catalog/creative/video/shot-recipes/cut-exterior-hero-establishing.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/video/shot-recipes/cut-exterior-hero-establishing.md. Edit docs/ instead. -->
+
+Photoreal, Hollywood‐grade Instagram car impression. 24 fps, 9:16 vertical, shallow DOF, slight film grain, gentle anamorphic flares, gimbal‐smooth. Subject: logo‐free sleek electric sport sedan. Talent: Hollywood‐level female Instagram creator (20s–30s), confident, minimal‐lux wardrobe, discreet lav mic. Clean commercial grade; avoid real brand logos/UI.
+
+[cut 1 — Exterior hero / establishing]
+Golden‐hour rooftop with city bokeh. Three‐quarter front of the car, DRLs on. She walks in, smiles, quick wave, rests a hand on the fender. Camera: slow dolly‐in from ~6 m to ~3 m, ~50 mm f/2. Paint shows crisp sky reflections; subtle breeze in hair.
+[cut 2 — Cabin first impressions / features]
+Driver seat. Over‐the‐shoulder to center display, then medium on her as she demos drive modes, ambient lighting, and wireless phone mirroring (generic UI). Camera: gimbal micro‐moves; insert close‐ups at ~85 mm of rotary knob, stitching, HUD; rack focus eyes to screen. Soft top‐light; reflections controlled.
+
+[cut 3 — Rolling beauty / verdict]
+Blue‐hour closed street at low speed. Exterior tracking at ~35 mm for parallax, then interior passenger‐side close‐up at ~85 mm as she gives her verdict. Headlamp streaks and city lights skim across the bodywork. End frame: she smiles to camera; on‐screen caption: “What should I test next?” Minimal, logo‐free end card.

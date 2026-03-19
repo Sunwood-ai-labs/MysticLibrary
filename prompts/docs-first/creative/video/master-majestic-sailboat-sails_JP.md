@@ -1,0 +1,15 @@
+---
+title: "Kling AI 2.1 master使ってみる3⃣"
+description: "Shot 1: A majestic sailboat with white sails billowing cuts through azure ocean…"
+canonical_id: "creative/video/master-majestic-sailboat-sails"
+canonical_doc: "docs/prompt-catalog/creative/video/master-majestic-sailboat-sails.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/video/master-majestic-sailboat-sails.md. Edit docs/ instead. -->
+
+Shot 1: A majestic sailboat with white sails billowing cuts through azure ocean waves under a clear sky. Sunlight sparkles on the water’s surface as seabirds glide overhead. The camera maintains a long shot, capturing the vessel’s steady movement across the endless horizon, radiating tranquility and freedom. 
+
+Shot 2: The weathered captain stands firmly at the helm, his gaze fixed on the distant horizon. Wind tousles his salt-streaked hair as sunlight highlights his determined expression. The camera zooms in gradually, framing his weathered hands gripping the wheel against a backdrop of rolling waves and soft golden-hour glow.

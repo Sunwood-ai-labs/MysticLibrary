@@ -1,0 +1,25 @@
+---
+title: "Japanese ink wash テイストでSora2で動画化してみた!!"
+description: "&#91;Subject&#93; 主題: 水墨画スタイルで描かれる壮大な物語、象徴的な存在(カワセミ、鶴、虎、鹿などの自然モチーフ)"
+canonical_id: "creative/video/sequence-specs/video-background-castle-japanese"
+canonical_doc: "docs/prompt-catalog/creative/video/sequence-specs/video-background-castle-japanese.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/video/sequence-specs/video-background-castle-japanese.md. Edit docs/ instead. -->
+
+[Subject] 主題: 水墨画スタイルで描かれる壮大な物語、象徴的な存在(カワセミ、鶴、虎、鹿などの自然モチーフ) 
+[Setting] 環境: 山水画のような世界、川、竹林、滝、月夜、戦火に揺れる城郭など、複数の背景が連続的に現れる 
+[Action] 動作: 予告編のようにシーンが次々とカットインする。 
+ ・静かな水面に舞い降りるカワセミ 
+ ・月下で羽ばたく鶴 
+ ・竹林に現れる虎の鋭い眼光 
+ ・滝を背景に立つ孤高の鹿 
+ ・そして山々のシルエットへと引いていく 
+[Camera] カメラ: シネマティックなモンタージュ構成。パン、ドリー、クイックカットを用い、最後に壮大なワイドショットで締める 
+[Style] 映像スタイル: すべて水墨画(墨絵)調。流れる墨の線と淡い青と朱色の彩色。水彩がにじむようにカットが切り替わる 
+[Audio] 音声: ドラマティックな和太鼓と尺八のブレンドされたサウンド。場面転換ごとに筆が走る音や墨がにじむ効果音。最後に「静寂」で落とす 
+[Timeline] 時間構成: 約10秒。最初の静かな1秒→中盤は高速カットで盛り上げ→最後に余韻を残すスローモーションで締める 
+[Constraints] 制約条件: 全体を水墨画的質感に統一。不自然にリアルにしすぎない。映画予告編的リズムを表現しつつ、墨のにじみを自然なトランジションに利用

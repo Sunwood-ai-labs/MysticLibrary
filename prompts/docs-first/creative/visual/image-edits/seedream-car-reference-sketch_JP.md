@@ -1,0 +1,38 @@
+---
+title: "seedream v4使って車の設計シーンを作成してみた!"
+description: "参照素材"
+canonical_id: "creative/visual/image-edits/seedream-car-reference-sketch"
+canonical_doc: "docs/prompt-catalog/creative/visual/image-edits/seedream-car-reference-sketch.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/visual/image-edits/seedream-car-reference-sketch.md. Edit docs/ instead. -->
+
+参照素材
+reference image: a line sketch of a sleek futuristic car (side view), clean proportions, sharp angular LED headlights, low profile tires; style sample: a highly stylized cyberpunk metallic car with blue and silver color palette; environment: minimal design studio background.
+
+カット 1-1:最初のラフ線
+reference image: a line sketch of a sleek futuristic car (side view), clean proportions, sharp angular LED headlights, low profile tires; 
+action: faint initial sketch lines appearing on a futuristic PC screen, only the outline of the car body is visible, 
+environment: minimal design studio desk with glowing monitor, 
+style: cyberpunk metallic tone, blue neon light accents, 
+perspective: close-up on the screen, 
+maintain consistency: same silhouette and proportions as reference
+
+カット 1-2:線が増えディテールが出てくる
+reference image: [same as above], 
+action: additional blueprint lines forming on the screen, showing car windows, wheels, and headlight details, 
+environment: futuristic PC interface glowing with grid overlays, 
+style: holographic blueprint aesthetic, cinematic glow, 
+perspective: mid shot of screen with faint reflections on the desk, 
+maintain consistency: same proportions and design as reference
+
+カット 1-3:設計図がほぼ完成
+reference image: [same as above], 
+action: the digital blueprint nearly complete, detailed line sketch of the car fully visible on the monitor, interface showing design layers and annotations, 
+environment: PC screen glowing with multiple blueprint tabs, subtle holographic elements floating above the desk, 
+style: cyberpunk design interface, neon blue and silver palette, 
+perspective: wide shot showing monitor and workspace, 
+maintain consistency: exact same car silhouette, headlights, and tire style as reference

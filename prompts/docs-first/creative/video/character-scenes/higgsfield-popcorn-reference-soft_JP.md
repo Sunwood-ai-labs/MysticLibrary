@@ -1,0 +1,19 @@
+---
+title: "Higgsfield Popcorn 実験記録1⃣4⃣"
+description: "Using the reference image of a soft, plush penguin character wearing a tiny exp…"
+canonical_id: "creative/video/character-scenes/higgsfield-popcorn-reference-soft"
+canonical_doc: "docs/prompt-catalog/creative/video/character-scenes/higgsfield-popcorn-reference-soft.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/video/character-scenes/higgsfield-popcorn-reference-soft.md. Edit docs/ instead. -->
+
+Using the reference image of a soft, plush penguin character wearing a tiny explorer backpack, generate a cinematic sequence showing the penguin spending an afternoon in a quiet seaside countryside. The same penguin appears across four scenes:
+(1) waddling along a seaside path with the ocean beside it, sunlight shimmering on the waves,
+(2) sitting by a peaceful fishing port, gazing at the water with curious and gentle eyes,
+(3) standing near a rural railway crossing, the breeze ruffling its tiny feathers,
+(4) walking barefoot (flipper-footed) along the beach at sunset, holding a small shell and looking toward the horizon.
+Show various poses, expressions, angles, and compositions — cheerful, thoughtful, serene, and adventurous — while maintaining consistency of character and accessories.
+Soft cinematic lighting, golden hour colors, nostalgic and heartwarming mood, shallow depth of field, ultra-detailed 4K HDR, toy-like velvety texture with pastel tones.

@@ -1,0 +1,27 @@
+---
+title: "私も作ってみた!!!!"
+description: "&#91;Subject&#93; 主題: 透明なガラス製の砂時計の中に作られた小さなテラリウム、水の中で色鮮やかな金魚がゆったりと泳いでいる。"
+canonical_id: "creative/video/sequence-specs/video-setting-action"
+canonical_doc: "docs/prompt-catalog/creative/video/sequence-specs/video-setting-action.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/video/sequence-specs/video-setting-action.md. Edit docs/ instead. -->
+
+[Subject] 主題: 透明なガラス製の砂時計の中に作られた小さなテラリウム、水の中で色鮮やかな金魚がゆったりと泳いでいる。
+
+[Setting] 環境: 砂時計の上下は水で満たされ、流砂の代わりに気泡がゆっくりと上下を移動。砂時計は木製の台座に置かれ、周囲は柔らかな光に包まれた静かな空間。
+
+[Action] 動作: 金魚が砂時計の上下を行き来しながら泳ぎ、時折泡が弾けて揺らめく。
+
+[Camera] カメラ: ゆっくりと砂時計全体を回り込むようなドリー撮影。魚が泳ぐ瞬間をクローズアップで捉え、再び全体を見せる。
+
+[Style] 映像スタイル: 幻想的でアート的な質感、透明感のある水とガラスの光の屈折を強調。温かみのあるアンビエントライト。
+
+[Audio] 音声: 水中の柔らかな気泡音、静かな環境音楽。
+
+[Timeline] 時間構成: 約7秒。冒頭で砂時計全体を見せ、中央で魚の動きをクローズアップ、最後に再び引きの画で全体を収める。
+
+[Constraints] 制約条件: ガラスや水の反射を自然に表現。魚の動きはなめらかで現実的に。物理的に違和感のない水流の演出。

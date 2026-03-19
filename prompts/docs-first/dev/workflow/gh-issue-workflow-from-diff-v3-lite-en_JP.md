@@ -5,7 +5,7 @@ canonical_id: "dev/workflow/gh-issue-workflow-from-diff-v3-lite-en"
 canonical_doc: "docs/prompt-catalog/dev/workflow/gh-issue-workflow-from-diff-v3-lite-en.md"
 locale: JP
 docs_first: true
-last_synced: 2026-03-18
+last_synced: 2026-03-19
 ---
 
 <!-- Generated from docs/prompt-catalog/dev/workflow/gh-issue-workflow-from-diff-v3-lite-en.md. Edit docs/ instead. -->

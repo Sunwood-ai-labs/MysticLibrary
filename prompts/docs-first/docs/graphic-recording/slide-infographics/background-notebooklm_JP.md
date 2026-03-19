@@ -1,0 +1,13 @@
+---
+title: "NotebookLM】インフォグラフィック✖黒板落書きプロンプトがエグイ"
+description: "学校の黒板裏に悪ガキが授業中にこっそり描いた落書き風。背景は黒板のざらざら質感、チョークの粉がポロポロ落ちてる感じ。文字は白・黄・ピンクのチョークで崩し気味手…"
+canonical_id: "docs/graphic-recording/slide-infographics/background-notebooklm"
+canonical_doc: "docs/prompt-catalog/docs/graphic-recording/slide-infographics/background-notebooklm.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/docs/graphic-recording/slide-infographics/background-notebooklm.md. Edit docs/ instead. -->
+
+学校の黒板裏に悪ガキが授業中にこっそり描いた落書き風。背景は黒板のざらざら質感、チョークの粉がポロポロ落ちてる感じ。文字は白・黄・ピンクのチョークで崩し気味手書き。ところどころ消し跡や指でこすった跡。重要箇所は二重丸や矢印で強調、左端に授業と関係ない落書き(ハート・顔・落書き文字)を小さく散りばめる。トーンは悪ノリ全開の中学生

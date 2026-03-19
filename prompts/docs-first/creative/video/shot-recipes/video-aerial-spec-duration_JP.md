@@ -1,0 +1,127 @@
+---
+title: "duration: \\\"60 s"
+description: "Open-Wheel Duel Aerial — FPV drone · P-in-P commentary · 4K (v1.5)"
+canonical_id: "creative/video/shot-recipes/video-aerial-spec-duration"
+canonical_doc: "docs/prompt-catalog/creative/video/shot-recipes/video-aerial-spec-duration.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/video/shot-recipes/video-aerial-spec-duration.md. Edit docs/ instead. -->
+
+# Open-Wheel Duel Aerial — FPV drone · P-in-P commentary · 4K (v1.5)
+video_type: open_wheel_drone_duel_commentary_v1
+
+general:
+ orientation: horizontal # 16 : 9 landscape
+ aspect_ratio: 1.7778
+ resolution: { width: "3840px", height: "2160px" } # 4 K UHD
+ duration: "60 s"
+ frame_rate: 60 fps # crisp high-speed motion
+ file_format: mp4
+ audio: true # layered mix
+ quality: ultra_high_definition
+ safe_zone: broadcast_safe_margins
+
+# ────────── VIDEO LAYERS ──────────
+scene:
+ drone_feed:
+ location: international_racing_circuit
+ action: >
+ FPV drone shadows two lead cars locked wheel-to-wheel:
+ skims the back straight at ~140 km/h, punches up for a top-down
+ of late-brake duel into a hairpin, executes a corkscrew orbit,
+ then slingshots ahead for the drag race to the next turn.
+ camera:
+ device: cinema-grade_FPV_drone_cam
+ lens: ultra-wide ≈18 mm
+ movement: lock-on_tracking · rapid_altitude_punch-outs · 360° orbits
+ distance: 3 – 30 m from cars
+ stabilization: active_3-axis_gimbal + post
+ lighting: natural_golden_hour_sunlight
+ audio: drone_engine_roar_mix
+
+ commentator_cam:
+ location: trackside_commentary_booth
+ appearance: >
+ Professional presenter (30 s, gender-neutral), dark blazer over
+ neutral polo, headset mic; energetic gestures with telemetry tablet.
+ camera:
+ device: mirrorless_4 K_webcam
+ framing: tight_head-and-shoulders
+ background: blurred timing screens & pit-lane glimpse
+ lighting: balanced_soft_LED 5600 K
+ audio: clean_voice_mic
+
+graphics_overlay:
+ lower_third:
+ text: "Lap 18 | Lead Battle — DRONE CAM"
+ style: matte_black_bg + subtle_color_bars
+ telemetry_strip:
+ position: bottom_center
+ data_fields: [car_A_number, car_B_number, side_by_side_speed_kmh, brake_pressure_indicator]
+ pip_commentator:
+ source: commentator_cam
+ position: bottom_left
+ size: { width: 320px, height: 180px }
+ border: 4px_solid_white
+ shadow: soft_drop
+
+# ────────── AUDIO DESIGN ──────────
+audio:
+ priority_order: [live_commentary, drone_ambient, crowd_ambience]
+ tracks:
+ - name: live_commentary
+ source: commentator_cam.audio
+ type: voice
+ language: English
+ mix_level: 0 dB (full volume)
+ processing:
+ equalizer: broadcast_voice_clarity
+ compressor: fast_attack_soft_knee
+ spatialization: center
+ ducking:
+ targets: [drone_ambient, crowd_ambience]
+ amount: -6 dB
+ - name: drone_ambient
+ source: drone_feed.audio
+ type: engine_and_track
+ mix_level: -6 dB (idle) / -12 dB (while_commentary_active)
+ processing:
+ limiter: true
+ - name: crowd_ambience
+ source: trackside_mics
+ type: audience
+ mix_level: -10 dB constant
+ processing:
+ reverb: short_open_air
+
+ subtitles:
+ enabled: true
+ language: English
+ style: broadcast_caption
+ position: lower_center
+ background: 60% black
+
+# ────────── COMMENTARY SCRIPT ──────────
+commentary_script: |
+ • “Here we go—the drone is right on top of the duel! Car 12 defends
+ the inside; Car 8 sweeps wide to set up the switch-back.”
+ • “Watch the brake-pressure bars—Car 12 locking the front-right,
+ tiny puff of smoke, but keeps it planted!”
+ • “Side-by-side on the exit—listen to those power units scream as
+ they blast past 300 km/h. Our FPV is hanging right with them!”
+ • “Car 8 tucks into the slipstream... pulls out! Wheel-to-wheel into
+ the next left-hander—this is pure racing theatre!”
+
+mood: high-stakes_adrenaline
+style: FPV_drone_aerial × live_sports_broadcast × picture-in-picture_commentary
+color_grading: neutral_broadcast_rec709
+
+hashtags:
+ - DroneDuel
+ - RaceCommentary
+ - OpenWheelAction
+ - WheelToWheel
+ - AerialBroadcast

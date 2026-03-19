@@ -1,0 +1,58 @@
+---
+title: "size: { width: \\\"2560px\\\", height: \\\"1440px\\\" }"
+description: "Fantasy Mirror Cat Contrast — surreal · mystical · duality-themed"
+canonical_id: "creative/visual/image-edits/mecha-fantasy-mirror-cat"
+canonical_doc: "docs/prompt-catalog/creative/visual/image-edits/mecha-fantasy-mirror-cat.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/visual/image-edits/mecha-fantasy-mirror-cat.md. Edit docs/ instead. -->
+
+# Fantasy Mirror Cat Contrast — surreal · mystical · duality-themed
+image_type: fantasy_mirror_whitecat_robotcat_v1
+
+general:
+ orientation: landscape
+ aspect_ratio: 1.7778
+ size: { width: "2560px", height: "1440px" }
+ quality: ultra_high_resolution
+ file_format: png
+
+theme:
+ name: MirrorOfDualCats
+ background:
+ type: surreal_fantasy_landscape
+ elements:
+ - floating_islands
+ - softly_glowing_crystals
+ - bioluminescent_plants
+ - misty_valleys
+ lighting: ethereal_backlight
+ color_palette: dreamy_violets_and_teals
+
+scene:
+ main_subject:
+ - large_rectangular_mirror:
+ position: center
+ reflection_subject: white_cat_inside_mirror
+ - robotic_cat:
+ material: chrome_and_crystal
+ posture: standing_calmly
+ position: in_front_of_mirror
+ gaze: looking_into_mirror
+
+composition:
+ style: high-detail_photorealism_with_mystical_aura
+ contrast:
+ - natural_vs_artificial (white cat vs robot cat)
+ - mirror_clarity_vs_soft_background
+ depth_of_field:
+ foreground: finely_focused
+ background: gently_blurred
+
+mood:
+ tone: magical_reflection
+ atmosphere: calm_yet_haunting
+ symbolic_theme: duality_of_nature_and_machine

@@ -1,0 +1,50 @@
+---
+title: "大人カジュアルなK-POPアイドル風の日本人美女。"
+description: "被写体設定"
+canonical_id: "creative/visual/brand-assets/casual-outfit-gyaru-k-pop"
+canonical_doc: "docs/prompt-catalog/creative/visual/brand-assets/casual-outfit-gyaru-k-pop.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/visual/brand-assets/casual-outfit-gyaru-k-pop.md. Edit docs/ instead. -->
+
+### 被写体設定
+
+大人カジュアルなK-POPアイドル風の日本人美女。
+
+* 透明感のある陶器肌
+* アイラインを効かせた華やかメイク+マットリップ
+* ミディアムの黒髪ストレートを外ハネアレンジ
+* ブラックのクロップドジャケット+シルバーアクセ+ハイウエストワイドパンツ+ブーツ
+* ステージ風ライティング(カラフルなLEDライト演出)
+
+---
+
+### ⏱ ダンス構成(2秒ごと)
+
+**0~2秒**
+
+* カメラに向かって片手で「指ハート」
+* 片足を軽く前に出してリズムに合わせて首を傾ける
+
+**2~4秒**
+
+* 両腕を大きく広げてから胸元で集め、手で「V」ポーズ
+* 片目を閉じてクールなウィンク
+
+**4~6秒**
+
+* 腰を左右に揺らしながらステップ
+* 左手で髪をかきあげるようにしつつターン
+
+**6~8秒**
+
+* 両手を顔の横で「ピース」ポーズ
+* カメラに近づきながらアイコンタクト
+
+**8~10秒**
+
+* 片腕を斜め上に突き上げ、もう片方は腰にあてて決めポーズ
+* 最後はカメラに向かって微笑み+軽く手を振る

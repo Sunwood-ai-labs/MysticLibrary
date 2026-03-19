@@ -1,0 +1,19 @@
+---
+title: "Concept sheet をWhiskでやってみた!!!"
+description: "📚 A concept sheet for a **bioluminescent origami koi environmental‐mapping dro…"
+canonical_id: "creative/visual/brand-assets/concept-sheet-whisk-for"
+canonical_doc: "docs/prompt-catalog/creative/visual/brand-assets/concept-sheet-whisk-for.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/visual/brand-assets/concept-sheet-whisk-for.md. Edit docs/ instead. -->
+
+📚 A concept sheet for a **bioluminescent origami koi environmental‐mapping drone**, detailed with front, back, and exploded views, featuring design notes and labeled components, drawn in blueprint style with glowing trim in **electric cyan** and base structure in **graphite black**, presented on a clean white background.
+
+📚 A concept sheet for a **kimono‐inspired modular AR “exo‐sleeve” for gesture amplification**, detailed with front, back, and exploded views, featuring design notes and labeled components, drawn in blueprint style with glowing trim in **ember gold** and base structure in **midnight indigo**, presented on a clean white background.
+
+📚 A concept sheet for a **gyroscopic levitating tea brewer with magnetic pour spout**, detailed with front, back, and exploded views, featuring design notes and labeled components, drawn in blueprint style with glowing trim in **jade green** and base structure in **soft stone gray**, presented on a clean white background.
+
+📚 A concept sheet for a **quantum‐folding bicycle for microgravity transit**, detailed with front, back, and exploded views, featuring design notes and labeled components, drawn in blueprint style with glowing trim in **neon magenta** and base structure in **gunmetal**, presented on a clean white background.

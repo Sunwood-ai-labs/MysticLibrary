@@ -1,0 +1,15 @@
+---
+title: "特急訪問プロンプト使ってみた!~Kling版~"
+description: "A stabilized high-speed drone-mounted camera zips through Kyoto at midday, weav…"
+canonical_id: "creative/video/shot-recipes/stabilized-high-speed-drone-mounted-zips-kyoto"
+canonical_doc: "docs/prompt-catalog/creative/video/shot-recipes/stabilized-high-speed-drone-mounted-zips-kyoto.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/video/shot-recipes/stabilized-high-speed-drone-mounted-zips-kyoto.md. Edit docs/ instead. -->
+
+A stabilized high-speed drone-mounted camera zips through Kyoto at midday, weaving beneath Fushimi Inari Taisha’s vermilion torii gates as ,sunlight, and shadows rhythmically flicker. It ascends over tiled rooftops toward Kiyomizu-dera, skimming wooden pillars and diving near the Otowa waterfall, then streaks through Arashiyama’s bamboo grove with towering culms blurring into green streaks. Banking over the Katsura River, it glides along the Kamogawa’s stepping stones, whips through Gion’s lantern-lit lanes, and races across Kinkaku-ji’s mirror-still pond, capturing the Golden Pavilion’s radiant reflection. Natural ,lighting, alternates between sharp ,sunlight, cool bamboo forest shadows, and warm lantern glow, while aggressive whip-pans and match cuts heighten the surreal, exhilarating pace. The refined color scheme blends vermilion, moss greens, weathered browns, and reflective golds in cinematic motion.
+ーーー
+POV drone, compact cinema rig, stabilized, 24mm wide, fast shutter, high frame rate, no film grain. Midday sprint through Kyoto: weave under Fushimi Inari’s vermilion torii; snap to Kiyomizu‐dera’s wooden stage and Otowa falls; slice through Arashiyama bamboo; skim the Kamogawa and Gion’s lantern‐lined alleys; flare across Kinkaku‐ji’s golden reflection and the Heian Shrine torii. Natural light (hard sun, cool grove shade, warm street lanterns). Edit: rapid, rhythmic whip‐pans and match cuts with controlled motion blur. Audio: wind roar, cicadas, shrine bells, river hush, plus a thumping cinematic electronic score. Palette: vermilion, bamboo greens, cedar browns, river blues, gold accents. Shot in cinematic style.

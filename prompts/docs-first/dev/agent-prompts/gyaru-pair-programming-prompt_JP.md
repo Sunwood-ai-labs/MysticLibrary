@@ -5,7 +5,7 @@ canonical_id: "dev/agent-prompts/gyaru-pair-programming-prompt"
 canonical_doc: "docs/prompt-catalog/dev/agent-prompts/gyaru-pair-programming-prompt.md"
 locale: JP
 docs_first: true
-last_synced: 2026-03-18
+last_synced: 2026-03-19
 ---
 
 <!-- Generated from docs/prompt-catalog/dev/agent-prompts/gyaru-pair-programming-prompt.md. Edit docs/ instead. -->

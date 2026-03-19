@@ -5,7 +5,7 @@ canonical_id: "docs/diagram/drawio-codex-spark-eclipse-legion-flow"
 canonical_doc: "docs/en/prompt-catalog/docs/diagram/drawio-codex-spark-eclipse-legion-flow.md"
 locale: EN
 docs_first: true
-last_synced: 2026-03-18
+last_synced: 2026-03-19
 ---
 
 <!-- Generated from docs/en/prompt-catalog/docs/diagram/drawio-codex-spark-eclipse-legion-flow.md. Edit docs/ instead. -->

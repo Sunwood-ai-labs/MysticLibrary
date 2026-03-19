@@ -1,0 +1,25 @@
+---
+title: "私もこちらのプロンプトを参考にして Retro style icons を作成してみた!!!"
+description: "Create an illustration of nine different &#91;ANIMAL&#93; icons arranged in a crisp 3 ×…"
+canonical_id: "creative/visual/brand-assets/retro-icons-illustration-nine"
+canonical_doc: "docs/prompt-catalog/creative/visual/brand-assets/retro-icons-illustration-nine.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/visual/brand-assets/retro-icons-illustration-nine.md. Edit docs/ instead. -->
+
+Create an illustration of nine different [ANIMAL] icons arranged in a crisp 3 × 3 grid (three rows, three columns). Each animal occupies its own equal-sized square cell, with consistent spacing between cells so the overall artwork forms a perfect square.
+
+For every icon:
+- Use flat, solid colors only—no gradients, smudging, airbrushing, or blur.
+- Apply shading and highlights with clean, separate color blocks.
+- Outline all shapes with thick, bold black lines.
+- Use a simplified retro palette (e.g., teal, coral, mustard, and white) to keep a vintage feel.
+- Add small sparkle accents or motion lines for extra charm, but keep each animal the clear focus.
+
+Global requirements:
+- Plain white background behind the entire 3 × 3 grid.
+- The whole illustration must be vector-friendly with sharp edges, no textures, and no raster effects.
+- Final output should have a perfectly square aspect ratio (the nine cells together forming one square).

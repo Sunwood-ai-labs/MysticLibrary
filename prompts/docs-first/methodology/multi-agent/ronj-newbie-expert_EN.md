@@ -5,7 +5,7 @@ canonical_id: "methodology/multi-agent/ronj-newbie-expert"
 canonical_doc: "docs/en/prompt-catalog/methodology/multi-agent/ronj-newbie-expert.md"
 locale: EN
 docs_first: true
-last_synced: 2026-03-18
+last_synced: 2026-03-19
 ---
 
 <!-- Generated from docs/en/prompt-catalog/methodology/multi-agent/ronj-newbie-expert.md. Edit docs/ instead. -->

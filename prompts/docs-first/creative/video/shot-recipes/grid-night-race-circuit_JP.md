@@ -1,0 +1,16 @@
+---
+title: "️❶ 決戦の幕開け (The Grid)"
+description: "Visual: Night race circuit, starting grid under stadium lights. Two race cars s…"
+canonical_id: "creative/video/shot-recipes/grid-night-race-circuit"
+canonical_doc: "docs/prompt-catalog/creative/video/shot-recipes/grid-night-race-circuit.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/video/shot-recipes/grid-night-race-circuit.md. Edit docs/ instead. -->
+
+Visual: Night race circuit, starting grid under stadium lights. Two race cars side by side—a crimson red #7 car and a matte black #3 car. Heat waves shimmer from exhausts, pit crew members step back.
+Dialog: [Race announcer, booming voice] shouts through speakers: "Final race of the championship! Everything comes down to this!" [Red helmet driver, internal monologue, determined voice] thinks: "This is my moment. No more second place."
+Camera: Slow dolly along the grid, starting wide and pushing into extreme close-up of driver's eyes through visor, reflecting the traffic lights.
+Audio: Engines revving in anticipation, crowd roar muffled, heartbeat pulse underlying.

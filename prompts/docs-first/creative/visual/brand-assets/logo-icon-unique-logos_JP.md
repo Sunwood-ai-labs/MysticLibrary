@@ -1,0 +1,179 @@
+---
+title: "format: \\\"4 rows × 6 columns = 24 unique logos"
+description: "和モダン猫ロゴ 4x6グリッド プロンプト集"
+canonical_id: "creative/visual/brand-assets/logo-icon-unique-logos"
+canonical_doc: "docs/prompt-catalog/creative/visual/brand-assets/logo-icon-unique-logos.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/visual/brand-assets/logo-icon-unique-logos.md. Edit docs/ instead. -->
+
+# 和モダン猫ロゴ 4x6グリッド プロンプト集
+
+logo_grid:
+ format: "4 rows × 6 columns = 24 unique logos"
+ style: "Japanese modern minimalist cat logos"
+ 
+ # Row 1: 基本形状ベース
+ row_1:
+ col_1:
+ name: "円形座禅猫"
+ prompt: "minimalist cat sitting in zen pose, circular indigo frame, gold accents, simple line art"
+ elements: ["circle", "meditation", "indigo", "gold"]
+ 
+ col_2: 
+ name: "幾何学猫"
+ prompt: "geometric cat logo, triangular ears, polygon body, modern Japanese color palette"
+ elements: ["triangles", "polygons", "structured", "contemporary"]
+ 
+ col_3:
+ name: "波紋猫"
+ prompt: "cat silhouette with concentric circles, ripple effect, seigaiha wave pattern influence"
+ elements: ["circles", "waves", "ripples", "water"]
+ 
+ col_4:
+ name: "竹フレーム猫"
+ prompt: "cat logo framed by bamboo stalks, rectangular composition, earth tones"
+ elements: ["bamboo", "frame", "nature", "earth tones"]
+ 
+ col_5:
+ name: "桜散らし猫"
+ prompt: "cat with falling cherry blossoms, pink accents, spring aesthetic, delicate design"
+ elements: ["sakura", "petals", "pink", "spring"]
+ 
+ col_6:
+ name: "六角猫"
+ prompt: "hexagonal frame with cat, geometric precision, purple and gold gradients"
+ elements: ["hexagon", "precision", "purple", "gold"]
+
+ # Row 2: 伝統文様ベース 
+ row_2:
+ col_1:
+ name: "麻の葉猫"
+ prompt: "cat integrated with asanoha hemp leaf pattern, green and beige, traditional motif"
+ elements: ["asanoha", "hemp leaf", "green", "traditional"]
+ 
+ col_2:
+ name: "青海波猫"
+ prompt: "cat with seigaiha wave background, blue gradients, flowing curves, ocean theme"
+ elements: ["seigaiha", "waves", "blue", "ocean"]
+ 
+ col_3:
+ name: "矢絣猫"
+ prompt: "cat logo with yabane arrow feather pattern, red accents, geometric arrows"
+ elements: ["yabane", "arrows", "red", "geometric"]
+ 
+ col_4:
+ name: "市松猫"
+ prompt: "checkered pattern cat, alternating squares, black and white with color accent"
+ elements: ["checkered", "squares", "contrast", "pattern"]
+ 
+ col_5:
+ name: "七宝猫"
+ prompt: "cat with shippo seven treasures circles, overlapping rings, metallic colors"
+ elements: ["shippo", "circles", "rings", "metallic"]
+ 
+ col_6:
+ name: "紗綾形猫"
+ prompt: "cat logo with sayagata interlocking pattern, diagonal lines, sophisticated"
+ elements: ["sayagata", "interlocking", "diagonal", "sophisticated"]
+
+ # Row 3: 自然要素ベース
+ row_3:
+ col_1:
+ name: "月見猫"
+ prompt: "cat silhouette against full moon, crescent shadow, yellow and navy, night scene"
+ elements: ["moon", "crescent", "night", "yellow navy"]
+ 
+ col_2:
+ name: "雲間猫"
+ prompt: "cat emerging from stylized clouds, soft gray and white, dreamy atmosphere"
+ elements: ["clouds", "soft", "dreamy", "gray white"]
+ 
+ col_3:
+ name: "山形猫"
+ prompt: "cat with mountain silhouette background, triangular peaks, earth tones"
+ elements: ["mountains", "peaks", "triangular", "earth"]
+ 
+ col_4:
+ name: "水滴猫"
+ prompt: "cat shaped like water drop, fluid form, blue gradients, organic curves"
+ elements: ["water drop", "fluid", "blue", "organic"]
+ 
+ col_5:
+ name: "葉影猫"
+ prompt: "cat logo with leaf shadows, dappled light effect, green variations"
+ elements: ["leaves", "shadows", "dappled light", "green"]
+ 
+ col_6:
+ name: "石庭猫"
+ prompt: "zen garden cat, raked sand patterns, stone placement, minimalist gray"
+ elements: ["zen garden", "sand", "stones", "minimalist"]
+
+ # Row 4: 建築・空間ベース
+ row_4:
+ col_1:
+ name: "障子猫"
+ prompt: "cat logo in shoji screen frame, grid pattern, warm light filtering, paper texture"
+ elements: ["shoji", "grid", "warm light", "paper"]
+ 
+ col_2:
+ name: "畳猫"
+ prompt: "cat resting on tatami texture, woven pattern, natural fiber colors"
+ elements: ["tatami", "woven", "texture", "natural fiber"]
+ 
+ col_3:
+ name: "縁側猫"
+ prompt: "cat on traditional veranda, wooden boards, perspective lines, shadow play"
+ elements: ["veranda", "wood", "perspective", "shadows"]
+ 
+ col_4:
+ name: "茶室猫"
+ prompt: "cat in tea ceremony setting, tokonoma alcove, subdued lighting, intimate space"
+ elements: ["tea ceremony", "alcove", "subdued", "intimate"]
+ 
+ col_5:
+ name: "庭園猫"
+ prompt: "cat in Japanese garden, stepping stones, pond reflection, balanced composition"
+ elements: ["garden", "stones", "reflection", "balance"]
+ 
+ col_6:
+ name: "灯籠猫"
+ prompt: "cat silhouette with traditional lantern, warm glow, evening atmosphere"
+ elements: ["lantern", "glow", "evening", "atmosphere"]
+
+color_palette:
+ traditional:
+ - "藍色 (indigo): #4b0082"
+ - "朱色 (vermillion): #e74c3c" 
+ - "金色 (gold): #d4af37"
+ - "墨色 (ink black): #2c3e50"
+ - "胡粉 (shell white): #faf8f3"
+ 
+ modern_accents:
+ - "青磁 (celadon): #16a085"
+ - "桜色 (sakura pink): #ffb6c1"
+ - "抹茶 (matcha green): #9acd32"
+ - "紫苑 (aster purple): #9b59b6"
+ - "琥珀 (amber): #f39c12"
+
+design_principles:
+ composition: "clean, balanced, iconic"
+ typography: "none - pure symbol design"
+ scalability: "works from favicon to poster size"
+ cultural_balance: "70% traditional, 30% modern"
+ 
+output_specifications:
+ format: "vector logo (SVG preferred)"
+ size: "square aspect ratio"
+ variants: "single color, two color, full color"
+ background: "transparent or solid color options"
+ 
+usage_examples:
+ - "traditional Japanese restaurant branding"
+ - "modern pet care service logo" 
+ - "cultural event merchandise"
+ - "mobile app icon"
+ - "social media profile imagery"

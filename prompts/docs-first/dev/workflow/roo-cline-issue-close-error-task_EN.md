@@ -5,7 +5,7 @@ canonical_id: "dev/workflow/roo-cline-issue-close-error-task"
 canonical_doc: "docs/en/prompt-catalog/dev/workflow/roo-cline-issue-close-error-task.md"
 locale: EN
 docs_first: true
-last_synced: 2026-03-18
+last_synced: 2026-03-19
 ---
 
 <!-- Generated from docs/en/prompt-catalog/dev/workflow/roo-cline-issue-close-error-task.md. Edit docs/ instead. -->

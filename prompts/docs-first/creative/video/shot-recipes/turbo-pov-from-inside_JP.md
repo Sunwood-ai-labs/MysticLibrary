@@ -1,0 +1,13 @@
+---
+title: "KLING 2.5 Turbo ✖ 海底遺跡 ✖ 海底探査船風 でやってみた!!!"
+description: "POV shot from inside a deep-sea exploration submersible, descending into an anc…"
+canonical_id: "creative/video/shot-recipes/turbo-pov-from-inside"
+canonical_doc: "docs/prompt-catalog/creative/video/shot-recipes/turbo-pov-from-inside.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/video/shot-recipes/turbo-pov-from-inside.md. Edit docs/ instead. -->
+
+POV shot from inside a deep-sea exploration submersible, descending into an ancient submerged ruin. Streams of bubbles rise past the viewing dome, illuminated by the faint glow of the sub’s headlamps. Camera Motion: A slow, reverent forward glide as the vessel maneuvers between colossal stone arches encrusted with coral and sea anemones. Mechanical whirs and soft sonar pings echo faintly in the background. As the sub passes through, skeletal forms of dolphins and whales float in the water, drifting like ghostly apparitions, their movements eerily lifelike. Lighting: A haunting interplay of bioluminescent flickers from deep-sea flora, merging with shafts of cold, fractured blue light filtering from the distant surface. Style: A hybrid of scientific documentary realism and surreal deep-ocean mysticism, hyper-realistic and immersive. Atmosphere: Awe and solemn reverence, as though navigating through a cathedral of forgotten civilizations, buried beneath the crushing weight of the sea.

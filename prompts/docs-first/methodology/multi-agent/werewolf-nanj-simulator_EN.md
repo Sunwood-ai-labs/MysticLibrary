@@ -5,7 +5,7 @@ canonical_id: "methodology/multi-agent/werewolf-nanj-simulator"
 canonical_doc: "docs/en/prompt-catalog/methodology/multi-agent/werewolf-nanj-simulator.md"
 locale: EN
 docs_first: true
-last_synced: 2026-03-18
+last_synced: 2026-03-19
 ---
 
 <!-- Generated from docs/en/prompt-catalog/methodology/multi-agent/werewolf-nanj-simulator.md. Edit docs/ instead. -->

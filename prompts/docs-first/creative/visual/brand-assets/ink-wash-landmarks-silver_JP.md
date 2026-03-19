@@ -1,0 +1,23 @@
+---
+title: "Ink Wash Landmarks プロンプト ✖ リポジトリのヘッダー風!!!"
+description: "1. 月光の寺院"
+canonical_id: "creative/visual/brand-assets/ink-wash-landmarks-silver"
+canonical_doc: "docs/prompt-catalog/creative/visual/brand-assets/ink-wash-landmarks-silver.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/visual/brand-assets/ink-wash-landmarks-silver.md. Edit docs/ instead. -->
+
+1. 月光の寺院
+A silver monochrome ink wash of a moonlit temple rising above misty mountains, using gradients of diluted pigment and flowing brushstrokes. Evokes a tranquil, otherworldly stillness with subtle abstraction. Elegant large typography reads “Gemini Sheets Exporter” in a refined serif font, prominently integrated into the composition.
+
+2. 星影の塔
+A violet monochrome ink wash of a starlit spire piercing through drifting cosmic clouds, with delicate gradients and swirling brushstrokes. Suggests an ethereal beacon glowing between dream and reality. Large graceful lettering “Gemini Sheets Exporter” in an elegant calligraphic font, displayed prominently across the artwork.
+
+3. 風舞う門
+A jade monochrome ink wash of an ancient gate standing amidst windswept dunes, rendered with expressive brushwork and shifting tones. Conveys a mysterious threshold between worlds. Bold yet elegant typography “Gemini Sheets Exporter” in a luxurious serif font, shown in oversized style as part of the scene.
+
+4. 光の滝殿
+A golden monochrome ink wash of a cascading waterfall palace carved into luminous cliffs, painted with layered pigments and radiant brush flows. Evokes a divine, fantastical sanctuary shimmering in silence. The words “Gemini Sheets Exporter” appear in large, elegant lettering with a refined typeface, standing out prominently against the artwork.

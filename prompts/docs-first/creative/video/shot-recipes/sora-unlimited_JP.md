@@ -1,0 +1,29 @@
+---
+title: "タイムスタンプ:"
+description: "Style: フェルト素材と手縫い布を用いたストップモーション。やわらかい質感とステッチが見える。暖色ライトで温かい雰囲気。"
+canonical_id: "creative/video/shot-recipes/sora-unlimited"
+canonical_doc: "docs/prompt-catalog/creative/video/shot-recipes/sora-unlimited.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/video/shot-recipes/sora-unlimited.md. Edit docs/ instead. -->
+
+Style: フェルト素材と手縫い布を用いたストップモーション。やわらかい質感とステッチが見える。暖色ライトで温かい雰囲気。
+
+シーン設定: フェルトで作られた森の中。中央にキャンプファイヤー、周囲にキツネ・ウサギ・クマが星空を眺める。
+
+タイムスタンプ:
+0.00–4.00: ミディアムワイドショットで全体を見せつつ、キツネが火に薪をくべる。火の光がフェルトに揺らめく。
+4.00–8.00: カメラがゆっくりズームし、ウサギが星空を指差し「見て、オリオン座だよ」と囁く。星のフェルトが輝く。
+8.00–12.00: クマのクローズアップ。クマが小さなフェルトギターを弾き、皆が笑顔で星に願いを込める。
+
+Cinematography:
+- Lens: 35mmから50mmへとズーム、被写界深度を浅めにしてキャラクターを際立たせる 。
+- Lighting: キャンプファイヤーを模したオレンジ光、バックグラウンドは深いブルーの夜空。
+- Mood: 穏やかでほのぼのとした夜。
+
+Sound: ギターの軽やかなアルペジオ、火のはぜる音、遠くのフクロウの鳴き声。
+
+#HiggsfieldSora2

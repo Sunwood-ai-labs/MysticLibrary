@@ -1,0 +1,32 @@
+---
+title: "style: \\\"Photorealistic 4K cinematic video"
+description: "GeminiのVeo3が今週末限定で無料ユーザーで使えるぽいので早速使ってみた4⃣"
+canonical_id: "creative/video/shot-recipes/yokai-photorealistic-cinematic-video"
+canonical_doc: "docs/prompt-catalog/creative/video/shot-recipes/yokai-photorealistic-cinematic-video.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/video/shot-recipes/yokai-photorealistic-cinematic-video.md. Edit docs/ instead. -->
+
+prompt:
+ style: "Photorealistic 4K cinematic video"
+ shot:
+ opening: "Wide view of a lacquered sake gourd with glowing talismans, standing on the edge of a mossy stone rooftop of an ancient yokai city under the twilight sky"
+ camera: 
+ movement: "Slow push-in toward the gourd, mist swirling around"
+ transformation:
+ action: "The lacquer surface creaks and retracts like wooden shrine doors"
+ reveal: "Inside, a bustling miniature yokai world crafted in hyperdetailed diorama style"
+ interior_world:
+ levels:
+ - "On one tier, small kappa are splashing and racing in a glowing river that coils like a racetrack"
+ - "On another, tengu leap across a half-pipe of enchanted bamboo, gliding with fiery wings"
+ - "From the highest ramp, a nine-tailed fox launches into the air, ethereal tails trailing light and spirit-fire"
+ atmosphere: "Lanterns sway, paper charms flutter, faint chants echo"
+ climax:
+ camera: "The shot flies inside the gourd, focusing on the fox spirit at the exact moment of takeoff"
+ effects: "Energy wings unfurl in luminous golden flame, mist bursts outward, illuminating the scene"
+ mood: "Mystical yet energetic, folkloric fantasy with cinematic detail"
+ lighting: "Twilight to moonlit glow, shimmering with spirit-fire accents"

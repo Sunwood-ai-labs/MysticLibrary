@@ -5,7 +5,7 @@ canonical_id: "dev/guidelines/codex-work-rules"
 canonical_doc: "docs/prompt-catalog/dev/guidelines/codex-work-rules.md"
 locale: JP
 docs_first: true
-last_synced: 2026-03-18
+last_synced: 2026-03-19
 ---
 
 <!-- Generated from docs/prompt-catalog/dev/guidelines/codex-work-rules.md. Edit docs/ instead. -->

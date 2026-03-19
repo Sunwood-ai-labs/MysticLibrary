@@ -5,7 +5,7 @@ canonical_id: "agent/phidata/phidata-cookbook-repository-summary"
 canonical_doc: "docs/en/prompt-catalog/agent/phidata/phidata-cookbook-repository-summary.md"
 locale: EN
 docs_first: true
-last_synced: 2026-03-18
+last_synced: 2026-03-19
 ---
 
 <!-- Generated from docs/en/prompt-catalog/agent/phidata/phidata-cookbook-repository-summary.md. Edit docs/ instead. -->

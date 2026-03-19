@@ -1,0 +1,54 @@
+---
+title: "3Dアイソメトリック・ピクト図解 V3"
+description: "ビジュアルスタイル"
+canonical_id: "creative/visual/character-styles/isometric-pictogram-diagram-miniature-diorama-diagram"
+canonical_doc: "docs/prompt-catalog/creative/visual/character-styles/isometric-pictogram-diagram-miniature-diorama-diagram.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/visual/character-styles/isometric-pictogram-diagram-miniature-diorama-diagram.md. Edit docs/ instead. -->
+
+## ビジュアルスタイル
+- **視点**: 鳥瞰図(Bird's Eye View)、斜め上45°からの俯瞰
+- **テイスト**: 3Dミニチュア・ジオラマ風、都市計画図のような俯瞰表現
+- **質感**: クリーンでフラットな3D、柔らかい影
+- **背景**: 淡いグレーまたは白(要素が際立つように)
+
+## 全体レイアウト構成
+横長のキャンバスを使用し、情報を複数のブロックに分割して配置してください。各ブロックには見出しをつけ、内容のまとまりごとにエリアを区切ります。ブロック間は矢印や線で関係性を示し、全体として一つのストーリーが読み取れる構成にしてください。
+
+## 視覚的な演出
+- 内容の性質に応じて、色調やトーンを使い分けてください
+- 要素間の関係性(因果、時系列、対比など)を矢印や配置で表現してください
+- 重要度や優先度に応じて、サイズや位置で強弱をつけてください
+- 未解決の問題や検討事項がある場合は、視覚的に区別できるようにしてください
+
+## キャラクターの配置
+- 添付キャラクターを3Dミニチュア化
+- 各ブロックの内容に合わせた表情やポーズで配置
+- 案内役・説明役として自然に溶け込ませる
+
+## 情報の階層化
+1. **第1層(大見出し)**: ブロックタイトル
+2. **第2層(中項目)**: 各要素の名称(建物やオブジェクトにラベル)
+3. **第3層(詳細)**: 小さなテキストで補足説明
+
+## 必須要素
+- 全体を俯瞰できる統一された視点
+- 情報のまとまりを示すブロック分け
+- 要素間を結ぶ矢印・線でフローや関係性を表現
+- 色分けによるカテゴリの区別
+- 各セクションに小見出しラベル
+
+## 言語
+- すべて**日本語**で記載
+
+---
+
+## 解説する内容
+
+[ここに内容を入れる]
+
+---

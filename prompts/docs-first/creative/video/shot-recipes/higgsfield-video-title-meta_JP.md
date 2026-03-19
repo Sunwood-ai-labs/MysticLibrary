@@ -1,0 +1,77 @@
+---
+title: "title: \\\"天空に響く声"
+description: "HiggsfieldSora2"
+canonical_id: "creative/video/shot-recipes/higgsfield-video-title-meta"
+canonical_doc: "docs/prompt-catalog/creative/video/shot-recipes/higgsfield-video-title-meta.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/video/shot-recipes/higgsfield-video-title-meta.md. Edit docs/ instead. -->
+
+#HiggsfieldSora2 
+
+version: "1.1"
+meta:
+ title: "天空に響く声"
+ purpose: "聖歌ライブ/映画予告/映像演出デモ"
+ duration_sec: 10
+ aspect_ratio: "2.39:1"
+ fps: 24
+ style_refs: ["aerial cinematic", "ethereal choral", "dawn light", "reverent tone"]
+story:
+ theme: "聖歌を歌っているライブ映像(空撮)"
+ logline: "夜明けの空の下、聖歌隊が祈りの歌声で世界を照らす。"
+ act_map: ["起: 静寂の光", "承: 祈りの高鳴り", "転: 天空への共鳴", "結: 永遠の余韻"]
+scene:
+ description: "山頂の白いステージ、雲海の上。ドローンが上昇しながら聖歌隊を包む。"
+ time_weather: "黎明/淡い金光/薄霧"
+subject_action:
+ description: "聖歌隊が手を掲げて歌い出す。旋律が風に乗り、雲が割れて光が差す。"
+ tempo: "lyrical"
+camera:
+ framing: ["aerial wide", "close-up", "orbit pan"]
+ moves: ["slow crane-up", "spiral rise", "dolly-out"]
+ focus: "soft focus from face to sky"
+lighting_style:
+ description: "金色の逆光と白衣の反射。霧の中に粒子が浮かび、天上の輝きを生む。"
+physics_materials:
+ notes: ["霧が歌声に震え、光が舞う", "衣が風にひるがえる"]
+audio:
+ dialogue:
+ - who: "lead_01"
+ text: "この声が、空へ届きますように。"
+ start_sec: 7
+ end_sec: 8
+ singing:
+ lyrics: |
+ ♪ 光よ、目覚めよ 
+ ♪ 闇を超え 空へ還る 
+ ♪ 祈りは風に乗り 
+ ♪ 永遠を呼ぶ(エテルナ...) 
+ start_sec: 1
+ end_sec: 7
+ bgm:
+ mood: "choral rise → orchestral bloom → silence"
+ start_sec: 0
+ end_sec: 10
+ sfx: ["wind swell", "echoed choir reverb", "soft drone hum"]
+montage:
+ cuts_total: 18
+ target_cuts_per_sec: 1.8
+ transition_types: ["cross dissolve", "whip pan", "fade to gold"]
+timeline:
+ - start_sec: 0
+ end_sec: 3
+ action: "起: 夜明けの雲海。ひとりのソプラノが静かに歌い出す。"
+ - start_sec: 4
+ end_sec: 7
+ action: "承転: 聖歌隊が重なり、ドローンが上昇。雲を貫く光の柱が立つ。"
+ - start_sec: 8
+ end_sec: 10
+ action: "結: 音が消え、空に響く残響だけが残る。"
+flat_prompt: >
+ "テーマ『聖歌を歌っているライブ映像(空撮)』を10秒で描く映画予告風モンタージュ。
+ 夜明けの雲海の上、白衣の聖歌隊が歌い出す。『光よ、目覚めよ...』という旋律が風と共に天空へ昇り、
+ ドローンの空撮が黄金の光の中で旋回。最後に一人の声が祈りを残して静寂に溶ける。"

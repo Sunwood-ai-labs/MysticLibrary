@@ -1,0 +1,17 @@
+---
+title: "現実×シュール乗り物をImagen4✖Veo3で生成してみた!!!"
+description: "Scene: Dawn. A hyper-realistic, wasabi-glass nigiri car zooms along an airborne…"
+canonical_id: "creative/visual/character-styles/imagen4-dawn-hyper-realistic-wasabi-glass"
+canonical_doc: "docs/prompt-catalog/creative/visual/character-styles/imagen4-dawn-hyper-realistic-wasabi-glass.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/visual/character-styles/imagen4-dawn-hyper-realistic-wasabi-glass.md. Edit docs/ instead. -->
+
+Scene: Dawn. A hyper-realistic, wasabi-glass nigiri car zooms along an airborne sushi belt above a flooded Shibuya crossing. 
+Camera: begin with high-speed drone chase, then seamless 360° orbit; every 3 s gravity reverses—activate 4× slow-motion time-dilation during each flip, showing gari petals and soy-sauce waves floating. 
+Characters: stoic neon-kimono android geisha on roof plays laser shamisen; swarm of miniature office workers surf the liquid. 
+Environment: pastel-neon vaporwave palette, giant chopsticks protruding through clouds, sky reflects in shallow street-water below. 
+Keywords: hyper-realistic texture and lighting, surreal yet grounded in a modern real-world setting, dynamic motion blur & wind effects, cinematic composition, wide-angle lens, expressive yet subtly offbeat facial expression(s), background: water-submerged Tokyo, objects related to the vehicle concept flying / reacting to speed, whimsical realism, slight absurdist tone

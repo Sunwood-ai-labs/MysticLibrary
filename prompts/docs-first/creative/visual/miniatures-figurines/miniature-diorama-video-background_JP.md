@@ -1,0 +1,30 @@
+---
+title: "[Timeline] 時間構成:"
+description: "&#91;Subject&#93; 主題: 黒色のクラシックな蒸気機関車(SL)が、人型のロボットへ変形する。ロボットは煙突を頭部に、車輪を肩や脚部の装甲に残したデザインで、…"
+canonical_id: "creative/visual/miniatures-figurines/miniature-diorama-video-background"
+canonical_doc: "docs/prompt-catalog/creative/visual/miniatures-figurines/miniature-diorama-video-background.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/visual/miniatures-figurines/miniature-diorama-video-background.md. Edit docs/ instead. -->
+
+[Subject] 主題: 黒色のクラシックな蒸気機関車(SL)が、人型のロボットへ変形する。ロボットは煙突を頭部に、車輪を肩や脚部の装甲に残したデザインで、SLのパーツを踏襲している。
+
+[Setting] 環境: 線路の上を走るミニチュア風の町のジオラマ。周囲には模型風の木や建物が並んでいる。
+
+[Action] 動作: 蒸気機関車が停車し、シューッと蒸気を吐き出す。煙突が頭部へ変形し、車輪が肩や膝の装甲に回り込み、車体が展開して人型のロボットの腕と脚が形成される。最後に力強く立ち上がり、堂々と胸を張る。
+
+[Camera] カメラ: ローアングルから列車を追い、変形が始まるとカメラが少し引いて全身を映す。最後はやや煽り気味でロボットの雄姿を見上げる。
+
+[Style] 映像スタイル: ミニチュア特撮風。ジオラマの質感を活かしつつ、重量感のある変形演出。ライティングは暖色系で、ノスタルジックかつ力強い。
+
+[Audio] 音声: 蒸気のシューッという音、金属が噛み合うガシャーンという音。変形のたびに重量感のあるメカ音。背景には小鳥のさえずりと町のかすかな環境音。
+
+[Timeline] 時間構成:
+- 0〜3秒: SLが線路を走り停車、蒸気を吐き出す。 
+- 3〜8秒: 車体が展開し、煙突が頭部、車輪が肩や膝に配置されて人型ロボットへ変形。 
+- 8〜10秒: ロボットが立ち上がり、胸を張ってポーズ。煽りのカメラで見上げカット。 
+
+[Constraints] 制約条件: オリジナルデザイン。人型ロボットはSLの特徴(煙突、車輪、金属ボディ)を明確に残す。コミカルすぎず重量感を表現。

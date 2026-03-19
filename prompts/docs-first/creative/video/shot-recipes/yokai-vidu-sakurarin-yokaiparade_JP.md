@@ -1,0 +1,13 @@
+---
+title: "Vidu x SakuraRin 妖怪衆傑祭 ~YokaiParade~ 開始した!!"
+description: "A cinematic night-festival scene on a quiet seaside pier in midsummer. In the f…"
+canonical_id: "creative/video/shot-recipes/yokai-vidu-sakurarin-yokaiparade"
+canonical_doc: "docs/prompt-catalog/creative/video/shot-recipes/yokai-vidu-sakurarin-yokaiparade.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/video/shot-recipes/yokai-vidu-sakurarin-yokaiparade.md. Edit docs/ instead. -->
+
+A cinematic night-festival scene on a quiet seaside pier in midsummer. In the foreground, a large red paper goldfish lantern hangs from a bamboo pole, its translucent fins aglow with ember-red light; inside, faint human silhouettes swirl like living fish, hinting at a tsukumogami spirit. Around it, dozens of smaller goldfish lanterns float in mid-air, their warm crimson light reflecting off dark waves below. Stalls draped with faded noren line the pier, wind chimes tinkling in the salt breeze. Yukata-clad festival-goers’ shadows stretch unnaturally—some shadows morph into goldfish forms as they approach the lanterns. The sky is indigo twilight with a thin crescent moon; distant fireworks leave ghostly trails. Style: hyper-realistic, rich volumetric lighting, subtle film grain, 35 mm lens shallow depth of field, dramatic contrast between warm lantern glow and cool moonlit sea mist. Mood: eerie yet nostalgic, summer horror folklore.

@@ -1,0 +1,23 @@
+---
+title: "1 ドラゴンフルーツ × マゼンタ × 白黒の対比"
+description: "Lego bricked objects プロンプト使ってみた!!"
+canonical_id: "creative/visual/minimalist-food-photograph-single"
+canonical_doc: "docs/prompt-catalog/creative/visual/minimalist-food-photograph-single.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/visual/minimalist-food-photograph-single.md. Edit docs/ instead. -->
+
+1 ドラゴンフルーツ × マゼンタ × 白黒の対比
+[Minimalist food photograph, [1080x1080] – a single dragon fruit rests on a light pastel beige matte surface and is captured mid-transformation into a lego bricks 3D form: one half remains intact while the other organically fragments into large, floating lego bricks that drift outward, each brick revealing the fruit’s vivid magenta skin, white flesh, and black seeds. Studio lighting with soft shadows, shallow depth of field, hyperrealistic detail, stylish geometric abstraction]
+
+2 スターフルーツ × ゴールド × 透明感
+[Minimalist food photograph, [1080x1080] – a single starfruit (carambola) rests on a soft ivory matte surface and is captured mid-transformation into lego bricks: one half remains whole while the other fragments into glowing, translucent golden bricks shaped like stars, drifting outward with geometric grace. Hyperrealistic detail, cinematic close-up, gentle luminous highlights, stylish abstraction]
+
+3 パッションフルーツ × ディープパープル × 黄金
+[Minimalist food photograph, [1080x1080] – a single passion fruit rests on a light warm gray matte surface, splitting into lego bricks: the outer shell a deep velvet purple, while the inner bricks glow with golden seeds suspended in translucent pulp. Soft cinematic lighting, realistic shadows, floating bricks arranged in an organic spiral, highly detailed, surreal abstraction]
+
+4 ブルームーンベリー(架空フルーツ) × 蒼 × 輝き
+[Minimalist food photograph, [1080x1080] – a single fantasy fruit “Blue Moon Berry” rests on a pale misty gray matte surface, captured mid-transformation into lego bricks: the intact half shows a shimmering deep blue skin with faint silver speckles, while the other half dissolves into glowing azure and indigo bricks that radiate outward like stardust. Hyperrealistic close-up, surreal yet minimalist, cinematic lighting and shadows]

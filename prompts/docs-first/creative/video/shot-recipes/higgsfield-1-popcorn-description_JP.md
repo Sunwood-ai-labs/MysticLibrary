@@ -1,0 +1,142 @@
+---
+title: "Higgsfield Popcorn 実験記録9⃣~1⃣4⃣"
+description: "description: cute plush dragon travel vlogger"
+canonical_id: "creative/video/shot-recipes/higgsfield-1-popcorn-description"
+canonical_doc: "docs/prompt-catalog/creative/video/shot-recipes/higgsfield-1-popcorn-description.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/video/shot-recipes/higgsfield-1-popcorn-description.md. Edit docs/ instead. -->
+
+subject:
+ description: cute plush dragon travel vlogger
+ features:
+ - pastel teal and pink scales
+ - big round eyes
+ - small wings and soft horns
+ - gemstone pendant necklace
+ wardrobe:
+ attire: plush fabric body with pastel scales
+ accessories: pendant necklace; travel scarf (lightweight)
+ footwear: none
+ props:
+ - mini action camera
+ - passport stamp booklet
+ - compact daypack
+ - tiny travel flag
+ companions:
+ - human travel host (off camera)
+
+world:
+ background: global journey through old town plazas, seaside harbors, mountain temples, deserts, and snowy villages
+ time_of_day: golden hour
+ weather: clear
+ era_style: modern
+ palette: soft pastels
+
+fx:
+ lighting: natural soft light
+ particles:
+ - snowflakes
+ ambience:
+ - light haze
+ crowd: bokeh silhouettes
+
+camera:
+ lenses:
+ - 24mm
+ - 35mm
+ - 50mm
+ movement: gimbal
+ framing_defaults: wide establishing bias
+ color_grade: clean cinematic
+ aspect_ratio: "16:9"
+ quality: 8K HDR
+
+shots:
+ - id: 1
+ name: window-seat-intro
+ location: airplane window seat over clouds
+ framing: close-up gimbal on daypack
+ action: waves at sky and peeks outside
+ motion: pendant sways; wing tips wiggle; plane wing glides past
+ composition: rule of thirds with negative space to window
+ mood: excited
+ notes: cheerful VO; animated map line to first stop
+ - id: 2
+ name: old-town-plaza-cafe
+ location: stone plaza café table
+ framing: wide to mid-shot gimbal
+ action: poses with local pastry and stamps booklet
+ motion: napkin rustles; pigeons flutter; crowd flows as bokeh
+ composition: leading lines from cobbles to subject
+ mood: curious
+ notes: on-screen place name subtitle; ambient street music
+ - id: 3
+ name: seaside-harbor-walk
+ location: Mediterranean-style harbor promenade
+ framing: tracking mid-shot gimbal
+ action: rides in daypack and films a selfie with mini camera
+ motion: breeze ruffles ears; flags ripple; pendant glints
+ composition: reflections and thirds; boats as background layers
+ mood: breezy joy
+ notes: whip-pan transition to next scene
+ - id: 4
+ name: mountain-temple-steps
+ location: hillside temple gate and stone steps
+ framing: low-angle wide
+ action: bows to bell and listens
+ motion: prayer flags flutter; soft haze behind gate
+ composition: centered portrait with leading lines up steps
+ mood: serene
+ notes: soft wind-chime SFX; subtle subtitle about tradition
+ - id: 5
+ name: desert-dune-ridge
+ location: golden sand dune crest at sunset
+ framing: wide establishing with gentle drone rise
+ action: plants tiny travel flag and looks to horizon
+ motion: light sand drift; tail tuft sways
+ composition: rule of thirds with long shadows and S-curve ridge
+ mood: adventurous
+ notes: short time-lapse of sun dipping
+ - id: 6
+ name: snowy-village-night
+ location: alpine village street with warm shop lights
+ framing: static mid-shot on tripod feel
+ action: holds tiny lantern and waves goodnight
+ motion: snowflakes fall; pendant sparkles; distant steam from food cart
+ composition: centered portrait; soft bokeh lights
+ mood: cozy farewell
+ notes: end card with passport-style travel stamps and credits
+
+look:
+ style:
+ - soft cinematic lighting
+ - shallow DOF
+ - lens bloom
+ - subtle film grain
+ - clean color
+ continuity: match wardrobe & hair across shots
+ deliverables: video frames
+ aspect_ratio: "16:9"
+ quality: 8K HDR
+
+consistency:
+ enforce:
+ - same face
+ - same hair length/style
+ - same outfit/accessories
+ - same props where applicable
+
+negative:
+ - blur
+ - oversaturation
+ - harsh skin smoothing
+ - extra limbs or fingers
+ - outfit inconsistency
+ - logo or watermark
+ - low detail
+ - distracting background text
+ - crowd faces in sharp focus

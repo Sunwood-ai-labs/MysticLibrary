@@ -1,0 +1,70 @@
+---
+title: "title: \\\"5 Lights, 1 Debut"
+description: "HiggsfieldSora2"
+canonical_id: "dev/templates/video-specs/higgsfield-title-lights-debut"
+canonical_doc: "docs/prompt-catalog/dev/templates/video-specs/higgsfield-title-lights-debut.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/dev/templates/video-specs/higgsfield-title-lights-debut.md. Edit docs/ instead. -->
+
+#HiggsfieldSora2 
+
+version: "1.1"
+meta:
+ title: "5 Lights, 1 Debut"
+ purpose: "映画予告/SNS短編"
+ duration_sec: 12
+ aspect_ratio: "2.39:1"
+ fps: 24
+ style_refs: ["epic cinematic", "rapid montage", "high contrast", "emotional lighting"]
+story:
+ theme: "5人の男性アイドルユニットのデビュー"
+ logline: "地方出身の5人が初舞台で“無名から伝説へ”を賭け、恐れと絆を一瞬の輝きに変える。"
+ act_map: ["起:導入", "承:葛藤", "転:破局", "結:再生"]
+scene:
+ description: "夜のリハーサルスタジオ/狭いライブハウスの袖/雨上がりの屋上/TVスタジオのバックヤード/ステージ本番"
+ time_weather: "夜~明け方/小雨後の路面反射"
+subject_action:
+ description: "緊張で固い表情→互いの肩を叩き合い呼吸を合わせる→失敗のフラッシュバック→手を取り円陣→光の中へ飛び出す。"
+ tempo: "breathless"
+camera:
+ framing: ["extreme close-up", "medium", "wide"]
+ moves: ["whip pan", "crash zoom", "dolly-in"]
+ focus: "rack focus through chaos and emotion"
+lighting_style:
+ description: "シアン×マゼンタのネオン、逆光とストロボで汗と涙を煌めかせ、ゴールドのハイライトで勝利を示す。"
+physics_materials:
+ notes: ["紙吹雪が渦を巻く", "舞台霧がライトに漂う", "スニーカーが床を擦る粉塵", "雨粒が髪先から落ちる"]
+audio:
+ dialogue:
+ - who: "lead_01"
+ text: "ここから伝説にする。"
+ start_sec: 10
+ end_sec: 11
+ bgm:
+ mood: "electro-pop build → drop → silence"
+ start_sec: 0
+ end_sec: 12
+ sfx: ["whoosh cuts", "crowd cheer", "camera shutter", "heartbeat"]
+montage:
+ cuts_total: 22
+ target_cuts_per_sec: 1.8
+ transition_types: ["hard cut", "whip pan", "match cut"]
+timeline:
+ - start_sec: 0
+ end_sec: 4
+ action: "起: 暗いスタジオで個々の顔のECU→メトロノームのLED→手の震え。屋上の円陣、雨の反射にネオンが滲む。"
+ - start_sec: 4
+ end_sec: 9
+ action: "承転: 失敗練習の閃光カット→プロデューサーの鋭い視線→袖で手を重ねる→スマホの星海→足元がステージへ走る。"
+ - start_sec: 9
+ end_sec: 12
+ action: "結: 黒暗転→一拍の心音→ライト炸裂、フォーメーション決めポーズ。音が消え、紙吹雪の中『ここから伝説にする。』微笑と静寂。"
+flat_prompt: >
+ "テーマ『5人の男性アイドルユニットのデビュー』を12秒で描く映画予告風モンタージュ。
+ 超高速カットでリハから本番までの起承転結を圧縮し、カメラはウィップパンとクラッシュズームで疾走。
+ シアン×マゼンタのネオンと逆光が汗を宝石のように輝かせ、エレクトロポップのビルドからドロップ、最後は無音。
+ 紙吹雪と観客の歓声の中、リーダーが『ここから伝説にする。』と静かに宣言して締める。"

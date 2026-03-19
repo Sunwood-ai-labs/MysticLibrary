@@ -5,7 +5,7 @@ canonical_id: "docs/diagram/eraser-syntax-guide-erd"
 canonical_doc: "docs/prompt-catalog/docs/diagram/eraser-syntax-guide-erd.md"
 locale: JP
 docs_first: true
-last_synced: 2026-03-18
+last_synced: 2026-03-19
 ---
 
 <!-- Generated from docs/prompt-catalog/docs/diagram/eraser-syntax-guide-erd.md. Edit docs/ instead. -->

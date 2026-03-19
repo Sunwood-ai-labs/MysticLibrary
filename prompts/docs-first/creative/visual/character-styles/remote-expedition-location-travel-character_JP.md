@@ -1,0 +1,18 @@
+---
+title: "2人で秘境探検プロンプトを開発中2⃣"
+description: "《位置情報》緯度と経度が38.643093, 34.828825の位置"
+canonical_id: "creative/visual/character-styles/remote-expedition-location-travel-character"
+canonical_doc: "docs/prompt-catalog/creative/visual/character-styles/remote-expedition-location-travel-character.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/visual/character-styles/remote-expedition-location-travel-character.md. Edit docs/ instead. -->
+
+《位置情報》緯度と経度が38.643093, 34.828825の位置
+《時間・天気》夜明け前のブルーアワー。地平線がわずかに白み始め、星空と朝霧が混ざり合う幻想的かつ視界の悪い天気。
+《テーマ》異惑星のような奇岩群の奥地を行く、過酷だが美しい冒険の記録
+《演出》冷たい青色の自然光と、手元のランタンの暖色の対比。広角レンズで奇岩の巨大さを強調し、人物を風景の一部として配置
+《服装》砂埃を被った厚手のマントやフード付きのアウトドアウェア。風で服や髪がなびき、旅の過酷さを演出してください
+《キャラクター》【最重要:顔の厳密な固定】画像1・2のキャラクター1と、画像3・4のキャラクター2の「目・鼻・口の形状」「顔の輪郭」を厳密に維持してください。AIによる補正は禁止です。2人はランタンを掲げ、霧の奥に何かを発見して立ち止まっている様子で馴染ませてください。

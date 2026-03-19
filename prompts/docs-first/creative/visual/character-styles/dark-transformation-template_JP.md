@@ -1,0 +1,61 @@
+---
+title: "nano banana pro 黒化プロンプトの研究中1⃣"
+description: "黒化プロンプトテンプレート"
+canonical_id: "creative/visual/character-styles/dark-transformation-template"
+canonical_doc: "docs/prompt-catalog/creative/visual/character-styles/dark-transformation-template.md"
+locale: JP
+docs_first: true
+last_synced: 2026-03-19
+---
+
+<!-- Generated from docs/prompt-catalog/creative/visual/character-styles/dark-transformation-template.md. Edit docs/ instead. -->
+
+# 黒化プロンプトテンプレート
+# Character Corruption / Dark Transformation Prompt
+
+base_prompt:
+ prefix: "Transform the character in this image into a corrupted dark version"
+ 
+styles:
+ # 闇落ちスタイル別
+ gentle_corruption:
+ prompt: "subtle dark transformation, slightly desaturated colors, faint dark aura, melancholic expression, shadowy undertones, same outfit but darker palette"
+ negative: "gore, blood, extreme horror"
+ 
+ full_corruption:
+ prompt: "complete dark transformation, inverted color scheme, glowing ominous eyes, dark energy aura, sinister expression, corrupted outfit with black and purple tones, shadowy particles"
+ negative: "bright colors, cheerful expression"
+ 
+ yandere_style:
+ prompt: "yandere transformation, unsettling smile, empty eyes with small pupils, subtle shadow over face, obsessive aura, same outfit, holding something ominous"
+ negative: "gore, excessive blood"
+ 
+ demon_corruption:
+ prompt: "demonic transformation, horns, dark wings, glowing red or purple eyes, dark flame aura, corrupted elegant outfit, otherworldly atmosphere"
+ negative: "angelic, bright, cute"
+
+visual_elements:
+ eyes:
+ - "glowing red eyes"
+ - "empty hollow eyes"
+ - "heterochromia with one dark eye"
+ - "spiral pattern in eyes"
+ - "slit pupils"
+ 
+ aura:
+ - "dark miasma surrounding"
+ - "purple/black energy particles"
+ - "shadowy tendrils"
+ - "ominous glow"
+ 
+ expression:
+ - "sinister smile"
+ - "cold emotionless stare"
+ - "psychotic grin"
+ - "melancholic corruption"
+ 
+ color_palette:
+ - "desaturated with purple highlights"
+ - "black and red scheme"
+ - "inverted original colors"
+ - "monochrome with glowing accents"
