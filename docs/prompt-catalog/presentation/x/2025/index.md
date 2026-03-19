@@ -11,9 +11,8 @@ last_reviewed: 2026-03-19
 # X由来の実験プロンプト 2025
 
 - branch: presentation
-- items: 13
+- items: 12
 
 ## 月別アーカイブ
 - [2025-11](./11/index.md) - 9件
 - [2025-06](./06/index.md) - 3件
-- [2025-05](./05/index.md) - 1件

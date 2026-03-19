@@ -71,7 +71,7 @@ last_reviewed: 2026-02-23
 
 X から取り込んで分類済みの追加プロンプトです。カテゴリ本文から直接たどれるようにしつつ、X由来ページとして区別しています。
 
-- 総件数: 10
+- 総件数: 11
 - 全件アーカイブ: [X由来アーカイブ](./x/)
 
 - [🍌 4. “Overhead Blizzard Skyline” ❄️](./x/2025/12/2005167552943821300.md) - 2025-12-28 15:42:53 JST / medium
@@ -79,6 +79,7 @@ X から取り込んで分類済みの追加プロンプトです。カテゴリ
 - [Thick morning fog in a gravity-defying London. The asphalt street curves seamlessly upwards, ph…](./x/2025/12/2005167546862108768.md) - 2025-12-28 15:42:52 JST / medium
 - [🍌 3. “Sunlit Möbius Metropolis” ☀️](./x/2025/12/2005167549974233354.md) - 2025-12-28 15:42:52 JST / medium
 - [🍌 1. “Neon Rain Loop” 🌧️](./x/2025/12/2005167543858995660.md) - 2025-12-28 15:42:51 JST / medium
+- [Kaggleで今ってどんなコンペが開催してる??](./x/2025/12/2000179297970213262.md) - 2025-12-14 21:21:20 JST / medium
 - [Kaggleで今ってどんなコンペが開催してる??](./x/2025/12/2000171520245801261.md) - 2025-12-14 20:50:26 JST / low
 - [Hyper-realistic 3D square diorama of Tokyo in spring bloom, carved out with exposed soil cross-…](./x/2025/12/1997143632277918007.md) - 2025-12-06 12:18:41 JST / medium
 - [私もClaude Opus 4.5 ✖ drawio で GUのカスタマージャーニーマップを生成してもらった!!!](./x/2025/11/1993396890306785499.md) - 2025-11-26 04:10:28 JST / medium

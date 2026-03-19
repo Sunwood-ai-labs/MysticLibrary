@@ -11,10 +11,10 @@ last_reviewed: 2026-03-19
 # X由来の実験プロンプト 2025
 
 - branch: dev / templates
-- items: 78
+- items: 79
 
 ## 月別アーカイブ
-- [2025-12](./12/index.md) - 19件
+- [2025-12](./12/index.md) - 20件
 - [2025-11](./11/index.md) - 12件
 - [2025-10](./10/index.md) - 30件
 - [2025-09](./09/index.md) - 5件

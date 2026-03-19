@@ -5,15 +5,15 @@
   "summary": {
     "canonical_record_count": 812,
     "review_decisions": 802,
-    "categorized_docs": 772,
-    "archive_only_records": 30,
+    "categorized_docs": 799,
+    "archive_only_records": 3,
     "counts_by_top_category": {
-      "creative": 576,
-      "dev": 134,
+      "creative": 596,
+      "dev": 139,
       "methodology": 3,
-      "docs": 37,
+      "docs": 40,
       "writing": 8,
-      "presentation": 14
+      "presentation": 13
     }
   },
   "categorized_docs": [
@@ -150,6 +150,21 @@
       "reviewer": "manual:batch-a-video-1-part-1",
       "source_url": "https://x.com/hAru_mAki_ch/status/2029889875131125762",
       "source_published_at": "2026-03-06T12:00:34.000Z",
+      "archive_bucket": "2026-03"
+    },
+    {
+      "primary_id": "2029440091643691282",
+      "archive_doc_path": "docs/prompt-catalog/archive/x/2026/03/2029440091643691282.md",
+      "categorized_doc_path": "docs/prompt-catalog/dev/agent-prompts/x/2026/03/2029440091643691282.md",
+      "top_category": "dev",
+      "subpath": "agent-prompts",
+      "title": "実際にやった生のプロンプトですが、.env方式は今バグがあるぽいのでこの指定はしないほうがいいです!",
+      "summary": "下記のサイトを参考にしてOpenClawのConfigに追加してアリババモデルも使えるようにしてほしい",
+      "review_status": "classified",
+      "confidence": "medium",
+      "reviewer": "manual:archive-only-round2-batch-1-dev-recovery",
+      "source_url": "https://x.com/hAru_mAki_ch/status/2029440091643691282",
+      "source_published_at": "2026-03-05T06:13:17.000Z",
       "archive_bucket": "2026-03"
     },
     {
@@ -453,6 +468,21 @@
       "archive_bucket": "2026-02"
     },
     {
+      "primary_id": "2020149187011305659",
+      "archive_doc_path": "docs/prompt-catalog/archive/x/2026/02/2020149187011305659.md",
+      "categorized_doc_path": "docs/prompt-catalog/dev/agent-prompts/x/2026/02/2020149187011305659.md",
+      "top_category": "dev",
+      "subpath": "agent-prompts",
+      "title": "エージェントチームを作ってください。",
+      "summary": "エージェントチームを作ってください。",
+      "review_status": "classified",
+      "confidence": "medium",
+      "reviewer": "manual:archive-only-round2-batch-1-dev-recovery",
+      "source_url": "https://x.com/hAru_mAki_ch/status/2020149187011305659",
+      "source_published_at": "2026-02-07T14:54:33.000Z",
+      "archive_bucket": "2026-02"
+    },
+    {
       "primary_id": "2020133742317338624",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2026/02/2020133742317338624.md",
       "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2026/02/2020133742317338624.md",
@@ -480,6 +510,51 @@
       "reviewer": "manual:batch-a-video-1-part-1",
       "source_url": "https://x.com/hAru_mAki_ch/status/2020133745467224065",
       "source_published_at": "2026-02-07T13:53:11.000Z",
+      "archive_bucket": "2026-02"
+    },
+    {
+      "primary_id": "2020133745521742334",
+      "archive_doc_path": "docs/prompt-catalog/archive/x/2026/02/2020133745521742334.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2026/02/2020133745521742334.md",
+      "top_category": "creative",
+      "subpath": "visual",
+      "title": "...",
+      "summary": "...",
+      "review_status": "classified",
+      "confidence": "medium",
+      "reviewer": "manual:archive-only-round2-batch-3-creative-visual",
+      "source_url": "https://x.com/hAru_mAki_ch/status/2020133745521742334",
+      "source_published_at": "2026-02-07T13:53:11.000Z",
+      "archive_bucket": "2026-02"
+    },
+    {
+      "primary_id": "2020133739452592430",
+      "archive_doc_path": "docs/prompt-catalog/archive/x/2026/02/2020133739452592430.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2026/02/2020133739452592430.md",
+      "top_category": "creative",
+      "subpath": "visual",
+      "title": "「2頭身ちびの白い猫人族の大賢者、全身が切れないフルボディ、縦長、中距離で余白あり。サイバーパンクのネオン霧、発光する魔術回路ローブ。ホログラムの魔導書ページ、ミニドローン道具、ルーン結晶、…",
+      "summary": "「2頭身ちびの白い猫人族の大賢者、全身が切れないフルボディ、縦長、中距離で余白あり。サイバーパンクのネオン霧、発光する魔術回路ローブ。ホログラムの魔導書ページ…",
+      "review_status": "classified",
+      "confidence": "medium",
+      "reviewer": "manual:archive-only-round2-batch-3-creative-visual",
+      "source_url": "https://x.com/hAru_mAki_ch/status/2020133739452592430",
+      "source_published_at": "2026-02-07T13:53:10.000Z",
+      "archive_bucket": "2026-02"
+    },
+    {
+      "primary_id": "2020133736352993363",
+      "archive_doc_path": "docs/prompt-catalog/archive/x/2026/02/2020133736352993363.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2026/02/2020133736352993363.md",
+      "top_category": "creative",
+      "subpath": "visual",
+      "title": "2頭身SDの白い猫人族の大賢者、フルボディ、縦長、正面気味で直立。ステンドグラス風の宝石色と鉛線、キラキラ発光。頭は大きく、体は小さく、マント短め。周囲に小さな魔導書、羽根ペン、鍵、砂時計、…",
+      "summary": "2頭身SDの白い猫人族の大賢者、フルボディ、縦長、正面気味で直立。ステンドグラス風の宝石色と鉛線、キラキラ発光。頭は大きく、体は小さく、マント短め。周囲に小さ…",
+      "review_status": "classified",
+      "confidence": "medium",
+      "reviewer": "manual:archive-only-round2-batch-3-creative-visual",
+      "source_url": "https://x.com/hAru_mAki_ch/status/2020133736352993363",
+      "source_published_at": "2026-02-07T13:53:09.000Z",
       "archive_bucket": "2026-02"
     },
     {
@@ -558,6 +633,21 @@
       "archive_bucket": "2026-02"
     },
     {
+      "primary_id": "2019480701746528425",
+      "archive_doc_path": "docs/prompt-catalog/archive/x/2026/02/2019480701746528425.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/game/x/2026/02/2019480701746528425.md",
+      "top_category": "creative",
+      "subpath": "game",
+      "title": "Opus4.6 爆誕したので遊んでみる❷",
+      "summary": "モダンなデザインの大局将棋ゲームを作成して",
+      "review_status": "classified",
+      "confidence": "high",
+      "reviewer": "manual:archive-only-round2-batch-5-dev-game-web",
+      "source_url": "https://x.com/hAru_mAki_ch/status/2019480701746528425",
+      "source_published_at": "2026-02-05T18:38:14.000Z",
+      "archive_bucket": "2026-02"
+    },
+    {
       "primary_id": "2019475489140736383",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2026/02/2019475489140736383.md",
       "categorized_doc_path": "docs/prompt-catalog/creative/game/x/2026/02/2019475489140736383.md",
@@ -616,6 +706,36 @@
       "source_url": "https://x.com/hAru_mAki_ch/status/2018343568428183886",
       "source_published_at": "2026-02-02T15:19:40.000Z",
       "archive_bucket": "2026-02"
+    },
+    {
+      "primary_id": "2017491933627830483",
+      "archive_doc_path": "docs/prompt-catalog/archive/x/2026/01/2017491933627830483.md",
+      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2026/01/2017491933627830483.md",
+      "top_category": "dev",
+      "subpath": "templates",
+      "title": "念のための設定も!",
+      "summary": "いいね!また、ローカルネットワークからしかアクセスできないようになってるか確認して",
+      "review_status": "classified",
+      "confidence": "medium",
+      "reviewer": "manual:archive-only-round2-batch-5-dev-game-web",
+      "source_url": "https://x.com/hAru_mAki_ch/status/2017491933627830483",
+      "source_published_at": "2026-01-31T06:55:34.000Z",
+      "archive_bucket": "2026-01"
+    },
+    {
+      "primary_id": "2017491929743925325",
+      "archive_doc_path": "docs/prompt-catalog/archive/x/2026/01/2017491929743925325.md",
+      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2026/01/2017491929743925325.md",
+      "top_category": "dev",
+      "subpath": "templates",
+      "title": "メチャ熱そうなリモートデスクトップソフト「rustdesk」使ってみる❶",
+      "summary": "rustdeskをやりたい",
+      "review_status": "classified",
+      "confidence": "medium",
+      "reviewer": "manual:archive-only-round2-batch-5-dev-game-web",
+      "source_url": "https://x.com/hAru_mAki_ch/status/2017491929743925325",
+      "source_published_at": "2026-01-31T06:55:33.000Z",
+      "archive_bucket": "2026-01"
     },
     {
       "primary_id": "2017265359083180242",
@@ -792,7 +912,7 @@
       "summary": "巨大な1枚のキャンバスを舞台に、情報を“スライドで送る”のではなく、\"視点そのものを動かして見せる\"プレゼンにしてほしい。",
       "review_status": "classified",
       "confidence": "high",
-      "reviewer": "classifier-nodejs",
+      "reviewer": "manual:presentation-hand-curation",
       "source_url": "https://x.com/hAru_mAki_ch/status/2014342883491692668",
       "source_published_at": "2026-01-22T14:22:22.000Z",
       "archive_bucket": "2026-01"
@@ -1338,6 +1458,36 @@
       "archive_bucket": "2025-12"
     },
     {
+      "primary_id": "2005656448462917950",
+      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2005656448462917950.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/game/x/2025/12/2005656448462917950.md",
+      "top_category": "creative",
+      "subpath": "game",
+      "title": "ハッキング画面ぽい感じのかっこいい縦スクロールゲームを作成して",
+      "summary": "ハッキング画面ぽい感じのかっこいい縦スクロールゲームを作成して",
+      "review_status": "classified",
+      "confidence": "high",
+      "reviewer": "manual:archive-only-round2-batch-5-dev-game-web",
+      "source_url": "https://x.com/hAru_mAki_ch/status/2005656448462917950",
+      "source_published_at": "2025-12-29T15:05:35.000Z",
+      "archive_bucket": "2025-12"
+    },
+    {
+      "primary_id": "2005649023022289224",
+      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2005649023022289224.md",
+      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/12/2005649023022289224.md",
+      "top_category": "dev",
+      "subpath": "templates",
+      "title": "おしゃれな猫カフェを塾が融合した新しいサービスのホームページを作成して",
+      "summary": "おしゃれな猫カフェを塾が融合した新しいサービスのホームページを作成して",
+      "review_status": "classified",
+      "confidence": "medium",
+      "reviewer": "manual:archive-only-round2-batch-5-dev-game-web",
+      "source_url": "https://x.com/hAru_mAki_ch/status/2005649023022289224",
+      "source_published_at": "2025-12-29T14:36:04.000Z",
+      "archive_bucket": "2025-12"
+    },
+    {
       "primary_id": "2005167552943821300",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2005167552943821300.md",
       "categorized_doc_path": "docs/prompt-catalog/docs/diagram/x/2025/12/2005167552943821300.md",
@@ -1523,7 +1673,7 @@
       "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/12/2003373382348472371.md",
       "top_category": "creative",
       "subpath": "audio",
-      "title": "GENERAL STYLE &amp; MOOD:",
+      "title": "GENERAL STYLE & MOOD:",
       "summary": "GENERAL STYLE &amp; MOOD:",
       "review_status": "classified",
       "confidence": "low",
@@ -1538,7 +1688,7 @@
       "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2003371471146831987.md",
       "top_category": "creative",
       "subpath": "visual",
-      "title": "GENERAL STYLE &amp; MOOD:",
+      "title": "GENERAL STYLE & MOOD:",
       "summary": "GENERAL STYLE &amp; MOOD:",
       "review_status": "classified",
       "confidence": "high",
@@ -1553,13 +1703,28 @@
       "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2003371121522143387.md",
       "top_category": "creative",
       "subpath": "visual",
-      "title": "GENERAL STYLE &amp; MOOD:",
+      "title": "GENERAL STYLE & MOOD:",
       "summary": "GENERAL STYLE &amp; MOOD:",
       "review_status": "classified",
       "confidence": "high",
       "reviewer": "manual:batch-a-video-1-part-1",
       "source_url": "https://x.com/hAru_mAki_ch/status/2003371121522143387",
       "source_published_at": "2025-12-23T07:44:30.000Z",
+      "archive_bucket": "2025-12"
+    },
+    {
+      "primary_id": "2003365922413920716",
+      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2003365922413920716.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2003365922413920716.md",
+      "top_category": "creative",
+      "subpath": "visual",
+      "title": "Higgsfieldの Cinema Studio でスタートフレーム+エンドフレーム固定実験1⃣3⃣~車の組み上げ~",
+      "summary": "様々なパーツが出現して組みあがる",
+      "review_status": "classified",
+      "confidence": 0.96,
+      "reviewer": "manual:archive-only-round2-batch-6-mixed-edge",
+      "source_url": "https://x.com/hAru_mAki_ch/status/2003365922413920716",
+      "source_published_at": "2025-12-23T07:23:51.000Z",
       "archive_bucket": "2025-12"
     },
     {
@@ -1598,7 +1763,7 @@
       "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2002960121555832870.md",
       "top_category": "creative",
       "subpath": "visual",
-      "title": "GENERAL STYLE &amp; MOOD:",
+      "title": "GENERAL STYLE & MOOD:",
       "summary": "GENERAL STYLE &amp; MOOD:",
       "review_status": "classified",
       "confidence": "high",
@@ -2123,7 +2288,7 @@
       "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2001592507675853134.md",
       "top_category": "creative",
       "subpath": "visual",
-      "title": "GENERAL STYLE &amp; MOOD:",
+      "title": "GENERAL STYLE & MOOD:",
       "summary": "GENERAL STYLE &amp; MOOD:",
       "review_status": "classified",
       "confidence": "low",
@@ -2273,7 +2438,7 @@
       "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2000899156572037317.md",
       "top_category": "creative",
       "subpath": "visual",
-      "title": "GENERAL STYLE &amp; MOOD:",
+      "title": "GENERAL STYLE & MOOD:",
       "summary": "GENERAL STYLE &amp; MOOD:",
       "review_status": "classified",
       "confidence": "high",
@@ -2303,7 +2468,7 @@
       "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2000839906449613204.md",
       "top_category": "creative",
       "subpath": "visual",
-      "title": "Design a &#123;argument name=\"asset_type\" default=\"social banner\"&#125; about",
+      "title": "Design a {argument name=\\\"asset_type\\\" default=\\\"social banner\\\"} about",
       "summary": "Design a &#123;argument name=\"asset_type\" default=\"social banner\"&#125; about",
       "review_status": "classified",
       "confidence": "high",
@@ -2318,7 +2483,7 @@
       "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2000839902758625764.md",
       "top_category": "creative",
       "subpath": "visual",
-      "title": "Design a &#123;&#123;asset_type:social media banner&#125;&#125; about",
+      "title": "Design a {{asset_type:social media banner}} about",
       "summary": "Design a &#123;&#123;asset_type:social media banner&#125;&#125; about",
       "review_status": "classified",
       "confidence": "high",
@@ -2333,7 +2498,7 @@
       "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2000839899155702263.md",
       "top_category": "creative",
       "subpath": "visual",
-      "title": "Design a &#123;&#123;asset_type:web banner&#125;&#125; about",
+      "title": "Design a {{asset_type:web banner}} about",
       "summary": "Design a &#123;&#123;asset_type:web banner&#125;&#125; about",
       "review_status": "classified",
       "confidence": "high",
@@ -2348,7 +2513,7 @@
       "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2000839895116611724.md",
       "top_category": "creative",
       "subpath": "visual",
-      "title": "Design a &#123;&#123;asset_type:promotional banner&#125;&#125; about",
+      "title": "Design a {{asset_type:promotional banner}} about",
       "summary": "Design a &#123;&#123;asset_type:promotional banner&#125;&#125; about",
       "review_status": "classified",
       "confidence": "high",
@@ -2568,6 +2733,21 @@
       "archive_bucket": "2025-12"
     },
     {
+      "primary_id": "2000179297970213262",
+      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2000179297970213262.md",
+      "categorized_doc_path": "docs/prompt-catalog/docs/diagram/x/2025/12/2000179297970213262.md",
+      "top_category": "docs",
+      "subpath": "diagram",
+      "title": "Kaggleで今ってどんなコンペが開催してる??",
+      "summary": "Kaggleで今ってどんなコンペが開催してる??",
+      "review_status": "classified",
+      "confidence": "medium",
+      "reviewer": "manual:archive-only-round2-batch-1-dev-recovery",
+      "source_url": "https://x.com/hAru_mAki_ch/status/2000179297970213262",
+      "source_published_at": "2025-12-14T12:21:20.000Z",
+      "archive_bucket": "2025-12"
+    },
+    {
       "primary_id": "2000175317214740987",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2000175317214740987.md",
       "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/2000175317214740987.md",
@@ -2610,6 +2790,21 @@
       "reviewer": "manual:batch-d-dev-docs-archive",
       "source_url": "https://x.com/hAru_mAki_ch/status/2000171520245801261",
       "source_published_at": "2025-12-14T11:50:26.000Z",
+      "archive_bucket": "2025-12"
+    },
+    {
+      "primary_id": "2000171284492427559",
+      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2000171284492427559.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2000171284492427559.md",
+      "top_category": "creative",
+      "subpath": "visual",
+      "title": "背景をクリスマスっぽく変更して",
+      "summary": "背景をクリスマスっぽく変更して",
+      "review_status": "classified",
+      "confidence": 0.73,
+      "reviewer": "manual:archive-only-round2-batch-6-mixed-edge",
+      "source_url": "https://x.com/hAru_mAki_ch/status/2000171284492427559",
+      "source_published_at": "2025-12-14T11:49:30.000Z",
       "archive_bucket": "2025-12"
     },
     {
@@ -2895,6 +3090,21 @@
       "reviewer": "manual:batch-a-video-1-part-1",
       "source_url": "https://x.com/hAru_mAki_ch/status/1998283398700560812",
       "source_published_at": "2025-12-09T06:47:43.000Z",
+      "archive_bucket": "2025-12"
+    },
+    {
+      "primary_id": "1998281099940876412",
+      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1998281099940876412.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/1998281099940876412.md",
+      "top_category": "creative",
+      "subpath": "visual",
+      "title": "AIブラウザ Comet ✖ higgsfield で実験自動化2⃣",
+      "summary": "コメットnano banana pro自動実験プロンプト V1.0",
+      "review_status": "classified",
+      "confidence": "medium",
+      "reviewer": "manual:archive-only-round2-batch-1-dev-recovery",
+      "source_url": "https://x.com/hAru_mAki_ch/status/1998281099940876412",
+      "source_published_at": "2025-12-09T06:38:35.000Z",
       "archive_bucket": "2025-12"
     },
     {
@@ -4053,6 +4263,21 @@
       "archive_bucket": "2025-12"
     },
     {
+      "primary_id": "1996571144523288846",
+      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996571144523288846.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1996571144523288846.md",
+      "top_category": "creative",
+      "subpath": "video",
+      "title": "🎞️❹ 墜落寸前 (Cockpit Crash)",
+      "summary": "Visual: Interior of damaged spaceship cockpit, red warning lights flashing, deb…",
+      "review_status": "classified",
+      "confidence": "medium",
+      "reviewer": "manual:archive-only-round2-batch-4-creative-scene",
+      "source_url": "https://x.com/hAru_mAki_ch/status/1996571144523288846",
+      "source_published_at": "2025-12-04T13:23:50.000Z",
+      "archive_bucket": "2025-12"
+    },
+    {
       "primary_id": "1996571141578899762",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996571141578899762.md",
       "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/1996571141578899762.md",
@@ -4350,6 +4575,21 @@
       "reviewer": "manual:batch-a-video-1-part-2",
       "source_url": "https://x.com/hAru_mAki_ch/status/1996209742243655775",
       "source_published_at": "2025-12-03T13:27:44.000Z",
+      "archive_bucket": "2025-12"
+    },
+    {
+      "primary_id": "1996209737830998236",
+      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996209737830998236.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/1996209737830998236.md",
+      "top_category": "creative",
+      "subpath": "visual",
+      "title": "神社・ミディアムショット",
+      "summary": "神社・ミディアムショット",
+      "review_status": "classified",
+      "confidence": "medium",
+      "reviewer": "manual:archive-only-round2-batch-4-creative-scene",
+      "source_url": "https://x.com/hAru_mAki_ch/status/1996209737830998236",
+      "source_published_at": "2025-12-03T13:27:43.000Z",
       "archive_bucket": "2025-12"
     },
     {
@@ -4728,6 +4968,21 @@
       "archive_bucket": "2025-12"
     },
     {
+      "primary_id": "1995854577779048757",
+      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1995854577779048757.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/1995854577779048757.md",
+      "top_category": "creative",
+      "subpath": "visual",
+      "title": "🌟素材集",
+      "summary": "桜吹雪",
+      "review_status": "classified",
+      "confidence": "high",
+      "reviewer": "manual:archive-only-round2-batch-3-creative-visual",
+      "source_url": "https://x.com/hAru_mAki_ch/status/1995854577779048757",
+      "source_published_at": "2025-12-02T13:56:27.000Z",
+      "archive_bucket": "2025-12"
+    },
+    {
       "primary_id": "1995854573710553418",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1995854573710553418.md",
       "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1995854573710553418.md",
@@ -4908,6 +5163,21 @@
       "archive_bucket": "2025-12"
     },
     {
+      "primary_id": "1995374749476913558",
+      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1995374749476913558.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/1995374749476913558.md",
+      "top_category": "creative",
+      "subpath": "visual",
+      "title": "私も参戦してみた!",
+      "summary": "巨大人型ロボットメカ兵器、魔神、メカのウィング、壮大、幻想的",
+      "review_status": "classified",
+      "confidence": "medium",
+      "reviewer": "manual:archive-only-round2-batch-3-creative-visual",
+      "source_url": "https://x.com/hAru_mAki_ch/status/1995374749476913558",
+      "source_published_at": "2025-12-01T06:09:47.000Z",
+      "archive_bucket": "2025-12"
+    },
+    {
       "primary_id": "1995140880685203588",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1995140880685203588.md",
       "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/11/1995140880685203588.md",
@@ -4991,8 +5261,8 @@
       "title": "Google スライドの nano banana pro のスライドモードお試し⓫~縦長生成編~",
       "summary": "「世界の気候帯」を示す地理の正方形のスライドを「高品質な編集用地図」の見た目で生成する。背景には、暗く彩度の低い衛星地図を使用する。半透明のネオンカラーのベク…",
       "review_status": "classified",
-      "confidence": "medium",
-      "reviewer": "classifier-nodejs",
+      "confidence": "high",
+      "reviewer": "manual:presentation-hand-curation",
       "source_url": "https://x.com/hAru_mAki_ch/status/1994636150309548356",
       "source_published_at": "2025-11-29T05:14:51.000Z",
       "archive_bucket": "2025-11"
@@ -5010,6 +5280,21 @@
       "reviewer": "classifier-nodejs",
       "source_url": "https://x.com/hAru_mAki_ch/status/1994453898950815758",
       "source_published_at": "2025-11-28T17:10:39.000Z",
+      "archive_bucket": "2025-11"
+    },
+    {
+      "primary_id": "1994453895163343161",
+      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1994453895163343161.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/11/1994453895163343161.md",
+      "top_category": "creative",
+      "subpath": "video",
+      "title": "プリトヴィツェ湖群で水面歩行させてみた!!",
+      "summary": "若い女性が水面を優雅に左方向へ歩き続ける。足元は透明なガラス板の上を歩くように水面を全く破らず、乾いたまま。カメラは低アングルから被写体を追従し、黄金色の光に…",
+      "review_status": "classified",
+      "confidence": "high",
+      "reviewer": "manual:archive-only-round2-batch-4-creative-scene",
+      "source_url": "https://x.com/hAru_mAki_ch/status/1994453895163343161",
+      "source_published_at": "2025-11-28T17:10:38.000Z",
       "archive_bucket": "2025-11"
     },
     {
@@ -5051,10 +5336,25 @@
       "title": "💡オリキャラGoogleスライドのざっくりやり方動画",
       "summary": "「まき」と「こはく」を登場させて下記の内容についての解説スライドを葛飾北斎の浮世絵風に4スライド生成して",
       "review_status": "classified",
-      "confidence": "medium",
-      "reviewer": "classifier-nodejs",
+      "confidence": "high",
+      "reviewer": "manual:presentation-hand-curation",
       "source_url": "https://x.com/hAru_mAki_ch/status/1994402491564503344",
       "source_published_at": "2025-11-28T13:46:22.000Z",
+      "archive_bucket": "2025-11"
+    },
+    {
+      "primary_id": "1994357206574125060",
+      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1994357206574125060.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/11/1994357206574125060.md",
+      "top_category": "creative",
+      "subpath": "video",
+      "title": "ウユニ塩湖で水面をスキップさせてみた!",
+      "summary": "水面にはどんな重さにも耐える絶対に破れない透明な膜がある。彼女がその膜の上を左方向に軽快にスキップしていく。絶対に膜は破れない。膜は最初から最後まで見えない。…",
+      "review_status": "classified",
+      "confidence": "medium",
+      "reviewer": "manual:archive-only-round2-batch-4-creative-scene",
+      "source_url": "https://x.com/hAru_mAki_ch/status/1994357206574125060",
+      "source_published_at": "2025-11-28T10:46:26.000Z",
       "archive_bucket": "2025-11"
     },
     {
@@ -5066,8 +5366,8 @@
       "title": "💡ついにオリキャラGoogleスライド爆誕💡",
       "summary": "「まき」と「こはく」を登場させてLLMについての解説スライドを葛飾北斎の浮世絵風に4スライド生成して",
       "review_status": "classified",
-      "confidence": "medium",
-      "reviewer": "classifier-nodejs",
+      "confidence": "high",
+      "reviewer": "manual:presentation-hand-curation",
       "source_url": "https://x.com/hAru_mAki_ch/status/1994356240152223941",
       "source_published_at": "2025-11-28T10:42:35.000Z",
       "archive_bucket": "2025-11"
@@ -5096,8 +5396,8 @@
       "title": "Google スライドの nano banana pro のスライドモードお試し❻",
       "summary": "LLMについての解説スライドを葛飾北斎の浮世絵風に4スライド生成して",
       "review_status": "classified",
-      "confidence": "medium",
-      "reviewer": "classifier-nodejs",
+      "confidence": "high",
+      "reviewer": "manual:presentation-hand-curation",
       "source_url": "https://x.com/hAru_mAki_ch/status/1994330262080041429",
       "source_published_at": "2025-11-28T08:59:22.000Z",
       "archive_bucket": "2025-11"
@@ -5112,7 +5412,7 @@
       "summary": "「まき」と「こはく」を登場させて下記の内容の漫画を作成して。",
       "review_status": "classified",
       "confidence": "medium",
-      "reviewer": "classifier-nodejs",
+      "reviewer": "manual:presentation-hand-curation",
       "source_url": "https://x.com/hAru_mAki_ch/status/1994326727489712611",
       "source_published_at": "2025-11-28T08:45:19.000Z",
       "archive_bucket": "2025-11"
@@ -5126,8 +5426,8 @@
       "title": "コンテンツの指示",
       "summary": "コンテンツの指示",
       "review_status": "classified",
-      "confidence": "medium",
-      "reviewer": "classifier-nodejs",
+      "confidence": "high",
+      "reviewer": "manual:presentation-hand-curation",
       "source_url": "https://x.com/hAru_mAki_ch/status/1994311327238484325",
       "source_published_at": "2025-11-28T07:44:07.000Z",
       "archive_bucket": "2025-11"
@@ -5141,8 +5441,8 @@
       "title": "コンテンツの指示",
       "summary": "コンテンツの指示",
       "review_status": "classified",
-      "confidence": "medium",
-      "reviewer": "classifier-nodejs",
+      "confidence": "high",
+      "reviewer": "manual:presentation-hand-curation",
       "source_url": "https://x.com/hAru_mAki_ch/status/1994311324013404183",
       "source_published_at": "2025-11-28T07:44:06.000Z",
       "archive_bucket": "2025-11"
@@ -5156,8 +5456,8 @@
       "title": "コンテンツの指示",
       "summary": "コンテンツの指示",
       "review_status": "classified",
-      "confidence": "medium",
-      "reviewer": "manual:batch-a-video-1-part-2",
+      "confidence": "high",
+      "reviewer": "manual:presentation-hand-curation",
       "source_url": "https://x.com/hAru_mAki_ch/status/1994311317939954080",
       "source_published_at": "2025-11-28T07:44:05.000Z",
       "archive_bucket": "2025-11"
@@ -5171,8 +5471,8 @@
       "title": "Google スライドの nano banana pro のスライドモードお試し2",
       "summary": "コンテンツの指示",
       "review_status": "classified",
-      "confidence": "medium",
-      "reviewer": "classifier-nodejs",
+      "confidence": "high",
+      "reviewer": "manual:presentation-hand-curation",
       "source_url": "https://x.com/hAru_mAki_ch/status/1994302825401360790",
       "source_published_at": "2025-11-28T07:10:20.000Z",
       "archive_bucket": "2025-11"
@@ -6183,6 +6483,66 @@
       "archive_bucket": "2025-11"
     },
     {
+      "primary_id": "1989694289224352111",
+      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1989694289224352111.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/11/1989694289224352111.md",
+      "top_category": "creative",
+      "subpath": "video",
+      "title": "Folded metallic プロンプト使ってみた!!!",
+      "summary": "summary unavailable",
+      "review_status": "classified",
+      "confidence": 0.9,
+      "reviewer": "manual:archive-only-round2-batch-2-missing-capture",
+      "source_url": "https://x.com/hAru_mAki_ch/status/1989694289224352111",
+      "source_published_at": "2025-11-15T13:57:39.000Z",
+      "archive_bucket": "2025-11"
+    },
+    {
+      "primary_id": "1989623614854054146",
+      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1989623614854054146.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/11/1989623614854054146.md",
+      "top_category": "creative",
+      "subpath": "video",
+      "title": "こちらのプロンプト使ってみた!!",
+      "summary": "summary unavailable",
+      "review_status": "classified",
+      "confidence": 0.88,
+      "reviewer": "manual:archive-only-round2-batch-2-missing-capture",
+      "source_url": "https://x.com/hAru_mAki_ch/status/1989623614854054146",
+      "source_published_at": "2025-11-15T09:16:49.000Z",
+      "archive_bucket": "2025-11"
+    },
+    {
+      "primary_id": "1989362672526299292",
+      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1989362672526299292.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/11/1989362672526299292.md",
+      "top_category": "creative",
+      "subpath": "video",
+      "title": "SHINY CHROME プロンプトやってみた!!!",
+      "summary": "summary unavailable",
+      "review_status": "classified",
+      "confidence": 0.93,
+      "reviewer": "manual:archive-only-round2-batch-2-missing-capture",
+      "source_url": "https://x.com/hAru_mAki_ch/status/1989362672526299292",
+      "source_published_at": "2025-11-14T15:59:56.000Z",
+      "archive_bucket": "2025-11"
+    },
+    {
+      "primary_id": "1988974039097045311",
+      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1988974039097045311.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/11/1988974039097045311.md",
+      "top_category": "creative",
+      "subpath": "video",
+      "title": "BIOLUMINESCENT FOREST REVERIE プロンプトでリポジトリのヘッダ画像・動画を作成してみた!!",
+      "summary": "summary unavailable",
+      "review_status": "classified",
+      "confidence": 0.94,
+      "reviewer": "manual:archive-only-round2-batch-2-missing-capture",
+      "source_url": "https://x.com/hAru_mAki_ch/status/1988974039097045311",
+      "source_published_at": "2025-11-13T14:15:38.000Z",
+      "archive_bucket": "2025-11"
+    },
+    {
       "primary_id": "1988970939443474562",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1988970939443474562.md",
       "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/11/1988970939443474562.md",
@@ -6435,6 +6795,21 @@
       "reviewer": "classifier-nodejs",
       "source_url": "https://x.com/hAru_mAki_ch/status/1986658520113242241",
       "source_published_at": "2025-11-07T04:54:36.000Z",
+      "archive_bucket": "2025-11"
+    },
+    {
+      "primary_id": "1986653928080232903",
+      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1986653928080232903.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/11/1986653928080232903.md",
+      "top_category": "creative",
+      "subpath": "visual",
+      "title": "Stencil-style プロンプト使ってみた!!",
+      "summary": "summary unavailable",
+      "review_status": "classified",
+      "confidence": 0.97,
+      "reviewer": "manual:archive-only-round2-batch-2-missing-capture",
+      "source_url": "https://x.com/hAru_mAki_ch/status/1986653928080232903",
+      "source_published_at": "2025-11-07T04:36:21.000Z",
       "archive_bucket": "2025-11"
     },
     {
@@ -10407,7 +10782,7 @@
       "summary": "Agent VRM MCP自動プレゼンテーション プロンプト",
       "review_status": "classified",
       "confidence": "high",
-      "reviewer": "classifier-nodejs",
+      "reviewer": "manual:presentation-hand-curation",
       "source_url": "https://x.com/hAru_mAki_ch/status/1939326223488110946",
       "source_published_at": "2025-06-29T14:12:57.000Z",
       "archive_bucket": "2025-06"
@@ -10541,8 +10916,8 @@
       "title": "Roo-Code ✖ voicevox MCP ✖ Playwright MCP ✖ VMagicMirror ✖ Banana でリアルタイムアバタープレゼンできた!!!!",
       "summary": "http ://127.0.0.1:5500/voicevox_mcp_slides_improved-v2.html",
       "review_status": "classified",
-      "confidence": "medium",
-      "reviewer": "manual:batch-d-dev-docs-archive",
+      "confidence": "high",
+      "reviewer": "manual:presentation-hand-curation",
       "source_url": "https://x.com/hAru_mAki_ch/status/1938920341780447473",
       "source_published_at": "2025-06-28T11:20:07.000Z",
       "archive_bucket": "2025-06"
@@ -10848,6 +11223,21 @@
       "archive_bucket": "2025-06"
     },
     {
+      "primary_id": "1936324800647250245",
+      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/06/1936324800647250245.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/06/1936324800647250245.md",
+      "top_category": "creative",
+      "subpath": "video",
+      "title": "私も Natural disasters 系作成してみた2⃣",
+      "summary": "Surreal giga-disaster: planet-spanning fissures ejecting glowing oceans into sp…",
+      "review_status": "classified",
+      "confidence": "medium",
+      "reviewer": "manual:archive-only-round2-batch-4-creative-scene",
+      "source_url": "https://x.com/hAru_mAki_ch/status/1936324800647250245",
+      "source_published_at": "2025-06-21T07:26:22.000Z",
+      "archive_bucket": "2025-06"
+    },
+    {
       "primary_id": "1936084074042740802",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/06/1936084074042740802.md",
       "categorized_doc_path": "docs/prompt-catalog/docs/graphic-recording/x/2025/06/1936084074042740802.md",
@@ -10875,6 +11265,21 @@
       "reviewer": "manual:batch-d-dev-docs-archive",
       "source_url": "https://x.com/hAru_mAki_ch/status/1936058461017850360",
       "source_published_at": "2025-06-20T13:48:01.000Z",
+      "archive_bucket": "2025-06"
+    },
+    {
+      "primary_id": "1936032997029167410",
+      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/06/1936032997029167410.md",
+      "categorized_doc_path": "docs/prompt-catalog/docs/graphic-recording/x/2025/06/1936032997029167410.md",
+      "top_category": "docs",
+      "subpath": "graphic-recording",
+      "title": "「編集可能グラフィックレコーディングプロンプト v3.0 ~涼雅(りょうが)~」リリース",
+      "summary": "summary unavailable",
+      "review_status": "classified",
+      "confidence": "high",
+      "reviewer": "manual:archive-only-round2-batch-1-dev-recovery",
+      "source_url": "https://x.com/hAru_mAki_ch/status/1936032997029167410",
+      "source_published_at": "2025-06-20T12:06:50.000Z",
       "archive_bucket": "2025-06"
     },
     {
@@ -11247,7 +11652,7 @@
       "summary": "Quarkdownスライド作成プロンプト",
       "review_status": "classified",
       "confidence": "high",
-      "reviewer": "classifier-nodejs",
+      "reviewer": "manual:presentation-hand-curation",
       "source_url": "https://x.com/hAru_mAki_ch/status/1931670521122525534",
       "source_published_at": "2025-06-08T11:11:55.000Z",
       "archive_bucket": "2025-06"
@@ -11495,14 +11900,14 @@
     {
       "primary_id": "1926607699996799239",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/05/1926607699996799239.md",
-      "categorized_doc_path": "docs/prompt-catalog/presentation/x/2025/05/1926607699996799239.md",
-      "top_category": "presentation",
-      "subpath": "",
+      "categorized_doc_path": "docs/prompt-catalog/docs/graphic-recording/x/2025/05/1926607699996799239.md",
+      "top_category": "docs",
+      "subpath": "graphic-recording",
       "title": "グラフィックレコーディング風スライドHTML作成プロンプト V1 爆誕!!!!",
       "summary": "グラフィックレコーディング風スライドHTML作成プロンプト V1",
       "review_status": "classified",
       "confidence": "high",
-      "reviewer": "classifier-nodejs",
+      "reviewer": "manual:presentation-hand-curation",
       "source_url": "https://x.com/hAru_mAki_ch/status/1926607699996799239",
       "source_published_at": "2025-05-25T11:54:04.000Z",
       "archive_bucket": "2025-05"
@@ -11600,214 +12005,25 @@
   ],
   "archive_only_records": [
     {
-      "primary_id": "2029440091643691282",
-      "archive_doc_path": "docs/prompt-catalog/archive/x/2026/03/2029440091643691282.md",
-      "reason": "Operational/automation text does not define a reusable creative/audio prompt for library use.",
-      "fallback_action": "archive_only",
-      "reviewer": "manual:batch-c-visual-audio"
-    },
-    {
-      "primary_id": "2020149187011305659",
-      "archive_doc_path": "docs/prompt-catalog/archive/x/2026/02/2020149187011305659.md",
-      "reason": "Operational/automation text does not define a reusable creative/audio prompt for library use.",
-      "fallback_action": "archive_only",
-      "reviewer": "manual:batch-c-visual-audio"
-    },
-    {
-      "primary_id": "2020133745521742334",
-      "archive_doc_path": "docs/prompt-catalog/archive/x/2026/02/2020133745521742334.md",
-      "reason": "No canonical link exists in the archive note; this should remain archive-only for now.",
-      "fallback_action": "archive_only",
-      "reviewer": "manual:batch-d-dev-docs-archive"
-    },
-    {
-      "primary_id": "2020133739452592430",
-      "archive_doc_path": "docs/prompt-catalog/archive/x/2026/02/2020133739452592430.md",
-      "reason": "No canonical link exists in the archive note; this should remain archive-only for now.",
-      "fallback_action": "archive_only",
-      "reviewer": "manual:batch-d-dev-docs-archive"
-    },
-    {
-      "primary_id": "2020133736352993363",
-      "archive_doc_path": "docs/prompt-catalog/archive/x/2026/02/2020133736352993363.md",
-      "reason": "No canonical link exists in the archive note; this should remain archive-only for now.",
-      "fallback_action": "archive_only",
-      "reviewer": "manual:batch-d-dev-docs-archive"
-    },
-    {
-      "primary_id": "2019480701746528425",
-      "archive_doc_path": "docs/prompt-catalog/archive/x/2026/02/2019480701746528425.md",
-      "reason": "No canonical link exists in the archive note; this should remain archive-only for now.",
-      "fallback_action": "archive_only",
-      "reviewer": "manual:batch-d-dev-docs-archive"
-    },
-    {
-      "primary_id": "2017491933627830483",
-      "archive_doc_path": "docs/prompt-catalog/archive/x/2026/01/2017491933627830483.md",
-      "reason": "No canonical link exists in the archive note; this should remain archive-only for now.",
-      "fallback_action": "archive_only",
-      "reviewer": "manual:batch-d-dev-docs-archive"
-    },
-    {
-      "primary_id": "2017491929743925325",
-      "archive_doc_path": "docs/prompt-catalog/archive/x/2026/01/2017491929743925325.md",
-      "reason": "No canonical link exists in the archive note; this should remain archive-only for now.",
-      "fallback_action": "archive_only",
-      "reviewer": "manual:batch-d-dev-docs-archive"
-    },
-    {
-      "primary_id": "2005656448462917950",
-      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2005656448462917950.md",
-      "reason": "No canonical link exists in the archive note; this should remain archive-only for now.",
-      "fallback_action": "archive_only",
-      "reviewer": "manual:batch-d-dev-docs-archive"
-    },
-    {
-      "primary_id": "2005649023022289224",
-      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2005649023022289224.md",
-      "reason": "No canonical link exists in the archive note; this should remain archive-only for now.",
-      "fallback_action": "archive_only",
-      "reviewer": "manual:batch-d-dev-docs-archive"
-    },
-    {
-      "primary_id": "2003365922413920716",
-      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2003365922413920716.md",
-      "reason": "No canonical link exists in the archive note; this should remain archive-only for now.",
-      "fallback_action": "archive_only",
-      "reviewer": "manual:batch-d-dev-docs-archive"
-    },
-    {
       "primary_id": "2003311586979778745",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2003311586979778745.md",
-      "reason": "No canonical link exists in the archive note; this should remain archive-only for now.",
+      "reason": "本文は Amazon の URL だけで、再利用できるプロンプト手順や指示文がないため、カタログ化の根拠がない。",
       "fallback_action": "archive_only",
-      "reviewer": "manual:batch-d-dev-docs-archive"
-    },
-    {
-      "primary_id": "2000179297970213262",
-      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2000179297970213262.md",
-      "reason": "Operational/automation text does not define a reusable creative/audio prompt for library use.",
-      "fallback_action": "archive_only",
-      "reviewer": "manual:batch-c-visual-audio"
-    },
-    {
-      "primary_id": "2000171284492427559",
-      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2000171284492427559.md",
-      "reason": "No canonical link exists in the archive note; this should remain archive-only for now.",
-      "fallback_action": "archive_only",
-      "reviewer": "manual:batch-d-dev-docs-archive"
-    },
-    {
-      "primary_id": "1998281099940876412",
-      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1998281099940876412.md",
-      "reason": "Operational/automation text does not define a reusable creative/audio prompt for library use.",
-      "fallback_action": "archive_only",
-      "reviewer": "manual:batch-c-visual-audio"
-    },
-    {
-      "primary_id": "1996571144523288846",
-      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996571144523288846.md",
-      "reason": "No canonical link exists in the archive note; this should remain archive-only for now.",
-      "fallback_action": "archive_only",
-      "reviewer": "manual:batch-d-dev-docs-archive"
-    },
-    {
-      "primary_id": "1996209737830998236",
-      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996209737830998236.md",
-      "reason": "No canonical link exists in the archive note; this should remain archive-only for now.",
-      "fallback_action": "archive_only",
-      "reviewer": "manual:batch-d-dev-docs-archive"
-    },
-    {
-      "primary_id": "1995854577779048757",
-      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1995854577779048757.md",
-      "reason": "No canonical link exists in the archive note; this should remain archive-only for now.",
-      "fallback_action": "archive_only",
-      "reviewer": "manual:batch-d-dev-docs-archive"
-    },
-    {
-      "primary_id": "1995374749476913558",
-      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1995374749476913558.md",
-      "reason": "No canonical link exists in the archive note; this should remain archive-only for now.",
-      "fallback_action": "archive_only",
-      "reviewer": "manual:batch-d-dev-docs-archive"
-    },
-    {
-      "primary_id": "1994453895163343161",
-      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1994453895163343161.md",
-      "reason": "No canonical link exists in the archive note; this should remain archive-only for now.",
-      "fallback_action": "archive_only",
-      "reviewer": "manual:batch-d-dev-docs-archive"
-    },
-    {
-      "primary_id": "1994357206574125060",
-      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1994357206574125060.md",
-      "reason": "No canonical link exists in the archive note; this should remain archive-only for now.",
-      "fallback_action": "archive_only",
-      "reviewer": "manual:batch-d-dev-docs-archive"
-    },
-    {
-      "primary_id": "1989694289224352111",
-      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1989694289224352111.md",
-      "reason": "Prompt text was not captured from source post/tweet, so durable reusable prompt content is missing.",
-      "fallback_action": "archive_only",
-      "reviewer": "manual:batch-c-visual-audio"
-    },
-    {
-      "primary_id": "1989623614854054146",
-      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1989623614854054146.md",
-      "reason": "Prompt text was not captured from source post/tweet, so durable reusable prompt content is missing.",
-      "fallback_action": "archive_only",
-      "reviewer": "manual:batch-c-visual-audio"
-    },
-    {
-      "primary_id": "1989362672526299292",
-      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1989362672526299292.md",
-      "reason": "Prompt text was not captured from source post/tweet, so durable reusable prompt content is missing.",
-      "fallback_action": "archive_only",
-      "reviewer": "manual:batch-c-visual-audio"
-    },
-    {
-      "primary_id": "1988974039097045311",
-      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1988974039097045311.md",
-      "reason": "Prompt text was not captured from source post/tweet, so durable reusable prompt content is missing.",
-      "fallback_action": "archive_only",
-      "reviewer": "manual:batch-c-visual-audio"
+      "reviewer": "manual:archive-only-round2-batch-6-mixed-edge"
     },
     {
       "primary_id": "1987914939064025265",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1987914939064025265.md",
-      "reason": "The record is a note-only entry and the prompt body is not recoverable in the markdown, so it should stay archived rather than be promoted into the prompt taxonomy.",
+      "reason": "アーカイブ文書は prompt body が extraction 後に空で、添付 mp4 の先頭フレームを見ても LUMA の生成結果らしい映像しかなく、再利用可能な指示文を復元できない。",
       "fallback_action": "archive_only",
-      "reviewer": "manual:batch-b-video-2-part-1"
-    },
-    {
-      "primary_id": "1986653928080232903",
-      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1986653928080232903.md",
-      "reason": "Prompt text was not captured from source post/tweet, so durable reusable prompt content is missing.",
-      "fallback_action": "archive_only",
-      "reviewer": "manual:batch-c-visual-audio"
+      "reviewer": "manual:archive-only-round2-batch-6-mixed-edge"
     },
     {
       "primary_id": "1983821127324705111",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/10/1983821127324705111.md",
-      "reason": "The markdown preserves only a tweet-style note and lacks a reusable prompt body, so a catalog category is not defensible.",
+      "reason": "復元した本文は Sora 2 のキャラカメオができたという状態メモで、プロンプトとして再利用できる指示が含まれていない。",
       "fallback_action": "archive_only",
-      "reviewer": "manual:batch-b-video-2-part-1"
-    },
-    {
-      "primary_id": "1936324800647250245",
-      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/06/1936324800647250245.md",
-      "reason": "No canonical link exists in the archive note; this should remain archive-only for now.",
-      "fallback_action": "archive_only",
-      "reviewer": "manual:batch-d-dev-docs-archive"
-    },
-    {
-      "primary_id": "1936032997029167410",
-      "archive_doc_path": "docs/prompt-catalog/archive/x/2025/06/1936032997029167410.md",
-      "reason": "Prompt text was not captured from source post/tweet, so durable reusable prompt content is missing.",
-      "fallback_action": "archive_only",
-      "reviewer": "manual:batch-c-visual-audio"
+      "reviewer": "manual:archive-only-round2-batch-6-mixed-edge"
     }
   ]
 }

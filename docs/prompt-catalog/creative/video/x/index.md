@@ -11,8 +11,8 @@ last_reviewed: 2026-03-19
 # X由来の実験プロンプト
 
 - branch: creative / video
-- items: 263
-- classified: 263
+- items: 271
+- classified: 271
 - needs review: 0
 
 ## 最新20件
@@ -39,4 +39,4 @@ last_reviewed: 2026-03-19
 
 ## 年別アーカイブ
 - [2026](./2026/index.md) - 10件
-- [2025](./2025/index.md) - 253件
+- [2025](./2025/index.md) - 261件

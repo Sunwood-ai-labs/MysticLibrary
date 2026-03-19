@@ -11,8 +11,8 @@ last_reviewed: 2026-03-19
 # X由来の実験プロンプト
 
 - branch: docs / graphic-recording
-- items: 26
-- classified: 26
+- items: 28
+- classified: 28
 - needs review: 0
 
 ## 最新20件
@@ -39,4 +39,4 @@ last_reviewed: 2026-03-19
 
 ## 年別アーカイブ
 - [2026](./2026/index.md) - 1件
-- [2025](./2025/index.md) - 25件
+- [2025](./2025/index.md) - 27件
