@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { access, mkdir, readFile, rm, stat, writeFile } from 'node:fs/promises';
+import { access, mkdir, readdir, readFile, rm, stat, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
 const DEFAULT_REVIEW_FILE =
@@ -634,6 +634,41 @@ async function buildIntegratedCategoryIndexWrites({ cwd, categorizedEntries }) {
     }
   }
 
+  const localeRoots = [
+    {
+      absRoot: path.resolve(cwd, 'docs/prompt-catalog'),
+      locale: 'ja',
+    },
+    {
+      absRoot: path.resolve(cwd, 'docs/en/prompt-catalog'),
+      locale: 'en',
+    },
+  ];
+
+  for (const root of localeRoots) {
+    const indexTargets = await collectCategoryIndexTargets(root.absRoot);
+    for (const target of indexTargets) {
+      if (entriesByBase.has(target.branchKey)) {
+        continue;
+      }
+
+      const previous = await readIfExists(target.absPath);
+      if (!previous || !previous.includes(INTEGRATED_SECTION_START)) {
+        continue;
+      }
+
+      const next = removeIntegratedImportsSection(previous);
+      if (next === previous) {
+        continue;
+      }
+
+      writes.push({
+        absPath: target.absPath,
+        content: next,
+      });
+    }
+  }
+
   return writes;
 }
 
@@ -826,6 +861,51 @@ function upsertIntegratedImportsSection(raw, section) {
   }
 
   return `${normalized}\n\n${block}`.trimEnd() + '\n';
+}
+
+function removeIntegratedImportsSection(raw) {
+  const normalized = raw.replace(/\r\n/g, '\n').trimEnd();
+  const startIndex = normalized.indexOf(INTEGRATED_SECTION_START);
+  const endIndex = normalized.indexOf(INTEGRATED_SECTION_END);
+  if (startIndex < 0 || endIndex < startIndex) {
+    return raw;
+  }
+
+  const afterEnd = endIndex + INTEGRATED_SECTION_END.length;
+  const before = normalized.slice(0, startIndex).trimEnd();
+  const after = normalized.slice(afterEnd).replace(/^\s*/, '').trimStart();
+  const joiner = before && after ? '\n\n' : '';
+  const next = `${before}${joiner}${after}`.trimEnd();
+  return next ? `${next}\n` : '';
+}
+
+async function collectCategoryIndexTargets(absRoot, branchPrefix = '') {
+  const dirents = await readdir(absRoot, { withFileTypes: true });
+  const targets = [];
+
+  for (const dirent of dirents) {
+    if (!dirent.isDirectory()) {
+      continue;
+    }
+
+    const nextBranch = branchPrefix ? `${branchPrefix}/${dirent.name}` : dirent.name;
+    if (dirent.name === 'archive' || dirent.name === 'x' || nextBranch.includes('/x/')) {
+      continue;
+    }
+
+    const dirPath = path.join(absRoot, dirent.name);
+    const indexPath = path.join(dirPath, 'index.md');
+    if (await readIfExists(indexPath)) {
+      targets.push({
+        branchKey: normalizeSlash(nextBranch),
+        absPath: indexPath,
+      });
+    }
+
+    targets.push(...await collectCategoryIndexTargets(dirPath, nextBranch));
+  }
+
+  return targets;
 }
 
 function buildIntegratedEntryGroups(branchKey, entries) {
