@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Noto+Sans+JP:wght@400;500;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20,500,0,0&icon_names=description,edit_note,inventory_2,palette,schema,slideshow,smart_toy,terminal,tune&display=block");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20,500,0,0&icon_names=description,dns,edit_note,inventory_2,palette,schema,slideshow,smart_toy,terminal,tune,web&display=block");
 
 :root {
   --docs-font-sans:
@@ -121,6 +121,33 @@ body {
   box-shadow: 0 10px 28px rgba(15, 23, 42, 0.04);
 }
 
+.VPFeature .icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.8rem;
+  min-height: 1.8rem;
+}
+
+.VPFeature .icon .material-symbols-rounded {
+  font-family: "Material Symbols Rounded";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  white-space: nowrap;
+  direction: ltr;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--catalog-root-icon-color);
+  font-feature-settings: "liga";
+  font-variation-settings: "FILL" 0, "wght" 500, "GRAD" 0, "opsz" 20;
+  -webkit-font-smoothing: antialiased;
+}
+
 .VPFeature .box .title,
 .VPFeature .heading,
 .VPFeature .box .link-text,
@@ -131,6 +158,21 @@ body {
 .VPFeature .box .details,
 .VPFeature .excerpt {
   color: var(--vp-c-text-2);
+}
+
+.VPHomeFeatures .VPFeature .icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--vp-c-brand-soft) 42%, transparent);
+}
+
+.VPHomeFeatures .VPFeature .icon .material-symbols-rounded {
+  color: var(--vp-c-brand-1);
+  font-size: 1.7rem;
 }
 
 .dark .VPFeature {

@@ -20,13 +20,13 @@ hero:
       link: /en/operation/rules
 
 features:
-  - icon: 🧭
+  - icon: '<span class="material-symbols-rounded" aria-hidden="true">description</span>'
     title: No DB, Markdown only
     details: Prompts are managed as Markdown files, making Git-based versioning and review workflows straightforward.
-  - icon: 👥
+  - icon: '<span class="material-symbols-rounded" aria-hidden="true">dns</span>'
     title: Self-hosting friendly
     details: Designed for internal use as well, including prompts that cannot be shared outside your organization.
-  - icon: 🛠️
+  - icon: '<span class="material-symbols-rounded" aria-hidden="true">web</span>'
     title: Easy static site operations
     details: Built and distributed with VitePress, with templates, operation rules, and FAQs managed together.
 ---

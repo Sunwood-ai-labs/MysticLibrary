@@ -20,13 +20,13 @@ hero:
       link: /operation/rules
 
 features:
-  - icon: 🧭
+  - icon: '<span class="material-symbols-rounded" aria-hidden="true">description</span>'
     title: DBなし、Markdownだけ
     details: プロンプトは Markdown ファイルで管理。Git でのバージョン管理やレビュー運用に乗せやすい構成です。
-  - icon: 👥
+  - icon: '<span class="material-symbols-rounded" aria-hidden="true">dns</span>'
     title: セルフホスト対応
     details: 社内向け運用も想定し、外部に出せないプロンプトも含めて整理・共有しやすい設計です。
-  - icon: 🛠️
+  - icon: '<span class="material-symbols-rounded" aria-hidden="true">web</span>'
     title: 静的サイト運用しやすい
     details: VitePress でビルドして配布できる構成。テンプレート・運用ルール・FAQ もあわせて管理できます。
 ---
