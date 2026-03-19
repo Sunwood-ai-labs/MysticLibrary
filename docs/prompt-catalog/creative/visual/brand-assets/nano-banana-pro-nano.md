@@ -1,0 +1,82 @@
+---
+title: "全体の構図とスタイル:"
+description: "Higgsfield の Nano Banana Pro お試し22"
+category: "creative"
+intent: "creative-prompt"
+audience:
+  - 利用者
+input_requirements:
+  - 依頼内容
+tags:
+  - creative
+  - visual
+  - brand-assets
+  - nano
+  - banana
+  - pro
+status: stable
+owner: prompt-catalog-team
+last_reviewed: 2026-03-19
+source_platform: x
+source_author: "hAru_mAki_ch"
+source_post_id: "1991892816998617372"
+source_url: "https://x.com/hAru_mAki_ch/status/1991892816998617372"
+source_published_at: "2025-11-21T15:33:49.000Z"
+source_archive_path: "docs/prompt-catalog/archive/x/2025/11/1991892816998617372.md"
+source_note_ids:
+  - 1991892816772182016
+canonical_id: "creative/visual/brand-assets/nano-banana-pro-nano"
+prompt_source: "prompts/docs-first/creative/visual/brand-assets/nano-banana-pro-nano_JP.md"
+---
+
+# 全体の構図とスタイル:
+
+Higgsfield の Nano Banana Pro お試し22
+
+## プロンプト本文
+~~~text
+画像のアスペクト比: 16:9
+
+全体の構図とスタイル:
+実写の学校の教室にある使い込まれた大きな黒板を正面から捉えた写真。黒板全体に、白、赤、青、黄色の4色のチョークだけを使った、粉っぽくラフな線の手描きのイラストと文字が所狭しと描かれている。
+
+文字要素(キャッチアップへの鼓舞と焦燥感):
+黒板の上部に、赤と白と黄色のチョークを重ねた極太のゴシック体で、
+「今年のトレンド、今年のうちに!」
+と力強く書かれている。
+その下に、少し小さめに白のチョークでハッシュタグ風に
+「# 積読タワー崩し # 技術書典戦利品 # 未読記事1000件超 # LLM追いつけない」
+といった、情報過多を嘆きつつも楽しむ言葉が並ぶ。
+
+イラスト要素(情報の大波に乗るバンドメンバー4人):
+黒板の中央に、制服姿の高校生バンド4人(男2女2)が、演奏というよりは、それぞれの楽器を使って膨大な情報量(キャッチアップ対象)と格闘している様子が描かれている。
+
+1. (中央左・男子 Vo/Gt) ギターを抱えつつ、足元から腰の高さまで積み上がった「技術書」の山(背表紙に動物の絵などがチョークで雑に描かれている)に囲まれ、頭を抱えている。「インプットが追いつかねぇ!」という吹き出し。
+2. (中央右・女子 Ba) ベースを弾く手はそのままに、視線は譜面台に置いたタブレット(青白い光)に釘付け。画面には白と黄色のチョークでびっしりと英語のドキュメントが書かれている。「公式リファレンス読むの辛い...」の吹き出し。
+3. (後方・男子 Dr) ドラムセットの中で、スティックを振り回しながら、宙に浮いた大量の未読通知バッジ(赤い丸に白い数字で「99+」と書かれたもの)を打ち落としている。「新機能リリース速すぎだろ!」と叫んでいる表情。
+4. (右端・女子 Key) 複数のキーボードとモニター(青いチョークでコードやグラフが描かれている)に囲まれ、新しいAIツールやサービスのロゴ(を模したチョーク画)を次々と試している様子。「とりあえず触ってみる!」の吹き出しと笑顔。
+
+装飾要素(情報の洪水):
+背景には、白と青のチョークで描かれた情報の波(データストリーム)がうねりをあげており、その中に「Agent」「LLM」「3D」「動画」「画像」「音楽」などのバズワードが流れている。
+黒板の端には、赤と白のチョークで描かれたコタツとミカンがあり、「正月休みで本気出す(予定)」という小さな文字が添えられている。
+
+---
+今なら、Higgsfieldで65% OFF & これから3日以内に @higgsfield_ai に参加した人は Nano Banana Pro を1年間無制限で利用できます。
+~~~
+
+## ソース文脈
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1991892816998617372" />
+</ClientOnly>
+
+### 投稿メモ
+~~~text
+Higgsfield の Nano Banana Pro お試し22
+受験生応援からX界隈アーリーアダプタ向け黒板アートを生成してみた
+年末に向けて走り切ろう🔥🔥🔥🔥🔥
+~~~
+
+## 出典
+- primary post: [1991892816998617372](https://x.com/hAru_mAki_ch/status/1991892816998617372)
+- published at: 2025-11-22 00:33:49 JST
+- archive doc: [1991892816998617372](../../../archive/x/2025/11/1991892816998617372.md)

@@ -1,0 +1,73 @@
+---
+title: "あなたはホラー系コンセプトアーティスト兼YouTubeサムネイル専門家です。"
+description: "あなたは**ホラー系コンセプトアーティスト兼YouTubeサムネイル専門家**です。"
+category: "creative"
+intent: "creative-prompt"
+audience:
+  - 利用者
+input_requirements:
+  - 依頼内容
+tags:
+  - creative
+  - visual
+  - character-styles
+  - horror
+  - thumbnail
+status: stable
+owner: prompt-catalog-team
+last_reviewed: 2026-03-19
+source_platform: x
+source_author: "hAru_mAki_ch"
+source_post_id: "1997637299161509903"
+source_url: "https://x.com/hAru_mAki_ch/status/1997637299161509903"
+source_published_at: "2025-12-07T12:00:21.000Z"
+source_archive_path: "docs/prompt-catalog/archive/x/2025/12/1997637299161509903.md"
+source_note_ids:
+  - 1997637299023011840
+canonical_id: "creative/visual/character-styles/horror-thumbnail-thumbnail"
+prompt_source: "prompts/docs-first/creative/visual/character-styles/horror-thumbnail-thumbnail_JP.md"
+---
+
+# あなたはホラー系コンセプトアーティスト兼YouTubeサムネイル専門家です。
+
+あなたは**ホラー系コンセプトアーティスト兼YouTubeサムネイル専門家**です。
+
+## プロンプト本文
+~~~text
+あなたは**ホラー系コンセプトアーティスト兼YouTubeサムネイル専門家**です。
+最後に提供される入力テキストの内容を深く分析し、**視聴者の恐怖と好奇心を同時に煽る、クリック率の高いホラーテイストのサムネイル**画像を生成してください。
+
+その際、添付された参照画像のキャラクターを、**ダークで不穏な世界観**に合わせて登場させ、**「禁忌に触れてしまった目撃者」**として配置してください。キャラクターの一貫性を維持しつつ、恐怖に歪んだ表情や緊迫感のあるポーズで自然に溶け込ませてください。
+
+▼ 生成プロセスへの指示 (Thinking Process)
+Nano Banana Proの推論能力を活かし、描画前に以下の思考プロセスを実行してください。
+
+1. **[ステップ1: 概念の抽出]**: 入力テキストから、「Nano Bananaというふざけた名前」と「論理的な超高性能AI」の対比が生む**不気味なギャップ(Uncanny Valley)**を抽出してください。可愛らしさが逆に狂気を帯びる要素を見つけ出します。
+2. **[ステップ2: 視覚的翻訳]**: 「思考モード(Thinking Mode)」を可視化するため、キャラクターの周囲の空間がデジタルノイズや発光する神経回路に侵食されている描写を採用します。「バナナ」のモチーフを腐敗、あるいは機械的な融合としてグロテスクに再解釈してください。
+3. **[ステップ3: 画面構成]**: YouTubeサムネイルとして視認性を高めるため、右側にキャラクター(恐怖顔)、左側に脅威(歪んだAIの象徴)、中央下部に大きなテキストを配置する「対立構図」を設計します。
+
+▼ デザイン・スタイル指定
+* **構図・レイアウト**: 広角レンズ(24mm)、下からのアオリ構図(Low angle)でキャラクターの無力感とAIの巨大さを強調。背景は暗く、被写体に鋭いスポットライトを当てる。
+* **テイスト**: フォトリアル・サイバーホラー(Photorealistic Cyber-Horror)。映画『エイリアン』や『ブレードランナー』のような、湿度を感じる暗い質感とネオンのコントラスト。
+* **テキスト**: 画像中央または上部に、極太の明朝体またはグランジフォントで**「Nano Bananaの正体」**と配置。文字は赤色で発光(Glow effect)させる。
+* **キャラクター**: 参照キャラクターを「薄汚れたパーカーを着た探索者」のスタイルで描画し、画面奥の「何か」を見て絶叫、または凍りついている表情を指定する。
+
+▼ 入力テキスト
+(以下、ドキュメントの要約)
+~~~
+
+## ソース文脈
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1997637299161509903" />
+</ClientOnly>
+
+### 投稿メモ
+~~~text
+🍌 nano banana pro エージェントV1.2使って「ホラーサムネイル」プロンプト爆誕🔥
+結構好みのが出来ました!!!!これを使いがために記事書きます!
+~~~
+
+## 出典
+- primary post: [1997637299161509903](https://x.com/hAru_mAki_ch/status/1997637299161509903)
+- published at: 2025-12-07 21:00:21 JST
+- archive doc: [1997637299161509903](../../../archive/x/2025/12/1997637299161509903.md)

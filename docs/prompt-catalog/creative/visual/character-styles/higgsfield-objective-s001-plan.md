@@ -1,0 +1,395 @@
+---
+title: "objective: \"陽だまりでくつろぐ茶トラ猫の穏やかな朝を伝える"
+description: "shot_id: S001"
+category: "creative"
+intent: "creative-prompt"
+audience:
+  - 利用者
+input_requirements:
+  - 依頼内容
+tags:
+  - creative
+  - visual
+  - character-styles
+  - higgsfield
+  - objective
+  - s001
+status: stable
+owner: prompt-catalog-team
+last_reviewed: 2026-03-19
+source_platform: x
+source_author: "hAru_mAki_ch"
+source_post_id: "1976352718991262058"
+source_url: "https://x.com/hAru_mAki_ch/status/1976352718991262058"
+source_published_at: "2025-10-09T18:23:01.000Z"
+source_archive_path: "docs/prompt-catalog/archive/x/2025/10/1976352718991262058.md"
+source_note_ids:
+  - 1976352718097874945
+canonical_id: "creative/visual/character-styles/higgsfield-objective-s001-plan"
+prompt_source: "prompts/docs-first/creative/visual/character-styles/higgsfield-objective-s001-plan_JP.md"
+---
+
+# objective: "陽だまりでくつろぐ茶トラ猫の穏やかな朝を伝える
+
+shot_id: S001
+
+## プロンプト本文
+~~~text
+shot_id: S001
+shot_plan:
+ objective: "陽だまりでくつろぐ茶トラ猫の穏やかな朝を伝える"
+ style_look: "naturalistic domestic / gentle film grain / subtle halation"
+ location_art:
+ - "木の床のリビング"
+ - "薄いカーテンの窓"
+ - "低い布張りソファ"
+ - "小さな観葉植物"
+ subject:
+ name: "Momo"
+ species_or_type: "茶トラ猫"
+ wardrobe_or_markings: "縞模様の短毛"
+ props:
+ - "麻ひものネズミおもちゃ"
+ distinctive_details:
+ - "右耳の小さな切れ込み"
+ - "太めの白いひげ"
+ camera:
+ framing: "medium close-up"
+ angle_height: "eye level"
+ height: "cat eye height"
+ lens: "40mm"
+ motion: "slow dolly-in"
+ action_12s_beats:
+ - "0–4: Momoが前足をゆっくり舐めはじめる。"
+ - "4–8: 舐めた前足で頬とひげを磨く動作を続ける。"
+ - "8–12: 両目を細め、前足を最後にひとなでして静止。"
+ lighting_palette:
+ lighting_recipe: "soft window key from camera left, warm lamp fill, cool doorway rim"
+ direction: "left-to-right"
+ quality: "soft"
+ palette_anchors:
+ - "琥珀"
+ - "生成り"
+ - "青灰"
+ - "若草"
+ background_sound:
+ - "外の小鳥のさえずり"
+ - "木の床の微かな軋み"
+ poster_frame_goal: "Momoが画面右向きに座り、ひげを整え終えて静止。前景に麻ひもネズミがぼけて映り、窓からの光が輪郭に沿って縁どる。"
+
+sora_prompt:
+ prose: "木の床のリビング。薄いカーテン越しの朝日。茶トラ猫Momoが陽だまりで座り、前足を舐めてから頬とひげを磨く。麻ひものネズミおもちゃが手前にぼけて見える。"
+ cinematography:
+ camera_shot: "medium close-up at eye level, cat eye height"
+ lens: "40mm"
+ dof: "shallow on subject face"
+ motion: "slow dolly-in"
+ lighting_palette:
+ recipe: "soft window key from camera left, warm lamp fill, cool doorway rim"
+ direction: "left-to-right"
+ quality: "soft"
+ palette_anchors:
+ - "琥珀"
+ - "生成り"
+ - "青灰"
+ - "若草"
+ actions:
+ - "0–4: Momoが前足を舐める。"
+ - "4–8: その前足で頬とひげを磨く。"
+ - "8–12: 目を細めて一呼吸、静止。"
+ dialogue: null
+ background_sound:
+ - "外の小鳥のさえずり"
+ - "木の床の微かな軋み"
+
+ui_settings_manual:
+ length: "12s"
+ model: "sora-2-pro"
+ resolution: "1792x1024"
+ reference_image: "初回は参照なし"
+ remix: "なし"
+
+continuity_pack:
+ shot_id: "S001"
+ characters:
+ Momo:
+ hair_or_fur: "縞模様の短毛"
+ wardrobe: "なし"
+ props:
+ - "麻ひものネズミおもちゃ"
+ distinctive_details:
+ - "右耳の小さな切れ込み"
+ - "太めの白いひげ"
+ location:
+ set_dressing:
+ - "木の床のリビング"
+ - "薄いカーテンの窓"
+ - "低い布張りソファ"
+ - "小さな観葉植物"
+ weather: "室内・晴れ"
+ time_of_day: "午前"
+ camera_lens_pipeline:
+ - "40mm"
+ camera_height_eye_level: true
+ lighting_recipe:
+ key: "soft window key from camera left"
+ fill: "warm lamp fill"
+ rim: "cool doorway rim"
+ direction: "left-to-right"
+ quality: "soft"
+ palette_anchors:
+ - "琥珀"
+ - "生成り"
+ - "青灰"
+ - "若草"
+ sound_bed:
+ - "外の小鳥のさえずり"
+ - "木の床の微かな軋み"
+ poster_frame_description: "Momoが画面右を向いて座り、ひげを整えて静止。輪郭に冷たいリム、前景にぼけた麻ひもネズミ。"
+
+===
+
+shot_id: S002
+shot_plan:
+ objective: "微かな物音に反応してMomoの右耳が一度だけぴくりと動く静かな緊張を描く"
+ style_look: "naturalistic domestic / gentle film grain / subtle halation"
+ location_art:
+ - "木の床のリビング"
+ - "薄いカーテンの窓"
+ - "低い布張りソファ"
+ - "小さな観葉植物"
+ subject:
+ name: "Momo"
+ species_or_type: "茶トラ猫"
+ wardrobe_or_markings: "縞模様の短毛"
+ props:
+ - "麻ひものネズミおもちゃ"
+ distinctive_details:
+ - "右耳の小さな切れ込み"
+ - "太めの白いひげ"
+ camera:
+ framing: "medium close-up"
+ angle_height: "eye level"
+ height: "cat eye height"
+ lens: "40mm"
+ motion: "static locked-off"
+ action_12s_beats:
+ - "0–4: Momoが画面右を見つめ静止、耳の付け根がわずかに緊張する。"
+ - "4–8: 右耳が一度だけぴくりと動き、すぐ元の位置へ戻る。"
+ - "8–12: 動きが収まり、Momoはまた静かに呼吸して止まる。"
+ lighting_palette:
+ lighting_recipe: "soft window key from camera left, warm lamp fill, cool doorway rim"
+ direction: "left-to-right"
+ quality: "soft"
+ palette_anchors:
+ - "琥珀"
+ - "生成り"
+ - "青灰"
+ - "若草"
+ background_sound:
+ - "外の小鳥のさえずり"
+ - "木の床の微かな軋み"
+ poster_frame_goal: "Momoが画面右向きで静止、右耳は落ち着いた位置。前景にぼけた麻ひもネズミ、窓光のクールなリムが輪郭を縁取る。"
+
+sora_prompt:
+ prose: "木の床のリビング。薄いカーテン越しの朝日。茶トラ猫Momoが陽だまりで座り、わずかな物音に反応して右耳が一度だけぴくりと動き、また静止する。手前には麻ひものネズミおもちゃがぼけて見える。"
+ cinematography:
+ camera_shot: "medium close-up at eye level, cat eye height"
+ lens: "40mm"
+ dof: "shallow on subject face"
+ motion: "static locked-off"
+ lighting_palette:
+ recipe: "soft window key from camera left, warm lamp fill, cool doorway rim"
+ direction: "left-to-right"
+ quality: "soft"
+ palette_anchors:
+ - "琥珀"
+ - "生成り"
+ - "青灰"
+ - "若草"
+ actions:
+ - "0–4: Momoが静止して周囲を聴く。"
+ - "4–8: 右耳が一度だけぴくりと動く。"
+ - "8–12: すぐに元の位置へ戻り静止。"
+ dialogue: null
+ background_sound:
+ - "外の小鳥のさえずり"
+ - "木の床の微かな軋み"
+
+ui_settings_manual:
+ length: "12s"
+ model: "sora-2-pro"
+ resolution: "1792x1024"
+ reference_image: "S001_last.png"
+ remix: "カメラをstatic locked-offに変更"
+
+continuity_pack:
+ shot_id: "S002"
+ characters:
+ Momo:
+ hair_or_fur: "縞模様の短毛"
+ wardrobe: "なし"
+ props:
+ - "麻ひものネズミおもちゃ"
+ distinctive_details:
+ - "右耳の小さな切れ込み"
+ - "太めの白いひげ"
+ location:
+ set_dressing:
+ - "木の床のリビング"
+ - "薄いカーテンの窓"
+ - "低い布張りソファ"
+ - "小さな観葉植物"
+ weather: "室内・晴れ"
+ time_of_day: "午前"
+ camera_lens_pipeline:
+ - "40mm"
+ camera_height_eye_level: true
+ lighting_recipe:
+ key: "soft window key from camera left"
+ fill: "warm lamp fill"
+ rim: "cool doorway rim"
+ direction: "left-to-right"
+ quality: "soft"
+ palette_anchors:
+ - "琥珀"
+ - "生成り"
+ - "青灰"
+ - "若草"
+ sound_bed:
+ - "外の小鳥のさえずり"
+ - "木の床の微かな軋み"
+ poster_frame_description: "Momoが右向きで静止し、右耳は落ち着いた位置。クールなリムが輪郭を縁取り、前景にぼけた麻ひもネズミ。"
+
+===
+
+shot_id: S003
+shot_plan:
+ objective: "Momoが安心して一度だけゆっくり瞬きをする穏やかな間を描く"
+ style_look: "naturalistic domestic / gentle film grain / subtle halation"
+ location_art:
+ - "木の床のリビング"
+ - "薄いカーテンの窓"
+ - "低い布張りソファ"
+ - "小さな観葉植物"
+ subject:
+ name: "Momo"
+ species_or_type: "茶トラ猫"
+ wardrobe_or_markings: "縞模様の短毛"
+ props:
+ - "麻ひものネズミおもちゃ"
+ distinctive_details:
+ - "右耳の小さな切れ込み"
+ - "太めの白いひげ"
+ camera:
+ framing: "medium close-up"
+ angle_height: "eye level"
+ height: "cat eye height"
+ lens: "40mm"
+ motion: "static locked-off"
+ action_12s_beats:
+ - "0–4: Momoが画面右を静かに見つめる、呼吸のみ。"
+ - "4–8: まぶたをゆっくり閉じて開く、ひとつの長い瞬き。"
+ - "8–12: 目を細めて落ち着く、体勢はそのまま。"
+ lighting_palette:
+ lighting_recipe: "soft window key from camera left, warm lamp fill, cool doorway rim"
+ direction: "left-to-right"
+ quality: "soft"
+ palette_anchors:
+ - "琥珀"
+ - "生成り"
+ - "青灰"
+ - "若草"
+ background_sound:
+ - "外の小鳥のさえずり"
+ - "木の床の微かな軋み"
+ poster_frame_goal: "Momoが画面右向きで目を細めた直後の穏やかな表情。前景にぼけた麻ひもネズミ、輪郭にクールなリム。"
+
+sora_prompt:
+ prose: "木の床のリビング。薄いカーテン越しの朝日。茶トラ猫Momoが陽だまりで座り、安心して一度だけゆっくり瞬きをする。手前には麻ひものネズミおもちゃがぼけて見える。"
+ cinematography:
+ camera_shot: "medium close-up at eye level, cat eye height"
+ lens: "40mm"
+ dof: "shallow on subject face"
+ motion: "static locked-off"
+ lighting_palette:
+ recipe: "soft window key from camera left, warm lamp fill, cool doorway rim"
+ direction: "left-to-right"
+ quality: "soft"
+ palette_anchors:
+ - "琥珀"
+ - "生成り"
+ - "青灰"
+ - "若草"
+ actions:
+ - "0–4: 静かに見つめる。"
+ - "4–8: 長い一度の瞬き。"
+ - "8–12: 目を細めて落ち着く。"
+ dialogue: null
+ background_sound:
+ - "外の小鳥のさえずり"
+ - "木の床の微かな軋み"
+
+ui_settings_manual:
+ length: "12s"
+ model: "sora-2-pro"
+ resolution: "1792x1024"
+ reference_image: "S002_last.png"
+ remix: "なし"
+
+continuity_pack:
+ shot_id: "S003"
+ characters:
+ Momo:
+ hair_or_fur: "縞模様の短毛"
+ wardrobe: "なし"
+ props:
+ - "麻ひものネズミおもちゃ"
+ distinctive_details:
+ - "右耳の小さな切れ込み"
+ - "太めの白いひげ"
+ location:
+ set_dressing:
+ - "木の床のリビング"
+ - "薄いカーテンの窓"
+ - "低い布張りソファ"
+ - "小さな観葉植物"
+ weather: "室内・晴れ"
+ time_of_day: "午前"
+ camera_lens_pipeline:
+ - "40mm"
+ camera_height_eye_level: true
+ lighting_recipe:
+ key: "soft window key from camera left"
+ fill: "warm lamp fill"
+ rim: "cool doorway rim"
+ direction: "left-to-right"
+ quality: "soft"
+ palette_anchors:
+ - "琥珀"
+ - "生成り"
+ - "青灰"
+ - "若草"
+ sound_bed:
+ - "外の小鳥のさえずり"
+ - "木の床の微かな軋み"
+ poster_frame_description: "Momoが右向きで目を細めた穏やかな表情。前景にぼけた麻ひもネズミ、輪郭にはクールなリムが残る。"
+
+#HiggsfieldSora2
+~~~
+
+## ソース文脈
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1976352718991262058" />
+</ClientOnly>
+
+### 投稿メモ
+~~~text
+手動で無限Sora2 を Higgsfield Sora 2 Unlmited でトライ!
+プロンプトの積み方がめちゃむずいぞ!!!
+~~~
+
+## 出典
+- primary post: [1976352718991262058](https://x.com/hAru_mAki_ch/status/1976352718991262058)
+- published at: 2025-10-10 03:23:01 JST
+- archive doc: [1976352718991262058](../../../archive/x/2025/10/1976352718991262058.md)

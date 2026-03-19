@@ -22,14 +22,15 @@
 - 目的（催促 / 確認 / 日程調整）を最初に指定する
 - 禁止事項（強すぎる表現、法務未確認の約束）を入力に含める
 
-<!-- x-categorized-imports:start -->
-## X由来の分類済み追加プロンプト
+<!-- integrated-catalog:start -->
+## 追加プロンプト
 
-X から取り込んで分類済みの追加プロンプトです。カテゴリ本文から直接たどれるようにしつつ、X由来ページとして区別しています。
+このカテゴリに追加された正規プロンプトです。
 
 - 総件数: 2
-- 全件アーカイブ: [X由来アーカイブ](./x/)
 
-- [【NotebookLM】スライド✖ホラーデザインプロンプトがエグイ](./x/2025/11/1992516449760330102.md) - 2025-11-23 17:51:55 JST / low
-- [Higgsfield Sora 2 Unlmited やってみた5⃣](./x/2025/10/1976354138897383784.md) - 2025-10-10 03:28:40 JST / medium
-<!-- x-categorized-imports:end -->
+### 収録プロンプト
+
+- [Slides Background Bgm True](./slides-background-bgm-true.md) - 古いホラー映画のエンドロール風。背景は真っ暗、文字は血のような赤でゆっくり滴るエフェクト(静止画で表現)。BGMが聞こえてきそうな不気味さ。最後に「THIS…
+- [title: "砂が描く、息のかたち — Vertical Cut](./higgsfield-video-title-vertical.md) - HiggsfieldSora2
+<!-- integrated-catalog:end -->

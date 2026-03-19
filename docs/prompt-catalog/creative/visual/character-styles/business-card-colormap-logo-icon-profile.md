@@ -1,0 +1,86 @@
+---
+title: "ロゴ・アイコンの統合:"
+description: "Xプロフ名刺プロンプト V2爆誕🔥オリジナルキャラクターのカラーマップを考慮して名刺にしてくれます!"
+category: "creative"
+intent: "creative-prompt"
+audience:
+  - 利用者
+input_requirements:
+  - 依頼内容
+tags:
+  - creative
+  - visual
+  - character-styles
+  - business
+  - card
+  - colormap
+status: stable
+owner: prompt-catalog-team
+last_reviewed: 2026-03-19
+source_platform: x
+source_author: "hAru_mAki_ch"
+source_post_id: "2001942809440559276"
+source_url: "https://x.com/hAru_mAki_ch/status/2001942809440559276"
+source_published_at: "2025-12-19T09:08:54.000Z"
+source_archive_path: "docs/prompt-catalog/archive/x/2025/12/2001942809440559276.md"
+source_note_ids:
+  - 2001942809218338817
+canonical_id: "creative/visual/character-styles/business-card-colormap-logo-icon-profile"
+prompt_source: "prompts/docs-first/creative/visual/character-styles/business-card-colormap-logo-icon-profile_JP.md"
+---
+
+# ロゴ・アイコンの統合:
+
+Xプロフ名刺プロンプト V2爆誕🔥オリジナルキャラクターのカラーマップを考慮して名刺にしてくれます!
+
+## プロンプト本文
+~~~text
+GENERAL STYLE & MOOD:
+日本のハイエンド・テクノロジー企業やクリエイティブ・エージェンシーが採用する、極限まで洗練されたプロフェッショナルな名刺デザイン。知的でモダン、かつ信頼感のあるプレミアムなエディトリアル・スタイル。
+
+SUBJECT:
+添付画像(Image 1)のアイコンと指定されたプロフィール情報に基づき、その人物の専門性とブランド・アイデンティティを視覚化した名刺。
+1. ロゴ・アイコンの統合:
+ - 添付画像(Image 1)のアイコンを、デザインの核として名刺の最適な位置(例:左上または中央の氏名横)に美しく配置すること。
+2. 情報ソースと反映:
+ - 対象者: {argument name="profile_source" default="hAru_mAki_ch (https://t.co/gzuz3imy9H)"}
+ - 上記に関連する最新の活動、肩書き、評価を解析し、名刺の構成要素(テキスト内容、専門職種名)に反映させること。
+3. タイポグラフィ:
+ - メイン氏名: {argument name="display_name" default="Maki @ Sunwood AI Labs."}
+ - サブテキスト: {argument name="handle_name" default="hAru_mAki_ch"} および解析された専門職種(例:AI Engineer, Prompt Architect等)を、極小ながらも鮮明なフォントで黄金比に基づき配置。
+
+COLOR PALETTE & COHESION:
+- カラーマッピング: 名刺全体の配色(背景色、テキスト色、グラフィック要素)は、添付画像(Image 1)から抽出したカラーマップ(主色、補色、アクセントカラー)を完全に踏襲すること。
+- デザインの一貫性: アイコンの視覚的言語(ラインの太さ、形状の丸み、ミニマリズムの度合い)と名刺全体のデザインを完全に調和させ、統一感のあるブランド・アイデンティティを構築すること。
+
+PICTOGRAPH SYSTEM(専門性の可視化):
+- {argument name="icon_instructions" default="対象者の主要なスキル領域(例:AI、開発、研究、創造性など)を象徴する、幾何学的で極細ラインのミニマルなピクトグラムを4つ配置すること。これらのピクトグラムの配色は、Image 1のアクセントカラーを使用し、デザインになじませること。"}
+
+COMPOSITION & LIGHTING:
+高級感のあるテクスチャを持つデスク(ダークグレーの石材、あるいは重厚なウッド材)の上に置かれた名刺のクローズアップ(Macro View)。
+光は鋭い指向性を持つサイドライトを採用し、活版印刷(Letterpress)による文字の僅かな沈み込みや、ロゴおよび特定の要素に施された「透明な厚盛りUV加工(Spot UV)」の艶やかな反射を物理的に正しく描写する。
+
+MATERIAL & TEXTURE:
+日本の最高級特殊紙(特厚のコットンペーパーやマットコート紙)の質感。文字とピクトグラムは「銀の箔押し(Silver Foil Stamping)」、あるいは高精細なオフセット印刷。フォントのカーニングは1ピクセル単位で完璧に調整されていること。
+
+CONSTRAINTS:
+- テキストの完全一致: 名前、ハンドルネーム、URL等の指定文言は正確に綴り、意味不明な文字列(Gibberish)を徹底排除する。
+- 物理的整合性: アイコンやピクトグラムの細いラインが潰れず、シャープに描画されていること。文字の重なりやレイアウトの破綻がないこと。
+- カラーマップの厳守: 独自の色を追加せず、必ずImage 1の配色を基調として、洗練されたトーン&マナーを維持すること。
+- 汎用性の維持: 入力された {argument} および添付画像に従って、動的にデザインを最適化すること。
+~~~
+
+## ソース文脈
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/2001942809440559276" />
+</ClientOnly>
+
+### 投稿メモ
+~~~text
+Xプロフ名刺プロンプト V2爆誕🔥オリジナルキャラクターのカラーマップを考慮して名刺にしてくれます!
+~~~
+
+## 出典
+- primary post: [2001942809440559276](https://x.com/hAru_mAki_ch/status/2001942809440559276)
+- published at: 2025-12-19 18:08:54 JST
+- archive doc: [2001942809440559276](../../../archive/x/2025/12/2001942809440559276.md)

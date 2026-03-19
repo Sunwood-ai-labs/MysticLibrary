@@ -1,0 +1,106 @@
+---
+title: "image_type: awakened_eye_photoreal_v1"
+description: "Awakened-Eye Warrior — photoreal · cinematic · VFX (v1.0)"
+category: "creative"
+intent: "creative-prompt"
+audience:
+  - 利用者
+input_requirements:
+  - 依頼内容
+tags:
+  - creative
+  - visual
+  - character-styles
+  - awakened
+  - eye
+  - photoreal
+status: stable
+owner: prompt-catalog-team
+last_reviewed: 2026-03-19
+source_platform: x
+source_author: "hAru_mAki_ch"
+source_post_id: "1933474987647906113"
+source_url: "https://x.com/hAru_mAki_ch/status/1933474987647906113"
+source_published_at: "2025-06-13T10:42:13.000Z"
+source_archive_path: "docs/prompt-catalog/archive/x/2025/06/1933474987647906113.md"
+source_note_ids:
+  - 1933474987404636162
+canonical_id: "creative/visual/character-styles/awakened-eye-photoreal-awakened-eye"
+prompt_source: "prompts/docs-first/creative/visual/character-styles/awakened-eye-photoreal-awakened-eye_JP.md"
+---
+
+# image_type: awakened_eye_photoreal_v1
+
+Awakened-Eye Warrior — photoreal · cinematic · VFX (v1.0)
+
+## プロンプト本文
+~~~text
+# Awakened-Eye Warrior — photoreal · cinematic · VFX (v1.0)
+image_type: awakened_eye_photoreal_v1
+
+general:
+ orientation: vertical # portrait 4 : 5
+ aspect_ratio: 0.8
+ size: { width: "3200px", height: "4000px" } # 4K-ready
+ quality: ultra_high_resolution
+ file_format: png
+ safe_zone: none
+
+scene:
+ setting:
+ environment: >
+ Dimly lit urban rooftop at night, slick with rain and reflecting scattered neon;
+ distant skyline rendered as soft bokeh.
+ weather: light_rain_mist
+ main_subject:
+ identity: "White-haired handsome man"
+ age: mid-20s
+ appearance: >
+ Sharp jawline, porcelain skin, wet silver hair swept back;
+ dressed in a matte-black tailored trench-coat with subtle futuristic weave.
+ pose: three-quarter medium close-up, left hand raised near glowing eye
+ camera:
+ lens: 85 mm portrait prime
+ shot_type: medium_close_up
+ perspective: low_angle_slight
+ lighting:
+ key_light: moody_soft_from_camera_right
+ rim_light: cyan_neon_edge_from_back_left
+ fill_light: faint_bounced_streetlight_amber
+
+vfx:
+ eye_effect:
+ eye: right
+ style: "glowing sigil iris with swirling energy halo"
+ color: electric_cyan_with_white_core
+ intensity: high
+ motion_blur: micro
+ lens_flare: subtle
+ particles:
+ type: floating_light_sparks
+ color: cyan_white
+ density: medium
+ reacts_to_dof: true
+
+post_processing:
+ color_grade: teal_and_orange_cinematic
+ contrast: high
+ sharpening: moderate
+ film_grain: subtle
+~~~
+
+## ソース文脈
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1933474987647906113" />
+</ClientOnly>
+
+### 投稿メモ
+~~~text
+WhiskでImagen4使ってみた3⃣
+中二病前回の画像もいけた!!!!
+~~~
+
+## 出典
+- primary post: [1933474987647906113](https://x.com/hAru_mAki_ch/status/1933474987647906113)
+- published at: 2025-06-13 19:42:13 JST
+- archive doc: [1933474987647906113](../../../archive/x/2025/06/1933474987647906113.md)

@@ -49,36 +49,29 @@ last_reviewed: 2026-02-23
 - Gemini APIキーが実行時に必要
 - 対談スクリプトは2〜4ラリーで構成する
 
-<!-- x-categorized-imports:start -->
-## X由来の分類済み追加プロンプト
+<!-- integrated-catalog:start -->
+## 追加プロンプト
 
-X から取り込んで分類済みの追加プロンプトです。カテゴリ本文から直接たどれるようにしつつ、X由来ページとして区別しています。
+このカテゴリに追加された正規プロンプトです。
 
 - 総件数: 16
-- 全件アーカイブ: [X由来アーカイブ](./x/)
 
-### MCP自動プレゼンテーション関連
+### 収録プロンプト
 
-- [AgentVRM✖AgentVRM MCP✖Roo-Codeで「VRMリアルタイムプレゼン」してもらった2⃣](./x/2025/06/1939326223488110946.md) - 2025-06-29 23:12:57 JST / high
-- [Roo-Code ✖ voicevox MCP ✖ Playwright MCP ✖ VMagicMirror ✖ Banana でリアルタイムアバタープレゼンできた!!!!](./x/2025/06/1938920341780447473.md) - 2025-06-28 20:20:07 JST / high
-
-### スライド作成関連
-
-- [ワンパン動画生成Skills「Remotion」使ってみた❸](./x/2026/01/2014342883491692668.md) - 2026-01-22 23:22:22 JST / high
-- [NotebookLMでオリキャラスライド爆誕🔥❷](./x/2025/12/2000793695403323484.md) - 2025-12-16 14:02:44 JST / high
-- [NotebookLMでオリキャラスライド爆誕🔥](./x/2025/12/2000784758721405098.md) - 2025-12-16 13:27:13 JST / high
-- [Google スライドの nano banana pro のスライドモードお試し⓬](./x/2025/11/1994754920608895005.md) - 2025-11-29 22:06:48 JST / high
-- [Google スライドの nano banana pro のスライドモードお試し⓫~縦長生成編~](./x/2025/11/1994636150309548356.md) - 2025-11-29 14:14:51 JST / high
-- [💡オリキャラGoogleスライドのざっくりやり方動画](./x/2025/11/1994402491564503344.md) - 2025-11-28 22:46:22 JST / high
-- [💡ついにオリキャラGoogleスライド爆誕💡](./x/2025/11/1994356240152223941.md) - 2025-11-28 19:42:35 JST / high
-- [Google スライドの nano banana pro のスライドモードお試し❻](./x/2025/11/1994330262080041429.md) - 2025-11-28 17:59:22 JST / high
-- [Google スライドの nano banana pro のスライドモードお試し❺](./x/2025/11/1994326727489712611.md) - 2025-11-28 17:45:19 JST / medium
-- [Google スライドの nano banana pro のスライドモードお試し2](./x/2025/11/1994302825401360790.md) - 2025-11-28 16:10:20 JST / high
-- [Markdownの進化系「quarkdown」のドキュメントをquarkdownスライド化する「Quarkdownスライド作成プロンプト V1」爆誕!!](./x/2025/06/1931670521122525534.md) - 2025-06-08 20:11:55 JST / high
-
-### その他
-
-- [コンテンツの指示](./x/2025/11/1994311327238484325.md) - 2025-11-28 16:44:07 JST / high
-- [コンテンツの指示](./x/2025/11/1994311320896963059.md) - 2025-11-28 16:44:06 JST / high
-- [コンテンツの指示](./x/2025/11/1994311317939954080.md) - 2025-11-28 16:44:05 JST / high
-<!-- x-categorized-imports:end -->
+- [・キャンバス基盤の構成":情報は1枚の面に配置し、章立ては“場所”で管理する。](./slides-presentation-video-canvas-paper.md) - 巨大な1枚のキャンバスを舞台に、情報を“スライドで送る”のではなく、"視点そのものを動かして見せる"プレゼンにしてほしい。
+- [・オリジナルキャラクター「まき」「こはく」は、必ず以下の公式画像を唯一の正解として参照すること](./slides-character-png-notebooklm.md) - 以下の条件をすべて厳密に守って、解説用スライドを作成してください。
+- [・オリジナルキャラクター「まき」「こはく」は、必ずそれぞれ](./slides-character-png-notebooklm-20251216.md) - 以下の条件を厳密に守って、解説用スライドを作成してください。
+- [Nano Banana Pro Slides Google](./nano-banana-pro-slides-google.md) - 「ムードボード」ビジョン ボードのユースケース: インテリア デザインのアイデアや個人的な目標設定。デザインの雰囲気: メイソンリー グリッド、画像を重ね合わ…
+- [Nano Banana Pro Slides Background](./nano-banana-pro-slides-background.md) - 「世界の気候帯」を示す地理の正方形のスライドを「高品質な編集用地図」の見た目で生成する。背景には、暗く彩度の低い衛星地図を使用する。半透明のネオンカラーのベク…
+- [まき」と「こはく」を登場させて下記の内容についての解説スライドを葛飾北斎の浮世絵風に4スライド生成して](./slides-video-character-google.md) - 「まき」と「こはく」を登場させて下記の内容についての解説スライドを葛飾北斎の浮世絵風に4スライド生成して
+- [まき」と「こはく」を登場させてLLMについての解説スライドを葛飾北斎の浮世絵風に4スライド生成して](./nano-banana-pro-slides-character.md) - 「まき」と「こはく」を登場させてLLMについての解説スライドを葛飾北斎の浮世絵風に4スライド生成して
+- [LLMについての解説スライドを葛飾北斎の浮世絵風に4スライド生成して](./nano-banana-pro-slides-llm.md) - Google スライドの nano banana pro のスライドモードお試し❻
+- [まき」と「こはく」を登場させて下記の内容の漫画を作成して。](./nano-banana-pro-slides-character-llm.md) - 「まき」と「こはく」を登場させて下記の内容の漫画を作成して。
+- [見出し: 「霧と地平線](./slides-llm-agi.md) - コンテンツの指示
+- [見出し: 「確率という名のコンパス](./slides-llm-cat-dog.md) - コンテンツの指示
+- [タイトル: 「言葉の海への旅 - LLM探索ログ -](./fantasy-world-map-slides-travel-llm.md) - コンテンツの指示
+- [[テーマ]」をテーマに、「旅行日記」風の雰囲気で[作成するコンテンツ]を作成して。](./nano-banana-pro-slides-travel.md) - コンテンツの指示
+- [Agent VRM MCP自動プレゼンテーション プロンプト](./slides-presentation-browser-agent.md) - AgentVRM✖AgentVRM MCP✖Roo-Codeで「VRMリアルタイムプレゼン」してもらった2⃣
+- [のスライドを自動プレゼンしてください。](./slides-presentation-browser-5500-voicevox.md) - http ://127.0.0.1:5500/voicevox_mcp_slides_improved-v2.html
+- [Quarkdownスライド作成プロンプト](./slides-presentation-markdown-quarkdown.md) - Markdownの進化系「quarkdown」のドキュメントをquarkdownスライド化する「Quarkdownスライド作成プロンプト V1」爆誕!!
+<!-- integrated-catalog:end -->

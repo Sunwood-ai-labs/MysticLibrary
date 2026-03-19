@@ -1,0 +1,85 @@
+---
+title: "参照画像の頭身・特徴を維持しつつ、「油絵具のタッチ」で描画する。"
+description: "参照画像 &#91;Image 1&#93;〜&#91;Image 4&#93; のキャラクターIDを使用。"
+category: "creative"
+intent: "creative-prompt"
+audience:
+  - 利用者
+input_requirements:
+  - 依頼内容
+tags:
+  - creative
+  - visual
+  - character-styles
+  - nano
+  - banana
+  - pro
+status: stable
+owner: prompt-catalog-team
+last_reviewed: 2026-03-19
+source_platform: x
+source_author: "hAru_mAki_ch"
+source_post_id: "2006339150375735697"
+source_url: "https://x.com/hAru_mAki_ch/status/2006339150375735697"
+source_published_at: "2025-12-31T12:18:24.000Z"
+source_archive_path: "docs/prompt-catalog/archive/x/2025/12/2006339150375735697.md"
+source_note_ids:
+  - 2006339150233079808
+canonical_id: "creative/visual/character-styles/nano-banana-pro-new-year-card-character-impressionism"
+prompt_source: "prompts/docs-first/creative/visual/character-styles/nano-banana-pro-new-year-card-character-impressionism_JP.md"
+---
+
+# 参照画像の頭身・特徴を維持しつつ、「油絵具のタッチ」で描画する。
+
+参照画像 &#91;Image 1&#93;〜&#91;Image 4&#93; のキャラクターIDを使用。
+
+## プロンプト本文
+~~~text
+参照画像 [Image 1]〜[Image 4] のキャラクターIDを使用。
+
+**タスク:**
+クロード・モネやゴッホのような「印象派(Impressionism)」の画風で、芸術的な油絵風の年賀状画像を生成する。
+
+**【最重要:頭身とスタイルの完全同期】**
+- 参照画像の頭身・特徴を維持しつつ、**「油絵具のタッチ」**で描画する。
+- 輪郭線を曖昧にし、色と光の「筆の跡(Brushstrokes)」で形を表現するアーティスティックな変換を行う。
+
+**画風スタイル (ART STYLE):**
+- **技法:** 厚塗り(Impasto)、油彩(Oil Painting)。
+- **特徴:** 近くで見ると荒々しい筆致だが、遠目で見ると光り輝く風景に見える視覚効果。
+- **色彩:** 鮮やかで、混じりけのない色を並置する(筆触分割)。
+
+**被写体 (SUBJECTS):**
+1. **キャラクター4名:**
+ - **衣装:** 着物の柄や質感が、繊細な光の粒として表現されている。
+ - **ポーズ:** 日傘を差したり、庭園を散策したりしている、優雅な姿。
+2. **白馬:**
+ - 光を反射して輝く毛並み。風景の一部として溶け込むように描かれている。
+
+**背景 (ENVIRONMENT):**
+- **場所:** 「モネの睡蓮」のような日本庭園、または光が降り注ぐ野原。
+- **光:** 木漏れ日(Dappled light)が、キャラクターと地面に落ちている。
+
+**文字 (TYPOGRAPHY):**
+- 画家のサインのように、さりげなく右下に「2026 Happy New Year」と筆記体で書かれている。
+- 絵画の世界観を壊さない配置。
+
+**品質:**
+- キャンバスの布目が見えるような質感。重厚感のあるファインアートの仕上がり。
+~~~
+
+## ソース文脈
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/2006339150375735697" />
+</ClientOnly>
+
+### 投稿メモ
+~~~text
+まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ⓬
+~印象派・油絵スタイル『ART MUSEUM』~
+~~~
+
+## 出典
+- primary post: [2006339150375735697](https://x.com/hAru_mAki_ch/status/2006339150375735697)
+- published at: 2025-12-31 21:18:24 JST
+- archive doc: [2006339150375735697](../../../archive/x/2025/12/2006339150375735697.md)

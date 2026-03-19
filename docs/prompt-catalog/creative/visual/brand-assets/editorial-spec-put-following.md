@@ -1,0 +1,91 @@
+---
+title: "タイポ仕様:本文を“雑誌見開き”に組版"
+description: "Put the following text verbatim into a photo of a glossy magazine spread on a d…"
+category: "creative"
+intent: "creative-prompt"
+audience:
+  - 利用者
+input_requirements:
+  - 依頼内容
+tags:
+  - creative
+  - visual
+  - brand-assets
+  - editorial
+  - spec
+  - put
+status: stable
+owner: prompt-catalog-team
+last_reviewed: 2026-03-19
+source_platform: x
+source_author: "hAru_mAki_ch"
+source_post_id: "2000796143438184824"
+source_url: "https://x.com/hAru_mAki_ch/status/2000796143438184824"
+source_published_at: "2025-12-16T05:12:28.000Z"
+source_archive_path: "docs/prompt-catalog/archive/x/2025/12/2000796143438184824.md"
+source_note_ids:
+  - 2000796143283003394
+canonical_id: "creative/visual/brand-assets/editorial-spec-put-following"
+prompt_source: "prompts/docs-first/creative/visual/brand-assets/editorial-spec-put-following_JP.md"
+---
+
+# タイポ仕様:本文を“雑誌見開き”に組版
+
+Put the following text verbatim into a photo of a glossy magazine spread on a d…
+
+## プロンプト本文
+~~~text
+Put the following text verbatim into a photo of a glossy magazine spread on a desk.
+
+LAYOUT:
+Two-column editorial layout, clear hierarchy (headline, deck, body, pull quote, caption).
+Add 2–3 small supporting photos with captions.
+
+TYPOGRAPHY:
+Print-quality, readable, consistent kerning and margins. No gibberish.
+
+REALISM:
+Magazine paper texture, realistic glare and shadows.
+
+TEXT (verbatim):
+特集|静かな熱狂が生まれる場所
+都市の片隅で進化する“余白”のデザイン
+
+急速に効率化が進む現代社会において、あえて「余白」を重視した空間づくりが静かな注目を集めている。便利さやスピードを追求するのではなく、人が立ち止まり、考え、呼吸できる時間を取り戻すためのデザイン。その思想は、オフィスや商業施設にとどまらず、個人の住まい方や働き方にまで影響を与え始めている。
+
+都心から少し離れたエリアにある小さな複合スペースでは、壁や装飾を最小限に抑え、光と影の移ろいそのものを主役に据えた設計がなされている。訪れた人は自然と声を落とし、ゆっくりと歩く。そこでは「何をするか」よりも、「どう在るか」が問われる。
+
+「空間に余白があると、人の思考にも余白が生まれます」。そう語るのは、このプロジェクトに関わったデザイナーだ。情報過多の時代だからこそ、あえて何も置かない選択が、人の創造性を刺激するという。
+
+この動きは一過性のトレンドではない。効率や成果を重視してきた価値観が揺らぎ始める中で、余白は新たな豊かさの象徴となりつつある。静かで、控えめで、しかし確かな存在感を放つ空間。その背景には、私たち自身の生き方を見つめ直そうとする意識の変化があるのかもしれない。
+
+――――――――
+Pull Quote
+「何もない空間が、最も多くのことを語る場合がある。」
+
+Caption(写真1)
+自然光のみで構成されたラウンジスペース。時間帯によって表情が大きく変わる。
+
+Caption(写真2)
+装飾を排した通路。足音と風の音だけが響く。
+
+Caption(写真3)
+最低限の家具が置かれた共有エリア。用途はあえて限定されていない。
+
+――――――――
+~~~
+
+## ソース文脈
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/2000796143438184824" />
+</ClientOnly>
+
+### 投稿メモ
+~~~text
+タイポ仕様:本文を“雑誌見開き”に組版
+~~~
+
+## 出典
+- primary post: [2000796143438184824](https://x.com/hAru_mAki_ch/status/2000796143438184824)
+- published at: 2025-12-16 14:12:28 JST
+- archive doc: [2000796143438184824](../../../archive/x/2025/12/2000796143438184824.md)

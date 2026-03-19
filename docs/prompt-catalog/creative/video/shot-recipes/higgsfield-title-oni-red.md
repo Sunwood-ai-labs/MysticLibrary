@@ -1,0 +1,111 @@
+---
+title: "title: \"ONI RED: IGNITE"
+description: "higgsfield に sora trends なるタブ発見したのでTikTokモードで生成してみた!!!"
+category: "creative"
+intent: "creative-prompt"
+audience:
+  - 利用者
+input_requirements:
+  - 依頼内容
+tags:
+  - creative
+  - video
+  - shot-recipes
+  - higgsfield
+  - title
+  - oni
+status: stable
+owner: prompt-catalog-team
+last_reviewed: 2026-03-19
+source_platform: x
+source_author: "hAru_mAki_ch"
+source_post_id: "1976996887204147489"
+source_url: "https://x.com/hAru_mAki_ch/status/1976996887204147489"
+source_published_at: "2025-10-11T13:02:43.000Z"
+source_archive_path: "docs/prompt-catalog/archive/x/2025/10/1976996887204147489.md"
+source_note_ids:
+  - 1976996886973472768
+canonical_id: "creative/video/shot-recipes/higgsfield-title-oni-red"
+prompt_source: "prompts/docs-first/creative/video/shot-recipes/higgsfield-title-oni-red_JP.md"
+---
+
+# title: "ONI RED: IGNITE
+
+higgsfield に sora trends なるタブ発見したのでTikTokモードで生成してみた!!!
+
+## プロンプト本文
+~~~text
+version: "1.1"
+meta:
+ title: "ONI RED: IGNITE"
+ purpose: "商品広告(テレビ/SNS用10s)"
+ duration_sec: 10
+ aspect_ratio: "2.39:1"
+ fps: 24
+ style_refs: ["epic cinematic", "rapid montage", "high contrast", "emotional lighting"]
+story:
+ theme: "赤いギターを売り込むCM"
+ logline: "鬼面を思わせる深紅のカスタムギターが、静謐なプロダクトショットからライブの熱狂へ—一撃で世界を赤く染める。"
+ act_map: ["起:導入", "承:葛藤", "転:爆発", "結:余韻"]
+scene:
+ description: "無影のスタジオ白壁に近いライトグレー背景の静止画質感ショット/暗転を挟んだリグルーム/小箱ライブのステージ/雨に滲む屋上"
+ time_weather: "夜・微雨・ネオン反射"
+subject_action:
+ description: "プロダクト寄り→手がボディを撫でる→ケーブルIN→アンプ点灯→最初のリフ→群衆が赤に染まる→静寂の決め。"
+ tempo: "breathless"
+camera:
+ framing: ["macro", "extreme close-up", "medium", "wide"]
+ moves: ["whip pan", "crash zoom", "slow dolly-in", "arc move"]
+ focus: "rack focus through chaos and emotion"
+lighting_style:
+ description: "スタジオはフラットで無影(ライトグレー背景)→ライブは赤のキッカー+白バックライト、金の反射を強調。"
+physics_materials:
+ notes: ["ピックアップが琥珀色に微光", "ボディから燻る微細な火の粉", "汗と雨粒が赤いラッカーに弾ける"]
+audio:
+ dialogue:
+ - who: "lead_01"
+ text: "目を醒ませ、赤。"
+ start_sec: 7.2
+ end_sec: 8
+ bgm:
+ mood: "rock riff → drop → silence"
+ start_sec: 0
+ end_sec: 10
+ sfx: ["amp switch click", "pick scrape", "whoosh cuts", "crowd cheer", "heartbeat"]
+montage:
+ cuts_total: 18
+ target_cuts_per_sec: 1.8
+ transition_types: ["hard cut", "whip pan", "match cut", "light flare wipe"]
+timeline:
+ - start_sec: 0
+ end_sec: 3
+ action: "起: ライトグレー背景・無影。マクロで深紅ラッカーと微かな金の波文様。ヘッドに象牙色の小さな鬼角、指板の金の鳥居インレイを順に切り返し。ピックアップが琥珀に点灯。"
+ - start_sec: 4
+ end_sec: 7
+ action: "承転: 黒い金属ハードウェアの艶→ケーブルIN→クラッシュズームでステージへ。弦を弾くたび微細な火の粉が舞い、観客の顔が赤に染まる。ウィップパンで屋上、雨粒がボディで弾ける。"
+ - start_sec: 8
+ end_sec: 10
+ action: "結: 音が一瞬ドロップし静寂。横顔の極寄りと鬼面シェイプのエッジ、最後のハーモニクス。『目を醒ませ、赤。』—ブランドロゴと無影のスタジオカットに回帰。"
+flat_prompt: >
+ テーマ『赤いギターを売り込むCM』を10秒で描く映画予告風モンタージュ。
+ プロダクトショットはフォトリアリスティック、超高詳細、スタジオ照明でライトグレーの無影背景。
+ ギターは深紅のラッカーボディで鬼面を思わせる微妙な造形、表面にアンティーク着物の金の波文様、ヘッドに小さな象牙色の鬼角2本、指板には金の鳥居インレイ。
+ ピックアップは琥珀色に微光し、ボディからは超常の熱を思わせる微細な火の粉が漂う。ハードウェアは研ぎ上げた黒金属。
+ カメラはマクロと極寄りで質感を捉え、ウィップパン&クラッシュズームでスタジオからライブと屋上へ加速。
+ 高コントラストの赤いキッカーと白バックライトで金の反射を際立たせ、ロックリフ→ドロップ→静寂の流れで最後に台詞「目を醒ませ、赤。」とロゴで締める。
+~~~
+
+## ソース文脈
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1976996887204147489" />
+</ClientOnly>
+
+### 投稿メモ
+~~~text
+higgsfield に sora trends なるタブ発見したのでTikTokモードで生成してみた!!!
+~~~
+
+## 出典
+- primary post: [1976996887204147489](https://x.com/hAru_mAki_ch/status/1976996887204147489)
+- published at: 2025-10-11 22:02:43 JST
+- archive doc: [1976996887204147489](../../../archive/x/2025/10/1976996887204147489.md)

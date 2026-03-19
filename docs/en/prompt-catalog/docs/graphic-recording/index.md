@@ -83,12 +83,26 @@ Graphic Recording is a technique for summarizing meeting and presentation conten
 - Editable mode (some prompts)
 - Light/dark theme support (some prompts)
 
-<!-- x-categorized-imports:start -->
-## X-Derived Experimental Prompts
+<!-- integrated-catalog:start -->
+## Additional Prompts
 
-Additional prompts imported from X are currently published on the Japanese route for this category. The Japanese archive keeps the original wording, source context, and experimental status visible.
+These canonical prompt pages are maintained on the Japanese source-of-truth route until English translations are available.
 
-- total items: 38
-- status: experimental reference track
-- [Open the Japanese X-derived archive](/prompt-catalog/docs/graphic-recording/x/)
-<!-- x-categorized-imports:end -->
+- total items: 32
+
+### Subcategories
+
+- [Diagram Boards](./diagram-boards/)
+- [Isometric Diagrams](./isometric-diagrams/)
+- [Slide Infographics](./slide-infographics/)
+
+### Canonical Prompt Pages
+
+- [Diagram Graphic Recording Character 2025](../../../../prompt-catalog/docs/graphic-recording/diagram-graphic-recording-character-2025.md) - プロフェッショナルなグラフィックレコーディング(図解)スタイル。温かみのある水彩画の質感、柔らかな筆跡、手書きのインク線、淡いパステルカラーの配色を融合。アナログな紙のテクスチャが感じられる、親しみやすく知的な雰囲気。
+- [Wabon Profile Infographic](../../../../prompt-catalog/docs/graphic-recording/wabon-profile-infographic.md) - 古文書スタイルで人物プロフィールを可視化する和本風インフォグラフィック。
+- [Magazine Profile Spread](../../../../prompt-catalog/docs/graphic-recording/magazine-profile-spread.md) - 雑誌の表紙と見開きで人物プロフィールを整理するエディトリアル図解。
+- [Magazine Spread Typesetting](../../../../prompt-catalog/docs/graphic-recording/magazine-spread-typesetting.md) - 本文を雑誌見開きのエディトリアルレイアウトへ組版するプロンプト。
+- [Graphic Recorder Thinking Process](../../../../prompt-catalog/docs/graphic-recording/graphic-recorder-thinking-process.md) - 入力テキストを図解化するための思考手順まで含めたグラフィックレコーディング用プロンプト。
+- [Comic Character V2 0](../../../../prompt-catalog/docs/graphic-recording/comic-character-v2-0.md) - コミック風HTMLジェネレーター プロンプト V2.0 爆誕!
+- [Comic V1 0](../../../../prompt-catalog/docs/graphic-recording/comic-v1-0.md) - コミック調HTMLジェネレーター プロンプト V1.0 爆誕
+<!-- integrated-catalog:end -->

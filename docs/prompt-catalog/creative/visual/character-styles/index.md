@@ -1,0 +1,148 @@
+---
+title: "キャラクタースタイル"
+description: "キャラクタースタイル の正規プロンプト一覧"
+category: "creative"
+---
+
+# キャラクタースタイル
+
+- 総件数: 136
+
+## 収録プロンプト
+
+- [シズクちゃんのDiscordサーバーで自作スタンプって作れるのを発見したので作ってみる❶](./background-character-discord-part-1.md) - 画像1のキャラクターのDiscordの絵文字を4x4の16個作成して。背景は灰色にして
+- [Meshy触ってみる❸](./nano-banana-pro-figure-character.md) - ねんどろいどフィギュア化して
+- [Collage Chibi Character Catfolk](./collage-chibi-character-catfolk.md) - 2頭身の絵本ちびキャラ、白い猫人族の大賢者、フルボディ、縦長、紙の舞台に立つ。切り絵+紙コラージュ、紙の繊維とレイヤー影が見える。周囲に飛び出す絵本ページ、折…
+- [Chibi Catfolk Sage Baroque](./chibi-catfolk-sage-baroque.md) - 2頭身SDの白い猫人族の大賢者、頭〜足先までのフルボディ、縦長の肖像画構図。バロック油彩風、劇的明暗、重厚な質感を“ちび体型”に落とし込む。豪華な刺繍ローブを…
+- [Drone Chibi Catfolk Sage](./drone-chibi-catfolk-sage.md) - 「2頭身ちびの白い猫人族の大賢者、全身が切れないフルボディ、縦長、中距離で余白あり。サイバーパンクのネオン霧、発光する魔術回路ローブ。ホログラムの魔導書ページ…
+- [Collage Chibi Character Catfolk Sage](./collage-chibi-character-catfolk-sage.md) - 2頭身のちびキャラ、白い猫人族の大賢者、全身フルボディ(頭から足先まで)、縦長、中央に立つ。頭が大きく体が小さいSD比率、短い手足、丸い肉球。和風ローブと袴風…
+- [Grokにはちびキャラも結構いい感じに出るぞ!!!](./chibi-character-grok-young.md) - Chibi young daitengu boy, black small wings, amber eyes, black hair, tiny fang…
+- [Hand Forged Metal Figurine Bipedal](./hand-forged-metal-figurine-bipedal.md) - A hand-forged metal figurine of a bipedal cat wizard, assembled from aged coppe…
+- [GLM4.7 × ClaudeCode で 協調マルチエージェントにデビュー❷](./agent-glm4-7-claudecode-breathtaking.md) - A breathtaking 3D composition showcasing "cc ensemble" rendered in a majestic a…
+- [layout_reproduction": &#123;](./reproduction-123-concept-pop-out.md) - &#123;
+- [nano banana pro で ドット絵GIFに挑戦中❾](./nano-banana-pro-background-character.md) - 添付のドット絵の緑のハリネズミのキャラクターの4x7のゲームで使えるスプライトシートを生成して、背景は黒
+- [nano banana pro で ドット絵GIFに挑戦中❽](./nano-banana-pro-character-nano.md) - Flat pixel art style with zero shading.
+- [グラビティプロンプト × 映画垂直ミニチュアプロンプトでめちゃ良いのできたぞ!!!](./nano-banana-pro-miniature-diorama.md) - あなたは**物語構造を視覚化する建築家兼コンセプトアーティスト**です。
+- [騎士 VS ドラゴン でも結構いい感じにになる!!](./title-collector-edition-chess.md) - Title: Collector’s Edition Chess Set — DRAGONS vs KNIGHTS
+- [光を通す「ステンドグラス(Stained...](./nano-banana-pro-new-year-card-character.md) - 参照画像 &#91;Image 1&#93;〜&#91;Image 4&#93; のキャラクターIDを使用。
+- [まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ⓱](./nano-banana-pro-new-year-card-character-stained-glass.md) - 参照画像 &#91;Image 1&#93;〜&#91;Image 4&#93; のキャラクターIDを使用。
+- [参照画像の頭身・特徴を維持しつつ、「マンガ家のイラスト(コミックアート)」のタッチに変換する。](./nano-banana-pro-comic-new-year-card.md) - 参照画像 &#91;Image 1&#93;〜&#91;Image 4&#93; のキャラクターIDを使用。
+- [ちびキャラの場合: 王道の「16bit ドット絵キャラクター」として描画。](./chibi-new-year-card.md) - 参照画像 &#91;Image 1&#93;〜&#91;Image 4&#93; のキャラクターIDを使用。
+- [参照画像の頭身・特徴を維持しつつ、「油絵具のタッチ」で描画する。](./nano-banana-pro-new-year-card-character-impressionism.md) - 参照画像 &#91;Image 1&#93;〜&#91;Image 4&#93; のキャラクターIDを使用。
+- [参照画像の頭身・形状を維持しつつ、質感のみを「上質な紙(Paper Texture)」に変換する。](./nano-banana-pro-new-year-card-character-paper.md) - 参照画像 &#91;Image 1&#93;〜&#91;Image 4&#93; のキャラクターIDを使用。
+- [まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ❿](./nano-banana-pro-new-year-card-character-1980.md) - 参照画像 &#91;Image 1&#93;〜&#91;Image 4&#93; のキャラクターIDを使用。
+- [まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ❾](./nano-banana-pro-new-year-card-character-game.md) - 参照画像 &#91;Image 1&#93;〜&#91;Image 4&#93; のキャラクターIDを使用。
+- [まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ❽](./nano-banana-pro-new-year-card-editorial.md) - 参照画像 &#91;Image 1&#93;〜&#91;Image 4&#93; のキャラクターIDを使用。
+- [まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ❼](./nano-banana-pro-new-year-card-character-art.md) - 参照画像 &#91;Image 1&#93;〜&#91;Image 4&#93; のキャラクターIDを使用。
+- [まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ❻](./chibi-new-year-card-character.md) - 参照画像 &#91;Image 1&#93;〜&#91;Image 4&#93; のキャラクターIDを使用。
+- [まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ❺](./nano-banana-pro-figure-miniature.md) - 参照画像 &#91;Image 1&#93;〜&#91;Image 4&#93; のキャラクターIDを使用。
+- [まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ❹](./nano-banana-pro-new-year-card-character-cyberpunk.md) - 参照画像 &#91;Image 1&#93;〜&#91;Image 4&#93; のキャラクターIDを使用。
+- [まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ❸](./chibi-new-year-card-character-part-3.md) - 参照画像 &#91;Image 1&#93;, &#91;Image 2&#93;, &#91;Image 3&#93;, &#91;Image 4&#93; を使用。
+- [まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ❷](./chibi-new-year-card-character-2026.md) - 参照画像 &#91;Image 1&#93;, &#91;Image 2&#93;, &#91;Image 3&#93;, &#91;Image 4&#93; を使用。
+- [まだ間に合う!nanobanana pro オリキャラ年賀状シリーズ❶](./chibi-new-year-card-zodiac.md) - 参照画像 &#91;Image 1&#93;, &#91;Image 2&#93;, &#91;Image 3&#93;, &#91;Image 4&#93; を使用。
+- [形状:画面下部(タスクバー位置)にフィットする極めて横長の水平ストリップ。](./background-character-preserve-from.md) - Image 1のキャラクターを統合した、透過処理(クロマキー合成)専用の配信オーバーレイ・バーを生成してください。
+- [TASK (ANALYSIS & CHARACTER SELECTION):](./analysis-character-selection-multilayered.md) - 多層的ナラティブ・象形(Multilayered Narrative Figurative)」。ユーザーから提示されたURL先の記事、見出し、活動内容を深層解析し、1年間の本質を射抜く「唯一無二の漢字一文字」を特定・可…
+- [対象人物を「RPGキャラクター」として再解釈し、](./business-card-character.md) - nanobanana pro RPGステータス画面Xプロフプロンプト爆誕🔥
+- [FRONT & BACK VISIBILITY(裏表が分かる構図の必須要件):](./business-card-icon.md) - nanobanana pro名刺ケース Xプロフプロンプト爆誕🔥
+- [表面よりも多い「6〜9個」のミニマルなピクトグラムを、精密なグリッド状(例:3x2または3x3)に配置。](./business-card-colormap-logo-icon.md) - Xプロフ名刺プロンプト V3爆誕🔥オリジナルキャラクターのカラーマップを考慮して名刺の表と裏を作成してくれます!
+- [ロゴ・アイコンの統合:](./business-card-colormap-logo-icon-profile.md) - Xプロフ名刺プロンプト V2爆誕🔥オリジナルキャラクターのカラーマップを考慮して名刺にしてくれます!
+- [刻印されている「10」という数字と平等院鳳凰堂を中心に、](./miniature-microphone-role.md) - Role
+- [刻印されている「100」という数字そのものを](./miniature-microphone-canvas-paper-100.md) - Role
+- [刻印されている「500」という数字そのものを](./miniature-microphone-500-role.md) - Role
+- [ステージはその土地のランドマークや地形、都市景観を最大限に活かした特設会場。](./character-composition-stage-24mm.md) - フォトリアルなライブ・コンサート・ドキュメンタリー。熱狂的な観客の熱気と、その土地固有の空気感やライティングを融合させたシネマティックな視覚表現。
+- [ステージはその土地のランドマークや地形、都市景観を最大限に活かした特設会場。](./character-composition-stage-24mm-gpt.md) - GPT Image 1.5 でワールドツアープロンプト V1爆誕🔥
+- [最終的に、「最初からこの人物を全身撮影した写真」としか思えない完成度を目指してください。](./outfit-swap-character-gpt-image-1-5.md) - 入力された顔画像の人物を基に、同一人物であると誰が見ても分かるように顔立ち・肌質・表情・年齢感・雰囲気を正確に保持したまま、自然な全身像を生成してください。
+- [・イラストは「図解・アイコン・シンプルな模式図」のみ使用可](./diagram-slides-logo-icon.md) - 以下の条件をすべて厳密に守って、解説用スライドを作成してください。
+- [reference_image: "[添付のキャラクター画像をここに参照させる]](./nano-banana-pro-character-reference.md) - Nano Banana Pro Prompt: Character-Shaped Mikoshi (Statue Style)
+- [ブリーフ型:大人数・シネマティック集合写真](./photorealistic-editorial-grade-realism-natural.md) - Photorealistic, editorial-grade realism, natural skin texture, subtle film grain.
+- [あなたはカオスな日常を切り取るドキュメンタリー写真家です。](./nano-banana-pro-character-thinking.md) - あなたは**カオスな日常を切り取るドキュメンタリー写真家**です。
+- [画像のキャラクターで青い線のボーンを参考にしてポーズを変更して](./nano-banana-pro-character-google.md) - 私も、Google Gemini Advancedのアノテーション機能使ってエリアしてnanobanana proで服装を変えてみた4⃣
+- [この画像の人物の服を着せ替えてください。スーツに変更してください。](./nano-banana-pro-outfit-swap-google.md) - 私も、Google Gemini Advancedのアノテーション機能使ってエリアしてnanobanana proで服装を変えてみた!
+- [バナナプロンプトエージェント V1.3使って 「ダークファンタジー四天王」プロンプト作ってみた!](./dark-fantasy-four-heavenly-kings.md) - あなたは重厚な世界観を描き出すダークファンタジーのコンセプトアーティストです。
+- [▼ 生成プロセスへの指示 (Thinking Process)](./nano-banana-pro-presentation-thumbnail.md) - あなたは、認知科学(神経科学、心理学、行動経済学)の知見をクリエイティブに統合する「適応的顕著性モデル」の専門家であり、トップクラスのアートディレクターです。
+- [あなたは新規サービスの立ち上げやリデザインを得意とする、経験豊富なシニアUI/UXデザイナーです。](./video-ui-ux-web.md) - あなたは新規サービスの立ち上げやリデザインを得意とする、経験豊富なシニアUI/UXデザイナーです。
+- [あなたは新規サービスの立ち上げやリデザインを得意とする、経験豊富なシニアUI/UXデザイナーです。](./video-ui-ux-web-20251209.md) - あなたは新規サービスの立ち上げやリデザインを得意とする、経験豊富なシニアUI/UXデザイナーです。
+- [あなたは新規サービスの立ち上げやリデザインを得意とする、経験豊富なシニアUI/UXデザイナーです。](./nano-banana-pro-video-agent.md) - nano banana pro エージェントV1.2で VideコーディングしたアプリのUIを刷新するプロンプト作成した🔥
+- [あなたは幻想的な世界観を構築する「ミニチュア・セットデザイナー兼ポートレート写真家」です。](./nano-banana-pro-miniature-diorama-character.md) - あなたは**幻想的な世界観を構築する「ミニチュア・セットデザイナー兼ポートレート写真家」**です。
+- [あなたは伝説的な王宮地図製作者(ロイヤル・カートグラファー)です。](./fantasy-world-map-background.md) - nano banana pro エージェントV1.2を使って空想の世界地図を作成する「王宮地図製作者(ロイヤル・カートグラファー)」プロンプト爆誕🔥
+- [あなたは伝説的な王宮地図製作者(ロイヤル・カートグラファー)です。](./fantasy-world-map-background-character.md) - nano banana pro エージェントV1.2を使って空想の世界地図を作成する「王宮地図製作者(ロイヤル・カートグラファー)」プロンプト爆誕🔥
+- [あなたはホラー系コンセプトアーティスト兼YouTubeサムネイル専門家です。](./horror-thumbnail-thumbnail.md) - あなたは**ホラー系コンセプトアーティスト兼YouTubeサムネイル専門家**です。
+- [あなたはライフスタイルを記録するフォトエッセイスト兼グラフィックデザイナーです。](./nano-banana-pro-housework-character.md) - あなたは**ライフスタイルを記録するフォトエッセイスト兼グラフィックデザイナー**です。
+- [あなたは超現実主義のコンセプトアーティスト兼水族館デザイナーです。](./nano-banana-pro-car-character.md) - あなたは**超現実主義のコンセプトアーティスト兼水族館デザイナー**です。
+- [あなたは国立博物館の展示を手掛ける「マスター・ジオラマ・アーキテクト(建築模型士)」です。](./nano-banana-pro-diorama-crowd.md) - あなたは国立博物館の展示を手掛ける**「マスター・ジオラマ・アーキテクト(建築模型士)」**です。
+- [あなたは世界的に著名な「ミニチュア・ジオラマ作家兼写真家」です。](./nano-banana-pro-figure-miniature-diorama.md) - nano banana pro エージェントV1.2を使って、経度と緯度を指定したら、その場所のジオラマができる
+- [あなたは「赤ちゃんの成長記録を専門とするアニバーサリーフォトグラファー」です。](./anniversary-photo-character.md) - nano banana pro エージェントV1.2使って「赤ちゃんのアニバーサリーフォトグラファープロンプト」作ってみた!!
+- [バナナプロンプトエージェント V1.2使って「ニューボーンフォトグラファープロンプト」作ってみた!!](./newborn-photo-character.md) - あなたは「熟練のニューボーンフォトグラファー兼グリーティングカードデザイナー」です。
+- [あなたは世界トップクラスのトラベルインフルエンサー兼アートディレクターです。](./travel-influencer-travel.md) - nano banana pro ✖ トラベルインフルエンサープロンプト V2 使って「サントリーニ島・イア」に行ってみた!!
+- [Nano Banana Proの推論能力を活かし、描画前に以下の「映え」の方程式を解いてください。](./travel-influencer-travel-character.md) - あなたは世界トップクラスのトラベルインフルエンサー兼アートディレクターです。
+- [トラベルフォトグラファープロンプト V1 」で二重カルデラの孤島:青ヶ島(日本・東京)を旅してきた!!](./travel-photographer-background.md) - あなたは熟練のトラベルフォトグラファー兼ライティングディレクターです。
+- [3x3グリッドプロンプトをトラベルフォトグラファープロンプトをコラボしてみた!!!](./travel-photographer-travel-ootd.md) - 【全体的な画面設定】
+- [トラベルフォトグラファープロンプト V1 」でアンテロープ・キャニオン を旅してきた!!](./travel-photographer-background-travel.md) - あなたは熟練のトラベルフォトグラファー兼ライティングディレクターです。
+- [トラベルフォトグラファープロンプト V1](./travel-photographer-background-travel-character.md) - あなたは熟練のトラベルフォトグラファー兼ライティングディレクターです。
+- [2人で秘境探検プロンプトを開発中2⃣](./remote-expedition-location-travel-character.md) - 《位置情報》緯度と経度が38.643093, 34.828825の位置
+- [これをベースに2人で秘境探検プロンプトを開発中、、、](./remote-expedition-background-location-travel.md) - 《位置情報》緯度と経度が38.643093, 34.828825の位置
+- [《時間・天気》地元の現在の時間雰囲気とリアルタイムの天気を反映](./location-character.md) - 《位置情報》緯度と経度が35.31721720077321, 139.5357227423284の位置
+- [《時間・天気》地元の現在の時間雰囲気とリアルタイムの天気を反映](./location-photo-book-editorial-character.md) - 位置情報》緯度と経度が35.31721720077321, 139.5357227423284の位置
+- [《時間・天気》地元の現在の時間雰囲気とリアルタイムの天気を反映](./location-photo-book-editorial-street-fashion.md) - 《位置情報》緯度と経度が35.31721720077321, 139.5357227423284の位置
+- [《時間・天気》地元の現在の時間雰囲気とリアルタイムの天気を反映](./location-photo-book-editorial-character-20251206.md) - 《位置情報》緯度と経度が35.31721720077321, 139.5357227423284の位置
+- [《時間・天気》地元の現在の時間雰囲気とリアルタイムの天気を反映](./location-character-20251206.md) - 《位置情報》緯度と経度が35.31721720077321, 139.5357227423284の位置
+- [《時間・天気》地元の現在の時間雰囲気とリアルタイムの天気を反映](./location-photo-book-editorial-character-post-937267.md) - 《位置情報》緯度と経度が35.31721720077321, 139.5357227423284の位置
+- [《時間・天気》地元の現在の時間雰囲気とリアルタイムの天気を反映](./location-photo-book-editorial-character-post-228644.md) - 《位置情報》緯度と経度が35.31721720077321, 139.5357227423284の位置
+- [Format: "&#123;Portrait (3:4) or Square (1:1)&#125;](./diagram-portrait-you-are.md) - You are the Art Director for a sophisticated Japanese women's fashion &amp; lifesty…
+- [3Dアイソメトリック・ピクト図解 V3](./isometric-pictogram-diagram-miniature-diorama-diagram.md) - ビジュアルスタイル
+- [下記について、添付のキャラクターを使用して3Dミニチュアのアイソメトリックなピクト図解して](./isometric-pictogram-diagram-miniature-diagram-character.md) - アイソメトリックなピクト図解」プロンプトを改造してオリジナルキャラクター ✖ 3D ミニチュア要素も入れたらメッチャ可愛くなった!
+- [Avatar Standing Confidently Character](./avatar-standing-confidently-character.md) - Standing confidently, the character is singing joyfully, gazing directly at the…
+- [あなたはポップカルチャーに精通したイラストレーターAIです。](./diagram-character-sns.md) - あなたはポップカルチャーに精通したイラストレーターAIです。
+- [action: "transform](./action-transform-base-direction.md) - 黒化プロンプトの研究中3⃣
+- [type: "dark corrupted version](./dark-corrupted-transformation-target.md) - 聖騎士、フォトリアル、パラディン、幻想的、神秘的な装備、全身
+- [nano banana pro 黒化プロンプトの研究中1⃣](./dark-transformation-template.md) - 黒化プロンプトテンプレート
+- [Nano Banana Pro Slides Character](./nano-banana-pro-slides-character.md) - 1スライドの画像を参考にして、「まき」と「こはく」を登場させてLLMについての解説スライドを葛飾北斎の浮世絵風に4スライド生成して 全部のスライドを1つの画像…
+- [title: "こはく - 天空の鏡に落ちる](./nano-banana-pro-aerial-travel.md) - photobook:
+- [Nano Banana Pro で マチュピチュの上空を飛んでみた!](./nano-banana-pro-background-cloud-sea.md) - 緯度と経度が-13.1631, -72.5450の位置の上空に馴染む空撮の写真集を作成してください。指定のキャラクターがその場所から落下してるように馴染ませて…
+- [Nano Banana Pro 1 Video](./nano-banana-pro-1-video.md) - 緯度と経度が21.280773495217826, -157.83667385084246の位置の上空に馴染む空撮の写真集を作成してください。指定のキャラクタ…
+- [あなたは「こはく」と「じん」専属の漫画家AIです。](./character-gem.md) - 日本式ミニストーリー漫画プロンプトを改造してGem化してみました!!!
+- [プロのファッションアーキビスト兼テクニカルデザイナーとして行動してください。](./wardrobe-style-collage.md) - タスク: アップロードされた画像に基づいて、包括的な「ワードローブ解体&amp;スタイルプロファイル」コラージュを作成する
+- [Higgsfield の Nano Banana Pro ✖ LINE絵文字プロンプト開発中1⃣](./nano-banana-pro-christmas.md) - 画像のキャラクターをベースに、Q版(デフォルメ/ちびキャラ)のLINE絵文字セットを作成してください。
+- [カラフルな手描き風](./line-stickers-expression-set.md) - 画像のキャラクターをベースに、Q版(デフォルメ/ちびキャラ)のLINEスタンプ風バストアップ表情集を作成してください。
+- [すべてのスプライトは鮮やかな緑色の背景上に配置されている。](./line-stickers-animation.md) - このキャラクターで、3x3グリッド正方形のLINEスタンプアニメーションのスプライトシート。各列は異なる3フレームアニメーションを示す。
+- [このキャラクターの設定資料集を作成して。](./nano-banana-pro-character-sheet.md) - Higgsfield の Nano Banana Pro お試し31
+- [背景はグリーンバック。文字は白縁にしないで。](./nano-banana-pro-background.md) - 添付画像のキャラクターをちびキャラにして。4x4の16種類のLINEスタンプが描かれた正方形の一覧画像を作成してください。スタンプの種類は、送られた相手が笑っ…
+- [添付画像のキャラクターをちびキャラにして。LINEスタンプアニメーションの各フレームを作成。4x3で12フレームを生成。](./line-stickers-animation-chibi.md) - Higgsfield の Nano Banana Pro お試し24
+- [添付画像のキャラクターをちびキャラにして。LINEスタンプを作成。表情・ポーズ別・セリフ入で12種類。](./line-stickers-expression-set-chibi.md) - Higgsfield の Nano Banana Pro お試し23
+- [全体の構図とスタイル:](./nano-banana-pro-nano.md) - Higgsfield の Nano Banana Pro お試し21
+- [make an ID card](./nano-banana-pro-character.md) - Higgsfield の Nano Banana Pro お試し⓳
+- [このキャラで、4x3=12種類LINEスタンプが描かれた一覧画像作って。スタンプ種類はごく標準的なセットで。背景は白。](./line-stickers-expression-set-sheet-pro.md) - Higgsfield の Nano Banana Pro お試し⓲
+- [このペンギンキャラクターを使用して「プロバナナシェフ」というポップなプロのデザインしたサムネイルを作成して](./nano-banana-pro-thumbnail.md) - Higgsfield の Nano Banana Pro お試し⓱
+- [このキャラクターのCDアルバム「Neon Bends Over Water」のジャケット画像を生成して。](./nano-banana-pro-character-neon.md) - Higgsfield の Nano Banana Pro お試し⓯
+- [Gemini web 「Nano Banana Pro」で遊んでみる2⃣](./business-card-character-web.md) - このキャラクターの古風な名刺の画像を生成して
+- [Business Card Character Multi](./business-card-character-multi.md) - このキャラクターの画像を使用したクールなデザインの近未来的な名刺、名前は「MURASAKI」 電話番号は「000-x9x9-y0y0y」 メールアドレスは 「…
+- [Higgsfield Popcorn 実験記録1⃣4⃣](./higgsfield-popcorn-reference-soft.md) - Using the reference image of a soft, plush penguin character wearing a tiny exp…
+- [A 9-panel slice-of-life cooking manga storyboard, 3×3 square layout.](./housework-9-panel-slice-of-life-cooking.md) - 自作シートV2 ✖ 料理やってみた
+- [Bakery Café](./1-bakery-caf-cute.md) - 🥐 Bakery Café
+- [Kandinsky Yokai Unleashes Forbidden](./kandinsky-yokai-unleashes-forbidden.md) - A yokai unleashes a forbidden technique — time freezes mid-activation. The came…
+- [objective: "陽だまりでくつろぐ茶トラ猫の穏やかな朝を伝える](./higgsfield-objective-s001-plan.md) - shot_id: S001
+- [東京ai祭で《illustrious》というサービス見つけた2⃣](./illustrious-photorealistic-full-body-portrait.md) - Photorealistic full-body portrait of a beautiful snake-woman yokai with long ob…
+- [Tambahan (opsional):](./tambahan-opsional-young-man.md) - A young man wearing a light blue hoodie, holding a black pen, standing against…
+- [Leave it to me!" (confident pose)](./line-stickers-leave-confident-pose.md) - Design a set of 9 square stickers arranged in a 3x3 grid, featuring the same ad…
+- [3x3 grid of 9 square icons, featuring the same cute owl character.](./line-stickers-grid-icons-featuring.md) - HunyuanImage 3.0 で falで使ってみた3⃣
+- [High-resolution, clean, and polished anime style.](./seedream-chibi-character-high-resolution.md) - Create a group photo using the three provided character reference images.
+- [ゴシックなカフェの肖像](./video-cafe-moody-portrait.md) - 1. ゴシックなカフェの肖像
+- [ゴシックなカフェの肖像](./video-cafe-moody-portrait-tall.md) - 1. ゴシックなカフェの肖像
+- [Prompt 1](./surreal-one-line-drawing-ethereal.md) - 🌌 Prompt 1
+- [The Power Shirt](./seedream-power-shirt-striking.md) - 📒 1. The Power Shirt
+- [私もプロフィール画像から動画と音声を生成してみた!](./seedream-video-yokai-profile.md) - Seedream V4用プロンプト(和装アイドル・妖怪世界Ver.)
+- [Yokai Srpo Photorealistic Full Body](./yokai-srpo-photorealistic-full-body.md) - Photorealistic full-body portrait of a beautiful snake-woman yokai with long ob…
+- [私も蛇女でプロフィール写真作ってみた!!!](./yokai-profile-typographic-art.md) - Create a typographic art portrait themed around the mysterious **world of Japan…
+- [1 Kitsune(狐)ブランドストア](./yokai-yuki-onna-kitsune-photorealistic.md) - 妖怪をテーマにWhiskでやってみた!
+- [Make an isometric model of the Yokai Tower only.](./isometric-model-yokai-tower.md) - 私も、Gemini 2.5 Flash で「isometric model」プロンプトやってみた!
+- [マイクを持たせて、歌っている画像を生成して](./microphone-singing.md) - Geminiアップデートがキタので、早速「gemini-2.5-flash-image-preview(nano banana)」を使ってみた4⃣
+- [画像の女性がクリスタルの古城で画像のマイクを持って歌っている横長の画像を生成して](./crystal-castle-singing-microphone.md) - Geminiアップデートがキタので、早速「gemini-2.5-flash-image-preview(nano banana)」を使ってみた2⃣
+- [1 神秘的・霊的アーティファクト風](./yokai-cafe-highly-detailed.md) - Caffeine Sculptures を妖怪の世界観風にしてやってみた!
+- [これを参考にしてロボット✖スケルトン風にしてみた!! #YokaiParae](./mecha-yokaiparae-kitsune-transparent.md) - 🦊 Kitsune Mecha(九尾メカ狐)
+- [これを参考にしてロボット✖スケルトン風にしてみた!! #YokaiParae](./mecha-yokaiparae-kitsune-transparent-robotic.md) - 🦊 Kitsune Mecha(九尾メカ狐)
+- [Kitsune(狐)](./yokai-kitsune-minimalist-black-and-white.md) - 🦊 Kitsune(狐)
+- [現実×シュール乗り物をImagen4✖Veo3で生成してみた!!!](./imagen4-dawn-hyper-realistic-wasabi-glass.md) - Scene: Dawn. A hyper-realistic, wasabi-glass nigiri car zooms along an airborne…
+- [現実×シュール乗り物 一括生成プロンプト V1.0」できた!!!](./video-english-auto-generated-here.md) - 現実×シュール乗り物 一括生成プロンプト V1.0
+- [image_type: awakened_eye_photoreal_v1](./awakened-eye-photoreal-awakened-eye.md) - Awakened-Eye Warrior — photoreal · cinematic · VFX (v1.0)
+- [size: &#123; width: "2048px", height: "2731px" &#125;](./castle-tree-bottle-solar-castle.md) - Castle-Tree Bottle &amp; “Solar Castle” Typography — watercolor · charcoal · mixed‐…
+- [size: &#123; width: "2048px", height: "3640px" &#125;](./diorama-android-head-continent.md) - Android Head Continent Diorama — hyper-realistic · isometric · high-detail (v1.…

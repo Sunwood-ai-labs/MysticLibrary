@@ -1,0 +1,140 @@
+---
+title: "Voxel(立方体/低ポリ)表現で、日本庭園+四層パゴダを描画"
+description: "あなたは上級フロントエンドエンジニアです。以下の仕様を完全に満たす、即実行可能な単一ファイルの HTML アプリ(index.html)を生成してください。目…"
+category: "dev"
+intent: "developer-prompt"
+audience:
+  - 利用者
+input_requirements:
+  - 依頼内容
+tags:
+  - dev
+  - templates
+  - app-scaffolds
+  - voxel
+  - spec
+  - index
+status: stable
+owner: prompt-catalog-team
+last_reviewed: 2026-03-19
+source_platform: x
+source_author: "hAru_mAki_ch"
+source_post_id: "1964160027448791278"
+source_url: "https://x.com/hAru_mAki_ch/status/1964160027448791278"
+source_published_at: "2025-09-06T02:53:37.000Z"
+source_archive_path: "docs/prompt-catalog/archive/x/2025/09/1964160027448791278.md"
+source_note_ids:
+  - 1964160027008389120
+canonical_id: "dev/templates/app-scaffolds/voxel-spec-index-html-minecraft"
+prompt_source: "prompts/docs-first/dev/templates/app-scaffolds/voxel-spec-index-html-minecraft_JP.md"
+---
+
+# Voxel(立方体/低ポリ)表現で、日本庭園+四層パゴダを描画
+
+あなたは上級フロントエンドエンジニアです。以下の仕様を完全に満たす、即実行可能な単一ファイルの HTML アプリ(index.html)を生成してください。目…
+
+## プロンプト本文
+~~~text
+あなたは上級フロントエンドエンジニアです。以下の仕様を完全に満たす、即実行可能な単一ファイルの HTML アプリ(index.html)を生成してください。目的は Three.js による「ボクセル・パゴダ庭園」(Minecraft風)シーンの安定表示です。外部ビルド不要・CDNのみ。
+
+## 目標
+- Voxel(立方体/低ポリ)表現で、日本庭園+四層パゴダを描画
+- 安定・滑らかに動作し、リサイズ対応・操作説明UI付き
+- 依存は CDN のみ、単一の index.html で完結
+
+## 使用ライブラリ(バージョン固定・CDN)
+- three.js r128(本体): https://t.co/aKhFecI3VL
+- OrbitControls(r128準拠): https://t.co/PP0pjt25Ap
+- Vanta Waves(背景の微動アニメ、任意ON/OFF可): https://t.co/JAATHLKzqJ
+
+## ページ構成(DOM)
+- `<canvas>` は Three.js が生成・管理(`renderer.domElement`を`body`直下にappend)
+- 画面左上に操作説明の HUD(`#info`)
+- 画面中央にローディングオーバーレイ(`#loading`)...初期化完了後に非表示
+- 余白やスクロールバーが出ない全画面
+
+## 初期化・安定動作要件
+- `window.addEventListener('load', init)` で初期化
+- `renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))`
+- `renderer.shadowMap.enabled = true`
+- `camera = new THREE.PerspectiveCamera(75, aspect, 0.1, 1000)`; 位置は `(15,15,15)` 付近
+- `controls.enableDamping = true` / `dampingFactor=0.05`
+- リサイズ対応(`resize`イベントで aspect, projection, size を更新)
+- 60fps上限を意識した軽量描画(無駄なジオメトリ生成を避ける)
+- `prefers-reduced-motion` を尊重して Vanta / 回転などを抑制可能
+- スマホでのピンチズーム・ドラッグの快適性(passive: true)
+
+## シーン仕様(関数分割・再利用可能)
+必ず以下の関数を実装・呼び出すこと。各関数は必要な Mesh を生成して scene に add する。
+- `createPagoda(scene, materials)`
+ - 4層パゴダ:各階は赤系ボディ+オレンジ屋根、屋根の四隅は反り上がり風のボクセル、最上部に金色の相輪(シンプルな柱・円柱OK)
+ - 各層に白い小窓、金色の手すり(簡易レール)を追加
+- `createTrees(scene, materials)`
+ - 複数の位置に「桜の木」(ピンクのボクセル花塊)と「松」(濃緑の段構成)を配置
+ - 桜は花びら(小ボクセル)を数十個ランダム散布
+- `createGardenElements(scene, materials)`
+ - パゴダへ続く“飛び石”の石畳(灰色タイル状)
+ - 石灯籠(赤+オレンジ屋根+内側ライト風キューブ)
+ - ベンチ(茶色)を数脚
+ - 池(半透明の青い円+睡蓮の葉/黄緑ボクセル、鯉=赤/橙/黄の小ボクセル)
+ - 池に木造の小橋(ブラウン、手すりポスト)
+- `createPond(scene, materials)` / `createBridge(scene, materials)` などは分割可
+- `createRoof(group, size, height, overhang, material, yPosition)` のような屋根ユーティリティを用意
+- `addDecorativeElements(group, materials)` で窓や柵など装飾追加
+
+## マテリアル・配色
+- Lambert系で十分(例:`new THREE.MeshLambertMaterial({color:0xff3333})`)
+- 最低限:`red, orange, yellow, green, blue, purple, pink, white, brown, darkBrown, lightGreen, darkGreen, cherryBlossom(=0xFFB7C5), gold(=0xFFD700)`
+- 地面は大きなグリーンボクセル(50×1×50)で花(小ボクセル)をランダム散布
+
+## 照明・空・影
+- `AmbientLight(0xffffff, 0.6)` と `DirectionalLight(0xffddaa, 1)`(影ON、mapSize 2048)
+- 背景は晴天のグラデーション(`renderer.setClearColor(0x87CEEB)` 等)。Vanta Waves を背景装飾として任意適用可(`prefers-reduced-motion`がtrueなら無効)
+- 影を受ける/落とす設定(`receiveShadow`/`castShadow`)を主要メッシュに適用
+
+## アニメーションループ
+- `requestAnimationFrame(animate)` で `controls.update()` → `renderer.render(scene, camera)`
+- グローバル状態は最小限、タイマー/Intervalは使用しない
+
+## アクセシビリティ・UX
+- `#loading` は aria-live(polite)相当の文言で、初期化完了後に `display:none`
+- `#info` に「マウスで回転/ホイールでズーム」の説明
+- キーボード代替(W/A/S/D 回転、Q/E ズーム)も可能なら実装(任意)
+
+## コード品質
+- 単一の `index.html` で完結(追加JS/CSSファイルなし、インライン可)
+- ESLint 的に問題が出ない素直な構文
+- コンソールエラー・未使用変数なし
+- コメントでセクション見出し(// === Init === 等)
+- 日本語コメントOK
+
+## 成果物(出力形式)
+- **完全な `index.html`**(doctype, `<html>`, `<head>`, `<body>` 含む)
+- すべての `<script src>` は上記CDNを使用し、順序正しく読み込み
+- 実行手順:ローカルでダブルクリック or 任意の静的サーバで即表示できること
+
+## 受け入れ基準(手動テスト)
+- 起動時にローディング → 1秒以内で消える
+- マウス操作でカメラ回転・ズームがスムーズ(慣性あり)
+- 画面リサイズで安全に再レイアウト
+- パゴダ(4層)、石畳、灯籠、ベンチ、池(鯉・睡蓮)、木(桜・松)、橋が視認可能
+- 影が落ち、色が鮮やか、背景が青空系グラデ
+- エラー・警告がコンソールに出ない
+
+## 追加オプション(任意フラグ)
+- `const ENABLE_VANTA = true` で背景アニメON/OFF
+- `const REDUCED_MOTION = window.matchMedia('(prefers-reduced-motion: reduce)').matches;` なら Vanta/装飾軽減
+- 低解像度端末向けに描画負荷を軽減(pixelRatio clamp、花・花びら・鯉の数を条件分岐で削減)
+
+以上を満たす **完成済みの index.html** を生成してください。
+~~~
+
+## ソース文脈
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1964160027448791278" />
+</ClientOnly>
+
+## 出典
+- primary post: [1964160027448791278](https://x.com/hAru_mAki_ch/status/1964160027448791278)
+- published at: 2025-09-06 11:53:37 JST
+- archive doc: [1964160027448791278](../../../archive/x/2025/09/1964160027448791278.md)

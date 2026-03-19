@@ -22,12 +22,15 @@ This is a collection of prompts for writing emails, notices, summaries, and othe
 - State the purpose first (follow-up / confirmation / scheduling)
 - Include prohibited items in the input (overly strong wording, promises not reviewed by legal)
 
-<!-- x-categorized-imports:start -->
-## X-Derived Experimental Prompts
+<!-- integrated-catalog:start -->
+## Additional Prompts
 
-Additional prompts imported from X are currently published on the Japanese route for this category. The Japanese archive keeps the original wording, source context, and experimental status visible.
+These canonical prompt pages are maintained on the Japanese source-of-truth route until English translations are available.
 
 - total items: 2
-- status: experimental reference track
-- [Open the Japanese X-derived archive](/prompt-catalog/writing/x/)
-<!-- x-categorized-imports:end -->
+
+### Canonical Prompt Pages
+
+- [Slides Background Bgm True](../../../prompt-catalog/writing/slides-background-bgm-true.md) - 古いホラー映画のエンドロール風。背景は真っ暗、文字は血のような赤でゆっくり滴るエフェクト(静止画で表現)。BGMが聞こえてきそうな不気味さ。最後に「THIS…
+- [Higgsfield Video Title Vertical](../../../prompt-catalog/writing/higgsfield-video-title-vertical.md) - HiggsfieldSora2
+<!-- integrated-catalog:end -->

@@ -1,0 +1,129 @@
+---
+title: "刻印されている「100」という数字そのものを"
+description: "Role"
+category: "creative"
+intent: "creative-prompt"
+audience:
+  - 利用者
+input_requirements:
+  - 依頼内容
+tags:
+  - creative
+  - visual
+  - character-styles
+  - miniature
+  - microphone
+  - canvas
+status: stable
+owner: prompt-catalog-team
+last_reviewed: 2026-03-19
+source_platform: x
+source_author: "hAru_mAki_ch"
+source_post_id: "2001612607032365256"
+source_url: "https://x.com/hAru_mAki_ch/status/2001612607032365256"
+source_published_at: "2025-12-18T11:16:48.000Z"
+source_archive_path: "docs/prompt-catalog/archive/x/2025/12/2001612607032365256.md"
+source_note_ids:
+  - 2001612606810001410
+canonical_id: "creative/visual/character-styles/miniature-microphone-canvas-paper-100"
+prompt_source: "prompts/docs-first/creative/visual/character-styles/miniature-microphone-canvas-paper-100_JP.md"
+---
+
+# 刻印されている「100」という数字そのものを
+
+Role
+
+## プロンプト本文
+~~~text
+# Role
+あなたは世界最高峰のマイクロミニチュア・アーティスト兼写真家です。
+日本の硬貨の表面をキャンバスとし、そこに刻印されている
+数字・文字・文様そのものを、ミニチュア建築や都市構造として再解釈します。
+
+# Task
+実物の100円硬貨の表面を舞台に、
+刻印されている「100」という数字そのものを
+ミニチュアの都市・建築構造として再構築した、
+超高精細マクロ写真風イメージを生成してください。
+
+# Core Concept
+この作品では、
+- 硬貨に元から刻まれている「100」
+- 白銅特有の冷たい金属光沢
+- 桜の刻印
+をすべて尊重し、
+**「100という数字が機能する未来都市」**
+として描写します。
+
+# Logic
+1. **Surface (土台)**
+ - 実物の100円硬貨
+ - 白銅のクールな銀色
+ - シャープな反射、細かな傷、刻印のエッジを忠実に再現
+
+2. **Scale (スケール)**
+ - 建物・人物・車両は
+ 硬貨上の「100」の文字よりもはるかに小さいミクロサイズ
+ - 都市全体は「1・0・0」の形状に正確に沿って構築されている
+
+3. **Integration (融合)**
+ - 「1」「0」「0」は、
+ 金属から削り出されたような
+ **数字型メガストラクチャー**
+ として存在する
+ - 硬貨の桜の刻印は、
+ 都市インフラのハブや交差点として機能する
+
+# Scene
+秋葉原または新宿を想起させる、
+ネオンと高層建築に満ちた未来的な都市。
+「100」の文字が都市の骨格となり、
+その内部や周囲をミクロな電車や人々が行き交っている。
+
+# Architectural Details
+- **「1」**
+ - 細く直立した超高層タワー
+ - 通信アンテナ、デジタルサイネージ、LEDが集積
+- **最初の「0」**
+ - 完全なリング型都市
+ - 内側は巨大な円形交差点または電気街の広場
+- **二つ目の「0」**
+ - 高架線路が巡る環状構造
+ - ミクロな電車が常に走行している
+
+# Sakura Integration
+- 硬貨に刻まれた桜の花の周囲に、
+ 極細の高架レールや道路が放射状に広がる
+- 桜の花弁の形状が、
+ 未来的なプラットフォームや交通結節点として機能する
+
+# Additional Details
+- 金属表面へのネオンの反射("Akiba", "Game", "Tech" などの極小文字)
+- 硬貨の細かな傷が、
+ 都市の道路や配線のように読み替えられている
+- 実物の「100」の影と、
+ ミニチュア都市の影が重なって見える
+
+# Technical Specs
+Style: Macro photography, Ultra-detailed, Hyper-realistic 
+Lens: Extreme macro 
+Depth of Field: Tilt-shift effect (very shallow focus) 
+Lighting: Cool neon lighting reflecting on white copper 
+Resolution: 8K 
+View: Slight high-angle close-up
+~~~
+
+## ソース文脈
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/2001612607032365256" />
+</ClientOnly>
+
+### 投稿メモ
+~~~text
+100円版
+~~~
+
+## 出典
+- primary post: [2001612607032365256](https://x.com/hAru_mAki_ch/status/2001612607032365256)
+- published at: 2025-12-18 20:16:48 JST
+- archive doc: [2001612607032365256](../../../archive/x/2025/12/2001612607032365256.md)

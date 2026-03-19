@@ -11,25 +11,26 @@
 
 - [Windsurfシステムプロンプト](./windsurf-system-prompt.md) - Windsurf IDE用の日本語対応システムプロンプト
 
-<!-- x-categorized-imports:start -->
-## X由来の分類済み追加プロンプト
+<!-- integrated-catalog:start -->
+## 追加プロンプト
 
-X から取り込んで分類済みの追加プロンプトです。カテゴリ本文から直接たどれるようにしつつ、X由来ページとして区別しています。
+このカテゴリに追加された正規プロンプトです。
 
 - 総件数: 13
-- 全件アーカイブ: [X由来アーカイブ](./x/)
 
-- [2️⃣ 中身のシステムプロンプト全文](./x/2026/01/2013677182682567102.md) - 2026-01-21 03:17:07 JST / high
-- [https://discord.com/channels/1452871068241891441/1452873675350085732](./x/2025/12/2003325168010371438.md) - 2025-12-23 13:41:54 JST / low
-- [絶望的やらかしをGeminiでカッコよくしたらワンチャン許される選手権](./x/2025/12/1995415251248922934.md) - 2025-12-01 17:50:43 JST / low
-- [Antigravity をギャルエンジニア化してみた!!!!](./x/2025/11/1991163831268368515.md) - 2025-11-20 00:17:06 JST / high
-- [Gemini3 爆誕したので遊んでみた4⃣](./x/2025/11/1991032528866849244.md) - 2025-11-19 15:35:21 JST / low
-- [Gemini3 爆誕したので遊んでみた3⃣](./x/2025/11/1990841798626062793.md) - 2025-11-19 02:57:27 JST / low
-- [Gemini3 爆誕したので遊んでみた1⃣](./x/2025/11/1990839635371774409.md) - 2025-11-19 02:48:51 JST / low
-- [「Google Fonts Icons」をChatGPTのCanvasで手軽に試せるプロンプト作りました!!!](./x/2025/10/1978371834828722239.md) - 2025-10-15 17:06:16 JST / medium
-- [できた!!NotebookLMの動画からYoutubeのタイムライン付の動画概要を生成するプロンプトを共有します!!!](./x/2025/10/1974472166797348919.md) - 2025-10-04 22:50:23 JST / high
-- [Sora2用のGPTsを改良しました!!](./x/2025/10/1973760356645470260.md) - 2025-10-02 23:41:54 JST / high
-- [Sora2用のGPTs作成しました!!](./x/2025/10/1973585681453871375.md) - 2025-10-02 12:07:48 JST / high
-- [Suno v5 のプロンプトのベストプラクティスの記事を参考にしてGPTsを作成しました!プロンプトも共有するので好きに改造してみてください!](./x/2025/09/1970887203325989190.md) - 2025-09-25 01:25:01 JST / medium
-- [私もclaude4.1でテトリスチャレンジしてみた!!](./x/2025/08/1953137587352432929.md) - 2025-08-07 01:54:23 JST / low
-<!-- x-categorized-imports:end -->
+### 収録プロンプト
+
+- [最も重要な発見:「スルー」は明確なマイナス信号(-1)として記録される](./optimization-agent-system-optimizer.md) - X Post Optimization Agent - System Prompt
+- [Claude in Chrome Discord Post Instruction](./claude-in-chrome-discord-post-instruction.md) - Instruction for posting a test message to a Discord channel via Claude in Chrome.
+- [PSP Microwave Apology Copy](./psp-microwave-apology-copy.md) - Short apology copy about microwaving a borrowed PSP.
+- [&gt; 「かわいく・しっかり・伸びしろ盛りで」作るための運用ガイドだよ〜💅✨](./gyaru-solid-kiss-yagni-dry-antigravity.md) - 🌸 GEMINI. md — ギャルエンジニア × 開発原則(SOLID/KISS/YAGNI/DRY)対応版
+- [タワーディフェンス防衛ゲームを作成して。UIは日本語](./game-gemini3.md) - Gemini3 爆誕したので遊んでみた4⃣
+- [縦スクロールの弾幕シューティングゲーム](./game-gemini3-20251119.md) - Gemini3 爆誕したので遊んでみた3⃣
+- [シンプルな街づくりボクセルゲーム](./city-builder-trailer-game-voxel.md) - Gemini3 爆誕したので遊んでみた1⃣
+- [役割(Role)](./role-system-google-fonts.md) - ⚙️ System Prompt — 「Google Fonts Icons を多用したHTMLを**生成**するアシスタント」
+- [YouTube概要欄 生成用システムプロンプト](./video-youtube-url-notebooklm.md) - できた!!NotebookLMの動画からYoutubeのタイムライン付の動画概要を生成するプロンプトを共有します!!!
+- [Sora2用のGPTsを改良しました!!](./video-gpts-sola2craftr-system.md) - 🎬 SoLa2Craftr V2.1 – System Prompt(ワンカット基準 + 複数カット対応 + 構造化/フラット分離)
+- [映像のクオリティや整合性を高めるため、プロンプトを 「構造化」 して提示する。](./video-designer-system-gpts.md) - 🎬 Sora2 Prompt Designer – System Prompt
+- [あなたは「Suno v5 プロンプト作成アシスタント」です。](./suno-gpts-v5.md) - 🌟 SUNO V5 GPTs システムプロンプト
+- [和モダンとグラスモーフィズムを融合させたテトリスでミニマルにして「おしゃれテトリス」作って](./claude4-1.md) - 私もclaude4.1でテトリスチャレンジしてみた!!
+<!-- integrated-catalog:end -->

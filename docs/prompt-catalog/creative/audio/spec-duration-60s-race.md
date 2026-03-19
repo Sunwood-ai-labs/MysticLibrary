@@ -1,0 +1,138 @@
+---
+title: "duration: \"60s"
+description: "F1 Race Commentary — broadcast · high-energy · 4K (v1.0)"
+category: "creative"
+intent: "creative-prompt"
+audience:
+  - 利用者
+input_requirements:
+  - 依頼内容
+tags:
+  - creative
+  - audio
+  - spec
+  - duration
+  - 60s
+status: stable
+owner: prompt-catalog-team
+last_reviewed: 2026-03-19
+source_platform: x
+source_author: "hAru_mAki_ch"
+source_post_id: "1926626582237437952"
+source_url: "https://x.com/hAru_mAki_ch/status/1926626582237437952"
+source_published_at: "2025-05-25T13:09:06.000Z"
+source_archive_path: "docs/prompt-catalog/archive/x/2025/05/1926626582237437952.md"
+source_note_ids:
+  - 1926626582237437952
+canonical_id: "creative/audio/spec-duration-60s-race"
+prompt_source: "prompts/docs-first/creative/audio/spec-duration-60s-race_JP.md"
+---
+
+# duration: "60s
+
+F1 Race Commentary — broadcast · high-energy · 4K (v1.0)
+
+## プロンプト本文
+~~~text
+# F1 Race Commentary — broadcast · high-energy · 4K (v1.0)
+video_type: f1_race_commentary_broadcast_v1
+
+general:
+ orientation: horizontal # 16 : 9 landscape
+ aspect_ratio: 1.7778
+ resolution: { width: "3840px", height: "2160px" } # 4K UHD
+ duration: "60s"
+ frame_rate: 60fps # fast-moving action
+ file_format: mp4
+ audio: true # live commentary mix
+ quality: ultra_high_definition
+ safe_zone: broadcast_safe_margins
+
+scene:
+ location:
+ type: trackside_commentary_booth
+ details: >
+ Glass-walled cabin above pit lane at Monza; multi-monitor desk with
+ real-time timing screens, track map, and on-board feeds; LED strip
+ accents in team colors; panoramic window showing cars streaking past.
+ main_subject:
+ identity: "F1 Analyst / Ex-Driver"
+ age: mid-40s
+ appearance: >
+ Team-branded navy polo, noise-canceling headset mic, wristwatch
+ with telemetry display; focused expression, animated hand gestures.
+ action: >
+ Delivers play-by-play and strategic insights; leans forward when
+ an overtake begins, taps timing screen to highlight tire data,
+ occasionally turns to co-host off-camera for rapid exchange.
+ background_activity: >
+ Mechanics dash in pit lane below; big-screen jumbotron flickers,
+ crowd roar rises during key moments; distant V6 turbo hybrid whine.
+ props:
+ - dual_curved_ultrawide_monitors
+ - tablet_showing_delta_times
+ - branded_energy_drink_can
+
+camera:
+ device: Sony FX3 + 35 mm prime
+ angle: medium_close_up (chest-up)
+ distance: ~1.2 m
+ movement: subtle_side-to-side_slide (motorized slider); quick digital
+ zoom-ins on monitor graphics for emphasis
+ stabilization: broadcast_rig_gimbal
+
+lighting:
+ key_light: soft_LED_panel_45° (5600 K)
+ fill_light: bounce_from_white_card
+ rim_light: small_hair_light_to_separate_from_backdrop
+ overall_tone: crisp_neutral
+
+graphics_overlay:
+ lower_third:
+ text: "LAP 27 | Italian Grand Prix 2025"
+ style: semi-transparent_team_red
+ picture_in_picture:
+ source: onboard_camera_car_16
+ position: top_right
+ data_widgets:
+ - tire_compound_icon
+ - live_sector_times_bar
+ - speed_trap_readout
+
+audio:
+ language: English
+ ambience: >
+ mixed-down engine roar, crowd cheers, faint pit-radio snippets.
+ dialogue: >
+ “And here comes Pérez on softs—look at that 9 km/h advantage down
+ the main straight! If he nails Variante Rettifilo he’s got Leclerc.
+ Watch the delta times light up green... yes, there it is—textbook
+ overtake!”
+
+mood: adrenaline_charged_informative
+style: sports_broadcast × dynamic_overlay
+color_grading: neutral_broadcast_rec709
+hashtags:
+ - F1Live
+ - RaceAnalysis
+ - ItalianGP
+ - OnBoard
+ - MotorsportTech
+~~~
+
+## ソース文脈
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1926626582237437952" />
+</ClientOnly>
+
+### 投稿メモ
+~~~text
+面白そうなので私もFlowのVeo3でインスタグラマー作成してみた4⃣
+F1の実況をさせてみたけどめちゃ面白いぞ!!!
+仕様したYAMLプロンプトはこちら!!
+~~~
+
+## 出典
+- primary post: [1926626582237437952](https://x.com/hAru_mAki_ch/status/1926626582237437952)
+- published at: 2025-05-25 22:09:06 JST
+- archive doc: [1926626582237437952](../../archive/x/2025/05/1926626582237437952.md)

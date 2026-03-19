@@ -1,0 +1,66 @@
+---
+title: "Hood & Grille Dive"
+description: "1) Hood &amp; Grille Dive"
+category: "dev"
+intent: "developer-prompt"
+audience:
+  - 利用者
+input_requirements:
+  - 依頼内容
+tags:
+  - dev
+  - templates
+  - app-scaffolds
+  - car
+  - hood
+  - grille
+status: stable
+owner: prompt-catalog-team
+last_reviewed: 2026-03-19
+source_platform: x
+source_author: "hAru_mAki_ch"
+source_post_id: "1950523701797224607"
+source_url: "https://x.com/hAru_mAki_ch/status/1950523701797224607"
+source_published_at: "2025-07-30T11:47:44.000Z"
+source_archive_path: "docs/prompt-catalog/archive/x/2025/07/1950523701797224607.md"
+source_note_ids:
+  - 1950523701272997888
+canonical_id: "dev/templates/app-scaffolds/car-hood-grille-dive"
+prompt_source: "prompts/docs-first/dev/templates/app-scaffolds/car-hood-grille-dive_JP.md"
+---
+
+# Hood & Grille Dive
+
+1) Hood &amp; Grille Dive
+
+## プロンプト本文
+~~~text
+1) Hood & Grille Dive
+POV shot, captured with a compact digital cinema camera rig mounted on a stabilized high‐speed drone, using a 24 mm wide‐angle lens with fast shutter and high frame rate for crisp motion detail, no film grain. The camera blasts across the mirror‐gloss hood of a colossal car at midday on a bright test apron, skimming razor‐clean specular lines before snap‐yawning toward the monumental grille. It weaves at blistering speed through chrome fins and hex‐mesh apertures like glass pyramids, catching hard sunlight and bright reflections off enamel paint and polished metal. Without pause, it pitches into the intake tunnels, executing a knife‐edge roll to thread a narrow opening as internal inspection LEDs flare on, lifting shadows for clarity. Lighting is high‐key and readable—sunlit exterior transitioning to daylight leaks and crisp white work‐lights inside. Editing is fast‐paced and rhythmic, with aggressive whip‐pans, motion blur on speed‐ramps, and match cuts on repeating hex patterns that intensify velocity. The mood is exhilarating and lucid rather than murky; audio cues include roaring wind, a rising turbo‐like whine, metallic dopplers, and a tight electronic beat with deep kicks and glitch taps. The color palette is sleek and modern: polished whites, chrome flashes, enamel body color accents, and cool LED cyan.
+
+2) Engine Cathedral Run
+POV shot, captured with a compact digital cinema camera rig mounted on a stabilized high‐speed drone, using a 24 mm wide‐angle lens with fast shutter and high frame rate for crisp motion detail, no film grain. The camera rockets through the bright intake manifold into a vast engine cathedral, racing past spinning fans, sweeping belts, and camshafts that turn like clockwork rotors. It power‐loops around a pulley hub, snap‐rolls beneath a cam cap, and slaloms between con‐rods as atomized oil mist glitters in high‐CRI work‐light beams; brief controlled spark reflections flicker in polished housings—glimpsed in frantic, fleeting flashes. Lighting is deliberately bright for readability: warm tungsten service lamps mix with cool daylight seeping through body seams, keeping blacks lifted and surfaces legible. Editing leans on match cuts between circular forms—fan to pulley to valve—while whip‐pans and hard banks sell G‐forces. The mood blends mechanical awe with theme‐park thrill. Audio layers the drone’s prop wash with belt hiss, turbine sough, precise tick‐tock valvetrain chatter, and bass hits synced to rotational beats. The color palette centers on brushed aluminum, graphite, amber oil glows, and electric cyan speculars. A final split‐S through a valve port barrels the camera toward the wheel well.
+
+3) Door Skeleton & Wiring Canyon
+POV shot, captured with a compact digital cinema camera rig mounted on a stabilized high‐speed drone, using a 24 mm wide‐angle lens with fast shutter and high frame rate for crisp motion detail, no film grain. Bursting from the wheel arch, the camera banks hard into the door’s internal skeleton: crash beams span like bridges, regulator gears whirl like miniature turbines, and speaker magnets open circular portals. It locks onto an illuminated turn‐signal light pipe and chases the amber ribbon at breakneck pace, executing snap 90‐degree yaws, barrel rolls through wiring loops, and razor‐close passes along lacquered inner skins that flare with clean highlights. Lighting is bright and intentional—thin LED strips tucked along cable runs and service ports lift every cavity, avoiding murk while preserving depth. Editing is a roller‐coaster of whoosh‐cuts, motion‐blur smears, and rhythmic match cuts on rings and arcs. The mood is kinetic and precise. Audio cues include relay clicks, braided‐wire hiss, rubber seal buffeting, and syncopated electronic pulses. The color palette contrasts matte steels and dark foams with vivid signal amber, cool instrument blues, and sharp white LEDs. The camera irises through the rising window slit and erupts into the cabin’s luminous volume.
+
+4) Cabin → HVAC → Tailpipe Breakout
+POV shot, captured with a compact digital cinema camera rig mounted on a stabilized high‐speed drone, using a 24 mm wide‐angle lens with fast shutter and high frame rate for crisp motion detail, no film grain. The camera tears across a cathedral‐scale cabin where stitching reads like mountaineering ropes and the dashboard glows like a night‐city grid, then snap‐banks into a central HVAC vent. Inside ribbed ducts and condenser fins, internal LED runs keep everything bright and legible as heat shimmer blooms; the path whips through bends with power‐slides and micro‐corrections, then darts behind console wiring, down the C‐pillar, and into the trunk tunnels. Without slowing, it commits to the exhaust run, flying against pulsing pressure waves and brake‐heat oranges that paint the walls. Lighting transitions from soft interior practicals to vivid, readable highlight streaks; editing accelerates with whip‐pans, velocity ramps, and a final match cut on the circular tailpipe. The mood peaks in a cathartic surge. Audio crescendos from cabin hush to resonant roar, then vents to open‐air release. The color palette moves from neutral fabrics and instrument blues to incandescent oranges and polished steel. The camera explodes out into blinding daylight, holding on the monumental car as the bassline fades.
+~~~
+
+## ソース文脈
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1950523701797224607" />
+</ClientOnly>
+
+### 投稿メモ
+~~~text
+特急訪問プロンプト使ってみた!~Veo3版~
+=車の中体験ツアー=
+これは結構良い感じにできた!!!
+~~~
+
+## 出典
+- primary post: [1950523701797224607](https://x.com/hAru_mAki_ch/status/1950523701797224607)
+- published at: 2025-07-30 20:47:44 JST
+- archive doc: [1950523701797224607](../../../archive/x/2025/07/1950523701797224607.md)

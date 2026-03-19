@@ -1,0 +1,81 @@
+---
+title: "添付した下記のキャラクターで少女漫画風の作風・演出・表情表現を重視した漫画を生成してください。"
+description: "記事の内容を応用したら出来ちまった、、、Googleスライド生成でオリジナルキャラクターを登場させた漫画爆誕💡💡"
+category: "docs"
+intent: "documentation-prompt"
+audience:
+  - 利用者
+input_requirements:
+  - 依頼内容
+tags:
+  - docs
+  - graphic-recording
+  - slide-infographics
+  - slides
+  - character
+  - google
+status: stable
+owner: prompt-catalog-team
+last_reviewed: 2026-03-19
+source_platform: x
+source_author: "hAru_mAki_ch"
+source_post_id: "1994452308814696661"
+source_url: "https://x.com/hAru_mAki_ch/status/1994452308814696661"
+source_published_at: "2025-11-28T17:04:20.000Z"
+source_archive_path: "docs/prompt-catalog/archive/x/2025/11/1994452308814696661.md"
+source_note_ids:
+  - 1994452308718227456
+canonical_id: "docs/graphic-recording/slide-infographics/slides-character-google"
+prompt_source: "prompts/docs-first/docs/graphic-recording/slide-infographics/slides-character-google_JP.md"
+---
+
+# 添付した下記のキャラクターで少女漫画風の作風・演出・表情表現を重視した漫画を生成してください。
+
+記事の内容を応用したら出来ちまった、、、Googleスライド生成でオリジナルキャラクターを登場させた漫画爆誕💡💡
+
+## プロンプト本文
+~~~text
+添付した下記のキャラクターで少女漫画風の作風・演出・表情表現を重視した漫画を生成してください。 
+日本の漫画形式として、右から左・上から下へと自然に読めるコマ割りにしてください。
+コマの配置や形状は自由ですが、視線誘導だけは日本式の読み順に従わせてください。
+均一なレイアウトではなく、変則的または自由配置のコマ構成でお願いします。
+必ずフルカラーの漫画として生成してください。
+
+全ページ下記のキャラクターを登場させて5スライドで解説して
+
+【登場キャラクター】
+
+「まき」はスライド1の画像を参考にして
+「こはく」はスライド2の画像を参考にして
+
+【禁止事項】
+・左→右読み、下→上読みの構成。
+・別人に見えるアレンジ
+・参照キャラの特徴を他キャラに置き換える
+・英語にする。セリフの横書き。
+・色の変更・服装の改変・モノクロ、白黒、線画、トーンのみ、グレースケールでの出力
+
+【解説してほしい内容】
+
+日本で子供が産まれたらやること9選
+1. 出生届の提出
+
+。。。。
+~~~
+
+## ソース文脈
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1994452308814696661" />
+</ClientOnly>
+
+### 投稿メモ
+~~~text
+💡記事の内容を応用したら出来ちまった、、、Googleスライド生成でオリジナルキャラクターを登場させた漫画爆誕💡💡
+
+しかもバッチ生成なので一括で生成されています!
+~~~
+
+## 出典
+- primary post: [1994452308814696661](https://x.com/hAru_mAki_ch/status/1994452308814696661)
+- published at: 2025-11-29 02:04:20 JST
+- archive doc: [1994452308814696661](../../../archive/x/2025/11/1994452308814696661.md)

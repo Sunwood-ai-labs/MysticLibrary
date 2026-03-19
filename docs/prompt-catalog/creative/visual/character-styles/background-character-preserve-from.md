@@ -1,0 +1,70 @@
+---
+title: "形状:画面下部(タスクバー位置)にフィットする極めて横長の水平ストリップ。"
+description: "Image 1のキャラクターを統合した、透過処理(クロマキー合成)専用の配信オーバーレイ・バーを生成してください。"
+category: "creative"
+intent: "creative-prompt"
+audience:
+  - 利用者
+input_requirements:
+  - 依頼内容
+tags:
+  - creative
+  - visual
+  - character-styles
+  - background
+  - character
+  - preserve
+status: stable
+owner: prompt-catalog-team
+last_reviewed: 2026-03-19
+source_platform: x
+source_author: "hAru_mAki_ch"
+source_post_id: "2004829943587635321"
+source_url: "https://x.com/hAru_mAki_ch/status/2004829943587635321"
+source_published_at: "2025-12-27T08:21:21.000Z"
+source_archive_path: "docs/prompt-catalog/archive/x/2025/12/2004829943587635321.md"
+source_note_ids:
+  - 2004829943491166208
+canonical_id: "creative/visual/character-styles/background-character-preserve-from"
+prompt_source: "prompts/docs-first/creative/visual/character-styles/background-character-preserve-from_JP.md"
+---
+
+# 形状:画面下部(タスクバー位置)にフィットする極めて横長の水平ストリップ。
+
+Image 1のキャラクターを統合した、透過処理(クロマキー合成)専用の配信オーバーレイ・バーを生成してください。
+
+## プロンプト本文
+~~~text
+TASK:
+Image 1のキャラクターを統合した、透過処理(クロマキー合成)専用の配信オーバーレイ・バーを生成してください。
+
+PRESERVE FROM IMAGE 1:
+キャラクターの容姿、線画のスタイル、彩色、衣装のディテールを完全に保持。バーのデザインもキャラクターのメインカラーに基づいた配色にする。
+
+ENVIRONMENT & BACKGROUND:
+背景は完全にフラットなクロマキー用グリーン(#00FF00)。影、グラデーション、ノイズ、ブルーム(光漏れ)を背景部分に一切含ませないこと。キャラクターやバーの境界線を極めてシャープに描き、透過抜きが容易な状態を維持する。
+
+LAYOUT:
+- 形状:画面下部(タスクバー位置)にフィットする極めて横長の水平ストリップ。
+- 左セクション:Image 1のキャラクターを配置。
+- 右セクション:以下の変数を正確に印字するエリア。
+ 「Maki@Sunwood AI Labs.」
+
+MATERIAL & TEXTURE:
+バー自体はマット、または微細な光沢を持つフラットデザイン。透過を妨げる半透明(Glassmorphism)の使用は避け、ソリッドな不透明度を維持する。
+
+CONSTRAINTS:
+- 背景色(#00FF00)がキャラクターや文字に反射・映り込まないこと。
+- 文字の崩れ、重複、スペルミスを禁止。
+- 境界線のアンチエイリアスを最小限にし、エッジを明確にする。
+~~~
+
+## ソース文脈
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/2004829943587635321" />
+</ClientOnly>
+
+## 出典
+- primary post: [2004829943587635321](https://x.com/hAru_mAki_ch/status/2004829943587635321)
+- published at: 2025-12-27 17:21:21 JST
+- archive doc: [2004829943587635321](../../../archive/x/2025/12/2004829943587635321.md)

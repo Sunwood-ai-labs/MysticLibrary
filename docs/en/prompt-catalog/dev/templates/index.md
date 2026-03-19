@@ -16,12 +16,28 @@ Template-style prompts for development and agent operation logs / handoff notes.
 - [Git Auto Commit Prompt V4.0 Lite PS](./git-auto-commit-prompt-v4-lite-ps.md) - PowerShell version
 - [OpenHands GitHub Action Workflow](./openhands-github-action-workflow.md)
 
-<!-- x-categorized-imports:start -->
-## X-Derived Experimental Prompts
+<!-- integrated-catalog:start -->
+## Additional Prompts
 
-Additional prompts imported from X are currently published on the Japanese route for this category. The Japanese archive keeps the original wording, source context, and experimental status visible.
+These canonical prompt pages are maintained on the Japanese source-of-truth route until English translations are available.
 
-- total items: 51
-- status: experimental reference track
-- [Open the Japanese X-derived archive](/prompt-catalog/dev/templates/x/)
-<!-- x-categorized-imports:end -->
+- total items: 45
+
+### Subcategories
+
+- [App Scaffolds](./app-scaffolds/)
+- [Video Specs](./video-specs/)
+
+### Canonical Prompt Pages
+
+- [Codex Gpt5 4 20gb 171gb](../../../../prompt-catalog/dev/templates/codex-gpt5-4-20gb-171gb.md) - CドライブがWSLとかDockerとかのデータで圧迫されています。Dドライブに移動して無事に動くことを確認してほしい!
+- [Spawn Explorer Worker Config](../../../../prompt-catalog/dev/templates/spawn-explorer-worker-config.md) - Codex CLI の MULTI-AGENT 使ってみた❸
+- [Firered Image Edit 1 0 Googlecolab Python Programming](../../../../prompt-catalog/dev/templates/firered-image-edit-1-0-googlecolab-python-programming.md) - この画像をPythonプログラミング入門書の表紙にしてください。タイトル「PYTHON」を大きく、サブタイトル「Programming Guide」、著者名「…
+- [Templates 830483](../../../../prompt-catalog/dev/templates/templates-830483.md) - いいね!また、ローカルネットワークからしかアクセスできないようになってるか確認して
+- [Rustdesk Windows Google Antigravity](../../../../prompt-catalog/dev/templates/rustdesk-windows-google-antigravity.md) - rustdeskをやりたい
+- [Aiwev Glm4 7 Claudecode Was](../../../../prompt-catalog/dev/templates/aiwev-glm4-7-claudecode-was.md) - Prompt text was empty after extraction
+- [Location Specification Argument Name](../../../../prompt-catalog/dev/templates/location-specification-argument-name.md) - 。。。
+- [Leap Edge Skyscraper Rooftop](../../../../prompt-catalog/dev/templates/leap-edge-skyscraper-rooftop.md) - Visual: Edge of skyscraper rooftop, city sprawling...
+- [Cinematic Wide Angle Takeshi Stylized](../../../../prompt-catalog/dev/templates/cinematic-wide-angle-takeshi-stylized.md) - 宇宙服・SF・広角ショット
+- [Element1 Wearing Stylish Image3](../../../../prompt-catalog/dev/templates/element1-wearing-stylish-image3.md) - @ Element1, wearing a stylish @ Image3 and @ Image2 around their neck, with @ I…
+<!-- integrated-catalog:end -->

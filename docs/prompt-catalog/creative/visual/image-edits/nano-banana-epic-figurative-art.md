@@ -1,0 +1,88 @@
+---
+title: "それら「今年の全要素」を統合し、ユーザーの歩みを象徴する究極の「漢字一文字」を一つ選定せよ。"
+description: "ブログやプロフから作成する nano banana 今年の漢字プロンプト V1 爆誕🔥🔥🔥"
+category: "creative"
+intent: "creative-prompt"
+audience:
+  - 利用者
+input_requirements:
+  - 依頼内容
+tags:
+  - creative
+  - visual
+  - image-edits
+  - nano
+  - banana
+  - epic
+status: stable
+owner: prompt-catalog-team
+last_reviewed: 2026-03-19
+source_platform: x
+source_author: "hAru_mAki_ch"
+source_post_id: "2002793781805130211"
+source_url: "https://x.com/hAru_mAki_ch/status/2002793781805130211"
+source_published_at: "2025-12-21T17:30:22.000Z"
+source_archive_path: "docs/prompt-catalog/archive/x/2025/12/2002793781805130211.md"
+source_note_ids:
+  - 2002793781641482240
+source_related_post_ids:
+  - 2002793517626900520
+source_related_archive_paths:
+  - "docs/prompt-catalog/archive/x/2025/12/2002793517626900520.md"
+canonical_id: "creative/visual/image-edits/nano-banana-epic-figurative-art"
+prompt_source: "prompts/docs-first/creative/visual/image-edits/nano-banana-epic-figurative-art_JP.md"
+---
+
+# それら「今年の全要素」を統合し、ユーザーの歩みを象徴する究極の「漢字一文字」を一つ選定せよ。
+
+ブログやプロフから作成する nano banana 今年の漢字プロンプト V1 爆誕🔥🔥🔥
+
+## プロンプト本文
+~~~text
+GENERAL STYLE & MOOD:
+「叙事詩的・象形アート(Epic Figurative Art)」。ユーザーが提示したホーム画面(記事、見出し、使用アプリ、通知、色彩)を多層的に解析し、1年間の「全要素」を一つの静止画に凝縮する。哲学的で重厚なリアリズムと、超現実的なデザインの融合。
+
+TASK & ANALYSIS:
+1. 提供されたホーム画面内のテキスト情報を網羅的にスキャンし、頻出する語彙、関心事、感情の起伏、生活の断片を抽出せよ。
+2. それら「今年の全要素」を統合し、ユーザーの歩みを象徴する究極の「漢字一文字」を一つ選定せよ。
+3. その漢字の「画(ストローク)」を、分析された具体的な事象(仕事の道具、趣味の断片、読んだ記事のモチーフなど)の三次元的な集合体として構築せよ。
+
+SUBJECT:
+中央に鎮座する、ユーザーの1年を体現する「漢字一文字」。
+- この文字は「ミクロな物語の集合体」である。近づくと、文字の各パーツがユーザーの1年を彩った具体的なオブジェクト(例:特定のニュース記事を象徴する意匠、日常のツール、記憶の断片)で形成されていることが分かる。
+- 漢字としての可読性を完璧に維持し、強固な骨格を持たせること。
+
+ENVIRONMENT & BACKGROUND (The Total Year Narrative):
+背景もまた、単なる風景ではなく「今年のあらゆる要素」を網羅した叙事詩的なパノラマとして描く。
+- 背景の構成:文字の背後には、解析された1年間の出来事が時系列、あるいはテーマ別に風景として広がる(例:挑戦したプロジェクトの象徴、訪れた場所の空気感、熱中したニュースのイメージ)。
+- 整合性:中央の漢字がその1年という「世界」の核となり、背景のあらゆる要素が文字に向かって収束、あるいは文字から溢れ出しているような構図にせよ。
+
+LIGHTING & TEXTURE:
+- 「記憶の層」を感じさせる重厚なテクスチャ。金属、有機物、光の粒子、デジタルデータが混ざり合い、物理的に正しい反射とシャドウを持つ。
+- 背景の光源(ドラマチックな逆光やサイドライト)が文字を照らし、1年間の多層的な要素を陰影によって際立たせる。
+
+CONSTRAINTS:
+- 漢字の字形(ハネ、ハライ、画数)を正確に描写し、日本語として正しく判読できること。
+- 背景と文字の両方に「今年の要素」を配置しつつ、画面全体が散漫にならず、一つの芸術作品として調和を保つこと。
+- 4K高解像度。意味を持たない記号、文字化け、崩れた造形は一切排除せよ。
+
+入力情報
+[[ ここに記事の自分のホーム画面のURL ]]
+~~~
+
+## ソース文脈
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/2002793781805130211" />
+</ClientOnly>
+
+### 投稿メモ
+~~~text
+ブログやプロフから作成する nano banana 今年の漢字プロンプト V1 爆誕🔥🔥🔥
+結構良い出来だがありがちな漢字なのがな~
+~~~
+
+## 出典
+- primary post: [2002793781805130211](https://x.com/hAru_mAki_ch/status/2002793781805130211)
+- published at: 2025-12-22 02:30:22 JST
+- archive doc: [2002793781805130211](../../../archive/x/2025/12/2002793781805130211.md)
+- related posts: 2002793517626900520

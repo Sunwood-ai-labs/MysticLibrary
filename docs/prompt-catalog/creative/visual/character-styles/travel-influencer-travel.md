@@ -1,0 +1,88 @@
+---
+title: "あなたは世界トップクラスのトラベルインフルエンサー兼アートディレクターです。"
+description: "nano banana pro ✖ トラベルインフルエンサープロンプト V2 使って「サントリーニ島・イア」に行ってみた!!"
+category: "creative"
+intent: "creative-prompt"
+audience:
+  - 利用者
+input_requirements:
+  - 依頼内容
+tags:
+  - creative
+  - visual
+  - character-styles
+  - travel
+  - influencer
+status: stable
+owner: prompt-catalog-team
+last_reviewed: 2026-03-19
+source_platform: x
+source_author: "hAru_mAki_ch"
+source_post_id: "1997377251609079831"
+source_url: "https://x.com/hAru_mAki_ch/status/1997377251609079831"
+source_published_at: "2025-12-06T18:47:00.000Z"
+source_archive_path: "docs/prompt-catalog/archive/x/2025/12/1997377251609079831.md"
+source_note_ids:
+  - 1997377251411906562
+canonical_id: "creative/visual/character-styles/travel-influencer-travel"
+prompt_source: "prompts/docs-first/creative/visual/character-styles/travel-influencer-travel_JP.md"
+---
+
+# あなたは世界トップクラスのトラベルインフルエンサー兼アートディレクターです。
+
+nano banana pro ✖ トラベルインフルエンサープロンプト V2 使って「サントリーニ島・イア」に行ってみた!!
+
+## プロンプト本文
+~~~text
+あなたは世界トップクラスのトラベルインフルエンサー兼アートディレクターです。
+最後に提供される入力テキスト(緯度・経度)を分析し、InstagramやTikTokで「10万いいね」を獲得できるレベルの、圧倒的に映える旅行写真を生成してください。
+
+添付された参照画像のキャラクターを、憧れの旅人(トラベラー)として登場させます。
+
+▼ 生成プロセスへの指示 (Thinking Process)
+Nano Banana Proの推論能力を活かし、描画前に以下の「映え」の方程式を解き、毎回異なるシチュエーションを構築してください。
+
+1. [Step 1: マイクロ・ロケーションの分散(Scattering Spots)]:
+ - 入力された座標の「ピンポイント」だけでなく、その周辺半径1km以内にある「映えるスポット」を複数リストアップする(例:有名なランドマークの真正面だけでなく、裏路地、近くのカフェのテラス、少し離れた高台、水辺など)。
+ - そのリストの中から、**今回描画するスポットを1つランダムに選択**する。毎回同じ「正面からの定番構図」にならないよう、あえてマイナーなアングルや、ズームアップした構図も検討する。
+
+2. [Step 2: 時間と光のランダム化(Time Randomization)]:
+ - 現在時刻に関わらず、以下の4つの時間帯から**1つをランダムに選択(抽選)**して適用する。
+ A. 【早朝 (Morning Glory)】: 朝霧、柔らかい光、人が少ない静寂感、手にコーヒーなど。
+ B. 【真昼 (High Noon)】: 直射日光、鮮やかな青空、パキッとした硬い影、サングラス必須。
+ C. 【夕暮れ (Golden Hour)】: ドラマチックなオレンジ色の光、長い影、エモーショナルな雰囲気。
+ D. 【夜 (City Lights)】: イルミネーションや星空、ネオンの反射、フラッシュ撮影風。
+
+3. [Step 3: 補色効果とTPOに合わせたスタイリング]:
+ - 背景の主要色(森の緑、海の青など)を分析し、その「補色」となる映える色の服を選ぶ。
+ - Step 2で決定した「時間帯」に合わせて服装を微調整する(例:昼なら肌見せ多め、夜ならアウターを羽織るなど)。
+ - アイテム(サングラス、帽子、ヴィンテージカメラ、現地のドリンクなど)を持たせ、自然なこなれ感を演出する。
+
+4. [Step 4: エモーショナルな演出とカラーグレーディング]:
+ - 決定した時間帯に最適なカラーグレーディング(色調補正)を行う。「Teal & Orange(青緑とオレンジ)」や「Pastel Dream(パステル調)」など、SNSで好まれるフィルター効果をシミュレーションする。
+
+▼ デザイン・スタイル指定
+* 構図・レイアウト: 毎回アングルを変える(ローアングル、俯瞰、ドローン視点、または彼氏目線など)。被写界深度を浅くして背景を美しくぼかす(Bokeh)。
+* テイスト: "Wanderlust"(旅への渇望)を感じさせる、夢幻的かつ鮮明な画作り。8k resolution, Unsplash style photography.
+* キャラクター: 参照画像の顔立ちを維持し、決定されたシチュエーション(時間・場所)に最適なポーズと表情。髪が風になびく様子などで動きをつける。
+* テキスト: 画像内の看板やアイテムに、場所の名前をさりげなく、しかし正確なスペルでおしゃれに配置する(可能な場合)。
+
+▼ 入力テキスト
+緯度・経度: 36.4618° N, 25.3753° E
+~~~
+
+## ソース文脈
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1997377251609079831" />
+</ClientOnly>
+
+### 投稿メモ
+~~~text
+nano banana pro ✖ トラベルインフルエンサープロンプト V2 使って「サントリーニ島・イア」に行ってみた!!
+時間帯や構図をランダムにしてみた
+~~~
+
+## 出典
+- primary post: [1997377251609079831](https://x.com/hAru_mAki_ch/status/1997377251609079831)
+- published at: 2025-12-07 03:47:00 JST
+- archive doc: [1997377251609079831](../../../archive/x/2025/12/1997377251609079831.md)

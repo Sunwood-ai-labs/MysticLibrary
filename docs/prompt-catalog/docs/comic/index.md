@@ -14,16 +14,17 @@ layout: default
 - [コミック調HTMLジェネレーター v1.0](./comic-style-html-generator-v1.md) - 文章を漫画風・コミック調のスタイルでHTMLページに変換
 - [コミック調HTMLジェネレーター v2.0](./comic-style-html-generator-v2.md) - 4コマ漫画風HTML生成
 
-<!-- x-categorized-imports:start -->
-## X由来の分類済み追加プロンプト
+<!-- integrated-catalog:start -->
+## 追加プロンプト
 
-X から取り込んで分類済みの追加プロンプトです。カテゴリ本文から直接たどれるようにしつつ、X由来ページとして区別しています。
+このカテゴリに追加された正規プロンプトです。
 
 - 総件数: 4
-- 全件アーカイブ: [X由来アーカイブ](./x/)
 
-- [🍌 nano banana pro エージェントV1.2使って「少女漫画風見開き」プロンプト作って、”二重抗原曝露仮説”を解説してみた!!!](./x/2025/12/1997627020461887838.md) - 2025-12-07 20:19:30 JST / high
-- [Higgsfield の Nano Banana Pro お試し29](./x/2025/11/1992293693282562442.md) - 2025-11-23 03:06:46 JST / high
-- [自作シートV2 ✖ 料理やってみた3⃣](./x/2025/11/1988268976460493301.md) - 2025-11-12 00:33:58 JST / high
-- [Higgsfield Sora 2 Sketch-to-Video 実験記録!](./x/2025/11/1988268966478057713.md) - 2025-11-12 00:33:56 JST / high
-<!-- x-categorized-imports:end -->
+### 収録プロンプト
+
+- [あなたは熟練の科学漫画家であり、同時に繊細な感情表現を得意とする少女漫画アーティストです。](./nano-banana-pro-character-agent.md) - nano banana pro エージェントV1.2使って「少女漫画風見開き」プロンプト作って、”二重抗原曝露仮説”を解説してみた!!!
+- [まずは最初のページを生成して](./nano-banana-pro-line-stickers.md) - カラーの少女漫画風にして。コマ割りで表現して。日本語にして。添付のキャラクター2人を登場させて下記の解説漫画を作成して
+- [A 9-panel slice-of-life cooking manga storyboard, 3×3 square layout.](./housework-9-panel-slice-of-life-cooking.md) - 自作シートV2 ✖ 料理やってみた3⃣
+- [Higgsfield Sora 2 Sketch-to-Video 実験記録!](./higgsfield-sora-sketch-to-video-4-panel.md) - A 4-panel gag air battle manga storyboard, horizontal layout.
+<!-- integrated-catalog:end -->

@@ -1,0 +1,87 @@
+---
+title: "情報ソースと反映:"
+description: "Xプロフ名刺プロンプト V3(裏面版)爆誕🔥"
+category: "creative"
+intent: "creative-prompt"
+audience:
+  - 利用者
+input_requirements:
+  - 依頼内容
+tags:
+  - creative
+  - visual
+  - brand-assets
+  - business
+  - card
+  - colormap
+status: stable
+owner: prompt-catalog-team
+last_reviewed: 2026-03-19
+source_platform: x
+source_author: "hAru_mAki_ch"
+source_post_id: "2001946908353609826"
+source_url: "https://x.com/hAru_mAki_ch/status/2001946908353609826"
+source_published_at: "2025-12-19T09:25:11.000Z"
+source_archive_path: "docs/prompt-catalog/archive/x/2025/12/2001946908353609826.md"
+source_note_ids:
+  - 2001946908181549057
+canonical_id: "creative/visual/brand-assets/business-card-colormap-background-logo"
+prompt_source: "prompts/docs-first/creative/visual/brand-assets/business-card-colormap-background-logo_JP.md"
+---
+
+# 情報ソースと反映:
+
+Xプロフ名刺プロンプト V3(裏面版)爆誕🔥
+
+## プロンプト本文
+~~~text
+GENERAL STYLE & MOOD:
+名刺の「裏面(Reverse Side)」に特化したプレミアム・デザイン。表面(Image 2)のミニマリズムと洗練されたグリッドシステムを継承しつつ、情報の密度と視覚的な奥行きを両立させたインフォグラフィック・スタイル。
+
+TASK:
+Image 2(表面)のデザイン言語をベースに、Image 1(ロゴ)のカラーマップを適用して名刺の「裏面のみ」を描画せよ。表面は一切表示しないこと。
+
+SUBJECT:
+1. 情報ソースと反映:
+ - 対象者: {argument name="profile_source" default="hAru_mAki_ch (https://t.co/gzuz3imy9H)"}
+ - 上記に関連する最新の活動(AIツール開発、Sunwood AI Labsでの研究、革新的なプロンプト技術、コミュニティ貢献等)を解析し、専門性を視覚要素として反映。
+2. 背景デザイン(重要):
+ - Image 1 のアイコンを、名刺の背景全体に「大規模かつ薄く(Subtle Watermark)」配置。
+ - 不透明度を極限まで下げ、紙の質感に馴染むような、繊細なトーンの透かしとして表現すること。
+3. 拡張ピクトグラム・グリッド:
+ - 解析された専門領域を象徴する「6〜9個」のミニマルなピクトグラムを、精緻なグリッド状に配置。
+ - 各アイコンの下には、対応する活動内容(例:Prompt Engineering, AI Agent Dev, LLM Research等)を示す簡潔で洗練された日本語ラベルを添える。
+
+COLOR PALETTE & COHESION:
+- カラーマッピング: 配色は Image 1 から抽出したカラーマップを厳格に踏襲。
+- グラフィックの調和: 背景の薄いアイコン、前面のピクトグラム、タイポグラフィの全てが、Image 1 のデザイン言語(ラインの太さ、形状の丸み)と完全に調和していること。
+
+COMPOSITION:
+名刺の「裏面」を1枚、デスク(高級感のあるマットな石材または木材)の上に置いたクローズアップ・ショット。カメラアングルは斜めから捉え、名刺の厚み(エッジ)と紙の繊維感を強調。表面(Image 2の内容)は完全に隠すこと。
+
+LIGHTING & MATERIAL:
+- 光学効果: 柔らかい拡散光の中に、特定の要素(ピクトグラムや文字)にだけ「透明厚盛りUV加工」による微細な反射を入れる。背景の薄いアイコンは、光の角度でわずかに見える程度の絶妙な質感で描写。
+- 質感: 日本の最高級特殊紙のマットな質感。1K〜4Kの高解像度により、極小の注釈テキストまでシャープに維持。
+
+CONSTRAINTS:
+- 非表示指定: 表面(Image 2のレイアウト)は一切描画しない。裏面のみに集中すること。
+- テキストの完全一致: URL、ID、ハンドルネームは正確に綴り、意味不明な文字列(Gibberish)を徹底排除。
+- 背景の処理: アイコンはあくまで「背景の透かし」として機能させ、前面の情報の可読性を妨げないこと。
+- 言語仕様: ラベルや注釈は、自然で正しい日本語(モダンゴシック体)を使用。
+~~~
+
+## ソース文脈
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/2001946908353609826" />
+</ClientOnly>
+
+### 投稿メモ
+~~~text
+Xプロフ名刺プロンプト V3(裏面版)爆誕🔥
+どれを使おうと迷うな~~
+~~~
+
+## 出典
+- primary post: [2001946908353609826](https://x.com/hAru_mAki_ch/status/2001946908353609826)
+- published at: 2025-12-19 18:25:11 JST
+- archive doc: [2001946908353609826](../../../archive/x/2025/12/2001946908353609826.md)

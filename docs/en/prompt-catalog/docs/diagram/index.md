@@ -61,12 +61,17 @@ A collection of prompts for visually representing system architectures and proce
 - Easy identification of components with appropriate color coding
 - Icons for various cloud providers and tools
 
-<!-- x-categorized-imports:start -->
-## X-Derived Experimental Prompts
+<!-- integrated-catalog:start -->
+## Additional Prompts
 
-Additional prompts imported from X are currently published on the Japanese route for this category. The Japanese archive keeps the original wording, source context, and experimental status visible.
+These canonical prompt pages are maintained on the Japanese source-of-truth route until English translations are available.
 
 - total items: 4
-- status: experimental reference track
-- [Open the Japanese X-derived archive](/prompt-catalog/docs/diagram/x/)
-<!-- x-categorized-imports:end -->
+
+### Canonical Prompt Pages
+
+- [Kaggle](../../../../prompt-catalog/docs/diagram/kaggle.md) - Kaggleで今ってどんなコンペが開催してる??
+- [Diagram Kaggle](../../../../prompt-catalog/docs/diagram/diagram-kaggle.md) - Kaggleで今ってどんなコンペが開催してる??
+- [Claude Opus Drawio Xml](../../../../prompt-catalog/docs/diagram/claude-opus-drawio-xml.md) - GUのカスタマージャーニーマップをdrawioでわかりやすく表現するためのxmlを書いて。ミニマルでオシャレでカラフルなフラットデザインで、かつ流れをアニメー…
+- [Agent Sonnet4 5 Aws Bedrock](../../../../prompt-catalog/docs/diagram/agent-sonnet4-5-aws-bedrock.md) - https://t.co/gEMHIAcdayでAWS のBedrockを使ったエージェントアプリのインフラのアーキテクチャを表示するためのxmlを書いて。…
+<!-- integrated-catalog:end -->

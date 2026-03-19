@@ -27,12 +27,23 @@ Methods for simulating discussions and games by assuming multiple agents (charac
 - [RonJ Style Newbie Expert Prompt](./ronj-newbie-expert.md)
 - [Werewolf Simulator (NanJ Style)](./werewolf-nanj-simulator.md)
 
-<!-- x-categorized-imports:start -->
-## X-Derived Experimental Prompts
+<!-- integrated-catalog:start -->
+## Additional Prompts
 
-Additional prompts imported from X are currently published on the Japanese route for this category. The Japanese archive keeps the original wording, source context, and experimental status visible.
+These canonical prompt pages are maintained on the Japanese source-of-truth route until English translations are available.
 
 - total items: 10
-- status: experimental reference track
-- [Open the Japanese X-derived archive](/prompt-catalog/methodology/multi-agent/x/)
-<!-- x-categorized-imports:end -->
+
+### Canonical Prompt Pages
+
+- [Openclaw Agent Browser Claw](../../../../prompt-catalog/methodology/multi-agent/openclaw-agent-browser-claw.md) - custom-customf0/glm-4.7をサブエージェントにして
+- [Game Github Pages Url](../../../../prompt-catalog/methodology/multi-agent/game-github-pages-url.md) - Codex CLI の MULTI-AGENT 使ってみた❹
+- [Game Spawn Explorer Entity](../../../../prompt-catalog/methodology/multi-agent/game-spawn-explorer-entity.md) - Codex CLI の MULTI-AGENT 使ってみた❷
+- [Game Agent Browser Spec](../../../../prompt-catalog/methodology/multi-agent/game-agent-browser-spec.md) - このブランチで、ブラウザで動くシンプルな縦スクロールゲームを作成したいです(HTML + JavaScript + Canvas、外部ライブラリなし)。アセッ…
+- [Video Agent Playwright Font](../../../../prompt-catalog/methodology/multi-agent/video-agent-playwright-font.md) - エージェントチームを作ってください。
+- [Video Agent Spec Docs](../../../../prompt-catalog/methodology/multi-agent/video-agent-spec-docs.md) - エージェントチームを作ってください。
+- [Agent Claude Code Glm4 7](../../../../prompt-catalog/methodology/multi-agent/agent-claude-code-glm4-7.md) - 桃太郎をテーマにしたエージェントチームを作ってください。
+- [Agent Claude Code Glm4 7 Todo](../../../../prompt-catalog/methodology/multi-agent/agent-claude-code-glm4-7-todo.md) - エージェントチームを作ってください。
+- [Aiwev Google Stitch Part 1](../../../../prompt-catalog/methodology/multi-agent/aiwev-google-stitch-part-1.md) - 現状のUIの配置が分かりにくいので、改修しようと思います!デザイナーに相談したいので、機能要件を洗い出して!
+- [Character Game Agent Ooooo](../../../../prompt-catalog/methodology/multi-agent/character-game-agent-ooooo.md) - 疑似マルチエージェント人狼シミュレーター - なんJ風掲示板版プロンプト
+<!-- integrated-catalog:end -->

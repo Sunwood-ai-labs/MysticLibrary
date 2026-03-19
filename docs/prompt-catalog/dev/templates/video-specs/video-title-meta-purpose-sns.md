@@ -1,0 +1,117 @@
+---
+title: "title: \"高額商材の罠"
+description: "私も情報商材の啓蒙動画作ってみた1⃣"
+category: "dev"
+intent: "developer-prompt"
+audience:
+  - 利用者
+input_requirements:
+  - 依頼内容
+tags:
+  - dev
+  - templates
+  - video-specs
+  - video
+  - title
+  - meta
+status: stable
+owner: prompt-catalog-team
+last_reviewed: 2026-03-19
+source_platform: x
+source_author: "hAru_mAki_ch"
+source_post_id: "1974857999694123252"
+source_url: "https://x.com/hAru_mAki_ch/status/1974857999694123252"
+source_published_at: "2025-10-05T15:23:32.000Z"
+source_archive_path: "docs/prompt-catalog/archive/x/2025/10/1974857999694123252.md"
+source_note_ids:
+  - 1974857999496966145
+canonical_id: "dev/templates/video-specs/video-title-meta-purpose-sns"
+prompt_source: "prompts/docs-first/dev/templates/video-specs/video-title-meta-purpose-sns_JP.md"
+---
+
+# title: "高額商材の罠
+
+私も情報商材の啓蒙動画作ってみた1⃣
+
+## プロンプト本文
+~~~text
+version: "1.0"
+meta:
+ title: "高額商材の罠"
+ purpose: "SNS短編・啓蒙動画"
+ duration_sec: 10
+ aspect_ratio: "9:16"
+ fps: 24
+ style_refs: ["cinematic", "social awareness", "muted tones"]
+scene:
+ description: "無機質な部屋。デスク上にノートPCと高額商材の広告。夜、白色蛍光灯の下で静寂。"
+subject_action:
+ description: "若い男性が画面を見つめ、誘惑的な広告をクリックしかけて手を止める。戸惑いと気づきの表情。"
+camera:
+ framing: ["medium", "close-up"]
+ moves: ["slow push-in", "cut to over-the-shoulder"]
+ lens_mm: 35
+ focus: "focus shift from screen to subject’s eyes"
+lighting_style:
+ description: "冷たい白色光とモニター光のコントラスト。後半で暖色トーンが差し込む希望感。"
+physics_materials:
+ notes: ["モニター光が顔にちらつき、手がわずかに震える"]
+audio:
+ dialogue:
+ - who: "male_01"
+ text: "この商材、本当に価値あるのか?"
+ start_sec: 6
+ end_sec: 8
+ ambience: ["room hum", "keyboard clicks"]
+ sfx: ["mouse click", "notification ping"]
+ bgm:
+ mood: "tense minimal synth"
+ start_sec: 0
+ end_sec: 10
+timeline:
+ - start_sec: 0
+ end_sec: 3
+ action: "若者が暗い部屋でPC画面を凝視。広告には『1日で稼げる』の文字。"
+ camera: ["medium", "slow push-in"]
+ audio_cues: ["ambience on", "bgm start"]
+ - start_sec: 4
+ end_sec: 6
+ action: "指がクリックしそうになるが、ためらう。モニター光がちらつく。"
+ camera: ["close-up", "cut to over-the-shoulder"]
+ audio_cues: ["sfx: mouse click", "sfx: notification ping"]
+ - start_sec: 6
+ end_sec: 10
+ action: "男性が自問し、画面を閉じて深呼吸。暖かい光が差し込む。"
+ camera: ["close-up", "slow pull-back"]
+ audio_cues: ["dialogue: male_01『この商材、本当に価値あるのか?』"]
+exclusions:
+ - "誇張されたグラフィック演出"
+ - "過剰なテロップ"
+safety_notes:
+ - "実在の人物や特定商材の名称は使用しない"
+ - "教育・啓蒙目的に限定"
+negative_prompts:
+ - "glossy advertisement tone"
+ - "overexposed lighting"
+flat_prompt: >
+ "夜の無機質な部屋で、若い男性がノートPCの高額商材広告を見つめる。
+ 冷たい蛍光灯とモニター光に照らされ、クリックしようとした指が震える。
+ 6秒で彼は『この商材、本当に価値あるのか?』と呟き、画面を閉じる。
+ 後半、窓の外から暖かい光が差し込み、希望のトーンで締める。
+ 教育的啓蒙を目的とし、特定商材や人物の描写は行わない。10秒、9:16。"
+~~~
+
+## ソース文脈
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1974857999694123252" />
+</ClientOnly>
+
+### 投稿メモ
+~~~text
+私も情報商材の啓蒙動画作ってみた1⃣
+~~~
+
+## 出典
+- primary post: [1974857999694123252](https://x.com/hAru_mAki_ch/status/1974857999694123252)
+- published at: 2025-10-06 00:23:32 JST
+- archive doc: [1974857999694123252](../../../archive/x/2025/10/1974857999694123252.md)

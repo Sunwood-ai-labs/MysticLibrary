@@ -1,0 +1,66 @@
+---
+title: "Japanese ink wash テイストでSora2で動画化してみた!!"
+description: "&#91;Subject&#93; 主題: 水墨画スタイルで描かれる壮大な物語、象徴的な存在(カワセミ、鶴、虎、鹿などの自然モチーフ)"
+category: "creative"
+intent: "creative-prompt"
+audience:
+  - 利用者
+input_requirements:
+  - 依頼内容
+tags:
+  - creative
+  - video
+  - sequence-specs
+  - background
+  - castle
+status: stable
+owner: prompt-catalog-team
+last_reviewed: 2026-03-19
+source_platform: x
+source_author: "hAru_mAki_ch"
+source_post_id: "1974475283723161817"
+source_url: "https://x.com/hAru_mAki_ch/status/1974475283723161817"
+source_published_at: "2025-10-04T14:02:46.000Z"
+source_archive_path: "docs/prompt-catalog/archive/x/2025/10/1974475283723161817.md"
+source_note_ids:
+  - 1974475283647602688
+canonical_id: "creative/video/sequence-specs/video-background-castle-japanese"
+prompt_source: "prompts/docs-first/creative/video/sequence-specs/video-background-castle-japanese_JP.md"
+---
+
+# Japanese ink wash テイストでSora2で動画化してみた!!
+
+&#91;Subject&#93; 主題: 水墨画スタイルで描かれる壮大な物語、象徴的な存在(カワセミ、鶴、虎、鹿などの自然モチーフ)
+
+## プロンプト本文
+~~~text
+[Subject] 主題: 水墨画スタイルで描かれる壮大な物語、象徴的な存在(カワセミ、鶴、虎、鹿などの自然モチーフ) 
+[Setting] 環境: 山水画のような世界、川、竹林、滝、月夜、戦火に揺れる城郭など、複数の背景が連続的に現れる 
+[Action] 動作: 予告編のようにシーンが次々とカットインする。 
+ ・静かな水面に舞い降りるカワセミ 
+ ・月下で羽ばたく鶴 
+ ・竹林に現れる虎の鋭い眼光 
+ ・滝を背景に立つ孤高の鹿 
+ ・そして山々のシルエットへと引いていく 
+[Camera] カメラ: シネマティックなモンタージュ構成。パン、ドリー、クイックカットを用い、最後に壮大なワイドショットで締める 
+[Style] 映像スタイル: すべて水墨画(墨絵)調。流れる墨の線と淡い青と朱色の彩色。水彩がにじむようにカットが切り替わる 
+[Audio] 音声: ドラマティックな和太鼓と尺八のブレンドされたサウンド。場面転換ごとに筆が走る音や墨がにじむ効果音。最後に「静寂」で落とす 
+[Timeline] 時間構成: 約10秒。最初の静かな1秒→中盤は高速カットで盛り上げ→最後に余韻を残すスローモーションで締める 
+[Constraints] 制約条件: 全体を水墨画的質感に統一。不自然にリアルにしすぎない。映画予告編的リズムを表現しつつ、墨のにじみを自然なトランジションに利用
+~~~
+
+## ソース文脈
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1974475283723161817" />
+</ClientOnly>
+
+### 投稿メモ
+~~~text
+Japanese ink wash テイストでSora2で動画化してみた!!
+めちゃ良いぞ!!!
+~~~
+
+## 出典
+- primary post: [1974475283723161817](https://x.com/hAru_mAki_ch/status/1974475283723161817)
+- published at: 2025-10-04 23:02:46 JST
+- archive doc: [1974475283723161817](../../../archive/x/2025/10/1974475283723161817.md)

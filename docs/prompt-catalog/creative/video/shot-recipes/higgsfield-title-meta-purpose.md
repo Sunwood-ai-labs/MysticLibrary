@@ -1,0 +1,120 @@
+---
+title: "title: \"デュアルハート・ライブ12秒"
+description: "HiggsfieldSora2"
+category: "creative"
+intent: "creative-prompt"
+audience:
+  - 利用者
+input_requirements:
+  - 依頼内容
+tags:
+  - creative
+  - video
+  - shot-recipes
+  - higgsfield
+  - title
+  - meta
+status: stable
+owner: prompt-catalog-team
+last_reviewed: 2026-03-19
+source_platform: x
+source_author: "hAru_mAki_ch"
+source_post_id: "1976643063746621747"
+source_url: "https://x.com/hAru_mAki_ch/status/1976643063746621747"
+source_published_at: "2025-10-10T13:36:45.000Z"
+source_archive_path: "docs/prompt-catalog/archive/x/2025/10/1976643063746621747.md"
+source_note_ids:
+  - 1976643063457234946
+canonical_id: "creative/video/shot-recipes/higgsfield-title-meta-purpose"
+prompt_source: "prompts/docs-first/creative/video/shot-recipes/higgsfield-title-meta-purpose_JP.md"
+---
+
+# title: "デュアルハート・ライブ12秒
+
+HiggsfieldSora2
+
+## プロンプト本文
+~~~text
+#HiggsfieldSora2 
+
+version: "1.1"
+meta:
+ title: "デュアルハート・ライブ12秒"
+ purpose: "SNS短編/ライブ告知"
+ duration_sec: 12
+ aspect_ratio: "2.39:1"
+ fps: 24
+ style_refs: ["epic cinematic", "rapid montage", "high contrast", "concert lighting"]
+story:
+ theme: "男女デュエットのアイドルユニットのライブ映像"
+ logline: "男女2人のアイドルが超満員アリーナで声と視線を重ね、観客の合唱とともに頂点へ駆け上がる。"
+ act_map: ["起: 導入", "承: 葛藤", "転: 高揚", "結: 余韻と名乗り"]
+scene:
+ description: "夜のドームアリーナ/花道と円形ステージ/楽屋裏の薄暗い通路/観客の海"
+ time_weather: "夜・屋内・薄いスモークとストロボ"
+subject_action:
+ description: "彼女は高音で煽り、彼は低音で支え、互いに手を取り合い最後のサビで観客と一体化する。"
+ tempo: "breathless"
+camera:
+ framing: ["extreme close-up", "medium", "wide", "overhead"]
+ moves: ["whip pan", "steadicam run", "crane sweep", "dolly-in", "crash zoom"]
+ focus: "rack focus between faces, mics, and shimmering crowd"
+lighting_style:
+ description: "マゼンタ×シアンのLEDウォッシュに白ストロボの切っ先。逆光のフレアで汗と紙吹雪を煌めかせる。"
+physics_materials:
+ notes: ["紙吹雪がスポットに舞う", "スモークがレーザーを可視化", "汗の飛沫がレンズに滲む"]
+audio:
+ dialogue:
+ - who: "lead_female"
+ text: "まだ行けるよね!"
+ start_sec: 6.2
+ end_sec: 6.8
+ - who: "lead_male"
+ text: "声出して!"
+ start_sec: 6.9
+ end_sec: 7.4
+ - who: "both"
+ text: "せーの!"
+ start_sec: 10.1
+ end_sec: 10.6
+ bgm:
+ mood: "J-pop dance: build → drop → final hit"
+ start_sec: 0
+ end_sec: 12
+ sfx: ["crowd roar", "whoosh cuts", "pyro burst", "handclap reverb", "footstep thump on stage"]
+montage:
+ cuts_total: 22
+ target_cuts_per_sec: 1.8
+ transition_types: ["hard cut", "whip pan", "match cut", "light flare wipe"]
+timeline:
+ - start_sec: 0
+ end_sec: 4
+ action: "起: 極端な黒からビートと同時にライト点灯。花道を走る2人をステディカムで追い、観客の海へクレーンで見せる。マイクを掴む極寄り→観客の発光リストバンドへラックフォーカス。"
+ - start_sec: 5
+ end_sec: 9
+ action: "承転: 連続ウィップパンでコール&レスポンス。彼女の高音サビ→彼のハーモニー→背中合わせのシルエット→火柱のパイロ。サイドからの逆光で汗と紙吹雪が煌めく。テンポ最大へ。"
+ - start_sec: 10
+ end_sec: 12
+ action: "結: ドロップ直前に一瞬の無音→『せーの!』でクラッシュヒット。スロークラッシュズームで2人が指差し、観客が合唱。0.8秒の白フラッシュ後、画面いっぱいにユニット名を巨大表示。"
+flat_prompt: >
+ "テーマ『男女デュエットのアイドルユニットのライブ映像』を12秒で描くモンタージュ。
+ アリーナの熱気、紙吹雪、逆光フレアを強調し、ウィップパンとクラッシュズームで
+ コール&レスポンスとサビの頂点を圧縮。10秒で一瞬の無音から再点火し、最後は
+ 画面いっぱいにユニット名〈NEON PAIR〉を巨大表示して締める。"
+~~~
+
+## ソース文脈
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1976643063746621747" />
+</ClientOnly>
+
+### 投稿メモ
+~~~text
+Higgsfield Sora 2 Unlmited やってみた1⃣1⃣
+~アイドルのライブ~
+~~~
+
+## 出典
+- primary post: [1976643063746621747](https://x.com/hAru_mAki_ch/status/1976643063746621747)
+- published at: 2025-10-10 22:36:45 JST
+- archive doc: [1976643063746621747](../../../archive/x/2025/10/1976643063746621747.md)

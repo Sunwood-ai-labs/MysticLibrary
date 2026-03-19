@@ -14,22 +14,23 @@ category: creative
 - [Three.js ワイヤーアートゲーム技術スタック モノクロ版 V2](./threejs-wireframe-game-tech-guide-mono-v2.md) - モノクロ階層アーキテクチャと汎用ゲームシステムを採用した、あらゆるゲームジャンルに適用可能なワイヤーフレームゲーム開発技術ガイド
 - [疑似マルチエージェント人狼シミュレーター なんJ風](./pseudo-multi-agent-werewolf-nanj.md) - アニメキャラクターによる人狼ゲームをなんJ風掲示板スレッドとしてシミュレート
 
-<!-- x-categorized-imports:start -->
-## X由来の分類済み追加プロンプト
+<!-- integrated-catalog:start -->
+## 追加プロンプト
 
-X から取り込んで分類済みの追加プロンプトです。カテゴリ本文から直接たどれるようにしつつ、X由来ページとして区別しています。
+このカテゴリに追加された正規プロンプトです。
 
 - 総件数: 10
-- 全件アーカイブ: [X由来アーカイブ](./x/)
 
-- [ピクセルゲームアセットプロンプト使ってみた❷](./x/2026/03/2033173848355750275.md) - 2026-03-15 22:29:54 JST / high
-- [playwright-interactive を使って、ゼロからブラウザで動く three.js のボクセルゲームアプリを作ってください。](./x/2026/03/2030264603125682331.md) - 2026-03-07 21:49:36 JST / high
-- [playwright-interactive を使って、ゼロからブラウザで動く three.js のボクセルゲームアプリを作ってください。](./x/2026/03/2030238984303948092.md) - 2026-03-07 20:07:48 JST / high
-- [playwright-interactive を使って、ゼロから three.js のボクセルゲーム風Webアプリを作って。](./x/2026/03/2030227975401337305.md) - 2026-03-07 19:24:03 JST / high
-- [Opus4.6 爆誕したので遊んでみる❷](./x/2026/02/2019480701746528425.md) - 2026-02-06 03:38:14 JST / high
-- [Opus4.6 爆誕したので遊んでみる❶](./x/2026/02/2019475489140736383.md) - 2026-02-06 03:17:31 JST / high
-- [ハッキング画面ぽい感じのかっこいい縦スクロールゲームを作成して](./x/2025/12/2005656448462917950.md) - 2025-12-30 00:05:35 JST / high
-- [Banana Pro で生成した図面を Opus 4.5 でボクセル化してみた!!!](./x/2025/11/1993745335433482565.md) - 2025-11-27 03:15:04 JST / high
-- [Claude4のワイヤーフレームでモノクロの小都市のシミュレーターゲームを作成してみた!!!](./x/2025/06/1929047804133126302.md) - 2025-06-01 14:30:11 JST / high
-- [Claude4のワイヤーフレームで近未来のビル作成してみた!!!これは楽しい!!](./x/2025/06/1928993042591277226.md) - 2025-06-01 10:52:34 JST / medium
-<!-- x-categorized-imports:end -->
+### 収録プロンプト
+
+- [. キャラクター画像プロンプト](./character-game-pixel-art.md) - ✅. キャラクター画像プロンプト
+- [GitHub CLI (gh) は認証済みです](./game-voxel-browser-github.md) - playwright-interactive を使って、ゼロからブラウザで動く three.js のボクセルゲームアプリを作ってください。
+- [GitHub CLI (gh) は認証済みです](./game-voxel-browser-github-cli.md) - playwright-interactive を使って、ゼロからブラウザで動く three.js のボクセルゲームアプリを作ってください。
+- [ローカルで起動するWebアプリとして実装する](./game-voxel-web-playwright-interactive.md) - playwright-interactive を使って、ゼロから three.js のボクセルゲーム風Webアプリを作って。
+- [モダンなデザインの大局将棋ゲームを作成して](./game-opus4-6.md) - Opus4.6 爆誕したので遊んでみる❷
+- [three.js を使って3Dレースゲームを作成して](./game-opus4-6-threejs.md) - Opus4.6 爆誕したので遊んでみる❶
+- [ハッキング画面ぽい感じのかっこいい縦スクロールゲームを作成して](./hacker-vertical-scroll-game.md) - ハッキング画面ぽい感じのかっこいい縦スクロールゲームを作成して
+- [Banana Pro で生成した図面を Opus 4.5 でボクセル化してみた!!!](./voxel-banana-pro-opus.md) - この図面を元に、Three.jsで3Dシーンを作成してください。
+- [Claude4のワイヤーフレームでモノクロの小都市のシミュレーターゲームを作成してみた!!!](./diorama-car-game-claude4.md) - 下記を参考にして、小都市のジオラマ風のゲームを作成して
+- [Claude4のワイヤーフレームで近未来のビル作成してみた!!!これは楽しい!!](./browser-claude4-webgl-threejs.md) - 下記の技術スタックを用いて、近未来のビルを作成して
+<!-- integrated-catalog:end -->

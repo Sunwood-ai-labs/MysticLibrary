@@ -1,0 +1,72 @@
+---
+title: "[Timeline] 時間構成:"
+description: "&#91;Subject&#93; 主題: 黒色のクラシックな蒸気機関車(SL)が、人型のロボットへ変形する。ロボットは煙突を頭部に、車輪を肩や脚部の装甲に残したデザインで、…"
+category: "creative"
+intent: "creative-prompt"
+audience:
+  - 利用者
+input_requirements:
+  - 依頼内容
+tags:
+  - creative
+  - visual
+  - miniatures-figurines
+  - miniature
+  - diorama
+  - video
+status: stable
+owner: prompt-catalog-team
+last_reviewed: 2026-03-19
+source_platform: x
+source_author: "hAru_mAki_ch"
+source_post_id: "1973774968149434422"
+source_url: "https://x.com/hAru_mAki_ch/status/1973774968149434422"
+source_published_at: "2025-10-02T15:39:58.000Z"
+source_archive_path: "docs/prompt-catalog/archive/x/2025/10/1973774968149434422.md"
+source_note_ids:
+  - 1973774968061403136
+canonical_id: "creative/visual/miniatures-figurines/miniature-diorama-video-background"
+prompt_source: "prompts/docs-first/creative/visual/miniatures-figurines/miniature-diorama-video-background_JP.md"
+---
+
+# [Timeline] 時間構成:
+
+&#91;Subject&#93; 主題: 黒色のクラシックな蒸気機関車(SL)が、人型のロボットへ変形する。ロボットは煙突を頭部に、車輪を肩や脚部の装甲に残したデザインで、…
+
+## プロンプト本文
+~~~text
+[Subject] 主題: 黒色のクラシックな蒸気機関車(SL)が、人型のロボットへ変形する。ロボットは煙突を頭部に、車輪を肩や脚部の装甲に残したデザインで、SLのパーツを踏襲している。
+
+[Setting] 環境: 線路の上を走るミニチュア風の町のジオラマ。周囲には模型風の木や建物が並んでいる。
+
+[Action] 動作: 蒸気機関車が停車し、シューッと蒸気を吐き出す。煙突が頭部へ変形し、車輪が肩や膝の装甲に回り込み、車体が展開して人型のロボットの腕と脚が形成される。最後に力強く立ち上がり、堂々と胸を張る。
+
+[Camera] カメラ: ローアングルから列車を追い、変形が始まるとカメラが少し引いて全身を映す。最後はやや煽り気味でロボットの雄姿を見上げる。
+
+[Style] 映像スタイル: ミニチュア特撮風。ジオラマの質感を活かしつつ、重量感のある変形演出。ライティングは暖色系で、ノスタルジックかつ力強い。
+
+[Audio] 音声: 蒸気のシューッという音、金属が噛み合うガシャーンという音。変形のたびに重量感のあるメカ音。背景には小鳥のさえずりと町のかすかな環境音。
+
+[Timeline] 時間構成:
+- 0〜3秒: SLが線路を走り停車、蒸気を吐き出す。 
+- 3〜8秒: 車体が展開し、煙突が頭部、車輪が肩や膝に配置されて人型ロボットへ変形。 
+- 8〜10秒: ロボットが立ち上がり、胸を張ってポーズ。煽りのカメラで見上げカット。 
+
+[Constraints] 制約条件: オリジナルデザイン。人型ロボットはSLの特徴(煙突、車輪、金属ボディ)を明確に残す。コミカルすぎず重量感を表現。
+~~~
+
+## ソース文脈
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1973774968149434422" />
+</ClientOnly>
+
+### 投稿メモ
+~~~text
+Sora2用のGPTs「SoLa2Craftr V2」使ってみた3⃣
+SLを変形させてみた!!!
+~~~
+
+## 出典
+- primary post: [1973774968149434422](https://x.com/hAru_mAki_ch/status/1973774968149434422)
+- published at: 2025-10-03 00:39:58 JST
+- archive doc: [1973774968149434422](../../../archive/x/2025/10/1973774968149434422.md)

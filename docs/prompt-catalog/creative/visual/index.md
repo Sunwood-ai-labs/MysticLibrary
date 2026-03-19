@@ -23,31 +23,68 @@ category: creative
 - [素数理論を活用した画像生成AIの概念体系](./prime-number-theory-concept.md) - 素数理論と画像生成AIの組み合わせによる新しい視覚表現手法の概念体系
 - [PRIMEART プロンプトジェネレーター 要件定義書](./primeart-prompt-generator-spec.md) - 指定キーワードから素数理論を活用した画像生成プロンプトを生成するためのLLM向け要件定義書
 
-<!-- x-categorized-imports:start -->
-## X由来の分類済み追加プロンプト
+<!-- integrated-catalog:start -->
+## 追加プロンプト
 
-X から取り込んで分類済みの追加プロンプトです。カテゴリ本文から直接たどれるようにしつつ、X由来ページとして区別しています。
+このカテゴリに追加された正規プロンプトです。
 
-- 総件数: 333
-- 全件アーカイブ: [X由来アーカイブ](./x/)
+- 総件数: 319
 
-### 最新 12 件
+### 下位カテゴリ
 
-- [Seedream 5.0 Lite 無料で使ってみた!!](./x/2026/02/2027461579856613819.md) - 2026-02-28 04:11:23 JST / high
-- [切り抜き文字世界プロンプト nanobanana pro ver爆誕🔥](./x/2026/02/2024070908655341833.md) - 2026-02-18 19:38:04 JST / high
-- [シズクちゃんのDiscordサーバーで自作スタンプって作れるのを発見したので作ってみる❶](./x/2026/02/2023737384488280235.md) - 2026-02-17 21:32:46 JST / low
-- [Meshy触ってみる❸](./x/2026/02/2021911233172320459.md) - 2026-02-12 20:36:17 JST / medium
-- [グラフィックレコーディング風インフォグラフィック風 Remotion生成プロンプト](./x/2026/02/2020840358553489599.md) - 2026-02-09 21:41:01 JST / low
-- [2頭身の絵本ちびキャラ、白い猫人族の大賢者、フルボディ、縦長、紙の舞台に立つ。切り絵+紙コラージュ、紙の繊維とレイヤー影が見える。周囲に飛び出す絵本ページ、折り紙の星、紙の羽根ペン、ラベル瓶…](./x/2026/02/2020133742317338624.md) - 2026-02-07 22:53:11 JST / high
-- [2頭身SDの白い猫人族の大賢者、頭〜足先までのフルボディ、縦長の肖像画構図。バロック油彩風、劇的明暗、重厚な質感を“ちび体型”に落とし込む。豪華な刺繍ローブをミニサイズで、裾まで見える。周囲…](./x/2026/02/2020133745467224065.md) - 2026-02-07 22:53:11 JST / high
-- [...](./x/2026/02/2020133745521742334.md) - 2026-02-07 22:53:11 JST / medium
-- [「2頭身ちびの白い猫人族の大賢者、全身が切れないフルボディ、縦長、中距離で余白あり。サイバーパンクのネオン霧、発光する魔術回路ローブ。ホログラムの魔導書ページ、ミニドローン道具、ルーン結晶、…](./x/2026/02/2020133739452592430.md) - 2026-02-07 22:53:10 JST / medium
-- [2頭身SDの白い猫人族の大賢者、フルボディ、縦長、正面気味で直立。ステンドグラス風の宝石色と鉛線、キラキラ発光。頭は大きく、体は小さく、マント短め。周囲に小さな魔導書、羽根ペン、鍵、砂時計、…](./x/2026/02/2020133736352993363.md) - 2026-02-07 22:53:09 JST / medium
-- [Grokでスタイル色々お試し実験プロンプト5種](./x/2026/02/2020133733060460772.md) - 2026-02-07 22:53:08 JST / low
-- [Grokにはちびキャラも結構いい感じに出るぞ!!!](./x/2026/02/2018633116123111894.md) - 2026-02-03 19:30:13 JST / high
+- [ブランド素材](./brand-assets/)
+- [キャラクタースタイル](./character-styles/)
+- [季節カード](./holiday-cards/)
+- [画像編集・補正](./image-edits/)
+- [ミニチュアとフィギュア](./miniatures-figurines/)
+- [旅・位置情報シーン](./travel-scenes/)
 
-### 年別アーカイブ
+### 収録プロンプト
 
-- [2026](./x/2026/index.md) - 26件
-- [2025](./x/2025/index.md) - 307件
-<!-- x-categorized-imports:end -->
+- [Google stitch やばくないか❷](./colormap-google-stitch-part-2.md) - おちついたカラーマップのライトモードもください
+- [様々なパーツが出現して組みあがる](./higgsfield-car-cinema-studio.md) - Higgsfieldの Cinema Studio でスタートフレーム+エンドフレーム固定実験1⃣3⃣~車の組み上げ~
+- [nanobanana pro名刺ケース3⃣](./business-card.md) - この名刺ケースの印刷の台紙画像を参考にして、実際に印刷する画像を画面いっぱいにください!台紙の線や文字などは消してね。台紙の画像は画像の位置関係の参考情報です。
+- [この名刺ケースの印刷の台紙画像を参考にして、星空を描画して](./business-card-20251220.md) - 名刺作成サイトのテンプレートを縦の16:9に修正してからリファレンス画像として入れて下記のプロンプトを入れてます
+- [画像を赤い矢印の方向に顔と体を回転した画像に変更して](./nano-banana-pro-google.md) - 私も、Google Gemini Advancedのアノテーション機能使ってエリアしてnanobanana proで服装を変えてみた3⃣
+- [あなたは伝説的な王宮地図製作者(ロイヤル・カートグラファー)です。...](./fantasy-world-map-agent.md) - nano banana pro エージェントV1.2を使って空想の世界地図を作成する「王宮地図製作者(ロイヤル・カートグラファー)」プロンプト爆誕🔥
+- [あなたは「赤ちゃんの成長記録を専門とするアニバーサリーフォトグラファー」です。...](./anniversary-photo-agent.md) - nano banana pro エージェントV1.2使って「赤ちゃんのアニバーサリーフォトグラファープロンプト」作ってみた!!
+- [A beautiful Japanese restaurant entrance sign](./nano-banana-pro-beautiful.md) - Nano Banana Pro vs FLUX.2 Pro vs FLUX.2 Dev vs Z Image Turbo vs SeeDream 4.5 バトル実験❸
+- [神社・ミディアムショット](./medium-misty-morning-fushimi.md) - 神社・ミディアムショット
+- [Element1 Matcha Latte Handcrafted](./element1-matcha-latte-handcrafted.md) - @ Element1 matcha latte in a handcrafted ceramic cup, steam gently rising, plac…
+- [Bottle Element1 Liquor Dreamy](./bottle-element1-liquor-dreamy.md) - A bottle of @ Element1 'KLING' liquor, with a dreamy blue liquid inside. The bo…
+- [やはりメカ系はFLUX.2 Pro の方が良さそうな気がする!](./giant-humanoid-mecha-flux-2-pro.md) - 巨大人型ロボットメカ兵器、魔神、メカのウィング、壮大、幻想的、西暦8000年の未来の兵器、世界を断絶するソードを持っている
+- [巨大人型ロボットメカ兵器、魔神、メカのウィング、壮大、幻想的](./giant-humanoid-mecha-grok.md) - 私も参戦してみた!
+- [Higgsfield の Nano Banana Pro ✖ flux-2 pro](./nano-banana-pro-character-sheet.md) - この架空の空中要塞のカッコいいデザインのA3サイズの日本語の設定資料集を作成して
+- [fal-ai/flux-2 pro 実験3⃣](./pro-fal-ai-flux-2.md) - フォトリアルで実写の架空の空中要塞
+- [透明なホワイトボードに手書きの文字やイラスト](./slides-notebooklm.md) - NotebookLMにもスライド機能プロンプト調整して「透明なホワイトボード✖手書き風」でやってみた!!
+- [“Garden Spirit in Paper” 🌿](./garden-spirit-paper-forest.md) - 1. “Garden Spirit in Paper” 🌿
+- [Prompt text was empty after extraction](./was-empty-after-extraction.md) - BIOLUMINESCENT FOREST REVERIE プロンプト使ってみた!!!
+- [~アニメ調の画像へのスワップ編~](./heavy-stone-mask-put.md) - A heavy stone mask is put on. Glowing cracks race across the fractures as grain…
+- [Fluffy Plush Sheep Stands](./fluffy-plush-sheep-stands.md) - A fluffy plush sheep stands serenely on a misty mountain peak surrounded by swi…
+- [Split screen](./car-split-screen.md) - 私もSplit screen のプロンプト使ってみた!!
+- [Demon Sitting Wearing Kimono](./demon-sitting-wearing-kimono.md) - akhaliq/HunyuanImage-3.0 使ってみた!!
+- [Hunyuanimage Fal Detailed Technical](./hunyuanimage-fal-detailed-technical.md) - Detailed technical drawing of an ocean city-ship "Manta Ark", on white paper wi…
+- [Hunyuanimage Fal Young Japanese](./hunyuanimage-fal-young-japanese.md) - A young Japanese woman in her early 20s named "Airi". She has a cute and beauti…
+- [seedream v4でデュエットの画像を生成!](./seedream-beautiful-cute-woman.md) - A beautiful, cute woman is standing and singing, while an oni man plays the pia…
+- [Animal Plush Toys プロンプトをGrok Imageで作ってみた!!](./animal-plush-toys-grok.md) - 1. 星降りキツネ
+- [1 ドラゴンフルーツ × マゼンタ × 白黒の対比](./minimalist-food-photograph-single.md) - Lego bricked objects プロンプト使ってみた!!
+- [プロンプト 1: 「月光の守護獣](./majestic-mythical-creature-luminous.md) - 🪄 プロンプト 1: 「月光の守護獣」
+- [ーーー🖼 塗り絵プロンプトーーー](./nano-banana-vast-steampunk-railway.md) - A vast steampunk railway station where giant clockwork gears and glowing crysta…
+- [私もAtomic Punk な空中戦艦を作ってみた](./video-atomic-punk-colossal.md) - A colossal flying battleship in the Atomic Punk style, hovering over a dystopia…
+- [seedream4 妖怪でも普通に精度が高いんだが!2⃣](./seedream-yokai-dress-model.md) - Dress the model in the clothes and shoes.
+- [seedream4 妖怪でも普通に精度が高いんだが!!!](./seedream-yokai-dress-model-clothes.md) - Dress the model in the clothes and shoes.
+- [私服にして家で家事をやっている画像を生成して。眼鏡をかけて、横長の画像を生成して](./casual-housework-glasses-casual-outfit.md) - Geminiアップデートがキタので、早速「gemini-2.5-flash-image-preview(nano banana)」を使ってみた3⃣
+- [カフェでくつろいでいる感じにして画像を生成して](./cafe-relaxing-cafe.md) - Geminiアップデートがキタので、早速「gemini-2.5-flash-image-preview(nano banana)」を使ってみた
+- [size: &#123; width: "3000px", height: "2000px" &#125;](./volumetric-cinematic-cat-wizard.md) - image_type: volumetric_cinematic_cat_wizard_v1
+- [Cracked Obsidian Ashlands」プロンプトを作ってみた!!!](./cracked-obsidian-ashlands-traversing.md) - &#91;SUBJECT&#93; traversing a Cracked Obsidian Ashlands, where volcanic-glass shards a…
+- [Origami Utopia Pair Celestial](./origami-utopia-pair-celestial.md) - A pair of celestial koi fish circling a light-well rendered in an Architectural…
+- [Origami Utopia Blooming Sakura](./origami-utopia-blooming-sakura.md) - A blooming sakura branch arching over a torii gate rendered in an Architectural…
+- [Origami Utopia Majestic Crane](./origami-utopia-majestic-crane.md) - A majestic origami crane soaring above spiral pavilions rendered in an Architec…
+- [Origami Utopia Floating Bonsai](./origami-utopia-floating-bonsai.md) - A floating bonsai tree rendered in an Architectural Origami Utopia, with futuri…
+- [カラーマップ生成プロンプト v2.0 - LP風・FontAwesome強化版](./colormap-fontawesome-v2-0.md) - 🎨 カラーマップ生成プロンプト v2.0 - LP風・FontAwesome強化版
+- [カラーマップ生成プロンプト v1.0](./graphic-recording-colormap-v1-0.md) - 画像からライトテーマとダークテーマのカラーマップを作成するプロンプト「カラーマップ生成プロンプト v1.0」できた!!
+- [カラーマップ生成プロンプト v1.0](./graphic-recording-colormap-v1-0-v1.0.md) - 画像からライトテーマとダークテーマのカラーマップを作成するプロンプト「カラーマップ生成プロンプト v1.0」できた!!
+- [size: &#123; width: "3840px", height: "2560px" &#125; # 4K UHD](./uhd-cat-warrior-photoreal.md) - White Cat Warrior — photoreal · epic · knightly greatsword (v1.0)
+- [コミック調HTMLジェネレーター プロンプト V1.0](./comic-v1-0.md) - コミック調HTMLジェネレーター プロンプト V1.0 爆誕
+- [意外とこれだけのプロンプトでバレットタイム風できた!](./catfolk.md) - 猫人族の2丁拳銃のガンナーが撃ち合っているバレットタイムのシーン
+<!-- integrated-catalog:end -->

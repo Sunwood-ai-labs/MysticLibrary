@@ -27,22 +27,23 @@ last_reviewed: 2026-02-23
 - [ろんJ式 初心者エキスパートプロンプト](./ronj-newbie-expert.md)
 - [人狼シミュレーター（なんJ風）](./werewolf-nanj-simulator.md)
 
-<!-- x-categorized-imports:start -->
-## X由来の分類済み追加プロンプト
+<!-- integrated-catalog:start -->
+## 追加プロンプト
 
-X から取り込んで分類済みの追加プロンプトです。カテゴリ本文から直接たどれるようにしつつ、X由来ページとして区別しています。
+このカテゴリに追加された正規プロンプトです。
 
 - 総件数: 10
-- 全件アーカイブ: [X由来アーカイブ](./x/)
 
-- [OpenClawの“デスクトップアプリ「Claw X」を触ってみる❺](./x/2026/03/2029889875131125762.md) - 2026-03-06 21:00:34 JST / high
-- [Codex CLI の MULTI-AGENT 使ってみた❹](./x/2026/02/2024109508088480050.md) - 2026-02-18 22:11:27 JST / high
-- [Codex CLI の MULTI-AGENT 使ってみた❷](./x/2026/02/2024097187987419138.md) - 2026-02-18 21:22:30 JST / high
-- [Codex CLI の MULTI-AGENT 使ってみた!!](./x/2026/02/2024084639372161193.md) - 2026-02-18 20:32:38 JST / high
-- [エージェントチームを作ってください。](./x/2026/02/2020197420605567250.md) - 2026-02-08 03:06:13 JST / high
-- [エージェントチームを作ってください。](./x/2026/02/2020197419640844289.md) - 2026-02-08 03:06:12 JST / high
-- [Claude Code のエージェントオーケストレーション機能をGLM4.7で使ってみる❺](./x/2026/02/2019738031536906240.md) - 2026-02-06 20:40:46 JST / medium
-- [Claude Code のエージェントオーケストレーション機能をGLM4.7で使ってみる❶](./x/2026/02/2019660660607435164.md) - 2026-02-06 15:33:19 JST / medium
-- [AI人狼村( $AIWEV )のUIをGoogle Stitch改修❶](./x/2026/02/2019511871569817811.md) - 2026-02-06 05:42:05 JST / low
-- [疑似マルチエージェント人狼シミュレーター - なんJ風掲示板版プロンプト 結構楽しい!!!](./x/2025/06/1929190541788623210.md) - 2025-06-01 23:57:22 JST / high
-<!-- x-categorized-imports:end -->
+### 収録プロンプト
+
+- [OpenClawの“デスクトップアプリ「Claw X」を触ってみる❺](./openclaw-agent-browser-claw.md) - custom-customf0/glm-4.7をサブエージェントにして
+- [このゲームを GitHub Pages で公開して “URLを開けば遊べる” 状態にしたい。](./game-github-pages-url.md) - Codex CLI の MULTI-AGENT 使ってみた❹
+- [この縦スクロールゲームに「弾の発射」を追加したい(最小実装、外部ライブラリなし)。](./game-spawn-explorer-entity.md) - Codex CLI の MULTI-AGENT 使ってみた❷
+- [ゲーム仕様(最小ルール、操作、スコア、ゲームオーバー、リスタート)](./game-agent-browser-spec.md) - このブランチで、ブラウザで動くシンプルな縦スクロールゲームを作成したいです(HTML + JavaScript + Canvas、外部ライブラリなし)。アセッ…
+- [エージェントチームを作ってください。](./video-agent-playwright-font.md) - エージェントチームを作ってください。
+- [不明点は止まらず「仮定 + 代替案 + 推奨 + 影響」で前進し、docs/に記録する。](./video-agent-spec-docs.md) - エージェントチームを作ってください。
+- [Claude Code のエージェントオーケストレーション機能をGLM4.7で使ってみる❺](./agent-claude-code-glm4-7.md) - 桃太郎をテーマにしたエージェントチームを作ってください。
+- [Claude Code のエージェントオーケストレーション機能をGLM4.7で使ってみる❶](./agent-claude-code-glm4-7-todo.md) - エージェントチームを作ってください。
+- [AI人狼村( $AIWEV )のUIをGoogle Stitch改修❶](./aiwev-google-stitch-part-1.md) - 現状のUIの配置が分かりにくいので、改修しようと思います!デザイナーに相談したいので、機能要件を洗い出して!
+- [アンカーは全角で「&gt;&gt;」と書く](./character-game-agent-ooooo.md) - 疑似マルチエージェント人狼シミュレーター - なんJ風掲示板版プロンプト
+<!-- integrated-catalog:end -->

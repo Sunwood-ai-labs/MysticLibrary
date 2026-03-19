@@ -1,0 +1,85 @@
+---
+title: "Veo3でGPUの紹介映像作ってみたら、思ったよりもいい感じになったぞ!!!"
+description: "Start from the provided still frame. Maintain a Hollywood-grade cinematic look…"
+category: "creative"
+intent: "creative-prompt"
+audience:
+  - 利用者
+input_requirements:
+  - 依頼内容
+tags:
+  - creative
+  - video
+  - shot-recipes
+  - gpu
+  - start
+status: stable
+owner: prompt-catalog-team
+last_reviewed: 2026-03-19
+source_platform: x
+source_author: "hAru_mAki_ch"
+source_post_id: "1947690821438083546"
+source_url: "https://x.com/hAru_mAki_ch/status/1947690821438083546"
+source_published_at: "2025-07-22T16:10:52.000Z"
+source_archive_path: "docs/prompt-catalog/archive/x/2025/07/1947690821438083546.md"
+source_note_ids:
+  - 1947690821190619137
+canonical_id: "creative/video/shot-recipes/video-gpu-start-from"
+prompt_source: "prompts/docs-first/creative/video/shot-recipes/video-gpu-start-from_JP.md"
+---
+
+# Veo3でGPUの紹介映像作ってみたら、思ったよりもいい感じになったぞ!!!
+
+Start from the provided still frame. Maintain a Hollywood-grade cinematic look…
+
+## プロンプト本文
+~~~text
+Start from the provided still frame. Maintain a Hollywood-grade cinematic look with rich contrast, controlled neon accents, and slight film grain. A glamorous Japanese influencer speaks directly to camera while holding the GPU; holographic specs and HUD text float around her. The GPU briefly disassembles into glowing components, then snaps back together. The flow feels like a premium tech commercial for Instagram Reels/TikTok, total length 8–12 seconds, 9:16. Keep focus shallow and flares anamorphic. End with a bold English tagline filling the screen.
+
+[Dialogue – English]
+0.5s–2.5s: “This is my secret weapon—the latest GPU. Rendering and AI? Done in a blink.”
+3.0s–4.5s: “Editing in 8K? Easy.”
+7.5s–8.5s (confident whisper): “Shape the world with your GPU.”
+
+[On-screen HUD text (English)]
+- “16,384 CUDA Cores”
+- “24GB GDDR6X”
+- “AI Inference • Real-Time”
+
+Final full-screen tagline: “Shape the World with Your GPU.”
+
+[Camera / Motion]
+shot_01 (0.0–1.0s): Static hold on the initial frame, micro handheld drift (1%).
+shot_02 (1.0–3.0s): Slow push-in toward her face (0.2 m/s), slight roll -1°, ease in/out.
+shot_03 (3.0–5.0s): Clockwise orbit ~20° around the floating GPU; keep her center-framed. Focal length shift 35mm→50mm.
+shot_04 (5.0–7.0s): Quick dolly out to reveal holographic specs; tilt up +5°.
+shot_05 (7.0–9.0s): Snap zoom to her wink (~85mm eq.), slight handheld jitter (3%), match-cut to tagline.
+shot_06 (9.0–10.5s): Locked-off. Full-screen tagline, heavy background defocus, gentle particle parallax.
+
+[Audio]
+Voiceover: clean studio-recorded female voice, confident, friendly, slightly fast-paced.
+BGM: cinematic electro with airy synth arps and light bass pulses (~100 BPM). Subtle riser into the GPU reveal, sharp impact on the final tagline.
+SFX: soft UI blips for holograms, gentle whooshes on camera moves, metallic chime when the GPU reassembles.
+
+[Additional]
+Duration: 10 seconds (8–12 acceptable)
+Resolution: 1080×1920 or higher
+Film grain: ~5%
+Color grade: neutral skin tones, cool-blue highlights, warm key light
+Remove/avoid unwanted logos or brand marks
+~~~
+
+## ソース文脈
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1947690821438083546" />
+</ClientOnly>
+
+### 投稿メモ
+~~~text
+Veo3でGPUの紹介映像作ってみたら、思ったよりもいい感じになったぞ!!!
+~~~
+
+## 出典
+- primary post: [1947690821438083546](https://x.com/hAru_mAki_ch/status/1947690821438083546)
+- published at: 2025-07-23 01:10:52 JST
+- archive doc: [1947690821438083546](../../../archive/x/2025/07/1947690821438083546.md)

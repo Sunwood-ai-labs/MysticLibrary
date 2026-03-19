@@ -1,0 +1,85 @@
+---
+title: "TASK (ANALYSIS & CHARACTER SELECTION):"
+description: "多層的ナラティブ・象形(Multilayered Narrative Figurative)」。ユーザーから提示されたURL先の記事、見出し、活動内容を深層解析し、1年間の本質を射抜く「唯一無二の漢字一文字」を特定・可…"
+category: "creative"
+intent: "creative-prompt"
+audience:
+  - 利用者
+input_requirements:
+  - 依頼内容
+tags:
+  - creative
+  - visual
+  - character-styles
+  - analysis
+  - character
+  - selection
+status: stable
+owner: prompt-catalog-team
+last_reviewed: 2026-03-19
+source_platform: x
+source_author: "hAru_mAki_ch"
+source_post_id: "2002960121555832870"
+source_url: "https://x.com/hAru_mAki_ch/status/2002960121555832870"
+source_published_at: "2025-12-22T04:31:20.000Z"
+source_archive_path: "docs/prompt-catalog/archive/x/2025/12/2002960121555832870.md"
+source_note_ids:
+  - 2002960121333506048
+canonical_id: "creative/visual/character-styles/analysis-character-selection-multilayered"
+prompt_source: "prompts/docs-first/creative/visual/character-styles/analysis-character-selection-multilayered_JP.md"
+---
+
+# TASK (ANALYSIS & CHARACTER SELECTION):
+
+多層的ナラティブ・象形(Multilayered Narrative Figurative)」。ユーザーから提示されたURL先の記事、見出し、活動内容を深層解析し、1年間の本質を射抜く「唯一無二の漢字一文字」を特定・可…
+
+## プロンプト本文
+~~~text
+GENERAL STYLE & MOOD:
+「多層的ナラティブ・象形(Multilayered Narrative Figurative)」。ユーザーから提示されたURL先の記事、見出し、活動内容を深層解析し、1年間の本質を射抜く「唯一無二の漢字一文字」を特定・可視化する。ステレオタイプを排し、個人の歩みにのみ基づく独創的な象形アート。
+
+TASK (ANALYSIS & CHARACTER SELECTION):
+1. 指定された各URLを情報の地層として探索せよ。テキストのトーン、頻出する主題、達成事項、直面した課題を多角的にマッピングすること。
+2. 表面的な形容(「楽」「忙」「挑」など)を完全に排し、分析結果の深層にある本質を突く漢字を、あなたの語彙の中から一字だけ選定せよ。
+3. 選定した漢字は、ユーザーの1年間のあらゆる要素(成功、葛藤、微細な日常)を包含し、それらが収束した結果であること。
+
+COMPOSITION & FUSION (The Four Concepts):
+選定した一文字の「偏・旁・冠・脚」などのパーツごとに、ユーザーの活動から抽出された「4つ以上の異なる造形コンセプト」を融合させて構築せよ。
+- 【コンセプト1:知的集積(情報・論理)】→(例:半透明のプリズム、電子基板、浮遊する文字の断片)
+- 【コンセプト2:活動的動態(行動・実践)】→(例:精密な時計の歯車、建築的なフレーム、磨かれた金属)
+- 【コンセプト3:情緒的感性(感情・色彩)】→(例:生命力溢れる植物・花、流動的な水彩、色彩の奔流)
+- 【コンセプト4:日常的残滓(生活・嗜好)】→(例:繊細な飴細工、テキスタイル、風化した石材)
+これら異なる素材が、一つの漢字の骨格を成すように緻密に融合していること。
+
+ENVIRONMENT & BACKGROUND (Total Year Narrative):
+背景には、URLから読み取った「今年のあらゆる要素」を網羅した叙事詩的な風景を描く。
+- 背景の隅々に、解析された記事の内容や活動を象徴するモチーフを、光の粒子や風景の一部として配置せよ。
+- 中央の漢字がその世界の「特異点(核)」として機能し、背景の要素が文字へと収束、あるいは文字から溢れ出しているようなドラマチックな構図。
+- ライティングとトーンは、分析された1年間の「空気感」を完璧に再現すること。
+
+LIGHTING & TEXTURE:
+- 各コンセプトの材質(ガラス、花、金属、菓子等)が持つ固有の物理特性(透過、反射、表面の粗さ)を4Kクオリティで描写せよ。
+- 文字内部からの自己発光と、背景の環境光が交差する複雑なライティング。
+
+CONSTRAINTS:
+- 漢字は日本語の標準字体に基づき、ハネ・ハライ・画数を正確に描写して可読性を確保すること。
+- 事例や一般論に頼らず、URLの解析結果のみから「漢字」と「背景の構成」を導き出すこと。
+- 4K高解像度、フォトリアルかつ芸術的な仕上げ。意味を持たないノイズや崩れたフォントは一切排除せよ。
+
+入力情報
+
+https://t.co/AfDkdOaTPw
+https://t.co/3If2PI5tr2
+https://t.co/58zwyeWZ0Y
+https://t.co/yXrp0sc3DE
+~~~
+
+## ソース文脈
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/2002960121555832870" />
+</ClientOnly>
+
+## 出典
+- primary post: [2002960121555832870](https://x.com/hAru_mAki_ch/status/2002960121555832870)
+- published at: 2025-12-22 13:31:20 JST
+- archive doc: [2002960121555832870](../../../archive/x/2025/12/2002960121555832870.md)

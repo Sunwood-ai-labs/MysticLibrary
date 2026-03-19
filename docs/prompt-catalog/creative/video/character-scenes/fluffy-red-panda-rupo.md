@@ -1,0 +1,68 @@
+---
+title: "ふわふわモフモフ癒し3D直立プロンプト!"
+description: "🐼1 Fluffy Red Panda “Rupo”"
+category: "creative"
+intent: "creative-prompt"
+audience:
+  - 利用者
+input_requirements:
+  - 依頼内容
+tags:
+  - creative
+  - video
+  - character-scenes
+  - fluffy
+  - red
+  - panda
+status: stable
+owner: prompt-catalog-team
+last_reviewed: 2026-03-19
+source_platform: x
+source_author: "hAru_mAki_ch"
+source_post_id: "1982014698254909583"
+source_url: "https://x.com/hAru_mAki_ch/status/1982014698254909583"
+source_published_at: "2025-10-25T09:21:42.000Z"
+source_archive_path: "docs/prompt-catalog/archive/x/2025/10/1982014698254909583.md"
+source_note_ids:
+  - 1982014698007531520
+canonical_id: "creative/video/character-scenes/fluffy-red-panda-rupo"
+prompt_source: "prompts/docs-first/creative/video/character-scenes/fluffy-red-panda-rupo_JP.md"
+---
+
+# ふわふわモフモフ癒し3D直立プロンプト!
+
+🐼1 Fluffy Red Panda “Rupo”
+
+## プロンプト本文
+~~~text
+🐼1 Fluffy Red Panda “Rupo”
+Prompt:
+Plushified Worlds — A soft and plush 3D model of a fluffy red panda plushie standing upright with small rounded ears, a striped tail, and big curious eyes. The texture appears velvety, squeezable, and toy-like, emphasizing the charm of animated plush character designs. The red panda stands with its tiny arms slightly raised, as if greeting the viewer. Warm natural sunlight gently illuminates the scene, creating a cozy and heartwarming glow. Rendered in a cute, stylized aesthetic with pastel tones, soft ambient lighting, and subtle shadows. The overall tone is gentle, adorable, and healing — radiating soft energy and plush warmth. Clean background, centered composition, high-resolution render, front-facing view.
+
+🦄2 Flufficorn “Mira” (Mini Unicorn)
+Prompt:
+Plushified Worlds — A soft and plush 3D model of a small standing unicorn plushie with a pastel rainbow mane, a tiny silver horn, and sparkling button eyes. The fur appears fluffy and velvety, with a squeezable texture that glows softly under the light. It stands proudly on two short legs, radiating a gentle magical aura. Natural sunlight filters through, adding warmth and shimmer. Rendered in a cute, stylized aesthetic with pastel color palette, soft ambient lighting, and subtle shadows. The overall tone is dreamy, heartwarming, and soothing — a plush fantasy creature of comfort. Clean background, centered composition, high-resolution render, front-facing view.
+
+🐉3 Puffy Baby Dragon “Noko”
+Prompt:
+Plushified Worlds — A soft and plush 3D model of a baby dragon plushie standing upright with tiny wings, stubby horns, and a round belly. The texture appears velvety, squeezable, and toy-like, highlighting its huggable form. Its gentle eyes and small smile give it a friendly, curious expression. Warm sunlight falls across its surface, creating a peaceful glow. Rendered in a cute, stylized aesthetic with pastel tones, soft ambient lighting, and subtle shadows. The overall tone is cozy, cute, and softly magical — a healing plush dragon from a gentle fantasy world. Clean background, centered composition, high-resolution render, front-facing view.
+
+🐧4 Standing Penguin “Puku ver.2”
+Prompt:
+Plushified Worlds — A soft and plush 3D model of a small standing penguin plushie with gray and white fur, short wings, and a gentle smile. Its texture appears velvety and squeezable, with subtle fluff around the body that catches soft light. The penguin stands confidently on its tiny orange feet, facing forward. Warm natural sunlight streams across the scene, adding a serene glow. Rendered in a cute, stylized aesthetic with pastel color tones, soft ambient lighting, and subtle shadows. The overall tone is adorable, calming, and heart-soothing — a perfectly plush friend that feels alive. Clean background, centered composition, high-resolution render, front-facing view.
+~~~
+
+## ソース文脈
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1982014698254909583" />
+</ClientOnly>
+
+### 投稿メモ
+~~~text
+ふわふわモフモフ癒し3D直立プロンプト!
+~~~
+
+## 出典
+- primary post: [1982014698254909583](https://x.com/hAru_mAki_ch/status/1982014698254909583)
+- published at: 2025-10-25 18:21:42 JST
+- archive doc: [1982014698254909583](../../../archive/x/2025/10/1982014698254909583.md)

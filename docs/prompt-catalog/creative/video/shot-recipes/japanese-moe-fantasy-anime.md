@@ -1,0 +1,65 @@
+---
+title: "Japanese moe–fantasy anime style."
+description: "seedance-v1-pro-t2v-480p でやってみた!!!"
+category: "creative"
+intent: "creative-prompt"
+audience:
+  - 利用者
+input_requirements:
+  - 依頼内容
+tags:
+  - creative
+  - video
+  - shot-recipes
+  - japanese
+  - moe
+  - fantasy
+status: stable
+owner: prompt-catalog-team
+last_reviewed: 2026-03-19
+source_platform: x
+source_author: "hAru_mAki_ch"
+source_post_id: "1949295568234459345"
+source_url: "https://x.com/hAru_mAki_ch/status/1949295568234459345"
+source_published_at: "2025-07-27T02:27:34.000Z"
+source_archive_path: "docs/prompt-catalog/archive/x/2025/07/1949295568234459345.md"
+source_note_ids:
+  - 1949295568049811456
+canonical_id: "creative/video/shot-recipes/japanese-moe-fantasy-anime"
+prompt_source: "prompts/docs-first/creative/video/shot-recipes/japanese-moe-fantasy-anime_JP.md"
+---
+
+# Japanese moe–fantasy anime style.
+
+seedance-v1-pro-t2v-480p でやってみた!!!
+
+## プロンプト本文
+~~~text
+Japanese moe–fantasy anime style.
+A lithe cat warrior (nekomimi), light lamellar over a short yukata, tail swaying; bell charm on the katana hilt. Dawn mist around a weathered mountain shrine; soft god‐rays through cedar trees.
+[cut] side view — The cat warrior slides open a weathered shrine door with a clawed hand; tail flicks, cloak hem rustles in the mist.
+
+[cut] from inside the shrine (POV) — Framed by the doorway, capture the warrior’s alert yet curious face; ears perked, breath visible in the cold air; they hold the door open from outside.
+
+[cut] over‐the‐shoulder (behind the warrior) — Reveal a crimson “spirit‐apple” resting on a stone seat/altar inside; faint runes glow, wisps of foxfire coil above it.
+
+[cut] action insert — The warrior steps in and picks up the spirit‐apple; motes of light spiral; the bell on the katana hilt softly jingles; partial katana grip in frame.
+
+[cut] close‐up — The warrior’s pale face lit by the inner glow of the apple; pupils narrow like a cat’s; a calm, determined expression forms as a breeze lifts their bangs.
+~~~
+
+## ソース文脈
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1949295568234459345" />
+</ClientOnly>
+
+### 投稿メモ
+~~~text
+seedance-v1-pro-t2v-480p でやってみた!!!
+カット割りならVeo3よりも良い感じ!!!
+~~~
+
+## 出典
+- primary post: [1949295568234459345](https://x.com/hAru_mAki_ch/status/1949295568234459345)
+- published at: 2025-07-27 11:27:34 JST
+- archive doc: [1949295568234459345](../../../archive/x/2025/07/1949295568234459345.md)

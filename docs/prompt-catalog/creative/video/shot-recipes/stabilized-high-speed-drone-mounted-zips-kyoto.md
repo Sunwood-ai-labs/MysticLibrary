@@ -1,0 +1,62 @@
+---
+title: "特急訪問プロンプト使ってみた!~Kling版~"
+description: "A stabilized high-speed drone-mounted camera zips through Kyoto at midday, weav…"
+category: "creative"
+intent: "creative-prompt"
+audience:
+  - 利用者
+input_requirements:
+  - 依頼内容
+tags:
+  - creative
+  - video
+  - shot-recipes
+  - stabilized
+  - high
+  - speed
+status: stable
+owner: prompt-catalog-team
+last_reviewed: 2026-03-19
+source_platform: x
+source_author: "hAru_mAki_ch"
+source_post_id: "1949503486988836864"
+source_url: "https://x.com/hAru_mAki_ch/status/1949503486988836864"
+source_published_at: "2025-07-27T16:13:45.000Z"
+source_archive_path: "docs/prompt-catalog/archive/x/2025/07/1949503486988836864.md"
+source_note_ids:
+  - 1949503486988836864
+canonical_id: "creative/video/shot-recipes/stabilized-high-speed-drone-mounted-zips-kyoto"
+prompt_source: "prompts/docs-first/creative/video/shot-recipes/stabilized-high-speed-drone-mounted-zips-kyoto_JP.md"
+---
+
+# 特急訪問プロンプト使ってみた!~Kling版~
+
+A stabilized high-speed drone-mounted camera zips through Kyoto at midday, weav…
+
+## プロンプト本文
+~~~text
+A stabilized high-speed drone-mounted camera zips through Kyoto at midday, weaving beneath Fushimi Inari Taisha’s vermilion torii gates as ,sunlight, and shadows rhythmically flicker. It ascends over tiled rooftops toward Kiyomizu-dera, skimming wooden pillars and diving near the Otowa waterfall, then streaks through Arashiyama’s bamboo grove with towering culms blurring into green streaks. Banking over the Katsura River, it glides along the Kamogawa’s stepping stones, whips through Gion’s lantern-lit lanes, and races across Kinkaku-ji’s mirror-still pond, capturing the Golden Pavilion’s radiant reflection. Natural ,lighting, alternates between sharp ,sunlight, cool bamboo forest shadows, and warm lantern glow, while aggressive whip-pans and match cuts heighten the surreal, exhilarating pace. The refined color scheme blends vermilion, moss greens, weathered browns, and reflective golds in cinematic motion.
+ーーー
+POV drone, compact cinema rig, stabilized, 24mm wide, fast shutter, high frame rate, no film grain. Midday sprint through Kyoto: weave under Fushimi Inari’s vermilion torii; snap to Kiyomizu‐dera’s wooden stage and Otowa falls; slice through Arashiyama bamboo; skim the Kamogawa and Gion’s lantern‐lined alleys; flare across Kinkaku‐ji’s golden reflection and the Heian Shrine torii. Natural light (hard sun, cool grove shade, warm street lanterns). Edit: rapid, rhythmic whip‐pans and match cuts with controlled motion blur. Audio: wind roar, cicadas, shrine bells, river hush, plus a thumping cinematic electronic score. Palette: vermilion, bamboo greens, cedar browns, river blues, gold accents. Shot in cinematic style.
+~~~
+
+## ソース文脈
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1949503486988836864" />
+</ClientOnly>
+
+### 投稿メモ
+~~~text
+特急訪問プロンプト使ってみた!~Kling版~
+Kling内臓のDeepSeekの方がいい感じにできるな~
+
+【前半】
+オリジナルのプロンプトをo3で圧縮したプロンプト
+【後半】
+Kling内臓のDeepSeekで圧縮したプロンプト
+~~~
+
+## 出典
+- primary post: [1949503486988836864](https://x.com/hAru_mAki_ch/status/1949503486988836864)
+- published at: 2025-07-28 01:13:45 JST
+- archive doc: [1949503486988836864](../../../archive/x/2025/07/1949503486988836864.md)

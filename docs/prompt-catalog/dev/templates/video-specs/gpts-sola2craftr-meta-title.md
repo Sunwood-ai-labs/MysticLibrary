@@ -1,0 +1,114 @@
+---
+title: "sora2 YAML特化型 GPTs 「SoLa2Craftr YAML V1.0」で作ってみた3⃣"
+description: "meta:"
+category: "dev"
+intent: "developer-prompt"
+audience:
+  - 利用者
+input_requirements:
+  - 依頼内容
+tags:
+  - dev
+  - templates
+  - video-specs
+  - gpts
+  - sola2craftr
+  - meta
+status: stable
+owner: prompt-catalog-team
+last_reviewed: 2026-03-19
+source_platform: x
+source_author: "hAru_mAki_ch"
+source_post_id: "1974829354426507417"
+source_url: "https://x.com/hAru_mAki_ch/status/1974829354426507417"
+source_published_at: "2025-10-05T13:29:43.000Z"
+source_archive_path: "docs/prompt-catalog/archive/x/2025/10/1974829354426507417.md"
+source_note_ids:
+  - 1974829354208346112
+canonical_id: "dev/templates/video-specs/gpts-sola2craftr-meta-title"
+prompt_source: "prompts/docs-first/dev/templates/video-specs/gpts-sola2craftr-meta-title_JP.md"
+---
+
+# sora2 YAML特化型 GPTs 「SoLa2Craftr YAML V1.0」で作ってみた3⃣
+
+meta:
+
+## プロンプト本文
+~~~text
+version: "1.0"
+meta:
+ title: "Cyber Tokyo Street Race"
+ purpose: "SNS短編"
+ duration_sec: 10
+ aspect_ratio: "16:9"
+ fps: 24
+ style_refs: ["cyberpunk", "neon lighting", "cinematic"]
+scene:
+ description: "夜の東京・雨上がりの公道。ネオンサインが濡れたアスファルトに反射し、未来的な高層ビル群が立ち並ぶ。"
+subject_action:
+ description: "ライダーがフルフェイスヘルメットを被り、ホログラム表示のメーターを確認しながら急発進。AI搭載バイクが滑らかに加速し、車列を縫うように疾走する。緊張と高揚の混ざった表情。"
+camera:
+ framing: ["wide", "medium", "close-up"]
+ moves: ["tracking", "low-angle dolly", "dynamic pan"]
+ lens_mm: 35
+ focus: "rack focus between rider and city reflections"
+lighting_style:
+ description: "ネオンピンクとエレクトリックブルーの強い対比光。濡れた路面が反射し、シネマティックなコントラスト。微細な雨粒がライトを受けて輝く。"
+physics_materials:
+ notes: ["タイヤが濡れたアスファルトでスリップし微妙に火花を散らす", "走行風でコートの裾が激しくはためく"]
+audio:
+ ambience: ["distant sirens", "neon buzz"]
+ sfx: ["engine rev", "tire screech", "whoosh passing vehicles"]
+ bgm:
+ mood: "dark synthwave with pulsating bass"
+ start_sec: 0
+ end_sec: 10
+timeline:
+ - start_sec: 0
+ end_sec: 3
+ action: "ライダーの顔面CUからホログラムメーター点灯、エンジン始動。低音のシンセが鳴り始める。"
+ camera: ["close-up", "low-angle dolly", "rack focus to reflections"]
+ audio_cues: ["sfx: engine rev", "bgm on"]
+ - start_sec: 3
+ end_sec: 7
+ action: "前傾姿勢で急発進し、ネオンの光を切り裂くように加速。周囲のビルのライトが流れる。"
+ camera: ["tracking", "wide", "dynamic pan"]
+ audio_cues: ["sfx: tire screech", "ambience on"]
+ - start_sec: 7
+ end_sec: 10
+ action: "交差点をドリフトで抜け、濡れた路面がネオンを反射。カメラが追い越し視点からパンアップして都市を映す。"
+ camera: ["tracking", "wide", "upward pan"]
+ audio_cues: ["sfx: whoosh passing vehicles"]
+exclusions:
+ - "on-screen text overlays"
+ - "overly dark shadows"
+ - "comic-style effects"
+safety_notes:
+ - "実在のナンバープレートや企業ロゴは表示しない"
+ - "公道走行は演出であり、実際の危険行為を助長しない"
+negative_prompts:
+ - "cartoonish visuals"
+ - "overexposed neon glow"
+flat_prompt: >
+ "雨上がりの夜、ネオンが輝くサイバーパンク風の東京。ライダーがフルフェイスヘルメットを被り、
+ ホログラムメーターを起動してエンジンを吹かす。エレクトリックブルーとピンクの光が濡れた路面に反射し、
+ バイクが急発進して公道を疾走。風でコートの裾がはためき、タイヤがスリップして火花を散らす。
+ カメラはロウアングルからトラッキングし、ビルのネオンが流れる。背景にはサイレンとシンセウェイブBGM。
+ テロップや過剰な暗部潰れは禁止。10秒、16:9。"
+~~~
+
+## ソース文脈
+<ClientOnly>
+  <XPostEmbed url="https://x.com/hAru_mAki_ch/status/1974829354426507417" />
+</ClientOnly>
+
+### 投稿メモ
+~~~text
+sora2 YAML特化型 GPTs 「SoLa2Craftr YAML V1.0」で作ってみた3⃣
+これも意図しない良い感じのカット割り!!!
+~~~
+
+## 出典
+- primary post: [1974829354426507417](https://x.com/hAru_mAki_ch/status/1974829354426507417)
+- published at: 2025-10-05 22:29:43 JST
+- archive doc: [1974829354426507417](../../../archive/x/2025/10/1974829354426507417.md)
