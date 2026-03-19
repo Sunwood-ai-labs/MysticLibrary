@@ -11,7 +11,7 @@ last_reviewed: 2026-03-19
 # X由来の実験プロンプト 2025-10
 
 - branch: creative / visual
-- items: 12
+- items: 13
 
 ## 一覧
 - [私もモフモフのぬいぐるみとコラボしてやってみた!](./1982337169038676399.md) - 2025-10-26 15:43:05 JST / classified / low
@@ -22,6 +22,7 @@ last_reviewed: 2026-03-19
 - [私もSplit screen のプロンプト使ってみた!!](./1979862689112592569.md) - 2025-10-19 19:50:23 JST / classified / low
 - [3D Clay Miniature Restaurants プロンプトをVeo3.1でやってみた!!](./1979462538292240766.md) - 2025-10-18 17:20:20 JST / classified / medium
 - [GRAVITATIONAL LENSING プロンプトをVeo3.1 でやってみた!!](./1979461621287411795.md) - 2025-10-18 17:16:41 JST / classified / high
+- [Kandinsky 5.0 使ってみた!!!1⃣](./1977993797402603781.md) - 2025-10-14 16:04:05 JST / classified / high
 - [手動で無限Sora2 を Higgsfield Sora 2 Unlmited でトライ!](./1976352718991262058.md) - 2025-10-10 03:23:01 JST / classified / low
 - [東京ai祭で《illustrious》というサービス見つけた2⃣](./1974710410315194612.md) - 2025-10-05 14:37:04 JST / classified / low
 - [Sora2用のGPTs「SoLa2Craftr V2」使ってみた3⃣](./1973774968149434422.md) - 2025-10-03 00:39:58 JST / classified / low

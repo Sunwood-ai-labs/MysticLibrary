@@ -11,9 +11,10 @@ last_reviewed: 2026-03-19
 # X由来の実験プロンプト 2025-11
 
 - branch: presentation
-- items: 9
+- items: 10
 
 ## 一覧
+- [Google スライドの nano banana pro のスライドモードお試し⓬](./1994754920608895005.md) - 2025-11-29 22:06:48 JST / classified / high
 - [Google スライドの nano banana pro のスライドモードお試し⓫~縦長生成編~](./1994636150309548356.md) - 2025-11-29 14:14:51 JST / classified / high
 - [💡オリキャラGoogleスライドのざっくりやり方動画](./1994402491564503344.md) - 2025-11-28 22:46:22 JST / classified / high
 - [💡ついにオリキャラGoogleスライド爆誕💡](./1994356240152223941.md) - 2025-11-28 19:42:35 JST / classified / high

@@ -32,7 +32,7 @@ Methods for simulating discussions and games by assuming multiple agents (charac
 
 Additional prompts imported from X are currently published on the Japanese route for this category. The Japanese archive keeps the original wording, source context, and experimental status visible.
 
-- total items: 3
+- total items: 10
 - status: experimental reference track
 - [Open the Japanese X-derived archive](/prompt-catalog/methodology/multi-agent/x/)
 <!-- x-categorized-imports:end -->

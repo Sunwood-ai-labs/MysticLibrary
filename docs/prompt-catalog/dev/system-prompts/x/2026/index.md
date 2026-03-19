@@ -11,8 +11,7 @@ last_reviewed: 2026-03-19
 # X由来の実験プロンプト 2026
 
 - branch: dev / system-prompts
-- items: 3
+- items: 1
 
 ## 月別アーカイブ
-- [2026-02](./02/index.md) - 2件
 - [2026-01](./01/index.md) - 1件

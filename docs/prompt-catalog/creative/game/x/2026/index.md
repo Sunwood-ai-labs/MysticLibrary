@@ -11,8 +11,8 @@ last_reviewed: 2026-03-19
 # X由来の実験プロンプト 2026
 
 - branch: creative / game
-- items: 3
+- items: 6
 
 ## 月別アーカイブ
-- [2026-03](./03/index.md) - 1件
+- [2026-03](./03/index.md) - 4件
 - [2026-02](./02/index.md) - 2件

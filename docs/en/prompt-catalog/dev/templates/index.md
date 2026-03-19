@@ -21,7 +21,7 @@ Template-style prompts for development and agent operation logs / handoff notes.
 
 Additional prompts imported from X are currently published on the Japanese route for this category. The Japanese archive keeps the original wording, source context, and experimental status visible.
 
-- total items: 96
+- total items: 51
 - status: experimental reference track
 - [Open the Japanese X-derived archive](/prompt-catalog/dev/templates/x/)
 <!-- x-categorized-imports:end -->

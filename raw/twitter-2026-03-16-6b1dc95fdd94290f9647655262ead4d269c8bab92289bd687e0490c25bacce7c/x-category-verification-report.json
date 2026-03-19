@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-19T12:37:19.122Z",
+  "generated_at": "2026-03-19T13:34:57.687Z",
   "promotion_manifest": "raw/twitter-2026-03-16-6b1dc95fdd94290f9647655262ead4d269c8bab92289bd687e0490c25bacce7c/x-category-promotion-manifest.json",
   "summary": {
     "categorized_docs_checked": 799,
@@ -265,7 +265,7 @@
       "type": "categorized_doc",
       "index": 5,
       "primary_id": "2030264603125682331",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2026/03/2030264603125682331.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/game/x/2026/03/2030264603125682331.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2026/03/2030264603125682331.md",
       "pass": true,
       "checks": [
@@ -315,7 +315,7 @@
       "type": "categorized_doc",
       "index": 6,
       "primary_id": "2030238984303948092",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2026/03/2030238984303948092.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/game/x/2026/03/2030238984303948092.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2026/03/2030238984303948092.md",
       "pass": true,
       "checks": [
@@ -365,7 +365,7 @@
       "type": "categorized_doc",
       "index": 7,
       "primary_id": "2030227975401337305",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2026/03/2030227975401337305.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/game/x/2026/03/2030227975401337305.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2026/03/2030227975401337305.md",
       "pass": true,
       "checks": [
@@ -815,7 +815,7 @@
       "type": "categorized_doc",
       "index": 16,
       "primary_id": "2024109508088480050",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2026/02/2024109508088480050.md",
+      "categorized_doc_path": "docs/prompt-catalog/methodology/multi-agent/x/2026/02/2024109508088480050.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2026/02/2024109508088480050.md",
       "pass": true,
       "checks": [
@@ -915,7 +915,7 @@
       "type": "categorized_doc",
       "index": 18,
       "primary_id": "2024097187987419138",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2026/02/2024097187987419138.md",
+      "categorized_doc_path": "docs/prompt-catalog/methodology/multi-agent/x/2026/02/2024097187987419138.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2026/02/2024097187987419138.md",
       "pass": true,
       "checks": [
@@ -965,7 +965,7 @@
       "type": "categorized_doc",
       "index": 19,
       "primary_id": "2024084639372161193",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2026/02/2024084639372161193.md",
+      "categorized_doc_path": "docs/prompt-catalog/methodology/multi-agent/x/2026/02/2024084639372161193.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2026/02/2024084639372161193.md",
       "pass": true,
       "checks": [
@@ -1015,7 +1015,7 @@
       "type": "categorized_doc",
       "index": 20,
       "primary_id": "2024070908655341833",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2026/02/2024070908655341833.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2026/02/2024070908655341833.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2026/02/2024070908655341833.md",
       "pass": true,
       "checks": [
@@ -1215,7 +1215,7 @@
       "type": "categorized_doc",
       "index": 24,
       "primary_id": "2021686301536530876",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2026/02/2021686301536530876.md",
+      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2026/02/2021686301536530876.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2026/02/2021686301536530876.md",
       "pass": true,
       "checks": [
@@ -1415,7 +1415,7 @@
       "type": "categorized_doc",
       "index": 28,
       "primary_id": "2020197420605567250",
-      "categorized_doc_path": "docs/prompt-catalog/dev/agent-prompts/x/2026/02/2020197420605567250.md",
+      "categorized_doc_path": "docs/prompt-catalog/methodology/multi-agent/x/2026/02/2020197420605567250.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2026/02/2020197420605567250.md",
       "pass": true,
       "checks": [
@@ -1465,7 +1465,7 @@
       "type": "categorized_doc",
       "index": 29,
       "primary_id": "2020197419640844289",
-      "categorized_doc_path": "docs/prompt-catalog/writing/x/2026/02/2020197419640844289.md",
+      "categorized_doc_path": "docs/prompt-catalog/methodology/multi-agent/x/2026/02/2020197419640844289.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2026/02/2020197419640844289.md",
       "pass": true,
       "checks": [
@@ -1865,7 +1865,7 @@
       "type": "categorized_doc",
       "index": 37,
       "primary_id": "2019738031536906240",
-      "categorized_doc_path": "docs/prompt-catalog/dev/system-prompts/x/2026/02/2019738031536906240.md",
+      "categorized_doc_path": "docs/prompt-catalog/methodology/multi-agent/x/2026/02/2019738031536906240.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2026/02/2019738031536906240.md",
       "pass": true,
       "checks": [
@@ -1915,7 +1915,7 @@
       "type": "categorized_doc",
       "index": 38,
       "primary_id": "2019660660607435164",
-      "categorized_doc_path": "docs/prompt-catalog/dev/system-prompts/x/2026/02/2019660660607435164.md",
+      "categorized_doc_path": "docs/prompt-catalog/methodology/multi-agent/x/2026/02/2019660660607435164.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2026/02/2019660660607435164.md",
       "pass": true,
       "checks": [
@@ -2515,7 +2515,7 @@
       "type": "categorized_doc",
       "index": 50,
       "primary_id": "2016463591692709977",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2026/01/2016463591692709977.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2026/01/2016463591692709977.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2026/01/2016463591692709977.md",
       "pass": true,
       "checks": [
@@ -2715,7 +2715,7 @@
       "type": "categorized_doc",
       "index": 54,
       "primary_id": "2016115102295208122",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2026/01/2016115102295208122.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2026/01/2016115102295208122.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2026/01/2016115102295208122.md",
       "pass": true,
       "checks": [
@@ -3215,7 +3215,7 @@
       "type": "categorized_doc",
       "index": 64,
       "primary_id": "2012597198366904320",
-      "categorized_doc_path": "docs/prompt-catalog/dev/agent-prompts/x/2026/01/2012597198366904320.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2026/01/2012597198366904320.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2026/01/2012597198366904320.md",
       "pass": true,
       "checks": [
@@ -3265,7 +3265,7 @@
       "type": "categorized_doc",
       "index": 65,
       "primary_id": "2012141339534897639",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2026/01/2012141339534897639.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2026/01/2012141339534897639.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2026/01/2012141339534897639.md",
       "pass": true,
       "checks": [
@@ -3315,7 +3315,7 @@
       "type": "categorized_doc",
       "index": 66,
       "primary_id": "2012136514030063846",
-      "categorized_doc_path": "docs/prompt-catalog/dev/agent-prompts/x/2026/01/2012136514030063846.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2026/01/2012136514030063846.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2026/01/2012136514030063846.md",
       "pass": true,
       "checks": [
@@ -3865,7 +3865,7 @@
       "type": "categorized_doc",
       "index": 77,
       "primary_id": "2006686206944293070",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2026/01/2006686206944293070.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2026/01/2006686206944293070.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2026/01/2006686206944293070.md",
       "pass": true,
       "checks": [
@@ -3915,7 +3915,7 @@
       "type": "categorized_doc",
       "index": 78,
       "primary_id": "2006344267242115240",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/2006344267242115240.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2006344267242115240.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2006344267242115240.md",
       "pass": true,
       "checks": [
@@ -3965,7 +3965,7 @@
       "type": "categorized_doc",
       "index": 79,
       "primary_id": "2006344267040698368",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/2006344267040698368.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2006344267040698368.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2006344267040698368.md",
       "pass": true,
       "checks": [
@@ -4215,7 +4215,7 @@
       "type": "categorized_doc",
       "index": 84,
       "primary_id": "2006339150375735697",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/2006339150375735697.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2006339150375735697.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2006339150375735697.md",
       "pass": true,
       "checks": [
@@ -4265,7 +4265,7 @@
       "type": "categorized_doc",
       "index": 85,
       "primary_id": "2006338054081159373",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/2006338054081159373.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2006338054081159373.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2006338054081159373.md",
       "pass": true,
       "checks": [
@@ -4315,7 +4315,7 @@
       "type": "categorized_doc",
       "index": 86,
       "primary_id": "2006337700018942194",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/2006337700018942194.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2006337700018942194.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2006337700018942194.md",
       "pass": true,
       "checks": [
@@ -4715,7 +4715,7 @@
       "type": "categorized_doc",
       "index": 94,
       "primary_id": "2006330678464700847",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/2006330678464700847.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2006330678464700847.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2006330678464700847.md",
       "pass": true,
       "checks": [
@@ -4915,7 +4915,7 @@
       "type": "categorized_doc",
       "index": 98,
       "primary_id": "2005167552943821300",
-      "categorized_doc_path": "docs/prompt-catalog/docs/diagram/x/2025/12/2005167552943821300.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2005167552943821300.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2005167552943821300.md",
       "pass": true,
       "checks": [
@@ -4965,7 +4965,7 @@
       "type": "categorized_doc",
       "index": 99,
       "primary_id": "2005167546774028288",
-      "categorized_doc_path": "docs/prompt-catalog/docs/diagram/x/2025/12/2005167546774028288.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2005167546774028288.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2005167546774028288.md",
       "pass": true,
       "checks": [
@@ -5015,7 +5015,7 @@
       "type": "categorized_doc",
       "index": 100,
       "primary_id": "2005167546862108768",
-      "categorized_doc_path": "docs/prompt-catalog/docs/diagram/x/2025/12/2005167546862108768.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2005167546862108768.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2005167546862108768.md",
       "pass": true,
       "checks": [
@@ -5065,7 +5065,7 @@
       "type": "categorized_doc",
       "index": 101,
       "primary_id": "2005167549974233354",
-      "categorized_doc_path": "docs/prompt-catalog/docs/diagram/x/2025/12/2005167549974233354.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2005167549974233354.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2005167549974233354.md",
       "pass": true,
       "checks": [
@@ -5115,7 +5115,7 @@
       "type": "categorized_doc",
       "index": 102,
       "primary_id": "2005167543858995660",
-      "categorized_doc_path": "docs/prompt-catalog/docs/diagram/x/2025/12/2005167543858995660.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2005167543858995660.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2005167543858995660.md",
       "pass": true,
       "checks": [
@@ -6715,7 +6715,7 @@
       "type": "categorized_doc",
       "index": 134,
       "primary_id": "2002301599344169178",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/2002301599344169178.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2002301599344169178.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2002301599344169178.md",
       "pass": true,
       "checks": [
@@ -6765,7 +6765,7 @@
       "type": "categorized_doc",
       "index": 135,
       "primary_id": "2002285378670375097",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/2002285378670375097.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2002285378670375097.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2002285378670375097.md",
       "pass": true,
       "checks": [
@@ -6865,7 +6865,7 @@
       "type": "categorized_doc",
       "index": 137,
       "primary_id": "2002255069937643858",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/2002255069937643858.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2002255069937643858.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2002255069937643858.md",
       "pass": true,
       "checks": [
@@ -6915,7 +6915,7 @@
       "type": "categorized_doc",
       "index": 138,
       "primary_id": "2002106647892943210",
-      "categorized_doc_path": "docs/prompt-catalog/dev/system-prompts/x/2025/12/2002106647892943210.md",
+      "categorized_doc_path": "docs/prompt-catalog/dev/agent-prompts/x/2025/12/2002106647892943210.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2002106647892943210.md",
       "pass": true,
       "checks": [
@@ -7315,7 +7315,7 @@
       "type": "categorized_doc",
       "index": 146,
       "primary_id": "2001619210309410830",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/12/2001619210309410830.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2001619210309410830.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2001619210309410830.md",
       "pass": true,
       "checks": [
@@ -7465,7 +7465,7 @@
       "type": "categorized_doc",
       "index": 149,
       "primary_id": "2001612603307753880",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/2001612603307753880.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2001612603307753880.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2001612603307753880.md",
       "pass": true,
       "checks": [
@@ -7665,7 +7665,7 @@
       "type": "categorized_doc",
       "index": 153,
       "primary_id": "2001317145356214328",
-      "categorized_doc_path": "docs/prompt-catalog/writing/x/2025/12/2001317145356214328.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2001317145356214328.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2001317145356214328.md",
       "pass": true,
       "checks": [
@@ -7715,7 +7715,7 @@
       "type": "categorized_doc",
       "index": 154,
       "primary_id": "2001313719851336015",
-      "categorized_doc_path": "docs/prompt-catalog/writing/x/2025/12/2001313719851336015.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2001313719851336015.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2001313719851336015.md",
       "pass": true,
       "checks": [
@@ -7765,7 +7765,7 @@
       "type": "categorized_doc",
       "index": 155,
       "primary_id": "2001274027374252199",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/2001274027374252199.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2001274027374252199.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2001274027374252199.md",
       "pass": true,
       "checks": [
@@ -7965,7 +7965,7 @@
       "type": "categorized_doc",
       "index": 159,
       "primary_id": "2000899164818071763",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/12/2000899164818071763.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2000899164818071763.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2000899164818071763.md",
       "pass": true,
       "checks": [
@@ -8015,7 +8015,7 @@
       "type": "categorized_doc",
       "index": 160,
       "primary_id": "2000899160472699150",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/12/2000899160472699150.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2000899160472699150.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2000899160472699150.md",
       "pass": true,
       "checks": [
@@ -8365,7 +8365,7 @@
       "type": "categorized_doc",
       "index": 167,
       "primary_id": "2000839126233571758",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/2000839126233571758.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2000839126233571758.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2000839126233571758.md",
       "pass": true,
       "checks": [
@@ -8415,7 +8415,7 @@
       "type": "categorized_doc",
       "index": 168,
       "primary_id": "2000839117710749918",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/12/2000839117710749918.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2000839117710749918.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2000839117710749918.md",
       "pass": true,
       "checks": [
@@ -8465,7 +8465,7 @@
       "type": "categorized_doc",
       "index": 169,
       "primary_id": "2000796143438184824",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/2000796143438184824.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2000796143438184824.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2000796143438184824.md",
       "pass": true,
       "checks": [
@@ -8515,7 +8515,7 @@
       "type": "categorized_doc",
       "index": 170,
       "primary_id": "2000796139420078328",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/2000796139420078328.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2000796139420078328.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2000796139420078328.md",
       "pass": true,
       "checks": [
@@ -8615,7 +8615,7 @@
       "type": "categorized_doc",
       "index": 172,
       "primary_id": "2000793695403323484",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/2000793695403323484.md",
+      "categorized_doc_path": "docs/prompt-catalog/presentation/x/2025/12/2000793695403323484.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2000793695403323484.md",
       "pass": true,
       "checks": [
@@ -8765,7 +8765,7 @@
       "type": "categorized_doc",
       "index": 175,
       "primary_id": "2000785308938592643",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/12/2000785308938592643.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2000785308938592643.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2000785308938592643.md",
       "pass": true,
       "checks": [
@@ -8815,7 +8815,7 @@
       "type": "categorized_doc",
       "index": 176,
       "primary_id": "2000785305159499900",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/12/2000785305159499900.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2000785305159499900.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2000785305159499900.md",
       "pass": true,
       "checks": [
@@ -8865,7 +8865,7 @@
       "type": "categorized_doc",
       "index": 177,
       "primary_id": "2000784758721405098",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/2000784758721405098.md",
+      "categorized_doc_path": "docs/prompt-catalog/presentation/x/2025/12/2000784758721405098.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2000784758721405098.md",
       "pass": true,
       "checks": [
@@ -8965,7 +8965,7 @@
       "type": "categorized_doc",
       "index": 179,
       "primary_id": "2000781016252997868",
-      "categorized_doc_path": "docs/prompt-catalog/dev/agent-prompts/x/2025/12/2000781016252997868.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2000781016252997868.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2000781016252997868.md",
       "pass": true,
       "checks": [
@@ -9015,7 +9015,7 @@
       "type": "categorized_doc",
       "index": 180,
       "primary_id": "2000442068175552695",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/2000442068175552695.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2000442068175552695.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2000442068175552695.md",
       "pass": true,
       "checks": [
@@ -9115,7 +9115,7 @@
       "type": "categorized_doc",
       "index": 182,
       "primary_id": "2000175317214740987",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/2000175317214740987.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2000175317214740987.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2000175317214740987.md",
       "pass": true,
       "checks": [
@@ -9165,7 +9165,7 @@
       "type": "categorized_doc",
       "index": 183,
       "primary_id": "2000173838165037489",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/2000173838165037489.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2000173838165037489.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2000173838165037489.md",
       "pass": true,
       "checks": [
@@ -9315,7 +9315,7 @@
       "type": "categorized_doc",
       "index": 186,
       "primary_id": "2000167028217520524",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/2000167028217520524.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/2000167028217520524.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/2000167028217520524.md",
       "pass": true,
       "checks": [
@@ -9665,7 +9665,7 @@
       "type": "categorized_doc",
       "index": 193,
       "primary_id": "1998387580279406737",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1998387580279406737.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/1998387580279406737.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1998387580279406737.md",
       "pass": true,
       "checks": [
@@ -11065,7 +11065,7 @@
       "type": "categorized_doc",
       "index": 221,
       "primary_id": "1997349048127516919",
-      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/1997349048127516919.md",
+      "categorized_doc_path": "docs/prompt-catalog/docs/graphic-recording/x/2025/12/1997349048127516919.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997349048127516919.md",
       "pass": true,
       "checks": [
@@ -11115,7 +11115,7 @@
       "type": "categorized_doc",
       "index": 222,
       "primary_id": "1997342805107372292",
-      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/1997342805107372292.md",
+      "categorized_doc_path": "docs/prompt-catalog/docs/graphic-recording/x/2025/12/1997342805107372292.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997342805107372292.md",
       "pass": true,
       "checks": [
@@ -11165,7 +11165,7 @@
       "type": "categorized_doc",
       "index": 223,
       "primary_id": "1997340072082042958",
-      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/1997340072082042958.md",
+      "categorized_doc_path": "docs/prompt-catalog/docs/graphic-recording/x/2025/12/1997340072082042958.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997340072082042958.md",
       "pass": true,
       "checks": [
@@ -11215,7 +11215,7 @@
       "type": "categorized_doc",
       "index": 224,
       "primary_id": "1997325366944542720",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/12/1997325366944542720.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1997325366944542720.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997325366944542720.md",
       "pass": true,
       "checks": [
@@ -11265,7 +11265,7 @@
       "type": "categorized_doc",
       "index": 225,
       "primary_id": "1997324915222118400",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/12/1997324915222118400.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1997324915222118400.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997324915222118400.md",
       "pass": true,
       "checks": [
@@ -11315,7 +11315,7 @@
       "type": "categorized_doc",
       "index": 226,
       "primary_id": "1997324481497636864",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/12/1997324481497636864.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1997324481497636864.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997324481497636864.md",
       "pass": true,
       "checks": [
@@ -11365,7 +11365,7 @@
       "type": "categorized_doc",
       "index": 227,
       "primary_id": "1997323938607906816",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/12/1997323938607906816.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1997323938607906816.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997323938607906816.md",
       "pass": true,
       "checks": [
@@ -11415,7 +11415,7 @@
       "type": "categorized_doc",
       "index": 228,
       "primary_id": "1997323003408117770",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/12/1997323003408117770.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1997323003408117770.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997323003408117770.md",
       "pass": true,
       "checks": [
@@ -11465,7 +11465,7 @@
       "type": "categorized_doc",
       "index": 229,
       "primary_id": "1997322591418384557",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/12/1997322591418384557.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1997322591418384557.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997322591418384557.md",
       "pass": true,
       "checks": [
@@ -11965,7 +11965,7 @@
       "type": "categorized_doc",
       "index": 239,
       "primary_id": "1997207988025827516",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/12/1997207988025827516.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1997207988025827516.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997207988025827516.md",
       "pass": true,
       "checks": [
@@ -12015,7 +12015,7 @@
       "type": "categorized_doc",
       "index": 240,
       "primary_id": "1997205624531173376",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/12/1997205624531173376.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1997205624531173376.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997205624531173376.md",
       "pass": true,
       "checks": [
@@ -12315,7 +12315,7 @@
       "type": "categorized_doc",
       "index": 246,
       "primary_id": "1997145874934518039",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1997145874934518039.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/1997145874934518039.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997145874934518039.md",
       "pass": true,
       "checks": [
@@ -12415,7 +12415,7 @@
       "type": "categorized_doc",
       "index": 248,
       "primary_id": "1997143640570056796",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/12/1997143640570056796.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/1997143640570056796.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997143640570056796.md",
       "pass": true,
       "checks": [
@@ -12515,7 +12515,7 @@
       "type": "categorized_doc",
       "index": 250,
       "primary_id": "1997143632277918007",
-      "categorized_doc_path": "docs/prompt-catalog/docs/diagram/x/2025/12/1997143632277918007.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/1997143632277918007.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997143632277918007.md",
       "pass": true,
       "checks": [
@@ -12615,7 +12615,7 @@
       "type": "categorized_doc",
       "index": 252,
       "primary_id": "1997139666961944786",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/12/1997139666961944786.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1997139666961944786.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997139666961944786.md",
       "pass": true,
       "checks": [
@@ -12665,7 +12665,7 @@
       "type": "categorized_doc",
       "index": 253,
       "primary_id": "1997138920782680383",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/12/1997138920782680383.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1997138920782680383.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1997138920782680383.md",
       "pass": true,
       "checks": [
@@ -12765,7 +12765,7 @@
       "type": "categorized_doc",
       "index": 255,
       "primary_id": "1996981586647265572",
-      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/1996981586647265572.md",
+      "categorized_doc_path": "docs/prompt-catalog/docs/graphic-recording/x/2025/12/1996981586647265572.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996981586647265572.md",
       "pass": true,
       "checks": [
@@ -12865,7 +12865,7 @@
       "type": "categorized_doc",
       "index": 257,
       "primary_id": "1996980498200228259",
-      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/1996980498200228259.md",
+      "categorized_doc_path": "docs/prompt-catalog/docs/graphic-recording/x/2025/12/1996980498200228259.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996980498200228259.md",
       "pass": true,
       "checks": [
@@ -13015,7 +13015,7 @@
       "type": "categorized_doc",
       "index": 260,
       "primary_id": "1996970277285278013",
-      "categorized_doc_path": "docs/prompt-catalog/dev/agent-prompts/x/2025/12/1996970277285278013.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1996970277285278013.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996970277285278013.md",
       "pass": true,
       "checks": [
@@ -13065,7 +13065,7 @@
       "type": "categorized_doc",
       "index": 261,
       "primary_id": "1996969318228353179",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/12/1996969318228353179.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1996969318228353179.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996969318228353179.md",
       "pass": true,
       "checks": [
@@ -13115,7 +13115,7 @@
       "type": "categorized_doc",
       "index": 262,
       "primary_id": "1996969314508001555",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/12/1996969314508001555.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1996969314508001555.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996969314508001555.md",
       "pass": true,
       "checks": [
@@ -13165,7 +13165,7 @@
       "type": "categorized_doc",
       "index": 263,
       "primary_id": "1996969318136139781",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/12/1996969318136139781.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1996969318136139781.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996969318136139781.md",
       "pass": true,
       "checks": [
@@ -13215,7 +13215,7 @@
       "type": "categorized_doc",
       "index": 264,
       "primary_id": "1996969310863200600",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/12/1996969310863200600.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1996969310863200600.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996969310863200600.md",
       "pass": true,
       "checks": [
@@ -13365,7 +13365,7 @@
       "type": "categorized_doc",
       "index": 267,
       "primary_id": "1996907059728863232",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/12/1996907059728863232.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1996907059728863232.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996907059728863232.md",
       "pass": true,
       "checks": [
@@ -13415,7 +13415,7 @@
       "type": "categorized_doc",
       "index": 268,
       "primary_id": "1996907056440529384",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/12/1996907056440529384.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1996907056440529384.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996907056440529384.md",
       "pass": true,
       "checks": [
@@ -13515,7 +13515,7 @@
       "type": "categorized_doc",
       "index": 270,
       "primary_id": "1996907048676823365",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/12/1996907048676823365.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1996907048676823365.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996907048676823365.md",
       "pass": true,
       "checks": [
@@ -13715,7 +13715,7 @@
       "type": "categorized_doc",
       "index": 274,
       "primary_id": "1996873096863883648",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/12/1996873096863883648.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1996873096863883648.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996873096863883648.md",
       "pass": true,
       "checks": [
@@ -13865,7 +13865,7 @@
       "type": "categorized_doc",
       "index": 277,
       "primary_id": "1996610497978991052",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1996610497978991052.md",
+      "categorized_doc_path": "docs/prompt-catalog/docs/graphic-recording/x/2025/12/1996610497978991052.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996610497978991052.md",
       "pass": true,
       "checks": [
@@ -13965,7 +13965,7 @@
       "type": "categorized_doc",
       "index": 279,
       "primary_id": "1996590880766267824",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/12/1996590880766267824.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1996590880766267824.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996590880766267824.md",
       "pass": true,
       "checks": [
@@ -14265,7 +14265,7 @@
       "type": "categorized_doc",
       "index": 285,
       "primary_id": "1996571144418422784",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/12/1996571144418422784.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1996571144418422784.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996571144418422784.md",
       "pass": true,
       "checks": [
@@ -15015,7 +15015,7 @@
       "type": "categorized_doc",
       "index": 300,
       "primary_id": "1996209754411253828",
-      "categorized_doc_path": "docs/prompt-catalog/dev/agent-prompts/x/2025/12/1996209754411253828.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1996209754411253828.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996209754411253828.md",
       "pass": true,
       "checks": [
@@ -15365,7 +15365,7 @@
       "type": "categorized_doc",
       "index": 307,
       "primary_id": "1996209725722263841",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/12/1996209725722263841.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1996209725722263841.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996209725722263841.md",
       "pass": true,
       "checks": [
@@ -15465,7 +15465,7 @@
       "type": "categorized_doc",
       "index": 309,
       "primary_id": "1996161966080155829",
-      "categorized_doc_path": "docs/prompt-catalog/dev/agent-prompts/x/2025/12/1996161966080155829.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1996161966080155829.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996161966080155829.md",
       "pass": true,
       "checks": [
@@ -15515,7 +15515,7 @@
       "type": "categorized_doc",
       "index": 310,
       "primary_id": "1996161962917699795",
-      "categorized_doc_path": "docs/prompt-catalog/dev/agent-prompts/x/2025/12/1996161962917699795.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1996161962917699795.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996161962917699795.md",
       "pass": true,
       "checks": [
@@ -15565,7 +15565,7 @@
       "type": "categorized_doc",
       "index": 311,
       "primary_id": "1996150855557673251",
-      "categorized_doc_path": "docs/prompt-catalog/dev/agent-prompts/x/2025/12/1996150855557673251.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/1996150855557673251.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996150855557673251.md",
       "pass": true,
       "checks": [
@@ -15615,7 +15615,7 @@
       "type": "categorized_doc",
       "index": 312,
       "primary_id": "1996150852411871371",
-      "categorized_doc_path": "docs/prompt-catalog/dev/agent-prompts/x/2025/12/1996150852411871371.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/12/1996150852411871371.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1996150852411871371.md",
       "pass": true,
       "checks": [
@@ -15965,7 +15965,7 @@
       "type": "categorized_doc",
       "index": 319,
       "primary_id": "1995934095399157847",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/12/1995934095399157847.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/12/1995934095399157847.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/12/1995934095399157847.md",
       "pass": true,
       "checks": [
@@ -17215,7 +17215,7 @@
       "type": "categorized_doc",
       "index": 344,
       "primary_id": "1995140880685203588",
-      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/11/1995140880685203588.md",
+      "categorized_doc_path": "docs/prompt-catalog/docs/graphic-recording/x/2025/11/1995140880685203588.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1995140880685203588.md",
       "pass": true,
       "checks": [
@@ -17265,7 +17265,7 @@
       "type": "categorized_doc",
       "index": 345,
       "primary_id": "1994813828849438978",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/11/1994813828849438978.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/11/1994813828849438978.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1994813828849438978.md",
       "pass": true,
       "checks": [
@@ -17315,7 +17315,7 @@
       "type": "categorized_doc",
       "index": 346,
       "primary_id": "1994812262528565753",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/11/1994812262528565753.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/11/1994812262528565753.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1994812262528565753.md",
       "pass": true,
       "checks": [
@@ -17415,7 +17415,7 @@
       "type": "categorized_doc",
       "index": 348,
       "primary_id": "1994754920608895005",
-      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/11/1994754920608895005.md",
+      "categorized_doc_path": "docs/prompt-catalog/presentation/x/2025/11/1994754920608895005.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1994754920608895005.md",
       "pass": true,
       "checks": [
@@ -18515,7 +18515,7 @@
       "type": "categorized_doc",
       "index": 370,
       "primary_id": "1994013693135474752",
-      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/11/1994013693135474752.md",
+      "categorized_doc_path": "docs/prompt-catalog/docs/graphic-recording/x/2025/11/1994013693135474752.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1994013693135474752.md",
       "pass": true,
       "checks": [
@@ -18615,7 +18615,7 @@
       "type": "categorized_doc",
       "index": 372,
       "primary_id": "1993745335433482565",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/11/1993745335433482565.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/game/x/2025/11/1993745335433482565.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1993745335433482565.md",
       "pass": true,
       "checks": [
@@ -19265,7 +19265,7 @@
       "type": "categorized_doc",
       "index": 385,
       "primary_id": "1992652647560802703",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/11/1992652647560802703.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/11/1992652647560802703.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1992652647560802703.md",
       "pass": true,
       "checks": [
@@ -19315,7 +19315,7 @@
       "type": "categorized_doc",
       "index": 386,
       "primary_id": "1992618620372001009",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/11/1992618620372001009.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/11/1992618620372001009.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1992618620372001009.md",
       "pass": true,
       "checks": [
@@ -19365,7 +19365,7 @@
       "type": "categorized_doc",
       "index": 387,
       "primary_id": "1992615643045368167",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/11/1992615643045368167.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/11/1992615643045368167.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1992615643045368167.md",
       "pass": true,
       "checks": [
@@ -19915,7 +19915,7 @@
       "type": "categorized_doc",
       "index": 398,
       "primary_id": "1992293693282562442",
-      "categorized_doc_path": "docs/prompt-catalog/docs/graphic-recording/x/2025/11/1992293693282562442.md",
+      "categorized_doc_path": "docs/prompt-catalog/docs/comic/x/2025/11/1992293693282562442.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1992293693282562442.md",
       "pass": true,
       "checks": [
@@ -21065,7 +21065,7 @@
       "type": "categorized_doc",
       "index": 421,
       "primary_id": "1991232645506953278",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/11/1991232645506953278.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/11/1991232645506953278.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1991232645506953278.md",
       "pass": true,
       "checks": [
@@ -21115,7 +21115,7 @@
       "type": "categorized_doc",
       "index": 422,
       "primary_id": "1991231333545427368",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/11/1991231333545427368.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/11/1991231333545427368.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1991231333545427368.md",
       "pass": true,
       "checks": [
@@ -21215,7 +21215,7 @@
       "type": "categorized_doc",
       "index": 424,
       "primary_id": "1991163830895046657",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/11/1991163830895046657.md",
+      "categorized_doc_path": "docs/prompt-catalog/dev/agent-prompts/x/2025/11/1991163830895046657.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1991163830895046657.md",
       "pass": true,
       "checks": [
@@ -21765,7 +21765,7 @@
       "type": "categorized_doc",
       "index": 435,
       "primary_id": "1988970939443474562",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/11/1988970939443474562.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/11/1988970939443474562.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1988970939443474562.md",
       "pass": true,
       "checks": [
@@ -22115,7 +22115,7 @@
       "type": "categorized_doc",
       "index": 442,
       "primary_id": "1988268976460493301",
-      "categorized_doc_path": "docs/prompt-catalog/writing/x/2025/11/1988268976460493301.md",
+      "categorized_doc_path": "docs/prompt-catalog/docs/comic/x/2025/11/1988268976460493301.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1988268976460493301.md",
       "pass": true,
       "checks": [
@@ -22215,7 +22215,7 @@
       "type": "categorized_doc",
       "index": 444,
       "primary_id": "1988268966478057713",
-      "categorized_doc_path": "docs/prompt-catalog/writing/x/2025/11/1988268966478057713.md",
+      "categorized_doc_path": "docs/prompt-catalog/docs/comic/x/2025/11/1988268966478057713.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/11/1988268966478057713.md",
       "pass": true,
       "checks": [
@@ -23815,7 +23815,7 @@
       "type": "categorized_doc",
       "index": 476,
       "primary_id": "1980673512701587871",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/10/1980673512701587871.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/10/1980673512701587871.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/10/1980673512701587871.md",
       "pass": true,
       "checks": [
@@ -24115,7 +24115,7 @@
       "type": "categorized_doc",
       "index": 482,
       "primary_id": "1979826512615653704",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/10/1979826512615653704.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/10/1979826512615653704.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/10/1979826512615653704.md",
       "pass": true,
       "checks": [
@@ -24815,7 +24815,7 @@
       "type": "categorized_doc",
       "index": 496,
       "primary_id": "1979241999078428779",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/10/1979241999078428779.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/10/1979241999078428779.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/10/1979241999078428779.md",
       "pass": true,
       "checks": [
@@ -25365,7 +25365,7 @@
       "type": "categorized_doc",
       "index": 507,
       "primary_id": "1977993797402603781",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/10/1977993797402603781.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/10/1977993797402603781.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/10/1977993797402603781.md",
       "pass": true,
       "checks": [
@@ -25565,7 +25565,7 @@
       "type": "categorized_doc",
       "index": 511,
       "primary_id": "1977043770769371598",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/10/1977043770769371598.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/10/1977043770769371598.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/10/1977043770769371598.md",
       "pass": true,
       "checks": [
@@ -25615,7 +25615,7 @@
       "type": "categorized_doc",
       "index": 512,
       "primary_id": "1976996887204147489",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/10/1976996887204147489.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/10/1976996887204147489.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/10/1976996887204147489.md",
       "pass": true,
       "checks": [
@@ -25965,7 +25965,7 @@
       "type": "categorized_doc",
       "index": 519,
       "primary_id": "1976643063746621747",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/10/1976643063746621747.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/10/1976643063746621747.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/10/1976643063746621747.md",
       "pass": true,
       "checks": [
@@ -26115,7 +26115,7 @@
       "type": "categorized_doc",
       "index": 522,
       "primary_id": "1976641384204607610",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/10/1976641384204607610.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/10/1976641384204607610.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/10/1976641384204607610.md",
       "pass": true,
       "checks": [
@@ -27115,7 +27115,7 @@
       "type": "categorized_doc",
       "index": 542,
       "primary_id": "1975550663800332483",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/10/1975550663800332483.md",
+      "categorized_doc_path": "docs/prompt-catalog/dev/system-prompts/x/2025/10/1975550663800332483.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/10/1975550663800332483.md",
       "pass": true,
       "checks": [
@@ -27615,7 +27615,7 @@
       "type": "categorized_doc",
       "index": 552,
       "primary_id": "1974714115659813138",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/10/1974714115659813138.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/10/1974714115659813138.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/10/1974714115659813138.md",
       "pass": true,
       "checks": [
@@ -27715,7 +27715,7 @@
       "type": "categorized_doc",
       "index": 554,
       "primary_id": "1974514493045764117",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/10/1974514493045764117.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/10/1974514493045764117.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/10/1974514493045764117.md",
       "pass": true,
       "checks": [
@@ -27765,7 +27765,7 @@
       "type": "categorized_doc",
       "index": 555,
       "primary_id": "1974501149836480836",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/10/1974501149836480836.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/10/1974501149836480836.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/10/1974501149836480836.md",
       "pass": true,
       "checks": [
@@ -28015,7 +28015,7 @@
       "type": "categorized_doc",
       "index": 560,
       "primary_id": "1974150129843368276",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/10/1974150129843368276.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/10/1974150129843368276.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/10/1974150129843368276.md",
       "pass": true,
       "checks": [
@@ -28065,7 +28065,7 @@
       "type": "categorized_doc",
       "index": 561,
       "primary_id": "1974146686122668308",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/10/1974146686122668308.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/10/1974146686122668308.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/10/1974146686122668308.md",
       "pass": true,
       "checks": [
@@ -28115,7 +28115,7 @@
       "type": "categorized_doc",
       "index": 562,
       "primary_id": "1974144801361817910",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/10/1974144801361817910.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/10/1974144801361817910.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/10/1974144801361817910.md",
       "pass": true,
       "checks": [
@@ -28265,7 +28265,7 @@
       "type": "categorized_doc",
       "index": 565,
       "primary_id": "1973770548355436843",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/10/1973770548355436843.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/10/1973770548355436843.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/10/1973770548355436843.md",
       "pass": true,
       "checks": [
@@ -28465,7 +28465,7 @@
       "type": "categorized_doc",
       "index": 569,
       "primary_id": "1973591510991118781",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/10/1973591510991118781.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/10/1973591510991118781.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/10/1973591510991118781.md",
       "pass": true,
       "checks": [
@@ -28515,7 +28515,7 @@
       "type": "categorized_doc",
       "index": 570,
       "primary_id": "1973591062259310792",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/10/1973591062259310792.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/10/1973591062259310792.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/10/1973591062259310792.md",
       "pass": true,
       "checks": [
@@ -28565,7 +28565,7 @@
       "type": "categorized_doc",
       "index": 571,
       "primary_id": "1973586513251500449",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/10/1973586513251500449.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/10/1973586513251500449.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/10/1973586513251500449.md",
       "pass": true,
       "checks": [
@@ -29765,7 +29765,7 @@
       "type": "categorized_doc",
       "index": 595,
       "primary_id": "1972322109876740331",
-      "categorized_doc_path": "docs/prompt-catalog/writing/x/2025/09/1972322109876740331.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/09/1972322109876740331.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/09/1972322109876740331.md",
       "pass": true,
       "checks": [
@@ -30015,7 +30015,7 @@
       "type": "categorized_doc",
       "index": 600,
       "primary_id": "1972306156312997888",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/09/1972306156312997888.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/09/1972306156312997888.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/09/1972306156312997888.md",
       "pass": true,
       "checks": [
@@ -30615,7 +30615,7 @@
       "type": "categorized_doc",
       "index": 612,
       "primary_id": "1969550721143226524",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/09/1969550721143226524.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/09/1969550721143226524.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/09/1969550721143226524.md",
       "pass": true,
       "checks": [
@@ -30765,7 +30765,7 @@
       "type": "categorized_doc",
       "index": 615,
       "primary_id": "1969420498158436693",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/09/1969420498158436693.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/09/1969420498158436693.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/09/1969420498158436693.md",
       "pass": true,
       "checks": [
@@ -30815,7 +30815,7 @@
       "type": "categorized_doc",
       "index": 616,
       "primary_id": "1969411529192980648",
-      "categorized_doc_path": "docs/prompt-catalog/dev/agent-prompts/x/2025/09/1969411529192980648.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/09/1969411529192980648.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/09/1969411529192980648.md",
       "pass": true,
       "checks": [
@@ -30865,7 +30865,7 @@
       "type": "categorized_doc",
       "index": 617,
       "primary_id": "1969410719650365442",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/09/1969410719650365442.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/09/1969410719650365442.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/09/1969410719650365442.md",
       "pass": true,
       "checks": [
@@ -32315,7 +32315,7 @@
       "type": "categorized_doc",
       "index": 646,
       "primary_id": "1964272902683136389",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/09/1964272902683136389.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/09/1964272902683136389.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/09/1964272902683136389.md",
       "pass": true,
       "checks": [
@@ -32515,7 +32515,7 @@
       "type": "categorized_doc",
       "index": 650,
       "primary_id": "1963972970474602988",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/09/1963972970474602988.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/09/1963972970474602988.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/09/1963972970474602988.md",
       "pass": true,
       "checks": [
@@ -32765,7 +32765,7 @@
       "type": "categorized_doc",
       "index": 655,
       "primary_id": "1960840103934496840",
-      "categorized_doc_path": "docs/prompt-catalog/dev/system-prompts/x/2025/08/1960840103934496840.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/08/1960840103934496840.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/08/1960840103934496840.md",
       "pass": true,
       "checks": [
@@ -33015,7 +33015,7 @@
       "type": "categorized_doc",
       "index": 660,
       "primary_id": "1959995038605459921",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/08/1959995038605459921.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/08/1959995038605459921.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/08/1959995038605459921.md",
       "pass": true,
       "checks": [
@@ -33115,7 +33115,7 @@
       "type": "categorized_doc",
       "index": 662,
       "primary_id": "1959720467495084033",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/08/1959720467495084033.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/08/1959720467495084033.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/08/1959720467495084033.md",
       "pass": true,
       "checks": [
@@ -33465,7 +33465,7 @@
       "type": "categorized_doc",
       "index": 669,
       "primary_id": "1959273154314117169",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/08/1959273154314117169.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/08/1959273154314117169.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/08/1959273154314117169.md",
       "pass": true,
       "checks": [
@@ -33565,7 +33565,7 @@
       "type": "categorized_doc",
       "index": 671,
       "primary_id": "1959256825309872612",
-      "categorized_doc_path": "docs/prompt-catalog/dev/agent-prompts/x/2025/08/1959256825309872612.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/08/1959256825309872612.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/08/1959256825309872612.md",
       "pass": true,
       "checks": [
@@ -34115,7 +34115,7 @@
       "type": "categorized_doc",
       "index": 682,
       "primary_id": "1958500828991664196",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/08/1958500828991664196.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/08/1958500828991664196.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/08/1958500828991664196.md",
       "pass": true,
       "checks": [
@@ -34615,7 +34615,7 @@
       "type": "categorized_doc",
       "index": 692,
       "primary_id": "1950500271483982094",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/07/1950500271483982094.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/07/1950500271483982094.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/07/1950500271483982094.md",
       "pass": true,
       "checks": [
@@ -34915,7 +34915,7 @@
       "type": "categorized_doc",
       "index": 698,
       "primary_id": "1949295568234459345",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/07/1949295568234459345.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/07/1949295568234459345.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/07/1949295568234459345.md",
       "pass": true,
       "checks": [
@@ -35065,7 +35065,7 @@
       "type": "categorized_doc",
       "index": 701,
       "primary_id": "1948005492074443237",
-      "categorized_doc_path": "docs/prompt-catalog/docs/diagram/x/2025/07/1948005492074443237.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/07/1948005492074443237.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/07/1948005492074443237.md",
       "pass": true,
       "checks": [
@@ -35115,7 +35115,7 @@
       "type": "categorized_doc",
       "index": 702,
       "primary_id": "1947700288288395336",
-      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/07/1947700288288395336.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/07/1947700288288395336.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/07/1947700288288395336.md",
       "pass": true,
       "checks": [
@@ -35315,7 +35315,7 @@
       "type": "categorized_doc",
       "index": 706,
       "primary_id": "1945847679067783608",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/07/1945847679067783608.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/07/1945847679067783608.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/07/1945847679067783608.md",
       "pass": true,
       "checks": [
@@ -35365,7 +35365,7 @@
       "type": "categorized_doc",
       "index": 707,
       "primary_id": "1944384988641972276",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/07/1944384988641972276.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/07/1944384988641972276.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/07/1944384988641972276.md",
       "pass": true,
       "checks": [
@@ -35415,7 +35415,7 @@
       "type": "categorized_doc",
       "index": 708,
       "primary_id": "1943976659532886297",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/07/1943976659532886297.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/07/1943976659532886297.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/07/1943976659532886297.md",
       "pass": true,
       "checks": [
@@ -35565,7 +35565,7 @@
       "type": "categorized_doc",
       "index": 711,
       "primary_id": "1940772009929281963",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/07/1940772009929281963.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/07/1940772009929281963.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/07/1940772009929281963.md",
       "pass": true,
       "checks": [
@@ -35615,7 +35615,7 @@
       "type": "categorized_doc",
       "index": 712,
       "primary_id": "1940770900644921489",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/07/1940770900644921489.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/07/1940770900644921489.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/07/1940770900644921489.md",
       "pass": true,
       "checks": [
@@ -35665,7 +35665,7 @@
       "type": "categorized_doc",
       "index": 713,
       "primary_id": "1940770357390332189",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/07/1940770357390332189.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/07/1940770357390332189.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/07/1940770357390332189.md",
       "pass": true,
       "checks": [
@@ -35715,7 +35715,7 @@
       "type": "categorized_doc",
       "index": 714,
       "primary_id": "1940769620547543414",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/07/1940769620547543414.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/07/1940769620547543414.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/07/1940769620547543414.md",
       "pass": true,
       "checks": [
@@ -35965,7 +35965,7 @@
       "type": "categorized_doc",
       "index": 719,
       "primary_id": "1939203100088344984",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/06/1939203100088344984.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/06/1939203100088344984.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/06/1939203100088344984.md",
       "pass": true,
       "checks": [
@@ -36015,7 +36015,7 @@
       "type": "categorized_doc",
       "index": 720,
       "primary_id": "1939202997273420021",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/06/1939202997273420021.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/06/1939202997273420021.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/06/1939202997273420021.md",
       "pass": true,
       "checks": [
@@ -36065,7 +36065,7 @@
       "type": "categorized_doc",
       "index": 721,
       "primary_id": "1939200791522533801",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/06/1939200791522533801.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/06/1939200791522533801.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/06/1939200791522533801.md",
       "pass": true,
       "checks": [
@@ -36365,7 +36365,7 @@
       "type": "categorized_doc",
       "index": 727,
       "primary_id": "1938834562840437091",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/06/1938834562840437091.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/06/1938834562840437091.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/06/1938834562840437091.md",
       "pass": true,
       "checks": [
@@ -36865,7 +36865,7 @@
       "type": "categorized_doc",
       "index": 737,
       "primary_id": "1938620701084385387",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/06/1938620701084385387.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/06/1938620701084385387.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/06/1938620701084385387.md",
       "pass": true,
       "checks": [
@@ -36915,7 +36915,7 @@
       "type": "categorized_doc",
       "index": 738,
       "primary_id": "1938587899731283993",
-      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/06/1938587899731283993.md",
+      "categorized_doc_path": "docs/prompt-catalog/docs/graphic-recording/x/2025/06/1938587899731283993.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/06/1938587899731283993.md",
       "pass": true,
       "checks": [
@@ -36965,7 +36965,7 @@
       "type": "categorized_doc",
       "index": 739,
       "primary_id": "1938587898728865792",
-      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/06/1938587898728865792.md",
+      "categorized_doc_path": "docs/prompt-catalog/docs/graphic-recording/x/2025/06/1938587898728865792.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/06/1938587898728865792.md",
       "pass": true,
       "checks": [
@@ -37215,7 +37215,7 @@
       "type": "categorized_doc",
       "index": 744,
       "primary_id": "1938549848636334527",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/06/1938549848636334527.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/06/1938549848636334527.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/06/1938549848636334527.md",
       "pass": true,
       "checks": [
@@ -37565,7 +37565,7 @@
       "type": "categorized_doc",
       "index": 751,
       "primary_id": "1936024678034031034",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/06/1936024678034031034.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/06/1936024678034031034.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/06/1936024678034031034.md",
       "pass": true,
       "checks": [
@@ -37615,7 +37615,7 @@
       "type": "categorized_doc",
       "index": 752,
       "primary_id": "1936020574981300631",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/06/1936020574981300631.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/audio/x/2025/06/1936020574981300631.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/06/1936020574981300631.md",
       "pass": true,
       "checks": [
@@ -37965,7 +37965,7 @@
       "type": "categorized_doc",
       "index": 759,
       "primary_id": "1933842310854480195",
-      "categorized_doc_path": "docs/prompt-catalog/creative/video/x/2025/06/1933842310854480195.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/06/1933842310854480195.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/06/1933842310854480195.md",
       "pass": true,
       "checks": [
@@ -38715,7 +38715,7 @@
       "type": "categorized_doc",
       "index": 774,
       "primary_id": "1931736756208189830",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/06/1931736756208189830.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/06/1931736756208189830.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/06/1931736756208189830.md",
       "pass": true,
       "checks": [
@@ -39165,7 +39165,7 @@
       "type": "categorized_doc",
       "index": 783,
       "primary_id": "1929047804133126302",
-      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/06/1929047804133126302.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/game/x/2025/06/1929047804133126302.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/06/1929047804133126302.md",
       "pass": true,
       "checks": [
@@ -39215,7 +39215,7 @@
       "type": "categorized_doc",
       "index": 784,
       "primary_id": "1928993042591277226",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/06/1928993042591277226.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/game/x/2025/06/1928993042591277226.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/06/1928993042591277226.md",
       "pass": true,
       "checks": [
@@ -39915,7 +39915,7 @@
       "type": "categorized_doc",
       "index": 798,
       "primary_id": "1921415011974701071",
-      "categorized_doc_path": "docs/prompt-catalog/dev/templates/x/2025/05/1921415011974701071.md",
+      "categorized_doc_path": "docs/prompt-catalog/creative/visual/x/2025/05/1921415011974701071.md",
       "archive_doc_path": "docs/prompt-catalog/archive/x/2025/05/1921415011974701071.md",
       "pass": true,
       "checks": [

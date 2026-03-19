@@ -54,7 +54,7 @@ Prompts for supporting automatic presentation and pitch deck creation.
 
 Additional prompts imported from X are currently published on the Japanese route for this category. The Japanese archive keeps the original wording, source context, and experimental status visible.
 
-- total items: 13
+- total items: 16
 - status: experimental reference track
 - [Open the Japanese X-derived archive](/prompt-catalog/presentation/x/)
 <!-- x-categorized-imports:end -->

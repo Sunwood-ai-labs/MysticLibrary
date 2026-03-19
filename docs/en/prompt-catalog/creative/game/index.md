@@ -19,7 +19,7 @@ A category of prompts related to game development.
 
 Additional prompts imported from X are currently published on the Japanese route for this category. The Japanese archive keeps the original wording, source context, and experimental status visible.
 
-- total items: 4
+- total items: 10
 - status: experimental reference track
 - [Open the Japanese X-derived archive](/prompt-catalog/creative/game/x/)
 <!-- x-categorized-imports:end -->

@@ -88,7 +88,7 @@ Graphic Recording is a technique for summarizing meeting and presentation conten
 
 Additional prompts imported from X are currently published on the Japanese route for this category. The Japanese archive keeps the original wording, source context, and experimental status visible.
 
-- total items: 28
+- total items: 38
 - status: experimental reference track
 - [Open the Japanese X-derived archive](/prompt-catalog/docs/graphic-recording/x/)
 <!-- x-categorized-imports:end -->

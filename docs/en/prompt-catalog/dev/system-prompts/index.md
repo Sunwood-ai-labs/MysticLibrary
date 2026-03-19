@@ -16,7 +16,7 @@ System prompts grouped by tool / agent vendor.
 
 Additional prompts imported from X are currently published on the Japanese route for this category. The Japanese archive keeps the original wording, source context, and experimental status visible.
 
-- total items: 17
+- total items: 13
 - status: experimental reference track
 - [Open the Japanese X-derived archive](/prompt-catalog/dev/system-prompts/x/)
 <!-- x-categorized-imports:end -->

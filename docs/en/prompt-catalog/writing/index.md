@@ -27,7 +27,7 @@ This is a collection of prompts for writing emails, notices, summaries, and othe
 
 Additional prompts imported from X are currently published on the Japanese route for this category. The Japanese archive keeps the original wording, source context, and experimental status visible.
 
-- total items: 8
+- total items: 2
 - status: experimental reference track
 - [Open the Japanese X-derived archive](/prompt-catalog/writing/x/)
 <!-- x-categorized-imports:end -->

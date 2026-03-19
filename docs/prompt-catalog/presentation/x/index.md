@@ -11,12 +11,15 @@ last_reviewed: 2026-03-19
 # X由来の実験プロンプト
 
 - branch: presentation
-- items: 13
-- classified: 13
+- items: 16
+- classified: 16
 - needs review: 0
 
 ## 最新20件
 - [ワンパン動画生成Skills「Remotion」使ってみた❸](./2026/01/2014342883491692668.md) - 2026-01-22 23:22:22 JST / classified / high
+- [NotebookLMでオリキャラスライド爆誕🔥❷](./2025/12/2000793695403323484.md) - 2025-12-16 14:02:44 JST / classified / high
+- [NotebookLMでオリキャラスライド爆誕🔥](./2025/12/2000784758721405098.md) - 2025-12-16 13:27:13 JST / classified / high
+- [Google スライドの nano banana pro のスライドモードお試し⓬](./2025/11/1994754920608895005.md) - 2025-11-29 22:06:48 JST / classified / high
 - [Google スライドの nano banana pro のスライドモードお試し⓫~縦長生成編~](./2025/11/1994636150309548356.md) - 2025-11-29 14:14:51 JST / classified / high
 - [💡オリキャラGoogleスライドのざっくりやり方動画](./2025/11/1994402491564503344.md) - 2025-11-28 22:46:22 JST / classified / high
 - [💡ついにオリキャラGoogleスライド爆誕💡](./2025/11/1994356240152223941.md) - 2025-11-28 19:42:35 JST / classified / high
@@ -32,4 +35,4 @@ last_reviewed: 2026-03-19
 
 ## 年別アーカイブ
 - [2026](./2026/index.md) - 1件
-- [2025](./2025/index.md) - 12件
+- [2025](./2025/index.md) - 15件

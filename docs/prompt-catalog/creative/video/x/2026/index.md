@@ -11,8 +11,7 @@ last_reviewed: 2026-03-19
 # X由来の実験プロンプト 2026
 
 - branch: creative / video
-- items: 10
+- items: 9
 
 ## 月別アーカイブ
-- [2026-02](./02/index.md) - 2件
-- [2026-01](./01/index.md) - 8件
+- [2026-01](./01/index.md) - 9件

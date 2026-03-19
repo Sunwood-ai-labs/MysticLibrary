@@ -19,7 +19,7 @@ Prompts for converting text to comic-style documents.
 
 Additional prompts imported from X are currently published on the Japanese route for this category. The Japanese archive keeps the original wording, source context, and experimental status visible.
 
-- total items: 1
+- total items: 4
 - status: experimental reference track
 - [Open the Japanese X-derived archive](/prompt-catalog/docs/comic/x/)
 <!-- x-categorized-imports:end -->

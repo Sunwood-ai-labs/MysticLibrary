@@ -11,10 +11,9 @@ last_reviewed: 2026-03-19
 # X由来の実験プロンプト 2025
 
 - branch: dev / agent-prompts
-- items: 12
+- items: 5
 
 ## 月別アーカイブ
-- [2025-12](./12/index.md) - 9件
-- [2025-09](./09/index.md) - 1件
-- [2025-08](./08/index.md) - 1件
+- [2025-12](./12/index.md) - 3件
+- [2025-11](./11/index.md) - 1件
 - [2025-06](./06/index.md) - 1件

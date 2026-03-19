@@ -11,8 +11,7 @@ last_reviewed: 2026-03-19
 # X由来の実験プロンプト 2025-08
 
 - branch: dev / system-prompts
-- items: 2
+- items: 1
 
 ## 一覧
-- [私も、Gemini 2.5 Flash で「isometric model」プロンプトやってみた!](./1960840103934496840.md) - 2025-08-28 08:01:26 JST / classified / medium
 - [私もclaude4.1でテトリスチャレンジしてみた!!](./1953137587352432929.md) - 2025-08-07 01:54:23 JST / classified / low

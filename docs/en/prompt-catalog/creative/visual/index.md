@@ -24,7 +24,7 @@ A category of prompts related to visual content generation (images, illustration
 
 Additional prompts imported from X are currently published on the Japanese route for this category. The Japanese archive keeps the original wording, source context, and experimental status visible.
 
-- total items: 264
+- total items: 333
 - status: experimental reference track
 - [Open the Japanese X-derived archive](/prompt-catalog/creative/visual/x/)
 <!-- x-categorized-imports:end -->

@@ -20,7 +20,7 @@ A category of prompts related to music and lyric generation. Contains prompts in
 
 Additional prompts imported from X are currently published on the Japanese route for this category. The Japanese archive keeps the original wording, source context, and experimental status visible.
 
-- total items: 54
+- total items: 27
 - status: experimental reference track
 - [Open the Japanese X-derived archive](/prompt-catalog/creative/audio/x/)
 <!-- x-categorized-imports:end -->
