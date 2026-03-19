@@ -156,8 +156,19 @@ function isXSeriesBranch(relativeDirectory: string) {
   return normalized.startsWith("prompt-catalog/") && normalized.split("/").includes("x");
 }
 
+function shouldHideSidebarDirectory(relativeDirectory: string, entryName: string) {
+  const normalized = normalizeRoutePath(relativeDirectory);
+  return entryName === "x" && normalized.startsWith("prompt-catalog/") && normalized !== "prompt-catalog/archive";
+}
+
 function shouldHideXLeafFiles(relativeDirectory: string) {
   return isXSeriesBranch(relativeDirectory);
+}
+
+function shouldHideXDirectory(relativeDirectory: string, entry: string) {
+  if (entry !== "x") return false;
+  const normalized = normalizeRoutePath(relativeDirectory);
+  return normalized.startsWith("prompt-catalog/") && normalized !== "prompt-catalog/archive";
 }
 
 function stripQuotes(value: string) {
@@ -216,12 +227,14 @@ function buildPromptCatalogDirectoryItems(
   const localeDocsRoot = locale === "ja" ? DOCS_ROOT_DIR : path.join(DOCS_ROOT_DIR, "en");
   const relativeDirectory = normalizeRoutePath(path.relative(localeDocsRoot, directoryPath));
   const entries = sortEntries(
-    readdirSync(directoryPath).filter((entry) => !entry.startsWith(".")),
+    readdirSync(directoryPath).filter((entry) => !entry.startsWith(".") && !shouldHideSidebarDirectory(relativeDirectory, entry)),
     directoryPath,
     locale
   );
 
-  const directories = entries.filter((entry) => statSync(path.join(directoryPath, entry)).isDirectory());
+  const directories = entries.filter((entry) =>
+    statSync(path.join(directoryPath, entry)).isDirectory() && !shouldHideXDirectory(relativeDirectory, entry),
+  );
   const files = entries.filter((entry) => {
     const fullPath = path.join(directoryPath, entry);
     return (

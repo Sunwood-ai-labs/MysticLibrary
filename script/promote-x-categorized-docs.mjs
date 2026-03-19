@@ -3,7 +3,7 @@ import { access, mkdir, readFile, rm, stat, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
 const DEFAULT_REVIEW_FILE =
-  'raw/twitter-2026-03-16-6b1dc95fdd94290f9647655262ead4d269c8bab92289bd687e0490c25bacce7c/x-category-review.jsonl';
+  'raw/twitter-2026-03-16-6b1dc95fdd94290f9647655262ead4d269c8bab92289bd687e0490c25bacce7c/x-category-final-review.jsonl';
 const DEFAULT_SOURCE_MANIFEST =
   'raw/twitter-2026-03-16-6b1dc95fdd94290f9647655262ead4d269c8bab92289bd687e0490c25bacce7c/prompt-import-manifest.json';
 const DEFAULT_OUTPUT_MANIFEST =
@@ -12,6 +12,26 @@ const CURRENT_DATE = '2026-03-19';
 const CURRENT_ISO = '2026-03-19T00:00:00+09:00';
 const SCREEN_NAME = 'hAru_mAki_ch';
 const TIME_ZONE = 'Asia/Tokyo';
+const INTEGRATED_SECTION_START = '<!-- x-categorized-imports:start -->';
+const INTEGRATED_SECTION_END = '<!-- x-categorized-imports:end -->';
+const MAX_INLINE_ENTRY_COUNT = 24;
+const MAX_RECENT_PREVIEW_COUNT = 12;
+const CATEGORY_SECTION_RULES = {
+  presentation: [
+    {
+      title: '### MCP自動プレゼンテーション関連',
+      matcher: /(agentvrm|voicevox|vmagicmirror|mcp|vrm)/i,
+    },
+    {
+      title: '### ピッチデッキ関連',
+      matcher: /(pitch|pitchcast)/i,
+    },
+    {
+      title: '### スライド作成関連',
+      matcher: /(google\s*slides|google スライド|quarkdown|slide|スライド|html|グラフィックレコーディング)/i,
+    },
+  ],
+};
 
 async function main() {
   const options = parseArgs(process.argv.slice(2));
@@ -110,6 +130,7 @@ async function main() {
   }
 
   writes.push(...buildCategorizedIndexWrites({ cwd, categorizedEntries }));
+  writes.push(...await buildIntegratedCategoryIndexWrites({ cwd, categorizedEntries }));
   const outputManifest = buildPromotionManifest({
     reviewFile,
     sourceManifestFile,
@@ -204,7 +225,7 @@ function printHelp() {
     'Usage: node script/promote-x-categorized-docs.mjs [--write] [--clean-previous]',
     '',
     'Promotes X archive prompt records into categorized docs paths',
-    'using the per-record review ledger in x-category-review.jsonl.',
+    'using the per-record final review ledger in x-category-final-review.jsonl.',
   ].join('\n'));
 }
 
@@ -391,6 +412,10 @@ async function pathExists(absPath, cache) {
 }
 
 function shouldStayArchiveOnly(decision) {
+  if (String(decision.review_status ?? '').trim() !== 'classified') {
+    return true;
+  }
+
   return (
     String(decision.final_decision ?? '').trim() === 'archive_only'
     || String(decision.final_top_category ?? '').trim() === 'archive_only'
@@ -569,12 +594,55 @@ function buildCategorizedIndexWrites({ cwd, categorizedEntries }) {
   return writes;
 }
 
+async function buildIntegratedCategoryIndexWrites({ cwd, categorizedEntries }) {
+  const entriesByBase = groupBy(categorizedEntries, (entry) =>
+    normalizeSlash(path.join(entry.top_category, ...(entry.subpath ? entry.subpath.split('/') : []))),
+  );
+  const writes = [];
+
+  for (const [branchKey, baseEntries] of entriesByBase.entries()) {
+    const targets = [
+      {
+        absPath: path.resolve(cwd, 'docs/prompt-catalog', branchKey, 'index.md'),
+        locale: 'ja',
+      },
+      {
+        absPath: path.resolve(cwd, 'docs/en/prompt-catalog', branchKey, 'index.md'),
+        locale: 'en',
+      },
+    ];
+
+    for (const target of targets) {
+      const previous = await readIfExists(target.absPath);
+      if (!previous) {
+        continue;
+      }
+
+      const next = upsertIntegratedImportsSection(previous, buildIntegratedImportsSection({
+        branchKey,
+        entries: baseEntries,
+        locale: target.locale,
+      }));
+      if (next === previous) {
+        continue;
+      }
+
+      writes.push({
+        absPath: target.absPath,
+        content: next,
+      });
+    }
+  }
+
+  return writes;
+}
+
 function buildRootIndex({ branchLabel, entries, groupedByYear }) {
   const latest = [...entries].sort(compareEntriesDesc).slice(0, 20);
   const lines = [
     '---',
-    'title: X Imports',
-    `description: ${yamlScalar(`Categorized X prompt imports for ${branchLabel}`)}`,
+    `title: ${yamlScalar('X由来の実験プロンプト')}`,
+    `description: ${yamlScalar(`${branchLabel} に分類した X 由来の実験プロンプト`)}`,
     `category: ${yamlScalar(frontmatterCategory(entries[0]?.top_category ?? 'archive'))}`,
     'intent: x-import-index',
     'status: archived',
@@ -582,14 +650,14 @@ function buildRootIndex({ branchLabel, entries, groupedByYear }) {
     `last_reviewed: ${CURRENT_DATE}`,
     '---',
     '',
-    '# X Imports',
+    '# X由来の実験プロンプト',
     '',
     `- branch: ${branchLabel}`,
     `- items: ${entries.length}`,
     `- classified: ${entries.filter((entry) => entry.review_status === 'classified').length}`,
     `- needs review: ${entries.filter((entry) => entry.review_status === 'needs_review').length}`,
     '',
-    '## Latest 20',
+    '## 最新20件',
   ];
 
   for (const entry of latest) {
@@ -598,11 +666,75 @@ function buildRootIndex({ branchLabel, entries, groupedByYear }) {
     );
   }
 
-  lines.push('', '## By Year');
+  lines.push('', '## 年別アーカイブ');
   for (const [year, yearEntries] of sortGroupEntries(groupedByYear)) {
-    lines.push(`- [${year}](./${year}/index.md) - ${yearEntries.length} items`);
+    lines.push(`- [${year}](./${year}/index.md) - ${yearEntries.length}件`);
   }
   lines.push('');
+  return `${lines.join('\n').trimEnd()}\n`;
+}
+
+function buildIntegratedImportsSection({ branchKey, entries, locale }) {
+  if (locale === 'en') {
+    return buildEnglishIntegratedImportsSection({ branchKey, entries });
+  }
+
+  const sorted = [...entries].sort(compareEntriesDesc);
+  const groupedByYear = groupBy(sorted, (entry) => entry.source_published_at.slice(0, 4));
+  const lines = [
+    '## X由来の分類済み追加プロンプト',
+    '',
+    'X から取り込んで分類済みの追加プロンプトです。カテゴリ本文から直接たどれるようにしつつ、X由来ページとして区別しています。',
+    '',
+    `- 総件数: ${sorted.length}`,
+    `- 全件アーカイブ: [X由来アーカイブ](./x/)`,
+    '',
+  ];
+
+  if (sorted.length <= MAX_INLINE_ENTRY_COUNT) {
+    for (const group of buildIntegratedEntryGroups(branchKey, sorted)) {
+      if (group.title) {
+        lines.push(group.title, '');
+      }
+      for (const entry of group.entries) {
+        lines.push(
+          `- [${escapeDisplayText(entry.title || entry.primary_id)}](./x/${entry.source_published_at.slice(0, 4)}/${entry.archive_bucket.slice(-2)}/${entry.primary_id}.md) - ${formatJst(entry.source_published_at)} / ${entry.confidence}`,
+        );
+      }
+      lines.push('');
+    }
+    return `${lines.join('\n').trimEnd()}\n`;
+  }
+
+  lines.push(`### 最新 ${MAX_RECENT_PREVIEW_COUNT} 件`, '');
+  for (const entry of sorted.slice(0, MAX_RECENT_PREVIEW_COUNT)) {
+    lines.push(
+      `- [${escapeDisplayText(entry.title || entry.primary_id)}](./x/${entry.source_published_at.slice(0, 4)}/${entry.archive_bucket.slice(-2)}/${entry.primary_id}.md) - ${formatJst(entry.source_published_at)} / ${entry.confidence}`,
+    );
+  }
+
+  lines.push('', '### 年別アーカイブ', '');
+  for (const [year, yearEntries] of sortGroupEntries(groupedByYear)) {
+    lines.push(`- [${year}](./x/${year}/index.md) - ${yearEntries.length}件`);
+  }
+
+  return `${lines.join('\n').trimEnd()}\n`;
+}
+
+function buildEnglishIntegratedImportsSection({ branchKey, entries }) {
+  const sorted = [...entries].sort(compareEntriesDesc);
+  const archivePath = `/prompt-catalog/${branchKey}/x/`;
+  const lines = [
+    '## X-Derived Experimental Prompts',
+    '',
+    'Additional prompts imported from X are currently published on the Japanese route for this category. The Japanese archive keeps the original wording, source context, and experimental status visible.',
+    '',
+    `- total items: ${sorted.length}`,
+    '- status: experimental reference track',
+    `- [Open the Japanese X-derived archive](${archivePath})`,
+    '',
+  ];
+
   return `${lines.join('\n').trimEnd()}\n`;
 }
 
@@ -610,8 +742,8 @@ function buildYearIndex({ branchLabel, year, entries }) {
   const groupedByMonth = groupBy(entries, (entry) => entry.archive_bucket.slice(-2));
   const lines = [
     '---',
-    `title: ${yamlScalar(`X Imports ${year}`)}`,
-    `description: ${yamlScalar(`Categorized X prompt imports for ${branchLabel} in ${year}`)}`,
+    `title: ${yamlScalar(`X由来の実験プロンプト ${year}`)}`,
+    `description: ${yamlScalar(`${branchLabel} に分類した ${year} 年の X 由来の実験プロンプト`)}`,
     `category: ${yamlScalar(frontmatterCategory(entries[0]?.top_category ?? 'archive'))}`,
     'intent: x-import-index',
     'status: archived',
@@ -619,16 +751,16 @@ function buildYearIndex({ branchLabel, year, entries }) {
     `last_reviewed: ${CURRENT_DATE}`,
     '---',
     '',
-    `# X Imports ${year}`,
+    `# X由来の実験プロンプト ${year}`,
     '',
     `- branch: ${branchLabel}`,
     `- items: ${entries.length}`,
     '',
-    '## By Month',
+    '## 月別アーカイブ',
   ];
 
   for (const [month, monthEntries] of sortGroupEntries(groupedByMonth)) {
-    lines.push(`- [${year}-${month}](./${month}/index.md) - ${monthEntries.length} items`);
+    lines.push(`- [${year}-${month}](./${month}/index.md) - ${monthEntries.length}件`);
   }
   lines.push('');
   return `${lines.join('\n').trimEnd()}\n`;
@@ -638,8 +770,8 @@ function buildMonthIndex({ branchLabel, year, month, entries }) {
   const sorted = [...entries].sort(compareEntriesDesc);
   const lines = [
     '---',
-    `title: ${yamlScalar(`X Imports ${year}-${month}`)}`,
-    `description: ${yamlScalar(`Categorized X prompt imports for ${branchLabel} in ${year}-${month}`)}`,
+    `title: ${yamlScalar(`X由来の実験プロンプト ${year}-${month}`)}`,
+    `description: ${yamlScalar(`${branchLabel} に分類した ${year}-${month} の X 由来の実験プロンプト`)}`,
     `category: ${yamlScalar(frontmatterCategory(entries[0]?.top_category ?? 'archive'))}`,
     'intent: x-import-index',
     'status: archived',
@@ -647,12 +779,12 @@ function buildMonthIndex({ branchLabel, year, month, entries }) {
     `last_reviewed: ${CURRENT_DATE}`,
     '---',
     '',
-    `# X Imports ${year}-${month}`,
+    `# X由来の実験プロンプト ${year}-${month}`,
     '',
     `- branch: ${branchLabel}`,
     `- items: ${entries.length}`,
     '',
-    '## Entries',
+    '## 一覧',
   ];
 
   for (const entry of sorted) {
@@ -662,6 +794,73 @@ function buildMonthIndex({ branchLabel, year, month, entries }) {
   }
   lines.push('');
   return `${lines.join('\n').trimEnd()}\n`;
+}
+
+function upsertIntegratedImportsSection(raw, section) {
+  const normalized = raw
+    ? raw.replace(/\r\n/g, '\n').trimEnd()
+    : buildGeneratedCategoryIndex(section).trimEnd();
+  const block = `${INTEGRATED_SECTION_START}\n${section.trimEnd()}\n${INTEGRATED_SECTION_END}\n`;
+  const startIndex = normalized.indexOf(INTEGRATED_SECTION_START);
+  const endIndex = normalized.indexOf(INTEGRATED_SECTION_END);
+
+  if (startIndex >= 0 && endIndex >= startIndex) {
+    const afterEnd = endIndex + INTEGRATED_SECTION_END.length;
+    const before = normalized.slice(0, startIndex).trimEnd();
+    const after = normalized.slice(afterEnd).replace(/^\s*/, '');
+    return `${before}\n\n${block}${after ? `\n${after.trimStart()}` : ''}`.trimEnd() + '\n';
+  }
+
+  const anchors = [
+    '\n## 利用時のポイント',
+    '\n## 選び方の目安',
+    '\n## 収録ポリシー',
+    '\n## Notes',
+    '\n## How to Choose',
+    '\n## Inclusion Policy',
+  ];
+  for (const anchor of anchors) {
+    if (normalized.includes(anchor)) {
+      return `${normalized.replace(anchor, `\n\n${block}${anchor}`)}`.trimEnd() + '\n';
+    }
+  }
+
+  return `${normalized}\n\n${block}`.trimEnd() + '\n';
+}
+
+function buildIntegratedEntryGroups(branchKey, entries) {
+  const rules = CATEGORY_SECTION_RULES[branchKey] ?? [];
+  if (rules.length === 0) {
+    return [{ title: '', entries }];
+  }
+
+  const buckets = rules.map((rule) => ({ title: rule.title, entries: [] }));
+  const fallback = { title: '### その他', entries: [] };
+
+  for (const entry of entries) {
+    const body = `${entry.title ?? ''}\n${entry.summary ?? ''}`;
+    const matchedIndex = rules.findIndex((rule) => rule.matcher.test(body));
+    if (matchedIndex >= 0) {
+      buckets[matchedIndex].entries.push(entry);
+    } else {
+      fallback.entries.push(entry);
+    }
+  }
+
+  return [
+    ...buckets.filter((bucket) => bucket.entries.length > 0),
+    ...(fallback.entries.length > 0 ? [fallback] : []),
+  ];
+}
+
+function buildGeneratedCategoryIndex(section) {
+  return [
+    '# Imported X Category',
+    '',
+    `${INTEGRATED_SECTION_START}`,
+    section.trimEnd(),
+    `${INTEGRATED_SECTION_END}`,
+  ].join('\n');
 }
 
 function buildPromotionManifest({
