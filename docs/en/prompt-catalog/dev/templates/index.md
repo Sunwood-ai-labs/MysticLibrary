@@ -15,3 +15,13 @@ Template-style prompts for development and agent operation logs / handoff notes.
 - [Git Auto Commit Prompt V4.0 Lite EN](./git-auto-commit-prompt-v4-lite-en.md) - English commit messages
 - [Git Auto Commit Prompt V4.0 Lite PS](./git-auto-commit-prompt-v4-lite-ps.md) - PowerShell version
 - [OpenHands GitHub Action Workflow](./openhands-github-action-workflow.md)
+
+<!-- x-categorized-imports:start -->
+## X-Derived Experimental Prompts
+
+Additional prompts imported from X are currently published on the Japanese route for this category. The Japanese archive keeps the original wording, source context, and experimental status visible.
+
+- total items: 93
+- status: experimental reference track
+- [Open the Japanese X-derived archive](/prompt-catalog/dev/templates/x/)
+<!-- x-categorized-imports:end -->

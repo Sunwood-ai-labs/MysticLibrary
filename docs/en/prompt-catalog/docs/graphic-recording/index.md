@@ -82,3 +82,13 @@ Graphic Recording is a technique for summarizing meeting and presentation conten
 - Responsive design
 - Editable mode (some prompts)
 - Light/dark theme support (some prompts)
+
+<!-- x-categorized-imports:start -->
+## X-Derived Experimental Prompts
+
+Additional prompts imported from X are currently published on the Japanese route for this category. The Japanese archive keeps the original wording, source context, and experimental status visible.
+
+- total items: 26
+- status: experimental reference track
+- [Open the Japanese X-derived archive](/prompt-catalog/docs/graphic-recording/x/)
+<!-- x-categorized-imports:end -->

@@ -26,3 +26,13 @@ Methods for simulating discussions and games by assuming multiple agents (charac
 
 - [RonJ Style Newbie Expert Prompt](./ronj-newbie-expert.md)
 - [Werewolf Simulator (NanJ Style)](./werewolf-nanj-simulator.md)
+
+<!-- x-categorized-imports:start -->
+## X-Derived Experimental Prompts
+
+Additional prompts imported from X are currently published on the Japanese route for this category. The Japanese archive keeps the original wording, source context, and experimental status visible.
+
+- total items: 3
+- status: experimental reference track
+- [Open the Japanese X-derived archive](/prompt-catalog/methodology/multi-agent/x/)
+<!-- x-categorized-imports:end -->

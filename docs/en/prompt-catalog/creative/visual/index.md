@@ -18,3 +18,13 @@ A category of prompts related to visual content generation (images, illustration
 - [Colormap Generator v2.0 LP Style](./colormap-generator-v2.0.md) - A prompt for extracting beautiful color palettes from images and generating LP-style interactive colormap HTML (v2.0)
 - [Color Map Generator Prompt v1.0](./colormap-generator-v1.0.md) - Initial version of the prompt that extracts beautiful color palettes from images and generates professional interactive color map HTML
 - [Prime Number Image Prompt Generator](./prime-number-image-generator.md) - Creates image generation prompts using prime number theory concepts from keywords
+
+<!-- x-categorized-imports:start -->
+## X-Derived Experimental Prompts
+
+Additional prompts imported from X are currently published on the Japanese route for this category. The Japanese archive keeps the original wording, source context, and experimental status visible.
+
+- total items: 254
+- status: experimental reference track
+- [Open the Japanese X-derived archive](/prompt-catalog/creative/visual/x/)
+<!-- x-categorized-imports:end -->

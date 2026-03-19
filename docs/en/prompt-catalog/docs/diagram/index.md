@@ -60,3 +60,13 @@ A collection of prompts for visually representing system architectures and proce
 - High visibility design with transparent backgrounds
 - Easy identification of components with appropriate color coding
 - Icons for various cloud providers and tools
+
+<!-- x-categorized-imports:start -->
+## X-Derived Experimental Prompts
+
+Additional prompts imported from X are currently published on the Japanese route for this category. The Japanese archive keeps the original wording, source context, and experimental status visible.
+
+- total items: 10
+- status: experimental reference track
+- [Open the Japanese X-derived archive](/prompt-catalog/docs/diagram/x/)
+<!-- x-categorized-imports:end -->

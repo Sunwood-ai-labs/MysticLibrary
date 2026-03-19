@@ -48,3 +48,13 @@ Prompts for supporting automatic presentation and pitch deck creation.
 - Complete reference code must be included in the prompt
 - Gemini API key required at runtime
 - Create 2-4 rally exchanges for dialogue scripts
+
+<!-- x-categorized-imports:start -->
+## X-Derived Experimental Prompts
+
+Additional prompts imported from X are currently published on the Japanese route for this category. The Japanese archive keeps the original wording, source context, and experimental status visible.
+
+- total items: 14
+- status: experimental reference track
+- [Open the Japanese X-derived archive](/prompt-catalog/presentation/x/)
+<!-- x-categorized-imports:end -->
