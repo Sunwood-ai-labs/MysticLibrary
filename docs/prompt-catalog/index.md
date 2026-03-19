@@ -4,15 +4,15 @@
 
 ## カテゴリ
 
-- <a class="catalog-root-link catalog-root-link--writing" href="./writing/index.md">Writing（文章作成）</a>
-- <a class="catalog-root-link catalog-root-link--presentation" href="./presentation/index.md">Presentation（プレゼンテーション）</a>
-- <a class="catalog-root-link catalog-root-link--creative" href="./creative/index.md">Creative（クリエイティブ）</a>
-- <a class="catalog-root-link catalog-root-link--dev" href="./dev/index.md">Dev（開発支援）</a>
-- <a class="catalog-root-link catalog-root-link--docs" href="./docs/index.md">Docs（ドキュメント作成）</a>
-- <a class="catalog-root-link catalog-root-link--methodology" href="./methodology/index.md">Methodology（メソドロジー）</a>
-- <a class="catalog-root-link catalog-root-link--agent" href="./agent/index.md">Agent（AIエージェント）</a>
-- <a class="catalog-root-link catalog-root-link--meta" href="./meta/index.md">Meta（メタ／その他）</a>
-- <a class="catalog-root-link catalog-root-link--archive" href="./archive/index.md">Archive（アーカイブ）</a>
+- <a class="catalog-root-link catalog-root-link--writing" href="./writing/">Writing（文章作成）</a>
+- <a class="catalog-root-link catalog-root-link--presentation" href="./presentation/">Presentation（プレゼンテーション）</a>
+- <a class="catalog-root-link catalog-root-link--creative" href="./creative/">Creative（クリエイティブ）</a>
+- <a class="catalog-root-link catalog-root-link--dev" href="./dev/">Dev（開発支援）</a>
+- <a class="catalog-root-link catalog-root-link--docs" href="./docs/">Docs（ドキュメント作成）</a>
+- <a class="catalog-root-link catalog-root-link--methodology" href="./methodology/">Methodology（メソドロジー）</a>
+- <a class="catalog-root-link catalog-root-link--agent" href="./agent/">Agent（AIエージェント）</a>
+- <a class="catalog-root-link catalog-root-link--meta" href="./meta/">Meta（メタ／その他）</a>
+- <a class="catalog-root-link catalog-root-link--archive" href="./archive/">Archive（アーカイブ）</a>
 
 ## 選び方の目安
 

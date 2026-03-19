@@ -4,15 +4,15 @@ Prompts are organized by use case. Start by browsing the category pages.
 
 ## Categories
 
-- <a class="catalog-root-link catalog-root-link--writing" href="./writing/index.md">Writing (Content Creation)</a>
-- <a class="catalog-root-link catalog-root-link--presentation" href="./presentation/index.md">Presentation (Presentation)</a>
-- <a class="catalog-root-link catalog-root-link--creative" href="./creative/index.md">Creative (Creative)</a>
-- <a class="catalog-root-link catalog-root-link--dev" href="./dev/index.md">Dev (Development Support)</a>
-- <a class="catalog-root-link catalog-root-link--docs" href="./docs/index.md">Docs (Documentation Creation)</a>
-- <a class="catalog-root-link catalog-root-link--methodology" href="./methodology/index.md">Methodology (Methodology)</a>
-- <a class="catalog-root-link catalog-root-link--agent" href="./agent/index.md">Agent (AI Agents)</a>
-- <a class="catalog-root-link catalog-root-link--meta" href="./meta/index.md">Meta (Meta / Other)</a>
-- <a class="catalog-root-link catalog-root-link--archive" href="./archive/index.md">Archive (Archive)</a>
+- <a class="catalog-root-link catalog-root-link--writing" href="./writing/">Writing (Content Creation)</a>
+- <a class="catalog-root-link catalog-root-link--presentation" href="./presentation/">Presentation (Presentation)</a>
+- <a class="catalog-root-link catalog-root-link--creative" href="./creative/">Creative (Creative)</a>
+- <a class="catalog-root-link catalog-root-link--dev" href="./dev/">Dev (Development Support)</a>
+- <a class="catalog-root-link catalog-root-link--docs" href="./docs/">Docs (Documentation Creation)</a>
+- <a class="catalog-root-link catalog-root-link--methodology" href="./methodology/">Methodology (Methodology)</a>
+- <a class="catalog-root-link catalog-root-link--agent" href="./agent/">Agent (AI Agents)</a>
+- <a class="catalog-root-link catalog-root-link--meta" href="./meta/">Meta (Meta / Other)</a>
+- <a class="catalog-root-link catalog-root-link--archive" href="./archive/">Archive (Archive)</a>
 
 ## How to Choose
 
